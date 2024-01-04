@@ -22,7 +22,7 @@
 3	dai	dai	PART	_	_	1	mod	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed|nWord=2
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=4648|AlignEnd=4972|Gloss=PUNCT|nWord=3
 5	wasu	wasu	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Masc|nWord=4
-6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	8	subj	_	AlignBegin=5296|AlignEnd=5620|Gloss=son|nWord=5
+6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	8	subj	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Cons|nWord=5
 7	maːtaː	màcce	NOUN	_	Number=Plur	6	compound	_	AlignBegin=5620|AlignEnd=5944|Gloss=woman.Plur|nWord=6
 8	nàː	nàː	PART	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=FOC|nWord=7
 9	biyu	biyu	PRON	_	_	6	mod@num	_	AlignBegin=6268|AlignEnd=6592|nWord=8
@@ -153,7 +153,7 @@
 18	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=29942|AlignEnd=30317|Gloss=PUNCT|nWord=18
 19	sai	sai	ADV	_	_	20	mod	_	AlignBegin=30317|AlignEnd=30692|Gloss=then|nWord=19
 20	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=30692|AlignEnd=31067|Gloss=3Masc.Aor|nWord=20
-21	ɗòːki	ɗauk-	NOUN	_	_	20	subj	_	AlignBegin=31067|AlignEnd=31442|Gloss=take|nWord=21
+21	ɗòːki	ɗauk-	VERB	_	_	20	subj	_	AlignBegin=31067|AlignEnd=31442|Gloss=take|nWord=21
 22	sânyaː	sânyaː	NOUN	_	Gender=Fem	21	comp:obj	_	AlignBegin=31442|AlignEnd=31817|Gloss=cow.Fem|nWord=22
 23	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	20	mod	_	AlignBegin=31817|AlignEnd=32192|Gloss=3Masc.Aor|nWord=23
 24	bâː	bâː	VERB	_	_	23	comp:aux	_	AlignBegin=32192|AlignEnd=32567|Gloss=give|nWord=24
@@ -284,7 +284,7 @@
 16	jìːɗa	jiːɗ-	VERB	_	_	15	comp:aux	_	AlignBegin=51886|AlignEnd=52195|Gloss=dismount|nWord=15
 17	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=52195|AlignEnd=52504|Gloss=PUNCT|nWord=16
 18	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	15	conj:coord	_	AlignBegin=52504|AlignEnd=52813|Gloss=2Fem.Aor|nWord=17
-19	ɗeːboː	ɗiːb-	VERB	_	_	18	comp:aux	_	AlignBegin=52813|AlignEnd=53122|Gloss=fetch|nWord=18
+19	ɗeːboː	ɗiːb-	VERB	_	_	18	comp:aux	_	AlignBegin=52813|AlignEnd=53122|Gloss=scoop|nWord=18
 20	maw	mat	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	19	comp:obl	_	AlignBegin=53122|AlignEnd=53431|Gloss=3Fem.Dat|nWord=19
 21	ruwaː	ruwaː	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	AlignBegin=53431|AlignEnd=53740|Gloss=water.Plur|nWord=20
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=53740|AlignEnd=54040|Gloss=PUNCT|nWord=21
@@ -317,7 +317,7 @@
 2	dà	dà	SCONJ	_	_	19	mod	_	AlignBegin=59904|AlignEnd=60088|Gloss=with|nWord=2
 3	tat	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=60088|AlignEnd=60272|Gloss=3Fem.Perf.BackG|nWord=3
 4	tàhi	tàh-	VERB	_	_	3	comp:obj	_	AlignBegin=60272|AlignEnd=60456|Gloss=go|nWord=4
-5	ɗeːboː	ɗiːb-	NOUN	_	_	4	mod	_	AlignBegin=60456|AlignEnd=60640|Gloss=scoop|nWord=5
+5	ɗeːboː	ɗiːb-	VERB	_	_	4	mod	_	AlignBegin=60456|AlignEnd=60640|Gloss=scoop|nWord=5
 6	maw	mat	PRON	_	Case=Dat|Gender=Fem|Person=2|PronType=Prs	5	comp:obl	_	AlignBegin=60640|AlignEnd=60824|Gloss=2Fem.Dat|nWord=6
 7	ruwaː	ruwaː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=60824|AlignEnd=61008|Gloss=water.Plur|nWord=7
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=61008|AlignEnd=61192|Gloss=PUNCT|nWord=8
@@ -326,7 +326,7 @@
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	AlignBegin=61744|AlignEnd=61928|Gloss=say|nWord=12
 12	[	[	PUNCT	_	_	13	punct	_	AlignBegin=61928|AlignEnd=62112|Gloss=PUNCT|nWord=13
 13	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	comp:obj	_	AlignBegin=62112|AlignEnd=62296|Gloss=1Sing.Aor|nWord=14
-14	ɗeːboː	ɗeːboː	NOUN	_	_	13	comp:aux	_	AlignBegin=62296|AlignEnd=62480|Gloss=scoop|nWord=15
+14	ɗeːboː	ɗiːb-	VERB	_	_	13	comp:aux	_	AlignBegin=62296|AlignEnd=62480|Gloss=scoop|nWord=15
 15	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	14	mod	_	AlignBegin=62480|AlignEnd=62664|Gloss=Prox|nWord=16
 16	?//]	?//]	PUNCT	_	_	13	punct	_	AlignBegin=62664|AlignEnd=62848|Gloss=PUNCT|nWord=17
 17	<	<	PUNCT	_	_	9	punct	_	AlignBegin=62848|AlignEnd=63032|Gloss=PUNCT|nWord=18
@@ -353,7 +353,7 @@
 36	<	<	PUNCT	_	_	22	punct	_	AlignBegin=65976|AlignEnd=66160|Gloss=PUNCT|nWord=35
 37	zâːki	zâːki	AUX	_	Gender=Fem|Person=2|Tense=Fut	20	comp:obj	_	AlignBegin=66160|AlignEnd=66344|Gloss=2Fem.Fut|nWord=36
 38-39	ki	_	_	_	_	_	_	_	_
-38	ɗeːboː	ɗeːboː	VERB	_	_	37	comp:aux	_	AlignBegin=66528|AlignEnd=66712|Gloss=scoop|nWord=38
+38	ɗeːboː	ɗiːb-	VERB	_	_	37	comp:aux	_	AlignBegin=66528|AlignEnd=66712|Gloss=scoop|nWord=38
 39	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	38	mod	_	AlignBegin=66712|AlignEnd=66896|Gloss=Prox|nWord=39
 40	?//=	?//=	PUNCT	_	_	41	punct	_	AlignBegin=66896|AlignEnd=67080|Gloss=PUNCT|nWord=40
 41	ƙàːraː	ƙàːraː	VERB	_	Mood=Jus	37	parataxis@conj	_	AlignBegin=67080|AlignEnd=67264|Gloss=increase.Jus|nWord=41
@@ -417,7 +417,7 @@
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=74048|AlignEnd=74148|Gloss=say|nWord=2
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=74148|AlignEnd=74248|Gloss=PUNCT|nWord=3
 4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=74248|AlignEnd=74348|Gloss=1Sing.Aor|nWord=4
-5	ɗeːboː	ɗiːb-	NOUN	_	_	4	comp:aux	_	AlignBegin=74348|AlignEnd=74448|Gloss=scoop|nWord=5
+5	ɗeːboː	ɗiːb-	VERB	_	_	4	comp:aux	_	AlignBegin=74348|AlignEnd=74448|Gloss=scoop|nWord=5
 6	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	5	comp:loc	_	AlignBegin=74448|AlignEnd=74548|Gloss=Prox|nWord=6
 7	?//]	?//]	PUNCT	_	_	4	punct	_	AlignBegin=74548|AlignEnd=74648|Gloss=PUNCT|nWord=7
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=74648|AlignEnd=74748|Gloss=PUNCT|nWord=8
@@ -512,7 +512,7 @@
 4	tat	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=89748|AlignEnd=89920|Gloss=3Fem.Perf.BackG|nWord=5
 5	tàhi	tàh-	VERB	_	_	4	comp:obj	_	AlignBegin=89920|AlignEnd=90092|Gloss=go|nWord=6
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=90092|AlignEnd=90264|Gloss=PUNCT|nWord=7
-7	ɗan	ɗaː	NOUN	_	_	9	subj	_	AlignBegin=90264|AlignEnd=90436|Gloss=son|nWord=8
+7	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	9	subj	_	AlignBegin=90264|AlignEnd=90436|Gloss=son.Masc.Cons|nWord=8
 8	sarkiː	sarkiː	NOUN	_	Gender=Masc	7	mod@poss	_	AlignBegin=90436|AlignEnd=90608|Gloss=king.Masc|nWord=9
 9	nàː	nàː	AUX	_	Aspect=Imp	0	root	_	AlignBegin=90608|AlignEnd=90780|Gloss=Imp|nWord=10
 10-11	sônta	_	_	_	_	_	_	_	_
@@ -637,9 +637,9 @@
 10	ta'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=106808|AlignEnd=106984|Gloss=3Fem.Perf.BackG|nWord=9
 11	àihi	aih-	VERB	_	_	10	comp:obj	_	AlignBegin=106984|AlignEnd=107160|Gloss=give_birth|nWord=10
 12	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	14	det	_	AlignBegin=107160|AlignEnd=107336|Gloss=some.Masc|nWord=11
-13	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	14	mod	_	AlignBegin=107336|AlignEnd=107512|Gloss=little.Masc.Cons|nWord=12
+13	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	14	mod	_	AlignBegin=107336|AlignEnd=107512|Gloss=small.Masc.Cons|nWord=12
 14	yaːròː	yaːròː	NOUN	_	Gender=Masc	11	comp:obj	_	AlignBegin=107512|AlignEnd=107688|Gloss=boy.Masc|nWord=13
-15	ɗan	ɗaː	ADV	_	Definite=Cons|Gender=Masc	16	mod	_	AlignBegin=107688|AlignEnd=107864|Gloss=little.Masc.Cons|nWord=14
+15	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	16	mod	_	AlignBegin=107688|AlignEnd=107864|Gloss=small.Masc.Cons|nWord=14
 16	ƙàramiː	ƙàramiː	ADJ	_	Gender=Masc	14	mod	_	AlignBegin=107864|AlignEnd=108040|Gloss=small.Masc|nWord=15
 17	//	//	PUNCT	_	_	10	punct	_	AlignBegin=108040|AlignEnd=108220|Gloss=PUNCT|nWord=16
 
@@ -1626,7 +1626,7 @@
 # phonetic_text = [ ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâː shi mutuwàː //]
 # text = ɗan gùdaː-gudàn ga dà ad dà saurat =tà kuma < gàː shi yâu zâː shi mutuwàː //
 # text_en = The only one that is left to her, today he's going to die."
-1	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	2	mod	_	AlignBegin=253727|AlignEnd=253894|Gloss=little.Masc.Cons|nWord=2
+1	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	2	mod	_	AlignBegin=253727|AlignEnd=253894|Gloss=small.Masc.Cons|nWord=2
 2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Cons|Gender=Masc	11	dislocated@top	_	AlignBegin=253894|AlignEnd=254061|Gloss=only_one.Masc.Cons|nWord=3
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=254061|AlignEnd=254228|Gloss=Prox|nWord=4
 4	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=254228|AlignEnd=254395|Gloss=with|nWord=5

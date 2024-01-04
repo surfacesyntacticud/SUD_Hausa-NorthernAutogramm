@@ -10,10 +10,10 @@
 4	a'	a'	AUX	_	_	3	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Gloss=SUBORD|nWord=4
 5	àkwai	àkwai	PART	_	_	4	comp:aux	_	AlignBegin=5164|AlignEnd=5530|Gloss=there_is|nWord=5
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=5530|AlignEnd=5896|Gloss=PUNCT|nWord=6
-7	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Number=Plur	5	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal|nWord=7
+7	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Number=Plur	5	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal.Masc.Cons|nWord=7
 8	daːjìː	daːjìː	NOUN	_	Gender=Masc	7	compound	_	AlignBegin=6262|AlignEnd=6628|Gloss=bush.Masc|nWord=8
 9	||	||	PUNCT	_	_	10	punct	_	=|]=|AlignBegin=6628|AlignEnd=6994|GE=[|Gloss=PUNCT|nWord=9
-10	ƙwàːriː	ƙwaːròː	NOUN	_	Number=Plur	7	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal|nWord=10
+10	ƙwàːriː	ƙwaːròː	NOUN	_	Number=Plur	7	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal.Plur|nWord=10
 11	dai	dai	PART	_	_	10	mod	_	AlignBegin=7360|AlignEnd=7726|Gloss=indeed|nWord=11
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=7360|AlignEnd=7726|Gloss=PUNCT|nWord=11
 13	cikin	cikin	ADP	_	_	5	comp:loc	_	AlignBegin=7726|AlignEnd=8092|Gloss=in|nWord=12
@@ -92,7 +92,7 @@
 # text = ƙàːƙàː naː kukà àːgìzon =ta ?//
 # text_en = How did you keep watch on them?
 1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	comp:pred	_	AlignBegin=135140|AlignEnd=135308|Gloss=how|nWord=1
-2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=135308|AlignEnd=135476|Gloss=1Sing.Perf|nWord=2
+2	naː	naː	PART	_	_	0	root	_	AlignBegin=135308|AlignEnd=135476|Gloss=FOC|nWord=2
 3	kukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Gloss=2Plur.Imp.BackG|nWord=3
 4-5	àːgìzontà	_	_	_	_	_	_	_	_
 4	àːgìzon	àːgìzoː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:aux	_	AlignBegin=135644|AlignEnd=135812|Gloss=watching.Masc|nWord=4
@@ -243,7 +243,7 @@
 # text = tôː àmmaː in kun yi hwaɗàː dà takubbàː gà lòːkacìn nan < baː'à koːmiː dà koːmiː |c sai à waːc'èː ?//
 # text_en = But if you fought with swords at that time, nothing happened, you would just go away?
 1	tôː	tôː	INTJ	_	_	13	discourse	_	AlignBegin=681920|AlignEnd=682167|Gloss=well|nWord=1
-2	àmmaː	àmma	CCONJ	_	ExtPos=CCONJ	13	discourse	_	AlignBegin=682167|AlignEnd=682414|Gloss=but|nWord=2
+2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	13	discourse	_	AlignBegin=682167|AlignEnd=682414|Gloss=but|nWord=2
 3	in	in	SCONJ	_	_	13	mod	_	AlignBegin=682414|AlignEnd=682661|Gloss=if|nWord=3
 4	kun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2	3	comp:obj	_	AlignBegin=682661|AlignEnd=682908|Gloss=2Plur.Perf|nWord=4
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=682908|AlignEnd=683155|Gloss=do|nWord=5
