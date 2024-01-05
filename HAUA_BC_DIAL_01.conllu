@@ -478,24 +478,26 @@
 # phonetic_text = Buːzàːyeː duw wàdà su kè < ìllaːhìrinsù < àbin dà am mahwaːrin bambanciyassù dà Hausaːwaː ?//
 # text = Buːzàːyeː < duwwàdà su kè < ìllaːhìrin =sù < àbin dà am mahwaːrin bambanciyas =sù dà Hausaːwaː ?//
 # text_en = The Buzu, the way they are, their appearance, the origin of their difference from the Hausa ?
-1	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Gloss=3Masc.Perf.BackG|nWord=1
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say|nWord=2
-3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Dat|nWord=3
-4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT|nWord=4
-5	dìːba	diːb-	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus|nWord=5
-6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT|nWord=6
-7	tàhi	tah-	NOUN	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=leave.Jus|nWord=7
-8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
-9	giːwàːyên	giːwaː	NOUN	_	Definite=Cons|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Cons|nWord=9
-10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist|nWord=10
-11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT|nWord=11
-12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis@conj	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor|nWord=12
-13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say|nWord=13
-14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat|nWord=14
-15	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Imp|nWord=15
-16	ɓaːcìnsu	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.NMLZ.Masc.Cons|nWord=16
-17	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=106882|AlignEnd=107118|Gloss=PUNCT|nWord=17
-18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107118|AlignEnd=107353|Gloss=PUNCT|nWord=18
+1	Buːzàːyeː	Buːzuː	PROPN	_	Number=Plur	10	dislocated@top	_	AlignBegin=139896|AlignEnd=140177|Gloss=Buzu.Plur|nWord=1
+2	<	<	PUNCT	_	_	1	mod	_	AlignBegin=140177|AlignEnd=140458|Gloss=PUNCT|nWord=2
+3	duwwàdà	dukwàdà	ADV	_	PronType=Rel	10	dislocated@mod	_	AlignBegin=140739|AlignEnd=141020|Gloss=way_that|nWord=4
+4	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=141020|AlignEnd=141301|Gloss=3Plur|nWord=5
+5	kè	kè	PART	_	Evident=BackG	3	mod@relcl	_	AlignBegin=141301|AlignEnd=141582|Gloss=be.BackG|nWord=6
+6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=141582|AlignEnd=141863|Gloss=PUNCT|nWord=7
+7-8	ìllaːhìrinsù	_	_	_	_	_	_	_	_
+7	ìllaːhìrin	ìllaːhìriː	NOUN	_	Definite=Cons|Gender=Masc	10	dislocated@top	_	AlignBegin=141863|AlignEnd=142144|Gloss=appearance.Masc|nWord=8
+8	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=141863|AlignEnd=142144|Gloss=3Plur.Gen|nWord=8
+9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=142144|AlignEnd=142425|Gloss=PUNCT|nWord=9
+10	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=142425|AlignEnd=142706|Gloss=thing.Masc.Cons|nWord=10
+11	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=142706|AlignEnd=142987|Gloss=with|nWord=11
+12	am	ak	PART	_	Evident=BackG	11	comp:obj	_	AlignBegin=142987|AlignEnd=143268|Gloss=be.BackG|nWord=12
+13	mahwaːrin	mahwaːriː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:pred	_	AlignBegin=143268|AlignEnd=143549|Gloss=beginning.Masc|nWord=13
+14-15	bambanciyassù	_	_	_	_	_	_	_	_
+14	bambanciyas	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	13	mod	_	AlignBegin=143549|AlignEnd=143830|Gloss=difference.Fem|nWord=14
+15	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	mod@poss	_	AlignBegin=143549|AlignEnd=143830|Gloss=3Plur.Gen|nWord=14
+16	dà	dà	ADP	_	_	14	comp:obl	_	AlignBegin=143830|AlignEnd=144111|Gloss=with|nWord=15
+17	Hausaːwaː	Hausa	PROPN	_	Number=Plur	16	comp:obj	_	AlignBegin=144111|AlignEnd=144392|Gloss=Hausa.Plur|nWord=16
+18	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=144392|AlignEnd=144679|Gloss=PUNCT|nWord=17
 
 # sent_id = HAUA_BC_DIAL_01_029-029
 # speaker_id = SP2
@@ -1294,7 +1296,7 @@
 1	wànnan	wànnan	PRON	_	Deixis=Anaph|Gender=Masc|PronType=Dem	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=that.Masc|nWord=1
 2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=299930|AlignEnd=300080|Gloss=1Sing.Perf|nWord=2
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=300080|AlignEnd=300230|Gloss=see|nWord=3
-4	hakànan	hakànan	ADV	_	ExtPos=ADV	3	comp:pred	_	AlignBegin=300230|AlignEnd=300380|Gloss=thus|Idiom=Yes|nWord=4
+4	hakànan	hakànan	ADV	_	_	3	comp:pred	_	AlignBegin=300230|AlignEnd=300380|Gloss=thus|nWord=4
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=300530|AlignEnd=300680|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_DIAL_01_075-075
@@ -1640,7 +1642,7 @@
 # text = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text_en = Once, I carried wrappers.
 1	àkwai	àkwai	PART	_	_	4	parataxis@mod	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is|nWord=1
-2	wata	wata	PRON	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem|nWord=2
+2	wata	wata	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.NMLZ.Fem|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf|nWord=4
 5	kaːwoː	kai	VERB	_	_	4	comp:pred	_	AlignBegin=357620|AlignEnd=357840|Gloss=bring|nWord=5
@@ -1655,7 +1657,7 @@
 # text = àkwai wata zakkùwaː naː kaːwoː duːc'ìː |a wànga na ƴan maːtaː //
 # text_en = Once, I carried (precious) stones, those for women.
 1	àkwai	àkwai	PART	_	_	4	parataxis@mod	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is|nWord=1
-2	wata	wata	PRON	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem|nWord=2
+2	wata	wata	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=358770|AlignEnd=359014|Gloss=arrive.NMLZ.Fem|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359014|AlignEnd=359258|Gloss=1Sing.Perf|nWord=4
 5	kaːwoː	kai	VERB	_	_	4	comp:pred	_	AlignBegin=359258|AlignEnd=359502|Gloss=bring|nWord=5
@@ -1675,12 +1677,12 @@
 # text = àkwai wata zakkùwaː naː kaːwoː X &//
 # text_en = Once, I carried X.
 1	àkwai	àkwai	PART	_	_	4	parataxis@mod	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is|nWord=1
-2	wata	wata	PRON	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=362283|AlignEnd=362726|Gloss=some.Fem|nWord=2
+2	wata	wata	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=362283|AlignEnd=362726|Gloss=some.Fem|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=362726|AlignEnd=363169|Gloss=arrive.NMLZ.Fem|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=363169|AlignEnd=363612|Gloss=1Sing.Perf|nWord=4
 5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=363612|AlignEnd=364055|Gloss=bring|nWord=5
 6	X	X	X	_	_	5	unk@scrap	_	AlignBegin=364055|AlignEnd=364498|Gloss=X|nWord=6
-7	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=364498|AlignEnd=364940|Gloss=PUNCT|nWord=7
+7	&//	&//	PUNCT	_	_	4	root@scrap	_	AlignBegin=364498|AlignEnd=364940|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUA_BC_DIAL_01_100-101
 # speaker_id = SP2
