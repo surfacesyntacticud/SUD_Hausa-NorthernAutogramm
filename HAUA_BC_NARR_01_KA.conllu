@@ -282,7 +282,7 @@
 # text = in taɗ ɗaukoː kiːhîn nan ta' ajèː //
 # text_en = When she got the fish, she put it aside.
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=62377|AlignEnd=62858|Gloss=if|nWord=1
-2	taɗ	yak	VERB	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.BackG|nWord=2
+2	taɗ	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.BackG|nWord=2
 3	ɗaukoː	ɗauk-	NOUN	_	Definite=Cons|Gender=Masc	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take.Masc|nWord=3
 4	kiːhîn	kiːhiː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Cons|nWord=4
 5	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=Anaph|nWord=5
@@ -464,9 +464,9 @@
 2	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=93696|AlignEnd=93918|Gloss=3Fem.Perf|nWord=2
 3	matsàː	matsàː	VERB	_	_	2	comp:aux	_	AlignBegin=93918|AlignEnd=94140|Gloss=press|nWord=3
 4	mai	mai	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Sing.Dat|nWord=4
-5	tanàː	nàː	VERB	_	Aspect=Imp|Gender=Fem|Person=3|PronType=Prs	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Imp|nWord=5
+5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Imp|nWord=5
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=94584|AlignEnd=94806|Gloss=want.NMLZ.Masc.Cons|nWord=6
-7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Number=Sing|Person=3	5	comp:cleft	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Sing.Aor|nWord=7
+7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Sing.Aor|nWord=7
 8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=95028|AlignEnd=95250|Gloss=eat|nWord=8
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	mod	_	AlignBegin=95250|AlignEnd=95472|Gloss=3Masc|nWord=9
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95472|AlignEnd=95691|Gloss=PUNCT|nWord=10
@@ -500,13 +500,14 @@
 # phonetic_text = giːwàːyeː sunàː tsàye suː dà yawàː //
 # text = giːwàːyeː sunàː tsàye suː dà yawàː //
 # text_en = There were many elephants standing there.
-1	giːwàːyeː	giːwaː	NOUN	_	_	0	root	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.plur|nWord=1
-2	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	1	comp:aux	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Imp|nWord=2
-3	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:aux	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|nWord=3
-4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	mod	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|nWord=4
-5	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|nWord=5
-6	yawàː	yawàː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=101522|AlignEnd=101802|Gloss=quantity.Masc|nWord=6
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=101802|AlignEnd=102080|Gloss=PUNCT|nWord=7
+1	giːwàːyeː	giːwaː	NOUN	_	_	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.plur|nWord=1
+2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur|nWord=2
+3	nàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Imp|nWord=2
+4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|nWord=3
+5	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|nWord=4
+6	dà	dà	ADP	_	_	5	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|nWord=5
+7	yawàː	yawàː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=101522|AlignEnd=101802|Gloss=quantity.Masc|nWord=6
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=101802|AlignEnd=102080|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUA_BC_NARR_O1_KA_28-28
 # speaker_id = SP

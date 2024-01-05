@@ -478,26 +478,24 @@
 # phonetic_text = Buːzàːyeː duw wàdà su kè < ìllaːhìrinsù < àbin dà am mahwaːrin bambanciyassù dà Hausaːwaː ?//
 # text = Buːzàːyeː < duwwàdà su kè < ìllaːhìrin =sù < àbin dà am mahwaːrin bambanciyas =sù dà Hausaːwaː ?//
 # text_en = The Buzu, the way they are, their appearance, the origin of their difference from the Hausa ?
-1	Buːzàːyeː	Buːzuː	PROPN	_	Number=Plur	10	dislocated@top	_	AlignBegin=139896|AlignEnd=140177|Gloss=Buzu.Plur|nWord=1
-2	<	<	PUNCT	_	_	1	mod	_	AlignBegin=140177|AlignEnd=140458|Gloss=PUNCT|nWord=2
-3	duwwàdà	dukwàdà	ADV	_	PronType=Rel	10	dislocated@mod	_	AlignBegin=140739|AlignEnd=141020|Gloss=way_that|nWord=4
-4	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=141020|AlignEnd=141301|Gloss=3Plur|nWord=5
-5	kè	kè	PART	_	Evident=BackG	3	mod@relcl	_	AlignBegin=141301|AlignEnd=141582|Gloss=be.BackG|nWord=6
-6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=141582|AlignEnd=141863|Gloss=PUNCT|nWord=7
-7-8	ìllaːhìrinsù	_	_	_	_	_	_	_	_
-7	ìllaːhìrin	ìllaːhìriː	NOUN	_	Definite=Cons|Gender=Masc	10	dislocated@top	_	AlignBegin=141863|AlignEnd=142144|Gloss=appearance.Masc|nWord=8
-8	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=141863|AlignEnd=142144|Gloss=3Plur.Gen|nWord=8
-9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=142144|AlignEnd=142425|Gloss=PUNCT|nWord=9
-10	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=142425|AlignEnd=142706|Gloss=thing.Masc.Cons|nWord=10
-11	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=142706|AlignEnd=142987|Gloss=with|nWord=11
-12	am	ak	PART	_	Evident=BackG	11	comp:obj	_	AlignBegin=142987|AlignEnd=143268|Gloss=be.BackG|nWord=12
-13	mahwaːrin	mahwaːriː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:pred	_	AlignBegin=143268|AlignEnd=143549|Gloss=beginning.Masc|nWord=13
-14-15	bambanciyassù	_	_	_	_	_	_	_	_
-14	bambanciyas	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	13	mod	_	AlignBegin=143549|AlignEnd=143830|Gloss=difference.Fem|nWord=14
-15	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	mod@poss	_	AlignBegin=143549|AlignEnd=143830|Gloss=3Plur.Gen|nWord=14
-16	dà	dà	ADP	_	_	14	comp:obl	_	AlignBegin=143830|AlignEnd=144111|Gloss=with|nWord=15
-17	Hausaːwaː	Hausa	PROPN	_	Number=Plur	16	comp:obj	_	AlignBegin=144111|AlignEnd=144392|Gloss=Hausa.Plur|nWord=16
-18	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=144392|AlignEnd=144679|Gloss=PUNCT|nWord=17
+1	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Gloss=3Masc.Perf.BackG|nWord=1
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say|nWord=2
+3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Dat|nWord=3
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT|nWord=4
+5	dìːba	diːb-	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus|nWord=5
+6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT|nWord=6
+7	tàhi	tah-	NOUN	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=leave.Jus|nWord=7
+8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
+9	giːwàːyên	giːwaː	NOUN	_	Definite=Cons|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Cons|nWord=9
+10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist|nWord=10
+11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT|nWord=11
+12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis@conj	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor|nWord=12
+13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say|nWord=13
+14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat|nWord=14
+15	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Imp|nWord=15
+16	ɓaːcìnsu	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.NMLZ.Masc.Cons|nWord=16
+17	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=106882|AlignEnd=107118|Gloss=PUNCT|nWord=17
+18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107118|AlignEnd=107353|Gloss=PUNCT|nWord=18
 
 # sent_id = HAUA_BC_DIAL_01_029-029
 # speaker_id = SP2
@@ -958,7 +956,7 @@
 # phonetic_text = bàn san loːkàcîn nan ba //
 # text = bàn san loːkàcîn nan ba //
 # text_en = I don't know when.
-1	bàn	bài	PART	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg|PronType=Prs	0	root	_	AlignBegin=238154|AlignEnd=238304|Gloss=1Sing.Perf.Neg|nWord=1
+1	bàn	bài	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=238154|AlignEnd=238304|Gloss=1Sing.Perf.Neg|nWord=1
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=238304|AlignEnd=238454|Gloss=know|nWord=2
 3	loːkàcîn	loːkàcîː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=238454|AlignEnd=238604|Gloss=time.Cons.Masc|nWord=3
 4	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	3	det	_	AlignBegin=238604|AlignEnd=238754|Gloss=Anaph|nWord=4
@@ -1615,7 +1613,7 @@
 # text = zakkùwaː ukkù //
 # text_en = Three times.
 1	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	0	root	_	AlignBegin=353972|AlignEnd=354242|Gloss=arrive.NMLZ.Fem|nWord=1
-2	ukkù	ukkù	PRON	_	_	1	comp:aux	_	AlignBegin=354242|AlignEnd=354512|nWord=2
+2	ukkù	ukkù	PRON	_	_	1	mod@num	_	AlignBegin=354242|AlignEnd=354512|nWord=2
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=354512|AlignEnd=354782|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUA_BC_DIAL_01_096-096
@@ -2109,7 +2107,7 @@
 # text_en = We worked for money.
 1	kuɗɗiː	kuɗɗiː	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=443080|AlignEnd=443304|Gloss=money|nWord=1
 2	nàː	naː	AUX	_	_	0	root	_	AlignBegin=443304|AlignEnd=443528|Gloss=FOC|nWord=2
-3	mukà	kà	VERB	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=1|PronType=Prs	2	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Gloss=1Plur.Imp.BackG|nWord=3
+3	mukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=1|PronType=Prs	2	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Gloss=1Plur.Imp.BackG|nWord=3
 4	bìɗaː	biɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=443752|AlignEnd=443976|Gloss=look_for.NMLZ.Fem|nWord=4
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=443976|AlignEnd=444200|Gloss=PUNCT|nWord=5
 
@@ -2159,7 +2157,7 @@
 # text = aː'àː baːmù daɗèːwaː //
 # text_en = No, we did not stay long.
 1	aː'àː	aː'àː	INTJ	_	_	0	root	_	AlignBegin=449980|AlignEnd=450150|Gloss=no|nWord=1
-2	baːmù	baːyàː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Polarity=Neg	1	comp:aux	_	AlignBegin=450150|AlignEnd=450320|Gloss=1Plur.Imp.Neg|nWord=2
+2	baːmù	bâi	AUX	_	Aspect=Imp|Number=Plur|Person=1|Polarity=Neg	1	parataxis:conj	_	AlignBegin=450150|AlignEnd=450320|Gloss=1Plur.Imp.Neg|nWord=2
 3	daɗèːwaː	daɗ-	VERB	_	_	2	mod	_	AlignBegin=450320|AlignEnd=450490|Gloss=spend_time|nWord=3
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=450490|AlignEnd=450660|Gloss=PUNCT|nWord=4
 
