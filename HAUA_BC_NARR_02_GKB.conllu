@@ -116,7 +116,7 @@
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=30043|AlignEnd=30182|GE=[|Gloss=PUNCT|nWord=8
 9	dà	dà	ADP	_	_	7	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with|nWord=9
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=30321|AlignEnd=30460|Gloss=PUNCT|nWord=10
-11	wata	wata	DET	_	Gender=Fem|PronType=Ind	12	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem|nWord=11
+11	wata	wani	DET	_	Gender=Fem|PronType=Ind	12	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem|nWord=11
 12	raːnaː	raːnaː	NOUN	_	Gender=Fem	9	comp:obj	_	AlignBegin=30599|AlignEnd=30738|Gloss=day.Fem|nWord=12
 13	<	<	PUNCT	_	_	7	punct	_	AlignBegin=30738|AlignEnd=30877|Gloss=PUNCT|nWord=13
 14	sai	sai	ADV	_	_	15	mod	_	AlignBegin=30877|AlignEnd=31016|Gloss=then|nWord=14
@@ -129,7 +129,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.WAV
 # sent_timecode = 34735, 38802
 # phonetic_text = indà kaː tunàː dai < yànzu in kai yi tà < in yas soː < kaː san dà yawàː //
-# text = indà kaː tunàː dai < yànzu in kay yi tà < in yas soː < kaː san dà yawàː //
+# text = indà kaː tunàː dai < yànzu in kay yiː tà < in yas soː < kaː san dà yawàː //
 # text_en = If you remember indeed, now if you tell the tales, if he wants, you know many.
 1	indà	indà	SCONJ	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=if|nWord=1
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=34938|AlignEnd=35141|Gloss=2Masc.Perf|nWord=2
@@ -139,8 +139,8 @@
 6	yànzu	yànzu	ADV	_	_	16	mod	_	AlignBegin=35750|AlignEnd=35953|Gloss=now|nWord=6
 7	in	in	SCONJ	_	_	16	mod@relcl	_	AlignBegin=35953|AlignEnd=36156|Gloss=if|nWord=7
 8	kay	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=36156|AlignEnd=36359|Gloss=2Masc.Perf.BackG|nWord=8
-9	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=36359|AlignEnd=36562|Gloss=do|nWord=9
-10	tà	ta	PRON	_	Aspect=Aor|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=36562|AlignEnd=36765|Gloss=3Fem.Sing.Aor|nWord=10
+9	yiː	yi	VERB	_	_	8	comp:aux	_	AlignBegin=36359|AlignEnd=36562|Gloss=do|nWord=9
+10	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=36562|AlignEnd=36765|Gloss=3Fem|nWord=10
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=36765|AlignEnd=36968|Gloss=PUNCT|nWord=11
 12	in	in	SCONJ	_	_	16	mod	_	AlignBegin=36968|AlignEnd=37171|Gloss=if|nWord=12
 13	yas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=37171|AlignEnd=37374|Gloss=3Masc.Perf.BackG|nWord=13
@@ -148,7 +148,7 @@
 15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=37577|AlignEnd=37780|Gloss=PUNCT|nWord=15
 16	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=37780|AlignEnd=37983|Gloss=2Masc.Perf|nWord=16
 17	san	sanìː	VERB	_	_	16	comp:aux	_	AlignBegin=37983|AlignEnd=38186|Gloss=know|nWord=17
-18	dà	dà	ADP	_	_	17	mod	_	AlignBegin=38186|AlignEnd=38389|Gloss=with|nWord=18
+18	dà	dà	ADP	_	_	17	comp:obj	_	AlignBegin=38186|AlignEnd=38389|Gloss=with|nWord=18
 19	yawàː	yawàː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=38389|AlignEnd=38592|Gloss=quantity.Masc|nWord=19
 20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=38592|AlignEnd=38802|Gloss=PUNCT|nWord=20
 
@@ -171,7 +171,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.WAV
 # sent_timecode = 40136, 43963
 # phonetic_text = in yas soː < im munkà zoː < kà hwaɗoː min wata |c sai ìn zakàː |c ìn ƙaːràː gà wàccân taːkàː //
-# text = in yas soː < im munkà zoː < kà hwaɗoː min wata |c sai ìn zakàː |c ìn ƙaːràː gà wàccân taːkàː //
+# text = in yas soː < im munkà zoː < kà hwaɗoː min wata |c sai ìn zakàː |c ìn ƙaːràː gà wàccân taːkà //
 # text_en = If he wants, when we go, you will tell me more, and I will come (back) and add more to yours.
 1	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40136|AlignEnd=40302|Gloss=if|nWord=1
 2	yas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=40302|AlignEnd=40468|Gloss=3Masc.Perf.BackG|nWord=2
@@ -184,7 +184,7 @@
 9	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=41464|AlignEnd=41630|Gloss=2Masc.Aor|nWord=9
 10	hwaɗoː	hwa-	VERB	_	_	9	comp:aux	_	AlignBegin=41630|AlignEnd=41796|Gloss=tell|nWord=10
 11	min	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obl	_	AlignBegin=41796|AlignEnd=41962|Gloss=1Sing.Dat|nWord=11
-12	wata	wata	PRON	_	Gender=Fem|PronType=Ind	10	comp:obj	_	AlignBegin=41962|AlignEnd=42128|Gloss=some.Fem|nWord=12
+12	wata	wani	PRON	_	Gender=Fem|PronType=Ind	10	comp:obj	_	AlignBegin=41962|AlignEnd=42128|Gloss=some.Fem|nWord=12
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=42128|AlignEnd=42294|Gloss=PUNCT|nWord=13
 14	sai	sai	ADV	_	_	15	mod	_	AlignBegin=42294|AlignEnd=42460|Gloss=then|nWord=14
 15	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	conj:coord	_	AlignBegin=42460|AlignEnd=42626|Gloss=1Sing.Aor|nWord=15
@@ -193,8 +193,8 @@
 18	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	15	conj:coord	_	AlignBegin=42958|AlignEnd=43124|Gloss=1Sing.Aor|nWord=18
 19	ƙaːràː	ƙaːr-	VERB	_	_	18	comp:aux	_	AlignBegin=43124|AlignEnd=43290|Gloss=increase|nWord=19
 20	gà	gà	ADP	_	_	19	comp:obl	_	AlignBegin=43290|AlignEnd=43456|Gloss=on|nWord=20
-21	wàccân	wàccân	PRON	_	Deixis=Prox|Gender=Fem|PronType=Dem	20	comp:obj	_	AlignBegin=43456|AlignEnd=43622|Gloss=Prox.Fem|nWord=21
-22	taːkàː	taːkàː	PRON	_	Gender=Masc|Person=2|PronType=Prs	21	mod	_	AlignBegin=43622|AlignEnd=43788|Gloss=2Masc.Gen|nWord=22
+21	wàccân	wàccân	DET	_	Deixis=Prox|Gender=Fem|PronType=Dem	22	det	_	AlignBegin=43456|AlignEnd=43622|Gloss=Dist.Fem|nWord=21
+22	taːkà	taːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	20	comp:obj	_	AlignBegin=43622|AlignEnd=43788|Gloss=2Masc.Gen|nWord=22
 23	//	//	PUNCT	_	_	9	punct	_	AlignBegin=43788|AlignEnd=43963|Gloss=PUNCT|nWord=23
 
 # sent_id = HAUA_BC_NARR_02_GKB_11
@@ -764,7 +764,7 @@
 # text_en = Then they gathered.
 1	sai	sai	ADP	_	ExtPos=ADV	2	mod	_	AlignBegin=169381|AlignEnd=169620|Gloss=until|nWord=1
 2	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3	0	root	_	AlignBegin=169620|AlignEnd=169859|Gloss=3Plur.Perf.BackG|nWord=2
-3	tàːru	taːr-	NOUN	_	_	2	comp:aux	_	AlignBegin=169859|AlignEnd=170098|Gloss=meet|nWord=3
+3	tàːru	taːr-	VERB	_	_	2	comp:aux	_	AlignBegin=169859|AlignEnd=170098|Gloss=meet|nWord=3
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170098|AlignEnd=170336|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUA_BC_NARR_02_GKB_46
@@ -846,7 +846,7 @@
 1	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=189820|AlignEnd=189940|Gloss=3Masc.Perf.BackG|nWord=1
 2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=189940|AlignEnd=190060|Gloss=say|nWord=2
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=190060|AlignEnd=190180|Gloss=PUNCT|nWord=3
-4	wùceː	wùt-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Jus|nWord=4
+4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Jus|nWord=4
 5	!//]	!//]	PUNCT	_	_	4	punct	_	AlignBegin=190300|AlignEnd=190420|Gloss=PUNCT|nWord=5
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=190420|AlignEnd=190540|Gloss=PUNCT|nWord=6
 
@@ -893,7 +893,7 @@
 1	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=195258|AlignEnd=195470|Gloss=3Masc.Perf.BackG|nWord=1
 2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=195470|AlignEnd=195682|Gloss=say|nWord=2
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=195682|AlignEnd=195894|Gloss=PUNCT|nWord=3
-4	wùceː	wùceː	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus|nWord=4
+4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus|nWord=4
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=196106|AlignEnd=196318|Gloss=PUNCT|nWord=5
 6	gàː	gàː	PART	_	_	4	parataxis@conj	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is|nWord=6
 7	naːmàː	naːmàː	NOUN	_	_	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat|nWord=7
@@ -983,7 +983,7 @@
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=212520|AlignEnd=212735|Gloss=PUNCT|nWord=9
 10	sànnu	sànnu	INTJ	_	_	8	comp:obj	_	AlignBegin=212735|AlignEnd=212950|Gloss=hello|nWord=10
 11	dà	dà	ADP	_	_	10	mod	_	AlignBegin=212950|AlignEnd=213165|Gloss=with|nWord=11
-12	zuwàː	zoo	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=213165|AlignEnd=213380|Gloss=go.NMLZ.Masc|nWord=12
+12	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=213165|AlignEnd=213380|Gloss=go.NMLZ.Masc|nWord=12
 13	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=213380|AlignEnd=213595|Gloss=PUNCT|nWord=13
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=213595|AlignEnd=213808|Gloss=PUNCT|nWord=14
 
@@ -1299,6 +1299,6 @@
 1	sa’ànnan	sa’ànnan	ADV	_	_	3	mod	_	AlignBegin=269458|AlignEnd=269675|Gloss=then|nWord=1
 2	gàːtawaːn	X	X	_	_	3	subj	_	AlignBegin=269892|AlignEnd=270109|Gloss=tale|nWord=3
 3	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=270109|AlignEnd=270326|Gloss=3Fem.Perf|nWord=4
-4	waːc’èː	waːs'-	VERB	_	_	3	comp:aux	_	AlignBegin=270326|AlignEnd=270543|Gloss=get_spoilt|nWord=5
+4	waːc’èː	waːs'-	VERB	_	_	3	comp:aux	_	AlignBegin=270326|AlignEnd=270543|Gloss=scatter|nWord=5
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=270543|AlignEnd=270761|Gloss=PUNCT|nWord=6
 

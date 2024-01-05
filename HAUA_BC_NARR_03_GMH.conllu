@@ -8,7 +8,7 @@
 2	ga	ga	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=2091|AlignEnd=2382|Gloss=PROX|nWord=2
 3	dai	dai	PART	_	_	1	mod	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed|nWord=3
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT|nWord=4
-5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some|nWord=5
+5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some.Plur|nWord=5
 6	mutàːne	mùtunèː	NOUN	_	Number=Plur	7	comp:pred	_	AlignBegin=3255|AlignEnd=3546|Gloss=human_being|nWord=6
 7	nà:	nà:	PART	_	_	0	root	_	AlignBegin=3546|AlignEnd=3837|Gloss=FOC|nWord=7
 8	>	>	PUNCT	_	_	10	punct	_	AlignBegin=3837|AlignEnd=4128|Gloss=PUNCT|nWord=8
@@ -225,10 +225,10 @@
 # sent_timecode = 41762, 43440
 # text = tà hìta |c tà bi duːc'ìː < shi nàː bìye dà shìgat =tà //
 # text_en = If it came out [of the water] and went along some stones, he followed her track.
-1	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	9	parataxis@mod	_	AlignBegin=41762|AlignEnd=41902|Gloss=2Fem.Aor|nWord=1
+1	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	9	parataxis@mod	_	AlignBegin=41762|AlignEnd=41902|Gloss=3Fem.Aor|nWord=1
 2	hìta	hìta	VERB	_	_	1	comp:obj	_	AlignBegin=41902|AlignEnd=42042|Gloss=get_out|nWord=2
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=42042|AlignEnd=42182|Gloss=PUNCT|nWord=3
-4	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	1	conj:coord	_	AlignBegin=42182|AlignEnd=42322|Gloss=2Fem.Aor|nWord=4
+4	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=42182|AlignEnd=42322|Gloss=3Fem.Aor|nWord=4
 5	bi	bi	VERB	_	_	4	comp:aux	_	AlignBegin=42322|AlignEnd=42462|Gloss=follow|nWord=5
 6	duːc'ìː	duːc'ìː	NOUN	_	_	5	comp:obj	_	AlignBegin=42462|AlignEnd=42602|Gloss=stone|nWord=6
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=42602|AlignEnd=42742|Gloss=PUNCT|nWord=7
@@ -253,7 +253,7 @@
 3	kay	kay	VERB	_	_	2	comp:aux	_	AlignBegin=44758|AlignEnd=44947|nWord=3
 4	gà	gà	ADP	_	_	3	comp:obl	_	AlignBegin=44947|AlignEnd=45136|nWord=4
 5	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	6	det	_	AlignBegin=45136|AlignEnd=45325|Gloss=some.Masc|nWord=5
-6	wuriː	wuriː	NOUN	_	_	4	comp:obj	_	AlignBegin=45325|AlignEnd=45514|nWord=6
+6	wuriː	wuriː	NOUN	_	_	4	comp:obj	_	AlignBegin=45325|AlignEnd=45514|Gloss=place.Masc|nWord=6
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=45514|AlignEnd=45703|Gloss=PUNCT|nWord=7
 8	yas'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=45703|AlignEnd=45892|Gloss=3Masc.Perf.BackG|nWord=8
 9	s'ayàː	s'ayàː	NOUN	_	_	8	comp:aux	_	AlignBegin=45892|AlignEnd=46081|Gloss=stop|nWord=9
@@ -261,7 +261,7 @@
 11	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	8	conj:coord	_	AlignBegin=46270|AlignEnd=46459|Gloss=4.Perf.BackG|nWord=11
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=46459|AlignEnd=46648|Gloss=say|nWord=12
 13	[	[	PUNCT	_	_	23	punct	_	AlignBegin=46648|AlignEnd=46837|Gloss=PUNCT|nWord=13
-14	wurîn	wurîn	NOUN	_	Definite=Cons|Gender=Masc	23	comp:pred	_	AlignBegin=46837|AlignEnd=47026|Gloss=place.Cons.Masc|nWord=14
+14	wurîn	wuriː	NOUN	_	Definite=Cons|Gender=Masc	23	comp:pred	_	AlignBegin=46837|AlignEnd=47026|Gloss=place.Masc.Cons|nWord=14
 15	ga	ga	DET	_	Deixis=Prox|PronType=Dem	14	det	_	AlignBegin=47026|AlignEnd=47215|Gloss=Prox|nWord=15
 16	<	<	PUNCT	_	_	14	punct	_	AlignBegin=47215|AlignEnd=47404|Gloss=PUNCT|nWord=16
 17	dàn	dàk	ADP	_	_	23	mod	_	AlignBegin=47404|AlignEnd=47593|Gloss=from|nWord=17
@@ -294,7 +294,7 @@
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=50289|AlignEnd=50444|Gloss=PUNCT|nWord=5
 7	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	8	cc	_	AlignBegin=50444|AlignEnd=50599|Gloss=but|nWord=6
 8	dàw	dàk	ADP	_	_	1	conj:coord	_	AlignBegin=50599|AlignEnd=50754|Gloss=from|nWord=7
-9	wurîn	wuriː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=50754|AlignEnd=50909|Gloss=place.Cons.Masc|nWord=8
+9	wurîn	wuriː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=50754|AlignEnd=50909|Gloss=place.Masc.Cons|nWord=8
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=50909|AlignEnd=51064|Gloss=Prox|nWord=9
 11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=51064|AlignEnd=51219|Gloss=PUNCT|nWord=10
 12	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=51219|AlignEnd=51374|Gloss=3Fem.Perf.Neg|nWord=11
@@ -347,7 +347,7 @@
 12	ƙasaː	ƙasaː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=59160|AlignEnd=59426|Gloss=ground.Fem|nWord=11
 13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=59426|AlignEnd=59692|GE=[|Gloss=PUNCT|nWord=12
 14	bàːkin	bàːkin	ADP	_	_	11	conj:dicto	_	AlignBegin=59692|AlignEnd=59958|Gloss=after|nWord=13
-15	wurîn	wurîn	NOUN	_	Definite=Cons|Gender=Masc	14	comp:obj	_	AlignBegin=59958|AlignEnd=60224|Gloss=place.Cons.Masc|nWord=14
+15	wurîn	wuriː	NOUN	_	Definite=Cons|Gender=Masc	14	comp:obj	_	AlignBegin=59958|AlignEnd=60224|Gloss=place.Masc.Cons|nWord=14
 16	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	15	det	_	AlignBegin=60224|AlignEnd=60490|Gloss=Anaph|nWord=15
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=60490|AlignEnd=60756|Gloss=PUNCT|nWord=16
 18	indà	indà	PRON	_	PronType=Rel	14	conj:dicto	_	AlignBegin=60490|AlignEnd=60756|Gloss=where|nWord=16
@@ -573,7 +573,7 @@
 7	ga	ga	DET	_	_	6	det	_	AlignBegin=102280|AlignEnd=102450|nWord=7
 8	huɗu	huɗu	NUM	_	_	6	mod@num	_	AlignBegin=102450|AlignEnd=102620|Gloss=four|nWord=8
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=102620|AlignEnd=102790|Gloss=PUNCT|nWord=9
-10	wanèː	wanèː	DET	_	PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which|nWord=10
+10	wanèː	wanèː	DET	_	PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc|nWord=10
 11	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Gloss=1Sing.Perf|nWord=11
 12	yah	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	11	comp:cleft	_	AlignBegin=103130|AlignEnd=103300|Gloss=3Masc.Perf.BackG|nWord=12
 13	hi	hi	VERB	_	_	12	comp:aux	_	AlignBegin=103300|AlignEnd=103470|Gloss=exceed|nWord=13

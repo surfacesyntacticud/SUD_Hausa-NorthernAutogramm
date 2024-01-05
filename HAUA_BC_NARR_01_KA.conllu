@@ -48,7 +48,7 @@
 # text_en = He was walking with his stick.
 1	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=18058|AlignEnd=19230|Gloss=3Masc.Imp|nWord=1
 2-3	tàhiyàːtay	_	_	_	_	_	_	_	_
-2	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=19230|AlignEnd=20402|Gloss=walk.NMLZ.Cons|nWord=2
+2	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=19230|AlignEnd=20402|Gloss=walk.NMLZ.Fem.Cons|nWord=2
 3	=tay	=tay	VERB	_	Gender=Masc|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=19230|AlignEnd=20402|Gloss=3Masc.Gen|nWord=2
 4	dà	dà	ADP	_	_	2	mod	_	AlignBegin=20402|AlignEnd=21574|Gloss=with|nWord=3
 5-6	jàlloːnai	_	_	_	_	_	_	_	_
@@ -115,7 +115,7 @@
 # text_en = She wanted to eat him.
 1	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=31645|AlignEnd=31831|Gloss=3Fem.Imp|nWord=1
 2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=31831|AlignEnd=32017|Gloss=want.NMLZ.Masc.Cons|nWord=2
-3	tà	tà	AUX	_	Aspect=Aor|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=32017|AlignEnd=32203|Gloss=3Fem.Aor|nWord=3
+3	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=32017|AlignEnd=32203|Gloss=3Fem.Aor|nWord=3
 4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=32203|AlignEnd=32389|Gloss=eat|nWord=4
 5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=32389|AlignEnd=32575|Gloss=3Masc|nWord=5
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32575|AlignEnd=32762|Gloss=PUNCT|nWord=6
@@ -129,19 +129,19 @@
 # text_en = She kept wanting to eat him until they reached the bank of the river.
 1	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=32762|AlignEnd=32953|Gloss=3Fem.Imp|nWord=1
 2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=32953|AlignEnd=33144|Gloss=want.NMLZ.Masc.Cons|nWord=2
-3	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	2	comp:obj	_	AlignBegin=33144|AlignEnd=33335|Gloss=2Fem.Aor|nWord=3
+3	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=33144|AlignEnd=33335|Gloss=3Fem.Aor|nWord=3
 4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=33335|AlignEnd=33526|Gloss=eat|nWord=4
 5	shì	shi	NOUN	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=33526|AlignEnd=33717|Gloss=3Masc|nWord=5
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=33717|AlignEnd=33908|Gloss=PUNCT|nWord=6
 7	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=33908|AlignEnd=34099|Gloss=3Fem.Imp|nWord=7
 8	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=34099|AlignEnd=34290|Gloss=want.NMLZ.Masc.Cons|nWord=8
-9	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	8	comp:obj	_	AlignBegin=34290|AlignEnd=34481|Gloss=2Fem.Aor|nWord=9
+9	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	8	comp:obj	_	AlignBegin=34290|AlignEnd=34481|Gloss=3Fem.Aor|nWord=9
 10	ciː	ci	VERB	_	_	9	comp:aux	_	AlignBegin=34481|AlignEnd=34672|Gloss=eat|nWord=10
 11	shìː	shi	NOUN	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=34672|AlignEnd=34863|Gloss=3Masc|nWord=11
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=34863|AlignEnd=35054|Gloss=PUNCT|nWord=12
 13	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	7	conj:coord	_	AlignBegin=35054|AlignEnd=35245|Gloss=3Fem.Imp|nWord=13
 14	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=35245|AlignEnd=35436|Gloss=want.NMLZ.Masc.Cons|nWord=14
-15	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	14	comp:obj	_	AlignBegin=35436|AlignEnd=35627|Gloss=2Fem.Aor|nWord=15
+15	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	14	comp:obj	_	AlignBegin=35436|AlignEnd=35627|Gloss=3Fem.Aor|nWord=15
 16	ciː	ci	VERB	_	_	15	comp:aux	_	AlignBegin=35627|AlignEnd=35818|Gloss=eat|nWord=16
 17	shì	shi	PRON	_	Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=35818|AlignEnd=36009|Gloss=3Sing|nWord=17
 18	|c	|c	PUNCT	_	_	20	cc	_	AlignBegin=36009|AlignEnd=36200|Gloss=PUNCT|nWord=18
@@ -166,7 +166,7 @@
 4	dai	dai	ADV	_	_	2	mod	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed|nWord=4
 5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Imp|nWord=5
 6	sôn	sôn	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=39361|AlignEnd=39650|Gloss=want.NMLZ.Masc.Cons|nWord=6
-7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	6	comp:obj	_	AlignBegin=39650|AlignEnd=39939|Gloss=2Fem.Aor|nWord=7
+7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=39650|AlignEnd=39939|Gloss=3Fem.Aor|nWord=7
 8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=39939|AlignEnd=40228|Gloss=eat|nWord=8
 9	shì	shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=40228|AlignEnd=40517|Gloss=3Masc|nWord=9
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT|nWord=10
@@ -181,8 +181,8 @@
 19	maːshìː	maːshìː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=43118|AlignEnd=43407|Gloss=spear.Masc|nWord=19
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=43407|AlignEnd=43696|Gloss=PUNCT|nWord=20
 21	yab	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	17	conj:coord	_	AlignBegin=43696|AlignEnd=43985|Gloss=3Masc.Perf.BackG|nWord=21
-22	baː	baː	PART	_	_	21	mod	_	AlignBegin=43985|AlignEnd=44274|Gloss=give|nWord=22
-23	tà	tà	VERB	_	Aspect=Aor|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=44274|AlignEnd=44563|Gloss=3Fem.Sing.Aor|nWord=23
+22	baː	baː	VERB	_	_	21	comp:aux	_	AlignBegin=43985|AlignEnd=44274|Gloss=give|nWord=22
+23	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	22	comp:ben	_	AlignBegin=44274|AlignEnd=44563|Gloss=3Fem|nWord=23
 24	//	//	PUNCT	_	_	11	punct	_	AlignBegin=44563|AlignEnd=44855|Gloss=PUNCT|nWord=24
 
 # sent_id = HAUA_BC_NARR_O1_KA_11-11
@@ -268,7 +268,7 @@
 3	soːkà	soːk-	VERB	_	_	2	comp:aux	_	AlignBegin=59780|AlignEnd=59980|Gloss=thrust|nWord=3
 4	maːshìː	maːshìː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=59980|AlignEnd=60180|Gloss=spear.Masc|nWord=4
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=60180|AlignEnd=60380|Gloss=then|nWord=5
-6	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	0	root	_	AlignBegin=60380|AlignEnd=60580|Gloss=2Fem.Aor|nWord=6
+6	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=60380|AlignEnd=60580|Gloss=3Fem.Aor|nWord=6
 7	ciroː	cir-	VERB	_	_	6	comp:aux	_	AlignBegin=60580|AlignEnd=60780|Gloss=pull|nWord=7
 8	kiːhiː	kiːhiː	NOUN	_	Gender=Masc	7	comp:obj	_	AlignBegin=60780|AlignEnd=60980|Gloss=fish.Masc|nWord=8
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=60980|AlignEnd=61180|Gloss=PUNCT|nWord=9
@@ -297,7 +297,7 @@
 # text = sai tà zamnàː sai taː cânyeː //
 # text_en = Then she sat down to eat it up.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=66226|AlignEnd=66422|Gloss=then|nWord=1
-2	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	0	root	_	AlignBegin=66422|AlignEnd=66618|Gloss=2Fem.Aor|nWord=2
+2	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=66422|AlignEnd=66618|Gloss=3Fem.Aor|nWord=2
 3	zamnàː	zamn-	VERB	_	_	2	comp:aux	_	AlignBegin=66618|AlignEnd=66814|Gloss=stay/sit|nWord=3
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=66814|AlignEnd=67010|Gloss=then|nWord=4
 5	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=67010|AlignEnd=67206|Gloss=3Fem.Perf|nWord=5
@@ -347,7 +347,7 @@
 # phonetic_text = tà cêː [ aː’àː //] //
 # text = tà cêː [ aː’àː //] //
 # text_en = She said "No".
-1	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	0	root	_	AlignBegin=73704|AlignEnd=73816|Gloss=2Fem.Aor|nWord=1
+1	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=73704|AlignEnd=73816|Gloss=3Fem.Aor|nWord=1
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=73816|AlignEnd=73928|Gloss=say|nWord=2
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=73928|AlignEnd=74040|Gloss=PUNCT|nWord=3
 4	aː’àː	aː’àː	NOUN	_	_	2	comp:obj	_	AlignBegin=74040|AlignEnd=74152|Gloss=no|nWord=4
@@ -383,7 +383,7 @@
 8	sa’ànnan	sa’ànnan	ADV	_	_	9	mod	_	AlignBegin=79233|AlignEnd=79595|Gloss=then|nWord=9
 9	yat	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=79957|AlignEnd=80319|Gloss=3Masc.Perf.BackG|nWord=11
 10-11	tàhiyàːtai	_	_	_	_	_	_	_	_
-10	tàhiyàː	tàh-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=80319|AlignEnd=80681|Gloss=leave.NMLZ.Cons|nWord=12
+10	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=80319|AlignEnd=80681|Gloss=walk.NMLZ.Fem.Cons|nWord=12
 11	=tai	=tai	NOUN	_	Gender=Masc|Person=3|PronType=Prs	10	mod@emp	_	AlignBegin=80319|AlignEnd=80681|Gloss=3Masc.Gen|nWord=12
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=80681|AlignEnd=81038|Gloss=PUNCT|nWord=13
 
@@ -395,7 +395,7 @@
 # text = yaː tàhi taː gàma cîː sai tab biː shì //
 # text_en = When he had gone away and she had finished eating, she followed him.
 1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	parataxis@mod	_	AlignBegin=83617|AlignEnd=83820|Gloss=3Masc.Perf|nWord=1
-2	tàhi	tah-	VERB	_	_	1	comp:aux	_	AlignBegin=83820|AlignEnd=84023|Gloss=leave|nWord=2
+2	tàhi	tah-	VERB	_	_	1	comp:aux	_	AlignBegin=83820|AlignEnd=84023|Gloss=walk|nWord=2
 3	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=84023|AlignEnd=84226|Gloss=3Fem.Perf|nWord=3
 4	gàma	gam-	VERB	_	_	3	comp:aux	_	AlignBegin=84226|AlignEnd=84429|Gloss=finish|nWord=4
 5	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=84429|AlignEnd=84632|Gloss=eat.NMLZ|nWord=5
@@ -444,7 +444,7 @@
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc|nWord=2
 3	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=be|nWord=2
 4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=in|nWord=3
-5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=leave.NMLZ.Fem|nWord=4
+5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=walk.NMLZ.Fem|nWord=4
 6	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|nWord=5
 7	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Gloss=3Masc.Perf.BackG|nWord=6
 8-9	c’ìnkai	_	_	_	_	_	_	_	_
@@ -465,7 +465,7 @@
 4	mai	mai	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Sing.Dat|nWord=4
 5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Imp|nWord=5
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=94584|AlignEnd=94806|Gloss=want.NMLZ.Masc.Cons|nWord=6
-7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Sing.Aor|nWord=7
+7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Aor|nWord=7
 8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=95028|AlignEnd=95250|Gloss=eat|nWord=8
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	mod	_	AlignBegin=95250|AlignEnd=95472|Gloss=3Masc|nWord=9
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95472|AlignEnd=95691|Gloss=PUNCT|nWord=10
@@ -484,7 +484,7 @@
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=97439|AlignEnd=97683|Gloss=PUNCT|nWord=5
 6	dìːba	dìːba	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=97683|AlignEnd=97927|Gloss=look.Jus|nWord=6
 7	!//=	!//=	PUNCT	_	_	8	punct	_	AlignBegin=97927|AlignEnd=98171|Gloss=PUNCT|nWord=7
-8	tàhi	tàhi	VERB	_	Mood=Jus	6	parataxis@conj	_	AlignBegin=98171|AlignEnd=98415|Gloss=leave.Jus|nWord=8
+8	tàhi	tah-	VERB	_	Mood=Jus	6	parataxis@conj	_	AlignBegin=98171|AlignEnd=98415|Gloss=walk.Jus|nWord=8
 9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=98659|AlignEnd=98903|Gloss=PUNCT|nWord=10
 10	gàː	gàː	PART	_	_	8	parataxis@conj	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is|nWord=11
 11	giːwàːyeː	giːwaː	VERB	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur|nWord=12
@@ -521,7 +521,7 @@
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT|nWord=4
 5	dìːba	diːb-	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus|nWord=5
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT|nWord=6
-7	tàhi	tah-	NOUN	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=leave.Jus|nWord=7
+7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=walk.Jus|nWord=7
 8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
 9	giːwàːyên	giːwaː	NOUN	_	Definite=Cons|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Cons|nWord=9
 10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist|nWord=10
@@ -706,7 +706,7 @@
 # text_en = Then he went away.
 1	sai	sai	ADP	_	ExtPos=ADV	2	mod	_	AlignBegin=132608|AlignEnd=132777|Gloss=until|nWord=1
 2	yat	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=132777|AlignEnd=132946|Gloss=3Masc.Perf.BackG|nWord=2
-3	tàhiyàː	tàh-	VERB	_	Definite=Cons|Gender=Fem	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=leave.Vnoun.Fem.Cons|nWord=3
+3	tàhiyàː	tah-	VERB	_	Definite=Cons|Gender=Fem	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=walk.NMLZ.Fem.Cons|nWord=3
 4	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=3Masc.Gen|nWord=3
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133115|AlignEnd=133285|Gloss=PUNCT|nWord=4
 
