@@ -345,7 +345,7 @@
 10	=tai	=tai	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=58628|AlignEnd=58894|Gloss=3Masc.Gen|nWord=9
 11	gà	gà	ADP	_	_	8	comp:obl	_	AlignBegin=58894|AlignEnd=59160|Gloss=at|nWord=10
 12	ƙasaː	ƙasaː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=59160|AlignEnd=59426|Gloss=ground.Fem|nWord=11
-13	||	||	PUNCT	_	_	14	punct	_	=|]=|AlignBegin=59426|AlignEnd=59692|GE=[|Gloss=PUNCT|nWord=12
+13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=59426|AlignEnd=59692|GE=[|Gloss=PUNCT|nWord=12
 14	bàːkin	bàːkin	ADP	_	_	11	conj:dicto	_	AlignBegin=59692|AlignEnd=59958|Gloss=after|nWord=13
 15	wurîn	wurîn	NOUN	_	Definite=Cons|Gender=Masc	14	comp:obj	_	AlignBegin=59958|AlignEnd=60224|Gloss=place.Cons.Masc|nWord=14
 16	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	15	det	_	AlignBegin=60224|AlignEnd=60490|Gloss=Anaph|nWord=15
@@ -391,7 +391,7 @@
 3	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=68350|AlignEnd=68535|Gloss=now|nWord=3
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=68535|AlignEnd=68720|Gloss=then|nWord=4
 5	à	shì	AUX	_	_	2	comp:obj	_	AlignBegin=68720|AlignEnd=68905|Gloss=4.Aor|nWord=5
-6	zoː	zoː	PRON	_	_	5	comp:obj	_	AlignBegin=68905|AlignEnd=69090|Gloss=go|nWord=6
+6	zoː	zoː	VERB	_	_	5	comp:obj	_	AlignBegin=68905|AlignEnd=69090|Gloss=go|nWord=6
 7	à	shì	AUX	_	Aspect=Aor|Person=4	5	conj:coord	_	AlignBegin=69090|AlignEnd=69275|Gloss=4.Aor|nWord=7
 8	biɗoː	biɗ-	VERB	_	_	7	comp:aux	_	AlignBegin=69275|AlignEnd=69460|Gloss=look_for|nWord=8
 9	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=69460|AlignEnd=69645|Gloss=king.Masc.Cons|nWord=9
@@ -464,8 +464,8 @@
 # text_en = When it reached the seventh sky, it reached the man who was milking the cow.
 1	saidà	saidà	SCONJ	_	_	8	mod	_	AlignBegin=79920|AlignEnd=80266|Gloss=when|nWord=1
 2	taz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=80612|AlignEnd=80958|Gloss=3Fem.Perf.BackG|nWord=3
-3	zoː	zoː	AUX	_	_	2	comp:aux	_	AlignBegin=80958|AlignEnd=81304|Gloss=go|nWord=4
-4	samàː	samàː	AUX	_	_	3	comp:loc	_	AlignBegin=81304|AlignEnd=81650|Gloss=sky|nWord=5
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=80958|AlignEnd=81304|Gloss=go|nWord=4
+4	samàː	samàː	NOUN	_	Gender=Fem	3	comp:loc	_	AlignBegin=81304|AlignEnd=81650|Gloss=sky.FEM|nWord=5
 5	ta	ta	ADP	_	_	4	mod	_	AlignBegin=81650|AlignEnd=81996|Gloss=that_of|nWord=6
 6	bakwài	bakwài	NUM	_	_	5	comp:obj	_	AlignBegin=81996|AlignEnd=82342|Gloss=seven|nWord=7
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=82342|AlignEnd=82688|Gloss=PUNCT|nWord=8
@@ -495,7 +495,7 @@
 8	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=87080|AlignEnd=87352|Gloss=PUNCT|nWord=7
 9	dà	dà	CCONJ	_	_	10	cc	_	AlignBegin=87352|AlignEnd=87624|Gloss=with|nWord=8
 10-11	ɗantà	_	_	_	_	_	_	_	_
-10	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	5	conj:coord	_	AlignBegin=87624|AlignEnd=87896|Gloss=son|nWord=9
+10	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	5	conj:coord	_	AlignBegin=87624|AlignEnd=87896|Gloss=son.Masc.Cons|nWord=9
 11	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=87624|AlignEnd=87896|Gloss=3Fem.Gen|nWord=9
 12	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=87896|AlignEnd=88168|Gloss=REL|nWord=10
 13	am	ak	PART	_	Evident=BackG	12	comp:obj	_	AlignBegin=88168|AlignEnd=88440|Gloss=be.BackG|nWord=11
