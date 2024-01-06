@@ -2,9 +2,9 @@
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_03_GMH.wav
 # sent_timecode = 1800, 5000
-# text = àbîn ga dai < wasu mutàːne nà: > suː huɗu //
+# text = àbîn ga dai < wasu mutàːne nà: > su huɗu //
 # text_en = This is the story of four men.
-1	àbîn	àbiː	NOUN	_	Definite=Cons|Gender=Masc	7	dislocated@comp	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc|nWord=1
+1	àbîn	àbiː	NOUN	_	Definite=Cons|Gender=Masc	7	dislocated@comp	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc.Cons|nWord=1
 2	ga	ga	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=2091|AlignEnd=2382|Gloss=PROX|nWord=2
 3	dai	dai	PART	_	_	1	mod	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed|nWord=3
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT|nWord=4
@@ -125,13 +125,13 @@
 # sent_timecode = 27500, 29740
 # text = ankà zoː sarkin bìyash shìgaː |c ankà cêː [ gàː raːnak =kà //] //
 # text_en =  They went to the king of tracking and told him "This is your day."
-1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=27500|AlignEnd=27672|Gloss=4Perf.BackG|nWord=1
+1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=27500|AlignEnd=27672|Gloss=4.Perf.BackG|nWord=1
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=27672|AlignEnd=27844|Gloss=go|nWord=2
 3	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:goal	_	AlignBegin=27844|AlignEnd=28016|Gloss=king.Masc.Cons|nWord=3
 4	bìyash	biy-	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	mod	_	AlignBegin=28016|AlignEnd=28188|Gloss=follow.NMLZ.Fem|nWord=4
 5	shìgaː	shìgaː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=28188|AlignEnd=28360|Gloss=track.Fem|nWord=5
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=28360|AlignEnd=28532|Gloss=PUNCT|nWord=6
-7	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	2	conj:coord	_	AlignBegin=28532|AlignEnd=28704|Gloss=4Perf.BackG|nWord=7
+7	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	2	conj:coord	_	AlignBegin=28532|AlignEnd=28704|Gloss=4.Perf.BackG|nWord=7
 8	cêː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=28704|AlignEnd=28876|Gloss=say|nWord=8
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=28876|AlignEnd=29048|Gloss=PUNCT|nWord=9
 10	gàː	gàː	ADP	_	_	8	comp:cleft	_	AlignBegin=29048|AlignEnd=29220|Gloss=here_is|nWord=10
@@ -147,7 +147,7 @@
 # sent_timecode = 30160, 31640
 # text = ankà gwadàː mai turkèn saːnìyaː //
 # text_en = They showed him the tethering post of the cow.
-1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=30160|AlignEnd=30407|Gloss=4Perf.BackG|nWord=1
+1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=30160|AlignEnd=30407|Gloss=4.Perf.BackG|nWord=1
 2	gwadàː	gwadàː	VERB	_	_	1	comp:aux	_	AlignBegin=30407|AlignEnd=30654|Gloss=show|nWord=2
 3	mai	mai	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=30654|AlignEnd=30901|Gloss=3Sing.Dat.Masc|nWord=3
 4	turkèn	turkèː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=30901|AlignEnd=31148|Gloss=tethering_post.Masc|nWord=4
@@ -310,7 +310,7 @@
 # text_en = Then, they told the king of listening "Well, you, this is your day."
 1	sa'ànnan	sa'ànnan	ADV	_	_	2	mod	_	AlignBegin=53280|AlignEnd=53437|Gloss=then|nWord=1
 2-3	nan	_	_	_	_	_	_	_	_
-2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=53594|AlignEnd=53751|Gloss=4Perf.BackG|nWord=3
+2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=53594|AlignEnd=53751|Gloss=4.Perf.BackG|nWord=3
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=53751|AlignEnd=53908|Gloss=say|nWord=4
 4	mà	mà	ADP	_	Case=Dat	3	comp:obl	_	AlignBegin=53908|AlignEnd=54065|Gloss=Dat|nWord=5
 5	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=54065|AlignEnd=54222|Gloss=king.Masc.Cons|nWord=6
@@ -351,7 +351,7 @@
 16	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	15	det	_	AlignBegin=60224|AlignEnd=60490|Gloss=Anaph|nWord=15
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=60490|AlignEnd=60756|Gloss=PUNCT|nWord=16
 18	indà	indà	PRON	_	PronType=Rel	14	conj:dicto	_	AlignBegin=60490|AlignEnd=60756|Gloss=where|nWord=16
-19	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	18	mod@relcl	_	AlignBegin=60756|AlignEnd=61022|Gloss=4Perf.BackG|nWord=17
+19	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	18	mod@relcl	_	AlignBegin=60756|AlignEnd=61022|Gloss=4.Perf.BackG|nWord=17
 20	cêː	cêː	VERB	_	_	19	comp:obj	_	AlignBegin=61022|AlignEnd=61288|Gloss=say|nWord=18
 21-22	shìgattà	_	_	_	_	_	_	_	_
 21	shìgat	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	23	subj	_	AlignBegin=61288|AlignEnd=61554|Gloss=track.Fem.Cons|nWord=19
@@ -374,7 +374,7 @@
 6	anàː	nàː	AUX	_	Aspect=Imp|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Imp|nWord=6
 7	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=64598|AlignEnd=64761|Gloss=milk.NMLZ.Cons.Fem|nWord=7
 8	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Cons|nWord=8
-9	tan	yak	DET	_	Deixis=Anaph|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Anaph.Fem|nWord=9
+9	tan	nan	DET	_	Deixis=Anaph|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Anaph.Fem|nWord=9
 10	samàː	samàː	NOUN	_	Gender=Fem	7	comp:loc	_	AlignBegin=65087|AlignEnd=65250|Gloss=sky.Fem|nWord=10
 11	ta	na	PRON	_	Gender=Fem	10	mod	_	AlignBegin=65250|AlignEnd=65413|Gloss=that_of.Fem|nWord=11
 12	bakwài	bakwài	NUM	_	_	11	mod@num	_	AlignBegin=65413|AlignEnd=65576|Gloss=seven|nWord=12
@@ -386,7 +386,7 @@
 # sent_timecode = 67980, 70020
 # text = ankà cêː yànzu sai à zoː à biɗoː sarkin jiːhwàː //
 # text_en = They said that now, they needed to get the king of aiming.
-1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=67980|AlignEnd=68165|Gloss=4Perf.BackG|nWord=1
+1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=67980|AlignEnd=68165|Gloss=4.Perf.BackG|nWord=1
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=68165|AlignEnd=68350|Gloss=say|nWord=2
 3	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=68350|AlignEnd=68535|Gloss=now|nWord=3
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=68535|AlignEnd=68720|Gloss=then|nWord=4
@@ -404,7 +404,7 @@
 # sent_timecode = 71040, 71874
 # text = ankà kaːwoː shì //
 # text_en = They brought him.
-1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=71040|AlignEnd=71248|Gloss=4Perf.BackG|nWord=1
+1	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=71040|AlignEnd=71248|Gloss=4.Perf.BackG|nWord=1
 2	kaːwoː	kai	VERB	_	_	1	comp:aux	_	AlignBegin=71248|AlignEnd=71456|Gloss=bring|nWord=2
 3	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=71456|AlignEnd=71664|Gloss=3Masc|nWord=3
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=71664|AlignEnd=71874|Gloss=PUNCT|nWord=4
@@ -418,7 +418,7 @@
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	discourse	_	AlignBegin=71877|AlignEnd=71970|Gloss=3Masc.Nom|nWord=1
 2	koː	koː	PART	_	_	1	mod	_	AlignBegin=71970|AlignEnd=72063|Gloss=as_for|nWord=2
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=72063|AlignEnd=72156|Gloss=PUNCT|nWord=3
-4	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=72156|AlignEnd=72249|Gloss=4Perf.BackG|nWord=4
+4	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=72156|AlignEnd=72249|Gloss=4.Perf.BackG|nWord=4
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=72249|AlignEnd=72342|Gloss=say|nWord=5
 6	mai	mai	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=72342|AlignEnd=72435|Gloss=3Sing.Dat|nWord=6
 7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=72435|AlignEnd=72528|Gloss=PUNCT|nWord=7
@@ -495,7 +495,7 @@
 8	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=87080|AlignEnd=87352|Gloss=PUNCT|nWord=7
 9	dà	dà	CCONJ	_	_	10	cc	_	AlignBegin=87352|AlignEnd=87624|Gloss=with|nWord=8
 10-11	ɗantà	_	_	_	_	_	_	_	_
-10	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	5	conj:coord	_	AlignBegin=87624|AlignEnd=87896|Gloss=son.Masc.Cons|nWord=9
+10	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	5	conj:coord	_	AlignBegin=87624|AlignEnd=87896|Gloss=child.Masc.Cons|nWord=9
 11	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=87624|AlignEnd=87896|Gloss=3Fem.Gen|nWord=9
 12	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=87896|AlignEnd=88168|Gloss=REL|nWord=10
 13	am	ak	PART	_	Evident=BackG	12	comp:obj	_	AlignBegin=88168|AlignEnd=88440|Gloss=be.BackG|nWord=11
@@ -518,7 +518,7 @@
 # text_en = Then, they told the king of shooting that as for him, this was his day.
 1	sa'ànnan	sa'ànnan	ADV	_	_	3	mod	_	AlignBegin=92740|AlignEnd=92895|Gloss=then|nWord=1
 2	sai	sai	ADP	_	ExtPos=ADV	3	mod	_	AlignBegin=93050|AlignEnd=93205|Gloss=until|nWord=3
-3	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=93205|AlignEnd=93360|Gloss=4Perf.BackG|nWord=4
+3	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=93205|AlignEnd=93360|Gloss=4.Perf.BackG|nWord=4
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=93360|AlignEnd=93515|Gloss=say|nWord=5
 5	mà	mà	ADP	_	Case=Dat	4	comp:obl	_	AlignBegin=93515|AlignEnd=93670|Gloss=Dat|nWord=6
 6	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj	_	AlignBegin=93670|AlignEnd=93825|Gloss=king.Masc.Cons|nWord=7
@@ -565,7 +565,7 @@
 # text = tôː ankà cêː [ cikin mutàːnên ga huɗu < wanèː naː yah hi àbin màːmaːkiː ?// //
 # text_en = Well they said "Beteween these four people, who is the most amazing?"
 1	tôː	tôː	INTJ	_	_	2	discourse	_	AlignBegin=101260|AlignEnd=101430|Gloss=well|nWord=1
-2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=101430|AlignEnd=101600|Gloss=4Perf.BackG|nWord=2
+2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=101430|AlignEnd=101600|Gloss=4.Perf.BackG|nWord=2
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=101600|AlignEnd=101770|Gloss=say|nWord=3
 4	[	[	PUNCT	_	_	11	punct	_	AlignBegin=101770|AlignEnd=101940|Gloss=PUNCT|nWord=4
 5	cikin	cikin	ADP	_	_	11	mod	_	AlignBegin=101940|AlignEnd=102110|Gloss=in|nWord=5

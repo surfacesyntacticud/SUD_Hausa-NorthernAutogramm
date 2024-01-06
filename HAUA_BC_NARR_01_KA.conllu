@@ -282,7 +282,7 @@
 # text_en = When she got the fish, she put it aside.
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=62377|AlignEnd=62858|Gloss=if|nWord=1
 2	taɗ	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.BackG|nWord=2
-3	ɗaukoː	ɗauk-	NOUN	_	Definite=Cons|Gender=Masc	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take.Masc|nWord=3
+3	ɗaukoː	ɗauk-	VERB	_	_	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take|nWord=3
 4	kiːhîn	kiːhiː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Cons|nWord=4
 5	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=Anaph|nWord=5
 6	ta'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=64782|AlignEnd=65263|Gloss=3Fem.Perf.BackG|nWord=6
@@ -318,7 +318,7 @@
 5	sa’ànnan	sa’ànnan	ADV	_	_	7	mod	_	AlignBegin=69398|AlignEnd=69660|Gloss=then|nWord=5
 6	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=69922|AlignEnd=70184|Gloss=student.Masc|nWord=7
 7	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=70184|AlignEnd=70446|Gloss=3Masc.Perf|nWord=8
-8	taːsoː	taːs-	VERB	_	_	7	comp:aux	_	AlignBegin=70446|AlignEnd=70708|Gloss=get_up|nWord=9
+8	taːsoː	taːs-	VERB	_	_	7	comp:aux	_	AlignBegin=70446|AlignEnd=70708|Gloss=stand|nWord=9
 9	dàc	dàk	ADP	_	_	8	comp:obl	_	AlignBegin=70708|AlignEnd=70970|Gloss=from|nWord=10
 10	cikin	cikin	ADP	_	_	9	comp:obj	_	AlignBegin=70970|AlignEnd=71232|Gloss=inside|nWord=11
 11	ruwaː	ruwaː	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=71232|AlignEnd=71494|Gloss=water.Plur|nWord=12
@@ -539,7 +539,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.wav
 # sent_timecode = 109422, 113834
 # phonetic_text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìnku //] //
-# text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìnku //] //
+# text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìn =ku //] //
 # text_en = Whe went and said "Elephants, there is a student there who is insulting you."
 1	taz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=109422|AlignEnd=109698|Gloss=3Fem.Perf.BackG|nWord=1
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=109698|AlignEnd=109974|Gloss=go|nWord=2
@@ -549,14 +549,16 @@
 6	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	13	vocative	_	AlignBegin=110802|AlignEnd=111078|Gloss=elephant.Plur|nWord=6
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=111078|AlignEnd=111354|Gloss=PUNCT|nWord=7
 8	gàː	gàː	PART	_	_	13	parataxis@top	_	AlignBegin=111354|AlignEnd=111630|Gloss=here_is|nWord=8
-9	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	AlignBegin=111630|AlignEnd=111906|Gloss=son.Masc.Cons|nWord=9
+9	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	AlignBegin=111630|AlignEnd=111906|Gloss=child.Masc.Cons|nWord=9
 10	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	9	compound	_	AlignBegin=111906|AlignEnd=112182|Gloss=student.Masc|nWord=10
 11	cân	cân	DET	_	Deixis=Dist|PronType=Dem	8	comp:pred	_	AlignBegin=112182|AlignEnd=112458|Gloss=Dist|nWord=11
 12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=112458|AlignEnd=112734|Gloss=PUNCT|nWord=12
 13	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=112734|AlignEnd=113010|Gloss=3Masc.Imp|nWord=13
-14	ɓaːcìnku	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=113010|AlignEnd=113286|Gloss=insult.NMLZ.Masc.Cons|nWord=14
-15	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=113286|AlignEnd=113562|Gloss=PUNCT|nWord=15
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=113562|AlignEnd=113834|Gloss=PUNCT|nWord=16
+14-15	ɓaːcìnku	_	_	_	_	_	_	_	_
+14	ɓaːcìn	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=113010|AlignEnd=113286|Gloss=insult.NMLZ.Masc.Cons|nWord=14
+15	=ku	=ku	PRON	_	Number=Plur|Person=2|PronType=Prs	14	comp:obj	_	AlignBegin=113010|AlignEnd=113286|Gloss=2Plur|nWord=14
+16	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=113286|AlignEnd=113562|Gloss=PUNCT|nWord=15
+17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=113562|AlignEnd=113834|Gloss=PUNCT|nWord=16
 
 # sent_id = HAUA_BC_NARR_O1_KA_30-30
 # speaker_id = SP
@@ -570,7 +572,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=116086|AlignEnd=116209|Gloss=PUNCT|nWord=3
 4	ìnaː	ìnaː	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=116209|AlignEnd=116332|Gloss=where|nWord=4
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=116332|AlignEnd=116455|Gloss=3Masc|nWord=5
-6	kè	kè	PART	_	Evident=BackG	4	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Gloss=be.BackG|nWord=6
+6	kè	nàː	PART	_	Evident=BackG	4	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Gloss=be.Loc.BackG|nWord=6
 7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=116578|AlignEnd=116701|Gloss=PUNCT|nWord=7
 8	]	]	PUNCT	_	_	4	punct	_	AlignBegin=116701|AlignEnd=116824|Gloss=PUNCT|nWord=8
 
@@ -604,7 +606,7 @@
 6	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	mod	_	AlignBegin=118339|AlignEnd=118511|Gloss=arrive.NMLZ.Fem|nWord=6
 7	indà	indà	ADV	_	PronType=Rel	6	mod	_	AlignBegin=118511|AlignEnd=118683|Gloss=where|nWord=7
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=118683|AlignEnd=118855|Gloss=3Masc|nWord=8
-9	kè	kè	PART	_	Evident=BackG	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Gloss=be.BackG|nWord=9
+9	kè	nàː	PART	_	Evident=BackG	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Gloss=be.Loc.BackG|nWord=9
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=119027|AlignEnd=119202|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUA_BC_NARR_O1_KA_33-33
@@ -656,7 +658,7 @@
 3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=bring|nWord=4
 4	indà	indà	ADV	_	PronType=Rel	3	comp:loc	_	AlignBegin=126848|AlignEnd=126955|Gloss=where|nWord=5
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=126955|AlignEnd=127062|Gloss=3Masc|nWord=6
-6	kè	kè	PART	_	Evident=BackG	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=be.BackG|nWord=7
+6	kè	nàː	PART	_	Evident=BackG	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=be.Loc.BackG|nWord=7
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT|nWord=8
 8	dus	duk	DET	_	PronType=Tot	9	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all|nWord=9
 9	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=127383|AlignEnd=127490|Gloss=3Plur.Perf|nWord=10
@@ -675,7 +677,7 @@
 # text_en = None could get up.
 1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg|nWord=1
 2	mài	mài	PART	_	_	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=one_who|nWord=2
-3	taːshìː	taːs-	VERB	_	Gender=Masc	2	comp:pred	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.Vnoun.Masc|nWord=3
+3	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.NMLZ.Masc|nWord=3
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat|nWord=4
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT|nWord=5
 
