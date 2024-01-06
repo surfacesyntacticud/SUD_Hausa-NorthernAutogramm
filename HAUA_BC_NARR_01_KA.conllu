@@ -64,7 +64,7 @@
 # text = shi nàː tàhe //
 # text_en = He was walking.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=24520|AlignEnd=24687|Gloss=3Masc|nWord=1
-2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=be|nWord=1
+2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=be.Loc|nWord=1
 3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=24687|AlignEnd=24854|Gloss=walk.Part.Stat|nWord=2
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=24854|AlignEnd=25020|Gloss=PUNCT|nWord=3
 
@@ -76,15 +76,15 @@
 # text = shi nàː tàhe |r shi nàː tàhe |r shi nàː tàhe //
 # text_en = He kept walking, and walking, and walking.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=25960|AlignEnd=26133|Gloss=3Masc|nWord=1
-2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=be|nWord=1
+2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=be.Loc|nWord=1
 3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=26133|AlignEnd=26306|Gloss=walk.Part.Stat|nWord=2
 4	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=26306|AlignEnd=26479|Gloss=PUNCT|nWord=3
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=26479|AlignEnd=26652|Gloss=3Masc|nWord=4
-6	nàː	nàː	PART	_	_	2	conj:coord	_	AlignBegin=26479|AlignEnd=26652|Gloss=be|nWord=4
+6	nàː	nàː	PART	_	_	2	conj:coord	_	AlignBegin=26479|AlignEnd=26652|Gloss=be.Loc|nWord=4
 7	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=26652|AlignEnd=26825|Gloss=walk.Part.Stat|nWord=5
 8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=26825|AlignEnd=26998|Gloss=PUNCT|nWord=6
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=26998|AlignEnd=27171|Gloss=3Masc|nWord=7
-10	nàː	nàː	PART	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=be|nWord=7
+10	nàː	nàː	PART	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=be.Loc|nWord=7
 11	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	10	comp:pred	_	AlignBegin=27171|AlignEnd=27344|Gloss=walk.Part.Stat|nWord=8
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=27344|AlignEnd=27521|Gloss=PUNCT|nWord=9
 
@@ -332,7 +332,7 @@
 # text = sai shì cêː [ kyaː ƙòːshi ?//] //
 # text_en = He said " Have you eaten enough? "
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=72762|AlignEnd=72880|Gloss=then|nWord=1
-2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=72880|AlignEnd=72998|Gloss=3Masc.Aor|nWord=2
+2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=72880|AlignEnd=72998|Gloss=3Masc.Aor|nWord=2|wordform=shì
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=72998|AlignEnd=73116|Gloss=say|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=73116|AlignEnd=73234|Gloss=PUNCT|nWord=4
 5	kyaː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	3	comp:obj	_	AlignBegin=73234|AlignEnd=73352|Gloss=2Fem.Perf|nWord=5
@@ -442,7 +442,7 @@
 # text_en = Then, as he was walking, he saw her.
 1	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until|nWord=1
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc|nWord=2
-3	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=be|nWord=2
+3	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=be.Loc|nWord=2
 4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=in|nWord=3
 5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.NMLZ.Fem|nWord=4
 6	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|nWord=5
@@ -501,7 +501,7 @@
 # text_en = There were many elephants standing there.
 1	giːwàːyeː	giːwaː	NOUN	_	_	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.plur|nWord=1
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur|nWord=2
-3	nàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Imp|nWord=2
+3	nàː	nàː	PART	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=be.Loc|nWord=2
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|nWord=3
 5	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|nWord=4
 6	dà	dà	ADP	_	_	5	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|nWord=5
@@ -622,7 +622,7 @@
 6	akà	kà	AUX	_	Aspect=Imp|Evident=BackG|Person=4	5	comp:cleft	_	AlignBegin=121065|AlignEnd=121266|Gloss=4.Imp.BackG|nWord=6
 7	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=121266|AlignEnd=121467|Gloss=fall.NMLZ.Fem|nWord=7
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=121467|AlignEnd=121668|Gloss=PUNCT|nWord=8
-9	nân	nân	PART	_	Deixis=Prox|PronType=Dem	5	comp:pred	_	AlignBegin=121668|AlignEnd=121869|Gloss=Prox|nWord=9
+9	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	5	comp:pred	_	AlignBegin=121668|AlignEnd=121869|Gloss=Prox|nWord=9
 10	akà	kà	AUX	_	Aspect=Imp|Evident=BackG|Person=4	9	comp:cleft	_	AlignBegin=121869|AlignEnd=122070|Gloss=4.Imp.BackG|nWord=10
 11	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=122070|AlignEnd=122271|Gloss=break.NMLZ.Fem|nWord=11
 12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=122271|AlignEnd=122472|Gloss=PUNCT|nWord=12
@@ -687,7 +687,7 @@
 # text = sai shì cêː matà [ tôː gàː naːmàː //] //
 # text_en = Then he told her "Here is your meat."
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=130803|AlignEnd=130914|Gloss=then|nWord=1
-2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=130914|AlignEnd=131025|Gloss=3Masc.Aor|nWord=2
+2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=130914|AlignEnd=131025|Gloss=3Masc.Aor|nWord=2|wordform=shì
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=131025|AlignEnd=131136|Gloss=say|nWord=3
 4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Dat|nWord=4
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=131247|AlignEnd=131358|Gloss=PUNCT|nWord=5
@@ -745,7 +745,7 @@
 # text = ta nàː nan tanàː ta cîn naːmàː |r ta nàː nan tanàː ta cîn naːmàː //
 # text_en = She kept eating and eating the meat.
 1	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|nWord=1
-2	nàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Imp|nWord=1
+2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=be.Loc|nWord=1
 3	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Anaph|nWord=2
 4	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Imp|nWord=3
 5	ta	ta	PART	_	_	6	mod	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|nWord=4
@@ -753,7 +753,7 @@
 7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc|nWord=6
 8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT|nWord=7
 9	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	subj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem|nWord=8
-10	nàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	4	conj:coord	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem.Imp|nWord=8
+10	nàː	nàː	PART	_	_	4	conj:coord	_	AlignBegin=140373|AlignEnd=140512|Gloss=be.Loc|nWord=8
 11	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	10	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Anaph|nWord=9
 12	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	10	conj:coord	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Imp|nWord=10
 13	ta	ta	PART	_	Aspect=Iter	14	mod	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|nWord=11

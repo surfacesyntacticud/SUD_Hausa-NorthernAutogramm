@@ -24,7 +24,7 @@
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur|nWord=4
 6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	8	subj	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Cons|nWord=5
 7	maːtaː	màcce	NOUN	_	Number=Plur	6	compound	_	AlignBegin=5620|AlignEnd=5944|Gloss=woman.Plur|nWord=6
-8	nàː	nàː	PART	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=FOC|nWord=7
+8	nàː	naː	PART	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=Foc.Ident|nWord=7
 9	biyu	biyu	PRON	_	_	6	mod@num	_	AlignBegin=6268|AlignEnd=6592|nWord=8
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=6592|AlignEnd=6914|Gloss=PUNCT|nWord=9
 
@@ -38,7 +38,7 @@
 1	dâːmaː	dâːmaː	ADV	_	_	4	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly|nWord=1
 2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	mod	_	AlignBegin=7426|AlignEnd=7682|Gloss=son|nWord=3
 3	kiyoːshiː	kiːshìyaːː	NOUN	_	Number=Plur	2	compound	_	AlignBegin=7682|AlignEnd=7938|Gloss=co-wife.Plur|nWord=4
-4	nàː	naː	PART	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=be|nWord=5
+4	nàː	naː	PART	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=Foc.Ident|nWord=5
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=8194|AlignEnd=8448|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_NARR_04_GYM_004-004
@@ -213,13 +213,13 @@
 # text = du' àbin dà tas saːmoː < maːtaː nàː //
 # text_en = Whatever she got was female.
 1	du'	duk	DET	_	PronType=Tot	2	det	_	AlignBegin=41258|AlignEnd=41418|Gloss=all|nWord=1
-2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	dislocated@subj	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons|nWord=2
+2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	dislocated@top	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons|nWord=2
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=41578|AlignEnd=41738|Gloss=with|nWord=3
 4	tas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=41738|AlignEnd=41898|Gloss=3Fem.Perf.BackG|nWord=4
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=41898|AlignEnd=42058|Gloss=receive|nWord=5
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=42058|AlignEnd=42218|Gloss=PUNCT|nWord=6
 7	maːtaː	tamatà	ADJ	_	Number=Plur	8	comp:pred	_	AlignBegin=42218|AlignEnd=42378|Gloss=female.Plur|nWord=7
-8	nàː	naː	PART	_	_	0	root	_	AlignBegin=42378|AlignEnd=42538|Gloss=be|nWord=8
+8	nàː	naː	PART	_	_	0	root	_	AlignBegin=42378|AlignEnd=42538|Gloss=Foc.Ident|nWord=8
 9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=42538|AlignEnd=42694|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUA_BC_NARR_04_GYM_012-012
@@ -594,18 +594,18 @@
 # text = a nàː nan |c a nàː nan |c a nàː nan < rân nan < sai uwat =tà tay yi cikìː //
 # text_en = After some time, one day, her [Dove's] mother became pregnant.
 1	a	a	PRON	_	Aspect=Imp|Person=4|PronType=Prs	2	subj	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Imp|nWord=1
-2	nàː	nàː	PART	_	Aspect=Imp|Person=4|PronType=Prs	19	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Imp|nWord=1
+2	nàː	nàː	PART	_	_	19	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=be.Loc|nWord=1
 3	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Anaph|nWord=2
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=100826|AlignEnd=101049|Gloss=PUNCT|nWord=3
 5	a	a	PRON	_	Aspect=Imp|Person=4|PronType=Prs	6	subj	_	AlignBegin=101049|AlignEnd=101272|Gloss=4.Imp|nWord=4
-6	nàː	nàː	PART	_	Aspect=Imp|Person=4|PronType=Prs	2	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=4.Imp|nWord=4
+6	nàː	nàː	PART	_	_	2	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=be.Loc|nWord=4
 7	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	6	comp:pred	_	AlignBegin=101272|AlignEnd=101495|Gloss=Anaph|nWord=5
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=101495|AlignEnd=101718|Gloss=PUNCT|nWord=6
 9	a	a	PRON	_	Aspect=Imp|Person=4|PronType=Prs	10	subj	_	AlignBegin=101718|AlignEnd=101941|Gloss=4.Imp|nWord=7
-10	nàː	nàː	PART	_	Aspect=Imp|Person=4|PronType=Prs	6	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Gloss=4.Imp|nWord=7
+10	nàː	nàː	PART	_	_	6	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Gloss=be.Loc|nWord=7
 11	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	10	comp:pred	_	AlignBegin=101941|AlignEnd=102164|Gloss=Anaph|nWord=8
 12	<	<	PUNCT	_	_	2	punct	_	AlignBegin=102164|AlignEnd=102387|Gloss=PUNCT|nWord=9
-13	rân	raːnaː	NOUN	_	Definite=Cons	19	mod	_	AlignBegin=102387|AlignEnd=102610|Gloss=day.Cons|nWord=10
+13	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Masc	19	mod	_	AlignBegin=102387|AlignEnd=102610|Gloss=day.Fem.Cons|nWord=10
 14	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	13	det	_	AlignBegin=102610|AlignEnd=102833|Gloss=Anaph|nWord=11
 15	<	<	PUNCT	_	_	13	punct	_	AlignBegin=102833|AlignEnd=103056|Gloss=PUNCT|nWord=12
 16	sai	sai	ADP	_	ExtPos=ADV	19	mod	_	AlignBegin=103056|AlignEnd=103279|Gloss=until|nWord=13
@@ -749,7 +749,7 @@
 # text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me to this world?"
 1	sai	sai	ADP	_	ExtPos=ADV	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=until|nWord=1
-2	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Masc	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Masc.Cons|nWord=2
+2	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Masc	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Fem.Cons|nWord=2
 3	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	2	det	_	AlignBegin=124825|AlignEnd=125038|Gloss=Anaph|nWord=3
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=125038|AlignEnd=125251|Gloss=PUNCT|nWord=4
 5	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=125251|AlignEnd=125464|Gloss=4Perf.BackG|nWord=5
@@ -864,7 +864,7 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=138437|AlignEnd=138550|Gloss=say|nWord=2
 3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT|nWord=3
 4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=138663|AlignEnd=138776|Gloss=2Masc|nWord=4
-5	nàː	nàː	PART	_	_	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=be|nWord=5
+5	nàː	nàː	PART	_	_	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=be.Loc|nWord=5
 6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=138889|AlignEnd=139002|Gloss=with|nWord=6
 7	yâː	yâː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=139002|AlignEnd=139115|Gloss=elder_sister.Fem|nWord=7
 8	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=139115|AlignEnd=139228|Gloss=PUNCT|nWord=8
@@ -924,7 +924,7 @@
 2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	5	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but|nWord=2
 3	lalleː	lalleː	ADV	_	_	5	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course|nWord=3
 4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=148050|AlignEnd=148226|Gloss=2Masc|nWord=4
-5	nàː	nàː	PART	_	_	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=be|nWord=5
+5	nàː	nàː	PART	_	_	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=be.Loc|nWord=5
 6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=148402|AlignEnd=148578|Gloss=with|nWord=6
 7	yâː	yâː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148578|AlignEnd=148754|Gloss=elder_sister.Fem|nWord=7
 8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=148754|AlignEnd=148930|Gloss=PUNCT|nWord=8
@@ -1135,7 +1135,7 @@
 # text = a nàː nan < shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text_en = After a while, it kept creeping until it went out of the village.
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=178740|AlignEnd=178938|Gloss=4|nWord=1
-2	nàː	nàː	PART	_	_	5	mod	_	AlignBegin=178938|AlignEnd=179136|Gloss=be|nWord=2
+2	nàː	nàː	PART	_	_	5	mod	_	AlignBegin=178938|AlignEnd=179136|Gloss=be.Loc|nWord=2
 3	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Anaph|nWord=3
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=179334|AlignEnd=179532|Gloss=PUNCT|nWord=4
 5	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Imp|nWord=5
@@ -1304,14 +1304,14 @@
 # text = X rân nan dà yaz zakà bàːkin ruwaː < sai yas' s'ayàː //
 # text_en = XX [Narrator's mistake] The day it arrived by the river bank, he stopped.
 1	X	X	X	_	_	11	unk@scrap	_	AlignBegin=203440|AlignEnd=206980|Gloss=X|nWord=1
-2	rân	raːnaː	NOUN	_	Gender=Fem	11	mod	_	AlignBegin=207340|AlignEnd=207675|Gloss=day.Fem|nWord=2
+2	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Masc	11	mod	_	AlignBegin=207340|AlignEnd=207675|Gloss=day.Fem.Cons|nWord=2
 3	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	2	det	_	AlignBegin=207675|AlignEnd=208010|Gloss=Anaph|nWord=3
-4	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=208010|AlignEnd=208345|Gloss=as|nWord=4
+4	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=208010|AlignEnd=208345|Gloss=as|nWord=4
 5	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=208345|AlignEnd=208680|Gloss=3Masc.Perf.BackG|nWord=5
 6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=208680|AlignEnd=209015|Gloss=arrive|nWord=6
 7	bàːkin	bàːkin	NOUN	_	Definite=Cons|Gender=Masc	6	comp:loc	_	AlignBegin=209015|AlignEnd=209350|Gloss=bank.Masc.Cons|nWord=7
-8	ruwaː	ruwaː	NOUN	_	Number=Plur	7	mod	_	AlignBegin=209350|AlignEnd=209685|Gloss=water.Plur|nWord=8
-9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=209685|AlignEnd=210020|Gloss=PUNCT|nWord=9
+8	ruwaː	ruwaː	NOUN	_	Number=Plur	7	compound	_	AlignBegin=209350|AlignEnd=209685|Gloss=water.Plur|nWord=8
+9	<	<	PUNCT	_	_	4	punct	_	AlignBegin=209685|AlignEnd=210020|Gloss=PUNCT|nWord=9
 10	sai	sai	ADP	_	ExtPos=ADV	11	mod	_	AlignBegin=210020|AlignEnd=210355|Gloss=until|nWord=10
 11	yas'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=210355|AlignEnd=210690|Gloss=3Masc.Perf.BackG|nWord=11
 12	s'ayàː	s'ay-	VERB	_	_	11	mod	_	AlignBegin=210690|AlignEnd=211025|Gloss=stop|nWord=12
@@ -1663,7 +1663,7 @@
 # text = a nàː nan < ɗaɗà hay yat taːshì |c ankà baː shì ruwaː |c yah hwalkàː //
 # text_en = After a while, then, he got up, they gave him water, he felt better.
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=258292|AlignEnd=258440|Gloss=4|nWord=1
-2	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=258440|AlignEnd=258588|Gloss=be|nWord=2
+2	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=258440|AlignEnd=258588|Gloss=be.Loc|nWord=2
 3	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Anaph|nWord=3
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=258736|AlignEnd=258884|Gloss=PUNCT|nWord=4
 5	ɗaɗà	ɗaɗà	ADV	_	_	7	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then|nWord=5
@@ -1731,11 +1731,11 @@
 # text = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaː =tai //
 # text_en = After a while, after that, when everyone had gone away, he told his mother.
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=265000|AlignEnd=265186|Gloss=4|nWord=1
-2	nàː	nàː	PART	_	_	18	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=be|nWord=2
+2	nàː	nàː	PART	_	_	18	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=be.Loc|nWord=2
 3	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Anaph|nWord=3
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT|nWord=4
 5	a	a	PRON	_	Person=4|PronType=Prs	6	subj	_	AlignBegin=265744|AlignEnd=265930|Gloss=4|nWord=5
-6	nàː	nàː	PART	_	_	2	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=be|nWord=6
+6	nàː	nàː	PART	_	_	2	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=be.Loc|nWord=6
 7	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	6	comp:pred	_	AlignBegin=266116|AlignEnd=266302|Gloss=Anaph|nWord=7
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=266302|AlignEnd=266488|Gloss=PUNCT|nWord=8
 9	sai	sai	ADP	_	ExtPos=ADV	18	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=until|nWord=9
@@ -1783,7 +1783,7 @@
 # text_en = And she was alive, she had not died.
 1	kuma	kuma	ADV	_	_	3	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also|nWord=1
 2	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=271449|AlignEnd=271598|Gloss=3Fem|nWord=2
-3	nàː	nàː	PART	_	_	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=be|nWord=3
+3	nàː	nàː	PART	_	_	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=be.Loc|nWord=3
 4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with|nWord=4
 5-6	rânta	_	_	_	_	_	_	_	_
 5	rân	râi	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons|nWord=5
@@ -1816,7 +1816,7 @@
 14	yàrda	yard-	VERB	_	_	13	comp:aux	_	AlignBegin=275562|AlignEnd=275696|Gloss=agree|nWord=14
 15	ba	ba	PART	_	Polarity=Neg	13	mod	_	AlignBegin=275696|AlignEnd=275830|Gloss=Neg|nWord=15
 16	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=275830|AlignEnd=275964|Gloss=PUNCT|nWord=16
-17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=275964|AlignEnd=276098|Gloss=necessarily|nWord=17
+17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=275964|AlignEnd=276098|Gloss=then|nWord=17
 18	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	13	parataxis@conj	_	AlignBegin=276098|AlignEnd=276232|Gloss=3Masc.Perf|nWord=18
 19	tàhi	tah-	VERB	_	_	18	comp:aux	_	AlignBegin=276232|AlignEnd=276366|Gloss=go|nWord=19
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=276366|AlignEnd=276500|Gloss=PUNCT|nWord=20
@@ -2128,7 +2128,7 @@
 # phonetic_text = sa'àn nan ankà kam mà hwarin sân nan |c ankà yankèː //
 # text = sa'ànnan ankà kammà hwarin sân nan |c ankà yankèː //
 # text_en = Then they caught the white cow and slaughtered it.
-1	sa'ànnan	sa'ànnan	ADV	_	_	2	mod	_	AlignBegin=329340|AlignEnd=329478|nWord=1
+1	sa'ànnan	sa'ànnan	ADV	_	_	2	mod	_	AlignBegin=329340|AlignEnd=329478|Gloss=then|nWord=1
 2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=329616|AlignEnd=329754|Gloss=4Perf.BackG|nWord=3
 3	kammà	kaːm-	VERB	_	_	2	comp:aux	_	AlignBegin=329754|AlignEnd=329892|Gloss=catch|nWord=4
 4	hwarin	hwariː	ADJ	_	Definite=Cons|Gender=Masc	5	mod	_	AlignBegin=330030|AlignEnd=330168|Gloss=white.Masc.Cons|nWord=6

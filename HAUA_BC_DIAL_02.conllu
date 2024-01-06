@@ -17,7 +17,7 @@
 11	dai	dai	PART	_	_	10	mod	_	AlignBegin=7360|AlignEnd=7726|Gloss=indeed|nWord=11
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=7360|AlignEnd=7726|Gloss=PUNCT|nWord=11
 13	cikin	cikin	ADP	_	_	5	comp:loc	_	AlignBegin=7726|AlignEnd=8092|Gloss=in|nWord=12
-14	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	AlignBegin=8092|AlignEnd=8458|Gloss=valley.Masc|nWord=13
+14	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	AlignBegin=8092|AlignEnd=8458|Gloss=valley.Masc.Cons|nWord=13
 15	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	14	det	_	AlignBegin=8458|AlignEnd=8824|Gloss=ANAPH|nWord=14
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT|nWord=16
 17	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	18	comp:pred	_	AlignBegin=9556|AlignEnd=9922|Gloss=how|nWord=17
@@ -45,7 +45,7 @@
 8	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=67655|AlignEnd=67780|Gloss=there_is.Neg|nWord=8
 9	shi	shi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=67780|AlignEnd=67905|Gloss=3Masc|nWord=9
 10	cikin	cikin	ADP	_	_	8	comp:pred	_	AlignBegin=67905|AlignEnd=68030|Gloss=in|nWord=10
-11	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj	_	AlignBegin=68030|AlignEnd=68155|Gloss=river.Masc|nWord=11
+11	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj	_	AlignBegin=68030|AlignEnd=68155|Gloss=valley.Masc.Cons|nWord=11
 12	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	11	det	_	AlignBegin=68155|AlignEnd=68280|Gloss=ANAPH|nWord=12
 13	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=68280|AlignEnd=68400|Gloss=PUNCT|nWord=13
 
@@ -77,7 +77,7 @@
 # text_en = What kind of watch did you keep on your cattle?
 1	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	2	det	_	AlignBegin=132960|AlignEnd=133143|Gloss=which.Masc|nWord=1
 2	àːgìzoː	àːgìzoː	NOUN	_	Gender=Masc	3	comp:pred	_	AlignBegin=133143|AlignEnd=133326|Gloss=watching.Masc|nWord=2
-3	nàː	naː	PART	_	_	0	root	_	AlignBegin=133326|AlignEnd=133509|Gloss=FOC|nWord=3
+3	nàː	naː	PART	_	_	0	root	_	AlignBegin=133326|AlignEnd=133509|Gloss=Foc.Ident|nWord=3
 4-5	kukài	_	_	_	_	_	_	_	_
 4	kukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=2	3	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Gloss=2Plur.Imp.BackG|nWord=4
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=133509|AlignEnd=133692|Gloss=do|nWord=4
@@ -191,7 +191,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=254899|AlignEnd=255048|Gloss=PUNCT|nWord=2
 3	su	su	DET	_	Number=Plur	4	det	_	AlignBegin=255048|AlignEnd=255197|Gloss=Plur|nWord=3
 4	Isshìhi	Isshìhi	PROPN	_	_	5	comp:pred	_	AlignBegin=255197|AlignEnd=255346|Gloss=Isshihi|nWord=4
-5	nàː	naː	PART	_	_	0	root	_	AlignBegin=255346|AlignEnd=255495|Gloss=FOC|nWord=5
+5	nàː	naː	PART	_	_	0	root	_	AlignBegin=255346|AlignEnd=255495|Gloss=Foc.Ident|nWord=5
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=255495|AlignEnd=255644|Gloss=PUNCT|nWord=6
 7	nis	kà	AUX	_	Aspect=Perf|Evident=BackG|Number=Sing|Person=1	5	comp:cleft	_	AlignBegin=255644|AlignEnd=255793|Gloss=1Sing.Perf.BackG|nWord=7
 8	sanìː	sanìː	VERB	_	_	7	comp:aux	_	AlignBegin=255793|AlignEnd=255942|Gloss=know|nWord=8
@@ -216,7 +216,7 @@
 # text_en = He held her down on his own, did he?
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=475515|AlignEnd=475666|Gloss=3Masc.Nom|nWord=1
 2	ɗai	ɗai	NUM	_	_	1	mod	_	AlignBegin=475666|AlignEnd=475817|Gloss=one|nWord=2
-3	nàː	naː	PART	_	PronType=Int	0	root	_	AlignBegin=475817|AlignEnd=475968|Gloss=FOC|nWord=3
+3	nàː	naː	PART	_	PronType=Int	0	root	_	AlignBegin=475817|AlignEnd=475968|Gloss=Foc.Ident|nWord=3
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=475968|AlignEnd=476119|Gloss=PUNCT|nWord=4
 5	at	ak	PART	_	Evident=BackG	3	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Gloss=be.BackG|nWord=5
 6	tàushe	taus-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=476270|AlignEnd=476421|Gloss=hold_down|nWord=6

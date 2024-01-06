@@ -55,7 +55,7 @@
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=13824|AlignEnd=14291|Gloss=PUNCT|nWord=13
 14	dà	dà	ADP	_	_	15	cc	_	AlignBegin=14291|AlignEnd=14758|Gloss=with|nWord=14
 15	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	11	mod	_	AlignBegin=14758|AlignEnd=15225|Gloss=king.Masc.Cons|nWord=15
-16	sarɓaː	sarɓ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	15	mod	_	AlignBegin=15225|AlignEnd=15692|Gloss=lassoing.Fem|nWord=16
+16	sarɓaː	sarɓ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	15	mod	_	AlignBegin=15225|AlignEnd=15692|Gloss=lassoo.NMLZ.Fem|nWord=16
 17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=15692|AlignEnd=16160|Gloss=PUNCT|nWord=17
 
 # sent_id = HAUA_BC_NARR_03_GMH_04-04
@@ -67,14 +67,14 @@
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	14	discourse	_	AlignBegin=17244|AlignEnd=17418|Gloss=OK|nWord=1
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=17418|AlignEnd=17592|Gloss=PUNCT|nWord=2
 3	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=17592|AlignEnd=17766|Gloss=3Plur|nWord=3
-4	nàː	nàː	PART	_	_	14	mod	_	AlignBegin=17592|AlignEnd=17766|Gloss=be|nWord=3
+4	nàː	nàː	PART	_	_	14	mod	_	AlignBegin=17592|AlignEnd=17766|Gloss=be.Loc|nWord=3
 5	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	4	comp:pred	_	AlignBegin=17766|AlignEnd=17940|Gloss=there|nWord=4
 6	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=17940|AlignEnd=18114|Gloss=PUNCT|nWord=5
 7	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	8	subj	_	AlignBegin=18114|AlignEnd=18288|Gloss=3Plur|nWord=6
-8	nàː	nàː	PART	_	_	4	conj:redup	_	AlignBegin=18114|AlignEnd=18288|Gloss=be|nWord=6
+8	nàː	nàː	PART	_	_	4	conj:redup	_	AlignBegin=18114|AlignEnd=18288|Gloss=be.Loc|nWord=6
 9	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	8	comp:pred	_	AlignBegin=18288|AlignEnd=18462|Gloss=there|nWord=7
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=18462|AlignEnd=18636|Gloss=PUNCT|nWord=8
-11	rân	raːnaː	NOUN	_	_	14	mod	_	AlignBegin=18636|AlignEnd=18810|Gloss=day|nWord=9
+11	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Masc	14	mod	_	AlignBegin=18636|AlignEnd=18810|Gloss=day.Fem.Cons|nWord=9
 12	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	11	det	_	AlignBegin=18810|AlignEnd=18984|Gloss=Anaph|nWord=10
 13	sai	sai	ADP	_	ExtPos=ADV	14	mod	_	AlignBegin=18984|AlignEnd=19158|Gloss=until|nWord=11
 14	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=19158|AlignEnd=19332|Gloss=4.Perf.BackG|nWord=12
@@ -136,7 +136,7 @@
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=28876|AlignEnd=29048|Gloss=PUNCT|nWord=9
 10	gàː	gàː	ADP	_	_	8	comp:cleft	_	AlignBegin=29048|AlignEnd=29220|Gloss=here_is|nWord=10
 11-12	raːnakkà	_	_	_	_	_	_	_	_
-11	raːnak	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	10	comp:pred	_	AlignBegin=29220|AlignEnd=29392|Gloss=day.Fem|nWord=11
+11	raːnak	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	10	comp:pred	_	AlignBegin=29220|AlignEnd=29392|Gloss=day.Fem.Cons|nWord=11
 12	=kà	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	11	mod@poss	_	AlignBegin=29220|AlignEnd=29392|Gloss=2.Masc|nWord=11
 13	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=29392|AlignEnd=29564|Gloss=PUNCT|nWord=12
 14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=29564|AlignEnd=29740|Gloss=PUNCT|nWord=13
@@ -151,7 +151,7 @@
 2	gwadàː	gwadàː	VERB	_	_	1	comp:aux	_	AlignBegin=30407|AlignEnd=30654|Gloss=show|nWord=2
 3	mai	mai	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=30654|AlignEnd=30901|Gloss=3Sing.Dat.Masc|nWord=3
 4	turkèn	turkèː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=30901|AlignEnd=31148|Gloss=tethering_post.Masc|nWord=4
-5	saːnìyaː	saːnìyaː	NOUN	_	_	4	mod	_	AlignBegin=31148|AlignEnd=31395|Gloss=cow|nWord=5
+5	saːnìyaː	saːnìyaː	NOUN	_	_	4	mod	_	AlignBegin=31148|AlignEnd=31395|Gloss=cow.Fem|nWord=5
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=31395|AlignEnd=31640|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_NARR_03_GMH_09-09
@@ -208,10 +208,10 @@
 2	tash	tak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=39194|AlignEnd=39428|Gloss=3FemSing.Perf.BackG|nWord=2
 3	shìga	shig-	VERB	_	_	2	comp:obj	_	AlignBegin=39428|AlignEnd=39662|Gloss=enter|nWord=3
 4	cikin	cikin	ADP	_	_	3	comp:obl	_	AlignBegin=39662|AlignEnd=39896|Gloss=in|nWord=4
-5	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=39896|AlignEnd=40130|Gloss=water|nWord=5
+5	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=39896|AlignEnd=40130|Gloss=water.Plur|nWord=5
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40130|AlignEnd=40364|Gloss=PUNCT|nWord=6
 7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=40364|AlignEnd=40598|Gloss=3Masc|nWord=7
-8	nàː	nàː	PART	_	_	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=be|nWord=8
+8	nàː	nàː	PART	_	_	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=be.Loc|nWord=8
 9	bìye	bìyaː	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=40832|AlignEnd=41066|Gloss=follow.Part.Stat|nWord=9
 10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=41066|AlignEnd=41300|Gloss=with|nWord=10
 11-12	shìgattà	_	_	_	_	_	_	_	_
@@ -234,7 +234,7 @@
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=42602|AlignEnd=42742|Gloss=PUNCT|nWord=7
 8-9	shinàː	_	_	_	_	_	_	_	_
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=42742|AlignEnd=42882|Gloss=3Masc|nWord=8
-9	nàː	nàː	PART	_	_	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=be|nWord=8
+9	nàː	nàː	PART	_	_	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=be.Loc|nWord=8
 10	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	9	comp:pred	_	AlignBegin=42882|AlignEnd=43022|Gloss=follow.Part.Stat|nWord=9
 11	dà	dà	ADP	_	_	10	comp:obl	_	AlignBegin=43022|AlignEnd=43162|Gloss=with|nWord=10
 12-13	shìgattà	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 6	wuriː	wuriː	NOUN	_	_	4	comp:obj	_	AlignBegin=45325|AlignEnd=45514|Gloss=place.Masc|nWord=6
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=45514|AlignEnd=45703|Gloss=PUNCT|nWord=7
 8	yas'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=45703|AlignEnd=45892|Gloss=3Masc.Perf.BackG|nWord=8
-9	s'ayàː	s'ayàː	NOUN	_	_	8	comp:aux	_	AlignBegin=45892|AlignEnd=46081|Gloss=stop|nWord=9
+9	s'ayàː	s'ay-	VERB	_	_	8	comp:aux	_	AlignBegin=45892|AlignEnd=46081|Gloss=stop|nWord=9
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=46081|AlignEnd=46270|Gloss=PUNCT|nWord=10
 11	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	8	conj:coord	_	AlignBegin=46270|AlignEnd=46459|Gloss=4.Perf.BackG|nWord=11
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=46459|AlignEnd=46648|Gloss=say|nWord=12
@@ -314,14 +314,14 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=53751|AlignEnd=53908|Gloss=say|nWord=4
 4	mà	mà	ADP	_	Case=Dat	3	comp:obl	_	AlignBegin=53908|AlignEnd=54065|Gloss=Dat|nWord=5
 5	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=54065|AlignEnd=54222|Gloss=king.Masc.Cons|nWord=6
-6	sauraːreː	sauraːreː	VERB	_	Gender=Masc	5	mod	_	AlignBegin=54222|AlignEnd=54379|Gloss=listening.Masc|nWord=7
+6	sauraːreː	sauraːr-	VERB	_	Gender=Masc	5	mod	_	AlignBegin=54222|AlignEnd=54379|Gloss=listening.Masc|nWord=7
 7	[	[	PUNCT	_	_	11	punct	_	AlignBegin=54379|AlignEnd=54536|Gloss=PUNCT|nWord=8
 8	tôː	tôː	INTJ	_	_	11	discourse	_	AlignBegin=54536|AlignEnd=54693|Gloss=well|nWord=9
 9	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	11	vocative	_	AlignBegin=54693|AlignEnd=54850|Gloss=2Masc.Nom|nWord=10
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=54850|AlignEnd=55007|Gloss=PUNCT|nWord=11
 11	gàː	gàː	PART	_	_	3	comp:pred	_	AlignBegin=55007|AlignEnd=55164|Gloss=here_is|nWord=12
 12-13	raːnakkà	_	_	_	_	_	_	_	_
-12	raːnak	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	11	subj	_	AlignBegin=55164|AlignEnd=55321|Gloss=day.Cons.Fem|nWord=13
+12	raːnak	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	11	subj	_	AlignBegin=55164|AlignEnd=55321|Gloss=day.Fem.Cons|nWord=13
 13	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	12	mod	_	AlignBegin=55164|AlignEnd=55321|Gloss=2Masc.Gen|nWord=13
 14	//]	//]	PUNCT	_	_	11	punct	_	AlignBegin=55321|AlignEnd=55478|Gloss=PUNCT|nWord=14
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=55478|AlignEnd=55640|Gloss=PUNCT|nWord=15
@@ -357,7 +357,7 @@
 21	shìgat	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	23	subj	_	AlignBegin=61288|AlignEnd=61554|Gloss=track.Fem.Cons|nWord=19
 22	=tà	=ta	NOUN	_	Gender=Fem|Person=3|PronType=Prs	21	mod@poss	_	AlignBegin=61288|AlignEnd=61554|Gloss=3Fem.Gen|nWord=19
 23	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	20	comp:obj	_	AlignBegin=61554|AlignEnd=61820|Gloss=3Fem.Perf|nWord=20
-24	s'ayàː	s'ayàː	VERB	_	_	23	comp:aux	_	AlignBegin=61820|AlignEnd=62086|Gloss=stop|nWord=21
+24	s'ayàː	s'ay-	VERB	_	_	23	comp:aux	_	AlignBegin=61820|AlignEnd=62086|Gloss=stop|nWord=21
 25	//	//	PUNCT	_	_	4	punct	_	AlignBegin=62086|AlignEnd=62360|Gloss=PUNCT|nWord=22
 
 # sent_id = HAUA_BC_NARR_03_GMH_17-17
@@ -373,9 +373,9 @@
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=64272|AlignEnd=64435|Gloss=hear|nWord=5
 6	anàː	nàː	AUX	_	Aspect=Imp|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Imp|nWord=6
 7	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=64598|AlignEnd=64761|Gloss=milk.NMLZ.Cons.Fem|nWord=7
-8	saːnìyât	saːnìyaː	NOUN	_	_	7	comp:obj	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow|nWord=8
-9	tan	yak	DET	_	Aspect=Perf|Deixis=Anaph|Evident=BackG|Gender=Fem|Person=3|PronType=Dem	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=3Fem.Perf.BackG|nWord=9
-10	samàː	samàː	NOUN	_	_	7	comp:loc	_	AlignBegin=65087|AlignEnd=65250|Gloss=sky|nWord=10
+8	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Cons|nWord=8
+9	tan	yak	DET	_	Deixis=Anaph|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Anaph.Fem|nWord=9
+10	samàː	samàː	NOUN	_	Gender=Fem	7	comp:loc	_	AlignBegin=65087|AlignEnd=65250|Gloss=sky.Fem|nWord=10
 11	ta	na	PRON	_	Gender=Fem	10	mod	_	AlignBegin=65250|AlignEnd=65413|Gloss=that_of.Fem|nWord=11
 12	bakwài	bakwài	NUM	_	_	11	mod@num	_	AlignBegin=65413|AlignEnd=65576|Gloss=seven|nWord=12
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65576|AlignEnd=65740|Gloss=PUNCT|nWord=13
@@ -424,7 +424,7 @@
 7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=72435|AlignEnd=72528|Gloss=PUNCT|nWord=7
 8	gàː	gàː	PART	_	_	5	comp:obj	_	AlignBegin=72528|AlignEnd=72621|Gloss=here_is|nWord=8
 9-10	raːnakkà	_	_	_	_	_	_	_	_
-9	raːnak	raːnaː	NOUN	_	_	8	subj	_	AlignBegin=72621|AlignEnd=72714|Gloss=day|nWord=9
+9	raːnak	raːnaː	NOUN	_	_	8	subj	_	AlignBegin=72621|AlignEnd=72714|Gloss=day.Fem.Cons|nWord=9
 10	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	mod@poss	_	AlignBegin=72621|AlignEnd=72714|Gloss=2Masc.Gen|nWord=9
 11	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=72714|AlignEnd=72807|Gloss=PUNCT|nWord=10
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=72807|AlignEnd=72900|Gloss=PUNCT|nWord=11
@@ -465,7 +465,7 @@
 1	saidà	saidà	SCONJ	_	_	8	mod	_	AlignBegin=79920|AlignEnd=80266|Gloss=when|nWord=1
 2	taz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=80612|AlignEnd=80958|Gloss=3Fem.Perf.BackG|nWord=3
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=80958|AlignEnd=81304|Gloss=go|nWord=4
-4	samàː	samàː	NOUN	_	Gender=Fem	3	comp:loc	_	AlignBegin=81304|AlignEnd=81650|Gloss=sky.FEM|nWord=5
+4	samàː	samàː	NOUN	_	Gender=Fem	3	comp:loc	_	AlignBegin=81304|AlignEnd=81650|Gloss=sky.Fem|nWord=5
 5	ta	na	PRON	_	Gender=Fem	4	mod	_	AlignBegin=81650|AlignEnd=81996|Gloss=that_of.Fem|nWord=6
 6	bakwài	bakwài	NUM	_	_	5	mod@num	_	AlignBegin=81996|AlignEnd=82342|Gloss=seven|nWord=7
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=82342|AlignEnd=82688|Gloss=PUNCT|nWord=8
@@ -474,7 +474,7 @@
 10	mùtûm	mùtunèː	NOUN	_	_	9	comp:obj	_	AlignBegin=83380|AlignEnd=83726|Gloss=human|nWord=11
 11	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	10	mod@relcl	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Imp|nWord=12
 12	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=84072|AlignEnd=84418|Gloss=milk.NMLZ.Cons.Fem|nWord=13
-13	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	12	comp:obj	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Cons.Fem|nWord=14
+13	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	12	comp:obj	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Fem.Cons|nWord=14
 14	tan	yak	DET	_	Aspect=Perf|Deixis=Anaph|Evident=BackG|Gender=Fem|Person=3|PronType=Dem	13	det	_	AlignBegin=84764|AlignEnd=85110|Gloss=3Fem.Perf.BackG|nWord=15
 15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=85110|AlignEnd=85448|Gloss=PUNCT|nWord=16
 
@@ -521,7 +521,7 @@
 3	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=93205|AlignEnd=93360|Gloss=4Perf.BackG|nWord=4
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=93360|AlignEnd=93515|Gloss=say|nWord=5
 5	mà	mà	ADP	_	Case=Dat	4	comp:obl	_	AlignBegin=93515|AlignEnd=93670|Gloss=Dat|nWord=6
-6	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Fem	5	comp:obj	_	AlignBegin=93670|AlignEnd=93825|Gloss=king.Masc.Cons.Fem|nWord=7
+6	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj	_	AlignBegin=93670|AlignEnd=93825|Gloss=king.Masc.Cons|nWord=7
 7	sarɓaː	sarɓ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	mod	_	AlignBegin=93825|AlignEnd=93980|Gloss=lassoo.NMLZ.Fem|nWord=8
 8	[	[	PUNCT	_	_	12	punct	_	AlignBegin=93980|AlignEnd=94135|Gloss=PUNCT|nWord=9
 9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	12	dislocated@top	_	AlignBegin=94135|AlignEnd=94290|Gloss=3Masc.Nom|nWord=10
@@ -529,7 +529,7 @@
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=94445|AlignEnd=94600|Gloss=PUNCT|nWord=12
 12	gàː	gàː	PART	_	_	4	comp:obj	_	AlignBegin=94600|AlignEnd=94755|Gloss=here_is|nWord=13
 13-14	raːnaːtai	_	_	_	_	_	_	_	_
-13	raːnaː	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	subj	_	AlignBegin=94755|AlignEnd=94910|Gloss=day.Cons.Fem|nWord=14
+13	raːnaː	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	subj	_	AlignBegin=94755|AlignEnd=94910|Gloss=day.Fem.Cons|nWord=14
 14	=tai	=ya	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	13	mod@poss	_	AlignBegin=94755|AlignEnd=94910|Gloss=3Masc.Gen|nWord=14
 15	]	]	PUNCT	_	_	12	punct	_	AlignBegin=94910|AlignEnd=95065|Gloss=PUNCT|nWord=15
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=95065|AlignEnd=95220|Gloss=PUNCT|nWord=16
@@ -543,7 +543,7 @@
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=96580|AlignEnd=96775|Gloss=3Masc.Nom|nWord=1
 2	koː	koː	PART	_	_	1	mod	_	AlignBegin=96775|AlignEnd=96970|Gloss=as_for|nWord=2
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=96970|AlignEnd=97165|Gloss=PUNCT|nWord=3
-4	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Fem	7	dislocated@subj	_	AlignBegin=97165|AlignEnd=97360|Gloss=king.Masc.Cons.Fem|nWord=4
+4	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	7	dislocated@subj	_	AlignBegin=97165|AlignEnd=97360|Gloss=king.Masc.Cons|nWord=4
 5	sarɓaː	sarɓ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	mod	_	AlignBegin=97360|AlignEnd=97555|Gloss=lassoo.NMLZ.Fem|nWord=5
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=97555|AlignEnd=97750|Gloss=PUNCT|nWord=6
 7	yas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=97750|AlignEnd=97945|Gloss=3Masc.Perf.BackG|nWord=7
