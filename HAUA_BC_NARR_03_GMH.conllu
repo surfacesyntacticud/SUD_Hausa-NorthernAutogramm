@@ -9,7 +9,7 @@
 3	dai	dai	PART	_	_	1	mod	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed|nWord=3
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT|nWord=4
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some.Plur|nWord=5
-6	mutàːne	mùtunèː	NOUN	_	Number=Plur	7	comp:pred	_	AlignBegin=3255|AlignEnd=3546|Gloss=human_being|nWord=6
+6	mutàːneː	mùtunèː	NOUN	_	Number=Plur	7	comp:pred	_	AlignBegin=3255|AlignEnd=3546|Gloss=human.Plur|nWord=6|wordform=mutàːne
 7	nà:	nà:	PART	_	_	0	root	_	AlignBegin=3546|AlignEnd=3837|Gloss=FOC|nWord=7
 8	>	>	PUNCT	_	_	10	punct	_	AlignBegin=3837|AlignEnd=4128|Gloss=PUNCT|nWord=8
 9	su	su	DET	_	Number=Plur	10	det	_	AlignBegin=4128|AlignEnd=4419|Gloss=Plur|nWord=9
@@ -211,7 +211,7 @@
 5	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=39896|AlignEnd=40130|Gloss=water.Plur|nWord=5
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40130|AlignEnd=40364|Gloss=PUNCT|nWord=6
 7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=40364|AlignEnd=40598|Gloss=3Masc|nWord=7
-8	nàː	nàː	PART	_	_	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=be.Loc|nWord=8
+8	nàː	nàː	PART	_	_	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=be/Loc|nWord=8
 9	bìye	bìyaː	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=40832|AlignEnd=41066|Gloss=follow.Part.Stat|nWord=9
 10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=41066|AlignEnd=41300|Gloss=with|nWord=10
 11-12	shìgattà	_	_	_	_	_	_	_	_
@@ -234,7 +234,7 @@
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=42602|AlignEnd=42742|Gloss=PUNCT|nWord=7
 8-9	shinàː	_	_	_	_	_	_	_	_
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=42742|AlignEnd=42882|Gloss=3Masc|nWord=8
-9	nàː	nàː	PART	_	_	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=be.Loc|nWord=8
+9	nàː	nàː	PART	_	_	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=be/Loc|nWord=8
 10	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	9	comp:pred	_	AlignBegin=42882|AlignEnd=43022|Gloss=follow.Part.Stat|nWord=9
 11	dà	dà	ADP	_	_	10	comp:obl	_	AlignBegin=43022|AlignEnd=43162|Gloss=with|nWord=10
 12-13	shìgattà	_	_	_	_	_	_	_	_
@@ -376,7 +376,7 @@
 8	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Cons|nWord=8
 9	tan	nan	DET	_	Deixis=Anaph|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Anaph.Fem|nWord=9
 10	samàː	samàː	NOUN	_	Gender=Fem	7	comp:loc	_	AlignBegin=65087|AlignEnd=65250|Gloss=sky.Fem|nWord=10
-11	ta	na	PRON	_	Gender=Fem	10	mod	_	AlignBegin=65250|AlignEnd=65413|Gloss=that_of.Fem|nWord=11
+11	ta	na	PRON	_	Case=Gen|Gender=Fem	10	mod	_	AlignBegin=65250|AlignEnd=65413|Gloss=Gen.Fem|nWord=11
 12	bakwài	bakwài	NUM	_	_	11	mod@num	_	AlignBegin=65413|AlignEnd=65576|Gloss=seven|nWord=12
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65576|AlignEnd=65740|Gloss=PUNCT|nWord=13
 
@@ -466,12 +466,12 @@
 2	taz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=80612|AlignEnd=80958|Gloss=3Fem.Perf.BackG|nWord=3
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=80958|AlignEnd=81304|Gloss=go|nWord=4
 4	samàː	samàː	NOUN	_	Gender=Fem	3	comp:loc	_	AlignBegin=81304|AlignEnd=81650|Gloss=sky.Fem|nWord=5
-5	ta	na	PRON	_	Gender=Fem	4	mod	_	AlignBegin=81650|AlignEnd=81996|Gloss=that_of.Fem|nWord=6
+5	ta	na	PRON	_	Case=Gen|Gender=Fem	4	mod	_	AlignBegin=81650|AlignEnd=81996|Gloss=Gen.Fem|nWord=6
 6	bakwài	bakwài	NUM	_	_	5	mod@num	_	AlignBegin=81996|AlignEnd=82342|Gloss=seven|nWord=7
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=82342|AlignEnd=82688|Gloss=PUNCT|nWord=8
 8	ta'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=82688|AlignEnd=83034|Gloss=3Fem.Perf.BackG|nWord=9
 9	îskè	isk-	VERB	_	_	8	comp:obj	_	AlignBegin=83034|AlignEnd=83380|Gloss=find|nWord=10
-10	mùtûm	mùtunèː	NOUN	_	_	9	comp:obj	_	AlignBegin=83380|AlignEnd=83726|Gloss=human|nWord=11
+10	mùtûm	mùtunèː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=83380|AlignEnd=83726|Gloss=human.Masc|nWord=11
 11	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	10	mod@relcl	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Imp|nWord=12
 12	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=84072|AlignEnd=84418|Gloss=milk.NMLZ.Cons.Fem|nWord=13
 13	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	12	comp:obj	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Fem.Cons|nWord=14
@@ -488,7 +488,7 @@
 2	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	19	dislocated@comp	_	AlignBegin=85720|AlignEnd=85992|Gloss=cow.Fem|nWord=2
 3	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=85992|AlignEnd=86264|Gloss=PUNCT|nWord=3
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=86264|AlignEnd=86536|Gloss=with|nWord=4
-5	mài	mài	PART	_	ExtPos=NOUN	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=doer|nWord=5
+5	mài	mài	PRON	_	Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=owner_of.Sing|nWord=5
 6-7	taːs'àtta	_	_	_	_	_	_	_	_
 6	taːs'àt	taːs'àt	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	compound	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.NMLZ.Fem|nWord=6
 7	=ta	=ta	PRON	_	ExtPos=NOUN|Gender=Fem|Person=3|PronType=Prs|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=86808|AlignEnd=87080|Gloss=3Fem.Gen|nWord=6

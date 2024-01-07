@@ -64,7 +64,7 @@
 # text = shi nàː tàhe //
 # text_en = He was walking.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=24520|AlignEnd=24687|Gloss=3Masc|nWord=1
-2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=be.Loc|nWord=1
+2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=be/Loc|nWord=1
 3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=24687|AlignEnd=24854|Gloss=walk.Part.Stat|nWord=2
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=24854|AlignEnd=25020|Gloss=PUNCT|nWord=3
 
@@ -76,15 +76,15 @@
 # text = shi nàː tàhe |r shi nàː tàhe |r shi nàː tàhe //
 # text_en = He kept walking, and walking, and walking.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=25960|AlignEnd=26133|Gloss=3Masc|nWord=1
-2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=be.Loc|nWord=1
+2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=be/Loc|nWord=1
 3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=26133|AlignEnd=26306|Gloss=walk.Part.Stat|nWord=2
 4	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=26306|AlignEnd=26479|Gloss=PUNCT|nWord=3
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=26479|AlignEnd=26652|Gloss=3Masc|nWord=4
-6	nàː	nàː	PART	_	_	2	conj:coord	_	AlignBegin=26479|AlignEnd=26652|Gloss=be.Loc|nWord=4
+6	nàː	nàː	PART	_	_	2	conj:coord	_	AlignBegin=26479|AlignEnd=26652|Gloss=be/Loc|nWord=4
 7	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=26652|AlignEnd=26825|Gloss=walk.Part.Stat|nWord=5
 8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=26825|AlignEnd=26998|Gloss=PUNCT|nWord=6
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=26998|AlignEnd=27171|Gloss=3Masc|nWord=7
-10	nàː	nàː	PART	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=be.Loc|nWord=7
+10	nàː	nàː	PART	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=be/Loc|nWord=7
 11	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	10	comp:pred	_	AlignBegin=27171|AlignEnd=27344|Gloss=walk.Part.Stat|nWord=8
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=27344|AlignEnd=27521|Gloss=PUNCT|nWord=9
 
@@ -198,7 +198,7 @@
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=46565|AlignEnd=46680|Gloss=PUNCT|nWord=4
 5	tôː	tôː	INTJ	_	_	6	discourse	_	AlignBegin=46680|AlignEnd=46795|Gloss=well|nWord=5
 6	bàri	barìː	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=46795|AlignEnd=46910|Gloss=let.Jus|nWord=6
-7	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	comp:pred	_	AlignBegin=46910|AlignEnd=47025|Gloss=1Sing.Aor|nWord=7
+7	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	comp:pred	_	AlignBegin=46910|AlignEnd=47025|Gloss=1Sing.Aor|nWord=7|wordform=ìn
 8	shìga	shig-	VERB	_	_	7	comp:aux	_	AlignBegin=47025|AlignEnd=47140|Gloss=enter|nWord=8
 9	ruwân	ruwaː	NOUN	_	Definite=Cons|Number=Plur	8	comp:goal	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Cons|nWord=9
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=47255|AlignEnd=47370|Gloss=Prox|nWord=10
@@ -225,7 +225,7 @@
 11	saː	saː	VERB	_	Mood=Jus	0	root	_	AlignBegin=51456|AlignEnd=51738|Gloss=put.Jus|nWord=11
 12	maːshìn	maːshìː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	AlignBegin=51738|AlignEnd=52020|Gloss=spear.Masc.Cons|nWord=12
 13	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	12	det	_	AlignBegin=52020|AlignEnd=52302|Gloss=Anaph|nWord=13
-14	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	11	conj:coord	_	AlignBegin=52302|AlignEnd=52584|Gloss=2Fem.Aor|nWord=14
+14	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	11	conj:coord	_	AlignBegin=52302|AlignEnd=52584|Gloss=2Fem.Aor|nWord=14|wordform=kì
 15	soːkàː	soːk-	VERB	_	_	14	comp:aux	_	AlignBegin=52584|AlignEnd=52866|Gloss=stab|nWord=15
 16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=52866|AlignEnd=53152|Gloss=PUNCT|nWord=16
 
@@ -442,7 +442,7 @@
 # text_en = Then, as he was walking, he saw her.
 1	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until|nWord=1
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc|nWord=2
-3	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=be.Loc|nWord=2
+3	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=be/Loc|nWord=2
 4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=in|nWord=3
 5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.NMLZ.Fem|nWord=4
 6	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|nWord=5
@@ -501,7 +501,7 @@
 # text_en = There were many elephants standing there.
 1	giːwàːyeː	giːwaː	NOUN	_	_	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.plur|nWord=1
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur|nWord=2
-3	nàː	nàː	PART	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=be.Loc|nWord=2
+3	nàː	nàː	PART	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=be/Loc|nWord=2
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|nWord=3
 5	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|nWord=4
 6	dà	dà	ADP	_	_	5	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|nWord=5
@@ -513,7 +513,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.wav
 # sent_timecode = 103106, 107353
 # phonetic_text = yac cêː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìnsu !//] //
-# text = yac cèː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìnsu !//] //
+# text = yac cèː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìn =su !//] //
 # text_en = He told her "Look, go near those elephants, tell them that I'm insulting them!"
 1	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Gloss=3Masc.Perf.BackG|nWord=1
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say|nWord=2
@@ -530,9 +530,11 @@
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say|nWord=13
 14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat|nWord=14
 15	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Imp|nWord=15
-16	ɓaːcìnsu	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.NMLZ.Masc.Cons|nWord=16
-17	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=106882|AlignEnd=107118|Gloss=PUNCT|nWord=17
-18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107118|AlignEnd=107353|Gloss=PUNCT|nWord=18
+16-17	ɓaːcìnsu	_	_	_	_	_	_	_	_
+16	ɓaːcìn	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.NMLZ.Masc.Cons|nWord=16
+17	=su	=su	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.NMLZ.Masc.Cons|nWord=16
+18	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=106882|AlignEnd=107118|Gloss=PUNCT|nWord=17
+19	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107118|AlignEnd=107353|Gloss=PUNCT|nWord=18
 
 # sent_id = HAUA_BC_NARR_O1_KA_29-29
 # speaker_id = SP
@@ -572,7 +574,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=116086|AlignEnd=116209|Gloss=PUNCT|nWord=3
 4	ìnaː	ìnaː	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=116209|AlignEnd=116332|Gloss=where|nWord=4
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=116332|AlignEnd=116455|Gloss=3Masc|nWord=5
-6	kè	nàː	PART	_	Evident=BackG	4	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Gloss=be.Loc.BackG|nWord=6
+6	kè	nàː	PART	_	Evident=BackG	4	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Gloss=be/Loc.BackG|nWord=6
 7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=116578|AlignEnd=116701|Gloss=PUNCT|nWord=7
 8	]	]	PUNCT	_	_	4	punct	_	AlignBegin=116701|AlignEnd=116824|Gloss=PUNCT|nWord=8
 
@@ -606,7 +608,7 @@
 6	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	mod	_	AlignBegin=118339|AlignEnd=118511|Gloss=arrive.NMLZ.Fem|nWord=6
 7	indà	indà	ADV	_	PronType=Rel	6	mod	_	AlignBegin=118511|AlignEnd=118683|Gloss=where|nWord=7
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=118683|AlignEnd=118855|Gloss=3Masc|nWord=8
-9	kè	nàː	PART	_	Evident=BackG	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Gloss=be.Loc.BackG|nWord=9
+9	kè	nàː	PART	_	Evident=BackG	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Gloss=be/Loc.BackG|nWord=9
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=119027|AlignEnd=119202|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUA_BC_NARR_O1_KA_33-33
@@ -658,7 +660,7 @@
 3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=bring|nWord=4
 4	indà	indà	ADV	_	PronType=Rel	3	comp:loc	_	AlignBegin=126848|AlignEnd=126955|Gloss=where|nWord=5
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=126955|AlignEnd=127062|Gloss=3Masc|nWord=6
-6	kè	nàː	PART	_	Evident=BackG	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=be.Loc.BackG|nWord=7
+6	kè	nàː	PART	_	Evident=BackG	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=be/Loc.BackG|nWord=7
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT|nWord=8
 8	dus	duk	DET	_	PronType=Tot	9	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all|nWord=9
 9	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=127383|AlignEnd=127490|Gloss=3Plur.Perf|nWord=10
@@ -676,8 +678,8 @@
 # text = baːbù mài taːshìː tsàye //
 # text_en = None could get up.
 1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg|nWord=1
-2	mài	mài	PART	_	_	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=one_who|nWord=2
-3	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.NMLZ.Masc|nWord=3
+2	mài	mài	PRON	_	Number=Sing	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=owner_of.Sing|nWord=2
+3	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	compound	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.NMLZ.Masc|nWord=3
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat|nWord=4
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT|nWord=5
 
@@ -727,17 +729,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.wav
 # sent_timecode = 135460, 136800
 # phonetic_text = taz zamnàː nân |c tay yi ta cîn naːmàː //
-# text = taz zamnàː nân |c tay yita cîn naːmàː //
+# text = taz zamnàː nân |c tay yi ta cîn naːmàː //
 # text_en = She sat down, and started to eat the meat.
 1	taz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=135460|AlignEnd=135594|Gloss=3Fem.Perf.BackG|nWord=1
 2	zamnàː	zamn-	VERB	_	_	1	comp:aux	_	AlignBegin=135594|AlignEnd=135728|Gloss=stay/sit|nWord=2
 3	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	2	comp:obj	_	AlignBegin=135728|AlignEnd=135862|Gloss=Prox|nWord=3
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=135862|AlignEnd=135996|Gloss=PUNCT|nWord=4
 5	tay	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=135996|AlignEnd=136130|Gloss=3Fem.Perf.BackG|nWord=5
-6	yita	ta	AUX	_	Aspect=Iter	5	comp:aux	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter|nWord=6
-7	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=136398|AlignEnd=136532|Gloss=eat.NMLZ.Masc.Cons|nWord=8
-8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	comp:obj	_	AlignBegin=136532|AlignEnd=136666|Gloss=meat.Masc|nWord=9
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=136666|AlignEnd=136800|Gloss=PUNCT|nWord=10
+6	yi	yi	AUX	_	Aspect=Iter	5	comp:aux	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter|nWord=6
+7	ta	ta	PART	_	Aspect=Iter	8	mod	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter|nWord=6
+8	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=136398|AlignEnd=136532|Gloss=eat.NMLZ.Masc.Cons|nWord=8
+9	naːmàː	naːmàː	NOUN	_	Gender=Masc	8	comp:obj	_	AlignBegin=136532|AlignEnd=136666|Gloss=meat.Masc|nWord=9
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=136666|AlignEnd=136800|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUA_BC_NARR_O1_KA_40-40
 # speaker_id = SP
@@ -747,15 +750,15 @@
 # text = ta nàː nan tanàː ta cîn naːmàː |r ta nàː nan tanàː ta cîn naːmàː //
 # text_en = She kept eating and eating the meat.
 1	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|nWord=1
-2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=be.Loc|nWord=1
+2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=be/Loc|nWord=1
 3	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Anaph|nWord=2
 4	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Imp|nWord=3
-5	ta	ta	PART	_	_	6	mod	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|nWord=4
+5	ta	ta	PART	_	Aspect=Iter	6	mod	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|nWord=4
 6	cîn	cîn	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.NMLZ.Masc.Cons|nWord=5
 7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc|nWord=6
 8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT|nWord=7
 9	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	subj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem|nWord=8
-10	nàː	nàː	PART	_	_	4	conj:coord	_	AlignBegin=140373|AlignEnd=140512|Gloss=be.Loc|nWord=8
+10	nàː	nàː	PART	_	_	4	conj:coord	_	AlignBegin=140373|AlignEnd=140512|Gloss=be/Loc|nWord=8
 11	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	10	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Anaph|nWord=9
 12	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	10	conj:coord	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Imp|nWord=10
 13	ta	ta	PART	_	Aspect=Iter	14	mod	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|nWord=11
