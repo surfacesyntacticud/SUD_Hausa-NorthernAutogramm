@@ -227,10 +227,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.wav
 # sent_timecode = 46018, 48390
 # phonetic_text = idan niz zoː |c kat tunoː < sai ìn zakà ìn ƙaːràː //
-# text = ìdan niz zoː |c kat tunoː < sai ìn zakà ìn ƙaːràː //
+# text = ìdan niz zoː |c kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text_en = When I go, and you remember, I will come (back) and add more.
 1	ìdan	ìdan	SCONJ	_	_	9	mod	_	AlignBegin=46018|AlignEnd=46200|Gloss=if|nWord=1
-2	niz	yak	AUX	_	Aspect=Aor|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=46200|AlignEnd=46382|Gloss=1Sing.Aor|nWord=2
+2	niz	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=46200|AlignEnd=46382|Gloss=1Sing.Perf.BackG|nWord=2
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=46382|AlignEnd=46564|Gloss=go|nWord=3
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=46564|AlignEnd=46746|Gloss=PUNCT|nWord=4
 5	kat	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=46746|AlignEnd=46928|Gloss=2Masc.Perf.BackG|nWord=5
@@ -276,7 +276,7 @@
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=52270|AlignEnd=52495|Gloss=with|nWord=7
 8	saurad	sauraː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=52495|AlignEnd=52720|Gloss=remains.Fem.Cons|nWord=8
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=52720|AlignEnd=52945|Gloss=as|nWord=9
-10	ad	ak	PART	_	Evident=BackG	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Gloss=be.BackG|nWord=10
+10	ad	ak	PART	_	Evident=BackG	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Gloss=be/Loc.BackG|nWord=10
 11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=53170|AlignEnd=53395|Gloss=with|nWord=11
 12	sauraː	sauraː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=53395|AlignEnd=53620|Gloss=remains.Fem|nWord=12
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=53620|AlignEnd=53848|Gloss=PUNCT|nWord=13
@@ -497,7 +497,7 @@
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=121348|AlignEnd=121734|Gloss=PUNCT|nWord=7
 8	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=121734|AlignEnd=122120|Gloss=3Masc.Perf.BackG|nWord=8
 9	cêː	cêː	VERB	_	_	8	comp:aux	_	AlignBegin=122120|AlignEnd=122506|Gloss=say|nWord=9
-10	mai	mai	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	comp:obl	_	AlignBegin=122506|AlignEnd=122892|Gloss=3Sing.Dat|nWord=10
+10	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	9	comp:obl	_	AlignBegin=122506|AlignEnd=122892|Gloss=3Masc.Dat|nWord=10
 11	[	[	PUNCT	_	_	12	punct	_	AlignBegin=122892|AlignEnd=123278|Gloss=PUNCT|nWord=11
 12	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	9	comp:obj	_	AlignBegin=123278|AlignEnd=123664|Gloss=1Sing.Imp|nWord=12
 13	gàyyaː.	gàyyaː.	VERB	_	Gender=Fem	12	comp:aux	_	AlignBegin=123664|AlignEnd=124050|Gloss=communal_farming.Fem|nWord=13
@@ -558,7 +558,7 @@
 1	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=133905|AlignEnd=134146|Gloss=3Masc.Perf.BackG|nWord=1
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=134146|AlignEnd=134387|Gloss=say|nWord=2
 3	mà	mà	ADP	_	Case=Dat	2	comp:obl	_	AlignBegin=134387|AlignEnd=134628|Gloss=Dat|nWord=3
-4	kàreː	kàreː	VERB	_	_	3	comp:obj	_	AlignBegin=134628|AlignEnd=134869|nWord=4
+4	kàreː	kàreː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=134628|AlignEnd=134869|Gloss=dog.Masc|nWord=4
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=134869|AlignEnd=135110|Gloss=PUNCT|nWord=5
 6	kàreː	kàreː	NOUN	_	Gender=Masc	7	vocative	_	AlignBegin=135110|AlignEnd=135351|Gloss=dog.Masc|nWord=6
 7	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=135351|AlignEnd=135592|Gloss=1Sing.Imp|nWord=7
@@ -576,7 +576,7 @@
 1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=137500|AlignEnd=137724|Gloss=dog.Masc|nWord=1
 2	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=137724|AlignEnd=137948|Gloss=3Masc.Perf.BackG|nWord=2
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=137948|AlignEnd=138172|Gloss=say|nWord=3
-4	mai	mai	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=138172|AlignEnd=138396|Gloss=3Sing.Dat|nWord=4
+4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=138172|AlignEnd=138396|Gloss=3Masc.Dat|nWord=4
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=138396|AlignEnd=138620|Gloss=PUNCT|nWord=5
 6	kanàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=2	3	comp:obj	_	AlignBegin=138620|AlignEnd=138844|Gloss=2Masc.Imp|nWord=6
 7	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	6	comp:aux	_	AlignBegin=138844|AlignEnd=139068|Gloss=communal_hunting.Fem|nWord=7
@@ -972,7 +972,7 @@
 # phonetic_text = kàreː yaz zakà < kàram ɓiki ya cèː [ sànnu dà zuwàː !//] //
 # text = kàreː yaz zakà |c kàram ɓiki yac cèː [ sànnu dà zuwàː !//] //
 # text_en = WWhen Dog arrived, Jackal said "Welcome!"
-1	kàreː	kàreː	PRON	_	Gender=Masc	2	subj	_	AlignBegin=210800|AlignEnd=211015|Gloss=dog.Masc|nWord=1
+1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=210800|AlignEnd=211015|Gloss=dog.Masc|nWord=1
 2	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=211015|AlignEnd=211230|Gloss=3Masc.Perf.BackG|nWord=2
 3	zakà	zak-	VERB	_	_	2	mod	_	AlignBegin=211230|AlignEnd=211445|Gloss=arrive|nWord=3
 4	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=211445|AlignEnd=211660|Gloss=PUNCT|nWord=4
@@ -1109,7 +1109,7 @@
 1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Jus|nWord=1
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=230462|AlignEnd=230679|Gloss=PUNCT|nWord=2
 3	gàː	gàː	PART	_	_	1	parataxis@conj	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is|nWord=3
-4	kàreː	kàreː	VERB	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc|nWord=4
+4	kàreː	kàreː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc|nWord=4
 5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Gloss=Prox|nWord=5
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=231330|AlignEnd=231548|Gloss=PUNCT|nWord=6
 
@@ -1297,7 +1297,7 @@
 # text = sa’ànnan gàːtawaːn taː waːc’èː //
 # text_en = That's the end of the tale.
 1	sa’ànnan	sa’ànnan	ADV	_	_	3	mod	_	AlignBegin=269458|AlignEnd=269675|Gloss=then|nWord=1
-2	gàːtawaːn	X	X	_	_	3	subj	_	AlignBegin=269892|AlignEnd=270109|Gloss=tale|nWord=3
+2	gàːtawaːn	X	X	_	_	3	subj	_	AlignBegin=269892|AlignEnd=270109|Gloss=X|nWord=3
 3	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=270109|AlignEnd=270326|Gloss=3Fem.Perf|nWord=4
 4	waːc'èː	waːs'-	VERB	_	_	3	comp:aux	_	AlignBegin=270326|AlignEnd=270543|Gloss=scatter|nWord=5|wordform=waːc’èː
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=270543|AlignEnd=270761|Gloss=PUNCT|nWord=6
