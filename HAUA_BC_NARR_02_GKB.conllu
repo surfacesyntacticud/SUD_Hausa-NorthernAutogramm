@@ -131,7 +131,7 @@
 # phonetic_text = indà kaː tunàː dai < yànzu in kai yi tà < in yas soː < kaː san dà yawàː //
 # text = indà kaː tunàː dai < yànzu in kay yiː tà < in yas soː < kaː san dà yawàː //
 # text_en = If you remember indeed, now if you tell the tales, if he wants, you know many.
-1	indà	indà	SCONJ	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=when|nWord=1
+1	indà	indà	ADV	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=when|nWord=1
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=34938|AlignEnd=35141|Gloss=2Masc.Perf|nWord=2
 3	tunàː	tun-	VERB	_	_	2	comp:aux	_	AlignBegin=35141|AlignEnd=35344|Gloss=remember|nWord=3
 4	dai	dai	PART	_	_	2	mod	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed|nWord=4
@@ -177,7 +177,7 @@
 2	yas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=40302|AlignEnd=40468|Gloss=3Masc.Perf.BackG|nWord=2
 3	soː	soː	VERB	_	_	2	comp:aux	_	AlignBegin=40468|AlignEnd=40634|Gloss=want|nWord=3
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40634|AlignEnd=40800|Gloss=PUNCT|nWord=4
-5	im	in	SCONJ	_	_	9	mod	_	AlignBegin=40800|AlignEnd=40966|Gloss=if|nWord=5
+5	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40800|AlignEnd=40966|Gloss=if|nWord=5|wordform=im
 6	munkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=40966|AlignEnd=41132|Gloss=1Plur.Perf.BackG|nWord=6
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=41132|AlignEnd=41298|Gloss=go|nWord=7
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=41298|AlignEnd=41464|Gloss=PUNCT|nWord=8
@@ -644,7 +644,7 @@
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=147241|AlignEnd=147456|Gloss=go|nWord=2
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=147456|AlignEnd=147671|Gloss=PUNCT|nWord=3
 4	yah	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=147671|AlignEnd=147886|Gloss=3Masc.Perf.BackG|nWord=4
-5	hwaɗàː	hwaɗàː	VERB	_	_	4	comp:aux	_	AlignBegin=147886|AlignEnd=148101|Gloss=tell|nWord=5
+5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=147886|AlignEnd=148101|Gloss=tell|nWord=5
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	AlignBegin=148101|AlignEnd=148316|Gloss=Dat|nWord=6
 7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148316|AlignEnd=148531|Gloss=hyena.Fem|nWord=7
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=148531|AlignEnd=148744|Gloss=PUNCT|nWord=8
@@ -694,7 +694,7 @@
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=155046|AlignEnd=155252|Gloss=go|nWord=2
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=155458|AlignEnd=155664|Gloss=PUNCT|nWord=4
 4	yah	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=155664|AlignEnd=155870|Gloss=3Masc.Perf.BackG|nWord=5
-5	hwaɗàː	hwaɗàː	VERB	_	_	4	comp:aux	_	AlignBegin=155870|AlignEnd=156076|Gloss=tell|nWord=6
+5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=155870|AlignEnd=156076|Gloss=tell|nWord=6
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	AlignBegin=156076|AlignEnd=156282|Gloss=Dat|nWord=7
 7	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=156282|AlignEnd=156488|Gloss=leopard.Fem|nWord=8
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=156488|AlignEnd=156694|Gloss=PUNCT|nWord=9
@@ -815,7 +815,7 @@
 7	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=184797|AlignEnd=185162|Gloss=cock.Masc|nWord=7
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=185162|AlignEnd=185527|Gloss=PUNCT|nWord=8
 9	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=185527|AlignEnd=185892|Gloss=1Plur.Perf|nWord=9
-10	isoː	is-	PRON	_	_	9	mod	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive|nWord=10
+10	isoː	is-	VERB	_	_	9	mod	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive|nWord=10
 11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=186257|AlignEnd=186622|Gloss=PUNCT|nWord=11
 12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis@conj	_	AlignBegin=186622|AlignEnd=186987|Gloss=2Masc.Perf|nWord=12
 13	zakà	zak-	VERB	_	_	12	comp:pred	_	AlignBegin=186987|AlignEnd=187352|Gloss=arrive|nWord=13

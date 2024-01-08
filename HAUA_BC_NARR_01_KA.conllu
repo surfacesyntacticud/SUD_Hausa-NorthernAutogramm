@@ -125,7 +125,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.wav
 # sent_timecode = 32762, 37336
 # phonetic_text = tanàː sôn tà ciː shìː |r tanàː sôn tà ciː shìː |r tanàː sôn tà ciː shìː har sunkà kai gà bàːkin tabkìː //
-# text = tanàː sôn tà ciː shì |r tanàː sôn tà ciː shìː |r tanàː sôn tà ciː shì |c har sunkà kai gà bàːkin tabkìː //
+# text = tanàː sôn tà ciː shì |r tanàː sôn tà ciː shìː |r tanàː sôn tà ciː shì har sunkà kai gà bàːkin tabkìː //
 # text_en = She kept wanting to eat him until they reached the bank of the river.
 1	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=32762|AlignEnd=32953|Gloss=3Fem.Imp|nWord=1
 2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=32953|AlignEnd=33144|Gloss=want.NMLZ.Masc.Cons|nWord=2
@@ -133,25 +133,24 @@
 4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=33335|AlignEnd=33526|Gloss=eat|nWord=4
 5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=33526|AlignEnd=33717|Gloss=3Masc|nWord=5
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=33717|AlignEnd=33908|Gloss=PUNCT|nWord=6
-7	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=33908|AlignEnd=34099|Gloss=3Fem.Imp|nWord=7
+7	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	1	conj:redup	_	AlignBegin=33908|AlignEnd=34099|Gloss=3Fem.Imp|nWord=7
 8	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=34099|AlignEnd=34290|Gloss=want.NMLZ.Masc.Cons|nWord=8
 9	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	8	comp:obj	_	AlignBegin=34290|AlignEnd=34481|Gloss=3Fem.Aor|nWord=9
 10	ciː	ci	VERB	_	_	9	comp:aux	_	AlignBegin=34481|AlignEnd=34672|Gloss=eat|nWord=10
 11	shìː	shi	NOUN	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=34672|AlignEnd=34863|Gloss=3Masc|nWord=11
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=34863|AlignEnd=35054|Gloss=PUNCT|nWord=12
-13	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	7	conj:coord	_	AlignBegin=35054|AlignEnd=35245|Gloss=3Fem.Imp|nWord=13
+13	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	7	conj:redup	_	AlignBegin=35054|AlignEnd=35245|Gloss=3Fem.Imp|nWord=13
 14	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=35245|AlignEnd=35436|Gloss=want.NMLZ.Masc.Cons|nWord=14
 15	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	14	comp:obj	_	AlignBegin=35436|AlignEnd=35627|Gloss=3Fem.Aor|nWord=15
 16	ciː	ci	VERB	_	_	15	comp:aux	_	AlignBegin=35627|AlignEnd=35818|Gloss=eat|nWord=16
 17	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=35818|AlignEnd=36009|Gloss=3Masc|nWord=17
-18	|c	|c	PUNCT	_	_	20	cc	_	AlignBegin=36009|AlignEnd=36200|Gloss=PUNCT|nWord=18
-19	har	har	CCONJ	_	_	20	cc	_	AlignBegin=36009|AlignEnd=36200|Gloss=until|nWord=18
-20	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3|PronType=Prs	13	conj:coord	_	AlignBegin=36200|AlignEnd=36391|Gloss=3Plur.Perf.BackG|nWord=19
-21	kai	kai	VERB	_	_	20	comp:aux	_	AlignBegin=36391|AlignEnd=36582|Gloss=carry|nWord=20
-22	gà	gà	ADP	_	_	21	comp:obl	_	AlignBegin=36582|AlignEnd=36773|Gloss=at|nWord=21
-23	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	22	comp:obj	_	AlignBegin=36773|AlignEnd=36964|Gloss=mouth.Masc.Cons|nWord=22
-24	tabkìː	tabkìː	NOUN	_	Gender=Masc	23	compound	_	AlignBegin=36964|AlignEnd=37155|Gloss=river.Masc|nWord=23
-25	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37155|AlignEnd=37336|Gloss=PUNCT|nWord=24
+18	har	har	SCONJ	_	_	1	mod	_	AlignBegin=36009|AlignEnd=36200|Gloss=until|nWord=18
+19	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=36200|AlignEnd=36391|Gloss=3Plur.Perf.BackG|nWord=19
+20	kai	kai	VERB	_	_	19	comp:aux	_	AlignBegin=36391|AlignEnd=36582|Gloss=carry|nWord=20
+21	gà	gà	ADP	_	_	20	comp:obl	_	AlignBegin=36582|AlignEnd=36773|Gloss=by|nWord=21
+22	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	21	comp:obj	_	AlignBegin=36773|AlignEnd=36964|Gloss=mouth.Masc.Cons|nWord=22
+23	tabkìː	tabkìː	NOUN	_	Gender=Masc	22	compound	_	AlignBegin=36964|AlignEnd=37155|Gloss=river.Masc|nWord=23
+24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37155|AlignEnd=37336|Gloss=PUNCT|nWord=24
 
 # sent_id = HAUA_BC_NARR_O1_KA_10-10
 # speaker_id = SP
@@ -313,7 +312,7 @@
 # text_en = As she was eating, the student got up from the water.
 1	koːdà	koːdà	SCONJ	_	_	7	mod	_	AlignBegin=68350|AlignEnd=68612|Gloss=just_as|nWord=1
 2	takà	kà	AUX	_	Aspect=Imp|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=68874|AlignEnd=69136|Gloss=3Fem.Imp.BackG|nWord=3
-3	cânyeːwàː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=69136|AlignEnd=69398|Gloss=eat.NMLZ|nWord=4
+3	cânyeːwàː	ci	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=69136|AlignEnd=69398|Gloss=eat.NMLZ.Fem|nWord=4
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=69136|AlignEnd=69398|Gloss=PUNCT|nWord=4
 5	sa’ànnan	sa’ànnan	ADV	_	_	7	mod	_	AlignBegin=69398|AlignEnd=69660|Gloss=then|nWord=5
 6	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=69922|AlignEnd=70184|Gloss=student.Masc|nWord=7
@@ -413,7 +412,7 @@
 # text = tanàː bìye dà shiː |c tanàː bìye dà shiː |c tanàː bìye dà shiː |c tanàː bìye dà shiː //
 # text_en = She kept following him.
 1	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=87259|AlignEnd=87377|Gloss=3Fem.Imp|nWord=1
-2	bìye	biy-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:aux	_	AlignBegin=87377|AlignEnd=87495|Gloss=follow.Part.Stat|nWord=2
+2	bìye	biy-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:aux	_	AlignBegin=87377|AlignEnd=87495|Gloss=follow.Part.Stat|nWord=2|wordform=bìye
 3	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=87495|AlignEnd=87613|Gloss=with|nWord=3
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=87613|AlignEnd=87731|Gloss=3Masc.Nom|nWord=4
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=87731|AlignEnd=87849|Gloss=PUNCT|nWord=5
@@ -620,7 +619,7 @@
 # text_en = He said "Here you fall, here you break ; here you fall, here you break ; here you fall, here you break."
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=120060|AlignEnd=120261|Gloss=then|nWord=1
 2	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=120261|AlignEnd=120462|Gloss=3Masc.Imp|nWord=2
-3	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=120462|AlignEnd=120663|Gloss=say.Fem|nWord=3
+3	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=120462|AlignEnd=120663|Gloss=say.NMLZ.Fem|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=120663|AlignEnd=120864|Gloss=PUNCT|nWord=4
 5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:obj	_	AlignBegin=120864|AlignEnd=121065|Gloss=Prox|nWord=5
 6	akà	kà	AUX	_	Aspect=Imp|Evident=BackG|Person=4	5	comp:cleft	_	AlignBegin=121065|AlignEnd=121266|Gloss=4.Imp.BackG|nWord=6
