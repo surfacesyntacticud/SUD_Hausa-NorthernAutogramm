@@ -147,10 +147,10 @@
 18	|c	|c	PUNCT	_	_	20	cc	_	AlignBegin=36009|AlignEnd=36200|Gloss=PUNCT|nWord=18
 19	har	har	CCONJ	_	_	20	cc	_	AlignBegin=36009|AlignEnd=36200|Gloss=until|nWord=18
 20	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3|PronType=Prs	13	conj:coord	_	AlignBegin=36200|AlignEnd=36391|Gloss=3Plur.Perf.BackG|nWord=19
-21	kai	kai	VERB	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	20	comp:obj	_	AlignBegin=36391|AlignEnd=36582|Gloss=2Masc.Nom|nWord=20
+21	kai	kai	VERB	_	_	20	comp:aux	_	AlignBegin=36391|AlignEnd=36582|Gloss=carry|nWord=20
 22	gà	gà	ADP	_	_	21	comp:obl	_	AlignBegin=36582|AlignEnd=36773|Gloss=at|nWord=21
-23	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	22	comp:obj	_	AlignBegin=36773|AlignEnd=36964|Gloss=river_bed.Masc.Cons|nWord=22
-24	tabkìː	tabkìː	NOUN	_	Gender=Masc	23	comp:obj	_	AlignBegin=36964|AlignEnd=37155|Gloss=river.Masc|nWord=23
+23	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	22	comp:obj	_	AlignBegin=36773|AlignEnd=36964|Gloss=mouth.Masc.Cons|nWord=22
+24	tabkìː	tabkìː	NOUN	_	Gender=Masc	23	compound	_	AlignBegin=36964|AlignEnd=37155|Gloss=river.Masc|nWord=23
 25	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37155|AlignEnd=37336|Gloss=PUNCT|nWord=24
 
 # sent_id = HAUA_BC_NARR_O1_KA_10-10
@@ -160,10 +160,10 @@
 # phonetic_text = dà yag ga dai tanàː sôn tà ciː shì < yaz zoː bàːkin tabkìː |c sai yak kaːwoː maːshìː |c yab baː tà //
 # text = dà yag ga dai tanàː sôn tà ciː shì < yaz zoː bàːkin tabkìː |c sai yak kaːwoː maːshìː |c yab baː tà //
 # text_en = As he saw that she wanted to eat him, he arrived to the bank of the river, he took a spear and gave her.
-1	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=37916|AlignEnd=38205|Gloss=with|nWord=1
+1	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=37916|AlignEnd=38205|Gloss=as|nWord=1
 2	yag	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	11	mod	_	AlignBegin=38205|AlignEnd=38494|Gloss=3Masc.Perf.BackG|nWord=2
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=38494|AlignEnd=38783|Gloss=see|nWord=3
-4	dai	dai	ADV	_	_	2	mod	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed|nWord=4
+4	dai	dai	PART	_	_	2	mod	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed|nWord=4
 5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Imp|nWord=5
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=39361|AlignEnd=39650|Gloss=want.NMLZ.Masc.Cons|nWord=6
 7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=39650|AlignEnd=39939|Gloss=3Fem.Aor|nWord=7
@@ -172,8 +172,8 @@
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT|nWord=10
 11	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=40806|AlignEnd=41095|Gloss=3Masc.Perf.BackG|nWord=11
 12	zoː	zoː	VERB	_	_	11	comp:aux	_	AlignBegin=41095|AlignEnd=41384|Gloss=go|nWord=12
-13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=41384|AlignEnd=41673|Gloss=river_bed.Masc.Cons|nWord=13
-14	tabkìː	tabkìː	NOUN	_	Gender=Masc	13	mod	_	AlignBegin=41673|AlignEnd=41962|Gloss=river.Masc|nWord=14
+13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons|nWord=13
+14	tabkìː	tabkìː	NOUN	_	Gender=Masc	13	compound	_	AlignBegin=41673|AlignEnd=41962|Gloss=river.Masc|nWord=14
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=41962|AlignEnd=42251|Gloss=PUNCT|nWord=15
 16	sai	sai	ADP	_	ExtPos=ADV	17	mod	_	AlignBegin=42251|AlignEnd=42540|Gloss=until|nWord=16
 17	yak	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=42540|AlignEnd=42829|Gloss=3Masc.Perf.BackG|nWord=17
@@ -248,7 +248,7 @@
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=57200|AlignEnd=57358|Gloss=PUNCT|nWord=11
 11	sai	sai	ADP	_	ExtPos=ADV	12	mod	_	AlignBegin=57358|AlignEnd=57516|Gloss=until|nWord=12
 12	tak	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=57516|AlignEnd=57674|Gloss=3Fem.Perf.BackG|nWord=13
-13	kaːwoː	kai	VERB	_	_	12	comp:aux	_	AlignBegin=57674|AlignEnd=57832|Gloss=bring|nWord=14
+13	kaːwoː	kai	VERB	_	_	12	comp:aux	_	AlignBegin=57674|AlignEnd=57832|Gloss=carry|nWord=14
 14	maːshìː	maːshìː	NOUN	_	Gender=Masc	13	comp:obj	_	AlignBegin=57832|AlignEnd=57990|Gloss=spear.Masc|nWord=15
 15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=57990|AlignEnd=58148|Gloss=PUNCT|nWord=16
 16	tas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	12	conj:coord	_	AlignBegin=58148|AlignEnd=58306|Gloss=3Fem.Perf.BackG|nWord=17
@@ -301,7 +301,7 @@
 3	zamnàː	zamn-	VERB	_	_	2	comp:aux	_	AlignBegin=66618|AlignEnd=66814|Gloss=stay/sit|nWord=3
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=66814|AlignEnd=67010|Gloss=then|nWord=4
 5	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=67010|AlignEnd=67206|Gloss=3Fem.Perf|nWord=5
-6	cânyeː	ci	VERB	_	_	5	comp:aux	_	AlignBegin=67206|AlignEnd=67402|Gloss=eat_up|nWord=6
+6	cânyeː	ci	VERB	_	_	5	comp:aux	_	AlignBegin=67206|AlignEnd=67402|Gloss=eat|nWord=6
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=67402|AlignEnd=67598|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUA_BC_NARR_O1_KA_17-17
@@ -311,7 +311,7 @@
 # phonetic_text = koː dà takà cânyeːwàː, sa’àn nan àlmaːjìriː yaː taːsoː dàc cikin ruwaː //
 # text = koːdà takà cânyeːwàː < sa’ànnan àlmaːjìriː yaː taːsoː dàc cikin ruwaː //
 # text_en = As she was eating, the student got up from the water.
-1	koːdà	koːdà	SCONJ	_	_	7	mod	_	AlignBegin=68350|AlignEnd=68612|Gloss=as|nWord=1
+1	koːdà	koːdà	SCONJ	_	_	7	mod	_	AlignBegin=68350|AlignEnd=68612|Gloss=just_as|nWord=1
 2	takà	kà	AUX	_	Aspect=Imp|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=68874|AlignEnd=69136|Gloss=3Fem.Imp.BackG|nWord=3
 3	cânyeːwàː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=69136|AlignEnd=69398|Gloss=eat.NMLZ|nWord=4
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=69136|AlignEnd=69398|Gloss=PUNCT|nWord=4
@@ -392,13 +392,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.wav
 # sent_timecode = 83617, 85648
 # phonetic_text = yaː tàhi taː gàma cîː sai tab biː shì //
-# text = yaː tàhi taː gàma cîː sai tab biː shì //
+# text = yaː tàhi taː gamà cîː sai tab biː shì //
 # text_en = When he had gone away and she had finished eating, she followed him.
 1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	parataxis@mod	_	AlignBegin=83617|AlignEnd=83820|Gloss=3Masc.Perf|nWord=1
 2	tàhi	tah-	VERB	_	_	1	comp:aux	_	AlignBegin=83820|AlignEnd=84023|Gloss=go|nWord=2
 3	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=84023|AlignEnd=84226|Gloss=3Fem.Perf|nWord=3
-4	gàma	gam-	VERB	_	_	3	comp:aux	_	AlignBegin=84226|AlignEnd=84429|Gloss=finish|nWord=4
-5	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=84429|AlignEnd=84632|Gloss=eat.NMLZ|nWord=5
+4	gamà	gam-	VERB	_	_	3	comp:aux	_	AlignBegin=84226|AlignEnd=84429|Gloss=finish|nWord=4
+5	cîː	ci	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=84429|AlignEnd=84632|Gloss=eat.NMLZ.Masc|nWord=5
 6	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=84632|AlignEnd=84835|Gloss=until|nWord=6
 7	tab	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=84835|AlignEnd=85038|Gloss=3Fem.Perf.BackG|nWord=7
 8	biː	bi	VERB	_	_	7	comp:aux	_	AlignBegin=85038|AlignEnd=85241|Gloss=follow|nWord=8
@@ -443,7 +443,7 @@
 1	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until|nWord=1
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc|nWord=2
 3	nàː	nàː	PART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=be/Loc|nWord=2
-4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=in|nWord=3
+4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside|nWord=3
 5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.NMLZ.Fem|nWord=4
 6	sai	sai	ADP	_	ExtPos=ADV	7	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|nWord=5
 7	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Gloss=3Masc.Perf.BackG|nWord=6
@@ -480,14 +480,14 @@
 1	sai	sai	ADP	_	ExtPos=ADV	2	mod	_	AlignBegin=96463|AlignEnd=96707|Gloss=until|nWord=1
 2	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=96707|AlignEnd=96951|Gloss=3Masc.Perf.BackG|nWord=2
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=96951|AlignEnd=97195|Gloss=say|nWord=3
-4	matà	matà	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Masc.Dat|nWord=4
+4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Dat|nWord=4
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=97439|AlignEnd=97683|Gloss=PUNCT|nWord=5
 6	dìːba	dìːba	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=97683|AlignEnd=97927|Gloss=look.Jus|nWord=6
 7	!//=	!//=	PUNCT	_	_	8	punct	_	AlignBegin=97927|AlignEnd=98171|Gloss=PUNCT|nWord=7
 8	tàhi	tah-	VERB	_	Mood=Jus	6	parataxis@conj	_	AlignBegin=98171|AlignEnd=98415|Gloss=go.Jus|nWord=8
 9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=98659|AlignEnd=98903|Gloss=PUNCT|nWord=10
 10	gàː	gàː	PART	_	_	8	parataxis@conj	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is|nWord=11
-11	giːwàːyeː	giːwaː	VERB	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur|nWord=12
+11	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur|nWord=12
 12	ceːnìyaː	ceːnìyaː	NOUN	_	Deixis=Dist|PronType=Dem	10	comp:pred	_	AlignBegin=99391|AlignEnd=99635|Gloss=Dist|nWord=13
 13	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=99635|AlignEnd=99879|Gloss=PUNCT|nWord=14
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=99879|AlignEnd=100122|Gloss=PUNCT|nWord=15
@@ -499,7 +499,7 @@
 # phonetic_text = giːwàːyeː sunàː tsàye suː dà yawàː //
 # text = giːwàːyeː su nàː tsàye suː dà yawàː //
 # text_en = There were many elephants standing there.
-1	giːwàːyeː	giːwaː	NOUN	_	_	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.plur|nWord=1
+1	giːwàːyeː	giːwaː	NOUN	_	_	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur|nWord=1
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur|nWord=2
 3	nàː	nàː	PART	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=be/Loc|nWord=2
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|nWord=3
@@ -524,7 +524,7 @@
 7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus|nWord=7
 8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
 9	giːwàːyên	giːwaː	NOUN	_	Definite=Cons|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Cons|nWord=9
-10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist|nWord=10
+10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist+|nWord=10
 11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT|nWord=11
 12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis@conj	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor|nWord=12
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say|nWord=13
@@ -653,21 +653,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.wav
 # sent_timecode = 126420, 128020
 # phonetic_text = koː dà sunkà kaːwoː indà shi kè < dus sun hwaːɗi |c sun kariːrìyeː //
-# text = koːdà sunkà kaːwoː indà shi kè < dus sun hwaːɗi |c sun kariːrìyeː //
+# text = koːdà sunkà kaːwoː indà shi kè < dus sun hwaːɗì |c sun kariːrìyeː //
 # text_en = As soon as they arrived where he was, they all fell down and broke into pieces.
-1	koːdà	koːdà	SCONJ	_	_	9	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=as_soon_as|nWord=1
+1	koːdà	koːdà	SCONJ	_	_	9	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=just_as|nWord=1
 2	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=126634|AlignEnd=126741|Gloss=3Plur.Perf.BackG|nWord=3
-3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=bring|nWord=4
+3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=reach|nWord=4
 4	indà	indà	ADV	_	PronType=Rel	3	comp:loc	_	AlignBegin=126848|AlignEnd=126955|Gloss=where|nWord=5
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=126955|AlignEnd=127062|Gloss=3Masc|nWord=6
 6	kè	nàː	PART	_	Evident=BackG	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=be/Loc.BackG|nWord=7
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT|nWord=8
 8	dus	duk	DET	_	PronType=Tot	9	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all|nWord=9
 9	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=127383|AlignEnd=127490|Gloss=3Plur.Perf|nWord=10
-10	hwaːɗi	hwaːɗ-	VERB	_	_	9	comp:aux	_	AlignBegin=127490|AlignEnd=127597|Gloss=fall|nWord=11
+10	hwaːɗì	hwaːɗ-	VERB	_	_	9	comp:aux	_	AlignBegin=127490|AlignEnd=127597|Gloss=fall|nWord=11
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=127597|AlignEnd=127704|Gloss=PUNCT|nWord=12
 12	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	9	conj:coord	_	AlignBegin=127704|AlignEnd=127811|Gloss=3Plur.Perf|nWord=13
-13	kariːrìyeː	kary-	VERB	_	_	12	mod	_	AlignBegin=127811|AlignEnd=127918|Gloss=break_up|nWord=14
+13	kariːrìyeː	kary-	VERB	_	_	12	mod	_	AlignBegin=127811|AlignEnd=127918|Gloss=break|nWord=14
 14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=127918|AlignEnd=128020|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUA_BC_NARR_O1_KA_35-35
@@ -697,7 +697,7 @@
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=131247|AlignEnd=131358|Gloss=PUNCT|nWord=5
 6	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=131358|AlignEnd=131469|Gloss=well|nWord=6
 7	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is|nWord=7
-8	naːmàː	naːmàː	VERB	_	Gender=Masc	7	subj	_	AlignBegin=131580|AlignEnd=131691|Gloss=meat.Masc|nWord=8
+8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=131580|AlignEnd=131691|Gloss=meat.Masc|nWord=8
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=131691|AlignEnd=131802|Gloss=PUNCT|nWord=9
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=131802|AlignEnd=131914|Gloss=PUNCT|nWord=10
 
