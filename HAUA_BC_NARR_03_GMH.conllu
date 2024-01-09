@@ -162,8 +162,8 @@
 # text_en = She had been lost for years.
 1	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	mod	_	AlignBegin=33080|AlignEnd=33265|Gloss=3Fem.Perf|nWord=1
 2	yi	yi	VERB	_	_	0	root	_	AlignBegin=33265|AlignEnd=33450|Gloss=do|nWord=2
-3	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	2	comp:obj@lvc	_	AlignBegin=33450|AlignEnd=33635|Gloss=year.Plur|nWord=3
-4	dà	dà	ADP	_	_	2	comp:obl@lvc	_	AlignBegin=33635|AlignEnd=33820|Gloss=with|nWord=4
+3	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=33450|AlignEnd=33635|Gloss=year.Plur|nWord=3
+4	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=33635|AlignEnd=33820|Gloss=with|nWord=4
 5	ɓacèːwaː	ɓat-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=33820|AlignEnd=34005|Gloss=get_lost.NMLZ.Fem|nWord=5
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=34005|AlignEnd=34188|Gloss=PUNCT|nWord=6
 
@@ -285,9 +285,9 @@
 # sent_timecode = 49669, 51840
 # text = kóːkòːindà ankà yi dà ita < àmmaː dàw wurîn ga < bàtà wucèː ba //
 # text_en = Wherever they have taken it, from here, it has stopped moving.
-1	kóːkòːindà	kóːkòːindà	ADV	_	PronType=Ind	12	mod	_	AlignBegin=49669|AlignEnd=49824|Gloss=wherever|nWord=1
+1	kóːkòːindà	kóːkòːindà	ADV	_	PronType=Rel	12	mod	_	AlignBegin=49669|AlignEnd=49824|Gloss=wherever|nWord=1
 2-3	ankài	_	_	_	_	_	_	_	_
-2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	1	comp:cleft	_	AlignBegin=49824|AlignEnd=49979|Gloss=4.Perf.BackG|nWord=2
+2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	1	mod@relcl	_	AlignBegin=49824|AlignEnd=49979|Gloss=4.Perf.BackG|nWord=2
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=49824|AlignEnd=49979|Gloss=do|nWord=2
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=49979|AlignEnd=50134|Gloss=with|nWord=3
 5	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=50134|AlignEnd=50289|Gloss=3Fem.Nom|nWord=4
@@ -488,10 +488,10 @@
 2	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	19	dislocated@comp	_	AlignBegin=85720|AlignEnd=85992|Gloss=cow.Fem|nWord=2
 3	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=85992|AlignEnd=86264|Gloss=PUNCT|nWord=3
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=86264|AlignEnd=86536|Gloss=and|nWord=4
-5	mài	mài	PRON	_	Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=owner_of.Sing|nWord=5
+5	mài	mài	PART	_	ExtPos=NOUN|Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=owner_of.Sing|Idiom=Yes|nWord=5
 6-7	taːs'àtta	_	_	_	_	_	_	_	_
-6	taːs'àt	taːs'àt	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	compound	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.NMLZ.Fem|nWord=6
-7	=ta	=ta	PRON	_	ExtPos=NOUN|Gender=Fem|Person=3|PronType=Prs|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=86808|AlignEnd=87080|Gloss=3Fem.Gen|nWord=6
+6	taːs'àt	taːs'àt	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	unk	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.NMLZ.Fem|InIdiom=Yes|nWord=6
+7	=ta	=ta	PRON	_	ExtPos=NOUN|Gender=Fem|Person=3|PronType=Prs|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=86808|AlignEnd=87080|Gloss=3Fem.Gen|InIdiom=Yes|nWord=6
 8	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=87080|AlignEnd=87352|Gloss=PUNCT|nWord=7
 9	dà	dà	CCONJ	_	_	10	cc	_	AlignBegin=87352|AlignEnd=87624|Gloss=and|nWord=8
 10-11	ɗantà	_	_	_	_	_	_	_	_

@@ -188,7 +188,7 @@
 # text = ìsaː gà haːkimcìː ankà sâː Muːsà //
 # text_en = As for chief, they put Musa.
 1	ìsaː	ìsaː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	dislocated@top	_	AlignBegin=58950|AlignEnd=59228|Gloss=reach.NMLZ.Fem|nWord=1
-2	gà	gà	ADP	_	_	1	comp:loc	_	AlignBegin=59228|AlignEnd=59506|Gloss=by|nWord=2
+2	gà	gà	ADP	_	_	1	comp:obl	_	AlignBegin=59228|AlignEnd=59506|Gloss=by|nWord=2
 3	haːkimcìː	haːkimcìː	NOUN	_	_	2	comp:obj	_	AlignBegin=59506|AlignEnd=59784|Gloss=chieftaincy|nWord=3
 4	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=59784|AlignEnd=60062|Gloss=4.Perf.BackG|nWord=4
 5	sâː	sâː	VERB	_	_	4	comp:aux	_	AlignBegin=60062|AlignEnd=60340|Gloss=put|nWord=5
@@ -400,7 +400,7 @@
 25	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	23	comp:cleft	_	AlignBegin=101175|AlignEnd=101574|Gloss=4.Perf.BackG|nWord=26
 26-27	àihwai	_	_	_	_	_	_	_	_
 26	àihweː	aiwh-	VERB	_	_	25	comp:aux	_	AlignBegin=101574|AlignEnd=101973|Gloss=give_birth|nWord=27
-27	=i	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=101574|AlignEnd=101973|Gloss=3Masc|nWord=27
+27	=shi	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=101574|AlignEnd=101973|Gloss=3Masc|nWord=27
 28	//	//	PUNCT	_	_	23	punct	_	AlignBegin=101973|AlignEnd=102380|Gloss=PUNCT|nWord=28
 
 # sent_id = HAUA_BC_DIAL_01_024-024
@@ -1303,9 +1303,9 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.wav
 # sent_timecode = 303500, 305600
-# phonetic_text = tôː ƙàːƙàː kukài gà dâː kunàː zuwàː Gwànjaː ?//
+# phonetic_text = tôː ƙàːƙàː kukài gà dâː kunàː zuwàː gwànjaː ?//
 # text = tôː ƙàːƙàː kukà yîː gà dâː kunàː zuwàː gwànjaː ?//
-# text_en = Well, in the old days, how did you go to Gwanja? [Ghana]
+# text_en = Well, in the old days, how did you go to work abroad? [to Ghana]
 1	tôː	tôː	INTJ	_	_	2	discourse	_	AlignBegin=303500|AlignEnd=303733|Gloss=well|nWord=1
 2	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	0	root	_	AlignBegin=303733|AlignEnd=303966|Gloss=how|nWord=2
 3-4	kukài	_	_	_	_	_	_	_	_
@@ -1315,7 +1315,7 @@
 6	dâː	dâː	ADV	_	_	5	comp:obj	_	AlignBegin=304432|AlignEnd=304665|Gloss=formerly|nWord=5
 7	kunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=2	4	mod	_	AlignBegin=304665|AlignEnd=304898|Gloss=2Plur.Imp|nWord=6
 8	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=304898|AlignEnd=305131|Gloss=go.NMLZ.Masc|nWord=7
-9	gwànjaː	gwànjaː	PROPN	_	_	8	comp:goal	_	AlignBegin=305131|AlignEnd=305364|Gloss=temporary_migration|nWord=8
+9	gwànjaː	gwànjaː	NOUN	_	_	8	comp:goal	_	AlignBegin=305131|AlignEnd=305364|Gloss=temporary_migration|nWord=8
 10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=305364|AlignEnd=305600|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUA_BC_DIAL_01_076-076
@@ -1881,7 +1881,7 @@
 5	bâː	bâː	PART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg|nWord=5
 6	raːnaː	raːnaː	NOUN	_	_	5	subj	_	AlignBegin=406940|AlignEnd=407136|Gloss=day.Fem|nWord=6
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=407136|AlignEnd=407332|Gloss=PUNCT|nWord=7
-8	mutàːneː	mùtunèː	NOUN	_	Number=Plur	10	mod	_	AlignBegin=407332|AlignEnd=407528|Gloss=human.Plur|nWord=8
+8	mutàːneː	mùtunèː	NOUN	_	Number=Plur	10	dislocated@subj	_	AlignBegin=407332|AlignEnd=407528|Gloss=human.Plur|nWord=8
 9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=407528|AlignEnd=407724|Gloss=PUNCT|nWord=9
 10	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	0	root	_	AlignBegin=407724|AlignEnd=407920|Gloss=walk.Part.Stat|nWord=10
 11	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=407920|AlignEnd=408116|Gloss=PUNCT|nWord=11

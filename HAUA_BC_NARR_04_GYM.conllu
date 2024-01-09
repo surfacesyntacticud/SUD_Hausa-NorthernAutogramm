@@ -166,7 +166,7 @@
 # sent_timecode = 33319, 36760
 # phonetic_text = hakà nan sukà ta tàhiyàː |c hakà nan sukà ta tàhiyàː < duh has sunkà gamìkkè duːniyàg ga //
 # text = hakànan sukà ta tàhiyàː //= hakànan sukà ta tàhiyàː duh has sunkà gamìkkè duːniyàg ga //
-# text_en = Hey went on travelling like that till they finished the whole of the world.
+# text_en = They went on and on travelling like that till they finished the whole of the world.
 1	hakànan	hakànan	ADV	_	_	0	root	_	AlignBegin=33319|AlignEnd=33500|Gloss=thus|nWord=1
 2	sukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=3	1	comp:cleft	_	AlignBegin=33681|AlignEnd=33862|Gloss=3Plur.Imp.BackG|nWord=3
 3	ta	ta	PART	_	Aspect=Iter	4	mod	_	AlignBegin=33862|AlignEnd=34043|Gloss=Iter|nWord=4
@@ -176,7 +176,7 @@
 7	sukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=3	6	comp:cleft	_	AlignBegin=34767|AlignEnd=34948|Gloss=3Plur.Imp.BackG|nWord=9
 8	ta	ta	PART	_	Aspect=Iter	9	mod	_	AlignBegin=34948|AlignEnd=35129|Gloss=Iter|nWord=10
 9	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=35129|AlignEnd=35310|Gloss=go.NMLZ.Fem|nWord=11
-10	duh	duk	DET	_	ExtPos=PRON|PronType=Tot	9	comp:goal	_	AlignBegin=35491|AlignEnd=35672|Gloss=all|nWord=13
+10	duh	duk	ADV	_	ExtPos=PRON|PronType=Tot	9	mod	_	AlignBegin=35491|AlignEnd=35672|Gloss=all|nWord=13
 11	has	hat	SCONJ	_	_	1	mod	_	AlignBegin=35672|AlignEnd=35853|Gloss=until|nWord=14
 12	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=35853|AlignEnd=36034|Gloss=3Plur.Perf.BackG|nWord=15
 13	gamìkkè	gam-	VERB	_	_	12	comp:aux	_	AlignBegin=36034|AlignEnd=36215|Gloss=finish|nWord=16
@@ -233,7 +233,7 @@
 2	|a	|a	PUNCT	_	_	3	punct	_	AlignBegin=42904|AlignEnd=43058|Gloss=PUNCT|nWord=2
 3	wàgga	wàgga	PRON	_	Deixis=Prox|Gender=Fem|PronType=Dem	1	conj:appos	_	AlignBegin=43058|AlignEnd=43212|Gloss=Fem.Prox|nWord=3
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=43212|AlignEnd=43366|Gloss=PUNCT|nWord=4
-5	mazaː	namijì	ADJ	_	Number=Plur	0	root	_	AlignBegin=43366|AlignEnd=43520|Gloss=male.Plur|nWord=5
+5	mazaː	namijì	NOUN	_	Number=Plur	0	root	_	AlignBegin=43366|AlignEnd=43520|Gloss=male.Plur|nWord=5
 6	ɗai	ɗai	ADV	_	_	5	mod	_	AlignBegin=43520|AlignEnd=43674|Gloss=only|nWord=6
 7	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=43674|AlignEnd=43828|Gloss=PUNCT|nWord=7
 8	tas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	5	comp:cleft	_	AlignBegin=43828|AlignEnd=43982|Gloss=3Fem.Perf.BackG|nWord=8
@@ -997,7 +997,7 @@
 # text = bàːkin garkaː < yag ginà raːmèː //
 # text_en = At the entrance of the yard, he dug a hole.
 1	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	AlignBegin=161340|AlignEnd=161523|Gloss=mouth.Masc.Cons|nWord=1
-2	garkaː	garkaː	VERB	_	Gender=Fem	1	compound	_	AlignBegin=161523|AlignEnd=161706|Gloss=yard.Fem|nWord=2
+2	garkaː	garkaː	NOUN	_	Gender=Fem	1	compound	_	AlignBegin=161523|AlignEnd=161706|Gloss=yard.Fem|nWord=2
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=161706|AlignEnd=161889|Gloss=PUNCT|nWord=3
 4	yag	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=161889|AlignEnd=162072|Gloss=3Masc.Perf.BackG|nWord=4
 5	ginà	gin-	VERB	_	_	4	comp:aux	_	AlignBegin=162072|AlignEnd=162255|Gloss=dig|nWord=5
@@ -1231,10 +1231,10 @@
 # text = kwàːni taːshì |r kwàːni taːshì haw wata raːnaː < yab biɗoː yaːɗan dumèn nan naːshì //
 # text_en = Days went by until one day, he went to see how far his pumpkin plant had creeped.
 1	kwàːni	kwaːn-	VERB	_	ExtPos=ADV	0	root	_	AlignBegin=191640|AlignEnd=191922|Gloss=spend_night|Idiom=Yes|nWord=1
-2	taːshì	taːs-	VERB	_	ExtPos=ADV	1	compound	_	AlignBegin=191922|AlignEnd=192204|Gloss=stand|InIdiom=Yes|nWord=2
+2	taːshì	taːs-	VERB	_	ExtPos=ADV	1	unk	_	AlignBegin=191922|AlignEnd=192204|Gloss=stand|InIdiom=Yes|nWord=2
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=192204|AlignEnd=192486|Gloss=PUNCT|nWord=3
 4	kwàːni	kwaːn-	VERB	_	ExtPos=ADV	1	conj:redup	_	AlignBegin=192486|AlignEnd=192768|Gloss=spend_night|Idiom=Yes|nWord=4
-5	taːshì	taːs-	VERB	_	ExtPos=ADV	4	compound	_	AlignBegin=192768|AlignEnd=193050|Gloss=stand|InIdiom=Yes|nWord=5
+5	taːshì	taːs-	VERB	_	ExtPos=ADV	4	unk	_	AlignBegin=192768|AlignEnd=193050|Gloss=stand|InIdiom=Yes|nWord=5
 6	haw	hat	SCONJ	_	_	1	mod	_	AlignBegin=193050|AlignEnd=193332|Gloss=until|nWord=6
 7	wata	wani	DET	_	Gender=Fem|PronType=Ind	8	det	_	AlignBegin=193332|AlignEnd=193614|Gloss=some.Fem|nWord=7
 8	raːnaː	raːnaː	NOUN	_	Gender=Fem	10	mod	_	AlignBegin=193614|AlignEnd=193896|Gloss=day.Fem|nWord=8
@@ -2239,8 +2239,8 @@
 10	tàhi	tah-	VERB	_	_	4	comp:obj	_	AlignBegin=344220|AlignEnd=344442|Gloss=go|nWord=21
 11	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	10	conj:coord	_	AlignBegin=344442|AlignEnd=344664|Gloss=2Fem.Aor|nWord=22
 12	kiraːyoː	kiraː	VERB	_	_	11	comp:aux	_	AlignBegin=344664|AlignEnd=344886|Gloss=call|nWord=23
-13	mài	mài	PRON	_	Number=Sing	12	comp:obj	_	AlignBegin=344886|AlignEnd=345108|Gloss=owner_of.Sing|nWord=24
-14	ayaː	ayaː	NOUN	_	ExtPos=NOUN	13	compound	_	AlignBegin=345108|AlignEnd=345330|Gloss=tiger_nut|Idiom=Yes|nWord=25
+13	mài	mài	PART	_	ExtPos=NOUN|Number=Sing	12	comp:obj	_	AlignBegin=344886|AlignEnd=345108|Gloss=owner_of.Sing|Idiom=Yes|nWord=24
+14	ayaː	ayaː	NOUN	_	ExtPos=NOUN	13	unk	_	AlignBegin=345108|AlignEnd=345330|Gloss=tiger_nut|InIdiom=Yes|nWord=25
 15	wàjên	wàjêː	ADV	_	_	14	unk	_	AlignBegin=345330|AlignEnd=345552|Gloss=outside|InIdiom=Yes|nWord=26
 16	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	13	det	_	AlignBegin=345552|AlignEnd=345774|Gloss=Anaph|nWord=27
 17	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	12	mod	_	AlignBegin=345996|AlignEnd=346218|Gloss=3Masc.Aor|nWord=29
