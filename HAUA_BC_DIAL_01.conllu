@@ -18,9 +18,9 @@
 10	tab	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	7	conj:coord	_	AlignBegin=5940|AlignEnd=6240|Gloss=3Fem.Perf.BackG|nWord=9
 11	bar	barìː	VERB	_	_	10	comp:aux	_	AlignBegin=6240|AlignEnd=6540|Gloss=let|nWord=10
 12	gusàːwaː	gusàːwaː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	mod	_	AlignBegin=6540|AlignEnd=6840|Gloss=move.NMLZ.Fem|nWord=11
-13	koː'ìnaː	koː'ìnaː	ADV	_	_	12	mod	_	AlignBegin=6840|AlignEnd=7140|Gloss=anywhere|nWord=12
+13	koː'ìnaː	koː'ìnaː	ADV	_	PronType=Ind	12	mod	_	AlignBegin=6840|AlignEnd=7140|Gloss=anywhere|nWord=12
 14	dà	dà	CCONJ	_	_	15	cc	_	AlignBegin=7140|AlignEnd=7440|Gloss=and|nWord=13
-15	koː'ìnaː	koː'ìnaː	ADV	_	_	13	conj:coord	_	AlignBegin=7440|AlignEnd=7740|Gloss=anywhere|nWord=14
+15	koː'ìnaː	koː'ìnaː	ADV	_	PronType=Ind	13	conj:coord	_	AlignBegin=7440|AlignEnd=7740|Gloss=anywhere|nWord=14
 16	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=7740|AlignEnd=8040|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUA_BC_DIAL_01_002-002
@@ -892,7 +892,7 @@
 3-4	s'àkaːníːnai	_	_	_	_	_	_	_	_
 3	s'àkaːniː	s'àkaːnin	NOUN	_	_	1	comp:pred	_	AlignBegin=217836|AlignEnd=218024|Gloss=between|nWord=3
 4	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	mod	_	AlignBegin=217836|AlignEnd=218024|Gloss=3Masc.Gen|nWord=3
-5	dà	dà	ADP	_	_	6	cc	_	AlignBegin=218024|AlignEnd=218212|Gloss=and|nWord=4
+5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=218024|AlignEnd=218212|Gloss=and|nWord=4
 6	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	conj:coord	_	AlignBegin=218212|AlignEnd=218400|Gloss=3Plur.Nom|nWord=5
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=218400|AlignEnd=218585|Gloss=PUNCT|nWord=6
 
@@ -1563,7 +1563,7 @@
 2	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=346027|AlignEnd=346294|Gloss=arrive.NMLZ.Fem|nWord=2
 3	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	1	conj:coord	_	AlignBegin=346294|AlignEnd=346561|Gloss=1Sing.Imp|nWord=3
 4	kaːwoːwàː	kai	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=346561|AlignEnd=346828|Gloss=carry.NMLZ.Fem|nWord=4
-5	X	x	X	_	_	3	comp:aux	_	AlignBegin=346828|AlignEnd=347095|Gloss=X|nWord=5
+5	X	x	X	_	_	3	unk@scrap	_	AlignBegin=346828|AlignEnd=347095|Gloss=X|nWord=5
 6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=347095|AlignEnd=347360|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_DIAL_01_092-092
@@ -1983,8 +1983,8 @@
 # phonetic_text = koːƙàːƙàː zâː ku yîː < sai ai ta yîː //
 # text = koːƙàːƙàː zâː ku yîː < sai ai kà yi //
 # text_en = Whatever you had to do, you did it!
-1	koːƙàːƙàː	koːƙàːƙàː	ADV	_	PronType=Ind	8	mod	_	AlignBegin=424060|AlignEnd=424248|Gloss=however|nWord=1
-2	zâː	zâː	AUX	_	Tense=Fut	1	comp:cleft	_	AlignBegin=424248|AlignEnd=424436|Gloss=Fut|nWord=2
+1	koːƙàːƙàː	koːƙàːƙàː	ADV	_	PronType=Rel	8	mod	_	AlignBegin=424060|AlignEnd=424248|Gloss=however|nWord=1
+2	zâː	zâː	AUX	_	Tense=Fut	1	mod@relcl	_	AlignBegin=424248|AlignEnd=424436|Gloss=Fut|nWord=2
 3	ku	ku	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	AlignBegin=424436|AlignEnd=424624|Gloss=2Plur|nWord=3
 4	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=424624|AlignEnd=424812|Gloss=do.NMLZ.Masc|nWord=4
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=424812|AlignEnd=425000|Gloss=PUNCT|nWord=5
@@ -2159,7 +2159,7 @@
 # text = aː'àː baːmù daɗèːwaː //
 # text_en = No, we did not stay long.
 1	aː'àː	aː'àː	INTJ	_	_	0	root	_	AlignBegin=449980|AlignEnd=450150|Gloss=no|nWord=1
-2	baːmù	bâi	AUX	_	Aspect=Imp|Number=Plur|Person=1|Polarity=Neg	1	parataxis@conj	_	AlignBegin=450150|AlignEnd=450320|Gloss=1Plur.Imp.Neg|nWord=2
+2	baːmù	bâi	AUX	_	Aspect=Imp|Number=Plur|Person=1|Polarity=Neg	1	parataxis:conj	_	AlignBegin=450150|AlignEnd=450320|Gloss=1Plur.Imp.Neg|nWord=2
 3	daɗèːwaː	daɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	mod	_	AlignBegin=450320|AlignEnd=450490|Gloss=spend_time.NMLZ.Fem|nWord=3
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=450490|AlignEnd=450660|Gloss=PUNCT|nWord=4
 
