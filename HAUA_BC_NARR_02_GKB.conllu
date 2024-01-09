@@ -870,7 +870,7 @@
 # phonetic_text = dà mùzuːruː yaz zakà < yac cèː [ kaː isoː ?//] //
 # text = dà mùzuːruː yaz zakà < yac cèː [ kaː isoː ?//] //
 # text_en = When Cat arrived, he said "Are you ready?"
-1	dà	dà	SCONJ	_	_	6	cc	_	AlignBegin=194025|AlignEnd=194128|Gloss=as|nWord=1
+1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=194025|AlignEnd=194128|Gloss=as|nWord=1
 2	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=194128|AlignEnd=194231|Gloss=cat.Masc|nWord=2
 3	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=194231|AlignEnd=194334|Gloss=3Masc.Perf.BackG|nWord=3
 4	zakà	zak-	VERB	_	_	3	comp:aux	_	AlignBegin=194334|AlignEnd=194437|Gloss=arrive|nWord=4
@@ -882,7 +882,6 @@
 10	isoː	is-	VERB	_	_	9	comp:pred	_	AlignBegin=194952|AlignEnd=195055|Gloss=arrive|nWord=10
 11	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=195055|AlignEnd=195158|Gloss=PUNCT|nWord=11
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=195158|AlignEnd=195258|Gloss=PUNCT|nWord=12
-
 # sent_id = HAUA_BC_NARR_02_GKB_53
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.wav
@@ -1054,20 +1053,21 @@
 # phonetic_text = shinàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text = shinàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text_en = He is there, eating Cat, when Hyena arrived galloping.
-1	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc.Imp|nWord=1
-2	cân	cân	ADV	_	Deixis=Dist|PronType=Dem	1	comp:aux	_	AlignBegin=221797|AlignEnd=222123|Gloss=Dist|nWord=2
-3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT|nWord=3
-4	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Imp|nWord=4
-5	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.NMLZ.Masc.Cons|nWord=5
-6	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc|nWord=6
-7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT|nWord=7
-8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=223753|AlignEnd=224079|Gloss=then|nWord=8
-9	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is|nWord=9
-10	kuːraː	kuːraː	NOUN	_	Gender=Fem	9	comp:pred	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem|nWord=10
-11	sagàb	sagàb	IDEO	_	_	9	comp:cleft	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup|nWord=11
-12	sagàb	sagàb	IDEO	_	_	11	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup|nWord=12
-13	sagàb	sagàb	IDEO	_	_	12	conj:redup	_	AlignBegin=225383|AlignEnd=225709|Gloss=gallup|nWord=13
-14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=225709|AlignEnd=226032|Gloss=PUNCT|nWord=14
+1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc|nWord=1
+2	nàː	nàː	PART	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc.Imp|nWord=1
+3	cân	cân	ADV	_	Deixis=Dist|PronType=Dem	2	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Gloss=Dist|nWord=2
+4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT|nWord=3
+5	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Imp|nWord=4
+6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.NMLZ.Masc.Cons|nWord=5
+7	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc|nWord=6
+8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT|nWord=7
+9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=223753|AlignEnd=224079|Gloss=then|nWord=8
+10	gàː	gàː	PART	_	_	5	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is|nWord=9
+11	kuːraː	kuːraː	NOUN	_	Gender=Fem	10	comp:pred	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem|nWord=10
+12	sagàb	sagàb	IDEO	_	_	10	comp:cleft	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup|nWord=11
+13	sagàb	sagàb	IDEO	_	_	12	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup|nWord=12
+14	sagàb	sagàb	IDEO	_	_	13	conj:redup	_	AlignBegin=225383|AlignEnd=225709|Gloss=gallup|nWord=13
+15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=225709|AlignEnd=226032|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUA_BC_NARR_02_GKB_65
 # speaker_id = SP1
@@ -1231,7 +1231,7 @@
 1	daɗàn	daɗàn	ADP	_	_	17	mod	_	AlignBegin=254977|AlignEnd=255244|Gloss=from|nWord=1
 2	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	1	comp:obj	_	AlignBegin=255244|AlignEnd=255511|Gloss=Anaph|nWord=2
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=255511|AlignEnd=255778|Gloss=PUNCT|nWord=3
-4	dà	dà	ADP	_	_	5	cc@preconj	_	AlignBegin=255778|AlignEnd=256045|Gloss=with|nWord=4
+4	dà	dà	CCONJ	_	_	5	cc@preconj	_	AlignBegin=255778|AlignEnd=256045|Gloss=and|nWord=4
 5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	17	mod	_	AlignBegin=256045|AlignEnd=256312|Gloss=3Masc.Nom|nWord=5
 6	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=256312|AlignEnd=256579|Gloss=PUNCT|nWord=6
 7	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	5	conj:appos	_	AlignBegin=256579|AlignEnd=256846|Gloss=dog.Masc.Cons|nWord=7
@@ -1247,7 +1247,7 @@
 17	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	0	root	_	AlignBegin=258982|AlignEnd=259249|Gloss=Anaph|nWord=16
 18	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	17	comp:cleft	_	AlignBegin=259249|AlignEnd=259516|Gloss=4.Perf.BackG|nWord=17|wordform=anka
 19	waːc'èː	waːs'-	VERB	_	_	18	comp:aux	_	AlignBegin=259516|AlignEnd=259783|Gloss=scatter|nWord=18|wordform=waːc’èː
-20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=259783|AlignEnd=260055|Gloss=PUNCT|nWord=19
+20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=259783|AlignEnd=260055|Gloss=PUNCT|nWord=19                              
 
 # sent_id = HAUA_BC_NARR_02_GKB_75
 # speaker_id = SP1

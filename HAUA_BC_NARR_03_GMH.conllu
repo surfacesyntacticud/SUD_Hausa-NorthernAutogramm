@@ -40,21 +40,21 @@
 # sent_timecode = 8220, 16160
 # text = dà sarkin bìyash shìgaː |c dà sarkin sauraːreː |c dà sarkin jiːhwàː |c dà sarkin sarɓaː //
 # text_en = The king of tracking, the king of listening, the king of aiming, and the king of lassooing.
-1	dà	dà	ADP	_	_	2	cc	_	AlignBegin=8220|AlignEnd=8687|Gloss=with|nWord=1
+1	dà	dà	CCONJ	_	_	2	cc@preconj	_	AlignBegin=8220|AlignEnd=8687|Gloss=and|nWord=1
 2	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=8687|AlignEnd=9154|Gloss=king.Masc.Cons|nWord=2
 3	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	mod	_	AlignBegin=9154|AlignEnd=9621|Gloss=follow.NMLZ.Fem.Cons|nWord=3
 4	shìgaː	shìgaː	NOUN	_	Gender=Fem	3	comp:obj	_	AlignBegin=9621|AlignEnd=10088|Gloss=track.Fem|nWord=4
 5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=10088|AlignEnd=10555|Gloss=PUNCT|nWord=5
-6	dà	dà	ADP	_	_	7	cc	_	AlignBegin=10555|AlignEnd=11022|Gloss=with|nWord=6
+6	dà	dà	ADP	_	_	7	cc	_	AlignBegin=10555|AlignEnd=11022|Gloss=and|nWord=6
 7	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	2	conj:coord	_	AlignBegin=11022|AlignEnd=11489|Gloss=king.Masc.Cons|nWord=7
 8	sauraːreː	sauraːr-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	mod	_	AlignBegin=11489|AlignEnd=11956|Gloss=listening.Masc|nWord=8
 9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=11956|AlignEnd=12423|Gloss=PUNCT|nWord=9
-10	dà	dà	ADP	_	_	11	cc	_	AlignBegin=12423|AlignEnd=12890|Gloss=with|nWord=10
-11	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	AlignBegin=12890|AlignEnd=13357|Gloss=king.Masc.Cons|nWord=11
+10	dà	dà	ADP	_	_	11	cc	_	AlignBegin=12423|AlignEnd=12890|Gloss=and|nWord=10
+11	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	7	conj:coord	_	AlignBegin=12890|AlignEnd=13357|Gloss=king.Masc.Cons|nWord=11
 12	jiːhwàː	jehw-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	mod	_	AlignBegin=13357|AlignEnd=13824|Gloss=throwing.Fem|nWord=12
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=13824|AlignEnd=14291|Gloss=PUNCT|nWord=13
-14	dà	dà	ADP	_	_	15	cc	_	AlignBegin=14291|AlignEnd=14758|Gloss=with|nWord=14
-15	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	11	mod	_	AlignBegin=14758|AlignEnd=15225|Gloss=king.Masc.Cons|nWord=15
+14	dà	dà	ADP	_	_	15	cc	_	AlignBegin=14291|AlignEnd=14758|Gloss=and|nWord=14
+15	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	11	conj:coord	_	AlignBegin=14758|AlignEnd=15225|Gloss=king.Masc.Cons|nWord=15
 16	sarɓaː	sarɓ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	15	mod	_	AlignBegin=15225|AlignEnd=15692|Gloss=lassoo.NMLZ.Fem|nWord=16
 17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=15692|AlignEnd=16160|Gloss=PUNCT|nWord=17
 
@@ -162,9 +162,9 @@
 # text_en = She had been lost for years.
 1	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	mod	_	AlignBegin=33080|AlignEnd=33265|Gloss=3Fem.Perf|nWord=1
 2	yi	yi	VERB	_	_	0	root	_	AlignBegin=33265|AlignEnd=33450|Gloss=do|nWord=2
-3	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=33450|AlignEnd=33635|Gloss=year.Plur|nWord=3
-4	dà	dà	ADP	_	_	5	cc	_	AlignBegin=33635|AlignEnd=33820|Gloss=with|nWord=4
-5	ɓacèːwaː	ɓat-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	conj:coord	_	AlignBegin=33820|AlignEnd=34005|Gloss=get_lost.NMLZ.Fem|nWord=5
+3	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	2	comp:obj@lvc	_	AlignBegin=33450|AlignEnd=33635|Gloss=year.Plur|nWord=3
+4	dà	dà	ADP	_	_	2	comp:obl@lvc	_	AlignBegin=33635|AlignEnd=33820|Gloss=with|nWord=4
+5	ɓacèːwaː	ɓat-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=33820|AlignEnd=34005|Gloss=get_lost.NMLZ.Fem|nWord=5
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=34005|AlignEnd=34188|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_NARR_03_GMH_10-10
@@ -248,7 +248,7 @@
 # sent_timecode = 44380, 49669
 # text = hay yak kay gà wani wuriː |c yas' s'ayàː |c ankà cèː [ wurîn ga < dàn nanânga < saːnìyâg ga < ankà yi bisà dà ita //] //
 # text_en = Then he reached a place where he stopped and said "Here, from this place, the cow, someone has lifted it."
-1	hay	hay	CCONJ	_	_	2	cc	_	AlignBegin=44380|AlignEnd=44569|nWord=1
+1	hay	hay	SCONJ	_	_	2	discourse	_	AlignBegin=44380|AlignEnd=44569|Gloss=until|nWord=1
 2	yak	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=44569|AlignEnd=44758|Gloss=3Masc.Perf.BackG|nWord=2
 3	kay	kay	VERB	_	_	2	comp:aux	_	AlignBegin=44758|AlignEnd=44947|nWord=3
 4	gà	gà	ADP	_	_	3	comp:obl	_	AlignBegin=44947|AlignEnd=45136|Gloss=by|nWord=4
@@ -292,11 +292,11 @@
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=49979|AlignEnd=50134|Gloss=with|nWord=3
 5	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=50134|AlignEnd=50289|Gloss=3Fem.Nom|nWord=4
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=50289|AlignEnd=50444|Gloss=PUNCT|nWord=5
-7	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	8	cc	_	AlignBegin=50444|AlignEnd=50599|Gloss=but|nWord=6
-8	dàw	dàk	ADP	_	_	1	conj:coord	_	AlignBegin=50599|AlignEnd=50754|Gloss=from|nWord=7
+7	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	12	cc	_	AlignBegin=50444|AlignEnd=50599|Gloss=but|nWord=6
+8	dàw	dàk	ADP	_	_	12	mod	_	AlignBegin=50599|AlignEnd=50754|Gloss=from|nWord=7
 9	wurîn	wuriː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=50754|AlignEnd=50909|Gloss=place.Masc.Cons|nWord=8
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=50909|AlignEnd=51064|Gloss=Prox|nWord=9
-11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=51064|AlignEnd=51219|Gloss=PUNCT|nWord=10
+11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=51064|AlignEnd=51219|Gloss=PUNCT|nWord=10
 12	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=51219|AlignEnd=51374|Gloss=3Fem.Perf.Neg|nWord=11
 13	wucèː	wucèː	VERB	_	_	12	comp:aux	_	AlignBegin=51374|AlignEnd=51529|Gloss=pass_by|nWord=12
 14	ba	ba	PART	_	Polarity=Neg	12	mod	_	AlignBegin=51529|AlignEnd=51684|Gloss=Neg|nWord=13
