@@ -680,21 +680,21 @@
 # phonetic_text = Baːwàn Tudù < shiː koː < kaː ji || kaː ji anàː cêːwaː Tudù //
 # text = Baːwàn Tudùː < shiː koː < kaː ji || kaː ji anàː cêːwaː Tudùː //
 # text_en = Bawan Tudu, as for him, you see, you see, they say Tudu.
-1	Baːwàn	Baːwàn	PROPN	_	_	7	mod	_	AlignBegin=183232|AlignEnd=183409|Gloss=Bawan|nWord=1
+1	Baːwàn	Baːwàn	PROPN	_	_	12	dislocated@comp	_	AlignBegin=183232|AlignEnd=183409|Gloss=Bawan|nWord=1
 2	Tudùː	Tudùː	PROPN	_	_	1	flat:name	_	AlignBegin=183409|AlignEnd=183586|Gloss=Tudu|nWord=2
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=183586|AlignEnd=183763|Gloss=PUNCT|nWord=3
-4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	discourse	_	AlignBegin=183763|AlignEnd=183940|Gloss=3Masc.Nom|nWord=4
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	12	dislocated@comp	_	AlignBegin=183763|AlignEnd=183940|Gloss=3Masc.Nom|nWord=4
 5	koː	koː	PART	_	_	4	mod	_	AlignBegin=183940|AlignEnd=184117|Gloss=as_for|nWord=5
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=184117|AlignEnd=184294|Gloss=PUNCT|nWord=6
-7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=184294|AlignEnd=184471|Gloss=2Masc.Perf|nWord=7
+7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	parataxis@discourse	_	AlignBegin=184294|AlignEnd=184471|Gloss=2Masc.Perf|nWord=7
 8	ji	jiyàː	VERB	_	_	7	comp:aux	_	AlignBegin=184471|AlignEnd=184648|Gloss=hear|nWord=8
-9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=184648|AlignEnd=184825|GE=[|Gloss=PUNCT|nWord=9
-10	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	conj:dicto	_	AlignBegin=184825|AlignEnd=185002|Gloss=2Masc.Perf|nWord=10
+9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=184648|AlignEnd=184825|GE=[|Gloss=PUNCT|nWord=9
+10	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	conj:redup	_	AlignBegin=184825|AlignEnd=185002|Gloss=2Masc.Perf|nWord=10
 11	ji	jiyàː	VERB	_	_	10	comp:aux	_	AlignBegin=185002|AlignEnd=185179|Gloss=hear|nWord=11
-12	anàː	nàː	AUX	_	Aspect=Imp|Person=4	11	comp:obj	_	AlignBegin=185179|AlignEnd=185356|Gloss=4.Imp|nWord=12
-13	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	12	comp:obj	_	AlignBegin=185356|AlignEnd=185533|Gloss=say.NMLZ.Fem|nWord=13
-14	Tudùː	Tudùː	PROPN	_	_	13	mod	_	AlignBegin=185533|AlignEnd=185710|Gloss=Tudu|nWord=14
-15	//	//	PUNCT	_	_	7	punct	_	AlignBegin=185710|AlignEnd=185887|Gloss=PUNCT|nWord=15
+12	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=185179|AlignEnd=185356|Gloss=4.Imp|nWord=12
+13	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	12	comp:aux	_	AlignBegin=185356|AlignEnd=185533|Gloss=say.NMLZ.Fem|nWord=13
+14	Tudùː	Tudùː	PROPN	_	_	13	comp:obj	_	AlignBegin=185533|AlignEnd=185710|Gloss=Tudu|nWord=14
+15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=185710|AlignEnd=185887|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUA_BC_DIAL_01_041-041
 # speaker_id = SP2
@@ -811,7 +811,7 @@
 12	cikin	cikin	ADP	_	_	14	mod	_	AlignBegin=201431|AlignEnd=201672|Gloss=inside|nWord=12
 13	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=201431|AlignEnd=201672|Gloss=3Plur.Gen|nWord=12
 14	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=201672|AlignEnd=201913|Gloss=3Plur.Imp|nWord=13
-15	aihùwaz	aih-	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	mod	_	AlignBegin=201913|AlignEnd=202154|Gloss=give_birth.NMLZ.Fem.Cons|nWord=14
+15	aihùwaz	aih-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	mod	_	AlignBegin=201913|AlignEnd=202154|Gloss=give_birth.NMLZ.Fem.Cons|nWord=14
 16	zàːrùmmai	zaːrùmiː	NOUN	_	Number=Plur	15	comp:obj	_	AlignBegin=202154|AlignEnd=202395|Gloss=brave.Plur|nWord=15
 17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=202395|AlignEnd=202637|Gloss=PUNCT|nWord=16
 
@@ -1267,7 +1267,7 @@
 # text = ɗan sarkiː sai shì îskeː ka |c shì ƙwaːcèː maː àbin =kà |c shì baː kà káːshíː //
 # text_en = The king's son would come, take your property, and beat you.
 1	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	AlignBegin=295240|AlignEnd=295452|Gloss=child.Masc.Cons|nWord=1
-2	sarkiː	sarkiː	NOUN	_	Gender=Masc	1	comp:obj	_	AlignBegin=295452|AlignEnd=295664|Gloss=king.Masc|nWord=2
+2	sarkiː	sarkiː	NOUN	_	Gender=Masc	1	mod@poss	_	AlignBegin=295452|AlignEnd=295664|Gloss=king.Masc|nWord=2
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=295664|AlignEnd=295876|Gloss=then|nWord=3
 4	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=295876|AlignEnd=296088|Gloss=3Masc.Aor|nWord=4
 5	îskeː	îskeː	VERB	_	_	4	comp:aux	_	AlignBegin=296088|AlignEnd=296300|Gloss=find|nWord=5
@@ -1949,7 +1949,7 @@
 # text = ƴan hwashìː anàː gàmuwaː dà suː //
 # text_en = We did meet highwaymen.
 1	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	3	dislocated@comp	_	AlignBegin=420224|AlignEnd=420435|Gloss=child.Plur.Cons|nWord=1
-2	hwashìː	hwashìː	NOUN	_	Gender=Masc	1	comp:obj	_	AlignBegin=420435|AlignEnd=420646|Gloss=highway_robbery.Masc|nWord=2
+2	hwashìː	hwashìː	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=420435|AlignEnd=420646|Gloss=highway_robbery.Masc|nWord=2
 3	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=420646|AlignEnd=420857|Gloss=4.Imp|nWord=3
 4	gàmuwaː	gam-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=420857|AlignEnd=421068|Gloss=meet.NMLZ.Fem|nWord=4
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=421068|AlignEnd=421279|Gloss=with|nWord=5
