@@ -362,8 +362,8 @@
 # phonetic_text = Gidan Tudùː //
 # text = Gidan Tudùː //
 # text_en = Gidan Tudu.
-1	Gidan	gidan	ADP	_	_	0	root	_	AlignBegin=89225|AlignEnd=89652|nWord=1
-2	Tudùː	tudùː	VERB	_	_	1	comp:obj	_	AlignBegin=89652|AlignEnd=90079|nWord=2
+1	Gidan	Gidan	PROPN	_	_	0	root	_	AlignBegin=89225|AlignEnd=89652|Gloss=Gidan|nWord=1
+2	Tudùː	Tudùː	PROPN	_	_	1	flat:name	_	AlignBegin=89652|AlignEnd=90079|Gloss=Tudu|nWord=2
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=90079|AlignEnd=90505|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUA_BC_DIAL_01_023-023
@@ -1436,7 +1436,7 @@
 # text_en = You would spend forty days.
 1	kanàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=2	0	root	_	AlignBegin=321880|AlignEnd=322205|Gloss=2Masc.Imp|nWord=1
 2	kwaːnaː	kwaːn-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=322205|AlignEnd=322530|Gloss=spend_night.NMLZ.Masc|nWord=2
-3	àrbà'in	àrbà'in	NUM	_	_	2	comp:obj	_	AlignBegin=322530|AlignEnd=322855|Gloss=forty|nWord=3
+3	àrbà'in	àrbà'in	NUM	_	_	2	mod@num	_	AlignBegin=322530|AlignEnd=322855|Gloss=forty|nWord=3
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=322855|AlignEnd=323180|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUA_BC_DIAL_01_084-084
@@ -1461,14 +1461,14 @@
 1	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	dislocated@subj	_	AlignBegin=326700|AlignEnd=326970|Gloss=some.Masc|nWord=1
 2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=326970|AlignEnd=327240|Gloss=3Masc.Aor|nWord=2
 3	kwan	kwaːn-	VERB	_	_	2	comp:aux	_	AlignBegin=327240|AlignEnd=327510|Gloss=spend_night|nWord=3
-4	àrbà'in	àrbà'in	NUM	_	_	3	comp:obj	_	AlignBegin=327510|AlignEnd=327780|Gloss=forty|nWord=4
+4	àrbà'in	àrbà'in	NUM	_	_	3	mod@num	_	AlignBegin=327510|AlignEnd=327780|Gloss=forty|nWord=4
 5	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=327780|AlignEnd=328050|Gloss=3Masc.Aor|nWord=5
 6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=328050|AlignEnd=328320|Gloss=arrive|nWord=6
 7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=328320|AlignEnd=328590|Gloss=PUNCT|nWord=7
 8	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	9	dislocated@subj	_	AlignBegin=328590|AlignEnd=328860|Gloss=some.Masc|nWord=8
 9	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	2	parataxis@conj	_	AlignBegin=328860|AlignEnd=329130|Gloss=3Masc.Aor|nWord=9
 10	yi	yi	VERB	_	_	9	comp:aux	_	AlignBegin=329130|AlignEnd=329400|Gloss=do|nWord=10
-11	tàlàːtin	tàlàːtin	NUM	_	_	10	comp:obj	_	AlignBegin=329400|AlignEnd=329670|Gloss=thirty|nWord=11
+11	tàlàːtin	tàlàːtin	NUM	_	_	10	comp:pred	_	AlignBegin=329400|AlignEnd=329670|Gloss=thirty|nWord=11
 12	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	9	conj:coord	_	AlignBegin=329670|AlignEnd=329940|Gloss=3Masc.Aor|nWord=12
 13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=329940|AlignEnd=330210|Gloss=arrive|nWord=13
 14	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=330210|AlignEnd=330480|Gloss=PUNCT|nWord=14
@@ -1476,7 +1476,7 @@
 16	sai	sai	ADV	_	_	17	mod	_	AlignBegin=330750|AlignEnd=331020|Gloss=then|nWord=16
 17	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	9	parataxis@conj	_	AlignBegin=331020|AlignEnd=331290|Gloss=3Masc.Perf|nWord=17
 18	kwan	kwaːn-	VERB	_	_	17	comp:aux	_	AlignBegin=331290|AlignEnd=331560|Gloss=spend_night|nWord=18
-19	sìttin	sìttin	NUM	_	_	18	comp:obj	_	AlignBegin=331560|AlignEnd=331830|Gloss=sixty|nWord=19
+19	sìttin	sìttin	NUM	_	_	18	mod@num	_	AlignBegin=331560|AlignEnd=331830|Gloss=sixty|nWord=19
 20	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	17	mod	_	AlignBegin=331830|AlignEnd=332100|Gloss=3Masc.Aor|nWord=20
 21	zakà	zak-	VERB	_	_	20	comp:aux	_	AlignBegin=332100|AlignEnd=332370|Gloss=arrive|nWord=21
 22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=332370|AlignEnd=332640|Gloss=PUNCT|nWord=22
@@ -1491,7 +1491,7 @@
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=336620|AlignEnd=336795|Gloss=2Masc.Perf|nWord=1
 2	taɓà	taɓ-	VERB	_	_	1	comp:aux	_	AlignBegin=336795|AlignEnd=336970|Gloss=experience|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=336970|AlignEnd=337145|Gloss=arrive.NMLZ.Fem|nWord=3
-4	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	comp:obj	_	AlignBegin=337145|AlignEnd=337320|Gloss=Prox|nWord=4
+4	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	comp:goal	_	AlignBegin=337145|AlignEnd=337320|Gloss=Prox|nWord=4
 5	gàrîn	gàriː	NOUN	_	Definite=Cons|Gender=Masc	4	conj:appos	_	AlignBegin=337320|AlignEnd=337495|Gloss=village.Masc.Cons|nWord=5
 6	ga	ga	DET	_	Deixis=Prox|PronType=Dem	5	det	_	AlignBegin=337495|AlignEnd=337670|Gloss=Prox|nWord=6
 7	dâːmaː	dâːmaː	ADV	_	_	3	mod	_	AlignBegin=337670|AlignEnd=337845|Gloss=formerly|nWord=7
@@ -1604,7 +1604,7 @@
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=351533|AlignEnd=351733|Gloss=1Sing.Perf|nWord=1
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=351733|AlignEnd=351933|Gloss=do|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=351933|AlignEnd=352133|Gloss=arrive.NMLZ.Fem|nWord=3
-4	ukkù	ukkù	NUM	_	_	3	comp:obj	_	AlignBegin=352133|AlignEnd=352333|Gloss=three|nWord=4
+4	ukkù	ukkù	NUM	_	_	3	mod@num	_	AlignBegin=352133|AlignEnd=352333|Gloss=three|nWord=4
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=352333|AlignEnd=352533|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUA_BC_DIAL_01_095-095
