@@ -160,21 +160,21 @@
 # text = dà yag ga dai tanàː sôn tà ciː shì < yaz zoː bàːkin tabkìː |c sai yak kaːwoː maːshìː |c yab baː tà //
 # text_en = As he saw that she wanted to eat him, he arrived to the bank of the river, he took a spear and gave her.
 1	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=37916|AlignEnd=38205|Gloss=as|nWord=1
-2	yag	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	11	mod	_	AlignBegin=38205|AlignEnd=38494|Gloss=3Masc.Perf.BackG|nWord=2
+2	yag	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=38205|AlignEnd=38494|Gloss=3Masc.Perf.BackG|nWord=2
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=38494|AlignEnd=38783|Gloss=see|nWord=3
-4	dai	dai	PART	_	_	2	mod	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed|nWord=4
-5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Imp|nWord=5
+4	dai	dai	PART	_	_	3	mod	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed|nWord=4
+5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Imp|nWord=5
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=39361|AlignEnd=39650|Gloss=want.NMLZ.Masc.Cons|nWord=6
 7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=39650|AlignEnd=39939|Gloss=3Fem.Aor|nWord=7
 8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=39939|AlignEnd=40228|Gloss=eat|nWord=8
-9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=40228|AlignEnd=40517|Gloss=3Masc|nWord=9|wordform=shì
-10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT|nWord=10
+9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=40228|AlignEnd=40517|Gloss=3Masc|nWord=9|wordform=shì
+10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT|nWord=10
 11	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=40806|AlignEnd=41095|Gloss=3Masc.Perf.BackG|nWord=11
 12	zoː	zoː	VERB	_	_	11	comp:aux	_	AlignBegin=41095|AlignEnd=41384|Gloss=go|nWord=12
-13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons|nWord=13
+13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:goal	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons|nWord=13
 14	tabkìː	tabkìː	NOUN	_	Gender=Masc	13	compound	_	AlignBegin=41673|AlignEnd=41962|Gloss=river.Masc|nWord=14
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=41962|AlignEnd=42251|Gloss=PUNCT|nWord=15
-16	sai	sai	ADP	_	ExtPos=ADV	17	mod	_	AlignBegin=42251|AlignEnd=42540|Gloss=until|nWord=16
+16	sai	sai	ADV	_	ExtPos=ADV	17	mod	_	AlignBegin=42251|AlignEnd=42540|Gloss=then|nWord=16
 17	yak	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=42540|AlignEnd=42829|Gloss=3Masc.Perf.BackG|nWord=17
 18	kaːwoː	kaːwoː	VERB	_	_	17	comp:aux	_	AlignBegin=42829|AlignEnd=43118|Gloss=bring|nWord=18
 19	maːshìː	maːshìː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=43118|AlignEnd=43407|Gloss=spear.Masc|nWord=19
@@ -522,7 +522,7 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say|nWord=2
 3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Dat|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT|nWord=4
-5	dìːba	diːb-	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus|nWord=5
+5	dìːba	diːb-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus|nWord=5
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT|nWord=6
 7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus|nWord=7
 8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
@@ -548,7 +548,7 @@
 # text_en = Whe went and said "Elephants, there is a student there who is insulting you."
 1	taz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	0	root	_	AlignBegin=109422|AlignEnd=109698|Gloss=3Fem.Perf.BackG|nWord=1
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=109698|AlignEnd=109974|Gloss=go|nWord=2
-3	tac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=109974|AlignEnd=110250|Gloss=3Fem.Perf.BackG|nWord=3
+3	tac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=109974|AlignEnd=110250|Gloss=3Fem.Perf.BackG|nWord=3
 4	cèː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=110250|AlignEnd=110526|Gloss=say|nWord=4
 5	[	[	PUNCT	_	_	13	punct	_	AlignBegin=110526|AlignEnd=110802|Gloss=PUNCT|nWord=5
 6	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	13	vocative	_	AlignBegin=110802|AlignEnd=111078|Gloss=elephant.Plur|nWord=6
