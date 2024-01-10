@@ -293,7 +293,7 @@
 # phonetic_text = na Ìlleːlàː < suː kuma < sù yi Ìlleːlàː //
 # text = na Ìlleːlàː < suː kuma < sù yi Ìlleːlàː //
 # text_en = Those of Illela, they would be in Illela.
-1	na	na	PRON	_	Case=Gen|Number=Plur	7	dislocated@subj	_	AlignBegin=78520|AlignEnd=78680|Gloss=Gen|nWord=1
+1	na	na	ADP	_	Case=Gen|Number=Plur	7	dislocated@subj	_	AlignBegin=78520|AlignEnd=78680|Gloss=Gen|nWord=1
 2	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	1	comp:obj	_	AlignBegin=78680|AlignEnd=78840|Gloss=Illela|nWord=2
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=78840|AlignEnd=79000|Gloss=PUNCT|nWord=3
 4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=79000|AlignEnd=79160|Gloss=3Plur.Nom|nWord=4
@@ -678,7 +678,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.wav
 # sent_timecode = 183232, 185887
 # phonetic_text = Baːwàn Tudù < shiː koː < kaː ji || kaː ji anàː cêːwaː Tudù //
-# text = Baːwàn Tudùː < shiː koː < kaː ji || kaː ji anàː cêːwaː Tudùː //
+# text = Baːwàn Tudùː < shiː koː < kaː ji |r kaː ji anàː cêːwaː Tudùː //
 # text_en = Bawan Tudu, as for him, you see, you see, they say Tudu.
 1	Baːwàn	Baːwàn	PROPN	_	_	12	dislocated@comp	_	AlignBegin=183232|AlignEnd=183409|Gloss=Bawan|nWord=1
 2	Tudùː	Tudùː	PROPN	_	_	1	flat:name	_	AlignBegin=183409|AlignEnd=183586|Gloss=Tudu|nWord=2
@@ -1664,7 +1664,7 @@
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc|nWord=6
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT|nWord=7
 8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc|nWord=8
-9	na	na	PRON	_	Case=Gen	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Gen|nWord=9
+9	na	na	ADP	_	Case=Gen	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Gen|nWord=9
 10	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	9	comp:obj	_	AlignBegin=360478|AlignEnd=360722|Gloss=child.Plur.Cons|nWord=10
 11	maːtaː	maːtaː	NOUN	_	Number=Plur	10	compound	_	AlignBegin=360722|AlignEnd=360966|Gloss=women|nWord=11
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=360966|AlignEnd=361210|Gloss=PUNCT|nWord=12
@@ -1833,8 +1833,8 @@
 4	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Gloss=Prox|nWord=4
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT|nWord=5
 6	gàː	gàː	PART	_	_	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is|nWord=6
-7	na	na	PRON	_	Case=Gen	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=Gen|nWord=7
-8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	7	mod@poss	_	AlignBegin=402665|AlignEnd=402942|Gloss=Dist.Masc|nWord=8
+7	na	na	ADP	_	Case=Gen	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=Gen|nWord=7
+8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Dist.Masc|nWord=8
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUA_BC_DIAL_01_111-111
@@ -1915,12 +1915,12 @@
 5	=kà	=kà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=411750|AlignEnd=411980|Gloss=2Masc.Gen|nWord=4
 6	daban	daban	ADV	_	_	4	comp:pred	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart|nWord=5
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT|nWord=6
-8	ta	na	PRON	_	Case=Gen|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Gen.Fem|nWord=7
-9	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	8	mod@poss	_	AlignBegin=412670|AlignEnd=412900|Gloss=Dist.Masc|nWord=8
+8	ta	na	ADP	_	Case=Gen|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Gen.Fem|nWord=7
+9	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Dist.Masc|nWord=8
 10	daban	daban	ADV	_	_	8	comp:pred	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart|nWord=9
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT|nWord=10
-12	ta	na	PRON	_	Case=Gen|Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Gen.Fem|nWord=11
-13	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	12	mod@poss	_	AlignBegin=413590|AlignEnd=413820|Gloss=Dist.Masc|nWord=12
+12	ta	na	ADP	_	Case=Gen|Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Gen.Fem|nWord=11
+13	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Dist.Masc|nWord=12
 14	daban	daban	ADV	_	_	12	comp:pred	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart|nWord=13
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT|nWord=14
 
