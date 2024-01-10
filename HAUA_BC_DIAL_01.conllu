@@ -806,7 +806,7 @@
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=200467|AlignEnd=200708|Gloss=PUNCT|nWord=8
 9	sai	sai	ADP	_	ExtPos=ADV	10	mod	_	AlignBegin=200708|AlignEnd=200949|Gloss=until|nWord=9
 10	yag	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	6	conj:coord	_	AlignBegin=200949|AlignEnd=201190|Gloss=3Masc.Perf.BackG|nWord=10
-11	ga	ganiː	VERB	_	_	10	mod	_	AlignBegin=201190|AlignEnd=201431|Gloss=see|nWord=11
+11	ga	ganiː	VERB	_	_	10	comp:aux	_	AlignBegin=201190|AlignEnd=201431|Gloss=see|nWord=11
 12-13	cikinsù	_	_	_	_	_	_	_	_
 12	cikin	cikin	ADP	_	_	14	mod	_	AlignBegin=201431|AlignEnd=201672|Gloss=inside|nWord=12
 13	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=201431|AlignEnd=201672|Gloss=3Plur.Gen|nWord=12
@@ -1230,7 +1230,7 @@
 # text = naː ga wànnan //
 # text_en = You see then.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=284080|AlignEnd=284345|Gloss=1Sing.Perf|nWord=1
-2	ga	ganiː	VERB	_	_	1	mod	_	AlignBegin=284345|AlignEnd=284610|Gloss=see|nWord=2
+2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=284345|AlignEnd=284610|Gloss=see|nWord=2
 3	wànnan	wànnan	PRON	_	Deixis=Anaph|Gender=Masc|PronType=Dem	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=Anaph.Masc|nWord=3
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=284875|AlignEnd=285140|Gloss=PUNCT|nWord=4
 
@@ -1281,7 +1281,7 @@
 12	=kà	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	11	mod@poss	_	AlignBegin=297360|AlignEnd=297572|Gloss=2Masc.Gen|nWord=11
 13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=297572|AlignEnd=297784|Gloss=PUNCT|nWord=12
 14	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	8	mod	_	AlignBegin=297784|AlignEnd=297996|Gloss=3Masc.Aor|nWord=13
-15	baː	baː	VERB	_	_	14	mod	_	AlignBegin=297996|AlignEnd=298208|Gloss=give|nWord=14
+15	baː	baː	VERB	_	_	14	comp:aux	_	AlignBegin=297996|AlignEnd=298208|Gloss=give|nWord=14
 16	kà	shì	PRON	_	Gender=Masc|Person=2|PronType=Prs	15	comp:ben	_	AlignBegin=298208|AlignEnd=298420|Gloss=2Masc|nWord=15
 17	káːshíː	káːshíː	NOUN	_	Gender=Masc	15	comp:obj	_	AlignBegin=298420|AlignEnd=298632|Gloss=shit.Masc|nWord=16
 18	//	//	PUNCT	_	_	4	punct	_	AlignBegin=298632|AlignEnd=298840|Gloss=PUNCT|nWord=17
@@ -1645,7 +1645,7 @@
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.NMLZ.Fem|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf|nWord=4
-5	kaːwoː	kai	VERB	_	_	4	comp:pred	_	AlignBegin=357620|AlignEnd=357840|Gloss=carry|nWord=5
+5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=357620|AlignEnd=357840|Gloss=carry|nWord=5
 6	turàːmeː	turmiː	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	AlignBegin=357840|AlignEnd=358060|Gloss=cloth.Plur.Masc|nWord=6
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358060|AlignEnd=358282|Gloss=PUNCT|nWord=7
 
@@ -1660,8 +1660,8 @@
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem|nWord=2
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=358770|AlignEnd=359014|Gloss=arrive.NMLZ.Fem|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359014|AlignEnd=359258|Gloss=1Sing.Perf|nWord=4
-5	kaːwoː	kai	VERB	_	_	4	comp:pred	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry|nWord=5
-6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc|nWord=6
+5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry|nWord=5
+6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc|nWord=6
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT|nWord=7
 8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc|nWord=8
 9	na	na	ADP	_	Case=Gen	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Gen|nWord=9
@@ -2171,7 +2171,7 @@
 # text = sa'ànnan iyàːkad dub bìɗaː < kà zakà { watàː ukkù |c watàː huɗu } |c kà koːmàː gidaː //
 # text_en = At that time, the longest of work, you would go for three months, four months, you would go back home.
 1	sa'ànnan	sa'ànnan	ADV	_	_	6	mod	_	AlignBegin=451580|AlignEnd=451773|Gloss=then|nWord=1
-2	iyàːkad	iyàːkaː	VERB	_	Definite=Cons|Gender=Fem	6	dislocated@mod	_	AlignBegin=451966|AlignEnd=452159|Gloss=limit.Cons.Fem|nWord=3
+2	iyàːkad	iyàːkaː	NOUN	_	Definite=Cons|Gender=Fem	6	dislocated@top	_	AlignBegin=451966|AlignEnd=452159|Gloss=limit.Cons.Fem|nWord=3
 3	dub	duk	DET	_	PronType=Tot	4	det	_	AlignBegin=452159|AlignEnd=452352|Gloss=all|nWord=4
 4	bìɗaː	biɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	mod	_	AlignBegin=452352|AlignEnd=452545|Gloss=look_for.NMLZ.Fem|nWord=5
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=452545|AlignEnd=452738|Gloss=PUNCT|nWord=6

@@ -144,7 +144,7 @@
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=36765|AlignEnd=36968|Gloss=PUNCT|nWord=11
 12	in	in	SCONJ	_	_	16	mod	_	AlignBegin=36968|AlignEnd=37171|Gloss=if|nWord=12
 13	yas	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=37171|AlignEnd=37374|Gloss=3Masc.Perf.BackG|nWord=13
-14	soː	soː	VERB	_	_	13	mod	_	AlignBegin=37374|AlignEnd=37577|Gloss=want|nWord=14
+14	soː	soː	VERB	_	_	13	comp:aux	_	AlignBegin=37374|AlignEnd=37577|Gloss=want|nWord=14
 15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=37577|AlignEnd=37780|Gloss=PUNCT|nWord=15
 16	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=37780|AlignEnd=37983|Gloss=2Masc.Perf|nWord=16
 17	san	sanìː	VERB	_	_	16	comp:aux	_	AlignBegin=37983|AlignEnd=38186|Gloss=know|nWord=17
@@ -206,7 +206,7 @@
 # text_en = It's better like that.
 1	hakànan	hakànan	ADV	_	_	2	dislocated@mod	_	AlignBegin=43963|AlignEnd=44230|Gloss=thus|nWord=1
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=44497|AlignEnd=44764|Gloss=3Masc.Perf|nWord=3
-3	hi	hi	VERB	_	_	2	mod	_	AlignBegin=44764|AlignEnd=45031|Gloss=exceed|nWord=4
+3	hi	hi	VERB	_	_	2	comp:aux	_	AlignBegin=44764|AlignEnd=45031|Gloss=exceed|nWord=4
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45031|AlignEnd=45299|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUA_BC_NARR_02_GKB_12
@@ -401,7 +401,7 @@
 # text_en = Even a little one, you can't do it?
 1	koː	koː	ADV	_	_	3	mod	_	AlignBegin=87062|AlignEnd=87304|Gloss=even|nWord=1
 2	ƴag	ɗaː	ADJ	_	Definite=Cons|Gender=Fem	3	mod	_	AlignBegin=87304|AlignEnd=87546|Gloss=small.Fem|nWord=2
-3	guntuwaː	guntuː	VERB	_	Gender=Fem	6	dislocated@comp	_	AlignBegin=87546|AlignEnd=87788|Gloss=piece.Fem|nWord=3
+3	guntuwaː	guntuː	NOUN	_	Gender=Fem	6	dislocated@comp	_	AlignBegin=87546|AlignEnd=87788|Gloss=piece.Fem|nWord=3
 4	gùdaː	gùdaː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=87788|AlignEnd=88030|Gloss=unit.Masc|nWord=4
 5	ɗai	ɗai	NUM	_	_	4	mod@num	_	AlignBegin=88030|AlignEnd=88272|Gloss=one|nWord=5
 6	baːkà	bâi	AUX	_	Aspect=Imp|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=88272|AlignEnd=88514|Gloss=2Masc.Imp.Neg|nWord=6
@@ -879,7 +879,7 @@
 7	cèː	cèː	VERB	_	_	6	comp:aux	_	AlignBegin=194643|AlignEnd=194746|Gloss=say|nWord=7
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=194746|AlignEnd=194849|Gloss=PUNCT|nWord=8
 9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=194849|AlignEnd=194952|Gloss=2Masc.Perf|nWord=9
-10	isoː	is-	VERB	_	_	9	comp:pred	_	AlignBegin=194952|AlignEnd=195055|Gloss=arrive|nWord=10
+10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=194952|AlignEnd=195055|Gloss=arrive|nWord=10
 11	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=195055|AlignEnd=195158|Gloss=PUNCT|nWord=11
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=195158|AlignEnd=195258|Gloss=PUNCT|nWord=12
 
@@ -974,7 +974,7 @@
 # text_en = WWhen Dog arrived, Jackal said "Welcome!"
 1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=210800|AlignEnd=211015|Gloss=dog.Masc|nWord=1
 2	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=211015|AlignEnd=211230|Gloss=3Masc.Perf.BackG|nWord=2
-3	zakà	zak-	VERB	_	_	2	mod	_	AlignBegin=211230|AlignEnd=211445|Gloss=arrive|nWord=3
+3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=211230|AlignEnd=211445|Gloss=arrive|nWord=3
 4	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=211445|AlignEnd=211660|Gloss=PUNCT|nWord=4
 5	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	7	subj	_	AlignBegin=211660|AlignEnd=211875|Gloss=dog.Masc.Cons|nWord=5
 6	ɓiki	ɓiki	NOUN	_	Gender=Masc	5	compound	_	AlignBegin=211875|AlignEnd=212090|Gloss=shit.Masc|nWord=6
@@ -1096,7 +1096,7 @@
 5	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	4	compound	_	AlignBegin=227884|AlignEnd=228027|Gloss=communal_hunting.Fem|nWord=5
 6	koː	koː	PART	_	_	4	mod	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for|nWord=6
 7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=228170|AlignEnd=228313|Gloss=3Plur.Perf|nWord=7
-8	zakà	zak-	VERB	_	_	7	mod	_	AlignBegin=228313|AlignEnd=228456|Gloss=arrive|nWord=8
+8	zakà	zak-	VERB	_	_	7	comp:aux	_	AlignBegin=228313|AlignEnd=228456|Gloss=arrive|nWord=8
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=228456|AlignEnd=228599|Gloss=PUNCT|nWord=9
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=228599|AlignEnd=228741|Gloss=PUNCT|nWord=10
 
@@ -1161,7 +1161,7 @@
 8	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=242076|AlignEnd=242210|Gloss=child.Plur.Cons|nWord=8
 9	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	8	compound	_	AlignBegin=242210|AlignEnd=242344|Gloss=communal_hunting.Fem|nWord=9
 10	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=242344|AlignEnd=242478|Gloss=3Plur.Perf|nWord=10
-11	isoː	is-	VERB	_	_	10	mod	_	AlignBegin=242478|AlignEnd=242612|Gloss=arrive|nWord=11
+11	isoː	is-	VERB	_	_	10	comp:aux	_	AlignBegin=242478|AlignEnd=242612|Gloss=arrive|nWord=11
 12	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=242612|AlignEnd=242746|Gloss=PUNCT|nWord=12
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=242746|AlignEnd=242880|Gloss=PUNCT|nWord=13
 

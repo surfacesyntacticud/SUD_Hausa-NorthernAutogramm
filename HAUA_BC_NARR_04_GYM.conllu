@@ -147,15 +147,15 @@
 12	ɗòːki	ɗauk-	VERB	_	_	11	comp:aux	_	AlignBegin=27692|AlignEnd=28067|Gloss=take|nWord=12
 13	sâː	sâː	NOUN	_	Gender=Masc	12	comp:obj	_	AlignBegin=28067|AlignEnd=28442|Gloss=cow.Masc|nWord=13
 14	namijì	namijì	ADJ	_	Gender=Masc	13	mod	_	AlignBegin=28442|AlignEnd=28817|Gloss=male|nWord=14
-15	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	12	mod	_	AlignBegin=28817|AlignEnd=29192|Gloss=3Masc.Aor|nWord=15
+15	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	12	conj:coord	_	AlignBegin=28817|AlignEnd=29192|Gloss=3Masc.Aor|nWord=15
 16	bâː	bâː	VERB	_	_	15	comp:aux	_	AlignBegin=29192|AlignEnd=29567|Gloss=give|nWord=16
 17	wàccan	wàccan	PRON	_	Deixis=Dist|Gender=Fem|PronType=Dem	16	comp:obj	_	AlignBegin=29567|AlignEnd=29942|Gloss=Fem.Dist|nWord=17
 18	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=29942|AlignEnd=30317|Gloss=PUNCT|nWord=18
 19	sai	sai	ADV	_	_	20	mod	_	AlignBegin=30317|AlignEnd=30692|Gloss=then|nWord=19
 20	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=30692|AlignEnd=31067|Gloss=3Masc.Aor|nWord=20
-21	ɗòːki	ɗauk-	VERB	_	_	20	subj	_	AlignBegin=31067|AlignEnd=31442|Gloss=take|nWord=21
+21	ɗòːki	ɗauk-	VERB	_	_	20	comp:aux	_	AlignBegin=31067|AlignEnd=31442|Gloss=take|nWord=21
 22	sânyaː	sânyaː	NOUN	_	Gender=Fem	21	comp:obj	_	AlignBegin=31442|AlignEnd=31817|Gloss=cow.Fem|nWord=22
-23	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	20	mod	_	AlignBegin=31817|AlignEnd=32192|Gloss=3Masc.Aor|nWord=23
+23	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	20	conj:coord	_	AlignBegin=31817|AlignEnd=32192|Gloss=3Masc.Aor|nWord=23
 24	bâː	bâː	VERB	_	_	23	comp:aux	_	AlignBegin=32192|AlignEnd=32567|Gloss=give|nWord=24
 25	wàgga	wàgga	PRON	_	Deixis=Prox|Gender=Fem|PronType=Dem	24	subj	_	AlignBegin=32567|AlignEnd=32942|Gloss=Fem.Prox|nWord=25
 26	//	//	PUNCT	_	_	11	punct	_	AlignBegin=32942|AlignEnd=33319|Gloss=PUNCT|nWord=26
@@ -351,15 +351,16 @@
 34	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	33	comp:aux	_	AlignBegin=65608|AlignEnd=65792|Gloss=do.NMLZ.Masc|nWord=33
 35	his'ariː	his'ariː	NOUN	_	Gender=Masc	34	comp:obj	_	AlignBegin=65792|AlignEnd=65976|Gloss=urine.Masc|nWord=34
 36	<	<	PUNCT	_	_	22	punct	_	AlignBegin=65976|AlignEnd=66160|Gloss=PUNCT|nWord=35
-37	zâːki	zâːki	AUX	_	Gender=Fem|Person=2|Tense=Fut	20	comp:obj	_	AlignBegin=66160|AlignEnd=66344|Gloss=2Fem.Fut|nWord=36
-38-39	ki	_	_	_	_	_	_	_	_
-38	ɗeːboː	ɗiːb-	VERB	_	_	37	comp:aux	_	AlignBegin=66528|AlignEnd=66712|Gloss=scoop|nWord=38
-39	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	38	mod	_	AlignBegin=66712|AlignEnd=66896|Gloss=Prox|nWord=39
-40	?//=	?//=	PUNCT	_	_	41	punct	_	AlignBegin=66896|AlignEnd=67080|Gloss=PUNCT|nWord=40
-41	ƙàːraː	ƙàːraː	VERB	_	Mood=Jus	37	parataxis@conj	_	AlignBegin=67080|AlignEnd=67264|Gloss=increase.Jus|nWord=41
-42	gàba	gàba	ADV	_	_	41	comp:goal	_	AlignBegin=67264|AlignEnd=67448|Gloss=in_front|nWord=42
-43	//]	//]	PUNCT	_	_	37	punct	_	AlignBegin=67448|AlignEnd=67632|Gloss=PUNCT|nWord=43
-44	//	//	PUNCT	_	_	19	punct	_	AlignBegin=67632|AlignEnd=67809|Gloss=PUNCT|nWord=44
+37	zâ	zâ	PART	_	Person=2	20	comp:obj	_	AlignBegin=66160|AlignEnd=66344|Gloss=move_toward|nWord=36
+38	ki	ki	PRON	_	Gender=Fem|Person=2|PronType=Prs	37	subj	_	AlignBegin=66160|AlignEnd=66344|Gloss=2Fem|nWord=36
+39-40	ki	_	_	_	_	_	_	_	_
+39	ɗeːboː	ɗiːb-	VERB	_	_	37	comp:goal	_	AlignBegin=66528|AlignEnd=66712|Gloss=scoop|nWord=38
+40	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	39	mod	_	AlignBegin=66712|AlignEnd=66896|Gloss=Prox|nWord=39
+41	?//=	?//=	PUNCT	_	_	42	punct	_	AlignBegin=66896|AlignEnd=67080|Gloss=PUNCT|nWord=40
+42	ƙàːraː	ƙàːraː	VERB	_	Mood=Jus	37	parataxis@conj	_	AlignBegin=67080|AlignEnd=67264|Gloss=increase.Jus|nWord=41
+43	gàba	gàba	ADV	_	_	42	comp:goal	_	AlignBegin=67264|AlignEnd=67448|Gloss=in_front|nWord=42
+44	//]	//]	PUNCT	_	_	37	punct	_	AlignBegin=67448|AlignEnd=67632|Gloss=PUNCT|nWord=43
+45	//	//	PUNCT	_	_	19	punct	_	AlignBegin=67632|AlignEnd=67809|Gloss=PUNCT|nWord=44
 
 # sent_id = HAUA_BC_NARR_04_GYM_017-017
 # speaker_id = SP
@@ -753,7 +754,7 @@
 3	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	2	det	_	AlignBegin=124825|AlignEnd=125038|Gloss=Anaph|nWord=3
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=125038|AlignEnd=125251|Gloss=PUNCT|nWord=4
 5	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	0	root	_	AlignBegin=125251|AlignEnd=125464|Gloss=4.Perf.BackG|nWord=5
-6	baː	baː	VERB	_	_	5	mod	_	AlignBegin=125464|AlignEnd=125677|Gloss=give|nWord=6
+6	baː	baː	VERB	_	_	5	comp:aux	_	AlignBegin=125464|AlignEnd=125677|Gloss=give|nWord=6
 7	shì	shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:ben	_	AlignBegin=125677|AlignEnd=125890|Gloss=3Masc|nWord=7
 8	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=125890|AlignEnd=126103|Gloss=shit.Masc|nWord=8
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=126103|AlignEnd=126316|Gloss=PUNCT|nWord=9
@@ -1313,7 +1314,7 @@
 9	<	<	PUNCT	_	_	4	punct	_	AlignBegin=209685|AlignEnd=210020|Gloss=PUNCT|nWord=9
 10	sai	sai	ADP	_	ExtPos=ADV	11	mod	_	AlignBegin=210020|AlignEnd=210355|Gloss=until|nWord=10
 11	yas'	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=210355|AlignEnd=210690|Gloss=3Masc.Perf.BackG|nWord=11
-12	s'ayàː	s'ay-	VERB	_	_	11	mod	_	AlignBegin=210690|AlignEnd=211025|Gloss=stop|nWord=12
+12	s'ayàː	s'ay-	VERB	_	_	11	comp:aux	_	AlignBegin=210690|AlignEnd=211025|Gloss=stop|nWord=12
 13	//	//	PUNCT	_	_	11	punct	_	AlignBegin=211025|AlignEnd=211360|Gloss=PUNCT|nWord=13
 
 # sent_id = HAUA_BC_NARR_04_GYM_063-063
@@ -1843,7 +1844,7 @@
 # text = yaz zakà //
 # text_en = He arrived there.
 1	yaz	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=279240|AlignEnd=279407|Gloss=3Masc.Perf.BackG|nWord=1
-2	zakà	zak-	VERB	_	_	1	mod	_	AlignBegin=279407|AlignEnd=279574|Gloss=arrive|nWord=2
+2	zakà	zak-	VERB	_	_	1	comp:aux	_	AlignBegin=279407|AlignEnd=279574|Gloss=arrive|nWord=2
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=279574|AlignEnd=279740|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUA_BC_NARR_04_GYM_089-089
@@ -2375,7 +2376,7 @@
 8	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=363513|AlignEnd=363780|Gloss=3Masc.Imp|nWord=7
 9-10	tai	_	_	_	_	_	_	_	_
 9	ta	ta	PART	_	Aspect=Iter	10	mod	_	AlignBegin=363780|AlignEnd=364047|Gloss=Iter|nWord=8
-10	yi	yi	VERB	_	_	8	mod	_	AlignBegin=363780|AlignEnd=364047|Gloss=do|nWord=8
+10	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=363780|AlignEnd=364047|Gloss=do|nWord=8
 11	mà	mà	ADP	_	Case=Dat	10	comp:obl	_	AlignBegin=364047|AlignEnd=364314|Gloss=Dat|nWord=9
 12	Dòːdoː	Dòːdoː	PROPN	_	_	11	comp:obj	_	AlignBegin=364314|AlignEnd=364581|Gloss=Dodo|nWord=10|wordform=dòːdoː
 13	askìn	askìː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj	_	AlignBegin=364581|AlignEnd=364848|Gloss=shaving.Masc.Cons|nWord=11
