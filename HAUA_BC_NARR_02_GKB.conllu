@@ -762,7 +762,7 @@
 # phonetic_text = sai sunkà tàːru //
 # text = sai sunkà tàːru //
 # text_en = Then they gathered.
-1	sai	sai	ADP	_	ExtPos=ADV	2	mod	_	AlignBegin=169381|AlignEnd=169620|Gloss=until|nWord=1
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=169381|AlignEnd=169620|Gloss=until|nWord=1
 2	sunkà	yak	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3	0	root	_	AlignBegin=169620|AlignEnd=169859|Gloss=3Plur.Perf.BackG|nWord=2
 3	tàːru	taːr-	VERB	_	_	2	comp:aux	_	AlignBegin=169859|AlignEnd=170098|Gloss=meet|nWord=3
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170098|AlignEnd=170336|Gloss=PUNCT|nWord=4
@@ -806,7 +806,7 @@
 # phonetic_text = sai kàram ɓiki yac cêː mà zàkaràː [ mun isoː //= kaː zakà ?//] //
 # text = sai kàram ɓiki yac cêː mà zàkaràː [ mun isoː //= kaː zakà ?//] //
 # text_en = Then Jackal told Cock " Here we are, are you ready?"
-1	sai	sai	ADP	_	ExtPos=ADV	4	mod	_	AlignBegin=182607|AlignEnd=182972|Gloss=until|nWord=1
+1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=182607|AlignEnd=182972|Gloss=until|nWord=1
 2	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	AlignBegin=182972|AlignEnd=183337|Gloss=dog.Masc.Cons|nWord=2
 3	ɓiki	ɓiki	NOUN	_	Gender=Masc	2	compound	_	AlignBegin=183337|AlignEnd=183702|Gloss=shit.Masc|nWord=3
 4	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=183702|AlignEnd=184067|Gloss=3Masc.Perf.BackG|nWord=4
@@ -815,10 +815,10 @@
 7	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=184797|AlignEnd=185162|Gloss=cock.Masc|nWord=7
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=185162|AlignEnd=185527|Gloss=PUNCT|nWord=8
 9	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=185527|AlignEnd=185892|Gloss=1Plur.Perf|nWord=9
-10	isoː	is-	VERB	_	_	9	mod	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive|nWord=10
+10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive|nWord=10
 11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=186257|AlignEnd=186622|Gloss=PUNCT|nWord=11
 12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis@conj	_	AlignBegin=186622|AlignEnd=186987|Gloss=2Masc.Perf|nWord=12
-13	zakà	zak-	VERB	_	_	12	comp:pred	_	AlignBegin=186987|AlignEnd=187352|Gloss=arrive|nWord=13
+13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=186987|AlignEnd=187352|Gloss=arrive|nWord=13
 14	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=187352|AlignEnd=187717|Gloss=PUNCT|nWord=14
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=187717|AlignEnd=188087|Gloss=PUNCT|nWord=15
 
