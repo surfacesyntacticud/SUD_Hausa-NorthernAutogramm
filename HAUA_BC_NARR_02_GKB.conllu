@@ -159,12 +159,12 @@
 # phonetic_text = gaːtunnàː < yawàː gàreː sù //
 # text = gaːtunnàː < yawàː gàreː sù //
 # text_en = The tales are many.
-1	gaːtunnàː	gàːtanàː	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=38802|AlignEnd=39024|Gloss=tale.Plur|nWord=1
+1	gaːtunnàː	gàːtanàː	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=38802|AlignEnd=39024|Gloss=tale.Plur|nWord=1
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=39024|AlignEnd=39246|Gloss=PUNCT|nWord=2
-3	yawàː	yawàː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=39246|AlignEnd=39468|Gloss=quantity.Masc|nWord=3
-4	gàreː	gà	ADP	_	_	3	comp:pred	_	AlignBegin=39468|AlignEnd=39690|Gloss=by|nWord=4
+3	yawàː	yawàː	NOUN	_	Gender=Masc	4	subj	_	AlignBegin=39246|AlignEnd=39468|Gloss=quantity.Masc|nWord=3
+4	gàreː	gà	ADP	_	_	0	root	_	AlignBegin=39468|AlignEnd=39690|Gloss=by|nWord=4
 5	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=39690|AlignEnd=39912|Gloss=3Plur|nWord=5
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=39912|AlignEnd=40136|Gloss=PUNCT|nWord=6
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=39912|AlignEnd=40136|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_NARR_02_GKB_10
 # speaker_id = SP2
@@ -711,7 +711,7 @@
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=157106|AlignEnd=157312|Gloss=say|nWord=12
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=157312|AlignEnd=157518|Gloss=PUNCT|nWord=13
 5	ìn	ìn	ADV	_	Aspect=Aor|Number=Sing|Person=1|PronType=Prs	7	parataxis@discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Aor|nWord=14
-6	ji	jiyàː	VERB	_	_	5	comp:pred	_	AlignBegin=157724|AlignEnd=157930|Gloss=hear|nWord=15
+6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=157724|AlignEnd=157930|Gloss=hear|nWord=15
 7	baːbù	baːbù	PART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=157930|AlignEnd=158136|Gloss=there_is.Neg|nWord=16
 8	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=158136|AlignEnd=158342|Gloss=lion.Masc|nWord=17
 9	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=158342|AlignEnd=158548|Gloss=PUNCT|nWord=18

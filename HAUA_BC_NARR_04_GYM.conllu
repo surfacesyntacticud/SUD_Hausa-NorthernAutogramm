@@ -1085,7 +1085,7 @@
 # phonetic_text = kullun shì zakà |c shì jèːwàyèsshi //
 # text = kullun shì zakà |c shì jèːwàyès shi //
 # text_en = He kept going to inspect it.
-1	kullun	kullun	ADV	_	_	2	comp:pred	_	AlignBegin=174020|AlignEnd=174162|Gloss=always|nWord=1
+1	kullun	kullun	ADV	_	_	2	mod	_	AlignBegin=174020|AlignEnd=174162|Gloss=always|nWord=1
 2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=174162|AlignEnd=174304|Gloss=3Masc.Aor|nWord=2
 3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=174304|AlignEnd=174446|Gloss=arrive|nWord=3
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=174446|AlignEnd=174588|Gloss=PUNCT|nWord=4
@@ -1115,7 +1115,7 @@
 # phonetic_text = kullun < shinàː baː shì ruwaː had dumèn yah hwaːrà yaːɗaː //
 # text = kullun < shinàː baː shì ruwaː had dumèn yah hwaːrà yaːɗaː //
 # text_en = He kept watering it until the pumpkin plant started to creep.
-1	kullun	kullun	ADV	_	_	3	comp:pred	_	AlignBegin=175767|AlignEnd=175937|Gloss=always|nWord=1
+1	kullun	kullun	ADV	_	_	3	mod	_	AlignBegin=175767|AlignEnd=175937|Gloss=always|nWord=1
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=175937|AlignEnd=176107|Gloss=PUNCT|nWord=2
 3	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=176107|AlignEnd=176277|Gloss=3Masc.Imp|nWord=3
 4	baː	baː	VERB	_	_	3	comp:aux	_	AlignBegin=176277|AlignEnd=176447|Gloss=give|nWord=4
@@ -2191,14 +2191,14 @@
 # sent_timecode = 336223, 338390
 # phonetic_text = shinàː [ ayaː wàje !//= ayaː wàje !//] //
 # text = shinàː [ ayaː wàje !//= ayaː wàje !//] //
-# text_en = He was crying "Aya waje, Aya waje!*" [*Aya waje
+# text_en = He was crying "aya waje, aya waje!*" [*Epithet of his trade as a barber]
 1	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=336223|AlignEnd=336464|Gloss=3Masc.Imp|nWord=1
 2	[	[	PUNCT	_	_	3	punct	_	AlignBegin=336464|AlignEnd=336705|Gloss=PUNCT|nWord=2
 3	ayaː	ayaː	NOUN	_	_	1	comp:aux	_	AlignBegin=336705|AlignEnd=336946|Gloss=tiger_nut|nWord=3
-4	wàje	wàje	ADV	_	_	3	comp:pred	_	AlignBegin=336946|AlignEnd=337187|Gloss=outside|nWord=4
+4	wàje	wàje	ADV	_	_	3	unk	_	AlignBegin=336946|AlignEnd=337187|Gloss=outside|nWord=4
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=337187|AlignEnd=337428|Gloss=PUNCT|nWord=5
 6	ayaː	ayaː	NOUN	_	_	3	conj:redup	_	AlignBegin=337428|AlignEnd=337669|Gloss=tiger_nut|nWord=6
-7	wàje	wàje	ADV	_	_	6	comp:pred	_	AlignBegin=337669|AlignEnd=337910|Gloss=outside|nWord=7
+7	wàje	wàje	ADV	_	_	6	unk	_	AlignBegin=337669|AlignEnd=337910|Gloss=outside|nWord=7
 8	!//]	!//]	PUNCT	_	_	3	punct	_	AlignBegin=337910|AlignEnd=338151|Gloss=PUNCT|nWord=8
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=338151|AlignEnd=338390|Gloss=PUNCT|nWord=9
 
@@ -2208,16 +2208,16 @@
 # sent_timecode = 339780, 342222
 # phonetic_text = shinàː ta cêwaː [ ayaː wàje //= ayaː wàje ] //
 # text = shinàː ta cêwaː [ ayaː wàje //= ayaː wàje ] //
-# text_en = He kept crying "Aya waje, Aya waje!"
+# text_en = He kept crying "aya waje, aya waje!"
 1	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=339780|AlignEnd=340002|Gloss=3Masc.Imp|nWord=1
 2	ta	ta	PART	_	Aspect=Iter	3	mod	_	AlignBegin=340002|AlignEnd=340224|Gloss=Iter|nWord=2
 3	cêwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=340224|AlignEnd=340446|Gloss=say.NMLZ.Fem|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=340446|AlignEnd=340668|Gloss=PUNCT|nWord=4
 5	ayaː	ayaː	NOUN	_	_	3	comp:obj	_	AlignBegin=340668|AlignEnd=340890|Gloss=tiger_nut|nWord=5
-6	wàje	wàje	ADV	_	_	5	comp:pred	_	AlignBegin=340890|AlignEnd=341112|Gloss=outside|nWord=6
+6	wàje	wàje	ADV	_	_	5	unk	_	AlignBegin=340890|AlignEnd=341112|Gloss=outside|nWord=6
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=341112|AlignEnd=341334|Gloss=PUNCT|nWord=7
 8	ayaː	ayaː	NOUN	_	_	5	conj:dicto	_	AlignBegin=341334|AlignEnd=341556|Gloss=tiger_nut|nWord=8
-9	wàje	wàje	ADV	_	_	8	comp:pred	_	AlignBegin=341556|AlignEnd=341778|Gloss=outside|nWord=9
+9	wàje	wàje	ADV	_	_	8	unk	_	AlignBegin=341556|AlignEnd=341778|Gloss=outside|nWord=9
 10	]	]	PUNCT	_	_	5	punct	_	AlignBegin=341778|AlignEnd=342000|Gloss=PUNCT|nWord=10
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=342000|AlignEnd=342222|Gloss=PUNCT|nWord=11
 
@@ -2227,7 +2227,7 @@
 # sent_timecode = 342222, 347980
 # phonetic_text = sai doːdòː yac cêː mà Ƙurƙìyaː [ keː < tàhi kì kiraːyoː mài ayaː wàjên nan |c shì zakà |c shi ɗeːbèː min gaːshìn geːmèː!//] //
 # text = sai Doːdòː yac cêː mà Ƙurƙìyaː [ keː < tàhi kì kiraːyoː mài ayaː wàjên nan shì zakà |c shì ɗeːbèː min gaːshìn geːmèː!//] //
-# text_en = Then the dodo told Dove [ You, go and call that 'Aya waje', let him come and shave off my beard."
+# text_en = Then the dodo told Dove [ You, go and call that 'aya waje', let him come and shave off my beard."
 1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=342222|AlignEnd=342444|Gloss=until|nWord=12
 2	Doːdòː	Doːdòː	PROPN	_	_	3	subj	_	AlignBegin=342444|AlignEnd=342666|Gloss=Dodo|nWord=13
 3	yac	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	0	root	_	AlignBegin=342666|AlignEnd=342888|Gloss=3Masc.Perf.BackG|nWord=14
