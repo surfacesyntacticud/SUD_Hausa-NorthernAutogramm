@@ -517,7 +517,7 @@
 8	sarkiː	sarkiː	NOUN	_	Gender=Masc	7	mod@poss	_	AlignBegin=90436|AlignEnd=90608|Gloss=king.Masc|nWord=9
 9	nàː	nàː	AUX	_	Aspect=Imp	0	root	_	AlignBegin=90608|AlignEnd=90780|Gloss=Imp|nWord=10
 10-11	sônta	_	_	_	_	_	_	_	_
-10	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	comp:pred	_	AlignBegin=90780|AlignEnd=90952|Gloss=want.NMLZ.Masc.Cons|nWord=11
+10	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=90780|AlignEnd=90952|Gloss=want.NMLZ.Masc.Cons|nWord=11
 11	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=90780|AlignEnd=90952|Gloss=3Fem.Gen|nWord=11
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=90952|AlignEnd=91120|Gloss=PUNCT|nWord=12
 
@@ -748,7 +748,7 @@
 # sent_timecode = 124399, 132065
 # phonetic_text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cèː mà uwaːtai [ níː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
-# text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me to this world?"
+# text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me into this world?"
 1	sai	sai	ADV	_	_	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=until|nWord=1
 2	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Masc	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Fem.Cons|nWord=2
 3	nan	nan	DET	_	Deixis=Anaph|PronType=Dem	2	det	_	AlignBegin=124825|AlignEnd=125038|Gloss=Anaph|nWord=3
@@ -778,7 +778,7 @@
 26	ga	ganiː	VERB	_	_	25	mod	_	AlignBegin=129511|AlignEnd=129724|Gloss=see|nWord=25
 27	nàː	nàː	PART	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937|nWord=26
 28	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT|nWord=27
-29	Allàː	Allàː	PROPN	_	_	30	comp:pred	_	AlignBegin=130150|AlignEnd=130363|Gloss=God|nWord=28
+29	Allàː	Allàː	PROPN	_	_	30	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God|nWord=28
 30	yay	yak	AUX	_	Aspect=Perf|Evident=BackG|Gender=Masc|Person=3	27	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Gloss=3Masc.Perf.BackG|nWord=29
 31	yoː	yi	VERB	_	_	30	comp:aux	_	AlignBegin=130576|AlignEnd=130789|Gloss=do|nWord=30
 32	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	31	comp:obj	_	AlignBegin=130789|AlignEnd=131002|Gloss=1Sing|nWord=31
@@ -1491,7 +1491,7 @@
 # text_en = "I want to escape from the Dodo."
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=236531|AlignEnd=236833|Gloss=PUNCT|nWord=1
 2	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=236833|AlignEnd=237135|Gloss=1Sing.Imp|nWord=2
-3	gudùn	gud-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=237135|AlignEnd=237437|Gloss=run.NMLZ.Masc.Cons|nWord=3
+3	gudùn	gud-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=237135|AlignEnd=237437|Gloss=run.NMLZ.Masc.Cons|nWord=3
 4	Dòːdoː	Dòːdoː	PROPN	_	_	3	comp:obj	_	AlignBegin=237437|AlignEnd=237739|Gloss=Dodo|nWord=4|wordform=dòːdoː
 5	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=237739|AlignEnd=238042|Gloss=PUNCT|nWord=5
 
@@ -2322,7 +2322,7 @@
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=354510|AlignEnd=354663|Gloss=PUNCT|nWord=7
 8	anàː	nàː	AUX	_	Aspect=Imp|Person=4	2	comp:obj	_	AlignBegin=354663|AlignEnd=354816|Gloss=4.Imp|nWord=8
 9-10	kirànka	_	_	_	_	_	_	_	_
-9	kiràn	kiraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:pred	_	AlignBegin=354816|AlignEnd=354969|Gloss=call.NMLZ.Masc.Cons|nWord=9
+9	kiràn	kiraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=354816|AlignEnd=354969|Gloss=call.NMLZ.Masc.Cons|nWord=9
 10	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=354816|AlignEnd=354969|Gloss=2Masc.Gen|nWord=9
 11	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=354969|AlignEnd=355122|Gloss=PUNCT|nWord=10
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=355122|AlignEnd=355273|Gloss=PUNCT|nWord=11
