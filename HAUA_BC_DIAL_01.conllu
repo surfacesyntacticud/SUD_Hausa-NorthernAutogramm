@@ -56,7 +56,7 @@
 2-3	ankài	_	_	_	_	_	_	_	_
 2	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	1	mod@relcl	_	AlignBegin=11591|AlignEnd=11822|Gloss=4.Perf.BackG|nWord=2
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=11591|AlignEnd=11822|Gloss=do|nWord=2
-4	dâː	dâː	ADV	_	_	3	mod	_	AlignBegin=11822|AlignEnd=12053|Gloss=formerly|nWord=3
+4	dâː	dâː	ADV	_	_	2	mod	_	AlignBegin=11822|AlignEnd=12053|Gloss=formerly|nWord=3
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12053|AlignEnd=12284|Gloss=PUNCT|nWord=4
 6	Galmaːwaː	Galmaːwaː	PROPN	_	_	8	dislocated@subj	_	AlignBegin=12284|AlignEnd=12515|Gloss=Galmaːwaː|nWord=5
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=12515|AlignEnd=12746|Gloss=PUNCT|nWord=6
@@ -274,7 +274,7 @@
 9-10	ankài	_	_	_	_	_	_	_	_
 9	ankà	yak	AUX	_	Aspect=Perf|Evident=BackG|Person=4	8	mod@relcl	_	AlignBegin=74159|AlignEnd=74410|Gloss=4.Perf.BackG|nWord=10
 10	yi	yi	VERB	_	_	9	comp:aux	_	AlignBegin=74159|AlignEnd=74410|Gloss=do|nWord=10
-11	noːmaː	noːmaː	NOUN	_	Gender=Masc	10	comp:obj	_	AlignBegin=74410|AlignEnd=74661|Gloss=farming.Masc|nWord=11
+11	noːmaː	noːmaː	NOUN	_	Gender=Masc	10	comp:pred	_	AlignBegin=74410|AlignEnd=74661|Gloss=farming.Masc|nWord=11
 12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=74661|AlignEnd=74912|Gloss=PUNCT|nWord=12
 13	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	0	root	_	AlignBegin=74912|AlignEnd=75163|Gloss=stand.NMLZ.Masc|nWord=13
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=75163|AlignEnd=75414|Gloss=PUNCT|nWord=14
@@ -1159,7 +1159,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=272366|AlignEnd=272644|Gloss=then|nWord=1
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=272644|AlignEnd=272922|Gloss=2Masc.Perf|nWord=2
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=272922|AlignEnd=273200|Gloss=do|nWord=3
-4	aikìn	aikìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=273200|AlignEnd=273478|Gloss=work.Masc.Cons|nWord=4
+4	aikìn	aikìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:pred	_	AlignBegin=273200|AlignEnd=273478|Gloss=work.Masc.Cons|nWord=4
 5	kwaːnaː	kwaːnaː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=273478|AlignEnd=273756|Gloss=night.Fem|nWord=5
 6	tàlàːtin	tàlàːtin	NUM	_	_	5	mod@num	_	AlignBegin=273756|AlignEnd=274034|Gloss=thirty|nWord=6
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=273756|AlignEnd=274034|Gloss=PUNCT|nWord=6
@@ -1239,7 +1239,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.wav
 # sent_timecode = 286560, 292270
 # phonetic_text = naː ga sà'ad dà kuma [ dà àbinkà < baːkà dà iːkòːnai ] //
-# text = naː ga sà'addà kuma [ dà àbin =ka < baːkà dà iːkòː =nai ] //
+# text = naː ga sà'addà kuma [ dà àbinkà < baː kà dà iːkòːnai ] //
 # text_en = I have known times when you had no control over your property.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=286560|AlignEnd=286968|Gloss=1Sing.Perf|nWord=1
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=286968|AlignEnd=287376|Gloss=see|nWord=2
@@ -1604,7 +1604,7 @@
 # text_en = I came three times.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=351533|AlignEnd=351733|Gloss=1Sing.Perf|nWord=1
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=351733|AlignEnd=351933|Gloss=do|nWord=2
-3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=351933|AlignEnd=352133|Gloss=arrive.NMLZ.Fem|nWord=3
+3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=351933|AlignEnd=352133|Gloss=arrive.NMLZ.Fem|nWord=3
 4	ukkù	ukkù	NUM	_	_	3	mod@num	_	AlignBegin=352133|AlignEnd=352333|Gloss=three|nWord=4
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=352333|AlignEnd=352533|Gloss=PUNCT|nWord=5
 
@@ -2006,7 +2006,7 @@
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=426089|AlignEnd=426239|Gloss=enter|nWord=2
 3	à	shì	AUX	_	Aspect=Aor|Person=4	1	conj:coord	_	AlignBegin=426239|AlignEnd=426389|Gloss=4.Aor|nWord=3
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=426389|AlignEnd=426539|Gloss=do|nWord=4
-5	hwaɗàː	hwaɗ-	VERB	_	_	4	mod	_	AlignBegin=426539|AlignEnd=426689|Gloss=tell|nWord=5
+5	hwaɗàː	hwaɗàː	NOUN	_	Gender=Masc	4	comp:pred	_	AlignBegin=426539|AlignEnd=426689|Gloss=fight.Masc|nWord=5
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426689|AlignEnd=426842|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_DIAL_01_121-121
