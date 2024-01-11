@@ -1407,7 +1407,7 @@
 6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=317651|AlignEnd=317844|Gloss=with|nWord=6
 7	taːkìn	taːkìː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:obj	_	AlignBegin=317844|AlignEnd=318037|Gloss=pair.Cons.Masc|nWord=7
 8-9	tàːkàlminkà	_	_	_	_	_	_	_	_
-8	tàːkàlmin	taːkàlmiː	NOUN	_	Definite=Cons|Gender=Masc|Number=Plur	7	mod	_	AlignBegin=318037|AlignEnd=318230|Gloss=shoe.Plur.Cons.Masc|nWord=8
+8	tàːkàlmin	taːkàlmiː	NOUN	_	Definite=Cons|Number=Plur	7	mod	_	AlignBegin=318037|AlignEnd=318230|Gloss=shoe.Plur.Cons|nWord=8
 9	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	8	mod@poss	_	AlignBegin=318037|AlignEnd=318230|Gloss=2Masc.Gen|nWord=8
 10	biyu	biyu	NUM	_	_	7	mod@num	_	AlignBegin=318230|AlignEnd=318423|Gloss=two|nWord=9
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=318423|AlignEnd=318620|Gloss=PUNCT|nWord=10
@@ -1548,7 +1548,7 @@
 # text_en = I came here on my way to Ghana.
 1	nan	nan	ADV	_	Deixis=Anaph|PronType=Dem	2	comp:pred	_	AlignBegin=343521|AlignEnd=343830|Gloss=Anaph|nWord=1
 2	nàː	naː	PART	_	_	0	root	_	AlignBegin=343830|AlignEnd=344139|Gloss=Foc/Ident|nWord=2
-3	nikà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Sing|Person=1|PronType=Prs	2	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Gloss=1Sing.Imp.BackG|nWord=3
+3	nikà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Sing|Person=1	2	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Gloss=1Sing.Imp.BackG|nWord=3
 4	biyoːwàː	bi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=344448|AlignEnd=344757|Gloss=follow.NMLZ.Fem|nWord=4
 5	Gaːnà	Gaːnà	PROPN	_	_	4	comp:goal	_	AlignBegin=344757|AlignEnd=345066|Gloss=Ghana|nWord=5
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=345066|AlignEnd=345377|Gloss=PUNCT|nWord=6
@@ -1647,7 +1647,7 @@
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.NMLZ.Fem|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf|nWord=4
 5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=357620|AlignEnd=357840|Gloss=carry|nWord=5
-6	turàːmeː	turmiː	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	AlignBegin=357840|AlignEnd=358060|Gloss=cloth.Plur.Masc|nWord=6
+6	turàːmeː	turmiː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=357840|AlignEnd=358060|Gloss=cloth.Plur|nWord=6
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358060|AlignEnd=358282|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUA_BC_DIAL_01_098-098
@@ -2110,7 +2110,7 @@
 # text_en = We worked for money.
 1	kuɗɗiː	kuɗɗiː	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=443080|AlignEnd=443304|Gloss=money|nWord=1
 2	nàː	naː	PART	_	_	0	root	_	AlignBegin=443304|AlignEnd=443528|Gloss=Foc/Ident|nWord=2
-3	mukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=1|PronType=Prs	2	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Gloss=1Plur.Imp.BackG|nWord=3
+3	mukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=1	2	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Gloss=1Plur.Imp.BackG|nWord=3
 4	bìɗaː	biɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=443752|AlignEnd=443976|Gloss=look_for.NMLZ.Fem|nWord=4
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=443976|AlignEnd=444200|Gloss=PUNCT|nWord=5
 
@@ -2248,7 +2248,7 @@
 3	tohoː	tah-	VERB	_	_	2	comp:aux	_	AlignBegin=470824|AlignEnd=471026|Gloss=go|nWord=3
 4	nàː	naː	PART	_	_	2	mod@emp	_	AlignBegin=471026|AlignEnd=471228|Gloss=Foc/Ident|nWord=4
 5-6	kai	_	_	_	_	_	_	_	_
-5	kà	shì	AUX	_	Aspect=Aor|Case=Nom|Gender=Masc|Person=2|PronType=Prs	2	conj:coord	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor|nWord=5
+5	kà	shì	AUX	_	Aspect=Aor|Case=Nom|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor|nWord=5
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=471228|AlignEnd=471430|Gloss=do|nWord=5
 7	mà	mà	ADP	_	Case=Dat	6	comp:obl	_	AlignBegin=471430|AlignEnd=471632|Gloss=Dat|nWord=6
 8	kânka	kânka	PRON	_	Gender=Masc|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=471632|AlignEnd=471834|Gloss=2Masc|nWord=7
