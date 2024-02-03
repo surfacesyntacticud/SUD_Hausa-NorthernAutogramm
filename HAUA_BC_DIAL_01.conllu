@@ -29,7 +29,7 @@
 # sent_timecode = 9460, 9940
 # phonetic_text = Galmaːwaː koː ?//
 # text = Galmaːwaː koː ?//
-# text_en = Galmahoua?  
+# text_en = Galmahoua?
 1	Galmaːwaː	Galmaːwaː	PROPN	_	_	0	root	_	AlignBegin=9460|AlignEnd=9620|Gloss=Galmaːwaː|nWord=1
 2	koː	koː	CCONJ	_	PartType=Int	1	mod	_	AlignBegin=9620|AlignEnd=9780|Gloss=or|nWord=2
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=9780|AlignEnd=9940|Gloss=PUNCT|nWord=3
@@ -274,7 +274,7 @@
 9-10	ankài	_	_	_	_	_	_	_	_
 9	ankà	yak	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	8	mod@relcl	_	AlignBegin=74159|AlignEnd=74410|Gloss=4.Perf.Bkg|nWord=10
 10	yi	yi	VERB	_	_	9	comp:aux	_	AlignBegin=74159|AlignEnd=74410|Gloss=do|nWord=10
-11	noːmaː	noːmaː	NOUN	_	Gender=Masc	10	comp:pred	_	AlignBegin=74410|AlignEnd=74661|Gloss=farming.Masc|nWord=11
+11	noːmaː	noːmaː	NOUN	_	Gender=Masc	10	comp:obj@lvc	_	AlignBegin=74410|AlignEnd=74661|Gloss=farming.Masc|nWord=11
 12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=74661|AlignEnd=74912|Gloss=PUNCT|nWord=12
 13	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	0	root	_	AlignBegin=74912|AlignEnd=75163|Gloss=stand.NMLZ.Masc|nWord=13
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=75163|AlignEnd=75414|Gloss=PUNCT|nWord=14
@@ -1159,7 +1159,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=272366|AlignEnd=272644|Gloss=then|nWord=1
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=272644|AlignEnd=272922|Gloss=2Masc.Perf|nWord=2
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=272922|AlignEnd=273200|Gloss=do|nWord=3
-4	aikìn	aikìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:pred	_	AlignBegin=273200|AlignEnd=273478|Gloss=work.Masc.Cons|nWord=4
+4	aikìn	aikìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj@lvc	_	AlignBegin=273200|AlignEnd=273478|Gloss=work.Masc.Cons|nWord=4
 5	kwaːnaː	kwaːnaː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=273478|AlignEnd=273756|Gloss=night.Fem|nWord=5
 6	tàlàːtin	tàlàːtin	NUM	_	_	5	mod@num	_	AlignBegin=273756|AlignEnd=274034|Gloss=thirty|nWord=6
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=273756|AlignEnd=274034|Gloss=PUNCT|nWord=6
@@ -2006,7 +2006,7 @@
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=426089|AlignEnd=426239|Gloss=enter|nWord=2
 3	à	shì	AUX	_	Aspect=Aor|Person=4	1	conj:coord	_	AlignBegin=426239|AlignEnd=426389|Gloss=4.Aor|nWord=3
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=426389|AlignEnd=426539|Gloss=do|nWord=4
-5	hwaɗàː	hwaɗàː	NOUN	_	Gender=Masc	4	comp:pred	_	AlignBegin=426539|AlignEnd=426689|Gloss=fight.Masc|nWord=5
+5	hwaɗàː	hwaɗàː	NOUN	_	Gender=Masc	4	comp:obj@lvc	_	AlignBegin=426539|AlignEnd=426689|Gloss=fight.Masc|nWord=5
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426689|AlignEnd=426842|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUA_BC_DIAL_01_121-121
@@ -2252,7 +2252,7 @@
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=471228|AlignEnd=471430|Gloss=do|nWord=5
 7	mà	mà	ADP	_	Case=Dat	6	comp:obl	_	AlignBegin=471430|AlignEnd=471632|Gloss=Dat|nWord=6
 8	kânka	kânka	PRON	_	Gender=Masc|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=471632|AlignEnd=471834|Gloss=2Masc|nWord=7
-9	sùturàː	sùturàː	NOUN	_	_	6	comp:obj	_	AlignBegin=471834|AlignEnd=472036|Gloss=clothes|nWord=8
+9	sùturàː	sùturàː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=471834|AlignEnd=472036|Gloss=clothes|nWord=8
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=472036|AlignEnd=472240|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUA_BC_DIAL_01_135-135
