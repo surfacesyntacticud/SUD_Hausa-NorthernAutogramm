@@ -22,12 +22,11 @@
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT|nWord=16
 17	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	18	comp:pred	_	AlignBegin=9556|AlignEnd=9922|Gloss=how|nWord=17
 18	naː	naː	PART	_	_	0	root	_	AlignBegin=9922|AlignEnd=10288|Gloss=Ident/Foc|nWord=18
-19	mutàːneː	mùtunèː	NOUN	_	Number=Plur	21	dislocated@subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur|nWord=19
-20-21	sukè	_	_	_	_	_	_	_	_
-20	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	21	subj	_	AlignBegin=10654|AlignEnd=11020|Gloss=3Plur|nWord=20
-21	kè	nàː	PART	_	Evident=Bkg|Number=Plur|Person=3|PronType=Prs	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Gloss=be/Loc.Bkg|nWord=20
-22	zàmne	zamn-	VERB	_	VerbForm=Part|Voice=Stat	21	comp:pred	_	AlignBegin=11386|AlignEnd=11752|Gloss=stay/sit.Stat|nWord=22
-23	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT|nWord=23
+19-20	mutàːneː	_	_	_	_	_	_	_	_
+19	mutàːneː	mùtunèː	NOUN	_	Number=Plur	20	dislocated@subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur|nWord=19
+20	sukè	kè	AUX	_	Evident=Bkg|Number=Plur|Person=3|PronType=Prs	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Gloss=3Plur.Pred/Loc.Bkg|nWord=20|wordform=kè
+21	zàmne	zamn-	VERB	_	VerbForm=Part|Voice=Stat	20	comp:pred	_	AlignBegin=11386|AlignEnd=11752|Gloss=stay/sit.Stat|nWord=22
+22	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT|nWord=23
 
 # sent_id = HAUA_BC_DIAL_02_2
 # speaker_id = SP1
@@ -218,7 +217,7 @@
 2	ɗai	ɗai	NUM	_	_	1	mod	_	AlignBegin=475666|AlignEnd=475817|Gloss=one|nWord=2
 3	nàː	naː	PART	_	PronType=Int	0	root	_	AlignBegin=475817|AlignEnd=475968|Gloss=Foc/Ident|nWord=3
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=475968|AlignEnd=476119|Gloss=PUNCT|nWord=4
-5	at	ak	PART	_	Evident=Bkg	3	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Gloss=be/Loc.Bkg|nWord=5
+5	at	ak	AUX	_	Evident=Bkg	3	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Gloss=Ident/Pred.Bkg|nWord=5
 6	tàushe	taus-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=476270|AlignEnd=476421|Gloss=tackle.Part|nWord=6
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=476421|AlignEnd=476572|Gloss=with|nWord=7
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=476572|AlignEnd=476723|Gloss=3Fem.Nom|nWord=8
