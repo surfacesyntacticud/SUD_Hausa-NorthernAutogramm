@@ -6,8 +6,8 @@
 # text = wàːtôː dà kuːraː //
 # text_en = Well, it's Hyena...
 1	wàːtôː	wàːtôː	INTJ	_	_	2	mod	_	AlignBegin=2320|AlignEnd=3340|Gloss=that_is|nWord=1
-2	dà	dà	ADP	_	_	0	root	_	AlignBegin=3340|AlignEnd=4360|Gloss=with|nWord=2
-3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	comp:obj	_	AlignBegin=4360|AlignEnd=5380|Gloss=hyena.Fem|nWord=3
+2	dà	dà	PART	_	_	0	root	_	AlignBegin=3340|AlignEnd=4360|Gloss=with|nWord=2
+3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=4360|AlignEnd=5380|Gloss=hyena.Fem|nWord=3
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=5380|AlignEnd=6400|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUA_BC_NARR_O1_KA_02-02
@@ -20,7 +20,7 @@
 1	m̀ːhm̂ː	m̀ːhm̂ː	INTJ	_	_	4	discourse	_	AlignBegin=12275|AlignEnd=12693|Gloss=Mm|nWord=1
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12693|AlignEnd=13111|Gloss=PUNCT|nWord=2
 3	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=13111|AlignEnd=13529|Gloss=hyena.Fem|nWord=3
-4	tag	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=13529|AlignEnd=13947|Gloss=3Fem.Perf.Bkg|nWord=4
+4	tag	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=13529|AlignEnd=13947|Gloss=3Fem.Perf.Bkg|nWord=4
 5	ga	ganiː	VERB	_	_	4	comp:aux	_	AlignBegin=13947|AlignEnd=14365|Gloss=see|nWord=5
 6	ɗam	ɗam	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=14365|AlignEnd=14783|Gloss=son.Cons|nWord=6
 7	baràː	baràː	NOUN	_	Gender=Masc	6	compound	_	AlignBegin=14783|AlignEnd=15201|Gloss=begging.Masc|nWord=7
@@ -91,13 +91,13 @@
 # phonetic_text = tag ganai |c sai tab biː shì //
 # text = tag gan =ai |c sai tab biː shì //
 # text_en = She saw him and followed him.
-1	tag	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=27521|AlignEnd=27801|Gloss=3Fem.Perf.Bkg|nWord=1
+1	tag	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=27521|AlignEnd=27801|Gloss=3Fem.Perf.Bkg|nWord=1
 2-3	ganai	_	_	_	_	_	_	_	_
 2	gan	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=27801|AlignEnd=28081|Gloss=see|nWord=2
 3	=ai	=ai	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=27801|AlignEnd=28081|Gloss=3Masc|nWord=2
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=28081|AlignEnd=28361|Gloss=PUNCT|nWord=3
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=28361|AlignEnd=28641|Gloss=until|nWord=4
-6	tab	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=28641|AlignEnd=28921|Gloss=3Fem.Perf.Bkg|nWord=5
+6	tab	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=28641|AlignEnd=28921|Gloss=3Fem.Perf.Bkg|nWord=5
 7	biː	bi	VERB	_	_	6	comp:aux	_	AlignBegin=28921|AlignEnd=29201|Gloss=follow|nWord=6
 8	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=29201|AlignEnd=29481|Gloss=3Masc|nWord=7|wordform=shì
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=29481|AlignEnd=29760|Gloss=PUNCT|nWord=8
@@ -141,7 +141,7 @@
 16	ciː	ci	VERB	_	_	15	comp:aux	_	AlignBegin=35627|AlignEnd=35818|Gloss=eat|nWord=16
 17	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=35818|AlignEnd=36009|Gloss=3Masc|nWord=17|wordform=shì
 18	har	har	SCONJ	_	_	13	mod	_	AlignBegin=36009|AlignEnd=36200|Gloss=until|nWord=18
-19	sunkà	yak	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	18	comp:obj	_	AlignBegin=36200|AlignEnd=36391|Gloss=3Plur.Perf.Bkg|nWord=19
+19	sunkà	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	18	comp:obj	_	AlignBegin=36200|AlignEnd=36391|Gloss=3Plur.Perf.Bkg|nWord=19
 20	kai	kai	VERB	_	_	19	comp:aux	_	AlignBegin=36391|AlignEnd=36582|Gloss=carry|nWord=20
 21	gà	gà	ADP	_	_	20	comp:obl	_	AlignBegin=36582|AlignEnd=36773|Gloss=by|nWord=21
 22	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	21	comp:obj	_	AlignBegin=36773|AlignEnd=36964|Gloss=mouth.Masc.Cons|nWord=22
@@ -156,7 +156,7 @@
 # text = dà yag ga dai tanàː sôn tà ciː shì < yaz zoː bàːkin tabkìː |c sai yak kaːwoː maːshìː |c yab baː tà //
 # text_en = As he saw that she wanted to eat him, he arrived to the bank of the river, he took a spear and gave her.
 1	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=37916|AlignEnd=38205|Gloss=as|nWord=1
-2	yag	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=38205|AlignEnd=38494|Gloss=3Masc.Perf.Bkg|nWord=2
+2	yag	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=38205|AlignEnd=38494|Gloss=3Masc.Perf.Bkg|nWord=2
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=38494|AlignEnd=38783|Gloss=see|nWord=3
 4	dai	dai	PART	_	_	3	mod	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed|nWord=4
 5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Imp|nWord=5
@@ -165,17 +165,17 @@
 8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=39939|AlignEnd=40228|Gloss=eat|nWord=8
 9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=40228|AlignEnd=40517|Gloss=3Masc|nWord=9|wordform=shì
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT|nWord=10
-11	yaz	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=40806|AlignEnd=41095|Gloss=3Masc.Perf.Bkg|nWord=11
+11	yaz	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=40806|AlignEnd=41095|Gloss=3Masc.Perf.Bkg|nWord=11
 12	zoː	zoː	VERB	_	_	11	comp:aux	_	AlignBegin=41095|AlignEnd=41384|Gloss=go|nWord=12
 13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:goal	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons|nWord=13
 14	tabkìː	tabkìː	NOUN	_	Gender=Masc	13	compound	_	AlignBegin=41673|AlignEnd=41962|Gloss=river.Masc|nWord=14
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=41962|AlignEnd=42251|Gloss=PUNCT|nWord=15
 16	sai	sai	ADV	_	ExtPos=ADV	17	mod	_	AlignBegin=42251|AlignEnd=42540|Gloss=then|nWord=16
-17	yak	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=42540|AlignEnd=42829|Gloss=3Masc.Perf.Bkg|nWord=17
+17	yak	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=42540|AlignEnd=42829|Gloss=3Masc.Perf.Bkg|nWord=17
 18	kaːwoː	kaːwoː	VERB	_	_	17	comp:aux	_	AlignBegin=42829|AlignEnd=43118|Gloss=bring|nWord=18
 19	maːshìː	maːshìː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=43118|AlignEnd=43407|Gloss=spear.Masc|nWord=19
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=43407|AlignEnd=43696|Gloss=PUNCT|nWord=20
-21	yab	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	17	conj:coord	_	AlignBegin=43696|AlignEnd=43985|Gloss=3Masc.Perf.Bkg|nWord=21
+21	yab	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	17	conj:coord	_	AlignBegin=43696|AlignEnd=43985|Gloss=3Masc.Perf.Bkg|nWord=21
 22	baː	baː	VERB	_	_	21	comp:aux	_	AlignBegin=43985|AlignEnd=44274|Gloss=give|nWord=22
 23	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	22	comp:ben	_	AlignBegin=44274|AlignEnd=44563|Gloss=3Fem|nWord=23
 24	//	//	PUNCT	_	_	11	punct	_	AlignBegin=44563|AlignEnd=44855|Gloss=PUNCT|nWord=24
@@ -187,7 +187,7 @@
 # phonetic_text = yac cêː matà [ tôː bàri ìn shìga ruwân ga //] //
 # text = yac cêː matà [ tôː bàri ìn shìga ruwân ga //] //
 # text_en = He told her "Well, let me go into this water."
-1	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=46220|AlignEnd=46335|Gloss=3Masc.Perf.Bkg|nWord=1
+1	yac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=46220|AlignEnd=46335|Gloss=3Masc.Perf.Bkg|nWord=1
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=46335|AlignEnd=46450|Gloss=say|nWord=2
 3	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=46450|AlignEnd=46565|Gloss=3Fem.Ben|nWord=3
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=46565|AlignEnd=46680|Gloss=PUNCT|nWord=4
@@ -195,7 +195,7 @@
 6	bàri	barìː	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=46795|AlignEnd=46910|Gloss=let.Jus|nWord=6
 7	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	comp:obj	_	AlignBegin=46910|AlignEnd=47025|Gloss=1Sing.Aor|nWord=7|wordform=ìn
 8	shìga	shig-	VERB	_	_	7	comp:aux	_	AlignBegin=47025|AlignEnd=47140|Gloss=enter|nWord=8
-9	ruwân	ruwaː	NOUN	_	Definite=Cons|Number=Plur	8	comp:goal	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Cons|nWord=9
+9	ruwân	ruwaː	NOUN	_	Definite=Def|Number=Plur	8	comp:goal	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Def|nWord=9
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=47255|AlignEnd=47370|Gloss=Prox|nWord=10
 11	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=47370|AlignEnd=47485|Gloss=PUNCT|nWord=11
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=47485|AlignEnd=47600|Gloss=PUNCT|nWord=12
@@ -208,7 +208,7 @@
 # text = in kig ga naː shigèː |c naː duːna < tôː saː maːshìn nan kì soːkàː //
 # text_en = If you see that I have entered the water and dived, use the spear and lunge.
 1	in	in	SCONJ	_	_	11	mod	_	AlignBegin=48636|AlignEnd=48918|Gloss=if|nWord=1
-2	kig	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=2	1	comp:obj	_	AlignBegin=48918|AlignEnd=49200|Gloss=2Fem.Perf.Bkg|nWord=2
+2	kig	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=2	1	comp:obj	_	AlignBegin=48918|AlignEnd=49200|Gloss=2Fem.Perf.Bkg|nWord=2
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=49200|AlignEnd=49482|Gloss=see|nWord=3
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=49482|AlignEnd=49764|Gloss=1Sing.Perf|nWord=4
 5	shigèː	shig-	VERB	_	_	4	comp:aux	_	AlignBegin=49764|AlignEnd=50046|Gloss=enter|nWord=5
@@ -218,7 +218,7 @@
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=50892|AlignEnd=51174|Gloss=PUNCT|nWord=9
 10	tôː	tôː	INTJ	_	_	11	discourse	_	AlignBegin=51174|AlignEnd=51456|Gloss=well|nWord=10
 11	saː	saː	VERB	_	Mood=Jus	0	root	_	AlignBegin=51456|AlignEnd=51738|Gloss=put.Jus|nWord=11
-12	maːshìn	maːshìː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	AlignBegin=51738|AlignEnd=52020|Gloss=spear.Masc.Cons|nWord=12
+12	maːshìn	maːshìː	NOUN	_	Definite=Def|Gender=Masc	11	comp:obj	_	AlignBegin=51738|AlignEnd=52020|Gloss=spear.Masc.Def|nWord=12
 13	nan	nan	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=52020|AlignEnd=52302|Gloss=Def|nWord=13
 14	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	11	conj:coord	_	AlignBegin=52302|AlignEnd=52584|Gloss=2Fem.Aor|nWord=14|wordform=kì
 15	soːkàː	soːk-	VERB	_	_	14	comp:aux	_	AlignBegin=52584|AlignEnd=52866|Gloss=stab|nWord=15
@@ -232,7 +232,7 @@
 # text = koːìnaː tag ga yaː yi kwànce-kwànce |c yaː duːna < sai tak kaːwoː maːshìː |c tas soːkàː maːshìː //
 # text_en = Wherever she saw him get down and dive, she use the spear and stabbed.
 1	koːìnaː	koːìnaː	ADV	_	PronType=Rel	12	mod	_	AlignBegin=55620|AlignEnd=55778|Gloss=wherever|nWord=1
-2	tag	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	mod@relcl	_	AlignBegin=55936|AlignEnd=56094|Gloss=3Fem.Perf.Bkg|nWord=3
+2	tag	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	mod@relcl	_	AlignBegin=55936|AlignEnd=56094|Gloss=3Fem.Perf.Bkg|nWord=3
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=56094|AlignEnd=56252|Gloss=see|nWord=4
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=56252|AlignEnd=56410|Gloss=3Masc.Perf|nWord=5
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=56410|AlignEnd=56568|Gloss=do|nWord=6
@@ -242,11 +242,11 @@
 9	duːna	duːna	VERB	_	_	8	comp:aux	_	AlignBegin=57042|AlignEnd=57200|Gloss=dive|nWord=10
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=57200|AlignEnd=57358|Gloss=PUNCT|nWord=11
 11	sai	sai	ADV	_	_	12	mod	_	AlignBegin=57358|AlignEnd=57516|Gloss=until|nWord=12
-12	tak	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=57516|AlignEnd=57674|Gloss=3Fem.Perf.Bkg|nWord=13
+12	tak	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=57516|AlignEnd=57674|Gloss=3Fem.Perf.Bkg|nWord=13
 13	kaːwoː	kai	VERB	_	_	12	comp:aux	_	AlignBegin=57674|AlignEnd=57832|Gloss=carry|nWord=14
 14	maːshìː	maːshìː	NOUN	_	Gender=Masc	13	comp:obj	_	AlignBegin=57832|AlignEnd=57990|Gloss=spear.Masc|nWord=15
 15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=57990|AlignEnd=58148|Gloss=PUNCT|nWord=16
-16	tas	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	12	conj:coord	_	AlignBegin=58148|AlignEnd=58306|Gloss=3Fem.Perf.Bkg|nWord=17
+16	tas	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	12	conj:coord	_	AlignBegin=58148|AlignEnd=58306|Gloss=3Fem.Perf.Bkg|nWord=17
 17	soːkàː	soːk-	VERB	_	_	16	comp:aux	_	AlignBegin=58306|AlignEnd=58464|Gloss=stab|nWord=18
 18	maːshìː	maːshìː	NOUN	_	Gender=Masc	17	comp:obj	_	AlignBegin=58464|AlignEnd=58622|Gloss=spear.Masc|nWord=19
 19	//	//	PUNCT	_	_	12	punct	_	AlignBegin=58622|AlignEnd=58780|Gloss=PUNCT|nWord=20
@@ -259,7 +259,7 @@
 # text = in tas soːkà maːshìː sai tà ciroː kiːhiː //
 # text_en = When she lunged with the spear, she pulled a fish.
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=59380|AlignEnd=59580|Gloss=if|nWord=1
-2	tas	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=59580|AlignEnd=59780|Gloss=3Fem.Perf.Bkg|nWord=2
+2	tas	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=59580|AlignEnd=59780|Gloss=3Fem.Perf.Bkg|nWord=2
 3	soːkà	soːk-	VERB	_	_	2	comp:aux	_	AlignBegin=59780|AlignEnd=59980|Gloss=stab|nWord=3
 4	maːshìː	maːshìː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=59980|AlignEnd=60180|Gloss=spear.Masc|nWord=4
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=60180|AlignEnd=60380|Gloss=then|nWord=5
@@ -276,11 +276,11 @@
 # text = in taɗ ɗaukoː kiːhîn nan ta' ajèː //
 # text_en = When she got the fish, she put it aside.
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=62377|AlignEnd=62858|Gloss=if|nWord=1
-2	taɗ	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.Bkg|nWord=2
+2	taɗ	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.Bkg|nWord=2
 3	ɗaukoː	ɗauk-	VERB	_	_	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take|nWord=3
-4	kiːhîn	kiːhiː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Cons|nWord=4
+4	kiːhîn	kiːhiː	NOUN	_	Definite=Def|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Def|nWord=4
 5	nan	nan	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=Def|nWord=5
-6	ta'	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=64782|AlignEnd=65263|Gloss=3Fem.Perf.Bkg|nWord=6
+6	ta'	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=64782|AlignEnd=65263|Gloss=3Fem.Perf.Bkg|nWord=6
 7	ajèː	az-	VERB	_	_	6	comp:aux	_	AlignBegin=65263|AlignEnd=65744|Gloss=put_aside|nWord=7
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=65744|AlignEnd=66226|Gloss=PUNCT|nWord=8
 
@@ -369,17 +369,17 @@
 # text = saidà tac ci kiːhiː taƙ ƙòːshi < sa’ànnan yat tàhiyàː =tai //
 # text_en = Then, when she had eaten enough fish, he went away.
 1	saidà	saidà	SCONJ	_	_	9	mod	_	AlignBegin=76337|AlignEnd=76699|Gloss=when|nWord=1
-2	tac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=77061|AlignEnd=77423|Gloss=3Fem.Perf.Bkg|nWord=3
+2	tac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=77061|AlignEnd=77423|Gloss=3Fem.Perf.Bkg|nWord=3
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=77423|AlignEnd=77785|Gloss=eat|nWord=4
 4	kiːhiː	kiːhiː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=77785|AlignEnd=78147|Gloss=fish.Masc|nWord=5
-5	taƙ	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=78147|AlignEnd=78509|Gloss=3Fem.Perf.Bkg|nWord=6
+5	taƙ	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=78147|AlignEnd=78509|Gloss=3Fem.Perf.Bkg|nWord=6
 6	ƙòːshi	ƙoːs-	VERB	_	_	5	comp:aux	_	AlignBegin=78509|AlignEnd=78871|Gloss=be_satiated|nWord=7
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=78871|AlignEnd=79233|Gloss=PUNCT|nWord=8
 8	sa’ànnan	sa’ànnan	ADV	_	_	9	mod	_	AlignBegin=79233|AlignEnd=79595|Gloss=then|nWord=9
-9	yat	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=79957|AlignEnd=80319|Gloss=3Masc.Perf.Bkg|nWord=11
+9	yat	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=79957|AlignEnd=80319|Gloss=3Masc.Perf.Bkg|nWord=11
 10-11	tàhiyàːtai	_	_	_	_	_	_	_	_
 10	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=80319|AlignEnd=80681|Gloss=go.Vnoun.Fem.Cons|nWord=12
-11	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	mod@emp	_	AlignBegin=80319|AlignEnd=80681|Gloss=3Masc.Gen|nWord=12
+11	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	udep@expl	_	AlignBegin=80319|AlignEnd=80681|Gloss=3Masc.Gen|nWord=12
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=80681|AlignEnd=81038|Gloss=PUNCT|nWord=13
 
 # sent_id = HAUA_BC_NARR_O1_KA_22-22
@@ -395,7 +395,7 @@
 4	gamà	gam-	VERB	_	_	3	comp:aux	_	AlignBegin=84226|AlignEnd=84429|Gloss=finish|nWord=4
 5	cîː	ci	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=84429|AlignEnd=84632|Gloss=eat.Vnoun.Masc|nWord=5
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=84632|AlignEnd=84835|Gloss=until|nWord=6
-7	tab	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=84835|AlignEnd=85038|Gloss=3Fem.Perf.Bkg|nWord=7
+7	tab	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=84835|AlignEnd=85038|Gloss=3Fem.Perf.Bkg|nWord=7
 8	biː	bi	VERB	_	_	7	comp:aux	_	AlignBegin=85038|AlignEnd=85241|Gloss=follow|nWord=8
 9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=85241|AlignEnd=85444|Gloss=3Masc|nWord=9|wordform=shì
 10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=85444|AlignEnd=85648|Gloss=PUNCT|nWord=10
@@ -444,7 +444,7 @@
 3	cikin	cikin	ADP	_	_	2	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside|nWord=3
 4	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem|nWord=4
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|nWord=5
-6	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Gloss=3Masc.Perf.Bkg|nWord=6
+6	yac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Gloss=3Masc.Perf.Bkg|nWord=6
 7-8	c’ìnkai	_	_	_	_	_	_	_	_
 7	c’ìnka	c'ink-	VERB	_	_	6	comp:aux	_	AlignBegin=92732|AlignEnd=93103|Gloss=spot|nWord=7
 8	=ai	=ai	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=92732|AlignEnd=93103|Gloss=3Masc|nWord=7
@@ -476,7 +476,7 @@
 # text = sai yac cèː matà [ dìːba !//= tàhi !//= gàː giːwàːyeː ceːnìyaː //] //
 # text_en = Then he told her "Look! Go! There are elephants there."
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=96463|AlignEnd=96707|Gloss=until|nWord=1
-2	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=96707|AlignEnd=96951|Gloss=3Masc.Perf.Bkg|nWord=2
+2	yac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=96707|AlignEnd=96951|Gloss=3Masc.Perf.Bkg|nWord=2
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=96951|AlignEnd=97195|Gloss=say|nWord=3
 4	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Ben|nWord=4
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=97439|AlignEnd=97683|Gloss=PUNCT|nWord=5
@@ -512,7 +512,7 @@
 # phonetic_text = yac cêː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìnsu !//] //
 # text = yac cèː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìn =su !//] //
 # text_en = He told her "Look, go near those elephants, tell them that I'm insulting them!"
-1	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Gloss=3Masc.Perf.Bkg|nWord=1
+1	yac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Gloss=3Masc.Perf.Bkg|nWord=1
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say|nWord=2
 3	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Ben|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT|nWord=4
@@ -520,7 +520,7 @@
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT|nWord=6
 7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus|nWord=7
 8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
-9	giːwàːyên	giːwaː	NOUN	_	Definite=Cons|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Cons|nWord=9
+9	giːwàːyên	giːwaː	NOUN	_	Definite=Def|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Def|nWord=9
 10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist+|nWord=10
 11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT|nWord=11
 12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor|nWord=12
@@ -540,9 +540,9 @@
 # phonetic_text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìnku //] //
 # text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìn =ku //] //
 # text_en = Whe went and said "Elephants, there is a student there who is insulting you."
-1	taz	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=109422|AlignEnd=109698|Gloss=3Fem.Perf.Bkg|nWord=1
+1	taz	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=109422|AlignEnd=109698|Gloss=3Fem.Perf.Bkg|nWord=1
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=109698|AlignEnd=109974|Gloss=go|nWord=2
-3	tac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=109974|AlignEnd=110250|Gloss=3Fem.Perf.Bkg|nWord=3
+3	tac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=109974|AlignEnd=110250|Gloss=3Fem.Perf.Bkg|nWord=3
 4	cèː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=110250|AlignEnd=110526|Gloss=say|nWord=4
 5	[	[	PUNCT	_	_	13	punct	_	AlignBegin=110526|AlignEnd=110802|Gloss=PUNCT|nWord=5
 6	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	13	vocative	_	AlignBegin=110802|AlignEnd=111078|Gloss=elephant.Plur|nWord=6
@@ -568,7 +568,7 @@
 # text_en = Then they said "Where is he?"
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=115840|AlignEnd=115963|Gloss=until|nWord=1
 2-3	sunkài	_	_	_	_	_	_	_	_
-2	sunkà	sunkà	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=115963|AlignEnd=116086|Gloss=3Plur.Perf.Bkg|nWord=2
+2	sunkà	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=115963|AlignEnd=116086|Gloss=3Plur.Perf.Bkg|nWord=2
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=115963|AlignEnd=116086|Gloss=do|nWord=2
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=116086|AlignEnd=116209|Gloss=PUNCT|nWord=3
 5	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=116209|AlignEnd=116332|Gloss=where|nWord=4
@@ -583,7 +583,7 @@
 # phonetic_text = tac cèː [ gàː shi cân //]
 # text = tac cèː [ gàː shi cân //]
 # text_en = She said "There he is."
-1	tac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=116824|AlignEnd=116918|Gloss=3Fem.Perf.Bkg|nWord=1
+1	tac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=116824|AlignEnd=116918|Gloss=3Fem.Perf.Bkg|nWord=1
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=116918|AlignEnd=117012|Gloss=say|nWord=2
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=117012|AlignEnd=117106|Gloss=PUNCT|nWord=3
 4	gàː	gàː	PART	_	_	2	comp:obj	_	AlignBegin=117106|AlignEnd=117200|Gloss=here_is|nWord=4
@@ -599,7 +599,7 @@
 # text = sai sunkà yoː ridididiː > zakkùwaː indà shi kè //
 # text_en = Then they went running to where he was.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=117479|AlignEnd=117651|Gloss=until|nWord=1
-2	sunkà	yak	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=117651|AlignEnd=117823|Gloss=3Plur.Perf.Bkg|nWord=2
+2	sunkà	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=117651|AlignEnd=117823|Gloss=3Plur.Perf.Bkg|nWord=2
 3	yoː	yi	VERB	_	_	2	comp:aux	_	AlignBegin=117823|AlignEnd=117995|Gloss=do|nWord=3
 4	ridididiː	ridididiː	IDEO	_	_	3	mod	_	AlignBegin=117995|AlignEnd=118167|Gloss=running|nWord=4
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=118167|AlignEnd=118339|Gloss=PUNCT|nWord=5
@@ -636,11 +636,11 @@
 19	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	18	comp:aux	_	AlignBegin=123678|AlignEnd=123879|Gloss=break.Vnoun.Fem|nWord=19
 20	//=	//=	PUNCT	_	_	21	punct	_	AlignBegin=123879|AlignEnd=124080|Gloss=PUNCT|nWord=20
 21	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	17	parataxis	_	AlignBegin=124080|AlignEnd=124281|Gloss=Prox|nWord=21
-22	akà	akà	AUX	_	Aspect=Imp|Evident=Bkg|Person=4	21	comp:cleft	_	AlignBegin=124281|AlignEnd=124482|Gloss=4.Imp.Bkg|nWord=22
+22	akà	kà	AUX	_	Aspect=Imp|Evident=Bkg|Person=4	21	comp:cleft	_	AlignBegin=124281|AlignEnd=124482|Gloss=4.Imp.Bkg|nWord=22
 23	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	22	comp:aux	_	AlignBegin=124482|AlignEnd=124683|Gloss=fall.Vnoun.Fem|nWord=23
 24	//=	//=	PUNCT	_	_	25	punct	_	AlignBegin=124683|AlignEnd=124884|Gloss=PUNCT|nWord=24
 25	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	21	parataxis	_	AlignBegin=124884|AlignEnd=125085|Gloss=Prox|nWord=25
-26	akà	akà	AUX	_	Aspect=Imp|Evident=Bkg|Person=4	25	comp:cleft	_	AlignBegin=125085|AlignEnd=125286|Gloss=4.Imp.Bkg|nWord=26
+26	akà	kà	AUX	_	Aspect=Imp|Evident=Bkg|Person=4	25	comp:cleft	_	AlignBegin=125085|AlignEnd=125286|Gloss=4.Imp.Bkg|nWord=26
 27	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	26	comp:aux	_	AlignBegin=125286|AlignEnd=125487|Gloss=break.Vnoun.Fem|nWord=27
 28	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=125487|AlignEnd=125688|Gloss=PUNCT|nWord=28
 29	//	//	PUNCT	_	_	2	punct	_	AlignBegin=125688|AlignEnd=125900|Gloss=PUNCT|nWord=29
@@ -653,9 +653,9 @@
 # text = koːdà sunkà kaːwoː indà shi kè < dus sun hwaːɗì |c sun kariːrìyeː //
 # text_en = As soon as they arrived where he was, they all fell down and broke into pieces.
 1	koːdà	koːdà	SCONJ	_	_	8	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=just_as|nWord=1
-2	sunkà	yak	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=126634|AlignEnd=126741|Gloss=3Plur.Perf.Bkg|nWord=3
+2	sunkà	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=126634|AlignEnd=126741|Gloss=3Plur.Perf.Bkg|nWord=3
 3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=reach|nWord=4
-4	indà	indà	ADV	_	PronType=Rel	3	comp:loc	_	AlignBegin=126848|AlignEnd=126955|Gloss=where|nWord=5
+4	indà	indà	ADV	_	PronType=Rel	3	comp:goal	_	AlignBegin=126848|AlignEnd=126955|Gloss=where|nWord=5
 5	shikè	kè	AUX	_	Evident=Bkg	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=3Masc.Pred/Loc.Bkg|nWord=7|wordform=kè
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT|nWord=8
 7	dus	duk	DET	_	PronType=Tot	8	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all|nWord=9
@@ -705,7 +705,7 @@
 # text = sai yat tàhiyàː =tai //
 # text_en = Then he went away.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=132608|AlignEnd=132777|Gloss=until|nWord=1
-2	yat	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=132777|AlignEnd=132946|Gloss=3Masc.Perf.Bkg|nWord=2
+2	yat	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=132777|AlignEnd=132946|Gloss=3Masc.Perf.Bkg|nWord=2
 3	tàhiyàː	tah-	VERB	_	Definite=Cons|Gender=Fem	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=go.Vnoun.Fem.Cons|nWord=3
 4	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=132946|AlignEnd=133115|Gloss=3Masc.Gen|nWord=3
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133115|AlignEnd=133285|Gloss=PUNCT|nWord=4
@@ -727,11 +727,11 @@
 # phonetic_text = taz zamnàː nân |c tay yi ta cîn naːmàː //
 # text = taz zamnàː nân |c tay yi ta cîn naːmàː //
 # text_en = She sat down, and started to eat the meat.
-1	taz	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=135460|AlignEnd=135594|Gloss=3Fem.Perf.Bkg|nWord=1
+1	taz	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=135460|AlignEnd=135594|Gloss=3Fem.Perf.Bkg|nWord=1
 2	zamnàː	zamn-	VERB	_	_	1	comp:aux	_	AlignBegin=135594|AlignEnd=135728|Gloss=stay/sit|nWord=2
 3	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	2	comp:loc	_	AlignBegin=135728|AlignEnd=135862|Gloss=Prox|nWord=3
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=135862|AlignEnd=135996|Gloss=PUNCT|nWord=4
-5	tay	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=135996|AlignEnd=136130|Gloss=3Fem.Perf.Bkg|nWord=5
+5	tay	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=135996|AlignEnd=136130|Gloss=3Fem.Perf.Bkg|nWord=5
 6	yi	yi	VERB	_	Aspect=Iter	5	comp:aux	_	AlignBegin=136130|AlignEnd=136264|Gloss=do|nWord=6
 7	ta	ta	PART	_	Aspect=Iter	8	mod	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter|nWord=6
 8	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=136398|AlignEnd=136532|Gloss=eat.Vnoun.Masc.Cons|nWord=8
@@ -771,7 +771,7 @@
 1	dun	duk	DET	_	PronType=Tot	2	det	_	AlignBegin=141341|AlignEnd=141541|Gloss=all|nWord=1
 2	naːmàn	naːmàn	NOUN	_	Definite=Def|Gender=Masc	4	dislocated@comp	_	AlignBegin=141541|AlignEnd=141741|Gloss=meat.Masc.Anaph|nWord=2
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=141741|AlignEnd=141941|Gloss=until|nWord=3
-4	tac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=141941|AlignEnd=142141|Gloss=3Fem.Perf.Bkg|nWord=4
+4	tac	yaC	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=141941|AlignEnd=142141|Gloss=3Fem.Perf.Bkg|nWord=4
 5	cânyeː	ci	VERB	_	_	4	comp:aux	_	AlignBegin=142141|AlignEnd=142341|Gloss=eat|nWord=5
 6	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=142341|AlignEnd=142541|Gloss=3Masc|nWord=6
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=142541|AlignEnd=142740|Gloss=PUNCT|nWord=7
