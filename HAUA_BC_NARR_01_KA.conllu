@@ -189,7 +189,7 @@
 # text_en = He told her "Well, let me go into this water."
 1	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=46220|AlignEnd=46335|Gloss=3Masc.Perf.Bkg|nWord=1
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=46335|AlignEnd=46450|Gloss=say|nWord=2
-3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=46450|AlignEnd=46565|Gloss=3Fem.Dat|nWord=3
+3	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=46450|AlignEnd=46565|Gloss=3Fem.Ben|nWord=3
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=46565|AlignEnd=46680|Gloss=PUNCT|nWord=4
 5	tôː	tôː	INTJ	_	_	6	discourse	_	AlignBegin=46680|AlignEnd=46795|Gloss=well|nWord=5
 6	bàri	barìː	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=46795|AlignEnd=46910|Gloss=let.Jus|nWord=6
@@ -460,7 +460,7 @@
 1	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=93474|AlignEnd=93696|Gloss=also|nWord=1
 2	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=93696|AlignEnd=93918|Gloss=3Fem.Perf|nWord=2
 3	matsàː	matsàː	VERB	_	_	2	comp:aux	_	AlignBegin=93918|AlignEnd=94140|Gloss=press|nWord=3
-4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Masc.Dat|nWord=4
+4	mai	mai	PRON	_	Case=Ben|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Masc.Ben|nWord=4
 5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Imp|nWord=5
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=94584|AlignEnd=94806|Gloss=want.NMLZ.Masc.Cons|nWord=6
 7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Aor|nWord=7
@@ -478,13 +478,13 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=96463|AlignEnd=96707|Gloss=until|nWord=1
 2	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=96707|AlignEnd=96951|Gloss=3Masc.Perf.Bkg|nWord=2
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=96951|AlignEnd=97195|Gloss=say|nWord=3
-4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Dat|nWord=4
+4	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Ben|nWord=4
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=97439|AlignEnd=97683|Gloss=PUNCT|nWord=5
 6	dìːba	dìːba	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=97683|AlignEnd=97927|Gloss=look.Jus|nWord=6
 7	!//=	!//=	PUNCT	_	_	8	punct	_	AlignBegin=97927|AlignEnd=98171|Gloss=PUNCT|nWord=7
-8	tàhi	tah-	VERB	_	Mood=Jus	6	parataxis@conj	_	AlignBegin=98171|AlignEnd=98415|Gloss=go.Jus|nWord=8
+8	tàhi	tah-	VERB	_	Mood=Jus	6	parataxis	_	AlignBegin=98171|AlignEnd=98415|Gloss=go.Jus|nWord=8
 9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=98659|AlignEnd=98903|Gloss=PUNCT|nWord=10
-10	gàː	gàː	PART	_	_	8	parataxis@conj	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is|nWord=11
+10	gàː	gàː	PART	_	_	8	parataxis	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is|nWord=11
 11	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur|nWord=12
 12	ceːnìyaː	ceːnìyaː	NOUN	_	Deixis=Dist|PronType=Dem	10	comp:pred	_	AlignBegin=99391|AlignEnd=99635|Gloss=Dist|nWord=13
 13	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=99635|AlignEnd=99879|Gloss=PUNCT|nWord=14
@@ -514,18 +514,18 @@
 # text_en = He told her "Look, go near those elephants, tell them that I'm insulting them!"
 1	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Gloss=3Masc.Perf.Bkg|nWord=1
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say|nWord=2
-3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Dat|nWord=3
+3	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Ben|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT|nWord=4
 5	dìːba	diːb-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus|nWord=5
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT|nWord=6
-7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus|nWord=7
+7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus|nWord=7
 8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where|nWord=8
 9	giːwàːyên	giːwaː	NOUN	_	Definite=Cons|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Cons|nWord=9
 10	can	can	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist+|nWord=10
 11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT|nWord=11
-12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis@conj	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor|nWord=12
+12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor|nWord=12
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say|nWord=13
-14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat|nWord=14
+14	musù	musù	PRON	_	Case=Ben|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Ben|nWord=14
 15	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Imp|nWord=15
 16-17	ɓaːcìnsu	_	_	_	_	_	_	_	_
 16	ɓaːcìn	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.NMLZ.Masc.Cons|nWord=16
@@ -689,7 +689,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=130803|AlignEnd=130914|Gloss=then|nWord=1
 2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=130914|AlignEnd=131025|Gloss=3Masc.Aor|nWord=2|wordform=shì
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=131025|AlignEnd=131136|Gloss=say|nWord=3
-4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Dat|nWord=4
+4	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Ben|nWord=4
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=131247|AlignEnd=131358|Gloss=PUNCT|nWord=5
 6	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=131358|AlignEnd=131469|Gloss=well|nWord=6
 7	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is|nWord=7
