@@ -6,7 +6,7 @@
 # text = gàːtan gàːtankù //
 # text_en = Once upon a time
 1	gàːtan	X	X	_	_	0	root	_	AlignBegin=2140|AlignEnd=2535|Gloss=X|nWord=1
-2	gàːtankù	X	X	_	_	1	flat:title	_	AlignBegin=2535|AlignEnd=2930|Gloss=X|nWord=2
+2	gàːtankù	X	X	_	_	1	unk	_	AlignBegin=2535|AlignEnd=2930|Gloss=X|nWord=2
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=3325|AlignEnd=3720|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUA_BC_NARR_04_GYM_002-002
@@ -285,7 +285,7 @@
 17	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=52195|AlignEnd=52504|Gloss=PUNCT|nWord=16
 18	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	15	conj:coord	_	AlignBegin=52504|AlignEnd=52813|Gloss=3Fem.Aor|nWord=17
 19	ɗeːboː	ɗiːb-	VERB	_	_	18	comp:aux	_	AlignBegin=52813|AlignEnd=53122|Gloss=scoop|nWord=18
-20	maw	mat	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	19	comp:obl	_	AlignBegin=53122|AlignEnd=53431|Gloss=3Fem.Ben|nWord=19
+20	maw	mat	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	19	comp:ben	_	AlignBegin=53122|AlignEnd=53431|Gloss=3Fem.Ben|nWord=19
 21	ruwaː	ruwaː	NOUN	_	Number=Plur	19	comp:obj	_	AlignBegin=53431|AlignEnd=53740|Gloss=water.Plur|nWord=20
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=53740|AlignEnd=54040|Gloss=PUNCT|nWord=21
 
@@ -318,7 +318,7 @@
 3	tat	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=60088|AlignEnd=60272|Gloss=3Fem.Perf.Bkg|nWord=3
 4	tàhi	tah-	VERB	_	_	3	comp:aux	_	AlignBegin=60272|AlignEnd=60456|Gloss=go|nWord=4
 5	ɗeːboː	ɗiːb-	VERB	_	_	4	mod	_	AlignBegin=60456|AlignEnd=60640|Gloss=scoop|nWord=5
-6	maw	mat	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=60640|AlignEnd=60824|Gloss=3Fem.Ben|nWord=6
+6	maw	mat	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	5	comp:ben	_	AlignBegin=60640|AlignEnd=60824|Gloss=3Fem.Ben|nWord=6
 7	ruwaː	ruwaː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=60824|AlignEnd=61008|Gloss=water.Plur|nWord=7
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=61008|AlignEnd=61192|Gloss=PUNCT|nWord=8
 9	indàdut	indàduk	ADV	_	PronType=Rel	19	mod	_	AlignBegin=61192|AlignEnd=61376|Gloss=wherever|nWord=9
@@ -518,7 +518,7 @@
 9	nàː	nàː	AUX	_	Aspect=Imp	0	root	_	AlignBegin=90608|AlignEnd=90780|Gloss=Imp|nWord=10
 10-11	sônta	_	_	_	_	_	_	_	_
 10	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=90780|AlignEnd=90952|Gloss=want.NMLZ.Masc.Cons|nWord=11
-11	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=90780|AlignEnd=90952|Gloss=3Fem.Gen|nWord=11
+11	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	udep	_	AlignBegin=90780|AlignEnd=90952|Gloss=3Fem.Gen|nWord=11
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=90952|AlignEnd=91120|Gloss=PUNCT|nWord=12
 
 # sent_id = HAUA_BC_NARR_04_GYM_025-025
@@ -651,7 +651,7 @@
 1-2	ankài	_	_	_	_	_	_	_	_
 1	ankà	ankà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	0	root	_	AlignBegin=108460|AlignEnd=108680|Gloss=4.Perf.Bkg|nWord=1
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=108460|AlignEnd=108680|Gloss=do|nWord=1
-3	mà	mà	ADP	_	Case=Ben	2	comp:obl	_	AlignBegin=108680|AlignEnd=108900|Gloss=Dat|nWord=2
+3	mà	mà	ADP	_	Case=Ben	2	comp:ben	_	AlignBegin=108680|AlignEnd=108900|Gloss=Dat|nWord=2
 4	yaːròː	yaːròː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=108900|AlignEnd=109120|Gloss=boy.Masc|nWord=3
 5	suːnaː	suːnaː	NOUN	_	Gender=Masc	2	comp:obj@lvc	_	AlignBegin=109120|AlignEnd=109340|Gloss=name.Masc|nWord=4
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=109340|AlignEnd=109560|Gloss=PUNCT|nWord=5
@@ -760,7 +760,7 @@
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=126742|AlignEnd=126955|Gloss=PUNCT|nWord=12
 13	yac	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	10	conj:coord	_	AlignBegin=126955|AlignEnd=127168|Gloss=3Masc.Perf.Bkg|nWord=13
 14	cêː	cêː	VERB	_	_	13	comp:aux	_	AlignBegin=127168|AlignEnd=127381|Gloss=say|nWord=14
-15	mà	mà	ADP	_	Case=Ben	14	comp:obl	_	AlignBegin=127381|AlignEnd=127594|Gloss=Dat|nWord=15
+15	mà	mà	ADP	_	Case=Ben	14	comp:ben	_	AlignBegin=127381|AlignEnd=127594|Gloss=Dat|nWord=15
 16-17	uwaːtai	_	_	_	_	_	_	_	_
 16	uwaː	uwaː	NOUN	_	Gender=Fem	15	comp:obj	_	AlignBegin=127594|AlignEnd=127807|Gloss=mother.Fem|nWord=16
 17	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	mod@poss	_	AlignBegin=127594|AlignEnd=127807|Gloss=3Masc.Gen|nWord=16
@@ -1022,7 +1022,7 @@
 12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=165480|AlignEnd=165666|Gloss=PUNCT|nWord=11
 13	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=165666|AlignEnd=165852|Gloss=2Masc.Aor|nWord=12
 14	gwadàː	gwad-	VERB	_	_	13	comp:aux	_	AlignBegin=165852|AlignEnd=166038|Gloss=show|nWord=13
-15	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	14	comp:obl	_	AlignBegin=166038|AlignEnd=166224|Gloss=1Sing.Ben|nWord=14
+15	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	14	comp:ben	_	AlignBegin=166038|AlignEnd=166224|Gloss=1Sing.Ben|nWord=14
 16	indà	indà	ADV	_	PronType=Rel	14	comp:obj	_	AlignBegin=166224|AlignEnd=166410|Gloss=where|nWord=15
 17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	20	dislocated@subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons|nWord=16
 18-19	yâːtaː	_	_	_	_	_	_	_	_
@@ -1485,7 +1485,7 @@
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=236531|AlignEnd=236833|Gloss=PUNCT|nWord=1
 2	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=236833|AlignEnd=237135|Gloss=1Sing.Imp|nWord=2
 3	gudùn	gud-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=237135|AlignEnd=237437|Gloss=run.NMLZ.Masc.Cons|nWord=3
-4	Dòːdoː	Dòːdoː	PROPN	_	_	3	comp:obj	_	AlignBegin=237437|AlignEnd=237739|Gloss=Dodo|nWord=4|wordform=dòːdoː
+4	Dòːdoː	Dòːdoː	PROPN	_	_	3	udep	_	AlignBegin=237437|AlignEnd=237739|Gloss=Dodo|nWord=4|wordform=dòːdoː
 5	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=237739|AlignEnd=238042|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUA_BC_NARR_04_GYM_073-073
@@ -1686,7 +1686,7 @@
 5	ta	ta	PART	_	Aspect=Iter	6	mod	_	AlignBegin=262376|AlignEnd=262528|Gloss=Iter|nWord=4
 6-7	tàmbayàːtai	_	_	_	_	_	_	_	_
 6	tàmbayàː	tambay-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:pred	_	AlignBegin=262528|AlignEnd=262680|Gloss=ask.NMLZ.Fem.Cons|nWord=5
-7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:ben	_	AlignBegin=262528|AlignEnd=262680|Gloss=3Masc.Gen|nWord=5
+7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep	_	AlignBegin=262528|AlignEnd=262680|Gloss=3Masc.Gen|nWord=5
 8-9	mis	_	_	_	_	_	_	_	_
 8	miː	miː	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=262680|AlignEnd=262832|Gloss=what|nWord=6
 9	yas	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	8	comp:cleft	_	AlignBegin=262680|AlignEnd=262832|Gloss=3Masc.Perf.Bkg|nWord=6
@@ -1738,7 +1738,7 @@
 15	<	<	PUNCT	_	_	11	punct	_	AlignBegin=267976|AlignEnd=268162|Gloss=PUNCT|nWord=17
 16	yah	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=268162|AlignEnd=268348|Gloss=3Masc.Perf.Bkg|nWord=18
 17	hwaɗàː	hwaɗ-	VERB	_	_	16	comp:aux	_	AlignBegin=268348|AlignEnd=268534|Gloss=tell|nWord=19
-18	mà	mà	ADP	_	Case=Ben	17	comp:obl	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat|nWord=20
+18	mà	mà	ADP	_	Case=Ben	17	comp:ben	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat|nWord=20
 19-20	uwaːtai	_	_	_	_	_	_	_	_
 19	uwaː	uwaː	NOUN	_	Definite=Cons|Gender=Fem	18	comp:obj	_	AlignBegin=268720|AlignEnd=268906|Gloss=mother.Fem.Cons|nWord=21
 20	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=268720|AlignEnd=268906|Gloss=3Masc.Gen|nWord=21
@@ -2140,7 +2140,7 @@
 5	bar	barìː	VERB	_	_	4	comp:aux	_	AlignBegin=332212|AlignEnd=332430|Gloss=let|nWord=5
 6-7	ganiːnai	_	_	_	_	_	_	_	_
 6	ganiː	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=332430|AlignEnd=332648|Gloss=see.NMLZ.Cons|nWord=6
-7	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=332430|AlignEnd=332648|Gloss=3Masc.Gen|nWord=6
+7	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep	_	AlignBegin=332430|AlignEnd=332648|Gloss=3Masc.Gen|nWord=6
 8	//	//	PUNCT	_	_	4	conj:coord	_	AlignBegin=332648|AlignEnd=332866|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUA_BC_NARR_04_GYM_102b-102b
@@ -2201,7 +2201,7 @@
 2	ta	ta	PART	_	Aspect=Iter	3	mod	_	AlignBegin=340002|AlignEnd=340224|Gloss=Iter|nWord=2
 3	cêwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=340224|AlignEnd=340446|Gloss=say.NMLZ.Fem|nWord=3
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=340446|AlignEnd=340668|Gloss=PUNCT|nWord=4
-5	ayaː	ayaː	NOUN	_	_	3	comp:obj	_	AlignBegin=340668|AlignEnd=340890|Gloss=tiger_nut|nWord=5
+5	ayaː	ayaː	NOUN	_	_	3	udep	_	AlignBegin=340668|AlignEnd=340890|Gloss=tiger_nut|nWord=5
 6	wàje	wàje	ADV	_	_	5	flat:name	_	AlignBegin=340890|AlignEnd=341112|Gloss=outside|nWord=6
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=341112|AlignEnd=341334|Gloss=PUNCT|nWord=7
 8	ayaː	ayaː	NOUN	_	_	5	conj:dicto	_	AlignBegin=341334|AlignEnd=341556|Gloss=tiger_nut|nWord=8
@@ -2237,7 +2237,7 @@
 19	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=346440|AlignEnd=346662|Gloss=PUNCT|nWord=31
 20	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	17	conj:coord	_	AlignBegin=346662|AlignEnd=346884|Gloss=3Masc.Aor|nWord=32
 21	ɗeːbèː	ɗiːb-	VERB	_	_	20	comp:aux	_	AlignBegin=346884|AlignEnd=347106|Gloss=scoop|nWord=33|wordform=ɗeːbèː
-22	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	21	comp:obl	_	AlignBegin=347106|AlignEnd=347328|Gloss=1Sing.Ben|nWord=34
+22	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	21	comp:ben	_	AlignBegin=347106|AlignEnd=347328|Gloss=1Sing.Ben|nWord=34
 23	gaːshìn	gaːshìː	NOUN	_	Definite=Cons|Gender=Masc	21	comp:obj	_	AlignBegin=347328|AlignEnd=347550|Gloss=hair.Masc.Cons|nWord=35
 24	geːmèː!//]	geːmèː!//]	NOUN	_	Gender=Masc	23	mod	_	AlignBegin=347550|AlignEnd=347772|Gloss=beard.Masc|nWord=36
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=347772|AlignEnd=347980|Gloss=PUNCT|nWord=37
@@ -2253,7 +2253,7 @@
 2	sàjeː	sàjeː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=348134|AlignEnd=348288|Gloss=whiskers.Masc|nWord=2
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=348288|AlignEnd=348442|Gloss=3Masc.Perf|nWord=3
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=348442|AlignEnd=348596|Gloss=do|nWord=4
-5	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	AlignBegin=348596|AlignEnd=348750|Gloss=1Sing.Ben|nWord=5
+5	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	4	comp:ben	_	AlignBegin=348596|AlignEnd=348750|Gloss=1Sing.Ben|nWord=5
 6	yawàː	yawàː	NOUN	_	Gender=Masc	4	comp:pred	_	AlignBegin=348750|AlignEnd=348904|Gloss=quantity.Masc|nWord=6
 7	//]	//]	PUNCT	_	_	3	punct	_	AlignBegin=348904|AlignEnd=348904|Gloss=PUNCT|nWord=7
 
@@ -2267,7 +2267,7 @@
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=348904|AlignEnd=348904|Gloss=PUNCT|nWord=7
 2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=348904|AlignEnd=349212|Gloss=3Masc.Aor|nWord=8
 3	ragèː	rag-	VERB	_	_	2	comp:aux	_	AlignBegin=349212|AlignEnd=349366|Gloss=reduce|nWord=9
-4	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	AlignBegin=349366|AlignEnd=349520|Gloss=1Sing.Ben|nWord=10
+4	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	3	comp:ben	_	AlignBegin=349366|AlignEnd=349520|Gloss=1Sing.Ben|nWord=10
 5	gaːshìn	gaːshìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=349520|AlignEnd=349674|Gloss=hair.Masc.Cons|nWord=11
 6	geːmèː	geːmèː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=349674|AlignEnd=349828|Gloss=beard.Masc|nWord=12
 7	!//]	!//]	PUNCT	_	_	2	punct	_	AlignBegin=349828|AlignEnd=349986|Gloss=PUNCT|nWord=13
@@ -2311,7 +2311,7 @@
 8	anàː	nàː	AUX	_	Aspect=Imp|Person=4	2	comp:obj	_	AlignBegin=354663|AlignEnd=354816|Gloss=4.Imp|nWord=8
 9-10	kirànka	_	_	_	_	_	_	_	_
 9	kiràn	kiraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=354816|AlignEnd=354969|Gloss=call.NMLZ.Masc.Cons|nWord=9
-10	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=354816|AlignEnd=354969|Gloss=2Masc.Gen|nWord=9
+10	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	udep	_	AlignBegin=354816|AlignEnd=354969|Gloss=2Masc.Gen|nWord=9
 11	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=354969|AlignEnd=355122|Gloss=PUNCT|nWord=10
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=355122|AlignEnd=355273|Gloss=PUNCT|nWord=11
 
@@ -2342,7 +2342,7 @@
 5	yah	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=359780|AlignEnd=360135|Gloss=3Masc.Perf.Bkg|nWord=5
 6	hwaːrà	hwaːr-	VERB	_	_	5	comp:aux	_	AlignBegin=360135|AlignEnd=360490|Gloss=begin|nWord=6
 7	yi	yi	VERB	_	_	6	comp:obj	_	AlignBegin=360490|AlignEnd=360845|Gloss=do|nWord=7
-8	mai	mai	PRON	_	Case=Ben|Gender=Masc|Person=3|PronType=Prs	7	comp:obl	_	AlignBegin=360845|AlignEnd=361200|Gloss=3Masc.Ben|nWord=8
+8	mai	mai	PRON	_	Case=Ben|Gender=Masc|Person=3|PronType=Prs	7	comp:ben	_	AlignBegin=360845|AlignEnd=361200|Gloss=3Masc.Ben|nWord=8
 9	askìː	askìː	NOUN	_	Gender=Masc	7	comp:obj@lvc	_	AlignBegin=361200|AlignEnd=361555|Gloss=shaving.Masc|nWord=9
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=361555|AlignEnd=361911|Gloss=PUNCT|nWord=10
 
@@ -2365,7 +2365,7 @@
 9-10	tai	_	_	_	_	_	_	_	_
 9	ta	ta	PART	_	Aspect=Iter	10	mod	_	AlignBegin=363780|AlignEnd=364047|Gloss=Iter|nWord=8
 10	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=363780|AlignEnd=364047|Gloss=do|nWord=8
-11	mà	mà	ADP	_	Case=Ben	10	comp:obl	_	AlignBegin=364047|AlignEnd=364314|Gloss=Dat|nWord=9
+11	mà	mà	ADP	_	Case=Ben	10	comp:ben	_	AlignBegin=364047|AlignEnd=364314|Gloss=Dat|nWord=9
 12	Dòːdoː	Dòːdoː	PROPN	_	_	11	comp:obj	_	AlignBegin=364314|AlignEnd=364581|Gloss=Dodo|nWord=10|wordform=dòːdoː
 13	askìn	askìː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj@lvc	_	AlignBegin=364581|AlignEnd=364848|Gloss=shaving.Masc.Cons|nWord=11
 14	geːmèː	geːmèː	NOUN	_	Gender=Masc	13	mod	_	AlignBegin=364848|AlignEnd=365115|Gloss=beard.Masc|nWord=12
@@ -2393,7 +2393,7 @@
 12	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	11	mod@poss	_	AlignBegin=368970|AlignEnd=369240|Gloss=2Masc.Gen|nWord=12
 13	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	10	mod	_	AlignBegin=369240|AlignEnd=369510|Gloss=1Sing.Aor|nWord=13
 14	ɗeːbèː	ɗiːb-	VERB	_	_	13	comp:aux	_	AlignBegin=369510|AlignEnd=369780|Gloss=scoop|nWord=14
-15	maː	maː	PRON	_	Case=Ben|Gender=Masc|Person=2|PronType=Prs	14	comp:obl	_	AlignBegin=369780|AlignEnd=370050|Gloss=2Masc.Ben|nWord=15
+15	maː	maː	PRON	_	Case=Ben|Gender=Masc|Person=2|PronType=Prs	14	comp:ben	_	AlignBegin=369780|AlignEnd=370050|Gloss=2Masc.Ben|nWord=15
 16	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	18	det	_	AlignBegin=370050|AlignEnd=370320|Gloss=some.Masc|nWord=16
 17	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	18	mod	_	AlignBegin=370320|AlignEnd=370590|Gloss=small.Masc.Cons|nWord=17
 18	gaːshìː	gaːshìː	NOUN	_	Gender=Masc	14	comp:obj	_	AlignBegin=370590|AlignEnd=370860|Gloss=hair.Masc|nWord=18
@@ -2424,7 +2424,7 @@
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=373977|AlignEnd=374233|Gloss=PUNCT|nWord=9
 12	yak	yak	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	8	conj:coord	_	AlignBegin=374233|AlignEnd=374489|Gloss=3Masc.Perf.Bkg|nWord=10
 13	kaːc'èː	kaːs'-	VERB	_	_	12	comp:aux	_	AlignBegin=374489|AlignEnd=374745|Gloss=cut_off|nWord=11
-14	mai	mai	PRON	_	Case=Ben|Gender=Masc|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=374745|AlignEnd=375001|Gloss=3Masc.Ben|nWord=12
+14	mai	mai	PRON	_	Case=Ben|Gender=Masc|Person=3|PronType=Prs	13	comp:ben	_	AlignBegin=374745|AlignEnd=375001|Gloss=3Masc.Ben|nWord=12
 15	kâi	kâi	NOUN	_	_	13	comp:obj	_	AlignBegin=375001|AlignEnd=375257|Gloss=head|nWord=13
 16	//	//	PUNCT	_	_	8	punct	_	AlignBegin=375257|AlignEnd=375511|Gloss=PUNCT|nWord=14
 
@@ -2465,7 +2465,7 @@
 9	<	<	PUNCT	_	_	10	punct	_	AlignBegin=382359|AlignEnd=382630|Gloss=PUNCT|nWord=10
 10	ankà	yak	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	7	conj:coord	_	AlignBegin=382630|AlignEnd=382901|Gloss=4.Perf.Bkg|nWord=11
 11	ɗaːmàː	ɗaːm-	VERB	_	_	10	comp:aux	_	AlignBegin=382901|AlignEnd=383172|Gloss=tie|nWord=12
-12	musù	musù	PRON	_	Case=Ben|Number=Plur|Person=3|PronType=Prs	11	comp:obl	_	AlignBegin=383172|AlignEnd=383443|Gloss=3Plur.Ben|nWord=13
+12	musù	musù	PRON	_	Case=Ben|Number=Plur|Person=3|PronType=Prs	11	comp:ben	_	AlignBegin=383172|AlignEnd=383443|Gloss=3Plur.Ben|nWord=13
 13	armeː	armeː	NOUN	_	Gender=Masc	11	comp:obj	_	AlignBegin=383443|AlignEnd=383714|Gloss=wedding.Masc|nWord=14
 14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=383714|AlignEnd=383989|Gloss=PUNCT|nWord=15
 
