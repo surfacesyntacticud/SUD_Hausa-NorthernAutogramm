@@ -703,7 +703,7 @@
 15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=119060|AlignEnd=119260|Gloss=PUNCT|nWord=15
 16	à	shì	AUX	_	Aspect=Aor|Person=4	13	conj:coord	_	AlignBegin=119260|AlignEnd=119460|Gloss=4.Aor|nWord=16
 17-18	bâsshì	_	_	_	_	_	_	_	_
-17	bâsshee	bâsshee	VERB	_	Case=Cau|Voice=Cau	16	comp:aux	_	AlignBegin=119460|AlignEnd=119660|Gloss=give.Cau|nWord=17
+17	bâsshee	bâsshee	VERB	_	Voice=Cau	16	comp:aux	_	AlignBegin=119460|AlignEnd=119660|Gloss=give.Cau|nWord=17
 18	shì	shi	PRON	_	Case=Cau|Gender=Masc|Person=3|PronType=Prs	17	comp:ben	_	AlignBegin=119460|AlignEnd=119660|Gloss=3Masc|nWord=17
 19	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	17	comp:obj	_	AlignBegin=119660|AlignEnd=119860|Gloss=shit.Masc|nWord=18
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=119860|AlignEnd=120060|Gloss=PUNCT|nWord=19
@@ -884,7 +884,7 @@
 8	dàw	dàk	ADP	_	_	6	mod	_	AlignBegin=142785|AlignEnd=143135|Gloss=from|nWord=8
 9	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=143135|AlignEnd=143485|Gloss=place.Masc.Cons|nWord=9
 10	gwadìn	gwad-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	mod	_	AlignBegin=143485|AlignEnd=143835|Gloss=show.Vnoun.Masc.Cons|nWord=10
-11	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	10	mod	_	AlignBegin=143835|AlignEnd=144185|Gloss=beauty.Masc|nWord=11
+11	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	10	udep	_	AlignBegin=143835|AlignEnd=144185|Gloss=beauty.Masc|nWord=11
 12	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=144185|AlignEnd=144540|Gloss=PUNCT|nWord=12
 
 # sent_id = HAUA_BC_NARR_04_GYM_042-042
@@ -1024,11 +1024,11 @@
 14	gwadàː	gwad-	VERB	_	_	13	comp:aux	_	AlignBegin=165852|AlignEnd=166038|Gloss=show|nWord=13
 15	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	14	comp:ben	_	AlignBegin=166038|AlignEnd=166224|Gloss=1Sing.Ben|nWord=14
 16	indà	indà	ADV	_	PronType=Rel	14	comp:obj	_	AlignBegin=166224|AlignEnd=166410|Gloss=where|nWord=15
-17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	20	dislocated@subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons|nWord=16
+17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	20	comp:loc	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons|nWord=16
 18-19	yâːtaː	_	_	_	_	_	_	_	_
 18	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	17	mod	_	AlignBegin=166596|AlignEnd=166782|Gloss=elder_sister.Fem.Cons|nWord=17
 19	=taː	=taː	PRON	_	Number=Sing|Person=1|PronType=Prs	18	mod@poss	_	AlignBegin=166596|AlignEnd=166782|Gloss=1Sing.Gen|nWord=17
-20	takè	kè	AUX	_	Evident=Bkg	16	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Gloss=3Fem.Pred/Loc.Bkg|nWord=19|wordform=kè
+20	takè	kè	AUX	_	Evident=Bkg	16	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Gloss=3Fem.Loc.Bkg|nWord=19|wordform=kè
 21	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT|nWord=20
 22	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT|nWord=21
 
@@ -1623,7 +1623,7 @@
 2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Def|Gender=Masc	11	dislocated@top	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Def|nWord=3
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=254061|AlignEnd=254228|Gloss=Prox|nWord=4
 4	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=254228|AlignEnd=254395|Gloss=REL|nWord=5
-5	ad	ak	AUX	_	Evident=Bkg	4	comp:obj	_	AlignBegin=254395|AlignEnd=254562|Gloss=Ident/Pred.Bkg|nWord=6
+5	ad	aC	AUX	_	Evident=Bkg	4	comp:obj	_	AlignBegin=254395|AlignEnd=254562|Gloss=Ident/Pred.Bkg|nWord=6
 6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=254562|AlignEnd=254729|Gloss=with|nWord=7
 7-8	saurattà	_	_	_	_	_	_	_	_
 7	saurat	sauraː	NOUN	_	Definite=Cons|Gender=Fem	6	comp:obj	_	AlignBegin=254729|AlignEnd=254896|Gloss=remains.Fem.Cons|nWord=8
@@ -1757,9 +1757,9 @@
 4	ga	ganiː	VERB	_	_	3	comp:aux	_	AlignBegin=269753|AlignEnd=269904|Gloss=see|nWord=4
 5	indà	indà	ADV	_	PronType=Rel	4	comp:obj	_	AlignBegin=269904|AlignEnd=270055|Gloss=where|nWord=5
 6-7	yâːtai	_	_	_	_	_	_	_	_
-6	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	8	dislocated@subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem|nWord=6
+6	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	8	subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem|nWord=6
 7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=270055|AlignEnd=270206|Gloss=3Masc.Gen|nWord=6
-8	takè	kè	AUX	_	Evident=Bkg	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Gloss=3Fem.Pred/Loc.Bkg|nWord=8|wordform=kè
+8	takè	kè	AUX	_	Evident=Bkg	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Gloss=3Fem.Loc.Bkg|nWord=8|wordform=kè
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUA_BC_NARR_04_GYM_085-085

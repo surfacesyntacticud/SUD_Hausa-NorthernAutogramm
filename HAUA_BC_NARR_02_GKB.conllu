@@ -276,7 +276,7 @@
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=52270|AlignEnd=52495|Gloss=with|nWord=7
 8	saurad	sauraː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=52495|AlignEnd=52720|Gloss=remains.Fem.Cons|nWord=8
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=52720|AlignEnd=52945|Gloss=REL|nWord=9
-10	ad	ak	PART	_	Evident=Bkg	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Gloss=Ident/Pred.Bkg|nWord=10
+10	ad	aC	AUX	_	Evident=Bkg	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Gloss=Ident/Pred.Bkg|nWord=10
 11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=53170|AlignEnd=53395|Gloss=with|nWord=11
 12	sauraː	sauraː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=53395|AlignEnd=53620|Gloss=remains.Fem|nWord=12
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=53620|AlignEnd=53848|Gloss=PUNCT|nWord=13
@@ -1059,23 +1059,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.WAV
 # sent_timecode = 221471, 226032
 # phonetic_text = shinàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
-# text = shi nàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
+# text = shinàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text_en = He is there, eating Cat, when Hyena arrived galloping.
-1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc|nWord=1
-2	nàː	nàː	PART	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc.Imp|nWord=1
-3	cân	cân	ADV	_	Deixis=Dist|PronType=Dem	2	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Gloss=Dist|nWord=2
-4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT|nWord=3
-5	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Imp|nWord=4
-6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons|nWord=5
-7	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc|nWord=6
-8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT|nWord=7
-9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=223753|AlignEnd=224079|Gloss=then|nWord=8
-10	gàː	gàː	PART	_	_	5	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is|nWord=9
-11	kuːraː	kuːraː	NOUN	_	Gender=Fem	10	subj	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem|nWord=10
-12	sagàb	sagàb	IDEO	_	_	10	comp:pred	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup|nWord=11
-13	sagàb	sagàb	IDEO	_	_	12	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup|nWord=12
-14	sagàb	sagàb	IDEO	_	_	13	conj:redup	_	AlignBegin=225383|AlignEnd=225709|Gloss=gallup|nWord=13
-15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=225709|AlignEnd=226032|Gloss=PUNCT|nWord=14
+1	shinàː	nàː²	PART	_	Gender=Masc|Person=3	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc.Pred/Loc|nWord=1
+2	cân	cân	ADV	_	Deixis=Dist|PronType=Dem	1	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Gloss=Dist|nWord=2
+3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT|nWord=3
+4	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Imp|nWord=4
+5	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons|nWord=5
+6	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	5	udep	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc|nWord=6
+7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT|nWord=7
+8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=223753|AlignEnd=224079|Gloss=then|nWord=8
+9	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is|nWord=9
+10	kuːraː	kuːraː	NOUN	_	Gender=Fem	9	subj	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem|nWord=10
+11	sagàb	sagàb	IDEO	_	_	9	comp:pred	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup|nWord=11
+12	sagàb	sagàb	IDEO	_	_	11	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup|nWord=12
+13	sagàb	sagàb	IDEO	_	_	12	conj:redup	_	AlignBegin=225383|AlignEnd=225709|Gloss=gallup|nWord=13
+14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=225709|AlignEnd=226032|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUA_BC_NARR_02_GKB_65
 # speaker_id = SP1
