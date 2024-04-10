@@ -595,13 +595,13 @@
 # text = anàː nan |c anàː nan |c anàː nan < rân nan < sai uwattà tay yi cikìː //
 # text_en = After some time, one day, her [Dove's] mother became pregnant.
 1	anàː	nàː²	AUX	_	_	16	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Pred/Loc
-2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def
+2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:loc	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=100826|AlignEnd=101049|Gloss=PUNCT
 4	anàː	nàː²	AUX	_	_	1	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=4.Pred/Loc
-5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	AlignBegin=101272|AlignEnd=101495|Gloss=Def
+5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:loc	_	AlignBegin=101272|AlignEnd=101495|Gloss=Def
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=101495|AlignEnd=101718|Gloss=PUNCT
 7	anàː	nàː²	AUX	_	_	4	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Gloss=4.Pred/Loc
-8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:pred	_	AlignBegin=101941|AlignEnd=102164|Gloss=Def
+8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:loc	_	AlignBegin=101941|AlignEnd=102164|Gloss=Def
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=102164|AlignEnd=102387|Gloss=PUNCT
 10	rân	raːnaː	NOUN	_	Definite=Def|Gender=Masc	16	mod	_	AlignBegin=102387|AlignEnd=102610|Gloss=day.Fem.Def
 11	nan	nan	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=102610|AlignEnd=102833|Gloss=Def
@@ -1024,7 +1024,7 @@
 14	gwadàː	gwad-	VERB	_	_	13	comp:aux	_	AlignBegin=165852|AlignEnd=166038|Gloss=show
 15	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	14	comp:ben	_	AlignBegin=166038|AlignEnd=166224|Gloss=1Sing.Ben
 16	indà	indà	ADV	_	PronType=Rel	14	comp:obj	_	AlignBegin=166224|AlignEnd=166410|Gloss=where
-17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	20	comp:loc	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons
+17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	20	subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons
 18-19	yâːtaː	_	_	_	_	_	_	_	_
 18	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	17	mod	_	AlignBegin=166596|AlignEnd=166782|Gloss=elder_sister.Fem.Cons
 19	=taː	=taː	PRON	_	Number=Sing|Person=1|PronType=Prs	18	mod@poss	_	AlignBegin=166596|AlignEnd=166782|Gloss=1Sing.Gen
@@ -1130,7 +1130,7 @@
 # text = anàː nan shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text_en = After a while, it kept creeping until it went out of the village.
 1	anàː	nàː²	AUX	_	_	0	root	_	AlignBegin=178938|AlignEnd=179136|Gloss=4.Pred/Loc
-2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def
+2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:loc	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def
 3	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Imp
 4	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	3	comp:aux	_	AlignBegin=179730|AlignEnd=179928|Gloss=creeping.Masc
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=179928|AlignEnd=180126|Gloss=PUNCT
@@ -1537,7 +1537,7 @@
 9	gudùː	gud-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:pred	_	AlignBegin=243336|AlignEnd=243539|Gloss=run.Vnoun.Masc
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=243539|AlignEnd=243742|Gloss=PUNCT
 11	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=243742|AlignEnd=243945|Background=Yes|Gloss=3Masc.Perf.Bkg
-12	yoː	yi	VERB	_	_	11	comp:pred	_	AlignBegin=243945|AlignEnd=244148|Gloss=do
+12	yoː	yi	VERB	_	_	11	comp:aux	_	AlignBegin=243945|AlignEnd=244148|Gloss=do
 13	ta	ta	PART	_	Aspect=Iter	14	mod	_	AlignBegin=244148|AlignEnd=244351|Gloss=Iter
 14	gudùː	gud-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	12	comp:obj	_	AlignBegin=244351|AlignEnd=244554|Gloss=run.Vnoun.Masc
 15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=244554|AlignEnd=244762|Gloss=PUNCT
@@ -1656,7 +1656,7 @@
 # text = anàː nan ɗaɗà hay yat taːshì |c ankà baː shì ruwaː |c yah hwalkàː //
 # text_en = After a while, then, he got up, they gave him water, he felt better.
 1	anàː	nàː²	AUX	_	_	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=4.Pred/Loc
-2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def
+2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:loc	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def
 3	ɗaɗà	ɗaɗà	ADV	_	_	1	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then
 4	hay	hat	SCONJ	_	_	1	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until
 5	yat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=259180|AlignEnd=259328|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -1722,10 +1722,10 @@
 # text = anàː nan |c anàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text_en = After a while, after that, when everyone had gone away, he told his mother.
 1	anàː	nàː²	AUX	_	_	16	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=4.Pred/Loc
-2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def
+2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:loc	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT
 4	anàː	nàː²	AUX	_	_	1	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=4.Pred/Loc
-5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	AlignBegin=266116|AlignEnd=266302|Gloss=Def
+5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:loc	_	AlignBegin=266116|AlignEnd=266302|Gloss=Def
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=266302|AlignEnd=266488|Gloss=PUNCT
 7	sai	sai	ADV	_	_	16	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=until
 8	dàb	dàk	ADP	_	_	16	mod	_	AlignBegin=266674|AlignEnd=266860|Gloss=from
@@ -1775,7 +1775,7 @@
 4-5	rânta	_	_	_	_	_	_	_	_
 4	rân	râi	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons
 5	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=271896|AlignEnd=272045|Gloss=3Fem.Gen
-6	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	2	conj:coord	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.Perf.Neg
+6	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	2	conj:dicto	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.Perf.Neg
 7	mutù	mat-	VERB	_	_	6	comp:aux	_	AlignBegin=272194|AlignEnd=272343|Gloss=die
 8	ba	ba	PART	_	Polarity=Neg	6	mod	_	AlignBegin=272343|AlignEnd=272492|Gloss=Neg
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=272492|AlignEnd=272640|Gloss=PUNCT
