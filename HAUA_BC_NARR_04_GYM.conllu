@@ -1617,7 +1617,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 253560, 256400
 # phonetic_text = [ ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâː shi mutuwàː //]
-# text = ɗan gùdaː-gudàn ga dà ad dà saurat =tà kuma < gàː shi yâu zâː shi mutuwàː //
+# text = ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâːshi mutuwàː //
 # text_en = The only one that is left to her, today he's going to die."
 1	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	2	mod	_	AlignBegin=253727|AlignEnd=253894|Gloss=small.Masc.Cons
 2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Def|Gender=Masc	11	dislocated@top	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Def
@@ -1633,10 +1633,9 @@
 11	gàː	gàː	PART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is
 12	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	11	subj	_	AlignBegin=255397|AlignEnd=255564|Gloss=3Masc
 13	yâu	yâu	ADV	_	_	14	mod	_	AlignBegin=255564|AlignEnd=255731|Gloss=today
-14	zâː	zâː	AUX	_	Tense=Fut	11	comp:pred	_	AlignBegin=255731|AlignEnd=255898|Gloss=Fut
-15	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	14	subj	_	AlignBegin=255898|AlignEnd=256065|Gloss=3Masc
-16	mutuwàː	mat-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=256065|AlignEnd=256232|Gloss=die.Vnoun.Fem
-17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=256232|AlignEnd=256400|Gloss=PUNCT
+14	zâːshi	zaː	AUX	_	Gender=Masc|Person=3|Tense=Fut	11	comp:pred	_	AlignBegin=255731|AlignEnd=255898|Gloss=Fut
+15	mutuwàː	mat-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=256065|AlignEnd=256232|Gloss=die.Vnoun.Fem
+16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=256232|AlignEnd=256400|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_080-080
 # speaker_id = SP
