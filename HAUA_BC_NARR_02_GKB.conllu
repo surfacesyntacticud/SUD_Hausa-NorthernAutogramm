@@ -43,7 +43,7 @@
 1	aː’àː	aː’àː	INTJ	_	_	10	discourse	_	AlignBegin=12415|AlignEnd=12585|Gloss=no
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12585|AlignEnd=12755|Gloss=PUNCT
 3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	10	vocative	_	AlignBegin=12755|AlignEnd=12925|Gloss=2Masc.Nom
-4	dai	dai	PART	_	_	3	mod	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed
+4	dai	dai	PART	_	_	3	discourse	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=13095|AlignEnd=13265|Gloss=PUNCT
 6	in	in	SCONJ	_	_	10	mod	_	AlignBegin=13265|AlignEnd=13435|Gloss=if
 7	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=13435|AlignEnd=13605|Background=Yes|Gloss=2Masc.Perf.Bkg
@@ -104,25 +104,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.WAV
 # sent_timecode = 29070, 31440
 # phonetic_text = kuma in kam mânceː < { àkwai || dà } wata raːnaː < sai mù koːmoː //
-# text = kuma in kam mânceː < { àkwai || dà } wata raːnaː < sai mù koːmoː //
+# text = kuma in kam mânceː < àkwai || dà wata raːnaː < sai mù koːmoː //
 # text_en = And if you forget, another day, we'll resume.
-1	kuma	kuma	ADV	_	_	15	mod	_	AlignBegin=29070|AlignEnd=29209|Gloss=also
-2	in	in	SCONJ	_	_	15	mod	_	AlignBegin=29209|AlignEnd=29348|Gloss=if
+1	kuma	kuma	ADV	_	_	13	mod	_	AlignBegin=29070|AlignEnd=29209|Gloss=also
+2	in	in	SCONJ	_	_	13	mod	_	AlignBegin=29209|AlignEnd=29348|Gloss=if
 3	kam	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=29348|AlignEnd=29487|Background=Yes|Gloss=2Masc.Perf.Bkg
 4	mânceː	mant-	VERB	_	_	3	comp:aux	_	AlignBegin=29487|AlignEnd=29626|Gloss=forget
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=29626|AlignEnd=29765|Gloss=PUNCT
-6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=29765|AlignEnd=29904|Gloss=PUNCT
-7	àkwai	àkwai	PART	_	_	15	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is
-8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=30043|AlignEnd=30182|GE=[|Gloss=PUNCT
-9	dà	dà	PART	_	_	7	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with
-10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=30321|AlignEnd=30460|Gloss=PUNCT
-11	wata	wani	DET	_	Gender=Fem|PronType=Ind	12	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem
-12	raːnaː	raːnaː	NOUN	_	Gender=Fem	9	subj	_	AlignBegin=30599|AlignEnd=30738|Gloss=day.Fem
-13	<	<	PUNCT	_	_	7	punct	_	AlignBegin=30738|AlignEnd=30877|Gloss=PUNCT
-14	sai	sai	ADV	_	_	15	mod	_	AlignBegin=30877|AlignEnd=31016|Gloss=then
-15	mù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=31016|AlignEnd=31155|Gloss=1Plur.Aor
-16	koːmoː	koːm-	VERB	_	_	15	comp:aux	_	AlignBegin=31155|AlignEnd=31294|Gloss=go_back
-17	//	//	PUNCT	_	_	15	punct	_	AlignBegin=31294|AlignEnd=31440|Gloss=PUNCT
+6	àkwai	àkwai	PART	_	_	13	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is
+7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=30043|AlignEnd=30182|GE=[|Gloss=PUNCT
+8	dà	dà	PART	_	_	6	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with
+9	wata	wani	DET	_	Gender=Fem|PronType=Ind	10	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem
+10	raːnaː	raːnaː	NOUN	_	Gender=Fem	8	subj	_	AlignBegin=30599|AlignEnd=30738|Gloss=day.Fem
+11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=30738|AlignEnd=30877|Gloss=PUNCT
+12	sai	sai	ADV	_	_	13	mod	_	AlignBegin=30877|AlignEnd=31016|Gloss=then
+13	mù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=31016|AlignEnd=31155|Gloss=1Plur.Aor
+14	koːmoː	koːm-	VERB	_	_	13	comp:aux	_	AlignBegin=31155|AlignEnd=31294|Gloss=go_back
+15	//	//	PUNCT	_	_	13	punct	_	AlignBegin=31294|AlignEnd=31440|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_08
 # speaker_id = SP2
@@ -134,7 +132,7 @@
 1	indà	indà	SCONJ	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=if
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=34938|AlignEnd=35141|Gloss=2Masc.Perf
 3	tunàː	tun-	VERB	_	_	2	comp:aux	_	AlignBegin=35141|AlignEnd=35344|Gloss=remember
-4	dai	dai	PART	_	_	2	mod	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed
+4	dai	dai	PART	_	_	2	discourse	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=35547|AlignEnd=35750|Gloss=PUNCT
 6	yànzu	yànzu	ADV	_	_	16	mod	_	AlignBegin=35750|AlignEnd=35953|Gloss=now
 7	in	in	SCONJ	_	_	16	mod	_	AlignBegin=35953|AlignEnd=36156|Gloss=if
@@ -216,10 +214,10 @@
 # phonetic_text = kà yi ɗaː dai //
 # text = kà yi ɗaː dai //
 # text_en = Just do a small one.
-1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Background=Yes|Gloss=2Masc.Aor
+1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Gloss=2Masc.Aor
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=45443|AlignEnd=45587|Gloss=do
 3	ɗaː	ɗaː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=45587|AlignEnd=45731|Gloss=child.Masc
-4	dai	dai	PART	_	_	1	mod	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed
+4	dai	dai	PART	_	_	1	discourse	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=45875|AlignEnd=46018|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_13
@@ -286,7 +284,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.WAV
 # sent_timecode = 56133, 59223
 # phonetic_text = wàːtôː < ita gàːtanaː < dà ita akà cikoː abìn cikoː || abìn gashìn ?//
-# text = wàːtôː < ita gàːtanaː < dà ita akà cikoː abìn || cikoː abìn ga shìn ?//
+# text = wàːtôː < ita gàːtanaː < dà ita akà cikoː abìn || cikoː abìn ga shìn ?//
 # text_en = That is, tales, it's with them that we fill this thing?
 1	wàːtôː	wàːtôː	INTJ	_	_	6	discourse	_	AlignBegin=56133|AlignEnd=56339|Gloss=that_is
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=56339|AlignEnd=56545|Gloss=PUNCT
@@ -302,7 +300,7 @@
 12	cikoː	cikoː	VERB	_	_	9	conj:dicto	_	AlignBegin=58193|AlignEnd=58399|Gloss=fill
 13	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Def|wordform=abìn
 14	ga	ga	DET	_	Deixis=Prox|PronType=Dem	13	det	_	AlignBegin=58811|AlignEnd=59017|Gloss=Prox
-15	shìn	shìn	PART	_	_	8	mod	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q
+15	shìn	shìn	PART	_	PartType=Int	6	discourse	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q
 16	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=59017|AlignEnd=59223|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_17

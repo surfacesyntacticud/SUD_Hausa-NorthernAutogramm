@@ -19,7 +19,7 @@
 1-2	abìnga	_	_	_	_	_	_	_	_
 1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	mod	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
 2	ga	ga	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=4000|AlignEnd=4324|Gloss=Prox
-3	dai	dai	PART	_	_	1	mod	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed
+3	dai	dai	PART	_	_	1	discourse	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=4648|AlignEnd=4972|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur
 6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	subj	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
@@ -439,7 +439,7 @@
 7	gàba	gàba	ADV	_	_	6	comp:goal	_	AlignBegin=75816|AlignEnd=75994|Gloss=in_front
 8	!//=	!//=	PUNCT	_	_	14	punct	_	AlignBegin=75994|AlignEnd=76172|Gloss=PUNCT
 9	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	14	dislocated@mod	_	AlignBegin=76172|AlignEnd=76350|Gloss=Prox
-10	hwa	hwa	PART	_	_	9	mod	_	AlignBegin=76350|AlignEnd=76528|Gloss=as_for
+10	hwa	hwa	PART	_	_	9	discourse	_	AlignBegin=76350|AlignEnd=76528|Gloss=as_for
 11	bàː	bàː	PART	_	Polarity=Neg	14	mod	_	AlignBegin=76528|AlignEnd=76706|Gloss=Neg
 12-13	baːyunkì	_	_	_	_	_	_	_	_
 12	baːyun	baːwàː	NOUN	_	Definite=Cons|Number=Plur	14	subj	_	AlignBegin=76706|AlignEnd=76884|Gloss=slave.Plur.Cons
@@ -872,20 +872,19 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 140335, 144540
 # phonetic_text = [ ɗan ubancìː dai yac ciː tà dàw wurin gwadìn kyaːwòː //]
-# text = [ ɗan'ubancìː dai >+ yac ciː tà dàw wurin gwadìn kyaːwòː //]
+# text = ɗan'ubancìː dai >+ yac ciː tà dàw wurin gwadìn kyaːwòː //
 # text_en = "It's rivalry that took her in a beauty contest."
-1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=140335|AlignEnd=140685|Gloss=PUNCT
-2	ɗan'ubancìː	ɗan'ubancìː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=140685|AlignEnd=141035|Gloss=rivalry.Masc
-3	dai	dai	PART	_	_	2	mod	_	AlignBegin=141385|AlignEnd=141735|Gloss=indeed
-4	>+	>+	PUNCT	_	_	5	mod	_	AlignBegin=141385|AlignEnd=141735|Gloss=PUNCT
-5	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:cleft	_	AlignBegin=141735|AlignEnd=142085|Background=Yes|Gloss=3Masc.Perf.Bkg
-6	ciː	ci	VERB	_	_	5	comp:aux	_	AlignBegin=142085|AlignEnd=142435|Gloss=eat
-7	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=142435|AlignEnd=142785|Gloss=3Fem
-8	dàw	dàk	ADP	_	_	6	mod	_	AlignBegin=142785|AlignEnd=143135|Gloss=from
-9	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=143135|AlignEnd=143485|Gloss=place.Masc.Cons
-10	gwadìn	gwad-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	mod	_	AlignBegin=143485|AlignEnd=143835|Gloss=show.Vnoun.Masc.Cons
-11	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	10	udep	_	AlignBegin=143835|AlignEnd=144185|Gloss=beauty.Masc
-12	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=144185|AlignEnd=144540|Gloss=PUNCT
+1	ɗan'ubancìː	ɗan'ubancìː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=140685|AlignEnd=141035|Gloss=rivalry.Masc
+2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=141385|AlignEnd=141735|Gloss=indeed
+3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=141385|AlignEnd=141735|Gloss=PUNCT
+4	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=141735|AlignEnd=142085|Background=Yes|Gloss=3Masc.Perf.Bkg
+5	ciː	ci	VERB	_	_	4	comp:aux	_	AlignBegin=142085|AlignEnd=142435|Gloss=eat
+6	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=142435|AlignEnd=142785|Gloss=3Fem
+7	dàw	dàk	ADP	_	_	5	mod	_	AlignBegin=142785|AlignEnd=143135|Gloss=from
+8	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	7	comp:obj	_	AlignBegin=143135|AlignEnd=143485|Gloss=place.Masc.Cons
+9	gwadìn	gwad-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	mod	_	AlignBegin=143485|AlignEnd=143835|Gloss=show.Vnoun.Masc.Cons
+10	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	9	udep	_	AlignBegin=143835|AlignEnd=144185|Gloss=beauty.Masc
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=144185|AlignEnd=144540|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_042-042
 # speaker_id = SP
