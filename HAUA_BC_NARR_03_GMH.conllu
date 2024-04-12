@@ -169,7 +169,7 @@
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_03_GMH.WAV
 # sent_timecode = 34188, 37047
-# text = yay yi ta bìyash shìgat =tà |r yay yi ta bìyash shìgat =tà |r yay yi ta bìyash shìgat =tà //
+# text = yay yi ta bìyash shìgat =tà |r yay yi ta bìyash shìgat =tà |r yay yi ta bìyash shìgat =tà //
 # text_en = He followed the track for a long time.
 1	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=34188|AlignEnd=34347|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=34347|AlignEnd=34506|Gloss=do
@@ -192,7 +192,7 @@
 17	ta	ta	PART	_	Aspect=Iter	18	mod	_	AlignBegin=36414|AlignEnd=36573|Gloss=Iter
 18	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	16	comp:pred	_	AlignBegin=36573|AlignEnd=36732|ExtPos=NOUN|Gloss=follow.Vnoun.Fem.Cons
 19-20	shìgattà	_	_	_	_	_	_	_	_
-19	shìgat	shìgaː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	18	udep	_	AlignBegin=36732|AlignEnd=36891|Gloss=track.Fem.Cons
+19	shìgat	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	18	udep	_	AlignBegin=36732|AlignEnd=36891|Gloss=track.Fem.Cons
 20	=tà	=ta	PRON	_	Case=Gen|Gender=Fem|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=36732|AlignEnd=36891|Gloss=3Fem.Gen
 21	//	//	PUNCT	_	_	1	punct	_	AlignBegin=36891|AlignEnd=37047|Gloss=PUNCT
 
@@ -483,10 +483,10 @@
 2	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	19	dislocated@comp	_	AlignBegin=85720|AlignEnd=85992|Gloss=cow.Fem
 3	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=85992|AlignEnd=86264|Gloss=PUNCT
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=86264|AlignEnd=86536|Gloss=and
-5	mài	mài	PART	_	ExtPos=NOUN|Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=owner_of.Sing|Idiom=Yes
+5	mài	mài	PART	_	Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=owner_of.Sing
 6-7	taːs'àtta	_	_	_	_	_	_	_	_
-6	taːs'àt	taːs'-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	compound	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.Vnoun.Fem|InIdiom=Yes
-7	=ta	=ta	PRON	_	ExtPos=NOUN|Gender=Fem|Person=3|PronType=Prs|VerbForm=Vnoun	6	udep	_	AlignBegin=86808|AlignEnd=87080|Gloss=3Fem.Gen|InIdiom=Yes
+6	taːs'àt	taːs'-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	compound	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.Vnoun.Fem
+7	=ta	=ta	PRON	_	ExtPos=NOUN|Gender=Fem|Person=3|PronType=Prs	6	udep	_	AlignBegin=86808|AlignEnd=87080|Gloss=3Fem.Gen
 8	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=87080|AlignEnd=87352|Gloss=PUNCT
 9	dà	dà	CCONJ	_	_	10	cc	_	AlignBegin=87352|AlignEnd=87624|Gloss=and
 10-11	ɗantà	_	_	_	_	_	_	_	_
