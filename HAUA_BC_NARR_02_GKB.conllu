@@ -216,7 +216,7 @@
 # phonetic_text = kà yi ɗaː dai //
 # text = kà yi ɗaː dai //
 # text_en = Just do a small one.
-1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Gloss=2Masc.Aor
+1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Background=Yes|Gloss=2Masc.Aor
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=45443|AlignEnd=45587|Gloss=do
 3	ɗaː	ɗaː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=45587|AlignEnd=45731|Gloss=child.Masc
 4	dai	dai	PART	_	_	1	mod	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed
@@ -276,7 +276,7 @@
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=52270|AlignEnd=52495|Gloss=with
 8	saurad	sauraː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=52495|AlignEnd=52720|Gloss=remains.Fem.Cons
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=52720|AlignEnd=52945|Gloss=REL
-10	ad	aC	AUX	_	_	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Background=Yes|Gloss=Pred/Loc.Bkg
+10	ad	aC	AUX	_	_	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Background=Yes|Gloss=Ident/Pred.Bkg
 11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=53170|AlignEnd=53395|Gloss=with
 12	sauraː	sauraː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=53395|AlignEnd=53620|Gloss=remains.Fem
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=53620|AlignEnd=53848|Gloss=PUNCT
@@ -460,7 +460,7 @@
 # text = kàram ɓiki nàː kà yi mà sàràkkuwaː =tai gàyyaː //
 # text_en = It's Jackal doing a commmunal farming for his mother-in-law.
 1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:pred	_	AlignBegin=108461|AlignEnd=108828|Gloss=dog.Masc.Cons
-2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=108828|AlignEnd=109195|Gloss=shit.Masc
+2	ɓiki	ɓiki	NOUN	_	_	1	compound	_	AlignBegin=108828|AlignEnd=109195|Gloss=shit.Masc
 3	nàː	naː	PART	_	_	0	root	_	AlignBegin=109195|AlignEnd=109562|Gloss=Foc/Ident
 4	kà	kà	AUX	_	Aspect=Imp	1	mod@relcl	_	AlignBegin=109562|AlignEnd=109929|Background=Yes|Gloss=Imp.Bkg
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=109929|AlignEnd=110296|Gloss=do
@@ -1100,7 +1100,7 @@
 3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=227598|AlignEnd=227741|Gloss=PUNCT
 4	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	7	dislocated@subj	_	AlignBegin=227741|AlignEnd=227884|Gloss=child.Plur.Cons
 5	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	4	compound	_	AlignBegin=227884|AlignEnd=228027|Gloss=communal_hunting.Fem
-6	koː	koː	PART	_	_	4	mod	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for
+6	koː	koː	PART	_	_	4	discourse	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for
 7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=228170|AlignEnd=228313|Gloss=3Plur.Perf
 8	zakà	zak-	VERB	_	_	7	comp:aux	_	AlignBegin=228313|AlignEnd=228456|Gloss=arrive
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=228456|AlignEnd=228599|Gloss=PUNCT
@@ -1214,7 +1214,7 @@
 # text_en = Between him and Lion, what was expected happened.
 1-2	tsàkaːninsù	_	_	_	_	_	_	_	_
 1	tsàkaːnin	tsàkaːnin	ADP	_	_	8	mod	_	AlignBegin=250021|AlignEnd=250316|Gloss=between
-2	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=250021|AlignEnd=250316|Gloss=3Plur.Gen
+2	=sù	=sù	NOUN	_	Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=250021|AlignEnd=250316|Gloss=3Plur.Gen
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=250316|AlignEnd=250611|Gloss=PUNCT
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=250611|AlignEnd=250906|Gloss=3Masc.Nom
 5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and
