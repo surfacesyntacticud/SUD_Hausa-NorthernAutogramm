@@ -375,7 +375,7 @@
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=93594|AlignEnd=93993|Gloss=PUNCT
 7	dà	dà	CCONJ	_	_	8	cc@preconj	_	AlignBegin=93993|AlignEnd=94392|Gloss=and
 8	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	23	dislocated@comp	_	AlignBegin=94392|AlignEnd=94791|Gloss=Illela
-9	nan	nan	ADV	_	Definite=Def|PronType=Dem	8	mod	_	AlignBegin=94791|AlignEnd=95190|Gloss=Def
+9	nan	nan	ADV	_	Definite=Def	8	mod	_	AlignBegin=94791|AlignEnd=95190|Gloss=Def
 10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=95190|AlignEnd=95589|Gloss=PUNCT
 11	dà	dà	CCONJ	_	_	12	cc	_	AlignBegin=95589|AlignEnd=95988|Gloss=and
 12	Gidan	Gidan	PROPN	_	_	8	conj:coord	_	AlignBegin=95988|AlignEnd=96387|Gloss=Gidan
@@ -419,13 +419,13 @@
 # text = X nan Galmaːwaː < àbin dà an nan < duy yawanciː Baːgayaːwaː nàː //
 # text_en = [List of various villages. Not transcribed.] there, in Galmawa, what is over there, most of them are Bagai people.
 1	X	X	X	_	_	13	unk@scrap	_	AlignBegin=106671|AlignEnd=125068|Gloss=X|wordform=XX
-2	nan	nan	ADV	_	Definite=Def|PronType=Dem	13	mod	_	AlignBegin=125500|AlignEnd=125801|Gloss=Def
+2	nan	nan	ADV	_	Definite=Def	13	mod	_	AlignBegin=125500|AlignEnd=125801|Gloss=Def
 3	Galmaːwaː	Galmaːwaː	PROPN	_	_	2	conj:appos	_	AlignBegin=125801|AlignEnd=126102|Gloss=Galmaːwaː
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=126102|AlignEnd=126403|Gloss=PUNCT
 5	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	mod	_	AlignBegin=126403|AlignEnd=126704|Gloss=thing.Masc.Cons
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=126704|AlignEnd=127005|Gloss=REL
 7	an	aC	AUX	_	_	6	comp:obj	_	AlignBegin=127005|AlignEnd=127306|Background=Yes|Gloss=Ident/Foc.Bkg
-8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:pred	_	AlignBegin=127306|AlignEnd=127607|Gloss=Def
+8	nan	nan	ADV	_	Definite=Def	7	comp:pred	_	AlignBegin=127306|AlignEnd=127607|Gloss=Def
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=127607|AlignEnd=127908|Gloss=PUNCT
 10	duy	dukà	DET	_	PronType=Tot	11	det	_	AlignBegin=127908|AlignEnd=128209|Gloss=all
 11	yawanciː	yawanciː	NOUN	_	_	13	subj	_	AlignBegin=128209|AlignEnd=128510|Gloss=majority
@@ -790,11 +790,11 @@
 # text_en = After a while, he saw that among them, there were good warriors.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=198780|AlignEnd=199021|Gloss=3Masc
 2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=199021|AlignEnd=199262|Gloss=Pred/Loc
-3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=199262|AlignEnd=199503|Gloss=Def
+3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=199262|AlignEnd=199503|Gloss=Def
 4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=199503|AlignEnd=199744|Gloss=PUNCT
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=199744|AlignEnd=199985|Gloss=3Masc
 6	nàː	nàː	PART	_	_	2	conj:redup	_	AlignBegin=199985|AlignEnd=200226|Gloss=Pred/Loc
-7	nan	nan	ADV	_	Definite=Def|PronType=Dem	6	comp:pred	_	AlignBegin=200226|AlignEnd=200467|Gloss=Def
+7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=200226|AlignEnd=200467|Gloss=Def
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=200467|AlignEnd=200708|Gloss=PUNCT
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=200708|AlignEnd=200949|Gloss=until
 10	yag	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	conj:coord	_	AlignBegin=200949|AlignEnd=201190|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -1220,7 +1220,7 @@
 # text_en = You see then.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=284080|AlignEnd=284345|Gloss=1Sing.Perf
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=284345|AlignEnd=284610|Gloss=see
-3	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc|PronType=Dem	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=Def.Masc
+3	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=Def.Masc
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=284875|AlignEnd=285140|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_072-072
@@ -1283,7 +1283,7 @@
 # phonetic_text = wànnan naː ga hakà nan //
 # text = wànnan naː ga hakànan //
 # text_en = I have seen it.
-1	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc|PronType=Dem	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=Def.Masc
+1	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=Def.Masc
 2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=299930|AlignEnd=300080|Gloss=1Sing.Perf
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=300080|AlignEnd=300230|Gloss=see
 4	hakànan	hakànan	ADV	_	_	3	comp:pred	_	AlignBegin=300230|AlignEnd=300380|Gloss=thus
@@ -1481,9 +1481,9 @@
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=336620|AlignEnd=336795|Gloss=2Masc.Perf
 2	taɓà	taɓ-	VERB	_	_	1	comp:aux	_	AlignBegin=336795|AlignEnd=336970|Gloss=experience
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=336970|AlignEnd=337145|Gloss=arrive.Vnoun.Fem
-4	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	comp:goal	_	AlignBegin=337145|AlignEnd=337320|Gloss=Prox
+4	nanânga	nanânga	ADV	_	Deixis=Prox	3	comp:goal	_	AlignBegin=337145|AlignEnd=337320|Gloss=Prox
 5	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	4	conj:appos	_	AlignBegin=337320|AlignEnd=337495|Gloss=village.Masc.Def
-6	ga	ga	DET	_	Deixis=Prox|PronType=Dem	5	det	_	AlignBegin=337495|AlignEnd=337670|Gloss=Prox
+6	ga	ga	DET	_	Deixis=Prox	5	det	_	AlignBegin=337495|AlignEnd=337670|Gloss=Prox
 7	dâːmaː	dâːmaː	ADV	_	_	3	mod	_	AlignBegin=337670|AlignEnd=337845|Gloss=formerly
 8	gà	gà	ADP	_	_	3	mod	_	AlignBegin=338020|AlignEnd=338195|Gloss=by
 9	ƙasaː	ƙasaː	NOUN	_	Gender=Fem	8	comp:obj	_	AlignBegin=338195|AlignEnd=338370|Gloss=ground.Fem
@@ -1524,7 +1524,7 @@
 6	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	8	cc	_	AlignBegin=341545|AlignEnd=341874|Gloss=but
 7	bàː	bàː	PART	_	Polarity=Neg	8	mod	_	AlignBegin=341874|AlignEnd=342203|Gloss=Neg
 8	hanyàː	hanyàː	NOUN	_	Gender=Fem	2	conj:coord	_	AlignBegin=342203|AlignEnd=342532|Gloss=way.Fem
-9	wàccân	wàccân	DET	_	Deixis=Dist|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=342532|AlignEnd=342861|Gloss=Dist.Fem
+9	wàccân	wàccân	DET	_	Deixis=Dist|Gender=Fem	8	det	_	AlignBegin=342532|AlignEnd=342861|Gloss=Dist.Fem
 10	ba	ba	PART	_	Polarity=Neg	8	mod	_	AlignBegin=342861|AlignEnd=343190|Gloss=Neg
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=343190|AlignEnd=343521|Gloss=PUNCT
 
@@ -1535,7 +1535,7 @@
 # phonetic_text = nan nàː nikà biyoːwàː Gaːnà //
 # text = nan nàː nikà biyoːwàː Gaːnà //
 # text_en = I came here on my way to Ghana.
-1	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=343521|AlignEnd=343830|Gloss=Def
+1	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=343521|AlignEnd=343830|Gloss=Def
 2	nàː	naː	PART	_	_	0	root	_	AlignBegin=343830|AlignEnd=344139|Gloss=Foc/Ident
 3	nikà	kà	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Background=Yes|Gloss=1Sing.Imp.Bkg
 4	biyoːwàː	bi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=344448|AlignEnd=344757|Gloss=follow.Vnoun.Fem
@@ -1653,7 +1653,7 @@
 5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT
-8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc
+8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc
 9	na	na	PART	_	Definite=Cons	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Cons
 10	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	9	comp:obj	_	AlignBegin=360478|AlignEnd=360722|Gloss=child.Plur.Cons
 11	maːtaː	maːtaː	NOUN	_	Number=Plur	10	compound	_	AlignBegin=360722|AlignEnd=360966|Gloss=women
@@ -1818,11 +1818,11 @@
 1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=400726|AlignEnd=401003|Gloss=here_is
 2	naːkù	naːkù	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	mod@poss	_	AlignBegin=401003|AlignEnd=401280|Gloss=2Plur.Gen
 3	aːràːyiː	aːràːyiː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=401280|AlignEnd=401557|Gloss=troup.Masc
-4	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Gloss=Prox
+4	nân	nân	ADV	_	Deixis=Prox	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Gloss=Prox
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
 6	gàː	gàː	PART	_	_	1	parataxis	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
 7	na	na	PART	_	Definite=Cons	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=Cons
-8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Dist.Masc
+8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Dist|Gender=Masc	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Dist.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_111-111
@@ -1902,11 +1902,11 @@
 6	daban	daban	ADV	_	_	4	comp:pred	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
 8	ta	na	PART	_	Definite=Cons|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Cons.Fem
-9	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Dist.Masc
+9	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Dist.Masc
 10	daban	daban	ADV	_	_	8	comp:pred	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT
 12	ta	na	PART	_	Definite=Cons|Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Cons.Fem
-13	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc|PronType=Dem	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Dist.Masc
+13	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Dist.Masc
 14	daban	daban	ADV	_	_	12	comp:pred	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT
 
@@ -2049,7 +2049,7 @@
 # text = tô cân Gaːnà < in kun zoː < wanèː irìn zamaː nàː kukà yîː ?//
 # text_en = Well there in Ghana, when you went, what kind of life did you have there?
 1	tô	tô	INTJ	_	_	12	discourse	_	AlignBegin=437780|AlignEnd=438016|Gloss=well
-2	cân	cân	ADV	_	Deixis=Dist|PronType=Dem	12	mod	_	AlignBegin=438016|AlignEnd=438252|Gloss=Dist
+2	cân	cân	ADV	_	Deixis=Dist	12	mod	_	AlignBegin=438016|AlignEnd=438252|Gloss=Dist
 3	Gaːnà	Gaːnà	PROPN	_	_	2	conj:appos	_	AlignBegin=438252|AlignEnd=438488|Gloss=Ghana
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=438488|AlignEnd=438724|Gloss=PUNCT
 5	in	in	SCONJ	_	_	12	mod	_	AlignBegin=438724|AlignEnd=438960|Gloss=if
