@@ -22,13 +22,13 @@
 # sent_timecode = 6220, 7780
 # text = anàː ta gardamàs =su //= anàː gardamàs =su //
 # text_en = People keep comparing them.
-1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=6220|AlignEnd=6443|Gloss=4.Prog
+1	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=6220|AlignEnd=6443|Gloss=4.Imp
 2	ta	ta	PART	_	Aspect=Iter	3	mod	_	AlignBegin=6443|AlignEnd=6666|Gloss=Iter
 3-4	gardamàssu	_	_	_	_	_	_	_	_
 3	gardamàs	gardamàː	NOUN	_	Definite=Cons|Gender=Fem	1	comp:aux	_	AlignBegin=6666|AlignEnd=6889|Gloss=comparing.Fem.Cons
 4	=su	=su	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	mod	_	AlignBegin=6666|AlignEnd=6889|Gloss=3Plur.Gen
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=6889|AlignEnd=7112|Gloss=PUNCT
-6	anàː	nàː	AUX	_	Aspect=Prog|Person=4	1	conj:redup	_	AlignBegin=7112|AlignEnd=7335|Gloss=4.Prog
+6	anàː	nàː	AUX	_	Aspect=Imp|Person=4	1	conj:redup	_	AlignBegin=7112|AlignEnd=7335|Gloss=4.Imp
 7-8	gardamàssu	_	_	_	_	_	_	_	_
 7	gardamàs	gardamàː	NOUN	_	Definite=Cons|Gender=Fem	6	comp:aux	_	AlignBegin=7335|AlignEnd=7558|Gloss=comparing.Fem.Cons
 8	=su	=su	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	mod	_	AlignBegin=7335|AlignEnd=7558|Gloss=3Plur.Gen
@@ -366,7 +366,7 @@
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=63946|AlignEnd=64109|Gloss=say
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=64109|AlignEnd=64272|Gloss=3Masc.Perf
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=64272|AlignEnd=64435|Gloss=hear
-6	anàː	nàː	AUX	_	Aspect=Prog|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Prog
+6	anàː	nàː	AUX	_	Aspect=Imp|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Imp
 7	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=64598|AlignEnd=64761|Gloss=milk.Vnoun.Cons.Fem
 8	saːnìyât	saːnìyaː	NOUN	_	Definite=Def|Gender=Fem	7	udep	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Def
 9	tan	nan	DET	_	Definite=Def|Gender=Fem|PronType=Art	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Def.Fem
@@ -419,7 +419,7 @@
 7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=72435|AlignEnd=72528|Gloss=PUNCT
 8	gàː	gàː	PART	_	_	5	comp:obj	_	AlignBegin=72528|AlignEnd=72621|Gloss=here_is
 9-10	raːnakkà	_	_	_	_	_	_	_	_
-9	raːnak	raːnaː	NOUN	_	Gender=Fem	8	subj	_	AlignBegin=72621|AlignEnd=72714|Gloss=day.Fem.Cons
+9	raːnak	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	subj	_	AlignBegin=72621|AlignEnd=72714|Gloss=day.Fem.Cons
 10	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	mod@poss	_	AlignBegin=72621|AlignEnd=72714|Gloss=2Masc.Gen
 11	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=72714|AlignEnd=72807|Gloss=PUNCT
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=72807|AlignEnd=72900|Gloss=PUNCT
@@ -467,7 +467,7 @@
 8	ta'	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=82688|AlignEnd=83034|Background=Yes|Gloss=3Fem.Perf.Bkg
 9	îskè	isk-	VERB	_	_	8	comp:aux	_	AlignBegin=83034|AlignEnd=83380|Gloss=find
 10	mùtûm	mùtunèː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=83380|AlignEnd=83726|Gloss=human.Masc
-11	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	parataxis	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Prog
+11	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	8	parataxis	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Imp
 12	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=84072|AlignEnd=84418|Gloss=milk.Vnoun.Cons.Fem
 13	saːnìyât	saːnìyaː	NOUN	_	Definite=Def|Gender=Fem	12	udep	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Fem.Def
 14	tan	yak	DET	_	Definite=Def|Gender=Fem	13	det	_	AlignBegin=84764|AlignEnd=85110|Gloss=Def.Fem
