@@ -1072,10 +1072,10 @@
 # phonetic_text = àkwai lòːkacìn dà akà sâː ka aikìː |c bàkà ƙiyàː ba |c kuma anàː bâː ka kaːshiː //
 # text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba |c kuma anàː bâː =ka kaːshiː //
 # text_en = Sometimes they they would force you to work, you could not refuse, and they beat you.
-1	àkwai	àkwai	PART	_	_	9	parataxis@mod	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	9	dislocated@mod	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=255663|AlignEnd=255926|Gloss=time.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=255926|AlignEnd=256189|Gloss=REL
-4	akà	kà	AUX	_	Aspect=Imp|Person=4	3	comp:obj	_	AlignBegin=256189|AlignEnd=256452|Background=Yes|Gloss=4.Imp.Bkg
+4	akà	kà	AUX	_	Aspect=Prog|Person=4	3	comp:obj	_	AlignBegin=256189|AlignEnd=256452|Background=Yes|Gloss=4.Prog.Bkg
 5	sâː	sâː	VERB	_	_	4	comp:aux	_	AlignBegin=256452|AlignEnd=256715|Gloss=put
 6	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=256715|AlignEnd=256978|Gloss=2Masc
 7	aikìː	aikìː	NOUN	_	Gender=Masc	5	comp:pred	_	AlignBegin=256978|AlignEnd=257241|Gloss=work.Masc
@@ -1085,7 +1085,7 @@
 11	ba	ba	PART	_	Polarity=Neg	9	mod	_	AlignBegin=258030|AlignEnd=258293|Gloss=Neg
 12	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=258293|AlignEnd=258556|Gloss=PUNCT
 13	kuma	kuma	ADV	_	_	14	mod	_	AlignBegin=258556|AlignEnd=258819|Gloss=also
-14	anàː	nàː	AUX	_	Aspect=Imp|Person=4	9	conj:coord	_	AlignBegin=258819|AlignEnd=259082|Gloss=4.Imp
+14	anàː	nàː	AUX	_	Aspect=Prog|Person=4	9	conj:coord	_	AlignBegin=258819|AlignEnd=259082|Gloss=4.Prog
 15	bâː	bâː	VERB	_	_	14	comp:aux	_	AlignBegin=259082|AlignEnd=259345|Gloss=give
 16	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	15	comp:ben	_	AlignBegin=259345|AlignEnd=259608|Gloss=2Masc.Gen
 17	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	15	comp:obj	_	AlignBegin=259608|AlignEnd=259871|Gloss=shit.Masc
@@ -1107,9 +1107,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 262513, 272133
 # phonetic_text = àkwai lòːkacìn dà kanàː cikin ɗaːkìnka dà dare |c à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
-# text = àkwai lòːkacìn dà kanàː cikin ɗaːkìnka dà dare |c à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
+# text = àkwai lòːkacìn dà kanàː cikin ɗaːkìnka dà dare < à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
 # text_en = Sometimes, you were in you room at night, they came where you were, they caught you and took you away to work.
-1	àkwai	àkwai	PART	_	_	11	parataxis@mod	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	11	dislocated@mod	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=262898|AlignEnd=263283|Gloss=time.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=263283|AlignEnd=263668|Gloss=REL
 4	kanàː	nàː²	AUX	_	Gender=Masc	3	comp:obj	_	AlignBegin=263668|AlignEnd=264053|Gloss=2Masc.Pred/Loc
@@ -1119,7 +1119,7 @@
 7	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=264438|AlignEnd=264823|Gloss=2Masc.Gen
 8	dà	dà	ADP	_	_	4	mod	_	AlignBegin=264823|AlignEnd=265208|Gloss=with
 9	dare	dare	ADV	_	_	8	comp:obj	_	AlignBegin=265208|AlignEnd=265593|Gloss=night
-10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=265593|AlignEnd=265978|Gloss=PUNCT
+10	<	<	PUNCT	_	_	11	punct	_	AlignBegin=265593|AlignEnd=265978|Gloss=PUNCT
 11	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=265978|AlignEnd=266363|Gloss=4.Aor
 12	zakà	zak-	VERB	_	_	11	comp:aux	_	AlignBegin=266363|AlignEnd=266748|Gloss=arrive
 13-14	indà	_	_	_	_	_	_	_	_
@@ -1631,7 +1631,7 @@
 # phonetic_text = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text_en = Once, I carried wrappers.
-1	àkwai	àkwai	PART	_	_	4	parataxis@mod	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	4	dislocated@mod	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf
@@ -1646,7 +1646,7 @@
 # phonetic_text = àkwai wata zakkùwaː naː kaːwoː duːc'ìː > wànga na ƴam maːtaː //
 # text = àkwai wata zakkùwaː naː kaːwoː duːc'ìː |a wànga na ƴan maːtaː //
 # text_en = Once, I carried (precious) stones, those for women.
-1	àkwai	àkwai	PART	_	_	4	parataxis@mod	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	4	dislocated	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=358770|AlignEnd=359014|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359014|AlignEnd=359258|Gloss=1Sing.Perf
@@ -1666,7 +1666,7 @@
 # phonetic_text = àkwai wata zakkùwaː naː kaːwoː X //
 # text = àkwai wata zakkùwaː naː kaːwoː X &//
 # text_en = Once, I carried X.
-1	àkwai	àkwai	PART	_	_	4	parataxis@mod	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	4	dislocated	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=362283|AlignEnd=362726|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=362726|AlignEnd=363169|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=363169|AlignEnd=363612|Gloss=1Sing.Perf
