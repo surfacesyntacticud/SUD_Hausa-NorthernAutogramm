@@ -271,11 +271,11 @@
 4	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=48487|AlignEnd=48796|Gloss=mouth.Masc.Cons
 5	tabkìː	tabkìː	NOUN	_	Gender=Masc	4	compound	_	AlignBegin=48796|AlignEnd=49105|Gloss=river.Masc
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=49105|AlignEnd=49414|Gloss=PUNCT
-7	sai	sai	ADV	_	_	9	mod	_	AlignBegin=49414|AlignEnd=49723|Gloss=until
+7	sai	sai	ADV	_	_	9	mod	_	AlignBegin=49414|AlignEnd=49723|Gloss=then
 8	wàccan	wàccan	PRON	_	Deixis=Dist|Gender=Fem	9	subj	_	AlignBegin=49723|AlignEnd=50032|Gloss=Fem.Dist
 9	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=50032|AlignEnd=50341|Background=Yes|Gloss=3Fem.Perf.Bkg
 10	cèː	cêː	VERB	_	_	9	comp:aux	_	AlignBegin=50341|AlignEnd=50650|Gloss=say
-11	mà	mà	ADP	_	Case=Ben	10	comp:obl	_	AlignBegin=50650|AlignEnd=50959|Gloss=Dat
+11	mà	mà	ADP	_	Case=Dat	10	comp:obl	_	AlignBegin=50650|AlignEnd=50959|Gloss=Dat
 12	ƴa'	ɗaː	NOUN	_	Definite=Cons|Gender=Fem	11	comp:obj	_	AlignBegin=50959|AlignEnd=51268|Gloss=child.Fem.Cons
 13-14	uwattà	_	_	_	_	_	_	_	_
 13	uwat	uwaː	NOUN	_	Definite=Cons|Gender=Fem	12	compound	_	AlignBegin=51268|AlignEnd=51577|Gloss=mother.Fem.Cons
@@ -650,7 +650,7 @@
 1-2	ankài	_	_	_	_	_	_	_	_
 1	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=108460|AlignEnd=108680|Background=Yes|Gloss=4.Perf.Bkg
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=108460|AlignEnd=108680|Gloss=do
-3	mà	mà	ADP	_	Case=Ben	2	comp:ben	_	AlignBegin=108680|AlignEnd=108900|Gloss=Dat
+3	mà	mà	ADP	_	Case=Dat	2	comp.obl	_	AlignBegin=108680|AlignEnd=108900|Gloss=Dat
 4	yaːròː	yaːròː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=108900|AlignEnd=109120|Gloss=boy.Masc
 5	suːnaː	suːnaː	NOUN	_	Gender=Masc	2	comp:obj@lvc	_	AlignBegin=109120|AlignEnd=109340|Gloss=name.Masc
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=109340|AlignEnd=109560|Gloss=PUNCT
@@ -745,7 +745,7 @@
 # phonetic_text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cèː mà uwaːtai [ níː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me into this world?"
-1	sai	sai	ADV	_	_	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=until
+1	sai	sai	ADV	_	_	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=then
 2	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Fem.Def
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=124825|AlignEnd=125038|Gloss=Def
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=125038|AlignEnd=125251|Gloss=PUNCT
@@ -759,7 +759,7 @@
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=126742|AlignEnd=126955|Gloss=PUNCT
 13	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	10	conj:coord	_	AlignBegin=126955|AlignEnd=127168|Background=Yes|Gloss=3Masc.Perf.Bkg
 14	cêː	cêː	VERB	_	_	13	comp:aux	_	AlignBegin=127168|AlignEnd=127381|Gloss=say
-15	mà	mà	ADP	_	Case=Ben	14	comp:ben	_	AlignBegin=127381|AlignEnd=127594|Gloss=Dat
+15	mà	mà	ADP	_	Case=Dat	14	comp.obl	_	AlignBegin=127381|AlignEnd=127594|Gloss=Dat
 16-17	uwaːtai	_	_	_	_	_	_	_	_
 16	uwaː	uwaː	NOUN	_	Gender=Fem	15	comp:obj	_	AlignBegin=127594|AlignEnd=127807|Gloss=mother.Fem
 17	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	mod@poss	_	AlignBegin=127594|AlignEnd=127807|Gloss=3Masc.Gen
@@ -1724,7 +1724,7 @@
 4	anàː	nàː²	AUX	_	_	1	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=4.Pred/Loc
 5	nan	nan	ADV	_	Definite=Def	4	comp:loc	_	AlignBegin=266116|AlignEnd=266302|Gloss=Def
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=266302|AlignEnd=266488|Gloss=PUNCT
-7	sai	sai	ADV	_	_	16	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=until
+7	sai	sai	ADV	_	_	16	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=then
 8	dàb	dàk	ADP	_	_	16	mod	_	AlignBegin=266674|AlignEnd=266860|Gloss=from
 9	baːya	baːya	ADV	_	_	8	comp:obj	_	AlignBegin=266860|AlignEnd=267046|Gloss=in_back
 10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=267046|AlignEnd=267232|Gloss=PUNCT
@@ -1735,7 +1735,7 @@
 15	<	<	PUNCT	_	_	11	punct	_	AlignBegin=267976|AlignEnd=268162|Gloss=PUNCT
 16	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=268162|AlignEnd=268348|Background=Yes|Gloss=3Masc.Perf.Bkg
 17	hwaɗàː	hwaɗ-	VERB	_	_	16	comp:aux	_	AlignBegin=268348|AlignEnd=268534|Gloss=tell
-18	mà	mà	ADP	_	Case=Ben	17	comp:ben	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat
+18	mà	mà	ADP	_	Case=Dat	17	comp.obl	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat
 19-20	uwaːtai	_	_	_	_	_	_	_	_
 19	uwaː	uwaː	NOUN	_	Definite=Cons|Gender=Fem	18	comp:obj	_	AlignBegin=268720|AlignEnd=268906|Gloss=mother.Fem.Cons
 20	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=268720|AlignEnd=268906|Gloss=3Masc.Gen
@@ -2213,11 +2213,11 @@
 # phonetic_text = sai doːdòː yac cêː mà Ƙurƙìyaː [ keː < tàhi kì kiraːyoː mài ayaː wàjên nan |c shì zakà |c shi ɗeːbèː min gaːshìn geːmèː!//] //
 # text = sai Doːdòː yac cêː mà Ƙurƙìyaː [ keː < tàhi kì kiraːyoː mài ayaː wàjên nan shì zakà |c shì ɗeːbèː min gaːshìn geːmèː!//] //
 # text_en = Then the dodo told Dove [ You, go and call that 'Aya waje', let him come and shave off my beard."
-1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=342222|AlignEnd=342444|Gloss=until
+1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=342222|AlignEnd=342444|Gloss=then
 2	Doːdòː	Doːdòː	PROPN	_	_	3	subj	_	AlignBegin=342444|AlignEnd=342666|Gloss=Dodo
 3	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=342666|AlignEnd=342888|Background=Yes|Gloss=3Masc.Perf.Bkg
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=342888|AlignEnd=343110|Gloss=say
-5	mà	mà	ADP	_	Case=Ben	4	comp:obl	_	AlignBegin=343110|AlignEnd=343332|Gloss=Dat
+5	mà	mà	ADP	_	Case=Dat	4	comp:obl	_	AlignBegin=343110|AlignEnd=343332|Gloss=Dat
 6	Ƙurƙìyaː	Ƙurƙìyaː	PROPN	_	_	5	comp:obj	_	AlignBegin=343332|AlignEnd=343554|Gloss=Dove
 7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=343554|AlignEnd=343776|Gloss=PUNCT
 8	keː	keː	PRON	_	Case=Nom|Gender=Fem|Person=2|PronType=Prs	10	vocative	_	AlignBegin=343776|AlignEnd=343998|Gloss=2Fem.Nom
@@ -2350,7 +2350,7 @@
 # phonetic_text = shinàː tai mai askìn geːmèː |c shinàː tai mà dòːdoː askìn geːmèː //
 # text = shinàː ta yi mai askìn geːmèː |c shinàː ta yi mà Dòːdoː askìn geːmèː //
 # text_en = He kept shaving him.
-1	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=361911|AlignEnd=362178|Gloss=3Masc.Imp
+1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=361911|AlignEnd=362178|Gloss=3Masc.Prog
 2-3	tai	_	_	_	_	_	_	_	_
 2	ta	ta	PART	_	Aspect=Iter	3	mod	_	AlignBegin=362178|AlignEnd=362445|Gloss=Iter
 3	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=362178|AlignEnd=362445|Gloss=do
@@ -2358,11 +2358,11 @@
 5	askìn	askìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:pred	_	AlignBegin=362712|AlignEnd=362979|Gloss=shaving.Masc.Cons
 6	geːmèː	geːmèː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=362979|AlignEnd=363246|Gloss=beard.Masc
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=363246|AlignEnd=363513|Gloss=PUNCT
-8	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=363513|AlignEnd=363780|Gloss=3Masc.Imp
+8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=363513|AlignEnd=363780|Gloss=3Masc.Prog
 9-10	tai	_	_	_	_	_	_	_	_
 9	ta	ta	PART	_	Aspect=Iter	10	mod	_	AlignBegin=363780|AlignEnd=364047|Gloss=Iter
 10	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=363780|AlignEnd=364047|Gloss=do
-11	mà	mà	ADP	_	Case=Ben	10	comp:ben	_	AlignBegin=364047|AlignEnd=364314|Gloss=Dat
+11	mà	mà	ADP	_	Case=Dat	10	comp.obl	_	AlignBegin=364047|AlignEnd=364314|Gloss=Dat
 12	Dòːdoː	Dòːdoː	PROPN	_	_	11	comp:obj	_	AlignBegin=364314|AlignEnd=364581|Gloss=Dodo|wordform=dòːdoː
 13	askìn	askìː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj@lvc	_	AlignBegin=364581|AlignEnd=364848|Gloss=shaving.Masc.Cons
 14	geːmèː	geːmèː	NOUN	_	Gender=Masc	13	mod	_	AlignBegin=364848|AlignEnd=365115|Gloss=beard.Masc

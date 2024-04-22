@@ -22,13 +22,13 @@
 # sent_timecode = 6220, 7780
 # text = anàː ta gardamàs =su //= anàː gardamàs =su //
 # text_en = People keep comparing them.
-1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=6220|AlignEnd=6443|Gloss=4.Prog
+1	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=6220|AlignEnd=6443|Gloss=4.Imp
 2	ta	ta	PART	_	Aspect=Iter	3	mod	_	AlignBegin=6443|AlignEnd=6666|Gloss=Iter
 3-4	gardamàssu	_	_	_	_	_	_	_	_
 3	gardamàs	gardamàː	NOUN	_	Definite=Cons|Gender=Fem	1	comp:aux	_	AlignBegin=6666|AlignEnd=6889|Gloss=comparing.Fem.Cons
 4	=su	=su	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	mod	_	AlignBegin=6666|AlignEnd=6889|Gloss=3Plur.Gen
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=6889|AlignEnd=7112|Gloss=PUNCT
-6	anàː	nàː	AUX	_	Aspect=Prog|Person=4	1	conj:redup	_	AlignBegin=7112|AlignEnd=7335|Gloss=4.Prog
+6	anàː	nàː	AUX	_	Aspect=Imp|Person=4	1	conj:redup	_	AlignBegin=7112|AlignEnd=7335|Gloss=4.Imp
 7-8	gardamàssu	_	_	_	_	_	_	_	_
 7	gardamàs	gardamàː	NOUN	_	Definite=Cons|Gender=Fem	6	comp:aux	_	AlignBegin=7335|AlignEnd=7558|Gloss=comparing.Fem.Cons
 8	=su	=su	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	mod	_	AlignBegin=7335|AlignEnd=7558|Gloss=3Plur.Gen
@@ -74,7 +74,7 @@
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=18462|AlignEnd=18636|Gloss=PUNCT
 9	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	12	mod	_	AlignBegin=18636|AlignEnd=18810|Gloss=day.Fem.Def
 10	nan	nan	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=18810|AlignEnd=18984|Gloss=Def
-11	sai	sai	ADV	_	_	12	mod	_	AlignBegin=18984|AlignEnd=19158|Gloss=then
+11	sai	sai	ADV	_	_	12	mod	_	AlignBegin=18984|AlignEnd=19158|Gloss=until
 12	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=19158|AlignEnd=19332|Background=Yes|Gloss=4.Perf.Bkg
 13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=19332|AlignEnd=19506|Gloss=arrive
 14	ankà	yaC	AUX	_	Aspect=Perf|Person=4	12	conj:coord	_	AlignBegin=19506|AlignEnd=19680|Background=Yes|Gloss=4.Perf.Bkg
@@ -307,7 +307,7 @@
 2-3	nan	_	_	_	_	_	_	_	_
 2	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=53594|AlignEnd=53751|Background=Yes|Gloss=4.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=53751|AlignEnd=53908|Gloss=say
-4	mà	mà	ADP	_	Case=Ben	3	comp:ben	_	AlignBegin=53908|AlignEnd=54065|Gloss=Dat
+4	mà	mà	ADP	_	Case=Dat	3	comp.obl	_	AlignBegin=53908|AlignEnd=54065|Gloss=Dat
 5	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=54065|AlignEnd=54222|Gloss=king.Masc.Cons
 6	sauraːreː	sauraːr-	VERB	_	Gender=Masc	5	mod	_	AlignBegin=54222|AlignEnd=54379|Gloss=listening.Masc
 7	[	[	PUNCT	_	_	11	punct	_	AlignBegin=54379|AlignEnd=54536|Gloss=PUNCT
@@ -361,12 +361,12 @@
 # sent_timecode = 63620, 65740
 # text = sai yac cèː yaː ji anàː taːs'às saːnìyât tan samàː ta bakwài //
 # text_en = Then he said that he heard that someone is milking the cow in the seventh heaven.
-1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=63620|AlignEnd=63783|Gloss=then
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=63620|AlignEnd=63783|Gloss=until
 2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=63783|AlignEnd=63946|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=63946|AlignEnd=64109|Gloss=say
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=64109|AlignEnd=64272|Gloss=3Masc.Perf
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=64272|AlignEnd=64435|Gloss=hear
-6	anàː	nàː	AUX	_	Aspect=Prog|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Prog
+6	anàː	nàː	AUX	_	Aspect=Imp|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Imp
 7	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=64598|AlignEnd=64761|Gloss=milk.Vnoun.Cons.Fem
 8	saːnìyât	saːnìyaː	NOUN	_	Definite=Def|Gender=Fem	7	udep	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Def
 9	tan	nan	DET	_	Definite=Def|Gender=Fem|PronType=Art	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Def.Fem
@@ -430,7 +430,7 @@
 # sent_timecode = 74860, 78360
 # text = sai yaɗ ɗoːkoː gwàlmaː =tai |c yay yi kwànce-kwancèn kwaːnaː |c yaƙ ƙaːɗàː ta |c tay yi bisà //
 # text_en = Then he took his hoe, lunged and threw it to the sky.
-1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=74860|AlignEnd=75054|Gloss=then
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=74860|AlignEnd=75054|Gloss=until
 2	yaɗ	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=75054|AlignEnd=75248|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	ɗoːkoː	ɗauk-	VERB	_	_	2	comp:aux	_	AlignBegin=75248|AlignEnd=75442|Gloss=take
 4-5	gwàlmaːtai	_	_	_	_	_	_	_	_
@@ -467,7 +467,7 @@
 8	ta'	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=82688|AlignEnd=83034|Background=Yes|Gloss=3Fem.Perf.Bkg
 9	îskè	isk-	VERB	_	_	8	comp:aux	_	AlignBegin=83034|AlignEnd=83380|Gloss=find
 10	mùtûm	mùtunèː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=83380|AlignEnd=83726|Gloss=human.Masc
-11	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	parataxis	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Prog
+11	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	8	parataxis	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Imp
 12	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=84072|AlignEnd=84418|Gloss=milk.Vnoun.Cons.Fem
 13	saːnìyât	saːnìyaː	NOUN	_	Definite=Def|Gender=Fem	12	udep	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Fem.Def
 14	tan	yak	DET	_	Definite=Def|Gender=Fem	13	det	_	AlignBegin=84764|AlignEnd=85110|Gloss=Def.Fem
@@ -515,7 +515,7 @@
 2	sai	sai	ADV	_	_	3	mod	_	AlignBegin=93050|AlignEnd=93205|Gloss=then
 3	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=93205|AlignEnd=93360|Background=Yes|Gloss=4.Perf.Bkg
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=93360|AlignEnd=93515|Gloss=say
-5	mà	mà	ADP	_	Case=Ben	4	comp:ben	_	AlignBegin=93515|AlignEnd=93670|Gloss=Dat
+5	mà	mà	ADP	_	Case=Dat	4	comp.obl	_	AlignBegin=93515|AlignEnd=93670|Gloss=Dat
 6	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj	_	AlignBegin=93670|AlignEnd=93825|Gloss=king.Masc.Cons
 7	sarɓaː	sarɓ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	mod	_	AlignBegin=93825|AlignEnd=93980|Gloss=lassoo.Vnoun.Fem
 8	[	[	PUNCT	_	_	12	punct	_	AlignBegin=93980|AlignEnd=94135|Gloss=PUNCT
