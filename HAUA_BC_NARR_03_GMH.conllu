@@ -5,7 +5,7 @@
 # text = àbîn ga dai < wasu mutàːne nà: > su huɗu //
 # text_en = This is the story of four men.
 1	àbîn	àbiː	NOUN	_	Definite=Def|Gender=Masc	7	dislocated@comp	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc.Def
-2	ga	ga	DET	_	Deixis=Prox	1	det	_	AlignBegin=2091|AlignEnd=2382|Gloss=Prox
+2	ga	ga	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=2091|AlignEnd=2382|Gloss=Prox
 3	dai	dai	PART	_	_	1	discourse	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some.Plur
@@ -257,13 +257,13 @@
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=46459|AlignEnd=46648|Gloss=say
 13	[	[	PUNCT	_	_	23	punct	_	AlignBegin=46648|AlignEnd=46837|Gloss=PUNCT
 14	wurîn	wuriː	NOUN	_	Definite=Def|Gender=Masc	23	mod	_	AlignBegin=46837|AlignEnd=47026|Gloss=place.Masc.Def
-15	ga	ga	DET	_	Deixis=Prox	14	det	_	AlignBegin=47026|AlignEnd=47215|Gloss=Prox
+15	ga	ga	DET	_	Deixis=Prox|PronType=Dem	14	det	_	AlignBegin=47026|AlignEnd=47215|Gloss=Prox
 16	<	<	PUNCT	_	_	14	punct	_	AlignBegin=47215|AlignEnd=47404|Gloss=PUNCT
 17	dàn	dàk	ADP	_	_	23	mod	_	AlignBegin=47404|AlignEnd=47593|Gloss=from
-18	nanânga	nanânga	ADV	_	Deixis=Prox	17	comp:obj	_	AlignBegin=47593|AlignEnd=47782|Gloss=Prox
+18	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	17	comp:obj	_	AlignBegin=47593|AlignEnd=47782|Gloss=Prox
 19	<	<	PUNCT	_	_	17	punct	_	AlignBegin=47782|AlignEnd=47971|Gloss=PUNCT
 20	saːnìyâg	saːnìyaː	NOUN	_	Definite=Def|Gender=Fem	23	dislocated@comp	_	AlignBegin=47971|AlignEnd=48160|Gloss=cow.Fem.Def
-21	ga	ga	DET	_	Deixis=Prox	20	det	_	AlignBegin=48160|AlignEnd=48349|Gloss=Prox
+21	ga	ga	DET	_	Deixis=Prox|PronType=Dem	20	det	_	AlignBegin=48160|AlignEnd=48349|Gloss=Prox
 22	<	<	PUNCT	_	_	20	punct	_	AlignBegin=48349|AlignEnd=48538|Gloss=PUNCT
 23-24	ankài	_	_	_	_	_	_	_	_
 23	ankà	yaC	AUX	_	Aspect=Perf|Person=4	12	comp:obj	_	AlignBegin=48538|AlignEnd=48727|Background=Yes|Gloss=4.Perf.Bkg
@@ -290,9 +290,9 @@
 7	àmmaː	àmmaː	CCONJ	_	_	12	cc	_	AlignBegin=50444|AlignEnd=50599|Gloss=but
 8	dàw	dàk	ADP	_	_	12	mod	_	AlignBegin=50599|AlignEnd=50754|Gloss=from
 9	wurîn	wuriː	NOUN	_	Definite=Def|Gender=Masc	8	comp:obj	_	AlignBegin=50754|AlignEnd=50909|Gloss=place.Masc.Def
-10	ga	ga	DET	_	Deixis=Prox	9	det	_	AlignBegin=50909|AlignEnd=51064|Gloss=Prox
+10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=50909|AlignEnd=51064|Gloss=Prox
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=51064|AlignEnd=51219|Gloss=PUNCT
-12	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=51219|AlignEnd=51374|Gloss=3Fem.Perf.Neg
+12	bàtà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=51219|AlignEnd=51374|Gloss=3Fem.Perf.Neg
 13	wucèː	wucèː	VERB	_	_	12	comp:aux	_	AlignBegin=51374|AlignEnd=51529|Gloss=pass_by
 14	ba	ba	PART	_	Polarity=Neg	12	mod	_	AlignBegin=51529|AlignEnd=51684|Gloss=Neg
 15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=51684|AlignEnd=51840|Gloss=PUNCT
@@ -565,7 +565,7 @@
 4	[	[	PUNCT	_	_	11	punct	_	AlignBegin=101770|AlignEnd=101940|Gloss=PUNCT
 5	cikin	cikin	ADP	_	_	11	mod	_	AlignBegin=101940|AlignEnd=102110|Gloss=inside
 6	mutàːnên	mùtunèː	NOUN	_	Definite=Def|Number=Plur	5	comp:obj	_	AlignBegin=102110|AlignEnd=102280|Gloss=human.Plur.Def
-7	ga	ga	DET	_	Deixis=Prox	6	det	_	AlignBegin=102280|AlignEnd=102450|Gloss=Prox
+7	ga	ga	DET	_	Deixis=Prox|PronType=Dem	6	det	_	AlignBegin=102280|AlignEnd=102450|Gloss=Prox
 8	huɗu	huɗu	NUM	_	_	6	mod@num	_	AlignBegin=102450|AlignEnd=102620|Gloss=four
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=102620|AlignEnd=102790|Gloss=PUNCT
 10	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc

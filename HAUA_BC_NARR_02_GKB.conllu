@@ -191,7 +191,7 @@
 18	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	15	conj:coord	_	AlignBegin=42958|AlignEnd=43124|Gloss=1Sing.Aor
 19	ƙaːràː	ƙaːr-	VERB	_	_	18	comp:aux	_	AlignBegin=43124|AlignEnd=43290|Gloss=increase
 20	gà	gà	ADP	_	_	19	comp:obl	_	AlignBegin=43290|AlignEnd=43456|Gloss=by
-21	wàccân	wàccân	DET	_	Deixis=Prox|Gender=Fem	22	det	_	AlignBegin=43456|AlignEnd=43622|Gloss=Dist.Fem
+21	wàccân	wàccân	DET	_	Deixis=Prox|Gender=Fem|PronType=Dem	22	det	_	AlignBegin=43456|AlignEnd=43622|Gloss=Dist.Fem
 22	taːkà	taːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	20	comp:obj	_	AlignBegin=43622|AlignEnd=43788|Gloss=2Masc.Gen
 23	//	//	PUNCT	_	_	9	punct	_	AlignBegin=43788|AlignEnd=43963|Gloss=PUNCT
 
@@ -299,7 +299,7 @@
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=58193|AlignEnd=58399|Gloss=PUNCT
 12	cikoː	cikoː	VERB	_	_	9	conj:dicto	_	AlignBegin=58193|AlignEnd=58399|Gloss=fill
 13	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Def
-14	ga	ga	DET	_	Deixis=Prox	13	det	_	AlignBegin=58811|AlignEnd=59017|Gloss=Prox
+14	ga	ga	DET	_	Deixis=Prox|PronType=Dem	13	det	_	AlignBegin=58811|AlignEnd=59017|Gloss=Prox
 15	shìn	shìn	PART	_	PartType=Int	6	discourse	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q
 16	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=59017|AlignEnd=59223|Gloss=PUNCT
 
@@ -902,7 +902,7 @@
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=196106|AlignEnd=196318|Gloss=PUNCT
 6	gàː	gàː	PART	_	_	4	parataxis	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is
 7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat.Masc
-8	nân	nân	ADV	_	Deixis=Prox	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Gloss=Prox
+8	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Gloss=Prox
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=196954|AlignEnd=197166|Gloss=PUNCT
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=197166|AlignEnd=197377|Gloss=PUNCT
 
@@ -1046,7 +1046,7 @@
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=217152|AlignEnd=217551|Gloss=PUNCT
 3	gàː	gàː	PART	_	_	1	parataxis	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is
 4	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=217950|AlignEnd=218349|Gloss=cat.Masc
-5	nân	nân	ADV	_	Deixis=Prox	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Gloss=Prox
+5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Gloss=Prox
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=218748|AlignEnd=219147|Gloss=PUNCT
 7	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	parataxis	_	AlignBegin=219147|AlignEnd=219546|Gloss=2Masc.Aor
 8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=219546|AlignEnd=219945|Gloss=eat
@@ -1060,7 +1060,7 @@
 # text = shinàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text_en = He is there, eating Cat, when Hyena arrived galloping.
 1	shinàː	nàː²	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc.Pred/Loc
-2	cân	cân	ADV	_	Deixis=Remt	1	comp:loc	_	AlignBegin=221797|AlignEnd=222123|Gloss=Dist
+2	cân	cân	ADV	_	Deixis=Remt|PronType=Dem	1	comp:loc	_	AlignBegin=221797|AlignEnd=222123|Gloss=Dist
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT
 4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Prog
 5	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons
@@ -1115,7 +1115,7 @@
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=230462|AlignEnd=230679|Gloss=PUNCT
 3	gàː	gàː	PART	_	_	1	parataxis	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is
 4	kàreː	kàreː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc
-5	nân	nân	ADV	_	Deixis=Prox	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Gloss=Prox
+5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Gloss=Prox
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=231330|AlignEnd=231548|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_68
@@ -1183,7 +1183,7 @@
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=243856|AlignEnd=244100|Gloss=PUNCT
 6	gàː	gàː	PART	_	_	4	parataxis	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is
 7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	subj	_	AlignBegin=244344|AlignEnd=244588|Gloss=hyena.Fem
-8	nân.	nân.	ADV	_	Deixis=Prox	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Gloss=Prox
+8	nân.	nân.	ADV	_	Deixis=Prox|PronType=Dem	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Gloss=Prox
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=244832|AlignEnd=245076|Gloss=PUNCT
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=245076|AlignEnd=245319|Gloss=PUNCT
 
