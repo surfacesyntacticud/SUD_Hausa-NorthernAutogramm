@@ -651,3 +651,26 @@
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat|InIdiom=Yes
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT
 
+# sent_id = HAUA_BC_NARR_O1_KA_40-40
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 139400, 141341
+# phonetic_text = tanàː nan tanàː ta cîn naːmàː |r tanàː nan tanàː ta cîn naːmàː //
+# text = ta tanàː nan tanàː ta cîn naːmàː |r tanàː nan tanàː ta cîn naːmàː //
+# text_en = She kept eating and eating the meat.
+1	ta	ta	ADV	_	_	2	mod	_	AlignBegin=139400|AlignEnd=139539|Gloss=then
+2	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Pred/Loc
+3	nan	nan	ADV	_	Definite=Def	2	comp:loc	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def
+4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog
+5	ta	ta	PART	_	Aspect=Iter	6	mod	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter
+6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons
+7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc
+8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT
+9	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem	4	conj:coord	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem.Pred/Loc
+10	nan	nan	ADV	_	Definite=Def	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def
+11	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	9	conj:coord	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog
+12	ta	ta	PART	_	Aspect=Iter	13	mod	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter
+13	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons
+14	naːmàː	naːmàː	NOUN	_	Definite=Cons	13	mod	_	AlignBegin=141068|AlignEnd=141207|Gloss=meat.Cons
+15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=141207|AlignEnd=141341|Gloss=PUNCT
+
