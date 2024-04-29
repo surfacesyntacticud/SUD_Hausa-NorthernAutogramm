@@ -17,14 +17,14 @@
 # text = abìn ga dai < wasu ƴan maːtaː nàː biyu //
 # text_en = There were two girls.
 1-2	abìnga	_	_	_	_	_	_	_	_
-1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	mod	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
+1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	subj	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
 2	ga	ga	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=4000|AlignEnd=4324|Gloss=Prox
 3	dai	dai	PART	_	_	1	discourse	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=4648|AlignEnd=4972|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur
-6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	subj	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
+6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	comp:pred	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
 7	maːtaː	màcce	NOUN	_	Number=Plur	6	compound	_	AlignBegin=5620|AlignEnd=5944|Gloss=woman.Plur
-8	nàː	neː~ceː/naː~taː	PART	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=Ident/Foc
+8	nàː	neː/naː	PART	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=Ident/Foc
 9	biyu	biyu	NUM	_	_	6	mod:num	_	AlignBegin=6268|AlignEnd=6592|Gloss=two
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=6592|AlignEnd=6914|Gloss=PUNCT
 
@@ -36,9 +36,9 @@
 # text = dâːmaː ɗiyan kiyoːshiː nàː //
 # text_en = They were jealous of each other.
 1	dâːmaː	dâːmaː	ADV	_	_	4	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly
-2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	mod	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons
+2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	comp:pred	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons
 3	kiyoːshiː	kiːshìyaːː	NOUN	_	Number=Plur	2	compound	_	AlignBegin=7682|AlignEnd=7938|Gloss=co-wife.Plur
-4	nàː	neː~ceː/naː~taː	PART	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=Ident/Foc
+4	nàː	neː/naː	PART	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=Ident/Foc
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=8194|AlignEnd=8448|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_004-004
@@ -213,13 +213,13 @@
 # text = du' àbin dà tas saːmoː < maːtaː nàː //
 # text_en = Whatever she got was female.
 1	du'	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=41258|AlignEnd=41418|Gloss=all
-2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	dislocated@top	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons
+2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=41578|AlignEnd=41738|Gloss=REL
 4	tas	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=41738|AlignEnd=41898|Background=Yes|Gloss=3Fem.Perf.Bkg
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=41898|AlignEnd=42058|Gloss=receive
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=42058|AlignEnd=42218|Gloss=PUNCT
 7	maːtaː	tamatà	ADJ	_	Number=Plur	8	comp:pred	_	AlignBegin=42218|AlignEnd=42378|Gloss=female.Plur
-8	nàː	neː~ceː/naː~taː	PART	_	_	0	root	_	AlignBegin=42378|AlignEnd=42538|Gloss=Ident/Foc
+8	nàː	neː/naː	PART	_	_	0	root	_	AlignBegin=42378|AlignEnd=42538|Gloss=Ident/Foc
 9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=42538|AlignEnd=42694|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_012-012
@@ -772,7 +772,7 @@
 24	<	<	PUNCT	_	_	23	punct	_	AlignBegin=129085|AlignEnd=129298|Gloss=PUNCT
 25	hakàn	hakàn	ADV	_	Definite=Cons	27	comp:pred	_	AlignBegin=129298|AlignEnd=129511|Gloss=thus.Cons
 26	ga	ga	DET	_	Deixis=Prox	25	det	_	AlignBegin=129511|AlignEnd=129724|Gloss=Prox
-27	nàː	neː~ceː/naː~taː	PART	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937|Gloss=Ident/Foc
+27	nàː	neː/naː	PART	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937|Gloss=Ident/Foc
 28	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT
 29	Allàː	Allàː	PROPN	_	_	30	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God
 30	yay	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	27	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -1026,7 +1026,7 @@
 18-19	yâːtaː	_	_	_	_	_	_	_	_
 18	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	17	mod	_	AlignBegin=166596|AlignEnd=166782|Gloss=elder_sister.Fem.Cons
 19	=taː	=taː	PRON	_	Number=Sing|Person=1|PronType=Prs	18	mod@poss	_	AlignBegin=166596|AlignEnd=166782|Gloss=1Sing.Gen
-20	takè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Fem	16	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Background=Yes|Gloss=3Fem.Loc.Bkg|wordform=kè
+20	takè	kè	AUX	_	Aspect=ProgLoc/Bkg|Gender=Fem	16	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Background=Yes|Gloss=3Fem.Loc.Bkg|wordform=kè
 21	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT
 22	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT
 
@@ -1756,7 +1756,7 @@
 6-7	yâːtai	_	_	_	_	_	_	_	_
 6	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	8	subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem
 7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=270055|AlignEnd=270206|Gloss=3Masc.Gen
-8	takè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Fem	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Background=Yes|Gloss=3Fem.Loc.Bkg|wordform=kè
+8	takè	kè	AUX	_	Aspect=ProgLoc/Bkg|Gender=Fem	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Background=Yes|Gloss=3Fem.Loc.Bkg|wordform=kè
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_085-085
