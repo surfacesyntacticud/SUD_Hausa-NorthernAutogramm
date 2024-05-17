@@ -1,3 +1,15 @@
+# sent_id = HAUA_BC_NARR_O1_KA_01-01
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 2320, 6400
+# phonetic_text = wàːtôː dà kuːraː //
+# text = wàːtôː dà kuːraː //
+# text_en = Well, it's Hyena...
+1	wàːtôː	wàːtôː	INTJ	_	_	2	mod	_	AlignBegin=2320|AlignEnd=3340|Gloss=that_is
+2	dà	dà	PART	_	_	0	root	_	AlignBegin=3340|AlignEnd=4360|Gloss=with
+3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=4360|AlignEnd=5380|Gloss=hyena.Fem
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=5380|AlignEnd=6400|Gloss=PUNCT
+
 # sent_id = HAUA_BC_NARR_O1_KA_02-02
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
@@ -14,6 +26,466 @@
 7	baràː	baràː	NOUN	_	Gender=Masc	6	compound	_	AlignBegin=14783|AlignEnd=15201|Gloss=begging.Masc
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=15201|AlignEnd=15616|Gloss=PUNCT
 
+# sent_id = HAUA_BC_NARR_O1_KA_03-03
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 17338, 18058
+# phonetic_text = zâː shi wurin baràː //
+# text = zâː shi wurin baràː //
+# text_en = He was going begging.
+1	zâː	zâː	PART	_	_	0	root	_	AlignBegin=17338|AlignEnd=17482|Gloss=All
+2	shi	shi	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=17482|AlignEnd=17626|Gloss=3Masc
+3	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	1	comp:goal	_	AlignBegin=17626|AlignEnd=17770|Gloss=place.Masc.Cons
+4	baràː	baràː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=17770|AlignEnd=17914|Gloss=begging.Masc
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=17914|AlignEnd=18058|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_04-04
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 18058, 23920
+# phonetic_text = shinàː tàhiyàːtay dà jàlloːnai //
+# text = shinàː tàhiyàː =tay dà jàlloː =nai //
+# text_en = He was walking with his stick.
+1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=18058|AlignEnd=19230|Gloss=3Masc.Prog
+2-3	tàhiyàːtay	_	_	_	_	_	_	_	_
+2	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=19230|AlignEnd=20402|Gloss=go.Vnoun.Fem.Cons
+3	=tay	=tay	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	udep@expl	_	AlignBegin=19230|AlignEnd=20402|Gloss=3Masc.Gen
+4	dà	dà	ADP	_	_	2	mod	_	AlignBegin=20402|AlignEnd=21574|Gloss=with
+5-6	jàlloːnai	_	_	_	_	_	_	_	_
+5	jàlloː	jàlloː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=21574|AlignEnd=22746|Gloss=walking_stick.Cons
+6	=nai	=nai	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=21574|AlignEnd=22746|Gloss=3Masc.Gen
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=22746|AlignEnd=23920|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_05-05
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 24520, 25020
+# phonetic_text = shinàː tàhe //
+# text = shinàː tàhe //
+# text_en = He was walking.
+1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=3Masc.Pred/Loc
+2	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:pred	_	AlignBegin=24687|AlignEnd=24854|Gloss=walk.Part.Stat
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=24854|AlignEnd=25020|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_06-06
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 25960, 27521
+# phonetic_text = shinàː tàhe |r shinàː tàhe |r shinàː tàhe //
+# text = shinàː tàhe |r shinàː tàhe |r shinàː tàhe //
+# text_en = He kept walking, and walking, and walking.
+1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=3Masc.Pred/Loc
+2	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:pred	_	AlignBegin=26133|AlignEnd=26306|Gloss=walk.Part.Stat
+3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=26306|AlignEnd=26479|Gloss=PUNCT
+4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc	1	conj:coord	_	AlignBegin=26479|AlignEnd=26652|Gloss=3Masc.Pred/Loc
+5	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	AlignBegin=26652|AlignEnd=26825|Gloss=walk.Part.Stat
+6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=26825|AlignEnd=26998|Gloss=PUNCT
+7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc	4	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=3Masc.Pred/Loc
+8	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:pred	_	AlignBegin=27171|AlignEnd=27344|Gloss=walk.Part.Stat
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=27344|AlignEnd=27521|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_07-07
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 27521, 29760
+# phonetic_text = tag ganai |c sai tab biː shì //
+# text = tag gan =ai |c sai tab biː shì //
+# text_en = She saw him and followed him.
+1	tag	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=27521|AlignEnd=27801|Background=Yes|Gloss=3Fem.Perf.Bkg
+2-3	ganai	_	_	_	_	_	_	_	_
+2	gan	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=27801|AlignEnd=28081|Gloss=see
+3	=ai	=ai	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=27801|AlignEnd=28081|Gloss=3Masc
+4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=28081|AlignEnd=28361|Gloss=PUNCT
+5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=28361|AlignEnd=28641|Gloss=then
+6	tab	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=28641|AlignEnd=28921|Background=Yes|Gloss=3Fem.Perf.Bkg
+7	biː	bi	VERB	_	_	6	comp:aux	_	AlignBegin=28921|AlignEnd=29201|Gloss=follow
+8	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=29201|AlignEnd=29481|Gloss=3Masc
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=29481|AlignEnd=29760|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_08-08
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 31645, 32762
+# phonetic_text = tanàː sôn tà ciː shì //
+# text = tanàː sôn tà ciː shì //
+# text_en = She wanted to eat him.
+1	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=31645|AlignEnd=31831|Gloss=3Fem.Prog
+2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=31831|AlignEnd=32017|Gloss=want.Vnoun.Masc.Cons
+3	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	2	udep	_	AlignBegin=32017|AlignEnd=32203|Gloss=3Fem.Aor
+4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=32203|AlignEnd=32389|Gloss=eat
+5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=32389|AlignEnd=32575|Gloss=3Masc
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32575|AlignEnd=32762|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_09-09
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 32762, 37336
+# phonetic_text = tanàː sôn tà ciː shìː |r tanàː sôn tà ciː shìː |r tanàː sôn tà ciː shìː har sunkà kai gà bàːkin tabkìː //
+# text = tanàː sôn tà ciː shì |r tanàː sôn tà ciː shì |r tanàː sôn tà ciː shì har sunkà kai gà bàːkin tabkìː //
+# text_en = She kept wanting to eat him until they reached the bank of the river.
+1	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=32762|AlignEnd=32953|Gloss=3Fem.Prog
+2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=32953|AlignEnd=33144|Gloss=want.Vnoun.Masc.Cons
+3	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	2	udep	_	AlignBegin=33144|AlignEnd=33335|Gloss=3Fem.Aor
+4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=33335|AlignEnd=33526|Gloss=eat
+5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=33526|AlignEnd=33717|Gloss=3Masc
+6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=33717|AlignEnd=33908|Gloss=PUNCT
+7	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	1	conj:redup	_	AlignBegin=33908|AlignEnd=34099|Gloss=3Fem.Prog
+8	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=34099|AlignEnd=34290|Gloss=want.Vnoun.Masc.Cons
+9	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	8	udep	_	AlignBegin=34290|AlignEnd=34481|Gloss=3Fem.Aor
+10	ciː	ci	VERB	_	_	9	comp:aux	_	AlignBegin=34481|AlignEnd=34672|Gloss=eat
+11	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=34672|AlignEnd=34863|Gloss=3Masc
+12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=34863|AlignEnd=35054|Gloss=PUNCT
+13	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	7	conj:redup	_	AlignBegin=35054|AlignEnd=35245|Gloss=3Fem.Prog
+14	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=35245|AlignEnd=35436|Gloss=want.Vnoun.Masc.Cons
+15	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	14	udep	_	AlignBegin=35436|AlignEnd=35627|Gloss=3Fem.Aor
+16	ciː	ci	VERB	_	_	15	comp:aux	_	AlignBegin=35627|AlignEnd=35818|Gloss=eat
+17	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=35818|AlignEnd=36009|Gloss=3Masc
+18	har	har	SCONJ	_	_	13	mod	_	AlignBegin=36009|AlignEnd=36200|Gloss=until
+19	sunkà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	18	comp:obj	_	AlignBegin=36200|AlignEnd=36391|Background=Yes|Gloss=3Plur.Perf.Bkg
+20	kai	kai	VERB	_	_	19	comp:aux	_	AlignBegin=36391|AlignEnd=36582|Gloss=carry
+21	gà	gà	ADP	_	_	20	comp:obl	_	AlignBegin=36582|AlignEnd=36773|Gloss=by
+22	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	21	comp:obj	_	AlignBegin=36773|AlignEnd=36964|Gloss=mouth.Masc.Cons
+23	tabkìː	tabkìː	NOUN	_	Gender=Masc	22	compound	_	AlignBegin=36964|AlignEnd=37155|Gloss=river.Masc
+24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37155|AlignEnd=37336|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_10-10
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 37916, 44855
+# phonetic_text = dà yag ga dai tanàː sôn tà ciː shì < yaz zoː bàːkin tabkìː |c sai yak kaːwoː maːshìː |c yab baː tà //
+# text = dà yag ga dai tanàː sôn tà ciː shì < yaz zoː bàːkin tabkìː |c sai yak kaːwoː maːshìː |c yab baː tà //
+# text_en = As he saw that she wanted to eat him, he arrived to the bank of the river, he took a spear and gave her.
+1	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=37916|AlignEnd=38205|Gloss=as
+2	yag	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=38205|AlignEnd=38494|Background=Yes|Gloss=3Masc.Perf.Bkg
+3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=38494|AlignEnd=38783|Gloss=see
+4	dai	dai	PART	_	_	3	discourse	_	AlignBegin=38783|AlignEnd=39072|Gloss=indeed
+5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Prog
+6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=39361|AlignEnd=39650|Gloss=want.Vnoun.Masc.Cons
+7	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	udep	_	AlignBegin=39650|AlignEnd=39939|Gloss=3Fem.Aor
+8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=39939|AlignEnd=40228|Gloss=eat
+9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=40228|AlignEnd=40517|Gloss=3Masc
+10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT
+11	yaz	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=40806|AlignEnd=41095|Background=Yes|Gloss=3Masc.Perf.Bkg
+12	zoː	zoː	VERB	_	_	11	comp:aux	_	AlignBegin=41095|AlignEnd=41384|Gloss=go
+13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:goal	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons
+14	tabkìː	tabkìː	NOUN	_	Gender=Masc	13	compound	_	AlignBegin=41673|AlignEnd=41962|Gloss=river.Masc
+15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=41962|AlignEnd=42251|Gloss=PUNCT
+16	sai	sai	ADV	_	ExtPos=ADV	17	mod	_	AlignBegin=42251|AlignEnd=42540|Gloss=then
+17	yak	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=42540|AlignEnd=42829|Background=Yes|Gloss=3Masc.Perf.Bkg
+18	kaːwoː	kaːwoː	VERB	_	_	17	comp:aux	_	AlignBegin=42829|AlignEnd=43118|Gloss=bring
+19	maːshìː	maːshìː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=43118|AlignEnd=43407|Gloss=spear.Masc
+20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=43407|AlignEnd=43696|Gloss=PUNCT
+21	yab	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	17	conj:coord	_	AlignBegin=43696|AlignEnd=43985|Background=Yes|Gloss=3Masc.Perf.Bkg
+22	baː	baː	VERB	_	_	21	comp:aux	_	AlignBegin=43985|AlignEnd=44274|Gloss=give
+23	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	22	comp:ben	_	AlignBegin=44274|AlignEnd=44563|Gloss=3Fem
+24	//	//	PUNCT	_	_	11	punct	_	AlignBegin=44563|AlignEnd=44855|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_11-11
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 46220, 47600
+# phonetic_text = yac cêː matà [ tôː bàri ìn shìga ruwân ga //] //
+# text = yac cêː matà [ tôː bàri ìn shìga ruwân ga //] //
+# text_en = He told her "Well, let me go into this water."
+1	yac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=46220|AlignEnd=46335|Background=Yes|Gloss=3Masc.Perf.Bkg
+2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=46335|AlignEnd=46450|Gloss=say
+3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=46450|AlignEnd=46565|Gloss=3Fem.Dat
+4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=46565|AlignEnd=46680|Gloss=PUNCT
+5	tôː	tôː	INTJ	_	_	6	discourse	_	AlignBegin=46680|AlignEnd=46795|Gloss=well
+6	bàri	barìː	VERB	_	_	2	comp:obj	_	AlignBegin=46795|AlignEnd=46910|Gloss=let.Imp|Imperative=Yes
+7	ìn	sù	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	comp:obj	_	AlignBegin=46910|AlignEnd=47025|Gloss=1Sing.Aor
+8	shìga	shig-	VERB	_	_	7	comp:aux	_	AlignBegin=47025|AlignEnd=47140|Gloss=enter
+9	ruwân	ruwaː	NOUN	_	Definite=Def|Number=Plur	8	comp:goal	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Def
+10	ga	ga	DET	_	Deixis=Prox	9	det	_	AlignBegin=47255|AlignEnd=47370|Gloss=Prox
+11	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=47370|AlignEnd=47485|Gloss=PUNCT
+12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=47485|AlignEnd=47600|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_12-12
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 48636, 53152
+# phonetic_text = in kig ga naː shigèː |c naː duːna < tôː saː maːshìn nan kì soːkàː //
+# text = in kig ga naː shigèː |c naː duːna < tôː saː maːshìn nan kì soːkàː //
+# text_en = If you see that I have entered the water and dived, use the spear and lunge.
+1	in	in	SCONJ	_	_	11	mod	_	AlignBegin=48636|AlignEnd=48918|Gloss=if
+2	kig	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=2	1	comp:obj	_	AlignBegin=48918|AlignEnd=49200|Background=Yes|Gloss=2Fem.Perf.Bkg
+3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=49200|AlignEnd=49482|Gloss=see
+4	naː	sun	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=49482|AlignEnd=49764|Gloss=1Sing.Perf
+5	shigèː	shig-	VERB	_	_	4	comp:aux	_	AlignBegin=49764|AlignEnd=50046|Gloss=enter
+6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=50046|AlignEnd=50328|Gloss=PUNCT
+7	naː	sun	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	conj:coord	_	AlignBegin=50328|AlignEnd=50610|Gloss=1Sing.Perf
+8	duːna	duːn-	VERB	_	_	7	comp:aux	_	AlignBegin=50610|AlignEnd=50892|Gloss=duck
+9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=50892|AlignEnd=51174|Gloss=PUNCT
+10	tôː	tôː	INTJ	_	_	11	discourse	_	AlignBegin=51174|AlignEnd=51456|Gloss=well
+11	saː	saː	VERB	_	_	0	root	_	AlignBegin=51456|AlignEnd=51738|Gloss=put.Imp|Imperative=Yes
+12	maːshìn	maːshìː	NOUN	_	Definite=Def|Gender=Masc	11	comp:obj	_	AlignBegin=51738|AlignEnd=52020|Gloss=spear.Masc.Def
+13	nan	nan	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=52020|AlignEnd=52302|Gloss=Def
+14	kì	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=2	11	conj:coord	_	AlignBegin=52302|AlignEnd=52584|Gloss=2Fem.Aor
+15	soːkàː	soːk-	VERB	_	_	14	comp:aux	_	AlignBegin=52584|AlignEnd=52866|Gloss=stab
+16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=52866|AlignEnd=53152|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_13-13
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 55620, 58780
+# phonetic_text = koː ìnaː tag ga yaː yi kwànce-kwànce |c yaː duːna < sai tak kaːwoː maːshìː |c tas soːkàː maːshìː //
+# text = koːìnaː tag ga yaː yi kwànce-kwànce |c yaː duːna < sai tak kaːwoː maːshìː |c tas soːkàː maːshìː //
+# text_en = Wherever she saw him get down and dive, she use the spear and stabbed.
+1	koːìnaː	koːìnaː	ADV	_	PronType=Rel	12	mod	_	AlignBegin=55620|AlignEnd=55778|Gloss=wherever
+2	tag	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	mod@relcl	_	AlignBegin=55936|AlignEnd=56094|Background=Yes|Gloss=3Fem.Perf.Bkg
+3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=56094|AlignEnd=56252|Gloss=see
+4	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=56252|AlignEnd=56410|Gloss=3Masc.Perf
+5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=56410|AlignEnd=56568|Gloss=do
+6	kwànce-kwànce	kwànce-kwànce	ADV	_	_	5	comp:pred	_	AlignBegin=56568|AlignEnd=56726|Gloss=lying_down
+7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=56726|AlignEnd=56884|Gloss=PUNCT
+8	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=56884|AlignEnd=57042|Gloss=3Masc.Perf
+9	duːna	duːna	VERB	_	_	8	comp:aux	_	AlignBegin=57042|AlignEnd=57200|Gloss=dive
+10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=57200|AlignEnd=57358|Gloss=PUNCT
+11	sai	sai	ADV	_	_	12	mod	_	AlignBegin=57358|AlignEnd=57516|Gloss=then
+12	tak	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=57516|AlignEnd=57674|Background=Yes|Gloss=3Fem.Perf.Bkg
+13	kaːwoː	kai	VERB	_	_	12	comp:aux	_	AlignBegin=57674|AlignEnd=57832|Gloss=carry
+14	maːshìː	maːshìː	NOUN	_	Gender=Masc	13	comp:obj	_	AlignBegin=57832|AlignEnd=57990|Gloss=spear.Masc
+15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=57990|AlignEnd=58148|Gloss=PUNCT
+16	tas	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	12	conj:coord	_	AlignBegin=58148|AlignEnd=58306|Background=Yes|Gloss=3Fem.Perf.Bkg
+17	soːkàː	soːk-	VERB	_	_	16	comp:aux	_	AlignBegin=58306|AlignEnd=58464|Gloss=stab
+18	maːshìː	maːshìː	NOUN	_	Gender=Masc	17	comp:obj	_	AlignBegin=58464|AlignEnd=58622|Gloss=spear.Masc
+19	//	//	PUNCT	_	_	12	punct	_	AlignBegin=58622|AlignEnd=58780|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_14-14
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 59380, 61180
+# phonetic_text = in tas soːkà maːshìː sai tà ciroː kiːhiː //
+# text = in tas soːkà maːshìː sai tà ciroː kiːhiː //
+# text_en = When she lunged with the spear, she pulled a fish.
+1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=59380|AlignEnd=59580|Gloss=if
+2	tas	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=59580|AlignEnd=59780|Background=Yes|Gloss=3Fem.Perf.Bkg
+3	soːkà	soːk-	VERB	_	_	2	comp:aux	_	AlignBegin=59780|AlignEnd=59980|Gloss=stab
+4	maːshìː	maːshìː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=59980|AlignEnd=60180|Gloss=spear.Masc
+5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=60180|AlignEnd=60380|Gloss=then
+6	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=60380|AlignEnd=60580|Gloss=3Fem.Aor
+7	ciroː	cir-	VERB	_	_	6	comp:aux	_	AlignBegin=60580|AlignEnd=60780|Gloss=pull
+8	kiːhiː	kiːhiː	NOUN	_	Gender=Masc	7	comp:obj	_	AlignBegin=60780|AlignEnd=60980|Gloss=fish.Masc
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=60980|AlignEnd=61180|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_15-15
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 62377, 66226
+# phonetic_text = in taɗ ɗaukoː kiːhîn nan ta ajèː //
+# text = in taɗ ɗaukoː kiːhîn nan ta' ajèː //
+# text_en = When she got the fish, she put it aside.
+1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=62377|AlignEnd=62858|Gloss=if
+2	taɗ	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Background=Yes|Gloss=3Fem.Perf.Bkg
+3	ɗaukoː	ɗauk-	VERB	_	_	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take
+4	kiːhîn	kiːhiː	NOUN	_	Definite=Def|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Def
+5	nan	nan	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=Def
+6	ta'	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=64782|AlignEnd=65263|Background=Yes|Gloss=3Fem.Perf.Bkg
+7	ajèː	az-	VERB	_	_	6	comp:aux	_	AlignBegin=65263|AlignEnd=65744|Gloss=put_aside
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=65744|AlignEnd=66226|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_16-16
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 66226, 67598
+# phonetic_text = sai tà zamnàː sai taː cânyeː //
+# text = sai tà zamnàː sai taː cânyeː //
+# text_en = Then she sat down to eat it up.
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=66226|AlignEnd=66422|Gloss=then
+2	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=66422|AlignEnd=66618|Gloss=3Fem.Aor
+3	zamnàː	zamn-	VERB	_	_	2	comp:aux	_	AlignBegin=66618|AlignEnd=66814|Gloss=stay/sit
+4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=66814|AlignEnd=67010|Gloss=then
+5	taː	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=67010|AlignEnd=67206|Gloss=3Fem.Perf
+6	cânyeː	ci	VERB	_	_	5	comp:aux	_	AlignBegin=67206|AlignEnd=67402|Gloss=eat
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=67402|AlignEnd=67598|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_17-17
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 68350, 71762
+# phonetic_text = koː dà takà cânyeːwàː, sa’àn nan àlmaːjìriː yaː taːsoː dàc cikin ruwaː //
+# text = koːdà takà cânyeːwàː < sa’ànnan àlmaːjìriː yaː taːsoː dàc cikin ruwaː //
+# text_en = As she was eating, the student got up from the water.
+1	koːdà	koːdà	SCONJ	_	_	7	mod	_	AlignBegin=68350|AlignEnd=68612|Gloss=just_as
+2	takà	kèː/kà	AUX	_	Aspect=ProgBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=68874|AlignEnd=69136|Background=Yes|Gloss=3Fem.Prog.Bkg
+3	cânyeːwàː	ci	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=69136|AlignEnd=69398|Gloss=eat.Vnoun.Fem
+4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=69136|AlignEnd=69398|Gloss=PUNCT
+5	sa’ànnan	sa’ànnan	ADV	_	_	7	mod	_	AlignBegin=69398|AlignEnd=69660|Gloss=then
+6	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=69922|AlignEnd=70184|Gloss=student.Masc
+7	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=70184|AlignEnd=70446|Gloss=3Masc.Perf
+8	taːsoː	taːs-	VERB	_	_	7	comp:aux	_	AlignBegin=70446|AlignEnd=70708|Gloss=stand
+9	dàc	dàk	ADP	_	_	8	comp:obl	_	AlignBegin=70708|AlignEnd=70970|Gloss=from
+10	cikin	cikin	ADP	_	_	9	comp:obj	_	AlignBegin=70970|AlignEnd=71232|Gloss=inside
+11	ruwaː	ruwaː	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=71232|AlignEnd=71494|Gloss=water.Plur
+12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=71494|AlignEnd=71762|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_18-18
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 72762, 73704
+# phonetic_text = sai shì cêː [ kyaː ƙòːshi ?//] //
+# text = sai shì cêː [ kyaː ƙòːshi ?//] //
+# text_en = He said " Have you eaten enough? "
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=72762|AlignEnd=72880|Gloss=then
+2	shì	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=72880|AlignEnd=72998|Gloss=3Masc.Aor
+3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=72998|AlignEnd=73116|Gloss=say
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=73116|AlignEnd=73234|Gloss=PUNCT
+5	kyaː	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=2	3	comp:obj	_	AlignBegin=73234|AlignEnd=73352|Gloss=2Fem.Perf
+6	ƙòːshi	ƙoːs-	VERB	_	_	5	comp:aux	_	AlignBegin=73352|AlignEnd=73470|Gloss=be_satiated
+7	?//]	?//]	PUNCT	_	_	5	punct	_	AlignBegin=73470|AlignEnd=73588|Gloss=PUNCT
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=73588|AlignEnd=73704|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_19-19
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 73704, 74374
+# phonetic_text = tà cêː [ aː’àː //] //
+# text = tà cêː [ aː’àː //] //
+# text_en = She said "No".
+1	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=73704|AlignEnd=73816|Gloss=3Fem.Aor
+2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=73816|AlignEnd=73928|Gloss=say
+3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=73928|AlignEnd=74040|Gloss=PUNCT
+4	aː’àː	aː’àː	NOUN	_	_	2	comp:obj	_	AlignBegin=74040|AlignEnd=74152|Gloss=no
+5	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=74152|AlignEnd=74264|Gloss=PUNCT
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=74264|AlignEnd=74374|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_20-20
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 74582, 75469
+# phonetic_text = sai sù koːmàː //
+# text = sai sù koːmàː //
+# text_en = Then they resumed.
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=74582|AlignEnd=74804|Gloss=then
+2	sù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=74804|AlignEnd=75026|Gloss=3Plur.Aor
+3	koːmàː	koːm-	VERB	_	_	2	comp:aux	_	AlignBegin=75026|AlignEnd=75248|Gloss=go_back
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=75248|AlignEnd=75469|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_21-21
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 76337, 81038
+# phonetic_text = sai dà tàc ci kiːhiː taƙ ƙòːshi < sa’àn nan yat tàhiyàːtai //
+# text = saidà tac ci kiːhiː taƙ ƙòːshi < sa’ànnan yat tàhiyàː =tai //
+# text_en = Then, when she had eaten enough fish, he went away.
+1	saidà	saidà	SCONJ	_	_	9	mod	_	AlignBegin=76337|AlignEnd=76699|Gloss=when
+2	tac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=77061|AlignEnd=77423|Background=Yes|Gloss=3Fem.Perf.Bkg
+3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=77423|AlignEnd=77785|Gloss=eat
+4	kiːhiː	kiːhiː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=77785|AlignEnd=78147|Gloss=fish.Masc
+5	taƙ	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=78147|AlignEnd=78509|Background=Yes|Gloss=3Fem.Perf.Bkg
+6	ƙòːshi	ƙoːs-	VERB	_	_	5	comp:aux	_	AlignBegin=78509|AlignEnd=78871|Gloss=be_satiated
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=78871|AlignEnd=79233|Gloss=PUNCT
+8	sa’ànnan	sa’ànnan	ADV	_	_	9	mod	_	AlignBegin=79233|AlignEnd=79595|Gloss=then
+9	yat	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=79957|AlignEnd=80319|Background=Yes|Gloss=3Masc.Perf.Bkg
+10-11	tàhiyàːtai	_	_	_	_	_	_	_	_
+10	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=80319|AlignEnd=80681|Gloss=go.Vnoun.Fem.Cons
+11	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	udep@expl	_	AlignBegin=80319|AlignEnd=80681|Gloss=3Masc.Gen
+12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=80681|AlignEnd=81038|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_22-22
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 83617, 85648
+# phonetic_text = yaː tàhi taː gàma cîː sai tab biː shì //
+# text = yaː tàhi taː gamà cîː sai tab biː shì //
+# text_en = When he had gone away and she had finished eating, she followed him.
+1	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	mod	_	AlignBegin=83617|AlignEnd=83820|Gloss=3Masc.Perf
+2	tàhi	tah-	VERB	_	_	1	comp:aux	_	AlignBegin=83820|AlignEnd=84023|Gloss=go
+3	taː	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=84023|AlignEnd=84226|Gloss=3Fem.Perf
+4	gamà	gam-	VERB	_	_	3	comp:aux	_	AlignBegin=84226|AlignEnd=84429|Gloss=finish
+5	cîː	ci	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=84429|AlignEnd=84632|Gloss=eat.Vnoun.Masc
+6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=84632|AlignEnd=84835|Gloss=then
+7	tab	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=84835|AlignEnd=85038|Background=Yes|Gloss=3Fem.Perf.Bkg
+8	biː	bi	VERB	_	_	7	comp:aux	_	AlignBegin=85038|AlignEnd=85241|Gloss=follow
+9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=85241|AlignEnd=85444|Gloss=3Masc
+10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=85444|AlignEnd=85648|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_23-23
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 87259, 89620
+# phonetic_text = tanàː bìye dà shiː |r tanàː bìye dà shiː |r tanàː bìye dà shiː |r tanàː bìye dà shiː //
+# text = tanàː bìye dà shiː |c tanàː bìye dà shiː |c tanàː bìye dà shiː |c tanàː bìye dà shiː //
+# text_en = She kept following him.
+1	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem	0	root	_	AlignBegin=87259|AlignEnd=87377|Gloss=3Fem.Pred/Loc
+2	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:pred	_	AlignBegin=87377|AlignEnd=87495|Gloss=follow.Part.Stat
+3	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=87495|AlignEnd=87613|Gloss=with
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=87613|AlignEnd=87731|Gloss=3Masc.Nom
+5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=87731|AlignEnd=87849|Gloss=PUNCT
+6	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	1	conj:redup	_	AlignBegin=87849|AlignEnd=87967|Gloss=3Fem.Pred/Loc
+7	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=87967|AlignEnd=88085|Gloss=follow.Part.Stat
+8	dà	dà	ADP	_	_	7	comp:obl	_	AlignBegin=88085|AlignEnd=88203|Gloss=with
+9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=88203|AlignEnd=88321|Gloss=3Masc.Nom
+10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=88321|AlignEnd=88439|Gloss=PUNCT
+11	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	6	conj:redup	_	AlignBegin=88439|AlignEnd=88557|Gloss=3Fem.Pred/Loc
+12	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	11	comp:pred	_	AlignBegin=88557|AlignEnd=88675|Gloss=follow.Part.Stat
+13	dà	dà	ADP	_	_	12	comp:obl	_	AlignBegin=88675|AlignEnd=88793|Gloss=with
+14	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=88793|AlignEnd=88911|Gloss=3Masc.Nom
+15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=88911|AlignEnd=89029|Gloss=PUNCT
+16	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	11	conj:redup	_	AlignBegin=89029|AlignEnd=89147|Gloss=3Fem.Pred/Loc
+17	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	16	comp:pred	_	AlignBegin=89147|AlignEnd=89265|Gloss=follow.Part.Stat
+18	dà	dà	ADP	_	_	17	comp:obl	_	AlignBegin=89265|AlignEnd=89383|Gloss=with
+19	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=89383|AlignEnd=89501|Gloss=3Masc.Nom
+20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=89501|AlignEnd=89620|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_24-24
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 90506, 93474
+# phonetic_text = sai shinàː cikin tàhiyàː sai yac c’ìnkay //
+# text = sai shinàː cikin tàhiyàː sai yac c’ìnkai //
+# text_en = Then, as he was walking, he saw her.
+1	sai	sai	ADV	_	_	6	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=then
+2	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc	6	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc.Pred/Loc
+3	cikin	cikin	ADP	_	_	2	comp:loc	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside
+4	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem
+5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=then
+6	yac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Background=Yes|Gloss=3Masc.Perf.Bkg
+7-8	c’ìnkai	_	_	_	_	_	_	_	_
+7	c’ìnka	c'ink-	VERB	_	_	6	comp:aux	_	AlignBegin=92732|AlignEnd=93103|Gloss=spot
+8	=ai	=ai	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=92732|AlignEnd=93103|Gloss=3Masc
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=93103|AlignEnd=93474|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_25-25
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 93474, 95691
+# phonetic_text = kuma taː matsàː mai tanàː sôn tà ciː shi //
+# text = kuma taː matsàː mai tanàː sôn tà ciː shi //
+# text_en = She was bothering him, she wanted to eat him.
+1	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=93474|AlignEnd=93696|Gloss=also
+2	taː	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=93696|AlignEnd=93918|Gloss=3Fem.Perf
+3	matsàː	matsàː	VERB	_	_	2	comp:aux	_	AlignBegin=93918|AlignEnd=94140|Gloss=press
+4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Masc.Dat
+5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Prog
+6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=94584|AlignEnd=94806|Gloss=want.Vnoun.Masc.Cons
+7	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	udep	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Aor
+8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=95028|AlignEnd=95250|Gloss=eat
+9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	mod	_	AlignBegin=95250|AlignEnd=95472|Gloss=3Masc
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95472|AlignEnd=95691|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_26-26
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 96463, 100122
+# phonetic_text = sai yac cêː matà [ dìːba !//= tàhi ! //= gàː giːwàːyeː ceːnìyaː //] //
+# text = sai yac cèː matà [ dìːba !//= tàhi !//= gàː giːwàːyeː ceːnìyaː //] //
+# text_en = Then he told her "Look! Go! There are elephants there."
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=96463|AlignEnd=96707|Gloss=then
+2	yac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=96707|AlignEnd=96951|Background=Yes|Gloss=3Masc.Perf.Bkg
+3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=96951|AlignEnd=97195|Gloss=say
+4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Dat
+5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=97439|AlignEnd=97683|Gloss=PUNCT
+6	dìːba	dìːba	VERB	_	_	3	comp:obj	_	AlignBegin=97683|AlignEnd=97927|Gloss=look.Imp|Imperative=Yes
+7	!//=	!//=	PUNCT	_	_	8	punct	_	AlignBegin=97927|AlignEnd=98171|Gloss=PUNCT
+8	tàhi	tah-	VERB	_	_	6	parataxis	_	AlignBegin=98171|AlignEnd=98415|Gloss=go.Imp|Imperative=Yes
+9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=98659|AlignEnd=98903|Gloss=PUNCT
+10	gàː	gàː	PART	_	_	8	parataxis	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is
+11	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur
+12	ceːnìyaː	ceːnìyaː	ADV	_	Deixis=Remt	10	comp:pred	_	AlignBegin=99391|AlignEnd=99635|Gloss=Dist
+13	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=99635|AlignEnd=99879|Gloss=PUNCT
+14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=99879|AlignEnd=100122|Gloss=PUNCT
+
 # sent_id = HAUA_BC_NARR_O1_KA_27-27
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
@@ -28,4 +500,272 @@
 5	dà	dà	ADP	_	_	4	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with
 6	yawàː	yawàː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=101522|AlignEnd=101802|Gloss=quantity.Masc
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=101802|AlignEnd=102080|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_28-28
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 103106, 107353
+# phonetic_text = yac cêː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìnsu !//] //
+# text = yac cèː matà [ dìːba !//= tàhi indà giːwàːyên can !//= kì cêː musù inàː ɓaːcìn =su !//] //
+# text_en = He told her "Look, go near those elephants, tell them that I'm insulting them!"
+1	yac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=103106|AlignEnd=103342|Background=Yes|Gloss=3Masc.Perf.Bkg
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=103342|AlignEnd=103578|Gloss=say
+3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=103578|AlignEnd=103814|Gloss=3Fem.Dat
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=103814|AlignEnd=104050|Gloss=PUNCT
+5	dìːba	diːb-	VERB	_	_	2	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Imp|Imperative=Yes
+6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT
+7	tàhi	tah-	VERB	_	_	5	parataxis	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Imp|Imperative=Yes
+8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where
+9	giːwàːyên	giːwaː	NOUN	_	Definite=Def|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Def
+10	can	can	DET	_	Deixis=Remt	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Dist+
+11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT
+12	kì	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor
+13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say
+14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat
+15	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Prog
+16-17	ɓaːcìnsu	_	_	_	_	_	_	_	_
+16	ɓaːcìn	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.Vnoun.Masc.Cons
+17	=su	=su	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	16	udep	_	AlignBegin=106646|AlignEnd=106882|Gloss=3Plur.Gen
+18	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=106882|AlignEnd=107118|Gloss=PUNCT
+19	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107118|AlignEnd=107353|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_29-29
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 109422, 113834
+# phonetic_text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìnku //] //
+# text = taz zoː tac cèː [ giːwàːyeː < gàː ɗan àlmaːjìriː cân < shinàː ɓaːcìn =ku //] //
+# text_en = Whe went and said "Elephants, there is a student there who is insulting you."
+1	taz	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=109422|AlignEnd=109698|Background=Yes|Gloss=3Fem.Perf.Bkg
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=109698|AlignEnd=109974|Gloss=go
+3	tac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=109974|AlignEnd=110250|Background=Yes|Gloss=3Fem.Perf.Bkg
+4	cèː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=110250|AlignEnd=110526|Gloss=say
+5	[	[	PUNCT	_	_	13	punct	_	AlignBegin=110526|AlignEnd=110802|Gloss=PUNCT
+6	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	13	vocative	_	AlignBegin=110802|AlignEnd=111078|Gloss=elephant.Plur
+7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=111078|AlignEnd=111354|Gloss=PUNCT
+8	gàː	gàː	PART	_	_	13	dislocated	_	AlignBegin=111354|AlignEnd=111630|Gloss=here_is
+9	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	AlignBegin=111630|AlignEnd=111906|Gloss=child.Masc.Cons
+10	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	9	compound	_	AlignBegin=111906|AlignEnd=112182|Gloss=student.Masc
+11	cân	cân	ADV	_	Deixis=Remt	8	comp:pred	_	AlignBegin=112182|AlignEnd=112458|Gloss=Dist
+12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=112458|AlignEnd=112734|Gloss=PUNCT
+13	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=112734|AlignEnd=113010|Gloss=3Masc.Prog
+14-15	ɓaːcìnku	_	_	_	_	_	_	_	_
+14	ɓaːcìn	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=113010|AlignEnd=113286|Gloss=insult.Vnoun.Masc.Cons
+15	=ku	=ku	PRON	_	Number=Plur|Person=2|PronType=Prs	14	udep	_	AlignBegin=113010|AlignEnd=113286|Gloss=2Plur
+16	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=113286|AlignEnd=113562|Gloss=PUNCT
+17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=113562|AlignEnd=113834|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_30-30
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 115840, 116824
+# phonetic_text = sai sunkà [ ìnaː shi kè ?// ]
+# text = sai sunkà [ ìnaː shi kè ?// ]
+# text_en = Then they said "Where is he?"
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=115840|AlignEnd=115963|Gloss=then
+2-3	sunkài	_	_	_	_	_	_	_	_
+2	sunkà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=115963|AlignEnd=116086|Background=Yes|Gloss=3Plur.Perf.Bkg
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=115963|AlignEnd=116086|Gloss=do
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=116086|AlignEnd=116209|Gloss=PUNCT
+5	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=116209|AlignEnd=116332|Gloss=where
+6	shikè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc	5	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Background=Yes|Gloss=3Masc.Loc.Bkg|wordform=kè
+7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=116578|AlignEnd=116701|Gloss=PUNCT
+8	]	]	PUNCT	_	_	5	punct	_	AlignBegin=116701|AlignEnd=116824|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_31-31
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 116824, 117479
+# phonetic_text = tac cèː [ gàː shi cân //]
+# text = tac cèː [ gàː shi cân //]
+# text_en = She said "There he is."
+1	tac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=116824|AlignEnd=116918|Background=Yes|Gloss=3Fem.Perf.Bkg
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=116918|AlignEnd=117012|Gloss=say
+3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=117012|AlignEnd=117106|Gloss=PUNCT
+4	gàː	gàː	PART	_	_	2	comp:obj	_	AlignBegin=117106|AlignEnd=117200|Gloss=here_is
+5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=117200|AlignEnd=117294|Gloss=3Masc
+6	cân	cân	ADV	_	Deixis=Remt	4	comp:pred	_	AlignBegin=117294|AlignEnd=117388|Gloss=Dist
+7	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=117388|AlignEnd=117479|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_32-32
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 117479, 119202
+# phonetic_text = sai sunkà yoː ridididiː > zakkùwaː indà shi kè //
+# text = sai sunkà yoː ridididiː > zakkùwaː indà shi kè //
+# text_en = Then they went running to where he was.
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=117479|AlignEnd=117651|Gloss=then
+2	sunkà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=117651|AlignEnd=117823|Background=Yes|Gloss=3Plur.Perf.Bkg
+3	yoː	yi	VERB	_	_	2	comp:aux	_	AlignBegin=117823|AlignEnd=117995|Gloss=do
+4	ridididiː	ridididiː	IDEO	_	_	3	mod	_	AlignBegin=117995|AlignEnd=118167|Gloss=running
+5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=118167|AlignEnd=118339|Gloss=PUNCT
+6	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=118339|AlignEnd=118511|Gloss=arrive.Vnoun.Fem
+7	indà	indà	ADV	_	PronType=Rel	6	comp:goal	_	AlignBegin=118511|AlignEnd=118683|Gloss=where
+8	shikè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Background=Yes|Gloss=3Masc.Loc.Bkg|wordform=kè
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=119027|AlignEnd=119202|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_33-33
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 120060, 125900
+# phonetic_text = sai shinàː cêːwaː [ nân akà hwaːɗùwaː //= nân akà kankaryaː //= nân akà hwaːɗùwaː //= nân akà kankaryaː //= nân akà hwaːɗùwaː //= nân akà kankaryaː //] //
+# text = sai shinàː cêːwaː [ nân akà hwaːɗùwaː //= nân akà kankaryaː //= nân akà hwaːɗùwaː //= nân akà kankaryaː //= nân akà hwaːɗùwaː //= nân akà kankaryaː //] //
+# text_en = He said "Here you fall, here you break ; here you fall, here you break ; here you fall, here you break."
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=120060|AlignEnd=120261|Gloss=then
+2	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=120261|AlignEnd=120462|Gloss=3Masc.Prog
+3	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=120462|AlignEnd=120663|Gloss=say.Vnoun.Fem
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=120663|AlignEnd=120864|Gloss=PUNCT
+5	nân	nân	ADV	_	Deixis=Prox	3	comp:obj	_	AlignBegin=120864|AlignEnd=121065|Gloss=Prox
+6	akà	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	5	comp:cleft	_	AlignBegin=121065|AlignEnd=121266|Background=Yes|Gloss=4.Prog.Bkg
+7	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=121266|AlignEnd=121467|Gloss=fall.Vnoun.Fem
+8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=121467|AlignEnd=121668|Gloss=PUNCT
+9	nân	nân	ADV	_	Deixis=Prox	5	parataxis	_	AlignBegin=121668|AlignEnd=121869|Gloss=Prox
+10	akà	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	9	comp:cleft	_	AlignBegin=121869|AlignEnd=122070|Background=Yes|Gloss=4.Prog.Bkg
+11	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=122070|AlignEnd=122271|Gloss=break.Vnoun.Fem
+12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=122271|AlignEnd=122472|Gloss=PUNCT
+13	nân	nân	ADV	_	Deixis=Prox	9	parataxis	_	AlignBegin=122472|AlignEnd=122673|Gloss=Prox
+14	akà	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	13	comp:cleft	_	AlignBegin=122673|AlignEnd=122874|Background=Yes|Gloss=4.Prog.Bkg
+15	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=122874|AlignEnd=123075|Gloss=fall.Vnoun.Fem
+16	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=123075|AlignEnd=123276|Gloss=PUNCT
+17	nân	nân	ADV	_	Deixis=Prox	13	parataxis	_	AlignBegin=123276|AlignEnd=123477|Gloss=Prox
+18	akà	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	17	comp:cleft	_	AlignBegin=123477|AlignEnd=123678|Background=Yes|Gloss=4.Prog.Bkg
+19	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	18	comp:aux	_	AlignBegin=123678|AlignEnd=123879|Gloss=break.Vnoun.Fem
+20	//=	//=	PUNCT	_	_	21	punct	_	AlignBegin=123879|AlignEnd=124080|Gloss=PUNCT
+21	nân	nân	ADV	_	Deixis=Prox	17	parataxis	_	AlignBegin=124080|AlignEnd=124281|Gloss=Prox
+22	akà	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	21	comp:cleft	_	AlignBegin=124281|AlignEnd=124482|Background=Yes|Gloss=4.Prog.Bkg
+23	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	22	comp:aux	_	AlignBegin=124482|AlignEnd=124683|Gloss=fall.Vnoun.Fem
+24	//=	//=	PUNCT	_	_	25	punct	_	AlignBegin=124683|AlignEnd=124884|Gloss=PUNCT
+25	nân	nân	ADV	_	Deixis=Prox	21	parataxis	_	AlignBegin=124884|AlignEnd=125085|Gloss=Prox
+26	akà	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	25	comp:cleft	_	AlignBegin=125085|AlignEnd=125286|Background=Yes|Gloss=4.Prog.Bkg
+
+# sent_id = HAUA_BC_NARR_O1_KA_34-34
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 126420, 128020
+# phonetic_text = koː dà sunkà kaːwoː indà shi kè < dus sun hwaːɗi |c sun kariːrìyeː //
+# text = koːdà sunkà kaːwoː indà shi kè < dus sun hwaːɗì |c sun kariːrìyeː //
+# text_en = As soon as they arrived where he was, they all fell down and broke into pieces.
+1	koːdà	koːdà	SCONJ	_	_	8	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=just_as
+2	sunkà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=126634|AlignEnd=126741|Background=Yes|Gloss=3Plur.Perf.Bkg
+3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=reach
+4	indà	indà	ADV	_	PronType=Rel	3	comp:goal	_	AlignBegin=126848|AlignEnd=126955|Gloss=where
+5	shikè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Background=Yes|Gloss=3Masc.Loc.Bkg|wordform=kè
+6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT
+7	dus	dukà	DET	_	PronType=Tot	8	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all
+8	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=127383|AlignEnd=127490|Gloss=3Plur.Perf
+9	hwaːɗì	hwaːɗ-	VERB	_	_	8	comp:aux	_	AlignBegin=127490|AlignEnd=127597|Gloss=fall
+10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=127597|AlignEnd=127704|Gloss=PUNCT
+11	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=127704|AlignEnd=127811|Gloss=3Plur.Perf
+12	kariːrìyeː	kary-	VERB	_	_	11	comp:aux	_	AlignBegin=127811|AlignEnd=127918|Gloss=break
+13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=127918|AlignEnd=128020|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_35-35
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 128500, 129640
+# phonetic_text = baːbù mài taːshìː tsàye //
+# text = baːbù mài taːshìː tsàye //
+# text_en = None could get up.
+1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg
+2	mài	mài	PART	_	Number=Sing	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=owner_of.Sing
+3	taːshìː	taːs-	VERB	_	Gender=Masc|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.Vnoun.Masc
+4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_36-36
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 130803, 131914
+# phonetic_text = sai shì cêː matà [ tôː gàː naːmàː //] //
+# text = sai shì cêː matà [ tôː gàː naːmàː //] //
+# text_en = Then he told her "Here is your meat."
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=130803|AlignEnd=130914|Gloss=then
+2	shì	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=130914|AlignEnd=131025|Gloss=3Masc.Aor
+3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=131025|AlignEnd=131136|Gloss=say
+4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Dat
+5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=131247|AlignEnd=131358|Gloss=PUNCT
+6	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=131358|AlignEnd=131469|Gloss=well
+7	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is
+8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=131580|AlignEnd=131691|Gloss=meat.Masc
+9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=131691|AlignEnd=131802|Gloss=PUNCT
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=131802|AlignEnd=131914|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_37-37
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 132608, 133285
+# phonetic_text = sai yat tàhiyàːtai //
+# text = sai yat tàhiyàː =tai //
+# text_en = Then he went away.
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=132608|AlignEnd=132777|Gloss=then
+2	yat	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=132777|AlignEnd=132946|Background=Yes|Gloss=3Masc.Perf.Bkg
+3	tàhiyàː	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=go.Vnoun.Fem.Cons
+4	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	udep@expl	_	AlignBegin=132946|AlignEnd=133115|Gloss=3Masc.Gen
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133115|AlignEnd=133285|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_38-38
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 134133, 134630
+# phonetic_text = shiː kèː nan //
+# text = shiːkèːnan //
+# text_en = That's it.
+1	shiːkèːnan	shiːkèːnan	INTJ	_	_	0	root	_	AlignBegin=134133|AlignEnd=134257|Gloss=OK
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=134505|AlignEnd=134630|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_39-39
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 135460, 136800
+# phonetic_text = taz zamnàː nân |c tay yi ta cîn naːmàː //
+# text = taz zamnàː nân |c tay yi ta cîn naːmàː //
+# text_en = She sat down, and started to eat the meat.
+1	taz	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=135460|AlignEnd=135594|Background=Yes|Gloss=3Fem.Perf.Bkg
+2	zamnàː	zamn-	VERB	_	_	1	comp:aux	_	AlignBegin=135594|AlignEnd=135728|Gloss=stay/sit
+3	nân	nân	ADV	_	Deixis=Prox	2	comp:loc	_	AlignBegin=135728|AlignEnd=135862|Gloss=Prox
+4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=135862|AlignEnd=135996|Gloss=PUNCT
+5	tay	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=135996|AlignEnd=136130|Background=Yes|Gloss=3Fem.Perf.Bkg
+6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=136130|AlignEnd=136264|Gloss=do
+7	ta	ta	PART	_	Aspect=Iter	8	mod	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter
+8	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=136398|AlignEnd=136532|Gloss=eat.Vnoun.Masc.Cons
+9	naːmàː	naːmàː	NOUN	_	Gender=Masc	8	udep	_	AlignBegin=136532|AlignEnd=136666|Gloss=meat.Masc
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=136666|AlignEnd=136800|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_40-40
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 139400, 141341
+# phonetic_text = tanàː nan tanàː ta cîn naːmàː |r tanàː nan tanàː ta cîn naːmàː //
+# text = ta tanàː nan tanàː ta cîn naːmàː |r tanàː nan tanàː ta cîn naːmàː //
+# text_en = She kept eating and eating the meat.
+1	ta	ta	ADV	_	_	2	mod	_	AlignBegin=139400|AlignEnd=139539|Gloss=then
+2	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Pred/Loc
+3	nan	nan	ADV	_	Definite=Def	2	comp:loc	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def
+4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog
+5	ta	ta	PART	_	Aspect=Iter	6	mod	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter
+6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons
+7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc
+8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT
+9	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem	4	conj:coord	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem.Pred/Loc
+10	nan	nan	ADV	_	Definite=Def	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def
+11	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	9	conj:coord	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog
+12	ta	ta	PART	_	Aspect=Iter	13	mod	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter
+13	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons
+14	naːmàː	naːmàː	NOUN	_	Definite=Cons	13	mod	_	AlignBegin=141068|AlignEnd=141207|Gloss=meat.Cons
+15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=141207|AlignEnd=141341|Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_O1_KA_41-41
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
+# sent_timecode = 141341, 142740
+# phonetic_text = dun naːmàn sai tac cânyeː shi //
+# text = dun naːmàn sai tac cânyeː shi //
+# text_en = She ate all the meat.
+1	dun	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=141341|AlignEnd=141541|Gloss=all
+2	naːmàn	naːmàn	NOUN	_	Definite=Def|Gender=Masc	4	dislocated@comp	_	AlignBegin=141541|AlignEnd=141741|Gloss=meat.Masc.Def
+3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=141741|AlignEnd=141941|Gloss=then
+4	tac	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=141941|AlignEnd=142141|Background=Yes|Gloss=3Fem.Perf.Bkg
+5	cânyeː	ci	VERB	_	_	4	comp:aux	_	AlignBegin=142141|AlignEnd=142341|Gloss=eat
+6	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=142341|AlignEnd=142541|Gloss=3Masc
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=142541|AlignEnd=142740|Gloss=PUNCT
 
