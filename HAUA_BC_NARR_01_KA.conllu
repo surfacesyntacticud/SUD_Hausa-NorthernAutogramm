@@ -19,7 +19,7 @@
 # text_en = Mhm, Hyena saw a Kuranic student.
 1	m̀ːhm̂ː	m̀ːhm̂ː	INTJ	_	_	4	discourse	_	AlignBegin=12275|AlignEnd=12693|Gloss=Mm
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12693|AlignEnd=13111|Gloss=PUNCT
-3	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=13111|AlignEnd=13529|Gloss=hyena.Fem
+3	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=13111|AlignEnd=13529|Gloss=hyena.Fem
 4	tag	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=13529|AlignEnd=13947|Background=Yes|Gloss=3Fem.Perf.Bkg
 5	ga	ganiː	VERB	_	_	4	comp:aux	_	AlignBegin=13947|AlignEnd=14365|Gloss=see
 6	ɗam	ɗam	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=14365|AlignEnd=14783|Gloss=son.Cons
@@ -493,7 +493,7 @@
 # phonetic_text = giːwàːyeː sunàː tsàye suː dà yawàː //
 # text = giːwàːyeː sunàː tsàye suː dà yawàː //
 # text_en = There were many elephants standing there.
-1	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	2	subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur
+1	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	2	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur
 2	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Pred/Loc
 3	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat
 4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom
@@ -669,7 +669,7 @@
 1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg
 2	mài	mài	PART	_	Number=Sing	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=owner_of.Sing
 3	taːshìː	taːs-	VERB	_	Gender=Masc|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.Vnoun.Masc
-4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat
+4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat|InIdiom=Yes
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_O1_KA_36-36
