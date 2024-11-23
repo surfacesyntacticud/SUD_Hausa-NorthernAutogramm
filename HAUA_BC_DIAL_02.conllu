@@ -64,8 +64,8 @@
 # text = tanàː ta kiːyòː ?//
 # text_en = Were they browsing?
 1	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=111445|AlignEnd=111617|Gloss=3Fem.Imp
-2	ta	ta	PART	_	Aspect=Iter	3	mod	_	AlignBegin=111617|AlignEnd=111789|Gloss=Iter
-3	kiːyòː	kiːyòː	NOUN	_	Gender=Masc	1	comp:aux	_	AlignBegin=111789|AlignEnd=111961|Gloss=grazing.Masc
+2	ta	ta	ADP	_	Aspect=Iter	1	comp:aux	_	AlignBegin=111617|AlignEnd=111789|Gloss=Iter
+3	kiːyòː	kiːyòː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=111789|AlignEnd=111961|Gloss=grazing.Masc
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=111961|AlignEnd=112135|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_5
@@ -121,7 +121,7 @@
 6	àkaràs	àkaràs	NOUN	_	_	5	udep@lvc	_	AlignBegin=184040|AlignEnd=184212|Gloss=confrontation
 7	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=184212|AlignEnd=184384|Gloss=with
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=184384|AlignEnd=184556|Gloss=3Fem.Nom
-9	ba	ba	PART	_	PartType=Int|Polarity=Neg	3	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg
+9	ba	ba	ADV	_	PartType=Int|Polarity=Neg	3	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg
 10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=184728|AlignEnd=184900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_9
@@ -136,7 +136,7 @@
 4	àkaràs	àkaràs	NOUN	_	_	3	udep@lvc	_	AlignBegin=184040|AlignEnd=184212|Gloss=confrontation
 5	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=184212|AlignEnd=184384|Gloss=with
 6	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=184384|AlignEnd=184556|Gloss=3Fem.Nom
-7	ba	ba	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg
+7	ba	ba	ADV	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=184728|AlignEnd=184900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_10
@@ -177,7 +177,7 @@
 1	bàn	bài	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=253425|AlignEnd=253545|Gloss=1Sing.Perf.Neg
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=253545|AlignEnd=253665|Gloss=know
 3	wànnan	wànnan	PRON	_	Deixis=Prox|Gender=Masc	2	comp:obj	_	AlignBegin=253665|AlignEnd=253785|Gloss=Prox.Masc
-4	ba	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=253785|AlignEnd=253905|Gloss=Neg
+4	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=253785|AlignEnd=253905|Gloss=Neg
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=253905|AlignEnd=254025|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_14
@@ -270,7 +270,7 @@
 # text = dà mài asiggìrìː ?//
 # text_en = And spears with metal shafts?
 1	dà	dà	CCONJ	_	_	2	cc	_	AlignBegin=542215|AlignEnd=542320|Gloss=and
-2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	0	root	_	AlignBegin=542320|AlignEnd=542425|Gloss=owner_of.Sing
+2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	0	root	_	AlignBegin=542320|AlignEnd=542425|Gloss=with.Sing
 3	asiggìrìː	asiggìrìː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=542425|AlignEnd=542530|Gloss=metal_shaft.Masc
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=542530|AlignEnd=542635|Gloss=PUNCT
 
