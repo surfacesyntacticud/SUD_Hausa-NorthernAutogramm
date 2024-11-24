@@ -351,7 +351,7 @@
 34	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	33	comp:aux	_	AlignBegin=65608|AlignEnd=65792|Gloss=do.Vnoun.Masc
 35	his'ariː	his'ariː	NOUN	_	Gender=Masc	34	comp:obj@lvc	_	AlignBegin=65792|AlignEnd=65976|Gloss=urine.Masc
 36	<	<	PUNCT	_	_	22	punct	_	AlignBegin=65976|AlignEnd=66160|Gloss=PUNCT
-37	zâ	zâ	PART	_	Person=2	20	comp:obj	_	AlignBegin=66160|AlignEnd=66344|Gloss=move_toward
+37	zâ	zâ	PredPART	_	Person=2	20	comp:obj	_	AlignBegin=66160|AlignEnd=66344|Gloss=move_toward
 38	ki	ki	PRON	_	Gender=Fem|Person=2|PronType=Prs	37	subj	_	AlignBegin=66160|AlignEnd=66344|Gloss=2Fem
 39-40	ki	_	_	_	_	_	_	_	_
 39	ɗeːboː	ɗiːb-	VERB	_	_	37	comp:goal	_	AlignBegin=66528|AlignEnd=66712|Gloss=scoop
@@ -771,8 +771,8 @@
 22	<	<	PUNCT	_	_	21	punct	_	AlignBegin=128659|AlignEnd=128872|Gloss=PUNCT
 23	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	dislocated@comp	_	AlignBegin=128872|AlignEnd=129085|Gloss=1Sing.Nom
 24	<	<	PUNCT	_	_	23	punct	_	AlignBegin=129085|AlignEnd=129298|Gloss=PUNCT
-25	hakàn	hakàn	PART	_	_	27	comp:pred	_	AlignBegin=129298|AlignEnd=129511
-26	ga	ganiː	VERB	_	_	25	mod	_	AlignBegin=129511|AlignEnd=129724|Gloss=see
+25	hakàn	hakà	ADV	_	_	27	comp:pred	_	AlignBegin=129298|AlignEnd=129511|Gloss=thus
+26	ga	ganiː	DET	_	Deixis=Prox	25	mod	_	AlignBegin=129511|AlignEnd=129724|Gloss=this
 27	nàː	nàː	PART	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937
 28	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT
 29	Allàː	Allàː	PROPN	_	_	30	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God
@@ -794,13 +794,13 @@
 # text_en = "Am I without an older brother, without a younger brother?"
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=132065|AlignEnd=132273|Gloss=PUNCT
 2-3	bân	_	_	_	_	_	_	_	_
-2	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=132273|AlignEnd=132481|Gloss=there_is.Neg
+2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=132273|AlignEnd=132481|Gloss=there_is.Neg
 3	ni	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=132273|AlignEnd=132481|Gloss=1Sing
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=132481|AlignEnd=132689|Gloss=with
 5	wâː	wâː	NOUN	_	Gender=Masc	4	comp:obj	_	AlignBegin=132689|AlignEnd=132897|Gloss=elder_brother.Masc
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=132897|AlignEnd=133105|Gloss=PUNCT
 7-8	bân	_	_	_	_	_	_	_	_
-7	bâː	bâː	PART	_	Polarity=Neg	2	conj:coord	_	AlignBegin=133105|AlignEnd=133313|Gloss=there_is.Neg
+7	bâː	bâː	PredPART	_	Polarity=Neg	2	conj:coord	_	AlignBegin=133105|AlignEnd=133313|Gloss=there_is.Neg
 8	ni	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=133105|AlignEnd=133313|Gloss=1Sing
 9	dà	dà	ADP	_	_	7	comp:pred	_	AlignBegin=133313|AlignEnd=133521|Gloss=with
 10	ƙaːnèː	ƙaːnèː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=133521|AlignEnd=133729|Gloss=younger_brother.Masc
@@ -948,7 +948,7 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=153530|AlignEnd=153808|Gloss=PUNCT
 7	tôː	tôː	INTJ	_	_	9	discourse	_	AlignBegin=153808|AlignEnd=154086|Gloss=well
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=154086|AlignEnd=154364|Gloss=PUNCT
-9	baːbù	baːbù	PART	_	Polarity=Neg	5	comp:obj	_	AlignBegin=154364|AlignEnd=154642|Gloss=there_is.Neg
+9	baːbù	baːbù	PredPART	_	Polarity=Neg	5	comp:obj	_	AlignBegin=154364|AlignEnd=154642|Gloss=there_is.Neg
 10	koːmiː	koːmiː	PRON	_	PronType=Ind	9	subj	_	AlignBegin=154642|AlignEnd=154920|Gloss=anything
 11	//]	//]	PUNCT	_	_	9	punct	_	AlignBegin=154920|AlignEnd=155198|Gloss=PUNCT
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=155198|AlignEnd=155480|Gloss=PUNCT
@@ -1495,7 +1495,7 @@
 # text = [ gàː niː maƙaːraː =tai //]
 # text_en = "Here I am to complain about him."
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=238042|AlignEnd=238288|Gloss=PUNCT
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=238288|AlignEnd=238534|Gloss=here_is
+2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=238288|AlignEnd=238534|Gloss=here_is
 3	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=238534|AlignEnd=238780|Gloss=1Sing.Nom
 4-5	maƙaːraːtai	_	_	_	_	_	_	_	_
 4	maƙaːraː	maƙaːraː	NOUN	_	Definite=Cons|Gender=Fem	2	comp:pred	_	AlignBegin=238780|AlignEnd=239026|Gloss=complaint.Fem.Cons
@@ -1602,7 +1602,7 @@
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=251366|AlignEnd=251512|Gloss=say
 13	[	[	PUNCT	_	_	15	punct	_	AlignBegin=251512|AlignEnd=251658|Gloss=PUNCT
 14	yâu	yâu	ADV	_	_	15	mod	_	AlignBegin=251658|AlignEnd=251804|Gloss=today
-15	gàː	gàː	PART	_	_	12	comp:obj	_	AlignBegin=251804|AlignEnd=251950|Gloss=here_is
+15	gàː	gàː	PredPART	_	_	12	comp:obj	_	AlignBegin=251804|AlignEnd=251950|Gloss=here_is
 16	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	17	det	_	AlignBegin=251950|AlignEnd=252096|Gloss=some.Masc
 17	àbo	àbiː	NOUN	_	Gender=Masc	15	subj	_	AlignBegin=252096|AlignEnd=252242|Gloss=thing.Masc
 18	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	15	comp:pred	_	AlignBegin=252242|AlignEnd=252388|Gloss=3Masc.Perf
@@ -1629,7 +1629,7 @@
 8	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=254729|AlignEnd=254896|Gloss=3Fem.Gen
 9	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=254896|AlignEnd=255063|Gloss=also
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=255063|AlignEnd=255230|Gloss=PUNCT
-11	gàː	gàː	PART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is
+11	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is
 12	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	11	subj	_	AlignBegin=255397|AlignEnd=255564|Gloss=3Masc
 13	yâu	yâu	ADV	_	_	14	mod	_	AlignBegin=255564|AlignEnd=255731|Gloss=today
 14	zâːshi	zaː	AUX	_	Gender=Masc|Person=3|Tense=Fut	11	comp:pred	_	AlignBegin=255731|AlignEnd=255898|Gloss=Fut

@@ -6,7 +6,7 @@
 # text = wàːtôː dà kuːraː //
 # text_en = Well, it's Hyena...
 1	wàːtôː	wàːtôː	INTJ	_	_	2	mod	_	AlignBegin=2320|AlignEnd=3340|Gloss=that_is
-2	dà	dà	PART	_	_	0	root	_	AlignBegin=3340|AlignEnd=4360|Gloss=with
+2	dà	dà	PredPART	_	_	0	root	_	AlignBegin=3340|AlignEnd=4360|Gloss=with
 3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=4360|AlignEnd=5380|Gloss=hyena.Fem
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=5380|AlignEnd=6400|Gloss=PUNCT
 
@@ -33,7 +33,7 @@
 # phonetic_text = zâː shi wurin baràː //
 # text = zâː shi wurin baràː //
 # text_en = He was going begging.
-1	zâː	zâː	PART	_	_	0	root	_	AlignBegin=17338|AlignEnd=17482|Gloss=All
+1	zâː	zâː	PredPART	_	_	0	root	_	AlignBegin=17338|AlignEnd=17482|Gloss=All
 2	shi	shi	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=17482|AlignEnd=17626|Gloss=3Masc
 3	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	1	comp:loc	_	AlignBegin=17626|AlignEnd=17770|Gloss=place.Masc.Cons
 4	baràː	baràː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=17770|AlignEnd=17914|Gloss=begging.Masc
@@ -480,7 +480,7 @@
 7	!//=	!//=	PUNCT	_	_	8	punct	_	AlignBegin=97927|AlignEnd=98171|Gloss=PUNCT
 8	tàhi	tah-	VERB	_	Mood=Jus	6	parataxis	_	AlignBegin=98171|AlignEnd=98415|Gloss=go.Jus
 9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=98659|AlignEnd=98903|Gloss=PUNCT
-10	gàː	gàː	PART	_	_	8	parataxis	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is
+10	gàː	gàː	PredPART	_	_	8	parataxis	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is
 11	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur
 12	ceːnìyaː	ceːnìyaː	ADV	_	Deixis=Dist	10	comp:pred	_	AlignBegin=99391|AlignEnd=99635|Gloss=Dist
 13	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=99635|AlignEnd=99879|Gloss=PUNCT
@@ -543,7 +543,7 @@
 5	[	[	PUNCT	_	_	13	punct	_	AlignBegin=110526|AlignEnd=110802|Gloss=PUNCT
 6	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	13	vocative	_	AlignBegin=110802|AlignEnd=111078|Gloss=elephant.Plur
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=111078|AlignEnd=111354|Gloss=PUNCT
-8	gàː	gàː	PART	_	_	13	parataxis@top	_	AlignBegin=111354|AlignEnd=111630|Gloss=here_is
+8	gàː	gàː	PredPART	_	_	13	parataxis@top	_	AlignBegin=111354|AlignEnd=111630|Gloss=here_is
 9	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	AlignBegin=111630|AlignEnd=111906|Gloss=child.Masc.Cons
 10	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	9	compound	_	AlignBegin=111906|AlignEnd=112182|Gloss=student.Masc
 11	cân	cân	ADV	_	Deixis=Dist	8	comp:pred	_	AlignBegin=112182|AlignEnd=112458|Gloss=Dist
@@ -582,7 +582,7 @@
 1	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=116824|AlignEnd=116918|Background=Yes|Gloss=3Fem.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=116918|AlignEnd=117012|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=117012|AlignEnd=117106|Gloss=PUNCT
-4	gàː	gàː	PART	_	_	2	comp:obj	_	AlignBegin=117106|AlignEnd=117200|Gloss=here_is
+4	gàː	gàː	PredPART	_	_	2	comp:obj	_	AlignBegin=117106|AlignEnd=117200|Gloss=here_is
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=117200|AlignEnd=117294|Gloss=3Masc
 6	cân	cân	ADV	_	Deixis=Dist	4	comp:pred	_	AlignBegin=117294|AlignEnd=117388|Gloss=Dist
 7	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=117388|AlignEnd=117479|Gloss=PUNCT
@@ -669,7 +669,7 @@
 # phonetic_text = baːbù mài taːshìː tsàye //
 # text = baːbù mài taːshìː tsàye //
 # text_en = None could get up.
-1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg
+1	baːbù	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg
 2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=with.Sing
 3	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.Vnoun.Masc
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat
@@ -688,7 +688,7 @@
 4	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Ben
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=131247|AlignEnd=131358|Gloss=PUNCT
 6	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=131358|AlignEnd=131469|Gloss=well
-7	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is
+7	gàː	gàː	PredPART	_	_	4	conj:coord	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is
 8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=131580|AlignEnd=131691|Gloss=meat.Masc
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=131691|AlignEnd=131802|Gloss=PUNCT
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=131802|AlignEnd=131914|Gloss=PUNCT
