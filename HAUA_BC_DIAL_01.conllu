@@ -1797,16 +1797,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 399220, 400726
 # phonetic_text = bâː mùtun huɗu nà //= bâː mùtun ukkù //
-# text = bâː mùtun huɗu nàː |c mùtun ukkù //
+# text = bâː mùtun huɗu nàː //= mùtun ukkù //
 # text_en = They were not four, they were not three.
-1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=399220|AlignEnd=399387|Gloss=there_is.Neg
-2	mùtun	mùtunèː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=399387|AlignEnd=399554|Gloss=human.Masc
+1	bâː	bâː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=399220|AlignEnd=399387|Gloss=Neg
+2	mùtun	mùtunèː	NOUN	_	Gender=Masc	4	comp:pred	_	AlignBegin=399387|AlignEnd=399554|Gloss=human.Masc
 3	huɗu	huɗu	NUM	_	_	2	mod@num	_	AlignBegin=399554|AlignEnd=399721|Gloss=four
-4	nàː	naː	PART	_	_	3	mod@emp	_	AlignBegin=399721|AlignEnd=399888|Gloss=Foc/Ident
-5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=399888|AlignEnd=400055|Gloss=PUNCT
-6	mùtun	mùtunèː	NOUN	_	Gender=Masc	2	conj:coord	_	AlignBegin=400222|AlignEnd=400389|Gloss=human.Masc
+4	nàː	naː	PART	_	_	0	root	_	AlignBegin=399721|AlignEnd=399888|Gloss=Foc/Ident
+5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=399888|AlignEnd=400055|Gloss=PUNCT
+6	mùtun	mùtunèː	NOUN	_	Gender=Masc	4	parataxis	_	AlignBegin=400222|AlignEnd=400389|Gloss=human.Masc
 7	ukkù	ukkù	NUM	_	_	6	mod@num	_	AlignBegin=400389|AlignEnd=400556|Gloss=three
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=400556|AlignEnd=400726|Gloss=PUNCT
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=400556|AlignEnd=400726|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_110-110
 # speaker_id = SP2
@@ -2227,17 +2227,17 @@
 # phonetic_text = sai kà tohoː nàː kai mà kânka sùturàː //
 # text = sai kà tohoː nàː kà yi mà kânka sùturàː //
 # text_en = You would only come back to get yourself some new clothes.
-1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=470420|AlignEnd=470622|Gloss=then
-2	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=470622|AlignEnd=470824|Gloss=2Masc.Aor
+1	sai	sai	SCONJ	_	_	4	comp:pred	_	AlignBegin=470420|AlignEnd=470622|Gloss=only_if
+2	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=470622|AlignEnd=470824|Gloss=2Masc.Aor
 3	tohoː	tah-	VERB	_	_	2	comp:aux	_	AlignBegin=470824|AlignEnd=471026|Gloss=go
-4	nàː	naː	PART	_	_	3	mod@emp	_	AlignBegin=471026|AlignEnd=471228|Gloss=Foc/Ident
+4	nàː	naː	PART	_	_	0	root	_	AlignBegin=471026|AlignEnd=471228|Gloss=Foc/Ident
 5-6	kai	_	_	_	_	_	_	_	_
-5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	2	conj:svc	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor
+5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=471228|AlignEnd=471430|Gloss=do
 7	mà	mà	ADP	_	Case=Ben	6	comp:ben	_	AlignBegin=471430|AlignEnd=471632|Gloss=Dat
 8	kânka	kânka	PRON	_	Gender=Masc|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=471632|AlignEnd=471834|Gloss=2Masc
 9	sùturàː	sùturàː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=471834|AlignEnd=472036|Gloss=clothes
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=472036|AlignEnd=472240|Gloss=PUNCT
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=472036|AlignEnd=472240|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_135-135
 # speaker_id = SP2

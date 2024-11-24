@@ -17,12 +17,12 @@
 # text = abìn ga dai < wasu ƴan maːtaː nàː biyu //
 # text_en = There were two girls.
 1-2	abìnga	_	_	_	_	_	_	_	_
-1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	mod	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
+1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	subj	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
 2	ga	ga	DET	_	Deixis=Prox	1	det	_	AlignBegin=4000|AlignEnd=4324|Gloss=Prox
 3	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=4648|AlignEnd=4972|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur
-6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	subj	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
+6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	comp:pred	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
 7	maːtaː	màcce	NOUN	_	Number=Plur	6	compound	_	AlignBegin=5620|AlignEnd=5944|Gloss=woman.Plur
 8	nàː	naː	PART	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=Foc/Ident
 9	biyu	biyu	NUM	_	_	6	mod@num	_	AlignBegin=6268|AlignEnd=6592|Gloss=two
@@ -36,7 +36,7 @@
 # text = dâːmaː ɗiyan kiyoːshiː nàː //
 # text_en = They were jealous of each other.
 1	dâːmaː	dâːmaː	ADV	_	_	4	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly
-2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	mod	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons
+2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	comp:pred	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons
 3	kiyoːshiː	kiːshìyaːː	NOUN	_	Number=Plur	2	compound	_	AlignBegin=7682|AlignEnd=7938|Gloss=co-wife.Plur
 4	nàː	naː	PART	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=Foc/Ident
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=8194|AlignEnd=8448|Gloss=PUNCT
