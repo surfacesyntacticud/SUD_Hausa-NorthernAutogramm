@@ -418,6 +418,7 @@
 # phonetic_text = XX nan Galmaːwaː < àbin dà an nan < duy yawanciː Baːgayaːwaː nàː //
 # text = X nan Galmaːwaː < àbin dà an nan < duy yawanciː Baːgayaːwaː nàː //
 # text_en = [List of various villages. Not transcribed.] there, in Galmawa, what is over there, most of them are Bagai people.
+# validated_by = B-CARON
 1	X	X	X	_	_	13	unk@scrap	_	AlignBegin=106671|AlignEnd=125068|Gloss=X|wordform=XX
 2	nan	nan	ADV	_	Definite=Def	13	mod	_	AlignBegin=125500|AlignEnd=125801|Gloss=Def
 3	Galmaːwaː	Galmaːwaː	PROPN	_	_	2	conj:appos	_	AlignBegin=125801|AlignEnd=126102|Gloss=Galmaːwaː
@@ -430,7 +431,7 @@
 10	duy	dukà	DET	_	PronType=Tot	11	det	_	AlignBegin=127908|AlignEnd=128209|Gloss=all
 11	yawanciː	yawanciː	NOUN	_	_	13	subj	_	AlignBegin=128209|AlignEnd=128510|Gloss=majority
 12	Baːgayaːwaː	Baːgayaːwaː	PROPN	_	Number=Plur	13	comp:pred	_	AlignBegin=128510|AlignEnd=128811|Gloss=Baːgayaːwaː
-13	nàː	nàː	PART	_	_	0	root	_	AlignBegin=128811|AlignEnd=129112|Gloss=Pred/Loc
+13	nàː	nàː	PART	_	_	0	root	_	AlignBegin=128811|AlignEnd=129112|Gloss=Foc/Ident
 14	//	//	PUNCT	_	_	13	punct	_	AlignBegin=129112|AlignEnd=129410|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_027-027
@@ -526,12 +527,13 @@
 # phonetic_text = tôː < shiː Buːzuː < àbin dà ab bambanciyaːtai dà Bàhaushèː < tun zaman duːniyàː < dâmaː bàkinsù bàː ɗai nàː ba //
 # text = tôː < shiː Buːzuː < àbin dà ab bambanciyaː =tai dà Bàhaushèː < tun zaman duːniyàː < dâmaː bàːkin =sù bàː ɗai nàː ba //
 # text_en = Well,  the Buzu, what differenciates him from the Hausa, of all time, their language has never been the same.
+# validated_by = B-CARON
 1	tôː	tôː	INTJ	_	_	23	discourse	_	AlignBegin=147041|AlignEnd=147554|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=147554|AlignEnd=148067|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=148067|AlignEnd=148580|Gloss=3Masc.Nom
 4	Buːzuː	Buːzuː	PROPN	_	Gender=Masc	3	conj:appos	_	AlignBegin=148580|AlignEnd=149093|Gloss=Buzu.Masc
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=149093|AlignEnd=149606|Gloss=PUNCT
-6	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	23	dislocated@top	_	AlignBegin=149606|AlignEnd=150119|Gloss=thing.Masc.Cons
+6	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	23	dislocated@subj	_	AlignBegin=149606|AlignEnd=150119|Gloss=thing.Masc.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=150119|AlignEnd=150632|Gloss=REL
 8	ab	aC	AUX	_	_	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Background=Yes|Gloss=Ident/Foc.Bkg
 9-10	bambanciyaːtai	_	_	_	_	_	_	_	_
@@ -550,7 +552,7 @@
 20	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=155762|AlignEnd=156275|Gloss=3Plur.Gen
 21	bàː	bàː	ADV	_	Polarity=Neg	23	mod	_	AlignBegin=156275|AlignEnd=156788|Gloss=Neg
 22	ɗai	ɗai	NUM	_	_	23	comp:pred	_	AlignBegin=156788|AlignEnd=157301|Gloss=one
-23	nàː	nàː	PART	_	_	0	root	_	AlignBegin=157301|AlignEnd=157814|Gloss=Pred/Loc
+23	nàː	nàː	PART	_	_	0	root	_	AlignBegin=157301|AlignEnd=157814|Gloss=Foc/Ident
 24	ba	ba	ADV	_	Polarity=Neg	23	mod	_	AlignBegin=157814|AlignEnd=158327|Gloss=Neg
 25	//	//	PUNCT	_	_	23	punct	_	AlignBegin=158327|AlignEnd=158834|Gloss=PUNCT
 
@@ -788,22 +790,22 @@
 # phonetic_text = shi nàː nan //= shi nàː nan |c sai yag ga cikinsù sunàː aihùwaz zàːrùmmai //
 # text = shi nàː nan //= shi nàː nan |c sai yag ga cikin =sù sunàː aihùwaz zàːrùmmai //
 # text_en = After a while, he saw that among them, there were good warriors.
-1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=198780|AlignEnd=199021|Gloss=3Masc
+1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=198780|AlignEnd=199021|Gloss=3Masc
 2	nàː	nàː	PART	_	_	0	root	_	AlignBegin=199021|AlignEnd=199262|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=199262|AlignEnd=199503|Gloss=Def
 4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=199503|AlignEnd=199744|Gloss=PUNCT
-5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=199744|AlignEnd=199985|Gloss=3Masc
-6	nàː	nàː	PART	_	_	2	conj:redup	_	AlignBegin=199985|AlignEnd=200226|Gloss=Pred/Loc
+5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=199744|AlignEnd=199985|Gloss=3Masc
+6	nàː	nàː	PART	_	_	2	parataxis	_	AlignBegin=199985|AlignEnd=200226|Gloss=Pred/Loc
 7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=200226|AlignEnd=200467|Gloss=Def
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=200467|AlignEnd=200708|Gloss=PUNCT
-9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=200708|AlignEnd=200949|Gloss=until
+9	sai	sai	CCONJ	_	_	10	cc	_	AlignBegin=200708|AlignEnd=200949|Gloss=until
 10	yag	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	conj:coord	_	AlignBegin=200949|AlignEnd=201190|Background=Yes|Gloss=3Masc.Perf.Bkg
 11	ga	ganiː	VERB	_	_	10	comp:aux	_	AlignBegin=201190|AlignEnd=201431|Gloss=see
 12-13	cikinsù	_	_	_	_	_	_	_	_
 12	cikin	cikin	ADP	_	_	14	mod	_	AlignBegin=201431|AlignEnd=201672|Gloss=inside
 13	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=201431|AlignEnd=201672|Gloss=3Plur.Gen
 14	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=201672|AlignEnd=201913|Gloss=3Plur.Imp
-15	aihùwaz	aih-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	mod	_	AlignBegin=201913|AlignEnd=202154|Gloss=give_birth.Vnoun.Fem.Cons
+15	aihùwaz	aih-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=201913|AlignEnd=202154|Gloss=give_birth.Vnoun.Fem.Cons
 16	zàːrùmmai	zaːrùmiː	NOUN	_	Number=Plur	15	udep	_	AlignBegin=202154|AlignEnd=202395|Gloss=brave.Plur
 17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=202395|AlignEnd=202637|Gloss=PUNCT
 
