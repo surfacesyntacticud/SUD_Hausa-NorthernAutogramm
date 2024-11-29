@@ -41,11 +41,12 @@
 # sent_timecode = 85448, 91160
 # text = dà saːnìyaː |c dà mài taːs'àt =ta |c dà ɗan =tà dà am màːlìye gàreː tà < dut taj jiːɗoː dà suː //
 # text_en = The cow, the man who was milking it, and its calf that was following it, it knocked them down.
+# validated_by = B-CARON
 1	dà	dà	CCONJ	_	_	2	cc@preconj	_	AlignBegin=85448|AlignEnd=85720|Gloss=and
 2	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	19	dislocated@comp	_	AlignBegin=85720|AlignEnd=85992|Gloss=cow.Fem
 3	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=85992|AlignEnd=86264|Gloss=PUNCT
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=86264|AlignEnd=86536|Gloss=and
-5	mài	mài	ADP	_	Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=having
+5	mài	mài	ADP	_	Number=Sing	2	conj:coord	_	AlignBegin=86536|AlignEnd=86808|Gloss=holder_of.Sing|Linker=Yes
 6-7	taːs'àtta	_	_	_	_	_	_	_	_
 6	taːs'àt	taːs'-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.Vnoun.Fem
 7	=ta	=ta	PRON	_	ExtPos=NOUN|Gender=Fem|Person=3|PronType=Prs	6	udep	_	AlignBegin=86808|AlignEnd=87080|Gloss=3Fem.Gen
@@ -73,6 +74,7 @@
 # sent_timecode = 101260, 103980
 # text = tôː ankà cêː [ cikin mutàːnên ga huɗu < wanèː naː yah hi àbin màːmaːkiː ?// //
 # text_en = Well they said "Beteween these four people, who is the most amazing?"
+# validated_by = B-CARON
 1	tôː	tôː	INTJ	_	_	2	discourse	_	AlignBegin=101260|AlignEnd=101430|Gloss=well
 2	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=101430|AlignEnd=101600|Background=Yes|Gloss=4.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=101600|AlignEnd=101770|Gloss=say
@@ -83,7 +85,7 @@
 8	huɗu	huɗu	NUM	_	_	6	mod@num	_	AlignBegin=102450|AlignEnd=102620|Gloss=four
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=102620|AlignEnd=102790|Gloss=PUNCT
 10	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc
-11	naː	naː	PART	_	_	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Gloss=Foc/Ident
+11	naː	naː/taː	AUX	_	_	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Gloss=Foc/Ident
 12	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	11	comp:cleft	_	AlignBegin=103130|AlignEnd=103300|Background=Yes|Gloss=3Masc.Perf.Bkg
 13	hi	hi	VERB	_	_	12	comp:aux	_	AlignBegin=103300|AlignEnd=103470|Gloss=exceed
 14	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	mod	_	AlignBegin=103470|AlignEnd=103640|Gloss=thing.Masc.Cons
@@ -436,6 +438,7 @@
 # sent_timecode = 63620, 65740
 # text = sai yac cèː yaː ji anàː taːs'às saːnìyât tan samàː ta bakwài //
 # text_en = Then he said that he heard that someone is milking the cow in the seventh heaven.
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=63620|AlignEnd=63783|Gloss=until
 2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=63783|AlignEnd=63946|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=63946|AlignEnd=64109|Gloss=say
@@ -446,7 +449,7 @@
 8	saːnìyât	saːnìyaː	NOUN	_	Definite=Def|Gender=Fem	7	udep	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Def
 9	tan	nan	DET	_	Definite=Def|Gender=Fem|PronType=Art	8	det	_	AlignBegin=64924|AlignEnd=65087|Gloss=Def.Fem
 10	samàː	samàː	NOUN	_	Gender=Fem	7	comp:loc	_	AlignBegin=65087|AlignEnd=65250|Gloss=sky.Fem
-11	ta	na	ADP	_	Gender=Fem	10	mod	_	AlignBegin=65250|AlignEnd=65413|Gloss=that_of.Fem|Link=Yes
+11	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	10	mod	_	AlignBegin=65250|AlignEnd=65413|Gloss=Cons.Fem
 12	bakwài	bakwài	NUM	_	_	11	comp:obj	_	AlignBegin=65413|AlignEnd=65576|Gloss=seven
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65576|AlignEnd=65740|Gloss=PUNCT
 
@@ -514,11 +517,12 @@
 # sent_timecode = 79920, 85448
 # text = saidà taz zoː samàː ta bakwài < ta' îskè mùtûm shinàː taːs'às saːnìyât tan //
 # text_en = When it reached the seventh sky, it reached the man who was milking the cow.
+# validated_by = B-CARON
 1	saidà	saidà	SCONJ	_	_	8	mod	_	AlignBegin=79920|AlignEnd=80266|Gloss=when
 2	taz	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=80612|AlignEnd=80958|Background=Yes|Gloss=3Fem.Perf.Bkg
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=80958|AlignEnd=81304|Gloss=go
 4	samàː	samàː	NOUN	_	Gender=Fem	3	comp:loc	_	AlignBegin=81304|AlignEnd=81650|Gloss=sky.Fem
-5	ta	na	ADP	_	Gender=Fem	4	mod	_	AlignBegin=81650|AlignEnd=81996|Gloss=that_of.Fem|Link=Yes
+5	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	4	mod	_	AlignBegin=81650|AlignEnd=81996|Gloss=Cons.Fem
 6	bakwài	bakwài	NUM	_	_	5	comp:obj	_	AlignBegin=81996|AlignEnd=82342|Gloss=seven
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=82342|AlignEnd=82688|Gloss=PUNCT
 8	ta'	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=82688|AlignEnd=83034|Background=Yes|Gloss=3Fem.Perf.Bkg

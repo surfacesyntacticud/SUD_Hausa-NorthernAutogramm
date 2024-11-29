@@ -669,8 +669,9 @@
 # phonetic_text = baːbù mài taːshìː tsàye //
 # text = baːbù mài taːshìː tsàye //
 # text_en = None could get up.
+# validated_by = B-CARON
 1	baːbù	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg
-2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=having
+2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=holder_of.Sing|Linker=Yes
 3	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.Vnoun.Masc
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT
