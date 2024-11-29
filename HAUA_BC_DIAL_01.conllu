@@ -1895,21 +1895,22 @@
 # phonetic_text = wai kuma bâː tàhiyàkkà daban |c ta wàncân daban |c ta wàncân daban //
 # text = wai kuma bâː tàhiyàk =kà daban |c ta wàncân daban |c ta wàncân daban //
 # text_en = So, you were not walking on your own, that one on his own, and that one on his own.
+# validated_by = B-CARON
 1	wai	wai	ADV	_	_	3	discourse	_	AlignBegin=411060|AlignEnd=411290|Gloss=apparently
 2	kuma	kuma	ADV	_	_	3	discourse	_	AlignBegin=411290|AlignEnd=411520|Gloss=also
 3	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg
 4-5	tàhiyàkkà	_	_	_	_	_	_	_	_
 4	tàhiyàk	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	subj	_	AlignBegin=411750|AlignEnd=411980|Gloss=walk.Vnoun.Fem.Cons
-5	=kà	=kà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	4	udep	_	AlignBegin=411750|AlignEnd=411980|Gloss=2Masc.Gen
-6	daban	daban	ADV	_	_	4	comp:pred	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
+5	=kà	=kà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=411750|AlignEnd=411980|Gloss=2Masc.Gen
+6	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
-8	ta	na~ta	ADP	_	Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=that_of.Fem|Link=Yes
+8	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Cons.Fem
 9	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Dist.Masc
-10	daban	daban	ADV	_	_	8	comp:pred	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
+10	daban	daban	ADJ	_	_	8	mod	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT
-12	ta	na~ta	ADP	_	Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=that_of.Fem|Link=Yes
+12	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Cons.Fem
 13	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Dist.Masc
-14	daban	daban	ADV	_	_	12	comp:pred	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
+14	daban	daban	ADJ	_	_	12	mod	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_116-116

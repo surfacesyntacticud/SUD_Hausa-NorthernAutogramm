@@ -4,16 +4,17 @@
 # sent_timecode = 1800, 5000
 # text = àbîn ga dai < wasu mutàːne nà: > su huɗu //
 # text_en = This is the story of four men.
-1	àbîn	àbiː	NOUN	_	Definite=Def|Gender=Masc	7	dislocated@comp	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc.Def
+# validated_by = B-CARON
+1	àbîn	àbiː	NOUN	_	Definite=Def|Gender=Masc	7	dislocated@subj	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc.Def
 2	ga	ga	DET	_	Deixis=Prox	1	det	_	AlignBegin=2091|AlignEnd=2382|Gloss=Prox
 3	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some.Plur
 6	mutàːneː	mùtunèː	NOUN	_	Number=Plur	7	comp:pred	_	AlignBegin=3255|AlignEnd=3546|Gloss=human.Plur|wordform=mutàːne
-7	nà:	nà:	PART	_	_	0	root	_	AlignBegin=3546|AlignEnd=3837|Gloss=FOC
+7	nà:	naː/taː	AUX	_	_	0	root	_	AlignBegin=3546|AlignEnd=3837|Gloss=Foc/Ident
 8	>	>	PUNCT	_	_	10	punct	_	AlignBegin=3837|AlignEnd=4128|Gloss=PUNCT
 9	su	su	DET	_	Number=Plur	10	det	_	AlignBegin=4128|AlignEnd=4419|Gloss=Plur
-10	huɗu	huɗu	NUM	_	_	7	mod	_	AlignBegin=4419|AlignEnd=4710|Gloss=four
+10	huɗu	huɗu	NUM	_	_	6	mod	_	AlignBegin=4419|AlignEnd=4710|Gloss=four
 11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=4710|AlignEnd=5000|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_03_GMH_18-18

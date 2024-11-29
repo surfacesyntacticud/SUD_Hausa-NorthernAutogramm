@@ -745,8 +745,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 124399, 132065
 # phonetic_text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cèː mà uwaːtai [ níː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
-# text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
+# text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me into this world?"
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=until
 2	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Fem.Def
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=124825|AlignEnd=125038|Gloss=Def
@@ -756,25 +757,25 @@
 7	shì	shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:ben	_	AlignBegin=125677|AlignEnd=125890|Gloss=3Masc
 8	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=125890|AlignEnd=126103|Gloss=shit.Masc
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=126103|AlignEnd=126316|Gloss=PUNCT
-10	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	conj:coord	_	AlignBegin=126316|AlignEnd=126529|Background=Yes|Gloss=3Masc.Perf.Bkg
+10	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	parataxis	_	AlignBegin=126316|AlignEnd=126529|Background=Yes|Gloss=3Masc.Perf.Bkg
 11	zakà	zak-	VERB	_	_	10	comp:aux	_	AlignBegin=126529|AlignEnd=126742|Gloss=arrive
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=126742|AlignEnd=126955|Gloss=PUNCT
-13	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	10	conj:coord	_	AlignBegin=126955|AlignEnd=127168|Background=Yes|Gloss=3Masc.Perf.Bkg
+13	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	10	parataxis	_	AlignBegin=126955|AlignEnd=127168|Background=Yes|Gloss=3Masc.Perf.Bkg
 14	cêː	cêː	VERB	_	_	13	comp:aux	_	AlignBegin=127168|AlignEnd=127381|Gloss=say
 15	mà	mà	ADP	_	Case=Ben	14	comp:ben	_	AlignBegin=127381|AlignEnd=127594|Gloss=Dat
 16-17	uwaːtai	_	_	_	_	_	_	_	_
 16	uwaː	uwaː	NOUN	_	Gender=Fem	15	comp:obj	_	AlignBegin=127594|AlignEnd=127807|Gloss=mother.Fem
 17	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	mod@poss	_	AlignBegin=127594|AlignEnd=127807|Gloss=3Masc.Gen
 18	[	[	PUNCT	_	_	27	punct	_	AlignBegin=127807|AlignEnd=128020|Gloss=PUNCT
-19	niː	níː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	dislocated@comp	_	AlignBegin=128020|AlignEnd=128233|Gloss=1Sing.Nom|wordform=níː
+19	niː	níː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	dislocated@discourse	_	AlignBegin=128020|AlignEnd=128233|Gloss=1Sing.Nom|wordform=níː
 20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=128233|AlignEnd=128446|Gloss=PUNCT
 21	inna	inna	NOUN	_	_	27	vocative	_	AlignBegin=128446|AlignEnd=128659|Gloss=mummy
 22	<	<	PUNCT	_	_	21	punct	_	AlignBegin=128659|AlignEnd=128872|Gloss=PUNCT
-23	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	dislocated@comp	_	AlignBegin=128872|AlignEnd=129085|Gloss=1Sing.Nom
+23	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	dislocated@discourse	_	AlignBegin=128872|AlignEnd=129085|Gloss=1Sing.Nom
 24	<	<	PUNCT	_	_	23	punct	_	AlignBegin=129085|AlignEnd=129298|Gloss=PUNCT
 25	hakàn	hakà	ADV	_	_	27	comp:pred	_	AlignBegin=129298|AlignEnd=129511|Gloss=thus
 26	ga	ganiː	DET	_	Deixis=Prox	25	mod	_	AlignBegin=129511|AlignEnd=129724|Gloss=this
-27	nàː	nàː	PART	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937
+27	nàː	naː/taː	AUX	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937|Gloss=Foc/Ident
 28	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT
 29	Allàː	Allàː	PROPN	_	_	30	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God
 30	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	27	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Background=Yes|Gloss=3Masc.Perf.Bkg

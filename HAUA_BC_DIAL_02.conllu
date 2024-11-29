@@ -4,6 +4,7 @@
 # sent_timecode = 3700, 12120
 # text = tô lokàcin dà a' àkwai { ƙwàːrin daːjìː || ƙwàːriː dai } cikin ràːhîn nan < ƙàːƙàː naː mutàːneː su kè zàmne ?//
 # text_en = Well, when there were wild animals, wild animals in that valley, how did people live?
+# validated_by = B-CARON
 1	tô	tô	INTJ	_	_	18	discourse	_	AlignBegin=3700|AlignEnd=4066|Gloss=well
 2	lokàcin	lokàciː	NOUN	_	Definite=Cons|Gender=Masc	18	mod	_	AlignBegin=4066|AlignEnd=4432|Gloss=time.Masc
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=4432|AlignEnd=4798|Gloss=REL
@@ -21,7 +22,7 @@
 15	nan	nan	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=8458|AlignEnd=8824|Gloss=Def
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT
 17	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	18	comp:pred	_	AlignBegin=9556|AlignEnd=9922|Gloss=how
-18	naː	naː	PART	_	_	0	root	_	AlignBegin=9922|AlignEnd=10288|Gloss=Ident/Foc
+18	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=9922|AlignEnd=10288|Gloss=Foc/Ident
 19-20	mutàːneː	_	_	_	_	_	_	_	_
 19	mutàːneː	mùtunèː	NOUN	_	Number=Plur	20	dislocated@subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur
 20	sukè	kè	AUX	_	Number=Plur|Person=3|PronType=Prs	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Background=Yes|Gloss=3Plur.Loc.Bkg|wordform=kè
