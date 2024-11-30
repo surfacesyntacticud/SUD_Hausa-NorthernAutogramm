@@ -431,7 +431,7 @@
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=126102|AlignEnd=126403|Gloss=PUNCT
 5	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	dislocated@subj	_	AlignBegin=126403|AlignEnd=126704|Gloss=thing.Masc.Cons
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=126704|AlignEnd=127005|Gloss=REL
-7	an	aC	AUX	_	_	6	comp:obj	_	AlignBegin=127005|AlignEnd=127306|Background=Yes|Gloss=Ident/Foc.Bkg
+7	an	aC	AUX	_	_	6	comp:obj	_	AlignBegin=127005|AlignEnd=127306|Background=Yes|Gloss=Pred/Loc.Bkg
 8	nan	nan	ADV	_	Definite=Def	7	comp:pred	_	AlignBegin=127306|AlignEnd=127607|Gloss=Def
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=127607|AlignEnd=127908|Gloss=PUNCT
 10	duy	dukà	DET	_	PronType=Tot	11	det	_	AlignBegin=127908|AlignEnd=128209|Gloss=all
@@ -490,7 +490,7 @@
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=142144|AlignEnd=142425|Gloss=PUNCT
 9	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=142425|AlignEnd=142706|Gloss=thing.Masc.Cons
 10	dà	dà	SCONJ	_	_	9	mod@relcl	_	AlignBegin=142706|AlignEnd=142987|Gloss=REL
-11	am	aC	AUX	_	_	10	comp:obj	_	AlignBegin=142987|AlignEnd=143268|Background=Yes|Gloss=Ident/Foc.Bkg
+11	am	aC	AUX	_	_	10	comp:obj	_	AlignBegin=142987|AlignEnd=143268|Background=Yes|Gloss=Pred/Loc.Bkg
 12	mahwaːrin	mahwaːriː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:pred	_	AlignBegin=143268|AlignEnd=143549|Gloss=beginning.Masc.Cons
 13-14	bambanciyassù	_	_	_	_	_	_	_	_
 13	bambanciyas	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	AlignBegin=143549|AlignEnd=143830|Gloss=difference.Fem.Cons
@@ -508,7 +508,7 @@
 # text_en = Their difference from the Hausa?
 1	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=144705|AlignEnd=144868|Gloss=thing.Masc.Cons
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=144868|AlignEnd=145031|Gloss=REL
-3	ab	aC	AUX	_	_	2	comp:obj	_	AlignBegin=145031|AlignEnd=145194|Background=Yes|Gloss=Ident/Foc.Bkg
+3	ab	aC	AUX	_	_	2	comp:obj	_	AlignBegin=145031|AlignEnd=145194|Background=Yes|Gloss=Pred/Loc.Bkg
 4-5	bambanciyassù	_	_	_	_	_	_	_	_
 4	bambanciyas	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	3	comp:pred	_	AlignBegin=145194|AlignEnd=145357|Gloss=difference.Fem.Cons
 5	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	udep	_	AlignBegin=145194|AlignEnd=145357|Gloss=3Plur.Gen
@@ -541,7 +541,7 @@
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=149093|AlignEnd=149606|Gloss=PUNCT
 6	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	23	dislocated@top	_	AlignBegin=149606|AlignEnd=150119|Gloss=thing.Masc.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=150119|AlignEnd=150632|Gloss=REL
-8	ab	aC	AUX	_	_	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Background=Yes|Gloss=Ident/Foc.Bkg
+8	ab	aC	AUX	_	_	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Background=Yes|Gloss=Pred/Loc.Bkg
 9-10	bambanciyaːtai	_	_	_	_	_	_	_	_
 9	bambanciyaː	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:pred	_	AlignBegin=151145|AlignEnd=151658|Gloss=difference.Fem.Cons
 10	=tai	=ya	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	9	udep	_	AlignBegin=151145|AlignEnd=151658|Gloss=3Masc.Gen
@@ -1252,7 +1252,7 @@
 7	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:pred	_	AlignBegin=289416|AlignEnd=289824|Gloss=thing.Masc.Cons
 8	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	7	mod@poss	_	AlignBegin=289416|AlignEnd=289824|Gloss=2Masc.Gen
 9	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=289824|AlignEnd=290232|Gloss=PUNCT
-10	baː	bâi	AUX	_	Gender=Masc|Polarity=Neg	6	parataxis	_	AlignBegin=290232|AlignEnd=290640|Gloss=2Masc.Pred/Loc.Neg
+10	baː	baː	PredPART	_	Polarity=Neg	6	parataxis	_	AlignBegin=290232|AlignEnd=290640|Gloss=Pred/Loc.Neg
 11	kà	kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	10	subj	_	AlignBegin=290232|AlignEnd=290640|Gloss=2Masc
 12	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=290640|AlignEnd=291048|Gloss=with
 13-14	iːkòːnai	_	_	_	_	_	_	_	_
