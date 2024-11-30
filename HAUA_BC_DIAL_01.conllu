@@ -667,7 +667,7 @@
 2	<	<	PUNCT	_	_	3	punct	_	AlignBegin=181816|AlignEnd=182098|Gloss=PUNCT
 3	Baːwàn	Baːwàn	PROPN	_	_	0	root	_	AlignBegin=182098|AlignEnd=182380|Gloss=Bawan
 4	Tudùː	Tudùː	PROPN	_	_	3	flat:name	_	AlignBegin=182380|AlignEnd=182662|Gloss=Tudu
-5	hwa	hwa	TopPART	_	PartType=Int	3	discourse	_	AlignBegin=182662|AlignEnd=182944|Gloss=as_for
+5	hwa	hwa	TopPART	_	_	3	discourse	_	AlignBegin=182662|AlignEnd=182944|Gloss=as_for|PartType=Int
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=182944|AlignEnd=183224|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_040-040
@@ -945,7 +945,7 @@
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=234631|AlignEnd=234915|Gloss=know
 3	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	2	comp:obj	_	AlignBegin=234915|AlignEnd=235199|Gloss=time.Masc.Def
 4	nan	nan	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=235199|AlignEnd=235483|Gloss=Def
-5	ba	ba	ADV	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=235483|AlignEnd=235767|Gloss=Neg
+5	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=235483|AlignEnd=235767|Gloss=Neg|PartType=Int
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=235767|AlignEnd=236054|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_057-057
@@ -1486,9 +1486,9 @@
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=336620|AlignEnd=336795|Gloss=2Masc.Perf
 2	taɓà	taɓ-	VERB	_	_	1	comp:aux	_	AlignBegin=336795|AlignEnd=336970|Gloss=experience
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=336970|AlignEnd=337145|Gloss=arrive.Vnoun.Fem
-4	nanânga	nanânga	ADV	_	Deixis=Prox	3	comp:goal	_	AlignBegin=337145|AlignEnd=337320|Gloss=Prox
+4	nanânga	nanânga	ADV	_	_	3	comp:goal	_	AlignBegin=337145|AlignEnd=337320|Deixis=Prox|Gloss=Prox
 5	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	4	conj:appos	_	AlignBegin=337320|AlignEnd=337495|Gloss=village.Masc.Def
-6	ga	ga	DET	_	Deixis=Prox	5	det	_	AlignBegin=337495|AlignEnd=337670|Gloss=Prox
+6	ga	ga	DET	_	_	5	det	_	AlignBegin=337495|AlignEnd=337670|Deixis=Prox|Gloss=Prox
 7	dâːmaː	dâːmaː	ADV	_	_	3	mod	_	AlignBegin=337670|AlignEnd=337845|Gloss=formerly
 8	gà	gà	ADP	_	_	3	mod	_	AlignBegin=338020|AlignEnd=338195|Gloss=by
 9	ƙasaː	ƙasaː	NOUN	_	Gender=Fem	8	comp:obj	_	AlignBegin=338195|AlignEnd=338370|Gloss=ground.Fem
@@ -1529,7 +1529,7 @@
 6	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	8	cc	_	AlignBegin=341545|AlignEnd=341874|Gloss=but
 7	bàː	bàː	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=341874|AlignEnd=342203|Gloss=Neg
 8	hanyàː	hanyàː	NOUN	_	Gender=Fem	2	conj:coord	_	AlignBegin=342203|AlignEnd=342532|Gloss=way.Fem
-9	wàccân	wàccân	DET	_	Deixis=Dist|Gender=Fem	8	det	_	AlignBegin=342532|AlignEnd=342861|Gloss=Dist.Fem
+9	wàccân	wàccân	DET	_	Gender=Fem	8	det	_	AlignBegin=342532|AlignEnd=342861|Deixis=Dist|Gloss=Dist.Fem
 10	ba	ba	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=342861|AlignEnd=343190|Gloss=Neg
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=343190|AlignEnd=343521|Gloss=PUNCT
 
@@ -1660,7 +1660,7 @@
 5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT
-8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc
+8	wànga	wànga	PRON	_	Gender=Masc	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Deixis=Prox|Gloss=Prox.Masc
 9	na	na~ta	ADP	_	_	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=that_of|Link=Yes
 10	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	9	comp:obj	_	AlignBegin=360478|AlignEnd=360722|Gloss=child.Plur.Cons
 11	maːtaː	maːtaː	NOUN	_	Number=Plur	10	compound	_	AlignBegin=360722|AlignEnd=360966|Gloss=women
@@ -1762,7 +1762,7 @@
 12	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc	10	conj:coord	_	AlignBegin=388581|AlignEnd=388832|Gloss=animal.Cons.Masc
 13	daːjìː	daːjìː	NOUN	_	Gender=Masc	12	compound	_	AlignBegin=388832|AlignEnd=389083|Gloss=bush.Masc
 14	hakà	hakà	ADV	_	_	7	mod	_	AlignBegin=389083|AlignEnd=389334|Gloss=thus
-15	ba	ba	ADV	_	PartType=Int|Polarity=Neg	5	mod	_	AlignBegin=389334|AlignEnd=389585|Gloss=Neg
+15	ba	ba	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=389334|AlignEnd=389585|Gloss=Neg|PartType=Int
 16	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=389585|AlignEnd=389840|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_107-107
@@ -1827,11 +1827,11 @@
 1	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=400726|AlignEnd=401003|Gloss=here_is
 2	naːkù	naːkù	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	mod@poss	_	AlignBegin=401003|AlignEnd=401280|Gloss=2Plur.Gen
 3	aːràːyiː	aːràːyiː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=401280|AlignEnd=401557|Gloss=troup.Masc
-4	nân	nân	ADV	_	Deixis=Prox	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Gloss=Prox
+4	nân	nân	ADV	_	_	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Deixis=Prox|Gloss=Prox
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
 6	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
 7	na	na~ta	ADP	_	_	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=that_of|Link=Yes
-8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Dist|Gender=Masc	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Dist.Masc
+8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Gender=Masc	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Deixis=Dist|Gloss=Dist.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_111-111
@@ -1874,9 +1874,9 @@
 # text_en = I swear, day and night, people were walking.
 1	láːtà'addù	láːtà'addù	INTJ	_	_	10	mod	_	AlignBegin=405960|AlignEnd=406156|Gloss=I_swear
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=406156|AlignEnd=406352|Gloss=PUNCT
-3	bâː	bâː	PredPART	_	Polarity=Neg	10	mod	_	AlignBegin=406352|AlignEnd=406548|Gloss=there_is.Neg
+3	bâː	baːbù	PredPART	_	Polarity=Neg	10	mod	_	AlignBegin=406352|AlignEnd=406548|Gloss=there_is.Neg
 4	dareː	dareː	NOUN	_	_	3	subj	_	AlignBegin=406548|AlignEnd=406744|Gloss=night
-5	bâː	bâː	PredPART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg
+5	bâː	baːbù	PredPART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg
 6	raːnaː	raːnaː	NOUN	_	Gender=Fem	5	subj	_	AlignBegin=406940|AlignEnd=407136|Gloss=day.Fem
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=407136|AlignEnd=407332|Gloss=PUNCT
 8	mutàːneː	mùtunèː	NOUN	_	Number=Plur	10	dislocated@subj	_	AlignBegin=407332|AlignEnd=407528|Gloss=human.Plur
@@ -1907,18 +1907,18 @@
 # validated_by = B-CARON
 1	wai	wai	ADV	_	_	3	discourse	_	AlignBegin=411060|AlignEnd=411290|Gloss=apparently
 2	kuma	kuma	ADV	_	_	3	discourse	_	AlignBegin=411290|AlignEnd=411520|Gloss=also
-3	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg
+3	bâː	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg
 4-5	tàhiyàkkà	_	_	_	_	_	_	_	_
 4	tàhiyàk	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	subj	_	AlignBegin=411750|AlignEnd=411980|Gloss=walk.Vnoun.Fem.Cons
 5	=kà	=kà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=411750|AlignEnd=411980|Gloss=2Masc.Gen
 6	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
 8	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Cons.Fem
-9	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Dist.Masc
+9	wàncân	wàncân	PRON	_	Gender=Masc	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Deixis=Dist|Gloss=Dist.Masc
 10	daban	daban	ADJ	_	_	8	mod	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT
 12	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Cons.Fem
-13	wàncân	wàncân	PRON	_	Deixis=Dist|Gender=Masc	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Dist.Masc
+13	wàncân	wàncân	PRON	_	Gender=Masc	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Deixis=Dist|Gloss=Dist.Masc
 14	daban	daban	ADJ	_	_	12	mod	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT
 
@@ -1936,7 +1936,7 @@
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=419108|AlignEnd=419320|Gloss=with
 6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	5	comp:obj	_	AlignBegin=419320|AlignEnd=419532|Gloss=child.Plur.Cons
 7	hwashìː	hwashìː	NOUN	_	Gender=Masc	6	compound	_	AlignBegin=419532|AlignEnd=419744|Gloss=highway_robbery.Masc
-8	ba	ba	ADV	_	PartType=Int|Polarity=Neg	2	mod	_	AlignBegin=419744|AlignEnd=419956|Gloss=Neg
+8	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=419744|AlignEnd=419956|Gloss=Neg|PartType=Int
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=419956|AlignEnd=420172|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_117-117
@@ -2062,7 +2062,7 @@
 # text_en = Well there in Ghana, when you went, what kind of life did you have there?
 # validated_by = B-CARON
 1	tô	tô	INTJ	_	_	12	discourse	_	AlignBegin=437780|AlignEnd=438016|Gloss=well
-2	cân	cân	ADV	_	Deixis=Dist	12	mod	_	AlignBegin=438016|AlignEnd=438252|Gloss=Dist
+2	cân	cân	ADV	_	_	12	mod	_	AlignBegin=438016|AlignEnd=438252|Deixis=Dist|Gloss=Dist
 3	Gaːnà	Gaːnà	PROPN	_	_	2	conj:appos	_	AlignBegin=438252|AlignEnd=438488|Gloss=Ghana
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=438488|AlignEnd=438724|Gloss=PUNCT
 5	in	in	SCONJ	_	_	12	mod	_	AlignBegin=438724|AlignEnd=438960|Gloss=if
@@ -2277,7 +2277,7 @@
 # sent_timecode = 475540, 476540
 # phonetic_text = bâː yunwàː tah hîrkassheː kà gidaː //
 # text_en = There was no hunger that would drive you away from home.
-1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg
+1	bâː	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg
 2	yunwàː	yunwàː	NOUN	_	Gender=Fem	1	subj	_	AlignBegin=475683|AlignEnd=475826|Gloss=hunger.Fem
 3	tah	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	parataxis	_	AlignBegin=475826|AlignEnd=475969|Background=Yes|Gloss=3Fem.Perf.Bkg
 4	hîrkassheː	hit-	VERB	_	Voice=Cau	3	comp:aux	_	AlignBegin=475969|AlignEnd=476112|Gloss=come_out.Cau
