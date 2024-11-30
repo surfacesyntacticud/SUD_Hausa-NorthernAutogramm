@@ -861,16 +861,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 138324, 139340
 # phonetic_text = tac cèː [ ka nàː dà yâː //] //
-# text = tac cèː [ kanàː dà yâː //] //
+# text = tac cèː [ ka nàː dà yâː //] //
 # text_en = She said "You have a sister."
+# validated_by = B-CARON
 1	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=138324|AlignEnd=138437|Background=Yes|Gloss=3Fem.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=138437|AlignEnd=138550|Gloss=say
-3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT
-4	kanàː	nàː²	AUX	_	Gender=Masc	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=2Masc.Pred/Loc
-5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=138889|AlignEnd=139002|Gloss=with
-6	yâː	yâː	NOUN	_	Gender=Fem	5	comp:obj	_	AlignBegin=139002|AlignEnd=139115|Gloss=elder_sister.Fem
-7	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=139115|AlignEnd=139228|Gloss=PUNCT
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=139228|AlignEnd=139340|Gloss=PUNCT
+3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT
+4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=138776|AlignEnd=138889|Gloss=2Masc
+5	nàː	nàː	AUX	_	_	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=Pred/Loc
+6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=138889|AlignEnd=139002|Gloss=with
+7	yâː	yâː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=139002|AlignEnd=139115|Gloss=elder_sister.Fem
+8	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=139115|AlignEnd=139228|Gloss=PUNCT
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=139228|AlignEnd=139340|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_041-041
 # speaker_id = SP
@@ -919,24 +921,26 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 147522, 150164
 # phonetic_text = [ àmmaː lalleː ka nàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
-# text = [ àmmaː lalleː kanàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
+# text = [ àmmaː lalleː ka nàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
 # text_en = "But of course you had a sister, and everyone knew her in this town."
-1	[	[	PUNCT	_	_	4	punct	_	AlignBegin=147522|AlignEnd=147698|Gloss=PUNCT
-2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but
-3	lalleː	lalleː	ADV	_	_	4	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course
-4	kanàː	nàː²	AUX	_	Gender=Masc	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=2Masc.Pred/Loc
-5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=148402|AlignEnd=148578|Gloss=with
-6	yâː	yâː	NOUN	_	Gender=Fem	5	comp:obj	_	AlignBegin=148578|AlignEnd=148754|Gloss=elder_sister.Fem
-7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=148754|AlignEnd=148930|Gloss=PUNCT
-8	koːwaː	koːwaː	PRON	_	PronType=Ind	9	subj	_	AlignBegin=148930|AlignEnd=149106|Gloss=anyone
-9	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	parataxis	_	AlignBegin=149106|AlignEnd=149282|Gloss=3Masc.Perf
-10-11	santà	_	_	_	_	_	_	_	_
-10	san	sanìː	VERB	_	_	9	comp:aux	_	AlignBegin=149282|AlignEnd=149458|Gloss=know
-11	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=149282|AlignEnd=149458|Gloss=3Fem
-12	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=inside
-13	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Def
-14	ga	ga	DET	_	_	13	det	_	AlignBegin=149810|AlignEnd=149986|Deixis=Prox|Gloss=Prox
-15	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=149986|AlignEnd=150164|Gloss=PUNCT
+# validated_by = B-CARON
+1	[	[	PUNCT	_	_	5	punct	_	AlignBegin=147522|AlignEnd=147698|Gloss=PUNCT
+2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	5	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but
+3	lalleː	lalleː	ADV	_	_	5	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course
+4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=148226|AlignEnd=148402|Gloss=2Masc
+5	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=Pred/Loc
+6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=148402|AlignEnd=148578|Gloss=with
+7	yâː	yâː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148578|AlignEnd=148754|Gloss=elder_sister.Fem
+8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=148754|AlignEnd=148930|Gloss=PUNCT
+9	koːwaː	koːwaː	PRON	_	PronType=Ind	10	subj	_	AlignBegin=148930|AlignEnd=149106|Gloss=anyone
+10	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	parataxis	_	AlignBegin=149106|AlignEnd=149282|Gloss=3Masc.Perf
+11-12	santà	_	_	_	_	_	_	_	_
+11	san	sanìː	VERB	_	_	10	comp:aux	_	AlignBegin=149282|AlignEnd=149458|Gloss=know
+12	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=149282|AlignEnd=149458|Gloss=3Fem
+13	cikin	cikin	ADP	_	_	11	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=inside
+14	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	13	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Def
+15	ga	ga	DET	_	_	14	det	_	AlignBegin=149810|AlignEnd=149986|Deixis=Prox|Gloss=Prox
+16	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=149986|AlignEnd=150164|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_044-044
 # speaker_id = SP
@@ -1770,18 +1774,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 271300, 272640
 # phonetic_text = kuma ta nàː dà rânta bàtà mutù ba //
-# text = kuma tanàː dà rânta bàtà mutù ba //
+# text = kuma ta nàː dà rânta bàtà mutù ba //
 # text_en = And she was alive, she had not died.
-1	kuma	kuma	ADV	_	_	2	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also
-2	tanàː	nàː²	AUX	_	Gender=Fem	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem.Pred/Loc
-3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with
-4-5	rânta	_	_	_	_	_	_	_	_
-4	rân	râi	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons
-5	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=271896|AlignEnd=272045|Gloss=3Fem.Gen
-6	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	2	conj:dicto	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.Perf.Neg
-7	mutù	mat-	VERB	_	_	6	comp:aux	_	AlignBegin=272194|AlignEnd=272343|Gloss=die
-8	ba	ba	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=272343|AlignEnd=272492|Gloss=Neg
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=272492|AlignEnd=272640|Gloss=PUNCT
+# validated_by = B-CARON
+1	kuma	kuma	CCONJ	_	_	3	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also
+2	ta	ta	AUX	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem
+3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=Pred/Loc
+4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with
+5-6	rânta	_	_	_	_	_	_	_	_
+5	rân	râi	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons
+6	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=271896|AlignEnd=272045|Gloss=3Fem.Gen
+7	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	3	parataxis	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.Perf.Neg
+8	mutù	mat-	VERB	_	_	7	comp:aux	_	AlignBegin=272194|AlignEnd=272343|Gloss=die
+9	ba	ba	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=272343|AlignEnd=272492|Gloss=Neg
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=272492|AlignEnd=272640|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_086-086
 # speaker_id = SP
