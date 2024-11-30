@@ -71,25 +71,29 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 16590, 21360
 # phonetic_text = tôː < su nàː bìye dà Bàːgai //= su nàː bìye dà Bàːgai //= su nàː bìye dà Bàːgai //
-# text = tôː < sunàː bìye dà Bàːgai //= sunàː bìye dà Bàːgai //= sunàː bìye dà Bàːgai //
+# text = tôː < su nàː bìye dà Bàːgai //= su nàː bìye dà Bàːgai //= su nàː bìye dà Bàːgai //
 # text_en = Well they followed Bagai for a long time.
-1	tôː	tôː	INTJ	_	_	3	discourse	_	AlignBegin=16590|AlignEnd=16828|Gloss=well
+# validated_by = B-CARON
+1	tôː	tôː	INTJ	_	_	4	discourse	_	AlignBegin=16590|AlignEnd=16828|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16828|AlignEnd=17066|Gloss=PUNCT
-3	sunàː	nàː²	AUX	_	Number=Plur	0	root	_	AlignBegin=17304|AlignEnd=17542|Gloss=3Plur.Pred/Loc
-4	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=17542|AlignEnd=17780|Gloss=follow.Part.Stat
-5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=17780|AlignEnd=18018|Gloss=with
-6	Bàːgai	Bàːgai	PROPN	_	_	5	comp:obj	_	AlignBegin=18018|AlignEnd=18256|Gloss=Bàːgai
-7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=18256|AlignEnd=18494|Gloss=PUNCT
-8	sunàː	nàː²	AUX	_	_	3	conj:redup	_	AlignBegin=18732|AlignEnd=18970|Gloss=3PLur.Pred/Loc
-9	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=18970|AlignEnd=19208|Gloss=follow.Part.Stat
-10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=19208|AlignEnd=19446|Gloss=with
-11	Bàːgai	Bàːgai	PROPN	_	_	10	comp:obj	_	AlignBegin=19446|AlignEnd=19684|Gloss=Bàːgai
-12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=19684|AlignEnd=19922|Gloss=PUNCT
-13	sunàː	nàː²	AUX	_	_	8	conj:redup	_	AlignBegin=20160|AlignEnd=20398|Gloss=3PLur.Pred/Loc
-14	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	13	comp:pred	_	AlignBegin=20398|AlignEnd=20636|Gloss=follow.Part.Stat
-15	dà	dà	ADP	_	_	14	comp:obl	_	AlignBegin=20636|AlignEnd=20874|Gloss=with
-16	Bàːgai	Bàːgai	PROPN	_	_	15	comp:obj	_	AlignBegin=20874|AlignEnd=21112|Gloss=Bàːgai
-17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=21112|AlignEnd=21360|Gloss=PUNCT
+3	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=17304|AlignEnd=17542|Gloss=3Plur
+4	nàː	nàː	AUX	_	Number=Plur	0	root	_	AlignBegin=17304|AlignEnd=17542|Gloss=Pred/Loc
+5	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	AlignBegin=17542|AlignEnd=17780|Gloss=follow.Part.Stat
+6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=17780|AlignEnd=18018|Gloss=with
+7	Bàːgai	Bàːgai	PROPN	_	_	6	comp:obj	_	AlignBegin=18018|AlignEnd=18256|Gloss=Bàːgai
+8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=18256|AlignEnd=18494|Gloss=PUNCT
+9	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=18732|AlignEnd=18970|Gloss=3Plur
+10	nàː	nàː	AUX	_	_	4	parataxis	_	AlignBegin=18732|AlignEnd=18970|Gloss=Pred/Loc
+11	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	10	comp:pred	_	AlignBegin=18970|AlignEnd=19208|Gloss=follow.Part.Stat
+12	dà	dà	ADP	_	_	11	comp:obl	_	AlignBegin=19208|AlignEnd=19446|Gloss=with
+13	Bàːgai	Bàːgai	PROPN	_	_	12	comp:obj	_	AlignBegin=19446|AlignEnd=19684|Gloss=Bàːgai
+14	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=19684|AlignEnd=19922|Gloss=PUNCT
+15	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	16	subj	_	AlignBegin=20160|AlignEnd=20398|Gloss=3Plur
+16	nàː	nàː	AUX	_	_	10	parataxis	_	AlignBegin=20160|AlignEnd=20398|Gloss=Pred/Loc
+17	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	16	comp:pred	_	AlignBegin=20398|AlignEnd=20636|Gloss=follow.Part.Stat
+18	dà	dà	ADP	_	_	17	comp:obl	_	AlignBegin=20636|AlignEnd=20874|Gloss=with
+19	Bàːgai	Bàːgai	PROPN	_	_	18	comp:obj	_	AlignBegin=20874|AlignEnd=21112|Gloss=Bàːgai
+20	//	//	PUNCT	_	_	4	punct	_	AlignBegin=21112|AlignEnd=21360|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_006-006
 # speaker_id = SP2
@@ -425,7 +429,7 @@
 2	nan	nan	ADV	_	Definite=Def	13	mod	_	AlignBegin=125500|AlignEnd=125801|Gloss=Def
 3	Galmaːwaː	Galmaːwaː	PROPN	_	_	2	conj:appos	_	AlignBegin=125801|AlignEnd=126102|Gloss=Galmaːwaː
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=126102|AlignEnd=126403|Gloss=PUNCT
-5	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	mod	_	AlignBegin=126403|AlignEnd=126704|Gloss=thing.Masc.Cons
+5	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	dislocated@subj	_	AlignBegin=126403|AlignEnd=126704|Gloss=thing.Masc.Cons
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=126704|AlignEnd=127005|Gloss=REL
 7	an	aC	AUX	_	_	6	comp:obj	_	AlignBegin=127005|AlignEnd=127306|Background=Yes|Gloss=Ident/Foc.Bkg
 8	nan	nan	ADV	_	Definite=Def	7	comp:pred	_	AlignBegin=127306|AlignEnd=127607|Gloss=Def
@@ -535,7 +539,7 @@
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=148067|AlignEnd=148580|Gloss=3Masc.Nom
 4	Buːzuː	Buːzuː	PROPN	_	Gender=Masc	3	conj:appos	_	AlignBegin=148580|AlignEnd=149093|Gloss=Buzu.Masc
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=149093|AlignEnd=149606|Gloss=PUNCT
-6	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	23	dislocated@subj	_	AlignBegin=149606|AlignEnd=150119|Gloss=thing.Masc.Cons
+6	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	23	dislocated@top	_	AlignBegin=149606|AlignEnd=150119|Gloss=thing.Masc.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=150119|AlignEnd=150632|Gloss=REL
 8	ab	aC	AUX	_	_	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Background=Yes|Gloss=Ident/Foc.Bkg
 9-10	bambanciyaːtai	_	_	_	_	_	_	_	_
@@ -762,16 +766,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 194620, 195840
 # phonetic_text = su nàː baːyuːnai > kaː jiyàː ?//
-# text = sunàː baːyuːnai > kaː jiyàː ?//
+# text = su nàː baːyuːnai > kaː jiyàː ?//
 # text_en = They are his slaves, you see?
-1	sunàː	nàː²	AUX	_	Number=Plur	0	root	_	AlignBegin=194794|AlignEnd=194968|Gloss=3Plur.Pred/Loc
-2-3	baːyuːnai	_	_	_	_	_	_	_	_
-2	baːyuː	baːwàː	NOUN	_	Definite=Cons|Number=Plur	1	comp:pred	_	AlignBegin=194968|AlignEnd=195142|Gloss=slave.Plur.Cons
-3	=nai	=nai	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=194968|AlignEnd=195142|Gloss=3Masc.Gen
-4	>	>	PUNCT	_	_	5	punct	_	AlignBegin=195142|AlignEnd=195316|Gloss=PUNCT
-5	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	parataxis@discourse	_	AlignBegin=195316|AlignEnd=195490|Gloss=2Masc.Perf
-6	jiyàː	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=195490|AlignEnd=195664|Gloss=hear
-7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=195664|AlignEnd=195840|Gloss=PUNCT
+# validated_by = B-CARON
+1	su	su	PRON	_	Number=Plur	2	subj	_	AlignBegin=194794|AlignEnd=194968|Gloss=3Plur.Pred/Loc
+2	nàː	nàː	AUX	_	Number=Plur	0	root	_	AlignBegin=194794|AlignEnd=194968|Gloss=3Plur.Pred/Loc
+3-4	baːyuːnai	_	_	_	_	_	_	_	_
+3	baːyuː	baːwàː	NOUN	_	Definite=Cons|Number=Plur	1	comp:pred	_	AlignBegin=194968|AlignEnd=195142|Gloss=slave.Plur.Cons
+4	=nai	=nai	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=194968|AlignEnd=195142|Gloss=3Masc.Gen
+5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=195142|AlignEnd=195316|Gloss=PUNCT
+6	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	parataxis@discourse	_	AlignBegin=195316|AlignEnd=195490|Gloss=2Masc.Perf
+7	jiyàː	jiyàː	VERB	_	_	6	comp:aux	_	AlignBegin=195490|AlignEnd=195664|Gloss=hear
+8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=195664|AlignEnd=195840|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_047-047
 # speaker_id = SP2
@@ -1233,8 +1239,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 286560, 292270
 # phonetic_text = naː ga sà'ad dà kuma [ dà àbinkà < baːkà dà iːkòːnai ] //
-# text = naː ga sà'addà kuma [ dà àbinkà //= baːkà kà dà iːkòːnai ] //
+# text = naː ga sà'addà kuma [ dà àbinkà //= baː kà dà iːkòːnai ] //
 # text_en = I have known times when  your things, you had no control over them.
+# validated_by = B-CARON
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=286560|AlignEnd=286968|Gloss=1Sing.Perf
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=286968|AlignEnd=287376|Gloss=see
 3	sà'addà	sà'addà	PRON	_	PronType=Rel	2	comp:obj	_	AlignBegin=287376|AlignEnd=287784|Gloss=when
@@ -1245,7 +1252,7 @@
 7	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:pred	_	AlignBegin=289416|AlignEnd=289824|Gloss=thing.Masc.Cons
 8	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	7	mod@poss	_	AlignBegin=289416|AlignEnd=289824|Gloss=2Masc.Gen
 9	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=289824|AlignEnd=290232|Gloss=PUNCT
-10	baːkà	bâi	AUX	_	Gender=Masc|Polarity=Neg	6	parataxis	_	AlignBegin=290232|AlignEnd=290640|Gloss=2Masc.Pred/Loc.Neg
+10	baː	bâi	AUX	_	Gender=Masc|Polarity=Neg	6	parataxis	_	AlignBegin=290232|AlignEnd=290640|Gloss=2Masc.Pred/Loc.Neg
 11	kà	kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	10	subj	_	AlignBegin=290232|AlignEnd=290640|Gloss=2Masc
 12	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=290640|AlignEnd=291048|Gloss=with
 13-14	iːkòːnai	_	_	_	_	_	_	_	_

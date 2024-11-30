@@ -17,7 +17,7 @@
 10	ƙwàːriː	ƙwaːròː	NOUN	_	Number=Plur	7	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal.Plur
 11	dai	dai	TopPART	_	_	10	discourse	_	AlignBegin=7360|AlignEnd=7726|Gloss=indeed
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=7360|AlignEnd=7726|Gloss=PUNCT
-13	cikin	cikin	ADP	_	_	5	comp:loc	_	AlignBegin=7726|AlignEnd=8092|Gloss=inside
+13	cikin	cikin	ADP	_	_	5	comp:pred	_	AlignBegin=7726|AlignEnd=8092|Gloss=inside
 14	ràːhîn	ràːhiː	NOUN	_	Definite=Def|Gender=Masc	13	comp:obj	_	AlignBegin=8092|AlignEnd=8458|Gloss=valley.Masc.Def
 15	nan	nan	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=8458|AlignEnd=8824|Gloss=Def
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT
@@ -124,7 +124,7 @@
 6	àkaràs	àkaràs	NOUN	_	_	5	udep@lvc	_	AlignBegin=184040|AlignEnd=184212|Gloss=confrontation
 7	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=184212|AlignEnd=184384|Gloss=with
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=184384|AlignEnd=184556|Gloss=3Fem.Nom
-9	ba	ba	ADV	_	PartType=Int|Polarity=Neg	3	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg
+9	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg|PartType=Int
 10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=184728|AlignEnd=184900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_9
@@ -139,7 +139,7 @@
 4	àkaràs	àkaràs	NOUN	_	_	3	udep@lvc	_	AlignBegin=184040|AlignEnd=184212|Gloss=confrontation
 5	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=184212|AlignEnd=184384|Gloss=with
 6	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=184384|AlignEnd=184556|Gloss=3Fem.Nom
-7	ba	ba	ADV	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg
+7	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=184556|AlignEnd=184728|Gloss=Neg|PartType=Int
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=184728|AlignEnd=184900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_10
@@ -179,7 +179,7 @@
 # text_en = I don't know about that.
 1	bàn	bài	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=253425|AlignEnd=253545|Gloss=1Sing.Perf.Neg
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=253545|AlignEnd=253665|Gloss=know
-3	wànnan	wànnan	PRON	_	Deixis=Prox|Gender=Masc	2	comp:obj	_	AlignBegin=253665|AlignEnd=253785|Gloss=Prox.Masc
+3	wànnan	wànnan	PRON	_	Gender=Masc	2	comp:obj	_	AlignBegin=253665|AlignEnd=253785|Deixis=Prox|Gloss=Prox.Masc
 4	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=253785|AlignEnd=253905|Gloss=Neg
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=253905|AlignEnd=254025|Gloss=PUNCT
 
@@ -226,7 +226,7 @@
 6	tàushe	taus-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=476270|AlignEnd=476421|Gloss=tackle.Part
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=476421|AlignEnd=476572|Gloss=with
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=476572|AlignEnd=476723|Gloss=3Fem.Nom
-9	koː	koː	CCONJ	_	PartType=Int	3	cc	_	AlignBegin=476723|AlignEnd=476874|Gloss=or
+9	koː	koː	CCONJ	_	_	3	cc	_	AlignBegin=476723|AlignEnd=476874|Gloss=or|PartType=Int
 10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=476874|AlignEnd=477025|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_17
