@@ -710,8 +710,8 @@
 16	à	shì	AUX	_	Aspect=Aor|Person=4	13	conj:coord	_	AlignBegin=119260|AlignEnd=119460|Gloss=4.Aor
 17-18	bâsshì	_	_	_	_	_	_	_	_
 17	bâsshee	bâsshee	VERB	_	Voice=Cau	16	comp:aux	_	AlignBegin=119460|AlignEnd=119660|Gloss=give.Cau
-18	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	17	comp:ben	_	AlignBegin=119460|AlignEnd=119660|Gloss=3Masc
-19	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	17	comp:obj	_	AlignBegin=119660|AlignEnd=119860|Gloss=shit.Masc
+18	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	17	comp:R	_	AlignBegin=119460|AlignEnd=119660|Gloss=3Masc
+19	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	17	comp:T	_	AlignBegin=119660|AlignEnd=119860|Gloss=shit.Masc
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=119860|AlignEnd=120060|Gloss=PUNCT
 21	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	16	conj:coord	_	AlignBegin=120060|AlignEnd=120260|Gloss=3Masc.Aor
 22	koːmoː	koːm-	VERB	_	_	21	comp:aux	_	AlignBegin=120260|AlignEnd=120460|Gloss=go_back
@@ -759,8 +759,8 @@
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=125038|AlignEnd=125251|Gloss=PUNCT
 5	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=125251|AlignEnd=125464|Background=Yes|Gloss=4.Perf.Bkg
 6	baː	baː	VERB	_	_	5	comp:aux	_	AlignBegin=125464|AlignEnd=125677|Gloss=give
-7	shì	shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:ben	_	AlignBegin=125677|AlignEnd=125890|Gloss=3Masc
-8	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=125890|AlignEnd=126103|Gloss=shit.Masc
+7	shì	shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:R	_	AlignBegin=125677|AlignEnd=125890|Gloss=3Masc
+8	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	6	comp:T	_	AlignBegin=125890|AlignEnd=126103|Gloss=shit.Masc
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=126103|AlignEnd=126316|Gloss=PUNCT
 10	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	parataxis	_	AlignBegin=126316|AlignEnd=126529|Background=Yes|Gloss=3Masc.Perf.Bkg
 11	zakà	zak-	VERB	_	_	10	comp:aux	_	AlignBegin=126529|AlignEnd=126742|Gloss=arrive
@@ -1072,14 +1072,15 @@
 # phonetic_text = kullun < shì bâː ɗan dumèn nan ruwaː hay yah hitoː //
 # text = kullun < shì bâː ɗan dumèn nan ruwaː hay yah hitoː //
 # text_en = He kept watering the pumpkin seed until it sprouted.
+# validated_by = B-CARON
 1	kullun	kullun	ADV	_	_	3	mod	_	AlignBegin=170420|AlignEnd=170580|Gloss=always
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=170580|AlignEnd=170740|Gloss=PUNCT
 3	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=170740|AlignEnd=170900|Gloss=3Masc.Aor
 4	bâː	bâː	VERB	_	_	3	comp:aux	_	AlignBegin=170900|AlignEnd=171060|Gloss=give
-5	ɗan	ɗaː	NOUN	_	Definite=Def|Gender=Masc	4	comp:ben	_	AlignBegin=171060|AlignEnd=171220|Gloss=child.Masc.Def
+5	ɗan	ɗaː	NOUN	_	Definite=Def|Gender=Masc	4	comp:R	_	AlignBegin=171060|AlignEnd=171220|Gloss=child.Masc.Def
 6	dumèn	dumèː	NOUN	_	Definite=Cons|Gender=Masc	5	compound	_	AlignBegin=171220|AlignEnd=171380|Gloss=pumpkin.Masc.Cons
 7	nan	nan	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=171380|AlignEnd=171540|Gloss=Def
-8	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=171540|AlignEnd=171700|Gloss=water.Plur
+8	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:T	_	AlignBegin=171540|AlignEnd=171700|Gloss=water.Plur
 9	hay	hat	SCONJ	_	_	4	mod	_	AlignBegin=171700|AlignEnd=171860|Gloss=until
 10	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	9	comp:obj	_	AlignBegin=171860|AlignEnd=172020|Background=Yes|Gloss=3Masc.Perf.Bkg
 11	hitoː	hit-	VERB	_	_	10	comp:aux	_	AlignBegin=172020|AlignEnd=172180|Gloss=come_out
@@ -1111,8 +1112,8 @@
 # text_en = He kept watering it.
 1	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=175014|AlignEnd=175165|Gloss=3Masc.Imp
 2	baː	baː	VERB	_	_	1	comp:aux	_	AlignBegin=175165|AlignEnd=175316|Gloss=give
-3	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=175316|AlignEnd=175467|Gloss=3Masc
-4	ruwaː	ruwaː	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=175467|AlignEnd=175618|Gloss=water.Plur
+3	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:R	_	AlignBegin=175316|AlignEnd=175467|Gloss=3Masc
+4	ruwaː	ruwaː	NOUN	_	Number=Plur	2	comp:T	_	AlignBegin=175467|AlignEnd=175618|Gloss=water.Plur
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=175618|AlignEnd=175767|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_053-053
@@ -1126,8 +1127,8 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=175937|AlignEnd=176107|Gloss=PUNCT
 3	shinàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=176107|AlignEnd=176277|Gloss=3Masc.Imp
 4	baː	baː	VERB	_	_	3	comp:aux	_	AlignBegin=176277|AlignEnd=176447|Gloss=give
-5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:ben	_	AlignBegin=176447|AlignEnd=176617|Gloss=3Masc
-6	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=176617|AlignEnd=176787|Gloss=water.Plur
+5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:R	_	AlignBegin=176447|AlignEnd=176617|Gloss=3Masc
+6	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:T	_	AlignBegin=176617|AlignEnd=176787|Gloss=water.Plur
 7	had	hat	SCONJ	_	_	4	mod	_	AlignBegin=176787|AlignEnd=176957|Gloss=until
 8	dumèn	dumèː	NOUN	_	Definite=Def|Gender=Masc	9	subj	_	AlignBegin=176957|AlignEnd=177127|Gloss=pumpkin.Masc.Cons.Def
 9	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	comp:obj	_	AlignBegin=177127|AlignEnd=177297|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -1677,8 +1678,8 @@
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=259476|AlignEnd=259624|Gloss=PUNCT
 8	ankà	yaC	AUX	_	Aspect=Perf|Person=4	5	conj:coord	_	AlignBegin=259624|AlignEnd=259772|Background=Yes|Gloss=4.Perf.Bkg
 9	baː	baː	VERB	_	_	8	comp:aux	_	AlignBegin=259772|AlignEnd=259920|Gloss=give
-10	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=259920|AlignEnd=260068|Gloss=3Masc
-11	ruwaː	ruwaː	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=260068|AlignEnd=260216|Gloss=water.Plur
+10	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:R	_	AlignBegin=259920|AlignEnd=260068|Gloss=3Masc
+11	ruwaː	ruwaː	NOUN	_	Number=Plur	9	comp:T	_	AlignBegin=260068|AlignEnd=260216|Gloss=water.Plur
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=260216|AlignEnd=260364|Gloss=PUNCT
 13	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	conj:coord	_	AlignBegin=260364|AlignEnd=260512|Background=Yes|Gloss=3Masc.Perf.Bkg
 14	hwalkàː	hwalkàː	VERB	_	_	13	comp:aux	_	AlignBegin=260512|AlignEnd=260660|Gloss=wake_up
