@@ -279,7 +279,7 @@
 9-10	ankài	_	_	_	_	_	_	_	_
 9	ankà	yaC	AUX	_	Aspect=Perf|Person=4	8	mod@relcl	_	AlignBegin=74159|AlignEnd=74410|Background=Yes|Gloss=4.Perf.Bkg
 10	yi	yi	VERB	_	_	9	comp:aux	_	AlignBegin=74159|AlignEnd=74410|Gloss=do
-11	noːmaː	noːmaː	NOUN	_	Gender=Masc	10	comp:obj@lvc	_	AlignBegin=74410|AlignEnd=74661|Gloss=farming.Masc
+11	noːmaː	noːmaː	NOUN	_	Gender=Masc	10	comp:obj	_	AlignBegin=74410|AlignEnd=74661|Gloss=farming.Masc
 12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=74661|AlignEnd=74912|Gloss=PUNCT
 13	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	0	root	_	AlignBegin=74912|AlignEnd=75163|Gloss=stand.Vnoun.Masc
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=75163|AlignEnd=75414|Gloss=PUNCT
@@ -799,7 +799,7 @@
 # text_en = He was stronger than them.
 1	ya'	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=197000|AlignEnd=197175|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	iyàː	iyàː	VERB	_	_	1	comp:aux	_	AlignBegin=197175|AlignEnd=197350|Gloss=be_able
-3	musù	musù	PRON	_	Case=Ben|Number=Plur|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=197350|AlignEnd=197525|Gloss=3Plur.Ben
+3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=197350|AlignEnd=197525|Gloss=3Plur.Dat
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=197525|AlignEnd=197700|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_048-048
@@ -1084,7 +1084,7 @@
 14	<	<	PUNCT	_	_	15	punct	_	AlignBegin=253267|AlignEnd=253590|Gloss=PUNCT
 15	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=253590|AlignEnd=253913|Gloss=4.Aor
 16	ƙwaːcèː	ƙwaːcèː	VERB	_	_	15	comp:aux	_	AlignBegin=253913|AlignEnd=254236|Gloss=seize
-17	maː	maː	PRON	_	Case=Ben|Gender=Masc|Person=2|PronType=Prs	16	comp:ben	_	AlignBegin=254236|AlignEnd=254559|Gloss=2Masc.Ben
+17	maː	maː	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	16	comp:obl	_	AlignBegin=254236|AlignEnd=254559|Gloss=2Masc.Dat
 18	//	//	PUNCT	_	_	15	punct	_	AlignBegin=254559|AlignEnd=254874|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_065-065
@@ -1152,7 +1152,7 @@
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=267518|AlignEnd=267903|Gloss=PUNCT
 17	à	shì	AUX	_	Aspect=Aor|Person=4	11	conj:coord	_	AlignBegin=267903|AlignEnd=268288|Gloss=4.Aor
 18	kam	kaːm-	VERB	_	_	17	comp:aux	_	AlignBegin=268288|AlignEnd=268673|Gloss=catch
-19	maː	maː	PRON	_	Case=Ben|Gender=Masc|Person=2|PronType=Prs	18	comp:ben	_	AlignBegin=268673|AlignEnd=269058|Gloss=2Masc.Ben
+19	maː	maː	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	18	comp:obl	_	AlignBegin=268673|AlignEnd=269058|Gloss=2Masc.Dat
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=269058|AlignEnd=269443|Gloss=PUNCT
 21	à	shì	AUX	_	Aspect=Aor|Person=4	17	conj:coord	_	AlignBegin=269443|AlignEnd=269828|Gloss=4.Aor
 22	tàhi	tah-	VERB	_	_	21	comp:aux	_	AlignBegin=269828|AlignEnd=270213|Gloss=go
@@ -1172,7 +1172,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=272366|AlignEnd=272644|Gloss=then
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=272644|AlignEnd=272922|Gloss=2Masc.Perf
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=272922|AlignEnd=273200|Gloss=do
-4	aikìn	aikìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj@lvc	_	AlignBegin=273200|AlignEnd=273478|Gloss=work.Masc.Cons
+4	aikìn	aikìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=273200|AlignEnd=273478|Gloss=work.Masc.Cons
 5	kwaːnaː	kwaːnaː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=273478|AlignEnd=273756|Gloss=night.Fem
 6	tàlàːtin	tàlàːtin	NUM	_	_	5	mod@num	_	AlignBegin=273756|AlignEnd=274034|Gloss=thirty
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=273756|AlignEnd=274034|Gloss=PUNCT
@@ -1231,7 +1231,7 @@
 1	kuma	kuma	ADV	_	_	2	discourse	_	AlignBegin=281272|AlignEnd=281491|Gloss=also
 2	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=281491|AlignEnd=281710|Gloss=4.Aor
 3	kam	kaːm-	VERB	_	_	2	comp:aux	_	AlignBegin=281710|AlignEnd=281929|Gloss=catch
-4	mà	mà	ADP	_	Case=Ben	3	comp:ben	_	AlignBegin=281929|AlignEnd=282148|Gloss=Dat
+4	mà	mà	ADP	_	Case=Dat	3	comp:obl	_	AlignBegin=281929|AlignEnd=282148|Gloss=Dat
 5	wasu	wani	PRON	_	Definite=Spec|Number=Plur|PronType=Ind	4	comp:obj	_	AlignBegin=282148|AlignEnd=282367|Gloss=some.Plur
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=282367|AlignEnd=282586|Gloss=PUNCT
 
@@ -1290,7 +1290,7 @@
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=296512|AlignEnd=296724|Gloss=PUNCT
 8	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=296724|AlignEnd=296936|Gloss=3Masc.Aor
 9	ƙwaːcèː	ƙwaːcèː	VERB	_	_	8	comp:aux	_	AlignBegin=296936|AlignEnd=297148|Gloss=seize
-10	maː	maː	PRON	_	Case=Ben|Gender=Masc|Person=2|PronType=Prs	9	comp:ben	_	AlignBegin=297148|AlignEnd=297360|Gloss=2Masc.Ben
+10	maː	maː	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	9	comp:obl	_	AlignBegin=297148|AlignEnd=297360|Gloss=2Masc.Dat
 11-12	àbinkà	_	_	_	_	_	_	_	_
 11	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	AlignBegin=297360|AlignEnd=297572|Gloss=thing.Masc.Cons
 12	=kà	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	11	mod@poss	_	AlignBegin=297360|AlignEnd=297572|Gloss=2Masc.Gen
@@ -2033,7 +2033,7 @@
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=426089|AlignEnd=426239|Gloss=enter
 3	à	shì	AUX	_	Aspect=Aor|Person=4	1	conj:coord	_	AlignBegin=426239|AlignEnd=426389|Gloss=4.Aor
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=426389|AlignEnd=426539|Gloss=do
-5	hwaɗàː	hwaɗàː	NOUN	_	Gender=Masc	4	comp:obj@lvc	_	AlignBegin=426539|AlignEnd=426689|Gloss=fight.Masc
+5	hwaɗàː	hwaɗàː	NOUN	_	Gender=Masc	4	comp:obj	_	AlignBegin=426539|AlignEnd=426689|Gloss=fight.Masc
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426689|AlignEnd=426842|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_121-121
@@ -2280,9 +2280,9 @@
 5-6	kai	_	_	_	_	_	_	_	_
 5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=471228|AlignEnd=471430|Gloss=do
-7	mà	mà	ADP	_	Case=Ben	6	comp:ben	_	AlignBegin=471430|AlignEnd=471632|Gloss=Dat
+7	mà	mà	ADP	_	Case=Dat	6	comp:obl	_	AlignBegin=471430|AlignEnd=471632|Gloss=Dat
 8	kânka	kânka	PRON	_	Gender=Masc|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=471632|AlignEnd=471834|Gloss=2Masc
-9	sùturàː	sùturàː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=471834|AlignEnd=472036|Gloss=clothes
+9	sùturàː	sùturàː	NOUN	_	_	6	comp:obj	_	AlignBegin=471834|AlignEnd=472036|Gloss=clothes
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=472036|AlignEnd=472240|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_135-135

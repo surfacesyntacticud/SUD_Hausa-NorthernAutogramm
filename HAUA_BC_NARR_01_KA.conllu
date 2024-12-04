@@ -197,7 +197,7 @@
 # text_en = He told her "Well, let me go into this water."
 1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=46220|AlignEnd=46335|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=46335|AlignEnd=46450|Gloss=say
-3	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=46450|AlignEnd=46565|Gloss=3Fem.Ben
+3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=46450|AlignEnd=46565|Gloss=3Fem.Dat
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=46565|AlignEnd=46680|Gloss=PUNCT
 5	tôː	tôː	INTJ	_	_	6	discourse	_	AlignBegin=46680|AlignEnd=46795|Gloss=well
 6	bàri	barìː	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=46795|AlignEnd=46910|Gloss=let.Jus
@@ -469,7 +469,7 @@
 1	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=93474|AlignEnd=93696|Gloss=also
 2	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=93696|AlignEnd=93918|Gloss=3Fem.Perf
 3	matsàː	matsàː	VERB	_	_	2	comp:aux	_	AlignBegin=93918|AlignEnd=94140|Gloss=press
-4	mai	mai	PRON	_	Case=Ben|Gender=Masc|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Masc.Ben
+4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=94140|AlignEnd=94362|Gloss=3Masc.Dat
 5	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Imp
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=94584|AlignEnd=94806|Gloss=want.Vnoun.Masc.Cons
 7	tà	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	udep	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Aor
@@ -487,7 +487,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=96463|AlignEnd=96707|Gloss=until
 2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=96707|AlignEnd=96951|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=96951|AlignEnd=97195|Gloss=say
-4	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Ben
+4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=97195|AlignEnd=97439|Gloss=3Fem.Dat
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=97439|AlignEnd=97683|Gloss=PUNCT
 6	dìːba	dìːba	VERB	_	Mood=Jus	3	comp:obj	_	AlignBegin=97683|AlignEnd=97927|Gloss=look.Jus
 7	!//=	!//=	PUNCT	_	_	8	punct	_	AlignBegin=97927|AlignEnd=98171|Gloss=PUNCT
@@ -536,7 +536,7 @@
 11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT
 12	kì	shì	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say
-14	musù	musù	PRON	_	Case=Ben|Number=Plur|Person=3|PronType=Prs	13	comp:ben	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Ben
+14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat
 15	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Imp
 16-17	ɓaːcìnsu	_	_	_	_	_	_	_	_
 16	ɓaːcìn	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.Vnoun.Masc.Cons
@@ -707,13 +707,14 @@
 # phonetic_text = sai shì cêː matà [ tôː gàː naːmàː //] //
 # text = sai shì cêː matà [ tôː gàː naːmàː //] //
 # text_en = Then he told her "Here is your meat."
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=130803|AlignEnd=130914|Gloss=then
 2	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=130914|AlignEnd=131025|Gloss=3Masc.Aor|wordform=shì
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=131025|AlignEnd=131136|Gloss=say
-4	matà	matà	PRON	_	Case=Ben|Gender=Fem|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Ben
+4	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=131136|AlignEnd=131247|Gloss=3Fem.Dat
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=131247|AlignEnd=131358|Gloss=PUNCT
 6	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=131358|AlignEnd=131469|Gloss=well
-7	gàː	gàː	PredPART	_	_	4	conj:coord	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is
+7	gàː	gàː	PredPART	_	_	3	comp:obj	_	AlignBegin=131469|AlignEnd=131580|Gloss=here_is
 8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=131580|AlignEnd=131691|Gloss=meat.Masc
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=131691|AlignEnd=131802|Gloss=PUNCT
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=131802|AlignEnd=131914|Gloss=PUNCT
