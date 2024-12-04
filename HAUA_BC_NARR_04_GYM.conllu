@@ -89,7 +89,7 @@
 # phonetic_text = shiːkèːnan sai sunkà cêː bàri sù tàhi yaːwòn duːniyàː à yoː gwàdayyàk kyaːwòː dà haːwà dà haːwaːtàn //
 # text = shiːkèːnan sai sunkà cêː bàri sù tàhi yaːwòn duːniyàː à yoː gwàdayyàk kyaːwòː dà Haːwà dà Haːwaːtàn //
 # text_en = OK, they said let them go around the world to do a beauty contest between Hawa and Hawatan.
-1	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	mod	_	AlignBegin=14075|AlignEnd=14453|Gloss=OK
+1	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	discourse	_	AlignBegin=14075|AlignEnd=14453|Gloss=OK
 2	sai	sai	ADV	_	_	3	mod	_	AlignBegin=14453|AlignEnd=14831|Gloss=until
 3	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=14831|AlignEnd=15209|Background=Yes|Gloss=3Plur.Perf.Bkg
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=15209|AlignEnd=15587|Gloss=say
@@ -626,7 +626,8 @@
 # phonetic_text = shiːkèːnan < dà uwattà tay yi cikìː < ta' àihi wani ɗan yaːròː ɗan ƙàramiː //
 # text = shiːkèːnan < dà uwat =tà tay yi cikìː < ta' àihi wani ɗan yaːròː ɗan ƙàramiː //
 # text_en = OK, when her mother became pregnant, she gave birth to a tiny minute little boy.
-1	shiːkèːnan	shiːkèːnan	INTJ	_	_	10	dislocated@subj	_	AlignBegin=105400|AlignEnd=105576|Gloss=OK
+# validated_by = B-CARON
+1	shiːkèːnan	shiːkèːnan	INTJ	_	_	10	discourse	_	AlignBegin=105400|AlignEnd=105576|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=105576|AlignEnd=105752|Gloss=PUNCT
 3	dà	dà	SCONJ	_	_	10	mod	_	AlignBegin=105752|AlignEnd=105928|Gloss=as
 4-5	uwattà	_	_	_	_	_	_	_	_
@@ -832,7 +833,7 @@
 # phonetic_text = shiːkèːnan < sai tac cèː [ aː'àː //] //
 # text = shiːkèːnan < sai tac cèː [ aː'àː //] //
 # text_en = Then she said "No!"
-1	shiːkèːnan	shiːkèːnan	INTJ	_	_	4	mod	_	AlignBegin=136500|AlignEnd=136646|Gloss=OK
+1	shiːkèːnan	shiːkèːnan	INTJ	_	_	4	discourse	_	AlignBegin=136500|AlignEnd=136646|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=136646|AlignEnd=136792|Gloss=PUNCT
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=136792|AlignEnd=136938|Gloss=until
 4	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=136938|AlignEnd=137084|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -1013,8 +1014,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 163620, 167531
 # phonetic_text = yac cèː [ ɗan dumèn ga < àlkaːwàliːnaː dà kai < kà gwadàː min indà kùsheːway yâːtaː ta kèː //] //
-# text = yac cèː [ ɗan dumèn ga < àlkaːwàliː =naː dà kai < kà gwadàː min indà kùsheːway yâː =taː ta kè //] //
+# text = yac cèː [ ɗan dumèn ga < àlkaːwàliːnaː dà kai < kà gwadàː min indà kùsheːway yâːtaː takè //] //
 # text_en = He said " Seed, I trust you to show me where my sister's grave is."
+# validated_by = B-CARON
 1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=163620|AlignEnd=163806|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=163806|AlignEnd=163992|Gloss=say
 3	[	[	PUNCT	_	_	13	punct	_	AlignBegin=163992|AlignEnd=164178|Gloss=PUNCT
@@ -1032,13 +1034,15 @@
 14	gwadàː	gwad-	VERB	_	_	13	comp:aux	_	AlignBegin=165852|AlignEnd=166038|Gloss=show
 15	min	min	PRON	_	Case=Ben|Number=Sing|Person=1|PronType=Prs	14	comp:ben	_	AlignBegin=166038|AlignEnd=166224|Gloss=1Sing.Ben
 16	indà	indà	ADV	_	PronType=Rel	14	comp:obj	_	AlignBegin=166224|AlignEnd=166410|Gloss=where
-17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	20	subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons
+17	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	21	dislocated@subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons
 18-19	yâːtaː	_	_	_	_	_	_	_	_
 18	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	17	mod	_	AlignBegin=166596|AlignEnd=166782|Gloss=elder_sister.Fem.Cons
 19	=taː	=taː	PRON	_	Number=Sing|Person=1|PronType=Prs	18	mod@poss	_	AlignBegin=166596|AlignEnd=166782|Gloss=1Sing.Gen
-20	takè	kè	AUX	_	Gender=Fem	16	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Background=Yes|Gloss=3Fem.Loc.Bkg|wordform=kè
-21	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT
-22	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT
+20-21	takè	_	_	_	_	_	_	_	_
+20	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	21	subj	_	AlignBegin=166968|AlignEnd=167154|Gloss=3Fem|wordform=kè
+21	kè	nàː/kè/aC	AUX	_	_	16	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Background=Yes|Gloss=Pred/Loc.Bkg
+22	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT
+23	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_049-049
 # speaker_id = SP
@@ -1757,18 +1761,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 269300, 270660
 # phonetic_text = yac cèː yaː ga indà yâːtai ta kè //
-# text = yac cèː yaː ga indà yâː =tai ta kè //
+# text = yac cèː yaː ga indà yâːtai takè //
 # text_en = He said that he had seen where she was.
+# validated_by = B-CARON
 1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=269300|AlignEnd=269451|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=269451|AlignEnd=269602|Gloss=say
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=269602|AlignEnd=269753|Gloss=3Masc.Perf
 4	ga	ganiː	VERB	_	_	3	comp:aux	_	AlignBegin=269753|AlignEnd=269904|Gloss=see
 5	indà	indà	ADV	_	PronType=Rel	4	comp:obj	_	AlignBegin=269904|AlignEnd=270055|Gloss=where
 6-7	yâːtai	_	_	_	_	_	_	_	_
-6	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	8	subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem
+6	yâː	yâː	NOUN	_	Definite=Cons|Gender=Fem	9	dislocated@subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem
 7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=270055|AlignEnd=270206|Gloss=3Masc.Gen
-8	takè	kè	AUX	_	Gender=Fem	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Background=Yes|Gloss=3Fem.Loc.Bkg|wordform=kè
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT
+8-9	takè	_	_	_	_	_	_	_	_
+8	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	subj	_	AlignBegin=270357|AlignEnd=270508|Gloss=3Fem|wordform=kè
+9	kè	nàː/kè/aC	AUX	_	_	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Background=Yes|Gloss=Pred/Loc.Bkg
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_085-085
 # speaker_id = SP
