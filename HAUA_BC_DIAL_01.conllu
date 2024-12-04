@@ -60,7 +60,7 @@
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=11591|AlignEnd=11822|Gloss=do
 4	dâː	dâː	ADV	_	_	2	mod	_	AlignBegin=11822|AlignEnd=12053|Gloss=formerly
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12053|AlignEnd=12284|Gloss=PUNCT
-6	Galmaːwaː	Galmaːwaː	PROPN	_	_	8	dislocated@subj	_	AlignBegin=12284|AlignEnd=12515|Gloss=Galmaːwaː
+6	Galmaːwaː	Galmaːwaː	PROPN	_	_	8	dislocated@top	_	AlignBegin=12284|AlignEnd=12515|Gloss=Galmaːwaː
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=12515|AlignEnd=12746|Gloss=PUNCT
 8	Bàːgai	Bàːgai	PROPN	_	_	0	root	_	AlignBegin=12746|AlignEnd=12977|Gloss=Bàːgai
 9-10	takè	_	_	_	_	_	_	_	_
@@ -380,6 +380,7 @@
 # phonetic_text = bàː kaː san < sa'àn nan < dà Ìlleːlàː nan |c dà Gidan tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihwai //
 # text = bàː kaː san < sa'ànnan < dà Ìlleːlàː nan |c dà Gidan Tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihweː =i //
 # text_en = Don't you know that at that time, Illela, Gidan Tudu and Galmawa, those who are "Bagawaile", all, they were born in Illela.
+# validated_by = B-CARON
 1	bàː	bàː	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=91200|AlignEnd=91599|Gloss=Neg
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	23	parataxis@discourse	_	AlignBegin=91599|AlignEnd=91998|Gloss=2Masc.Perf
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=91998|AlignEnd=92397|Gloss=know
@@ -396,11 +397,11 @@
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=96786|AlignEnd=97185|Gloss=PUNCT
 15	dà	dà	CCONJ	_	_	16	cc	_	AlignBegin=97185|AlignEnd=97584|Gloss=and
 16	Galmaːwaː	Galmaːwaː	PROPN	_	_	12	mod	_	AlignBegin=97584|AlignEnd=97983|Gloss=Galmaːwaː
-17	wandà	wandà	PRON	_	Gender=Masc|PronType=Rel	23	dislocated@comp	_	AlignBegin=97983|AlignEnd=98382|Gloss=which.Masc
+17	wandà	wandà	PRON	_	Gender=Masc|PronType=Rel	23	dislocated@top	_	AlignBegin=97983|AlignEnd=98382|Gloss=which.Masc
 18	ab	nàː/kè/aC	AUX	_	_	17	mod@relcl	_	AlignBegin=98382|AlignEnd=98781|Background=Yes|Gloss=Pred/Loc.Bkg
 19	Bàgawailèː	Bàgawailèː	PROPN	_	Gender=Masc	18	comp:pred	_	AlignBegin=98781|AlignEnd=99180|Gloss=Bagawaile.Masc
 20	<	<	PUNCT	_	_	17	punct	_	AlignBegin=99180|AlignEnd=99579|Gloss=PUNCT
-21	du'	dukà	DET	_	ExtPos=PRON|PronType=Tot	23	dislocated@comp	_	AlignBegin=99579|AlignEnd=99978|Gloss=all
+21	du'	dukà	DET	_	ExtPos=PRON|PronType=Tot	23	dislocated@top	_	AlignBegin=99579|AlignEnd=99978|Gloss=all
 22	<	<	PUNCT	_	_	21	punct	_	AlignBegin=99978|AlignEnd=100377|Gloss=PUNCT
 23	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	0	root	_	AlignBegin=100377|AlignEnd=100776|Gloss=Illela
 24	>+	>+	PUNCT	_	_	25	punct	_	AlignBegin=100776|AlignEnd=101175|Gloss=PUNCT
@@ -1590,7 +1591,7 @@
 # text_en = But I was a smuggler.
 # validated_by = B-CARON
 1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=348820|AlignEnd=349000|Gloss=but
-2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=349000|AlignEnd=349180|Gloss=1Sing.Nom
+2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=349000|AlignEnd=349180|Gloss=1Sing.Nom
 3	sùmoːgàr	sùmoːgàr	NOUN	_	_	4	comp:pred	_	AlignBegin=349180|AlignEnd=349360|Gloss=smuggling
 4	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=349360|AlignEnd=349540|Gloss=Foc/Ident
 5	niy	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=349540|AlignEnd=349720|Background=Yes|Gloss=1Sing.Perf.Bkg
