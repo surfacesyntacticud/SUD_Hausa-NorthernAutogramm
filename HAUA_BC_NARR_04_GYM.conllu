@@ -1627,6 +1627,7 @@
 # phonetic_text = [ ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâː shi mutuwàː //]
 # text = ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâːshi mutuwàː //
 # text_en = The only one that is left to her, today he's going to die."
+# validated_by = B-CARON
 1	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	2	mod	_	AlignBegin=253727|AlignEnd=253894|Gloss=small.Masc.Cons
 2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Def|Gender=Masc	11	dislocated@top	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Def
 3	ga	ga	DET	_	_	2	det	_	AlignBegin=254061|AlignEnd=254228|Deixis=Prox|Gloss=Prox
@@ -1641,7 +1642,7 @@
 11	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is
 12	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	11	subj	_	AlignBegin=255397|AlignEnd=255564|Gloss=3Masc
 13	yâu	yâu	ADV	_	_	14	mod	_	AlignBegin=255564|AlignEnd=255731|Gloss=today
-14	zâːshi	zaː	AUX	_	Gender=Masc|Person=3|Tense=Fut	11	comp:pred	_	AlignBegin=255731|AlignEnd=255898|Gloss=Fut
+14	zâːshi	zâːsu	AUX	_	Gender=Masc|Person=3|Tense=Fut	11	comp:pred	_	AlignBegin=255731|AlignEnd=255898|Gloss=Fut
 15	mutuwàː	mat-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=256065|AlignEnd=256232|Gloss=die.Vnoun.Fem
 16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=256232|AlignEnd=256400|Gloss=PUNCT
 
@@ -1778,7 +1779,7 @@
 # text_en = And she was alive, she had not died.
 # validated_by = B-CARON
 1	kuma	kuma	CCONJ	_	_	3	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also
-2	ta	ta	AUX	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem
+2	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem
 3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=Pred/Loc
 4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with
 5-6	rânta	_	_	_	_	_	_	_	_
