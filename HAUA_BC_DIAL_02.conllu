@@ -65,7 +65,7 @@
 # sent_timecode = 111445, 112135
 # text = tanàː ta kiːyòː ?//
 # text_en = Were they browsing?
-1	tanàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=3	0	root	_	AlignBegin=111445|AlignEnd=111617|Gloss=3Fem.Imp
+1	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=111445|AlignEnd=111617|Gloss=3Fem.Prog
 2	ta	ta	ADP	_	Aspect=Iter	1	comp:aux	_	AlignBegin=111617|AlignEnd=111789|Gloss=Iter
 3	kiːyòː	kiːyòː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=111789|AlignEnd=111961|Gloss=grazing.Masc
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=111961|AlignEnd=112135|Gloss=PUNCT
@@ -81,7 +81,7 @@
 2	àːgìzoː	aːgiz-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=133143|AlignEnd=133326|Gloss=watch.Vnoun.Masc
 3	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=133326|AlignEnd=133509|Gloss=Foc/Ident
 4-5	kukài	_	_	_	_	_	_	_	_
-4	kukà	kà	AUX	_	Aspect=Imp|Number=Plur|Person=2	3	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Background=Yes|Gloss=2Plur.Imp.Bkg
+4	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	3	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Background=Yes|Gloss=2Plur.Prog.Bkg
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=133509|AlignEnd=133692|Gloss=do
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	AlignBegin=133692|AlignEnd=133875|Gloss=Dat
 7	bisàː	bisàː	NOUN	_	_	6	comp:obj	_	AlignBegin=133875|AlignEnd=134058|Gloss=animal
@@ -96,7 +96,7 @@
 # validated_by = B-CARON
 1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	comp:pred	_	AlignBegin=135140|AlignEnd=135308|Gloss=how
 2	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=135308|AlignEnd=135476|Gloss=Foc/Ident
-3	kukà	kà	AUX	_	Aspect=Imp|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.Imp.Bkg
+3	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.Prog.Bkg
 4-5	àːgìzontà	_	_	_	_	_	_	_	_
 4	àːgìzon	aːgiz-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=135644|AlignEnd=135812|Gloss=watch.Vnoun.Masc.Cons
 5	=ta	=ta	PRON	_	Case=Gen|Gender=Fem|Person=3|PronType=Prs	4	udep	_	AlignBegin=135644|AlignEnd=135812|Gloss=3Fem.Gen
@@ -259,7 +259,7 @@
 10	lòːkacìn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	9	comp:obj	_	AlignBegin=684143|AlignEnd=684390|Gloss=time.Masc.Def
 11	nan	nan	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=684390|AlignEnd=684637|Gloss=Def
 12	<	<	PUNCT	_	_	3	punct	_	AlignBegin=684637|AlignEnd=684884|Gloss=PUNCT
-13	baː'à	bâi	AUX	_	Aspect=Imp|Person=4|Polarity=Neg	0	root	_	AlignBegin=684884|AlignEnd=685131|Gloss=4.Imp.Neg
+13	baː'à	bâi	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	0	root	_	AlignBegin=684884|AlignEnd=685131|Gloss=4.Imp.Neg
 14	koːmiː	koːmi	PRON	_	PronType=Ind	13	comp:aux	_	AlignBegin=685131|AlignEnd=685378|Gloss=anything
 15	dà	dà	CCONJ	_	_	16	cc	_	AlignBegin=685378|AlignEnd=685625|Gloss=and
 16	koːmiː	koːmi	PRON	_	PronType=Ind	14	conj:coord	_	AlignBegin=685625|AlignEnd=685872|Gloss=anything
