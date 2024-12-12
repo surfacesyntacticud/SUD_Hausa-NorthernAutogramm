@@ -179,7 +179,7 @@
 # text_en = They went to see the Commander and King Isa.
 1	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=52110|AlignEnd=52789|Background=Yes|Gloss=4.Perf.Bkg
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=52789|AlignEnd=53468|Gloss=go
-3	indà	indà	ADV	_	PronType=Rel	2	comp:goal	_	AlignBegin=53468|AlignEnd=54147|Gloss=where
+3	indà	indà	ADV	_	PronType=Rel	2	comp:obj@G	_	AlignBegin=53468|AlignEnd=54147|Gloss=where
 4	Kùmãdã	Kùmãdã	PROPN	_	_	3	mod@relcl	_	AlignBegin=54147|AlignEnd=54826|Gloss=Kùmãdã
 5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=54826|AlignEnd=55505|Gloss=and
 6	Sarkiː	Sarkiː	PROPN	_	_	4	conj:coord	_	AlignBegin=55505|AlignEnd=56184|Gloss=Sarkiː
@@ -259,7 +259,7 @@
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=70608|AlignEnd=70824|Gloss=PUNCT
 5	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	conj:coord	_	AlignBegin=70824|AlignEnd=71040|Gloss=3Plur.Prog
 6	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=71040|AlignEnd=71256|Gloss=go.Vnoun.Fem
-7	wâggàːshi	wâggàːshi	PRON	_	PronType=Ind	6	comp:goal	_	AlignBegin=71256|AlignEnd=71472|Gloss=so_and_so
+7	wâggàːshi	wâggàːshi	PRON	_	PronType=Ind	6	comp:obj@G	_	AlignBegin=71256|AlignEnd=71472|Gloss=so_and_so
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=71688|AlignEnd=71900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_016-016
@@ -289,7 +289,7 @@
 16	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=75414|AlignEnd=75665|Gloss=do.Vnoun.Masc
 17	à	shì	AUX	_	Aspect=Aor|Person=4	13	mod	_	AlignBegin=75665|AlignEnd=75916|Gloss=4.Aor
 18	tàhi	tah-	VERB	_	_	17	comp:aux	_	AlignBegin=75916|AlignEnd=76167|Gloss=go
-19	Bàːgai	Bàːgai	PROPN	_	_	18	comp:goal	_	AlignBegin=76167|AlignEnd=76418|Gloss=Bàːgai
+19	Bàːgai	Bàːgai	PROPN	_	_	18	comp:obj@G	_	AlignBegin=76167|AlignEnd=76418|Gloss=Bàːgai
 20	//	//	PUNCT	_	_	13	punct	_	AlignBegin=76418|AlignEnd=76670|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_017-017
@@ -1147,7 +1147,7 @@
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=265593|AlignEnd=265978|Gloss=PUNCT
 12	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=265978|AlignEnd=266363|Gloss=4.Aor
 13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=266363|AlignEnd=266748|Gloss=arrive
-14	indà	indà	ADV	_	PronType=Rel	13	comp:goal	_	AlignBegin=266748|AlignEnd=267133|Gloss=where
+14	indà	indà	ADV	_	PronType=Rel	13	comp:obj@G	_	AlignBegin=266748|AlignEnd=267133|Gloss=where
 15-16	kakè	_	_	_	_	_	_	_	_
 15	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	16	subj	_	AlignBegin=267133|AlignEnd=267518|Gloss=2Masc|wordform=kè
 16	kè	nàː/kè/aC	AUX	_	_	14	mod@relcl	_	AlignBegin=267133|AlignEnd=267518|Background=Yes|Gloss=Pred/Loc.Bkg
@@ -1160,7 +1160,7 @@
 23	tàhi	tah-	VERB	_	_	22	comp:aux	_	AlignBegin=269828|AlignEnd=270213|Gloss=go
 24	dà	dà	ADP	_	_	23	comp:obl	_	AlignBegin=270213|AlignEnd=270598|Gloss=with
 25	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	24	comp:obj	_	AlignBegin=270598|AlignEnd=270983|Gloss=2Masc.Nom
-26	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	23	comp:goal	_	AlignBegin=270983|AlignEnd=271368|Gloss=place.Masc.Cons
+26	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	23	comp:obj@G	_	AlignBegin=270983|AlignEnd=271368|Gloss=place.Masc.Cons
 27	aikìː	aikìː	NOUN	_	Gender=Masc	26	mod	_	AlignBegin=271368|AlignEnd=271753|Gloss=work.Masc
 28	//	//	PUNCT	_	_	12	punct	_	AlignBegin=271753|AlignEnd=272133|Gloss=PUNCT
 
@@ -1219,7 +1219,7 @@
 8	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=280091|AlignEnd=280309|Gloss=2Masc.Aor
 9	koːmoː	koːmoː	VERB	_	_	8	comp:aux	_	AlignBegin=280309|AlignEnd=280527|Gloss=come_back
 10-11	gidankà	_	_	_	_	_	_	_	_
-10	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:goal	_	AlignBegin=280527|AlignEnd=280745|Gloss=house.Masc.Cons
+10	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj@G	_	AlignBegin=280527|AlignEnd=280745|Gloss=house.Masc.Cons
 11	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	10	mod@poss	_	AlignBegin=280527|AlignEnd=280745|Gloss=2Masc.Gen
 12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=280745|AlignEnd=280961|Gloss=PUNCT
 
@@ -1332,7 +1332,7 @@
 6	dâː	dâː	ADV	_	_	5	comp:obj	_	AlignBegin=304432|AlignEnd=304665|Gloss=formerly
 7	kunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2	4	mod	_	AlignBegin=304665|AlignEnd=304898|Gloss=2Plur.Prog
 8	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=304898|AlignEnd=305131|Gloss=go.Vnoun.Masc
-9	gwànjaː	gwànjaː	NOUN	_	_	8	comp:goal	_	AlignBegin=305131|AlignEnd=305364|Gloss=temporary_migration
+9	gwànjaː	gwànjaː	NOUN	_	_	8	comp:obj@G	_	AlignBegin=305131|AlignEnd=305364|Gloss=temporary_migration
 10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=305364|AlignEnd=305600|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_076-076
@@ -1508,7 +1508,7 @@
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=336620|AlignEnd=336795|Gloss=2Masc.Perf
 2	taɓà	taɓ-	VERB	_	_	1	comp:aux	_	AlignBegin=336795|AlignEnd=336970|Gloss=experience
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=336970|AlignEnd=337145|Gloss=arrive.Vnoun.Fem
-4	nanânga	nanânga	ADV	_	_	3	comp:goal	_	AlignBegin=337145|AlignEnd=337320|Deixis=Prox|Gloss=Prox
+4	nanânga	nanânga	ADV	_	_	3	comp:obj@G	_	AlignBegin=337145|AlignEnd=337320|Deixis=Prox|Gloss=Prox
 5	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	4	conj:appos	_	AlignBegin=337320|AlignEnd=337495|Gloss=village.Masc.Def
 6	ga	ga	DET	_	_	5	det	_	AlignBegin=337495|AlignEnd=337670|Deixis=Prox|Gloss=Prox
 7	dâːmaː	dâːmaː	ADV	_	_	3	mod	_	AlignBegin=337670|AlignEnd=337845|Gloss=formerly
@@ -1567,7 +1567,7 @@
 2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=343830|AlignEnd=344139|Gloss=Foc/Ident
 3	nikà	kà	AUX	_	Aspect=Prog|Number=Sing|Person=1	2	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Background=Yes|Gloss=1Sing.Prog.Bkg
 4	biyoːwàː	bi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=344448|AlignEnd=344757|Gloss=follow.Vnoun.Fem
-5	Gaːnà	Gaːnà	PROPN	_	_	4	comp:goal	_	AlignBegin=344757|AlignEnd=345066|Gloss=Ghana
+5	Gaːnà	Gaːnà	PROPN	_	_	4	comp:obj@G	_	AlignBegin=344757|AlignEnd=345066|Gloss=Ghana
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=345066|AlignEnd=345377|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_091-091
@@ -2219,7 +2219,7 @@
 15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=454475|AlignEnd=454668|Gloss=PUNCT
 16	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	6	conj:coord	_	AlignBegin=454668|AlignEnd=454861|Gloss=2Masc.Aor
 17	koːmàː	koːmàː	VERB	_	_	16	comp:aux	_	AlignBegin=454861|AlignEnd=455054|Gloss=go_back
-18	gidaː	gidaː	NOUN	_	Gender=Masc	17	comp:goal	_	AlignBegin=455054|AlignEnd=455247|Gloss=house.Masc
+18	gidaː	gidaː	NOUN	_	Gender=Masc	17	comp:obj@G	_	AlignBegin=455054|AlignEnd=455247|Gloss=house.Masc
 19	//	//	PUNCT	_	_	6	punct	_	AlignBegin=455247|AlignEnd=455440|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_132-132
@@ -2296,7 +2296,7 @@
 # text_en = You would come home to be happy.
 1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=473540|AlignEnd=473738|Gloss=2Masc.Aor
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=473738|AlignEnd=473936|Gloss=go
-3	gidaː	gidaː	NOUN	_	Gender=Masc	2	comp:goal	_	AlignBegin=473936|AlignEnd=474134|Gloss=house.Masc
+3	gidaː	gidaː	NOUN	_	Gender=Masc	2	comp:obj@G	_	AlignBegin=473936|AlignEnd=474134|Gloss=house.Masc
 4	don	don	SCONJ	_	_	1	mod	_	AlignBegin=474134|AlignEnd=474332|Gloss=so_that
 5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	4	comp:obj	_	AlignBegin=474332|AlignEnd=474530|Gloss=2Masc.Aor
 6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=474530|AlignEnd=474728|Gloss=hear
@@ -2310,12 +2310,13 @@
 # sent_timecode = 475540, 476540
 # phonetic_text = bâː yunwàː tah hîrkassheː kà gidaː //
 # text_en = There was no hunger that would drive you away from home.
+# validated_by = B-CARON
 1	bâː	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg
 2	yunwàː	yunwàː	NOUN	_	Gender=Fem	1	subj	_	AlignBegin=475683|AlignEnd=475826|Gloss=hunger.Fem
 3	tah	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	parataxis	_	AlignBegin=475826|AlignEnd=475969|Background=Yes|Gloss=3Fem.Perf.Bkg
 4	hîrkassheː	hit-	VERB	_	Voice=Cau	3	comp:aux	_	AlignBegin=475969|AlignEnd=476112|Gloss=come_out.Cau
-5	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=476112|AlignEnd=476255|Gloss=2Masc
-6	gidaː	gidaː	NOUN	_	Gender=Masc	4	comp:source	_	AlignBegin=476255|AlignEnd=476398|Gloss=house.Masc
+5	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	4	comp:obj@T	_	AlignBegin=476112|AlignEnd=476255|Gloss=2Masc
+6	gidaː	gidaː	NOUN	_	Gender=Masc	4	comp:obj@S	_	AlignBegin=476255|AlignEnd=476398|Gloss=house.Masc
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=476398|AlignEnd=476540|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_137-137

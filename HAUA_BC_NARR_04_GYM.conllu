@@ -362,7 +362,7 @@
 40	nân	nân	ADV	_	_	39	mod	_	AlignBegin=66712|AlignEnd=66896|Deixis=Prox|Gloss=Prox
 41	?//=	?//=	PUNCT	_	_	42	punct	_	AlignBegin=66896|AlignEnd=67080|Gloss=PUNCT
 42	ƙàːraː	ƙàːraː	VERB	_	Mood=Jus	37	parataxis	_	AlignBegin=67080|AlignEnd=67264|Gloss=increase.Jus
-43	gàba	gàba	ADV	_	_	42	comp:goal	_	AlignBegin=67264|AlignEnd=67448|Gloss=in_front
+43	gàba	gàba	ADV	_	_	42	comp:obj@G	_	AlignBegin=67264|AlignEnd=67448|Gloss=in_front
 44	//]	//]	PUNCT	_	_	37	punct	_	AlignBegin=67448|AlignEnd=67632|Gloss=PUNCT
 45	//	//	PUNCT	_	_	19	punct	_	AlignBegin=67632|AlignEnd=67809|Gloss=PUNCT
 
@@ -395,7 +395,7 @@
 4	aː'àː	aː'àː	INTJ	_	_	2	comp:obj	_	AlignBegin=70652|AlignEnd=70812|Gloss=no
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=70812|AlignEnd=70972|Gloss=PUNCT
 6	i	yi	VERB	_	Mood=Jus	4	parataxis	_	AlignBegin=70972|AlignEnd=71132|Gloss=do.Jus
-7	gàba	gàba	ADV	_	_	6	comp:goal	_	AlignBegin=71132|AlignEnd=71292|Gloss=in_front
+7	gàba	gàba	ADV	_	_	6	comp:obj@G	_	AlignBegin=71132|AlignEnd=71292|Gloss=in_front
 8	!//=	!//=	PUNCT	_	_	14	punct	_	AlignBegin=71292|AlignEnd=71452|Gloss=PUNCT
 9	nân	nân	ADV	_	_	14	dislocated@mod	_	AlignBegin=71452|AlignEnd=71612|Deixis=Prox|Gloss=Prox
 10	kuma	kuma	ADV	_	_	9	mod	_	AlignBegin=71612|AlignEnd=71772|Gloss=also
@@ -440,7 +440,7 @@
 4	aː'àː	aː'àː	INTJ	_	_	2	comp:obj	_	AlignBegin=75282|AlignEnd=75460|Gloss=no
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=75460|AlignEnd=75638|Gloss=PUNCT
 6	i	yi	VERB	_	Mood=Jus	4	parataxis	_	AlignBegin=75638|AlignEnd=75816|Gloss=do.Jus
-7	gàba	gàba	ADV	_	_	6	comp:goal	_	AlignBegin=75816|AlignEnd=75994|Gloss=in_front
+7	gàba	gàba	ADV	_	_	6	comp:obj@G	_	AlignBegin=75816|AlignEnd=75994|Gloss=in_front
 8	!//=	!//=	PUNCT	_	_	14	punct	_	AlignBegin=75994|AlignEnd=76172|Gloss=PUNCT
 9	nân	nân	ADV	_	_	14	dislocated@mod	_	AlignBegin=76172|AlignEnd=76350|Deixis=Prox|Gloss=Prox
 10	hwa	hwa	TopPART	_	_	9	discourse	_	AlignBegin=76350|AlignEnd=76528|Gloss=as_for
@@ -691,21 +691,22 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=114710|AlignEnd=114900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_033-033
+# text = kullun < yaːròn nan yat tàhi wurin wargiː indà yâːraː |c sai shì zoː |c à bâsshee shì kaːshiː |c shì koːmoː gidaː |c shinàː ta kuːkaː //
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 116260, 121660
 # phonetic_text = kullun < yaːròn nan yat tàhi wurin wargiː indà yâːraː |c sai shì zoː |c à bâsshì kaːshiː |c shì koːmoː gidaː |c shinàː ta kuːkaː //
-# text = kullun < yaːròn nan yat tàhi wurin wargiː indà yâːraː |c sai shì zoː |c à bâsshee shì kaːshiː |c shì koːmoː gidaː |c shinàː ta kuːkaː //
-# text_en = Each time that boy went to play with the other children, when he went, they would beeat him, he would come back home crying.
+# text_en = Each time that boy went to play with the other children, when he went, they would beat him, he would come back home crying.
+# validated_by = B-CARON
 1	kullun	kullun	ADV	_	_	5	mod	_	AlignBegin=116260|AlignEnd=116460|Gloss=always
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116460|AlignEnd=116660|Gloss=PUNCT
 3	yaːròn	yaːròː	NOUN	_	Definite=Def|Gender=Masc	5	dislocated@subj	_	AlignBegin=116660|AlignEnd=116860|Gloss=boy.Masc.Def
 4	nan	nan	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=116860|AlignEnd=117060|Gloss=Def
 5	yat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=117060|AlignEnd=117260|Background=Yes|Gloss=3Masc.Perf.Bkg
 6	tàhi	tah-	VERB	_	_	5	comp:aux	_	AlignBegin=117260|AlignEnd=117460|Gloss=go
-7	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:goal	_	AlignBegin=117460|AlignEnd=117660|Gloss=place.Masc.Cons
-8	wargiː	wargiː	NOUN	_	Gender=Masc	7	mod	_	AlignBegin=117660|AlignEnd=117860|Gloss=playing.Masc
-9	indà	indà	ADV	_	PronType=Rel	7	conj:dicto	_	AlignBegin=117860|AlignEnd=118060|Gloss=where
+7	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:obj@G	_	AlignBegin=117460|AlignEnd=117660|Gloss=place.Masc.Cons
+8	wargiː	wargiː	NOUN	_	Gender=Masc	7	compound	_	AlignBegin=117660|AlignEnd=117860|Gloss=playing.Masc
+9	indà	indà	ADV	_	PronType=Rel	7	mod	_	AlignBegin=117860|AlignEnd=118060|Gloss=where
 10	yâːra	yaːròː	NOUN	_	Number=Plur	9	mod@relcl	_	AlignBegin=118060|AlignEnd=118260|Gloss=child.Plur|wordform=yâːraː
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=118260|AlignEnd=118460|Gloss=PUNCT
 12	sai	sai	ADV	_	_	13	mod	_	AlignBegin=118460|AlignEnd=118660|Gloss=then
@@ -720,7 +721,7 @@
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=119860|AlignEnd=120060|Gloss=PUNCT
 21	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	16	conj:coord	_	AlignBegin=120060|AlignEnd=120260|Gloss=3Masc.Aor
 22	koːmoː	koːm-	VERB	_	_	21	comp:aux	_	AlignBegin=120260|AlignEnd=120460|Gloss=go_back
-23	gidaː	gidaː	NOUN	_	Gender=Masc	22	comp:goal	_	AlignBegin=120460|AlignEnd=120660|Gloss=house.Masc
+23	gidaː	gidaː	NOUN	_	Gender=Masc	22	comp:obj@G	_	AlignBegin=120460|AlignEnd=120660|Gloss=house.Masc
 24	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=120660|AlignEnd=120860|Gloss=PUNCT
 25	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	21	conj:coord	_	AlignBegin=120860|AlignEnd=121060|Gloss=3Masc.Prog
 26	ta	ta	ADP	_	Aspect=Iter	25	comp:aux	_	AlignBegin=121060|AlignEnd=121260|Gloss=Iter
@@ -1164,7 +1165,7 @@
 12	hay	hat	SCONJ	_	_	10	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=until
 13	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=181314|AlignEnd=181512|Background=Yes|Gloss=3Masc.Perf.Bkg
 14	hitoː	hit-	VERB	_	_	13	comp:aux	_	AlignBegin=181512|AlignEnd=181710|Gloss=come_out
-15	gàriː	gàriː	NOUN	_	Gender=Masc	14	comp:goal	_	AlignBegin=181710|AlignEnd=181908|Gloss=village.Masc
+15	gàriː	gàriː	NOUN	_	Gender=Masc	14	comp:obj@G	_	AlignBegin=181710|AlignEnd=181908|Gloss=village.Masc
 16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=181908|AlignEnd=182100|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_055-055
@@ -1541,7 +1542,7 @@
 4	nan	nan	ADV	_	Definite=Def	3	comp:obj	_	AlignBegin=240506|AlignEnd=240748|Gloss=Def
 5	yak	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=240748|AlignEnd=240990|Background=Yes|Gloss=3Masc.Perf.Bkg
 6	koːmoː	koːm-	VERB	_	_	5	comp:aux	_	AlignBegin=240990|AlignEnd=241232|Gloss=go_back
-7	gidaː	gidaː	NOUN	_	Gender=Masc	6	comp:goal	_	AlignBegin=241232|AlignEnd=241474|Gloss=house.Masc
+7	gidaː	gidaː	NOUN	_	Gender=Masc	6	comp:obj@G	_	AlignBegin=241232|AlignEnd=241474|Gloss=house.Masc
 8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=241474|AlignEnd=241712|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_075-075
@@ -1884,7 +1885,7 @@
 5	sa'ànnan	sa'ànnan	ADV	_	_	6	mod	_	AlignBegin=281400|AlignEnd=281600|Gloss=then
 6	yak	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=281800|AlignEnd=282000|Background=Yes|Gloss=3Masc.Perf.Bkg
 7	koːmàː	koːm-	VERB	_	_	6	comp:aux	_	AlignBegin=282000|AlignEnd=282200|Gloss=go_back
-8	gidaː	gidaː	NOUN	_	Gender=Masc	7	comp:goal	_	AlignBegin=282200|AlignEnd=282400|Gloss=house.Masc
+8	gidaː	gidaː	NOUN	_	Gender=Masc	7	comp:obj@G	_	AlignBegin=282200|AlignEnd=282400|Gloss=house.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=282400|AlignEnd=282600|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_090-090
@@ -2022,7 +2023,7 @@
 4	indàdun	indàduk	ADV	_	PronType=Rel	16	mod	_	AlignBegin=307010|AlignEnd=307240|Gloss=wherever
 5	nish	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	mod@relcl	_	AlignBegin=307470|AlignEnd=307700|Background=Yes|Gloss=1Sing.Perf.Bkg
 6	shìga	shig-	VERB	_	_	5	comp:aux	_	AlignBegin=307700|AlignEnd=307930|Gloss=enter
-7	ruwaː	ruwaː	NOUN	_	Number=Plur	6	comp:goal	_	AlignBegin=307930|AlignEnd=308160|Gloss=water.Plur
+7	ruwaː	ruwaː	NOUN	_	Number=Plur	6	comp:obj@G	_	AlignBegin=307930|AlignEnd=308160|Gloss=water.Plur
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=308160|AlignEnd=308390|Gloss=PUNCT
 9	indàduk	indàduk	ADV	_	PronType=Rel	16	mod	_	AlignBegin=308390|AlignEnd=308620|Gloss=wherever
 10	kunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=2	9	mod@relcl	_	AlignBegin=308850|AlignEnd=309080|Background=Yes|Gloss=2Plur.Perf.Bkg
@@ -2047,7 +2048,7 @@
 # text_en = He went into the water, he went and went, then the water became bright red.
 1	yash	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=312400|AlignEnd=312556|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=312556|AlignEnd=312712|Gloss=enter
-3	ruwaː	ruwaː	NOUN	_	Number=Plur	2	comp:goal	_	AlignBegin=312712|AlignEnd=312868|Gloss=water.Plur
+3	ruwaː	ruwaː	NOUN	_	Number=Plur	2	comp:obj@G	_	AlignBegin=312712|AlignEnd=312868|Gloss=water.Plur
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=312868|AlignEnd=313024|Gloss=PUNCT
 5	yat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=313024|AlignEnd=313180|Background=Yes|Gloss=3Masc.Perf.Bkg
 6	taɓà	taɓ-	VERB	_	_	5	comp:aux	_	AlignBegin=313180|AlignEnd=313336|Gloss=experience
@@ -2479,7 +2480,7 @@
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=376948|AlignEnd=377126|Gloss=PUNCT
 8	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	4	conj:coord	_	AlignBegin=377126|AlignEnd=377304|Background=Yes|Gloss=3Plur.Perf.Bkg
 9	hitoː	hit-	VERB	_	_	8	comp:aux	_	AlignBegin=377304|AlignEnd=377482|Gloss=come_out
-10	wàje	wàje	ADV	_	_	9	comp:goal	_	AlignBegin=377482|AlignEnd=377660|Gloss=outside
+10	wàje	wàje	ADV	_	_	9	comp:obj@G	_	AlignBegin=377482|AlignEnd=377660|Gloss=outside
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=377660|AlignEnd=377840|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_116-116

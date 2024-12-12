@@ -176,7 +176,7 @@
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT
 11	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=40806|AlignEnd=41095|Background=Yes|Gloss=3Masc.Perf.Bkg
 12	zoː	zoː	VERB	_	_	11	comp:aux	_	AlignBegin=41095|AlignEnd=41384|Gloss=go
-13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:goal	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons
+13	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj@G	_	AlignBegin=41384|AlignEnd=41673|Gloss=mouth.Masc.Cons
 14	tabkìː	tabkìː	NOUN	_	Gender=Masc	13	compound	_	AlignBegin=41673|AlignEnd=41962|Gloss=river.Masc
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=41962|AlignEnd=42251|Gloss=PUNCT
 16	sai	sai	ADV	_	ExtPos=ADV	17	mod	_	AlignBegin=42251|AlignEnd=42540|Gloss=then
@@ -204,7 +204,7 @@
 6	bàri	barìː	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=46795|AlignEnd=46910|Gloss=let.Jus
 7	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	comp:obj	_	AlignBegin=46910|AlignEnd=47025|Gloss=1Sing.Aor
 8	shìga	shig-	VERB	_	_	7	comp:aux	_	AlignBegin=47025|AlignEnd=47140|Gloss=enter
-9	ruwân	ruwaː	NOUN	_	Definite=Def|Number=Plur	8	comp:goal	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Def
+9	ruwân	ruwaː	NOUN	_	Definite=Def|Number=Plur	8	comp:obj@G	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Def
 10	ga	ga	DET	_	_	9	det	_	AlignBegin=47255|AlignEnd=47370|Deixis=Prox|Gloss=Prox
 11	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=47370|AlignEnd=47485|Gloss=PUNCT
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=47485|AlignEnd=47600|Gloss=PUNCT
@@ -533,7 +533,7 @@
 5	dìːba	diːb-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=104050|AlignEnd=104286|Gloss=look.Jus
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=104286|AlignEnd=104522|Gloss=PUNCT
 7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus
-8	indà	indà	ADV	_	PronType=Rel	7	comp:goal	_	AlignBegin=104758|AlignEnd=104994|Gloss=where
+8	indà	indà	ADV	_	PronType=Rel	7	comp:obj@G	_	AlignBegin=104758|AlignEnd=104994|Gloss=where
 9	giːwàːyên	giːwaː	NOUN	_	Definite=Def|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Def
 10	can	can	DET	_	_	9	det	_	AlignBegin=105230|AlignEnd=105466|Deixis=Dist|Gloss=Dist+
 11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT
@@ -676,7 +676,7 @@
 1	koːdà	koːdà	SCONJ	_	_	9	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=just_as
 2	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=126634|AlignEnd=126741|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=reach
-4	indà	indà	ADV	_	PronType=Rel	3	comp:goal	_	AlignBegin=126848|AlignEnd=126955|Gloss=where
+4	indà	indà	ADV	_	PronType=Rel	3	comp:obj@G	_	AlignBegin=126848|AlignEnd=126955|Gloss=where
 5-6	shikè	_	_	_	_	_	_	_	_
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=127062|AlignEnd=127169|Gloss=3Masc|wordform=kè
 6	kè	nàː/kè/aC	AUX	_	_	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Background=Yes|Gloss=Pred/Loc.Bkg
