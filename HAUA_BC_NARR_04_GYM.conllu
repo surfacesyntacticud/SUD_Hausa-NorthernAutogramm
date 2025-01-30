@@ -16,7 +16,6 @@
 # phonetic_text = abìnga dai < wasu ƴam maːtaː nàː biyu //
 # text = abìn ga dai < wasu ƴan maːtaː nàː biyu //
 # text_en = There were two girls.
-# validated_by = B-CARON
 1-2	abìnga	_	_	_	_	_	_	_	_
 1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	dislocated@subj	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
 2	ga	ga	DET	_	_	1	det	_	AlignBegin=4000|AlignEnd=4324|Deixis=Prox|Gloss=Prox
@@ -36,7 +35,6 @@
 # phonetic_text = dâː maː ɗiyan kiyoːshiː nàː //
 # text = dâːmaː ɗiyan kiyoːshiː nàː //
 # text_en = They were jealous of each other.
-# validated_by = B-CARON
 1	dâːmaː	dâːmaː	ADV	_	_	4	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly
 2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	comp:pred	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons
 3	kiyoːshiː	kiːshìyaːː	NOUN	_	Number=Plur	2	compound	_	AlignBegin=7682|AlignEnd=7938|Gloss=co-wife.Plur
@@ -159,7 +157,7 @@
 22	sânyaː	sânyaː	NOUN	_	Gender=Fem	21	comp:obj	_	AlignBegin=31442|AlignEnd=31817|Gloss=cow.Fem
 23	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	20	conj:coord	_	AlignBegin=31817|AlignEnd=32192|Gloss=3Masc.Aor
 24	bâː	bâː	VERB	_	_	23	comp:aux	_	AlignBegin=32192|AlignEnd=32567|Gloss=give
-25	wàgga	wàgga	PRON	_	Gender=Fem	24	subj	_	AlignBegin=32567|AlignEnd=32942|Deixis=Prox|Gloss=Fem.Prox
+25	wàgga	wàgga	PRON	_	Gender=Fem	24	comp:obj@R	_	AlignBegin=32567|AlignEnd=32942|Deixis=Prox|Gloss=Fem.Prox
 26	//	//	PUNCT	_	_	11	punct	_	AlignBegin=32942|AlignEnd=33319|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_009-009
@@ -214,7 +212,6 @@
 # phonetic_text = du' àbin dà tas saːmoː < maːtaː nàː //
 # text = du' àbin dà tas saːmoː < maːtaː nàː //
 # text_en = Whatever she got was female.
-# validated_by = B-CARON
 1	du'	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=41258|AlignEnd=41418|Gloss=all
 2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	dislocated@top	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=41578|AlignEnd=41738|Gloss=REL
@@ -316,7 +313,6 @@
 # phonetic_text = tôː dà tat tàhi ɗeːboː maw ruwaː < indà dut tac cèː [ ìn ɗeːboː nân ?//] < sai tà cêː [ aː'àː < keː < indà jàkkankì sunkà shâː ruwaː |c sunkài his'ariː < zâː ki ɗeːboː nân ?//= ƙàːraː gàba //] //
 # text = tôː dà tat tàhi ɗeːboː maw ruwaː < indàdut tac cèː [ ìn ɗeːboː nân ?//] < sai tà cêː [ aː'àː < keː < indà jàkkankì sunkà shâː ruwaː |c sunkài his'ariː < zâː ki ki ?//= ƙàːraː gàba //] //
 # text_en = Well, when she went to fetch water, each time she said "Shall I take it here?", then she said "No! You, you want to take water where your donkeys drank and pissed? Go further!"
-# validated_by = B-CARON
 1	tôː	tôː	INTJ	_	_	19	discourse	_	AlignBegin=59720|AlignEnd=59904|Gloss=well
 2	dà	dà	SCONJ	_	_	19	mod	_	AlignBegin=59904|AlignEnd=60088|Gloss=as
 3	tat	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=60088|AlignEnd=60272|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -378,7 +374,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=68399|AlignEnd=68694|Gloss=PUNCT
 4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=68694|AlignEnd=68989|Gloss=1Sing.Aor
 5	ɗeːboː	ɗiːb-	VERB	_	_	4	comp:aux	_	AlignBegin=68989|AlignEnd=69284|Gloss=scoop
-6	nanânga	nanânga	ADV	_	_	5	comp:obj@S	_	AlignBegin=69284|AlignEnd=69579|Deixis=Prox|Gloss=Prox
+6	nanânga	nanânga	ADV	_	_	5	mod	_	AlignBegin=69284|AlignEnd=69579|Deixis=Prox|Gloss=Prox
 7	?//]	?//]	PUNCT	_	_	4	punct	_	AlignBegin=69579|AlignEnd=69874|Gloss=PUNCT
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=69874|AlignEnd=70172|Gloss=PUNCT
 
@@ -423,7 +419,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=74148|AlignEnd=74248|Gloss=PUNCT
 4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=74248|AlignEnd=74348|Gloss=1Sing.Aor
 5	ɗeːboː	ɗiːb-	VERB	_	_	4	comp:aux	_	AlignBegin=74348|AlignEnd=74448|Gloss=scoop
-6	nân	nân	ADV	_	_	5	comp:obj@S	_	AlignBegin=74448|AlignEnd=74548|Deixis=Prox|Gloss=Prox
+6	nân	nân	ADV	_	_	5	mod	_	AlignBegin=74448|AlignEnd=74548|Deixis=Prox|Gloss=Prox
 7	?//]	?//]	PUNCT	_	_	4	punct	_	AlignBegin=74548|AlignEnd=74648|Gloss=PUNCT
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=74648|AlignEnd=74748|Gloss=PUNCT
 
@@ -532,7 +528,6 @@
 # phonetic_text = tôː dà sunkà zakà gidaː < sai sunkà cêː [ ay < taː mutù //] //
 # text = tôː dà sunkà zakà gidaː < sai sunkà cêː [ ay < taː mutù //] //
 # text_en = Well, when they arrived home, they said "Eh, she has died."
-# validated_by = B-CARON
 1	tôː	tôː	INTJ	_	_	8	discourse	_	AlignBegin=91760|AlignEnd=91942|Gloss=well
 2	dà	dà	SCONJ	_	_	8	mod	_	AlignBegin=91942|AlignEnd=92124|Gloss=as
 3	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=92124|AlignEnd=92306|Background=Yes|Gloss=3Plur.Perf.Bkg
@@ -599,7 +594,6 @@
 # phonetic_text = anàː nan |c anàː nan |c anàː nan < rân nan < sai uwattà tay yi cikìː //
 # text = a nàː nan |r a nàː nan |r a nàː nan < rân nan < sai uwattà tay yi cikìː //
 # text_en = After some time, one day, her [Dove's] mother became pregnant.
-# validated_by = B-CARON
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=100380|AlignEnd=100603|Gloss=4
 2	nàː	nàː/kè	AUX	_	_	19	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def
@@ -631,7 +625,6 @@
 # phonetic_text = shiːkèːnan < dà uwattà tay yi cikìː < ta' àihi wani ɗan yaːròː ɗan ƙàramiː //
 # text = shiːkèːnan < dà uwat =tà tay yi cikìː < ta' àihi wani ɗan yaːròː ɗan ƙàramiː //
 # text_en = OK, when her mother became pregnant, she gave birth to a tiny minute little boy.
-# validated_by = B-CARON
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	10	discourse	_	AlignBegin=105400|AlignEnd=105576|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=105576|AlignEnd=105752|Gloss=PUNCT
 3	dà	dà	SCONJ	_	_	10	mod	_	AlignBegin=105752|AlignEnd=105928|Gloss=as
@@ -658,12 +651,11 @@
 # phonetic_text = ankài mà yaːròː suːnaː //
 # text = ankà yi mà yaːròː suːnaː //
 # text_en = They gave a name to the boy.
-# validated_by = B-CARON
 1-2	ankài	_	_	_	_	_	_	_	_
 1	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=108460|AlignEnd=108680|Background=Yes|Gloss=4.Perf.Bkg
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=108460|AlignEnd=108680|Gloss=do
 3	mà	mà	ADP	_	Case=Dat	2	comp:obl@R	_	AlignBegin=108680|AlignEnd=108900|Gloss=Dat
-4	yaːròː	yaːròː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=108900|AlignEnd=109120|Gloss=boy.Masc
+4	yaːròː	yaːròː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=108900|AlignEnd=109120|Gloss=boy.Masc
 5	suːnaː	suːnaː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=109120|AlignEnd=109340|Gloss=name.Masc
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=109340|AlignEnd=109560|Gloss=PUNCT
 
@@ -697,7 +689,6 @@
 # sent_timecode = 116260, 121660
 # phonetic_text = kullun < yaːròn nan yat tàhi wurin wargiː indà yâːraː |c sai shì zoː |c à bâsshì kaːshiː |c shì koːmoː gidaː |c shinàː ta kuːkaː //
 # text_en = Each time that boy went to play with the other children, when he went, they would beat him, he would come back home crying.
-# validated_by = B-CARON
 1	kullun	kullun	ADV	_	_	5	mod	_	AlignBegin=116260|AlignEnd=116460|Gloss=always
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116460|AlignEnd=116660|Gloss=PUNCT
 3	yaːròn	yaːròː	NOUN	_	Definite=Def|Gender=Masc	5	dislocated@subj	_	AlignBegin=116660|AlignEnd=116860|Gloss=boy.Masc.Def
@@ -758,7 +749,6 @@
 # phonetic_text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cèː mà uwaːtai [ níː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me into this world?"
-# validated_by = B-CARON
 1	sai	sai	ADV	_	_	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=until
 2	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Fem.Def
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=124825|AlignEnd=125038|Gloss=Def
@@ -871,7 +861,6 @@
 # phonetic_text = tac cèː [ ka nàː dà yâː //] //
 # text = tac cèː [ ka nàː dà yâː //] //
 # text_en = She said "You have a sister."
-# validated_by = B-CARON
 1	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=138324|AlignEnd=138437|Background=Yes|Gloss=3Fem.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=138437|AlignEnd=138550|Gloss=say
 3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT
@@ -931,7 +920,6 @@
 # phonetic_text = [ àmmaː lalleː ka nàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
 # text = [ àmmaː lalleː ka nàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
 # text_en = "But of course you had a sister, and everyone knew her in this town."
-# validated_by = B-CARON
 1	[	[	PUNCT	_	_	5	punct	_	AlignBegin=147522|AlignEnd=147698|Gloss=PUNCT
 2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	5	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but
 3	lalleː	lalleː	ADV	_	_	5	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course
@@ -993,7 +981,6 @@
 # phonetic_text = yaz zakà bàːkin gidansù //
 # text = yaz zakà bàːkin gidan =sù //
 # text_en = He went to the entrance of their compound.
-# validated_by = B-CARON
 1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=158560|AlignEnd=158948|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	zakà	zak-	VERB	_	_	1	comp:aux	_	AlignBegin=158948|AlignEnd=159336|Gloss=arrive
 3	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj@G	_	AlignBegin=159336|AlignEnd=159724|Gloss=mouth.Masc.Cons
@@ -1024,7 +1011,6 @@
 # phonetic_text = yac cèː [ ɗan dumèn ga < àlkaːwàliːnaː dà kai < kà gwadàː min indà kùsheːway yâːtaː ta kèː //] //
 # text = yac cèː [ ɗan dumèn ga < àlkaːwàliːnaː dà kai < kà gwadàː min indà kùsheːway yâːtaː takè //] //
 # text_en = He said " Seed, I trust you to show me where my sister's grave is."
-# validated_by = B-CARON
 1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=163620|AlignEnd=163806|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=163806|AlignEnd=163992|Gloss=say
 3	[	[	PUNCT	_	_	13	punct	_	AlignBegin=163992|AlignEnd=164178|Gloss=PUNCT
@@ -1079,7 +1065,6 @@
 # phonetic_text = kullun < shì bâː ɗan dumèn nan ruwaː hay yah hitoː //
 # text = kullun < shì bâː ɗan dumèn nan ruwaː hay yah hitoː //
 # text_en = He kept watering the pumpkin seed until it sprouted.
-# validated_by = B-CARON
 1	kullun	kullun	ADV	_	_	3	mod	_	AlignBegin=170420|AlignEnd=170580|Gloss=always
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=170580|AlignEnd=170740|Gloss=PUNCT
 3	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=170740|AlignEnd=170900|Gloss=3Masc.Aor
@@ -1150,7 +1135,6 @@
 # phonetic_text = a nàː nan < shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text = a nàː nan shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text_en = After a while, it kept creeping until it went out of the village.
-# validated_by = B-CARON
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=178938|AlignEnd=179136|Gloss=4
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=178938|AlignEnd=179136|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def
@@ -1225,18 +1209,18 @@
 # text_en = The pumpkin plant grew and grew and grew.
 1	dumèː	dumèː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=187883|AlignEnd=188040|Gloss=pumpkin.Masc
 2	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=188040|AlignEnd=188197|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	yi	yi	AUX	_	_	2	comp:aux	_	AlignBegin=188197|AlignEnd=188354|Gloss=do
-4	ta	ta	ADP	_	Aspect=Iter	3	comp:aux	_	AlignBegin=188354|AlignEnd=188511|Gloss=Iter
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=188197|AlignEnd=188354|Gloss=do
+4	ta	ta	ADP	_	Aspect=Iter	3	comp:pred	_	AlignBegin=188354|AlignEnd=188511|Gloss=Iter
 5	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	4	comp:obj	_	AlignBegin=188511|AlignEnd=188668|Gloss=creeping.Masc
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=188668|AlignEnd=188825|Gloss=PUNCT
 7	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:redup	_	AlignBegin=188825|AlignEnd=188982|Background=Yes|Gloss=3Masc.Perf.Bkg
-8	yi	yi	AUX	_	_	7	comp:aux	_	AlignBegin=188982|AlignEnd=189139|Gloss=do
+8	yi	yi	VERB	_	_	7	comp:pred	_	AlignBegin=188982|AlignEnd=189139|Gloss=do
 9	ta	ta	ADP	_	Aspect=Iter	8	comp:aux	_	AlignBegin=189139|AlignEnd=189296|Gloss=Iter
 10	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=189296|AlignEnd=189453|Gloss=creeping.Masc
 11	|r	|r	PUNCT	_	_	12	punct	_	AlignBegin=189453|AlignEnd=189610|Gloss=PUNCT
 12	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	conj:redup	_	AlignBegin=189610|AlignEnd=189767|Background=Yes|Gloss=3Masc.Perf.Bkg
-13	yi	yi	AUX	_	_	12	comp:aux	_	AlignBegin=189767|AlignEnd=189924|Gloss=do
-14	ta	ta	ADP	_	Aspect=Iter	13	comp:aux	_	AlignBegin=189924|AlignEnd=190081|Gloss=Iter
+13	yi	yi	VERB	_	_	12	comp:aux	_	AlignBegin=189767|AlignEnd=189924|Gloss=do
+14	ta	ta	ADP	_	Aspect=Iter	13	comp:pred	_	AlignBegin=189924|AlignEnd=190081|Gloss=Iter
 15	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	14	comp:obj	_	AlignBegin=190081|AlignEnd=190238|Gloss=creeping.Masc
 16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=190238|AlignEnd=190394|Gloss=PUNCT
 
@@ -1271,7 +1255,6 @@
 # phonetic_text = koːdà yaz zakà < sai ya' îskèː dumèː bàːkin ruwaː //
 # text = koːdà yaz zakà < sai ya' îskèː dumèː bàːkin ruwaː //
 # text_en = When he arrived, he found the plant on the river bank.
-# validated_by = B-CARON
 1	koːdà	koːdà	SCONJ	_	_	6	mod	_	AlignBegin=196680|AlignEnd=196909|Gloss=just_as
 2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=196909|AlignEnd=197138|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=197138|AlignEnd=197367|Gloss=arrive
@@ -1411,7 +1394,7 @@
 2	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=225777|AlignEnd=226014|Gloss=1Sing.Aor
 3	ɗeːboː	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=226014|AlignEnd=226251|Gloss=scoop
 4	ruwaː	ruwaː	NOUN	_	Number=Plur	3	comp:obj@T	_	AlignBegin=226251|AlignEnd=226488|Gloss=water.Plur
-5	nanânga	nanânga	ADV	_	_	3	comp:obj@S	_	AlignBegin=226488|AlignEnd=226725|Deixis=Prox|Gloss=Prox
+5	nanânga	nanânga	ADV	_	_	3	mod	_	AlignBegin=226488|AlignEnd=226725|Deixis=Prox|Gloss=Prox
 6	?//]	?//]	PUNCT	_	_	2	punct	_	AlignBegin=226725|AlignEnd=226962|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_067-067
@@ -1440,12 +1423,11 @@
 # phonetic_text = [ ìn ɗeːboː ruwaː nanânga ?//]
 # text = [ ìn ɗeːboː ruwaː nanânga ?//]
 # text_en = "Shall I fetch water here?"
-# validated_by = B-CARON
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=229477|AlignEnd=229712|Gloss=PUNCT
 2	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=229712|AlignEnd=229947|Gloss=1Sing.Aor
 3	ɗeːboː	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=229947|AlignEnd=230182|Gloss=scoop
 4	ruwaː	ruwaː	NOUN	_	Number=Plur	3	comp:obj@T	_	AlignBegin=230182|AlignEnd=230417|Gloss=water.Plur
-5	nanânga	nanânga	ADV	_	_	3	comp:obj@S	_	AlignBegin=230417|AlignEnd=230652|Deixis=Prox|Gloss=Prox
+5	nanânga	nanânga	ADV	_	_	3	mod	_	AlignBegin=230417|AlignEnd=230652|Deixis=Prox|Gloss=Prox
 6	?//]	?//]	PUNCT	_	_	2	punct	_	AlignBegin=230652|AlignEnd=230888|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_069-069
@@ -1474,12 +1456,11 @@
 # phonetic_text = [ ìn ɗeːboː ruwaː nanânga ?//]
 # text = [ ìn ɗeːboː ruwaː nanânga ?//]
 # text_en = "Shall I fetch water here?"
-# validated_by = B-CARON
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=233380|AlignEnd=233614|Gloss=PUNCT
 2	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=233614|AlignEnd=233848|Gloss=1Sing.Aor
 3	ɗeːboː	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=233848|AlignEnd=234082|Gloss=scoop
 4	ruwaː	ruwaː	NOUN	_	Number=Plur	3	comp:obj@T	_	AlignBegin=234082|AlignEnd=234316|Gloss=water.Plur
-5	nanânga	nanânga	ADV	_	_	3	comp:obj@S	_	AlignBegin=234316|AlignEnd=234550|Deixis=Prox|Gloss=Prox
+5	nanânga	nanânga	ADV	_	_	3	mod	_	AlignBegin=234316|AlignEnd=234550|Deixis=Prox|Gloss=Prox
 6	?//]	?//]	PUNCT	_	_	2	punct	_	AlignBegin=234550|AlignEnd=234783|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_071-071
@@ -1558,8 +1539,8 @@
 4	gudùː	gud-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=242321|AlignEnd=242524|Gloss=run.Vnoun.Masc
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=242524|AlignEnd=242727|Gloss=PUNCT
 6	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=242727|AlignEnd=242930|Background=Yes|Gloss=3Masc.Perf.Bkg
-7	yoː	yi	AUX	_	_	6	comp:aux	_	AlignBegin=242930|AlignEnd=243133|Gloss=do
-8	ta	ta	ADP	_	Aspect=Iter	7	comp:aux	_	AlignBegin=243133|AlignEnd=243336|Gloss=Iter
+7	yoː	yi	VERB	_	_	6	comp:aux	_	AlignBegin=242930|AlignEnd=243133|Gloss=do.dir
+8	ta	ta	ADP	_	Aspect=Iter	7	comp:pred	_	AlignBegin=243133|AlignEnd=243336|Gloss=Iter
 9	gudùː	gud-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=243336|AlignEnd=243539|Gloss=run.Vnoun.Masc
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=243539|AlignEnd=243742|Gloss=PUNCT
 11	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=243742|AlignEnd=243945|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -1621,8 +1602,8 @@
 4	kuːkaː	kuːkaː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=250198|AlignEnd=250344|Gloss=crying.Masc
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=250344|AlignEnd=250490|Gloss=PUNCT
 6	tay	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:redup	_	AlignBegin=250490|AlignEnd=250636|Background=Yes|Gloss=3Fem.Perf.Bkg
-7	yi	yi	AUX	_	_	6	comp:aux	_	AlignBegin=250636|AlignEnd=250782|Gloss=do
-8	ta	ta	ADP	_	Aspect=Iter	7	comp:aux	_	AlignBegin=250782|AlignEnd=250928|Gloss=Iter
+7	yi	yi	VERB	_	_	6	comp:aux	_	AlignBegin=250636|AlignEnd=250782|Gloss=do
+8	ta	ta	ADP	_	Aspect=Iter	7	comp:pred	_	AlignBegin=250782|AlignEnd=250928|Gloss=Iter
 9	kuːkaː	kuːkaː	NOUN	_	Gender=Masc	8	comp:obj	_	AlignBegin=250928|AlignEnd=251074|Gloss=crying.Masc
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=251074|AlignEnd=251220|Gloss=PUNCT
 11	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	6	conj:coord	_	AlignBegin=251220|AlignEnd=251366|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -1645,7 +1626,6 @@
 # phonetic_text = [ ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâː shi mutuwàː //]
 # text = ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâːshi mutuwàː //
 # text_en = The only one that is left to her, today he's going to die."
-# validated_by = B-CARON
 1	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	2	mod	_	AlignBegin=253727|AlignEnd=253894|Gloss=small.Masc.Cons
 2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Def|Gender=Masc	11	dislocated@top	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Def
 3	ga	ga	DET	_	_	2	det	_	AlignBegin=254061|AlignEnd=254228|Deixis=Prox|Gloss=Prox
@@ -1681,7 +1661,6 @@
 # phonetic_text = a nàː nan < ɗaɗà hay yat taːshì |c ankà baː shì ruwaː |c yah hwalkàː //
 # text = a nàː nan ɗaɗà hay yat taːshì //= ankà baː shì ruwaː //= yah hwalkàː //
 # text_en = After a while, then, he got up, they gave him water, he felt better.
-# validated_by = B-CARON
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=258440|AlignEnd=258588|Gloss=4
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def
@@ -1710,8 +1689,8 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=262072|AlignEnd=262224|Gloss=PUNCT
 3-4	ankài	_	_	_	_	_	_	_	_
 3	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=262224|AlignEnd=262376|Background=Yes|Gloss=4.Perf.Bkg
-4	yi	yi	AUX	_	_	3	comp:aux	_	AlignBegin=262224|AlignEnd=262376|Gloss=do
-5	ta	ta	ADP	_	Aspect=Iter	4	comp:aux	_	AlignBegin=262376|AlignEnd=262528|Gloss=Iter
+4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=262224|AlignEnd=262376|Gloss=do
+5	ta	ta	ADP	_	Aspect=Iter	4	comp:pred	_	AlignBegin=262376|AlignEnd=262528|Gloss=Iter
 6-7	tàmbayàːtai	_	_	_	_	_	_	_	_
 6	tàmbayàː	tambay-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=262528|AlignEnd=262680|Gloss=ask.Vnoun.Fem.Cons
 7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep	_	AlignBegin=262528|AlignEnd=262680|Gloss=3Masc.Gen
@@ -1749,9 +1728,8 @@
 # phonetic_text = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text_en = After a while, after that, when everyone had gone away, he told his mother.
-# validated_by = B-CARON
 1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=265186|AlignEnd=265372|Gloss=4
-2	nàː	nàː	AUX	_	_	18	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=4.Pred/Loc
+2	nàː	nàː	AUX	_	_	18	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT
 5	a	a	PRON	_	Person=4|PronType=Prs	6	subj	_	AlignBegin=265930|AlignEnd=266116|Gloss=4
@@ -1782,7 +1760,6 @@
 # phonetic_text = yac cèː yaː ga indà yâːtai ta kè //
 # text = yac cèː yaː ga indà yâːtai takè //
 # text_en = He said that he had seen where she was.
-# validated_by = B-CARON
 1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=269300|AlignEnd=269451|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=269451|AlignEnd=269602|Gloss=say
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=269602|AlignEnd=269753|Gloss=3Masc.Perf
@@ -1803,7 +1780,6 @@
 # phonetic_text = kuma ta nàː dà rânta bàtà mutù ba //
 # text = kuma ta nàː dà rânta bàtà mutù ba //
 # text_en = And she was alive, she had not died.
-# validated_by = B-CARON
 1	kuma	kuma	CCONJ	_	_	3	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also
 2	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem
 3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=Pred/Loc
