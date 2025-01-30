@@ -77,19 +77,19 @@
 1	tôː	tôː	INTJ	_	_	4	discourse	_	AlignBegin=16590|AlignEnd=16828|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16828|AlignEnd=17066|Gloss=PUNCT
 3	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=17304|AlignEnd=17542|Gloss=3Plur
-4	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=17304|AlignEnd=17542|Gloss=Pred/Loc
+4	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=17304|AlignEnd=17542|Gloss=Pred/Loc
 5	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	AlignBegin=17542|AlignEnd=17780|Gloss=follow.Part.Stat
 6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=17780|AlignEnd=18018|Gloss=with
 7	Bàːgai	Bàːgai	PROPN	_	_	6	comp:obj	_	AlignBegin=18018|AlignEnd=18256|Gloss=Bàːgai
 8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=18256|AlignEnd=18494|Gloss=PUNCT
 9	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=18732|AlignEnd=18970|Gloss=3Plur
-10	nàː	nàː	AUX	_	_	4	parataxis	_	AlignBegin=18732|AlignEnd=18970|Gloss=Pred/Loc
+10	nàː	nàː/kè	AUX	_	_	4	parataxis	_	AlignBegin=18732|AlignEnd=18970|Gloss=Pred/Loc
 11	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	10	comp:pred	_	AlignBegin=18970|AlignEnd=19208|Gloss=follow.Part.Stat
 12	dà	dà	ADP	_	_	11	comp:obl	_	AlignBegin=19208|AlignEnd=19446|Gloss=with
 13	Bàːgai	Bàːgai	PROPN	_	_	12	comp:obj	_	AlignBegin=19446|AlignEnd=19684|Gloss=Bàːgai
 14	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=19684|AlignEnd=19922|Gloss=PUNCT
 15	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	16	subj	_	AlignBegin=20160|AlignEnd=20398|Gloss=3Plur
-16	nàː	nàː	AUX	_	_	10	parataxis	_	AlignBegin=20160|AlignEnd=20398|Gloss=Pred/Loc
+16	nàː	nàː/kè	AUX	_	_	10	parataxis	_	AlignBegin=20160|AlignEnd=20398|Gloss=Pred/Loc
 17	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	16	comp:pred	_	AlignBegin=20398|AlignEnd=20636|Gloss=follow.Part.Stat
 18	dà	dà	ADP	_	_	17	comp:obl	_	AlignBegin=20636|AlignEnd=20874|Gloss=with
 19	Bàːgai	Bàːgai	PROPN	_	_	18	comp:obj	_	AlignBegin=20874|AlignEnd=21112|Gloss=Bàːgai
@@ -104,7 +104,7 @@
 # text_en = Sare was under Gidan Tudu.
 1	Saːrèː	Saːrèː	PROPN	_	_	3	dislocated@subj	_	AlignBegin=22380|AlignEnd=22559|Gloss=Saːrèː
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=22738|AlignEnd=22917|Gloss=3Plur
-3	nàː	nàː/kè/aC	AUX	_	_	0	root	_	AlignBegin=22738|AlignEnd=22917|Gloss=Pred/Loc
+3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=22738|AlignEnd=22917|Gloss=Pred/Loc
 4	bìye	bi	VERB	_	_	3	comp:pred	_	AlignBegin=22917|AlignEnd=23096|Gloss=follow.Part.Stat
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=23096|AlignEnd=23275|Gloss=with
 6	Gidan	Gidan	PROPN	_	_	5	comp:obj	_	AlignBegin=23275|AlignEnd=23454|Gloss=Gidan
@@ -771,7 +771,7 @@
 # text = su nàː baːyuːnai > kaː jiyàː ?//
 # text_en = They are his slaves, you see?
 1	su	su	PRON	_	Number=Plur|Person=3	2	subj	_	AlignBegin=194794|AlignEnd=194968|Gloss=3Plur
-2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=194794|AlignEnd=194968|Gloss=Pred/Loc
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=194794|AlignEnd=194968|Gloss=Pred/Loc
 3-4	baːyuːnai	_	_	_	_	_	_	_	_
 3	baːyuː	baːwàː	NOUN	_	Definite=Cons|Number=Plur	2	comp:pred	_	AlignBegin=194968|AlignEnd=195142|Gloss=slave.Plur.Cons
 4	=nai	=nai	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=194968|AlignEnd=195142|Gloss=3Masc.Gen
@@ -800,11 +800,11 @@
 # text = shi nàː nan //= shi nàː nan |c sai yag ga cikin =sù sunàː aihùwaz zàːrùmmai //
 # text_en = After a while, he saw that among them, there were good warriors.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=198780|AlignEnd=199021|Gloss=3Masc
-2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=199021|AlignEnd=199262|Gloss=Pred/Loc
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=199021|AlignEnd=199262|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=199262|AlignEnd=199503|Gloss=Def
 4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=199503|AlignEnd=199744|Gloss=PUNCT
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=199744|AlignEnd=199985|Gloss=3Masc
-6	nàː	nàː	AUX	_	_	2	parataxis	_	AlignBegin=199985|AlignEnd=200226|Gloss=Pred/Loc
+6	nàː	nàː/kè	AUX	_	_	2	parataxis	_	AlignBegin=199985|AlignEnd=200226|Gloss=Pred/Loc
 7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=200226|AlignEnd=200467|Gloss=Def
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=200467|AlignEnd=200708|Gloss=PUNCT
 9	sai	sai	CCONJ	_	_	10	cc	_	AlignBegin=200708|AlignEnd=200949|Gloss=until
