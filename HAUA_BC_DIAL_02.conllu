@@ -4,11 +4,10 @@
 # sent_timecode = 3700, 12120
 # text = tô lokàcin dà a' àkwai { ƙwàːrin daːjìː || ƙwàːriː dai } cikin ràːhîn nan < ƙàːƙàː naː mutàːneː sukè zàmne ?//
 # text_en = Well, when there were wild animals, wild animals in that valley, how did people live?
-# validated_by = B-CARON
 1	tô	tô	INTJ	_	_	18	discourse	_	AlignBegin=3700|AlignEnd=4066|Gloss=well
 2	lokàcin	lokàciː	NOUN	_	Definite=Cons|Gender=Masc	18	mod	_	AlignBegin=4066|AlignEnd=4432|Gloss=time.Masc
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=4432|AlignEnd=4798|Gloss=REL
-4	a'	nàː/kè/aC	AUX	_	_	3	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Background=Yes|Gloss=Pred/Loc.Bkg
+4	a'	nàː/kè	AUX	_	_	3	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Background=Yes|Gloss=Pred/Loc.Bkg
 5	àkwai	àkwai	PredPART	_	_	4	comp:pred	_	AlignBegin=5164|AlignEnd=5530|Gloss=there_is
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=5530|AlignEnd=5896|Gloss=PUNCT
 7	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc|Number=Plur	5	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal.Cons.Masc
@@ -26,7 +25,7 @@
 19	mutàːneː	mùtunèː	NOUN	_	Number=Plur	21	dislocated@subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur
 20-21	sukè	_	_	_	_	_	_	_	_
 20	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	21	subj	_	AlignBegin=10654|AlignEnd=11020|Gloss=3Plur|wordform=kè
-21	kè	nàː/kè/aC	AUX	_	PronType=Prs	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Background=Yes|Gloss=Pred/Loc.Bkg
+21	kè	nàː/kè	AUX	_	PronType=Prs	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Background=Yes|Gloss=Pred/Loc.Bkg
 22	zàmne	zamn-	VERB	_	VerbForm=Part|Voice=Stat	21	comp:pred	_	AlignBegin=11386|AlignEnd=11752|Gloss=stay/sit.Stat
 23	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT
 
@@ -76,7 +75,6 @@
 # sent_timecode = 132960, 134240
 # text = wanèː àːgìzoː nàː kukà yi mà bisàː ?//
 # text_en = What kind of watch did you keep on your cattle?
-# validated_by = B-CARON
 1	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	2	det	_	AlignBegin=132960|AlignEnd=133143|Gloss=which.Masc
 2	àːgìzoː	aːgiz-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=133143|AlignEnd=133326|Gloss=watch.Vnoun.Masc
 3	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=133326|AlignEnd=133509|Gloss=Foc/Ident
@@ -93,7 +91,6 @@
 # sent_timecode = 135140, 135980
 # text = ƙàːƙàː naː kukà àːgìzon =ta ?//
 # text_en = How did you keep watch on them?
-# validated_by = B-CARON
 1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	comp:pred	_	AlignBegin=135140|AlignEnd=135308|Gloss=how
 2	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=135308|AlignEnd=135476|Gloss=Foc/Ident
 3	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.Prog.Bkg
@@ -190,7 +187,6 @@
 # sent_timecode = 254750, 256385
 # text = niː < su Isshìhi nàː >+ nis sanìː wurìn nan //
 # text_en = Me, it's Isshihi I know there.
-# validated_by = B-CARON
 1	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated@top	_	AlignBegin=254750|AlignEnd=254899|Gloss=1Sing.Nom
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=254899|AlignEnd=255048|Gloss=PUNCT
 3	su	su	DET	_	Number=Plur	4	det	_	AlignBegin=255048|AlignEnd=255197|Gloss=Plur
@@ -218,12 +214,11 @@
 # sent_timecode = 475515, 477025
 # text = shiː ɗai nàː >+ at tàushe dà ita koː ?//
 # text_en = He held her down on his own, did he?
-# validated_by = B-CARON
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=475515|AlignEnd=475666|Gloss=3Masc.Nom
 2	ɗai	ɗai	NUM	_	_	1	mod	_	AlignBegin=475666|AlignEnd=475817|Gloss=one
 3	nàː	naː/taː	AUX	_	PronType=Int	0	root	_	AlignBegin=475817|AlignEnd=475968|Gloss=Foc/Ident
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=475968|AlignEnd=476119|Gloss=PUNCT
-5	at	nàː/kè/aC	AUX	_	_	3	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Background=Yes|Gloss=Pred/Loc.Bkg
+5	at	aC	AUX	_	_	3	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Background=Yes|Gloss=Pred/Loc.Bkg
 6	tàushe	taus-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=476270|AlignEnd=476421|Gloss=tackle.Part
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=476421|AlignEnd=476572|Gloss=with
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=476572|AlignEnd=476723|Gloss=3Fem.Nom
@@ -275,7 +270,6 @@
 # sent_timecode = 542215, 542635
 # text = dà mài asiggìrìː ?//
 # text_en = And spears with metal shafts?
-# validated_by = B-CARON
 1	dà	dà	CCONJ	_	_	2	cc	_	AlignBegin=542215|AlignEnd=542320|Gloss=and
 2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	0	root	_	AlignBegin=542320|AlignEnd=542425|Gloss=holder_of.Sing|Linker=Yes
 3	asiggìrìː	asiggìrìː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=542425|AlignEnd=542530|Gloss=metal_shaft.Masc
