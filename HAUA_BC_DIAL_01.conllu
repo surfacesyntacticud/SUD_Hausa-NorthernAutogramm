@@ -5,7 +5,7 @@
 # phonetic_text = ƙàːƙàː naː ankài hag Galmaːwaː taz zamnàː |c tab bar gusàːwaː koː'ìnaː dà koː'ìnaː ?//
 # text = ƙàːƙàː naː ankà yi hag Galmaːwaː taz zamnàː |c tab bar gusàːwaː koː'ìnaː dà koː'ìnaː ?//
 # text_en = How did they do for Galmahoua to settle and stop moving everywhere?
-1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	comp:pred	_	AlignBegin=3540|AlignEnd=3840|Gloss=how
+1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	subj	_	AlignBegin=3540|AlignEnd=3840|Gloss=how
 2	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=3840|AlignEnd=4140|Gloss=Foc/Ident
 3-4	ankài	_	_	_	_	_	_	_	_
 3	ankà	yaC	AUX	_	Aspect=Perf|Person=4	2	comp:cleft	_	AlignBegin=4140|AlignEnd=4440|Background=Yes|Gloss=4.Perf.Bkg
@@ -314,7 +314,7 @@
 # text_en = Illela, where is Illela?
 1	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	4	dislocated@top	_	AlignBegin=81560|AlignEnd=81716|Gloss=Illela
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=81716|AlignEnd=81872|Gloss=PUNCT
-3	ìnaː	ìnaː	ADV	_	PronType=Int	4	comp:pred	_	AlignBegin=81872|AlignEnd=82028|Gloss=where
+3	ìnaː	ìnaː	ADV	_	PronType=Int	4	subj	_	AlignBegin=81872|AlignEnd=82028|Gloss=where
 4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=82028|AlignEnd=82184|Gloss=Foc/Ident
 5	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=82184|AlignEnd=82340|Gloss=PUNCT
 6	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	8	dislocated@subj	_	AlignBegin=82340|AlignEnd=82496|Gloss=Illela
@@ -436,8 +436,8 @@
 8	nan	nan	ADV	_	Definite=Def	7	comp:pred	_	AlignBegin=127306|AlignEnd=127607|Gloss=Def
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=127607|AlignEnd=127908|Gloss=PUNCT
 10	duy	dukà	DET	_	PronType=Tot	11	det	_	AlignBegin=127908|AlignEnd=128209|Gloss=all
-11	yawanciː	yawanciː	NOUN	_	_	13	subj	_	AlignBegin=128209|AlignEnd=128510|Gloss=majority
-12	Baːgayaːwaː	Baːgayaːwaː	PROPN	_	Number=Plur	13	comp:pred	_	AlignBegin=128510|AlignEnd=128811|Gloss=Baːgayaːwaː
+11	yawanciː	yawanciː	NOUN	_	_	13	dislocated@subj	_	AlignBegin=128209|AlignEnd=128510|Gloss=majority
+12	Baːgayaːwaː	Baːgayaːwaː	PROPN	_	Number=Plur	13	subj	_	AlignBegin=128510|AlignEnd=128811|Gloss=Baːgayaːwaː
 13	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=128811|AlignEnd=129112|Gloss=Foc/Ident
 14	//	//	PUNCT	_	_	13	punct	_	AlignBegin=129112|AlignEnd=129410|Gloss=PUNCT
 
@@ -556,10 +556,10 @@
 17	<	<	PUNCT	_	_	14	punct	_	AlignBegin=154736|AlignEnd=155249|Gloss=PUNCT
 18	dâmaː	dâmaː	ADV	_	_	23	mod	_	AlignBegin=155249|AlignEnd=155762|Gloss=formerly
 19-20	bàːkinsù	_	_	_	_	_	_	_	_
-19	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	23	subj	_	AlignBegin=155762|AlignEnd=156275|Gloss=mouth.Masc.Cons
+19	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	23	dislocated@subj	_	AlignBegin=155762|AlignEnd=156275|Gloss=mouth.Masc.Cons
 20	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=155762|AlignEnd=156275|Gloss=3Plur.Gen
 21	bàː	bàː	ADV	_	Polarity=Neg	23	mod	_	AlignBegin=156275|AlignEnd=156788|Gloss=Neg
-22	ɗai	ɗai	NUM	_	_	23	comp:pred	_	AlignBegin=156788|AlignEnd=157301|Gloss=one
+22	ɗai	ɗai	NUM	_	_	23	subj	_	AlignBegin=156788|AlignEnd=157301|Gloss=one
 23	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=157301|AlignEnd=157814|Gloss=Foc/Ident
 24	ba	ba	ADV	_	Polarity=Neg	23	mod	_	AlignBegin=157814|AlignEnd=158327|Gloss=Neg
 25	//	//	PUNCT	_	_	23	punct	_	AlignBegin=158327|AlignEnd=158834|Gloss=PUNCT
@@ -1548,7 +1548,7 @@
 # phonetic_text = nan nàː nikà biyoːwàː Gaːnà //
 # text = nan nàː nikà biyoːwàː Gaːnà //
 # text_en = I came here on my way to Ghana.
-1	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=343521|AlignEnd=343830|Gloss=Def
+1	nan	nan	ADV	_	Definite=Def	2	subj	_	AlignBegin=343521|AlignEnd=343830|Gloss=Def
 2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=343830|AlignEnd=344139|Gloss=Foc/Ident
 3	nikà	kà	AUX	_	Aspect=Prog|Number=Sing|Person=1	2	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Background=Yes|Gloss=1Sing.Prog.Bkg
 4	biyoːwàː	bi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=344448|AlignEnd=344757|Gloss=follow.Vnoun.Fem
@@ -1577,8 +1577,8 @@
 # text = àmmaː niː sùmoːgàr naː niy yi //
 # text_en = But I was a smuggler.
 1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=348820|AlignEnd=349000|Gloss=but
-2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=349000|AlignEnd=349180|Gloss=1Sing.Nom
-3	sùmoːgàr	sùmoːgàr	NOUN	_	_	4	comp:pred	_	AlignBegin=349180|AlignEnd=349360|Gloss=smuggling
+2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	discourse	_	AlignBegin=349000|AlignEnd=349180|Gloss=1Sing.Nom
+3	sùmoːgàr	sùmoːgàr	NOUN	_	_	4	subj	_	AlignBegin=349180|AlignEnd=349360|Gloss=smuggling
 4	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=349360|AlignEnd=349540|Gloss=Foc/Ident
 5	niy	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=349540|AlignEnd=349720|Background=Yes|Gloss=1Sing.Perf.Bkg
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=349720|AlignEnd=349900|Gloss=do
@@ -1783,7 +1783,7 @@
 # text = tôː àbin dà yas sâː baːmù gàmuwaː dà ƙwàːriː dan aːràːyiː nàː //
 # text_en = Well, the reason why we did not meet with wild animals, is because we were a troup.
 1	tôː	tôː	INTJ	_	_	12	discourse	_	AlignBegin=391060|AlignEnd=391437|Gloss=well
-2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	12	subj	_	AlignBegin=391437|AlignEnd=391814|Gloss=thing.Masc.Cons
+2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	12	dislocated@subj	_	AlignBegin=391437|AlignEnd=391814|Gloss=thing.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=391814|AlignEnd=392191|Gloss=REL
 4	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=392191|AlignEnd=392568|Background=Yes|Gloss=3Masc.Perf.Bkg
 5	sâː	sâː	VERB	_	_	4	comp:aux	_	AlignBegin=392568|AlignEnd=392945|Gloss=put
@@ -1791,7 +1791,7 @@
 7	gàmuwaː	gàm-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=393699|AlignEnd=394076|Gloss=meet.Vnoun.Fem
 8	dà	dà	ADP	_	_	7	comp:obl	_	AlignBegin=394076|AlignEnd=394453|Gloss=with
 9	ƙwàːriː	ƙwaːròː	NOUN	_	Number=Plur	8	comp:obj	_	AlignBegin=394453|AlignEnd=394830|Gloss=animal.Plur
-10	dan	dan	ADP	_	_	12	comp:pred	_	AlignBegin=394830|AlignEnd=395207|Gloss=because
+10	dan	dan	ADP	_	_	12	subj	_	AlignBegin=394830|AlignEnd=395207|Gloss=because
 11	aːràːyiː	aːràːyiː	NOUN	_	Gender=Masc	10	comp:obj	_	AlignBegin=395207|AlignEnd=395584|Gloss=troup.Masc
 12	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=395584|AlignEnd=395961|Gloss=Foc/Ident
 13	//	//	PUNCT	_	_	12	punct	_	AlignBegin=395961|AlignEnd=396340|Gloss=PUNCT
@@ -1816,8 +1816,8 @@
 # phonetic_text = bâː mùtun huɗu nà //= bâː mùtun ukkù //
 # text = bâː mùtun huɗu nàː //= mùtun ukkù //
 # text_en = They were not four, they were not three.
-1	bâː	bâː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=399220|AlignEnd=399387|Gloss=Neg
-2	mùtun	mùtunèː	NOUN	_	Gender=Masc	4	comp:pred	_	AlignBegin=399387|AlignEnd=399554|Gloss=human.Masc
+1	bâː	bâː	ADV	_	Polarity=Neg	4	subj	_	AlignBegin=399220|AlignEnd=399387|Gloss=Neg
+2	mùtun	mùtunèː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=399387|AlignEnd=399554|Gloss=human.Masc
 3	huɗu	huɗu	NUM	_	_	2	mod@num	_	AlignBegin=399554|AlignEnd=399721|Gloss=four
 4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=399721|AlignEnd=399888|Gloss=Foc/Ident
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=399888|AlignEnd=400055|Gloss=PUNCT
@@ -1849,7 +1849,7 @@
 # phonetic_text = aːràːyiː nàː //= yaː hi mùtun dàriː //
 # text = aːràːyiː nàː //= yaː hi mùtun dàriː //
 # text_en = If was a troup of more that a thousand.
-1	aːràːyiː	aːràːyiː	NOUN	_	Gender=Masc	2	comp:pred	_	AlignBegin=403221|AlignEnd=403359|Gloss=troup.Masc
+1	aːràːyiː	aːràːyiː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=403221|AlignEnd=403359|Gloss=troup.Masc
 2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=403359|AlignEnd=403497|Gloss=Foc/Ident
 3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=403497|AlignEnd=403635|Gloss=PUNCT
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=403635|AlignEnd=403773|Gloss=3Masc.Perf
@@ -1865,7 +1865,7 @@
 # phonetic_text = tàhe nàː >+ a kè //
 # text = tàhe nàː >+ akè //
 # text_en = We were walking.
-1	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=404820|AlignEnd=404913|Gloss=walk.Part.Stat
+1	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	subj	_	AlignBegin=404820|AlignEnd=404913|Gloss=walk.Part.Stat
 2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=404913|AlignEnd=405006|Gloss=Foc/Ident
 3	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=405006|AlignEnd=405099|Gloss=PUNCT
 4-5	akè	_	_	_	_	_	_	_	_
@@ -2078,7 +2078,7 @@
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=439196|AlignEnd=439432|Gloss=go
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=439432|AlignEnd=439668|Gloss=PUNCT
 9	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	10	det	_	AlignBegin=439668|AlignEnd=439904|Gloss=which.Masc
-10	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:pred	_	AlignBegin=439904|AlignEnd=440140|Gloss=type.Cons.Masc
+10	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	12	subj	_	AlignBegin=439904|AlignEnd=440140|Gloss=type.Cons.Masc
 11	zamaː	zamn-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	mod	_	AlignBegin=440140|AlignEnd=440376|Gloss=stay/sit.Vnoun.Masc
 12	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=440376|AlignEnd=440612|Gloss=Foc/Ident
 13-14	kukài	_	_	_	_	_	_	_	_
@@ -2113,7 +2113,7 @@
 # phonetic_text = kuɗɗiː nàː mukà bìɗaː //
 # text = kuɗɗiː nàː mukà bìɗaː //
 # text_en = We worked for money.
-1	kuɗɗiː	kuɗɗiː	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=443080|AlignEnd=443304|Gloss=money
+1	kuɗɗiː	kuɗɗiː	NOUN	_	Number=Plur	2	subj	_	AlignBegin=443080|AlignEnd=443304|Gloss=money
 2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=443304|AlignEnd=443528|Gloss=Foc/Ident
 3	mukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=1	2	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Background=Yes|Gloss=1Plur.Prog.Bkg
 4	bìɗaː	biɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=443752|AlignEnd=443976|Gloss=look_for.Vnoun.Fem
@@ -2248,7 +2248,7 @@
 # phonetic_text = sai kà tohoː nàː kai mà kânka sùturàː //
 # text = sai kà tohoː nàː kà yi mà kânka sùturàː //
 # text_en = You would only come back to get yourself some new clothes.
-1	sai	sai	SCONJ	_	_	4	comp:pred	_	AlignBegin=470420|AlignEnd=470622|Gloss=only_if
+1	sai	sai	SCONJ	_	_	4	subj	_	AlignBegin=470420|AlignEnd=470622|Gloss=only_if
 2	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=470622|AlignEnd=470824|Gloss=2Masc.Aor
 3	tohoː	tah-	VERB	_	_	2	comp:aux	_	AlignBegin=470824|AlignEnd=471026|Gloss=go
 4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=471026|AlignEnd=471228|Gloss=Foc/Ident
