@@ -254,7 +254,7 @@
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=70608|AlignEnd=70824|Gloss=PUNCT
 5	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	conj:coord	_	AlignBegin=70824|AlignEnd=71040|Gloss=3Plur.Prog
 6	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=71040|AlignEnd=71256|Gloss=go.Vnoun.Fem
-7	wâggàːshi	wâggàːshi	PRON	_	PronType=Ind	6	comp:obj@G	_	AlignBegin=71256|AlignEnd=71472|Gloss=so_and_so
+7	wâggàːshi	wâggàːshi	PRON	_	PronType=Dem	6	comp:obj@G	_	AlignBegin=71256|AlignEnd=71472|Gloss=so_and_so
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=71688|AlignEnd=71900|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_016-016
@@ -1233,7 +1233,7 @@
 # text_en = You see then.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=284080|AlignEnd=284345|Gloss=1Sing.Perf
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=284345|AlignEnd=284610|Gloss=see
-3	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=Def.Masc
+3	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc|PronType=Dem	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=Def.Masc
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=284875|AlignEnd=285140|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_072-072
@@ -1666,7 +1666,7 @@
 5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT
-8	wànga	wànga	PRON	_	Gender=Masc	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Deixis=Prox|Gloss=Prox.Masc
+8	wànga	wànga	PRON	_	Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Deixis=Prox|Gloss=Prox.Masc
 9	na	na~ta	ADP	_	_	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=that_of|Link=Yes
 10	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	9	comp:obj	_	AlignBegin=360478|AlignEnd=360722|Gloss=child.Plur.Cons
 11	maːtaː	maːtaː	NOUN	_	Number=Plur	10	compound	_	AlignBegin=360722|AlignEnd=360966|Gloss=women
@@ -1839,7 +1839,7 @@
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
 6	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
 7	na	na~ta	ADP	_	_	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=that_of|Link=Yes
-8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Gender=Masc	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Deixis=Dist|Gloss=Dist.Masc
+8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Deixis=Dist|Gloss=Dist.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_111-111
@@ -1923,11 +1923,11 @@
 6	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
 8	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Cons.Fem
-9	wàncân	wàncân	PRON	_	Gender=Masc	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Deixis=Dist|Gloss=Dist.Masc
+9	wàncân	wàncân	PRON	_	Gender=Masc|PronType=Dem	8	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Deixis=Dist|Gloss=Dist.Masc
 10	daban	daban	ADJ	_	_	8	mod	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT
 12	ta	na~ta	ADP	_	Definite=Cons|Gender=Fem	8	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Cons.Fem
-13	wàncân	wàncân	PRON	_	Gender=Masc	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Deixis=Dist|Gloss=Dist.Masc
+13	wàncân	wàncân	PRON	_	Gender=Masc|PronType=Dem	12	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Deixis=Dist|Gloss=Dist.Masc
 14	daban	daban	ADJ	_	_	12	mod	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT
 
