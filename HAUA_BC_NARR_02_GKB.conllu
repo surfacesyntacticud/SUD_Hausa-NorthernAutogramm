@@ -447,8 +447,8 @@
 # text = tôː hm̂ː //
 # text_en = Well er...
 1	tôː	tôː	INTJ	_	_	0	root	_	AlignBegin=103596|AlignEnd=103959|Gloss=well
-2	hm̂ː	hm̂ː	PRON	_	_	1	mod	_	AlignBegin=103959|AlignEnd=104322|Gloss=er
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=104322|AlignEnd=104685|Gloss=PUNCT
+2	hm̂ː	hm̂ː	INTJ	_	_	1	parataxis	_	AlignBegin=103959|AlignEnd=104322|Gloss=er
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=104322|AlignEnd=104685|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_26
 # speaker_id = SP1
@@ -1213,7 +1213,7 @@
 # text_en = Between him and Lion, what was expected happened.
 1-2	tsàkaːninsù	_	_	_	_	_	_	_	_
 1	tsàkaːnin	tsàkaːnin	ADP	_	_	8	mod	_	AlignBegin=250021|AlignEnd=250316|Gloss=between
-2	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=250021|AlignEnd=250316|Gloss=3Plur.Gen
+2	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	1	udep/m	_	AlignBegin=250021|AlignEnd=250316|Gloss=3Plur.Gen
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=250316|AlignEnd=250611|Gloss=PUNCT
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=250611|AlignEnd=250906|Gloss=3Masc.Nom
 5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and

@@ -319,7 +319,7 @@
 5	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=82184|AlignEnd=82340|Gloss=PUNCT
 6	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	8	dislocated@subj	_	AlignBegin=82340|AlignEnd=82496|Gloss=Illela
 7-8	takè	_	_	_	_	_	_	_	_
-7	ta	ta	PRON	_	Gender=Fem|Person=3	8	subj	_	AlignBegin=82652|AlignEnd=82808|Gloss=3Fem
+7	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	subj	_	AlignBegin=82652|AlignEnd=82808|Gloss=3Fem
 8	kè	kè	AUX	_	_	4	comp:cleft	_	AlignBegin=82652|AlignEnd=82808|Background=Yes|Gloss=Pred/Loc.Bkg
 9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=82808|AlignEnd=82960|Gloss=PUNCT
 
@@ -373,7 +373,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 91200, 102380
 # phonetic_text = bàː kaː san < sa'àn nan < dà Ìlleːlàː nan |c dà Gidan tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihwai //
-# text = bàː kaː san < sa'ànnan < dà Ìlleːlàː nan |c dà Gidan Tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihweː =i //
+# text = bàː kaː san < sa'ànnan < dà Ìlleːlàː nan |c dà Gidan Tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihwai //
 # text_en = Don't you know that at that time, Illela, Gidan Tudu and Galmawa, those who are "Bagawaile", all, they were born in Illela.
 1	bàː	bàː	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=91200|AlignEnd=91599|Gloss=Neg
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	23	parataxis@discourse	_	AlignBegin=91599|AlignEnd=91998|Gloss=2Masc.Perf
@@ -402,7 +402,7 @@
 25	ankà	yaC	AUX	_	Aspect=Perf|Person=4	23	comp:cleft	_	AlignBegin=101175|AlignEnd=101574|Background=Yes|Gloss=4.Perf.Bkg
 26-27	àihwai	_	_	_	_	_	_	_	_
 26	àihweː	aiwh-	VERB	_	_	25	comp:aux	_	AlignBegin=101574|AlignEnd=101973|Gloss=give_birth
-27	=shi	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=101574|AlignEnd=101973|Gloss=3Masc
+27	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=101574|AlignEnd=101973|Gloss=3Masc
 28	//	//	PUNCT	_	_	23	punct	_	AlignBegin=101973|AlignEnd=102380|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_024-024
@@ -458,7 +458,7 @@
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=134734|AlignEnd=135056|Gloss=PUNCT
 9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	20	parataxis@discourse	_	AlignBegin=135056|AlignEnd=135378|Gloss=2Masc.Perf
 10	san	sanìː	VERB	_	_	9	comp:aux	_	AlignBegin=135378|AlignEnd=135700|Gloss=know
-11	wa'ànda	wandà	PRON	_	Number=Plur	20	dislocated@top	_	AlignBegin=135700|AlignEnd=136022|Gloss=which.Plur
+11	wa'ànda	wandà	PRON	_	Number=Plur|PronType=Rel	20	dislocated@top	_	AlignBegin=135700|AlignEnd=136022|Gloss=which.Plur
 12	kàmas'	kàmat	ADP	_	_	13	discourse	_	AlignBegin=136022|AlignEnd=136344|Gloss=like
 13	s'àkaːnìn	s'àkaːnìn	ADP	_	_	11	conj:dicto	_	AlignBegin=136344|AlignEnd=136666|Gloss=between
 14	Buːzàːyeː	Buːzuː	PROPN	_	Number=Plur	13	comp:obj	_	AlignBegin=136666|AlignEnd=136988|Gloss=Buzu.Plur
@@ -497,7 +497,7 @@
 13	mahwaːrin	mahwaːriː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:pred	_	AlignBegin=143268|AlignEnd=143549|Gloss=beginning.Masc.Cons
 14-15	bambanciyassù	_	_	_	_	_	_	_	_
 14	bambanciyas	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	13	mod	_	AlignBegin=143549|AlignEnd=143830|Gloss=difference.Fem.Cons
-15	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	udep	_	AlignBegin=143549|AlignEnd=143830|Gloss=3Plur.Gen
+15	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	udep/m	_	AlignBegin=143549|AlignEnd=143830|Gloss=3Plur.Gen
 16	dà	dà	ADP	_	_	14	comp:obl	_	AlignBegin=143830|AlignEnd=144111|Gloss=with
 17	Hausaːwaː	Hausa	PROPN	_	Number=Plur	16	comp:obj	_	AlignBegin=144111|AlignEnd=144392|Gloss=Hausa.Plur
 18	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=144392|AlignEnd=144679|Gloss=PUNCT
@@ -514,7 +514,7 @@
 3	ab	aC	AUX	_	_	2	comp:obj	_	AlignBegin=145031|AlignEnd=145194|Background=Yes|Gloss=Pred/Loc.Bkg
 4-5	bambanciyassù	_	_	_	_	_	_	_	_
 4	bambanciyas	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	3	comp:pred	_	AlignBegin=145194|AlignEnd=145357|Gloss=difference.Fem.Cons
-5	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	udep	_	AlignBegin=145194|AlignEnd=145357|Gloss=3Plur.Gen
+5	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	udep/m	_	AlignBegin=145194|AlignEnd=145357|Gloss=3Plur.Gen
 6	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=145357|AlignEnd=145520|Gloss=with
 7	Hausaːwaː	Hausa	PROPN	_	Number=Plur	6	comp:obj	_	AlignBegin=145520|AlignEnd=145683|Gloss=Hausa.Plur
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=145683|AlignEnd=145843|Gloss=PUNCT
@@ -546,7 +546,7 @@
 8	ab	aC	AUX	_	_	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Background=Yes|Gloss=Pred/Loc.Bkg
 9-10	bambanciyaːtai	_	_	_	_	_	_	_	_
 9	bambanciyaː	bambanciyaː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:pred	_	AlignBegin=151145|AlignEnd=151658|Gloss=difference.Fem.Cons
-10	=tai	=ya	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	9	udep	_	AlignBegin=151145|AlignEnd=151658|Gloss=3Masc.Gen
+10	=tai	=ya	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	9	udep/m	_	AlignBegin=151145|AlignEnd=151658|Gloss=3Masc.Gen
 11	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=151658|AlignEnd=152171|Gloss=with
 12	Bàhaushèː	Hausa	PROPN	_	Gender=Masc	11	comp:obj	_	AlignBegin=152171|AlignEnd=152684|Gloss=Hausa.Masc
 13	<	<	PUNCT	_	_	6	punct	_	AlignBegin=152684|AlignEnd=153197|Gloss=PUNCT
@@ -770,7 +770,7 @@
 # phonetic_text = su nàː baːyuːnai > kaː jiyàː ?//
 # text = su nàː baːyuːnai > kaː jiyàː ?//
 # text_en = They are his slaves, you see?
-1	su	su	PRON	_	Number=Plur|Person=3	2	subj	_	AlignBegin=194794|AlignEnd=194968|Gloss=3Plur
+1	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=194794|AlignEnd=194968|Gloss=3Plur
 2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=194794|AlignEnd=194968|Gloss=Pred/Loc
 3-4	baːyuːnai	_	_	_	_	_	_	_	_
 3	baːyuː	baːwàː	NOUN	_	Definite=Cons|Number=Plur	2	comp:pred	_	AlignBegin=194968|AlignEnd=195142|Gloss=slave.Plur.Cons
@@ -812,7 +812,7 @@
 11	ga	ganiː	VERB	_	_	10	comp:aux	_	AlignBegin=201190|AlignEnd=201431|Gloss=see
 12-13	cikinsù	_	_	_	_	_	_	_	_
 12	cikin	cikin	ADP	_	_	14	mod	_	AlignBegin=201431|AlignEnd=201672|Gloss=inside
-13	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=201431|AlignEnd=201672|Gloss=3Plur.Gen
+13	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	12	udep/m	_	AlignBegin=201431|AlignEnd=201672|Gloss=3Plur.Gen
 14	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=201672|AlignEnd=201913|Gloss=3Plur.Prog
 15	aihùwaz	aih-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=201913|AlignEnd=202154|Gloss=give_birth.Vnoun.Fem.Cons
 16	zàːrùmmai	zaːrùmiː	NOUN	_	Number=Plur	15	udep	_	AlignBegin=202154|AlignEnd=202395|Gloss=brave.Plur
@@ -846,7 +846,7 @@
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=207809|AlignEnd=208116|Gloss=PUNCT
 9-10	cikinsù	_	_	_	_	_	_	_	_
 9	cikin	cikin	ADP	_	_	13	mod	_	AlignBegin=208116|AlignEnd=208423|Gloss=inside
-10	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=208116|AlignEnd=208423|Gloss=3Plur.Gen
+10	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	9	udep/m	_	AlignBegin=208116|AlignEnd=208423|Gloss=3Plur.Gen
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=208423|AlignEnd=208730|Gloss=PUNCT
 12	sai	sai	ADV	_	_	13	mod	_	AlignBegin=208730|AlignEnd=209037|Gloss=until
 13	yag	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=209037|AlignEnd=209344|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -894,7 +894,7 @@
 2	bàutaː	bàutaː	NOUN	_	_	1	subj	_	AlignBegin=217648|AlignEnd=217836|Gloss=slavery
 3-4	s'àkaːníːnai	_	_	_	_	_	_	_	_
 3	s'àkaːniː	s'àkaːnin	NOUN	_	_	1	comp:pred	_	AlignBegin=217836|AlignEnd=218024|Gloss=between
-4	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	mod	_	AlignBegin=217836|AlignEnd=218024|Gloss=3Masc.Gen
+4	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	udep/m	_	AlignBegin=217836|AlignEnd=218024|Gloss=3Masc.Gen
 5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=218024|AlignEnd=218212|Gloss=and
 6	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	conj:coord	_	AlignBegin=218212|AlignEnd=218400|Gloss=3Plur.Nom
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=218400|AlignEnd=218585|Gloss=PUNCT
@@ -1081,7 +1081,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 255400, 260141
 # phonetic_text = àkwai lòːkacìn dà akà sâː ka aikìː |c bàkà ƙiyàː ba |c kuma anàː bâː ka kaːshiː //
-# text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba |c kuma anàː bâː =ka kaːshiː //
+# text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba |c kuma anàː bâː ka kaːshiː //
 # text_en = Sometimes they they would force you to work, you could not refuse, and they beat you.
 1	àkwai	àkwai	PredPART	_	_	9	parataxis@mod	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=255663|AlignEnd=255926|Gloss=time.Masc.Cons
@@ -1098,7 +1098,7 @@
 13	kuma	kuma	ADV	_	_	14	mod	_	AlignBegin=258556|AlignEnd=258819|Gloss=also
 14	anàː	nàː	AUX	_	Aspect=Prog|Person=4	9	conj:coord	_	AlignBegin=258819|AlignEnd=259082|Gloss=4.Prog
 15	bâː	bâː	VERB	_	_	14	comp:aux	_	AlignBegin=259082|AlignEnd=259345|Gloss=give
-16	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	15	comp:obj@R	_	AlignBegin=259345|AlignEnd=259608|Gloss=2Masc.Gen
+16	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	15	comp:obj@R	_	AlignBegin=259345|AlignEnd=259608|Gloss=2Masc.Gen
 17	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	15	comp:obj@T	_	AlignBegin=259608|AlignEnd=259871|Gloss=shit.Masc
 18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=259871|AlignEnd=260141|Gloss=PUNCT
 
@@ -1179,7 +1179,7 @@
 4	baː'à	bâi	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	1	conj:coord	_	AlignBegin=274868|AlignEnd=275146|Gloss=4.Imp.Neg
 5-6	biyànka	_	_	_	_	_	_	_	_
 5	biyàn	biy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=275146|AlignEnd=275424|Gloss=pay.Vnoun.Cons.Masc
-6	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	udep	_	AlignBegin=275146|AlignEnd=275424|Gloss=2Masc.Gen
+6	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	udep/m	_	AlignBegin=275146|AlignEnd=275424|Gloss=2Masc.Gen
 7	kwabòː	kwabòː	NOUN	_	Gender=Masc	5	udep	_	AlignBegin=275424|AlignEnd=275702|Gloss=kobo.Masc
 8	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=275702|AlignEnd=275980|Gloss=PUNCT
 9	baː'à	bâi	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	4	conj:coord	_	AlignBegin=275980|AlignEnd=276258|Gloss=4.Imp.Neg
@@ -1296,7 +1296,7 @@
 # phonetic_text = wànnan naː ga hakà nan //
 # text = wànnan naː ga hakànan //
 # text_en = I have seen it.
-1	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=Def.Masc
+1	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc|PronType=Dem	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=Def.Masc
 2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=299930|AlignEnd=300080|Gloss=1Sing.Perf
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=300080|AlignEnd=300230|Gloss=see
 4	hakànan	hakànan	ADV	_	_	3	comp:pred	_	AlignBegin=300230|AlignEnd=300380|Gloss=thus

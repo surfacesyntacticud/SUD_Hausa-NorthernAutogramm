@@ -66,7 +66,7 @@
 # text_en = Some said this one is more beautiful. Others said that one is more beautiful.
 1	ankà	yaC	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=11970|AlignEnd=12110|Background=Yes|Gloss=4.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=12110|AlignEnd=12250|Gloss=say
-3	wàgga	wàgga	PRON	_	Gender=Fem	4	subj	_	AlignBegin=12250|AlignEnd=12390|Deixis=Prox|Gloss=Fem.Prox
+3	wàgga	wàgga	PRON	_	Gender=Fem|PronType=Dem	4	subj	_	AlignBegin=12250|AlignEnd=12390|Deixis=Prox|Gloss=Fem.Prox
 4	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=12390|AlignEnd=12530|Gloss=3Fem.Perf
 5	hi	hi	VERB	_	_	4	comp:aux	_	AlignBegin=12530|AlignEnd=12670|Gloss=exceed
 6	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=12670|AlignEnd=12810|Gloss=beauty.Masc
@@ -74,7 +74,7 @@
 8	wasu	wani	PRON	_	Definite=Spec|Number=Plur|PronType=Ind	9	subj	_	AlignBegin=12950|AlignEnd=13090|Gloss=some.Plur
 9	sù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis	_	AlignBegin=13090|AlignEnd=13230|Gloss=3Plur.Aor
 10	cêː	cêː	VERB	_	_	9	comp:aux	_	AlignBegin=13230|AlignEnd=13370|Gloss=say
-11	wàccan	wàccan	PRON	_	Gender=Fem	12	subj	_	AlignBegin=13370|AlignEnd=13510|Deixis=Dist|Gloss=Fem.Dist
+11	wàccan	wàccan	PRON	_	Gender=Fem|PronType=Dem	12	subj	_	AlignBegin=13370|AlignEnd=13510|Deixis=Dist|Gloss=Fem.Dist
 12	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=13510|AlignEnd=13650|Gloss=3Fem.Perf
 13	hi	hi	VERB	_	_	12	comp:aux	_	AlignBegin=13650|AlignEnd=13790|Gloss=exceed
 14	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	13	mod	_	AlignBegin=13790|AlignEnd=13930|Gloss=beauty.Masc
@@ -157,7 +157,7 @@
 22	sânyaː	sânyaː	NOUN	_	Gender=Fem	21	comp:obj	_	AlignBegin=31442|AlignEnd=31817|Gloss=cow.Fem
 23	shì	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=3	20	conj:coord	_	AlignBegin=31817|AlignEnd=32192|Gloss=3Masc.Aor
 24	bâː	bâː	VERB	_	_	23	comp:aux	_	AlignBegin=32192|AlignEnd=32567|Gloss=give
-25	wàgga	wàgga	PRON	_	Gender=Fem	24	comp:obj@R	_	AlignBegin=32567|AlignEnd=32942|Deixis=Prox|Gloss=Fem.Prox
+25	wàgga	wàgga	PRON	_	Gender=Fem|PronType=Dem	24	comp:obj@R	_	AlignBegin=32567|AlignEnd=32942|Deixis=Prox|Gloss=Fem.Prox
 26	//	//	PUNCT	_	_	11	punct	_	AlignBegin=32942|AlignEnd=33319|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_009-009
@@ -191,7 +191,7 @@
 # phonetic_text = wàccan tas saːmoː shaːnuː maːtaː |c dà baːyuː maːtaː |c dà koːmiː //
 # text = wàccan tas saːmoː shaːnuː maːtaː |c dà baːyuː maːtaː |c dà koːmiː //
 # text_en = That one had received female cows, female slaves, etc/
-1	wàccan	wàccan	PRON	_	Gender=Fem	2	subj	_	AlignBegin=37100|AlignEnd=37420|Deixis=Dist|Gloss=Fem.Dist
+1	wàccan	wàccan	PRON	_	Gender=Fem|PronType=Dem	2	subj	_	AlignBegin=37100|AlignEnd=37420|Deixis=Dist|Gloss=Fem.Dist
 2	tas	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=37420|AlignEnd=37740|Background=Yes|Gloss=3Fem.Perf.Bkg
 3	saːmoː	saːm-	VERB	_	_	2	comp:aux	_	AlignBegin=37740|AlignEnd=38060|Gloss=receive
 4	shaːnuː	sâː	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=38060|AlignEnd=38380|Gloss=cow.Plur
@@ -231,7 +231,7 @@
 # text_en = Whereas this one, she only got males.
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	dislocated@top	_	AlignBegin=42750|AlignEnd=42904|Gloss=3Fem.Nom
 2	|a	|a	PUNCT	_	_	3	punct	_	AlignBegin=42904|AlignEnd=43058|Gloss=PUNCT
-3	wàgga	wàgga	PRON	_	Gender=Fem	1	conj:appos	_	AlignBegin=43058|AlignEnd=43212|Deixis=Prox|Gloss=Fem.Prox
+3	wàgga	wàgga	PRON	_	Gender=Fem|PronType=Dem	1	conj:appos	_	AlignBegin=43058|AlignEnd=43212|Deixis=Prox|Gloss=Fem.Prox
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=43212|AlignEnd=43366|Gloss=PUNCT
 5	mazaː	namijì	NOUN	_	Number=Plur	0	root	_	AlignBegin=43366|AlignEnd=43520|Gloss=male.Plur
 6	ɗai	ɗai	ADV	_	_	5	mod	_	AlignBegin=43520|AlignEnd=43674|Gloss=only
@@ -272,7 +272,7 @@
 5	tabkìː	tabkìː	NOUN	_	Gender=Masc	4	compound	_	AlignBegin=48796|AlignEnd=49105|Gloss=river.Masc
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=49105|AlignEnd=49414|Gloss=PUNCT
 7	sai	sai	ADV	_	_	9	mod	_	AlignBegin=49414|AlignEnd=49723|Gloss=until
-8	wàccan	wàccan	PRON	_	Gender=Fem	9	subj	_	AlignBegin=49723|AlignEnd=50032|Deixis=Dist|Gloss=Fem.Dist
+8	wàccan	wàccan	PRON	_	Gender=Fem|PronType=Dem	9	subj	_	AlignBegin=49723|AlignEnd=50032|Deixis=Dist|Gloss=Fem.Dist
 9	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=50032|AlignEnd=50341|Background=Yes|Gloss=3Fem.Perf.Bkg
 10	cèː	cêː	VERB	_	_	9	comp:aux	_	AlignBegin=50341|AlignEnd=50650|Gloss=say
 11	mà	mà	ADP	_	Case=Dat	10	comp:obl@R	_	AlignBegin=50650|AlignEnd=50959|Gloss=Dat
@@ -518,7 +518,7 @@
 9	nàː	nàː	AUX	_	Aspect=Prog	0	root	_	AlignBegin=90608|AlignEnd=90780|Gloss=Prog
 10-11	sônta	_	_	_	_	_	_	_	_
 10	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=90780|AlignEnd=90952|Gloss=want.Vnoun.Masc.Cons
-11	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	udep	_	AlignBegin=90780|AlignEnd=90952|Gloss=3Fem.Gen
+11	=ta	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	udep/m	_	AlignBegin=90780|AlignEnd=90952|Gloss=3Fem.Gen
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=90952|AlignEnd=91120|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_025-025
@@ -568,7 +568,7 @@
 2	duk	dukà	DET	_	ExtPos=PRON|PronType=Tot	8	dislocated@comp	_	AlignBegin=96401|AlignEnd=96542|Gloss=all
 3	kòː	kùwa	TopPART	_	_	2	discourse	_	AlignBegin=96542|AlignEnd=96683|Gloss=as_for
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=96683|AlignEnd=96824|Gloss=PUNCT
-5	wàccan	wàccan	PRON	_	Gender=Fem	8	dislocated@subj	_	AlignBegin=96824|AlignEnd=96965|Deixis=Dist|Gloss=Fem.Dist
+5	wàccan	wàccan	PRON	_	Gender=Fem|PronType=Dem	8	dislocated@subj	_	AlignBegin=96824|AlignEnd=96965|Deixis=Dist|Gloss=Fem.Dist
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=96965|AlignEnd=97106|Gloss=PUNCT
 7	dut	dukà	DET	_	ExtPos=PRON|PronType=Tot	8	dislocated@comp	_	AlignBegin=97106|AlignEnd=97247|Gloss=all
 8	tat	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=97247|AlignEnd=97388|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -1020,7 +1020,7 @@
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=164736|AlignEnd=164922|Gloss=PUNCT
 8-9	àlkaːwàliːnaː	_	_	_	_	_	_	_	_
 8	àlkaːwàliː	àlkaːwàliː	NOUN	_	_	13	dislocated@top	_	AlignBegin=164922|AlignEnd=165108|Gloss=pact
-9	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	8	udep	_	AlignBegin=164922|AlignEnd=165108|Gloss=1Sing.Gen
+9	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	8	mod/m@poss	_	AlignBegin=164922|AlignEnd=165108|Gloss=1Sing.Gen
 10	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=165108|AlignEnd=165294|Gloss=with
 11	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	10	comp:obj	_	AlignBegin=165294|AlignEnd=165480|Gloss=2Masc.Nom
 12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=165480|AlignEnd=165666|Gloss=PUNCT
@@ -1379,7 +1379,7 @@
 9	Muːsà	Muːsà	PROPN	_	_	8	vocative	_	AlignBegin=223311|AlignEnd=223621|Gloss=Musa
 10-11	ƙanèːnaː	_	_	_	_	_	_	_	_
 10	ƙanèː	ƙanèː	NOUN	_	Definite=Cons|Gender=Masc	9	conj:appos	_	AlignBegin=223621|AlignEnd=223931|Gloss=younger_brother.Masc.Cons
-11	=na	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	10	mod	_	AlignBegin=223621|AlignEnd=223931|Gloss=1Sing.Gen
+11	=na	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	10	mod/m@poss	_	AlignBegin=223621|AlignEnd=223931|Gloss=1Sing.Gen
 12	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=223931|AlignEnd=224241|Gloss=PUNCT
 13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=224241|AlignEnd=224545|Gloss=PUNCT
 
@@ -1412,7 +1412,7 @@
 6	cinàn	cinyàː	NOUN	_	Definite=Cons|Number=Plur	5	mod	_	AlignBegin=227892|AlignEnd=228078|Gloss=leg.Plur.Cons
 7-8	jàkkainaː	_	_	_	_	_	_	_	_
 7	jàkkai	jaːkiː	NOUN	_	Definite=Cons|Number=Plur	6	mod	_	AlignBegin=228078|AlignEnd=228264|Gloss=donkey.Plur.Cons
-8	=na	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	6	mod	_	AlignBegin=228078|AlignEnd=228264|Gloss=1Sing.Gen
+8	=na	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	6	mod/m@poss	_	AlignBegin=228078|AlignEnd=228264|Gloss=1Sing.Gen
 9	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=228264|AlignEnd=228450|Gloss=PUNCT
 10	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=228450|AlignEnd=228637|Gloss=PUNCT
 
@@ -1507,7 +1507,7 @@
 3	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=238534|AlignEnd=238780|Gloss=1Sing.Nom
 4-5	maƙaːraːtai	_	_	_	_	_	_	_	_
 4	maƙaːraː	maƙaːraː	NOUN	_	Definite=Cons|Gender=Fem	2	comp:pred	_	AlignBegin=238780|AlignEnd=239026|Gloss=complaint.Fem.Cons
-5	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod	_	AlignBegin=238780|AlignEnd=239026|Gloss=3Masc.Gen
+5	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod/m@poss	_	AlignBegin=238780|AlignEnd=239026|Gloss=3Masc.Gen
 6	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=239026|AlignEnd=239273|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_074-074
@@ -1693,7 +1693,7 @@
 5	ta	ta	ADP	_	Aspect=Iter	4	comp:pred	_	AlignBegin=262376|AlignEnd=262528|Gloss=Iter
 6-7	tàmbayàːtai	_	_	_	_	_	_	_	_
 6	tàmbayàː	tambay-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=262528|AlignEnd=262680|Gloss=ask.Vnoun.Fem.Cons
-7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep	_	AlignBegin=262528|AlignEnd=262680|Gloss=3Masc.Gen
+7	=tai	=tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep/m	_	AlignBegin=262528|AlignEnd=262680|Gloss=3Masc.Gen
 8-9	mis	_	_	_	_	_	_	_	_
 8	miː	miː	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=262680|AlignEnd=262832|Gloss=what
 9	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	comp:cleft	_	AlignBegin=262680|AlignEnd=262832|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -2152,7 +2152,7 @@
 5	bar	barìː	VERB	_	_	4	comp:aux	_	AlignBegin=332212|AlignEnd=332430|Gloss=let
 6-7	ganiːnai	_	_	_	_	_	_	_	_
 6	ganiː	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=332430|AlignEnd=332648|Gloss=see.Vnoun.Cons
-7	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep	_	AlignBegin=332430|AlignEnd=332648|Gloss=3Masc.Gen
+7	=nai	=nai	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	udep/m	_	AlignBegin=332430|AlignEnd=332648|Gloss=3Masc.Gen
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=332648|AlignEnd=332866|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_102b-102b
@@ -2323,7 +2323,7 @@
 8	anàː	nàː	AUX	_	Aspect=Prog|Person=4	2	comp:obj	_	AlignBegin=354663|AlignEnd=354816|Gloss=4.Prog
 9-10	kirànka	_	_	_	_	_	_	_	_
 9	kiràn	kiraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=354816|AlignEnd=354969|Gloss=call.Vnoun.Masc.Cons
-10	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	udep	_	AlignBegin=354816|AlignEnd=354969|Gloss=2Masc.Gen
+10	=ka	=ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	udep/m	_	AlignBegin=354816|AlignEnd=354969|Gloss=2Masc.Gen
 11	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=354969|AlignEnd=355122|Gloss=PUNCT
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=355122|AlignEnd=355273|Gloss=PUNCT
 
