@@ -5,12 +5,12 @@
 # phonetic_text = ƙàːƙàː naː ankài hag Galmaːwaː taz zamnàː |c tab bar gusàːwaː koː'ìnaː dà koː'ìnaː ?//
 # text = ƙàːƙàː naː ankà yi hag Galmaːwaː taz zamnàː |c tab bar gusàːwaː koː'ìnaː dà koː'ìnaː ?//
 # text_en = How did they do for Galmahoua to settle and stop moving everywhere?
-1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	subj	_	AlignBegin=3540|AlignEnd=3840|Gloss=how|TokenType=Root
-2	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=3840|AlignEnd=4140|Gloss=Foc/Ident|TokenType=Root
+1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	0	root	_	AlignBegin=3540|AlignEnd=3840|Gloss=how|TokenType=Root
+2	naː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=3840|AlignEnd=4140|Gloss=Foc|TokenType=Root
 3-4	ankài	_	_	_	_	_	_	_	_
-3	ankà	yaC	AUX	_	Aspect=Perf|Person=4	2	comp:cleft	_	AlignBegin=4140|AlignEnd=4440|Background=Yes|Gloss=4.Perf.Bkg|TokenType=Root
+3	ankà	yaC	AUX	_	Aspect=Perf|Person=4	1	comp:cleft	_	AlignBegin=4140|AlignEnd=4440|Background=Yes|Gloss=4.Perf.Bkg|TokenType=Root
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=4140|AlignEnd=4440|Gloss=do|TokenType=Root
-5	hag	hat	SCONJ	_	_	2	mod	_	AlignBegin=4440|AlignEnd=4740|Gloss=until|TokenType=Root
+5	hag	hat	SCONJ	_	_	1	mod	_	AlignBegin=4440|AlignEnd=4740|Gloss=until|TokenType=Root
 6	Galmaːwaː	Galmaːwaː	PROPN	_	_	7	subj	_	AlignBegin=4740|AlignEnd=5040|Gloss=Galmaːwaː|TokenType=Root
 7	taz	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	5	comp:obj	_	AlignBegin=5040|AlignEnd=5340|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
 8	zamnàː	zamn-	VERB	_	_	7	comp:aux	_	AlignBegin=5340|AlignEnd=5640|Gloss=stay/sit|TokenType=Root
@@ -21,7 +21,7 @@
 13	koː'ìnaː	koː'ìnaː	ADV	_	PronType=Ind	12	mod	_	AlignBegin=6840|AlignEnd=7140|Gloss=anywhere|TokenType=Root
 14	dà	dà	CCONJ	_	_	15	cc	_	AlignBegin=7140|AlignEnd=7440|Gloss=and|TokenType=Root
 15	koː'ìnaː	koː'ìnaː	ADV	_	PronType=Ind	13	conj:coord	_	AlignBegin=7440|AlignEnd=7740|Gloss=anywhere|TokenType=Root
-16	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=7740|AlignEnd=8040|Gloss=PUNCT|TokenType=Break
+16	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=7740|AlignEnd=8040|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_002-002
 # speaker_id = SP2
@@ -266,7 +266,7 @@
 # text_en = Formerly, you understand, formerly, whenever they were farming, they would leave and go to Bagai.
 1	dâː	dâː	ADV	_	_	13	mod	_	AlignBegin=71900|AlignEnd=72151|Gloss=formerly|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=72151|AlignEnd=72402|Gloss=PUNCT|TokenType=Break
-3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	13	parataxis@discourse	_	AlignBegin=72402|AlignEnd=72653|Gloss=2Masc.Perf|TokenType=Root
+3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	13	discourse	_	AlignBegin=72402|AlignEnd=72653|Gloss=2Masc.Perf|TokenType=Root
 4	ji	jiyàː	VERB	_	_	3	comp:aux	_	AlignBegin=72653|AlignEnd=72904|Gloss=hear|TokenType=Root
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=72904|AlignEnd=73155|Gloss=PUNCT|TokenType=Break
 6	dâː	dâː	ADV	_	_	13	mod	_	AlignBegin=73155|AlignEnd=73406|Gloss=formerly|TokenType=Root
@@ -312,16 +312,16 @@
 # phonetic_text = Ìlleːlàː < ìnaː nàː >+ Ìlleːlàː ta kè ?//
 # text = Ìlleːlàː < ìnaː nàː >+ Ìlleːlàː takè ?//
 # text_en = Illela, where is Illela?
-1	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	4	dislocated	_	AlignBegin=81560|AlignEnd=81716|Gloss=Illela|TokenType=Root
+1	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	3	dislocated	_	AlignBegin=81560|AlignEnd=81716|Gloss=Illela|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=81716|AlignEnd=81872|Gloss=PUNCT|TokenType=Break
-3	ìnaː	ìnaː	ADV	_	PronType=Int	4	subj	_	AlignBegin=81872|AlignEnd=82028|Gloss=where|TokenType=Root
-4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=82028|AlignEnd=82184|Gloss=Foc/Ident|TokenType=Root
+3	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=81872|AlignEnd=82028|Gloss=where|TokenType=Root
+4	nàː	naː/taː	FocPART	_	_	3	discourse@foc	_	AlignBegin=82028|AlignEnd=82184|Gloss=Foc|TokenType=Root
 5	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=82184|AlignEnd=82340|Gloss=PUNCT|TokenType=Break
 6	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	8	dislocated@subj	_	AlignBegin=82340|AlignEnd=82496|Gloss=Illela|TokenType=Root
 7-8	takè	_	_	_	_	_	_	_	_
 7	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	subj	_	AlignBegin=82652|AlignEnd=82808|Gloss=3Fem|TokenType=Root
-8	kè	kè	AUX	_	_	4	comp:cleft	_	AlignBegin=82652|AlignEnd=82808|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=82808|AlignEnd=82960|Gloss=PUNCT|TokenType=Break
+8	kè	kè	AUX	_	_	3	comp:cleft	_	AlignBegin=82652|AlignEnd=82808|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
+9	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=82808|AlignEnd=82960|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_019-019
 # speaker_id = SP2
@@ -376,7 +376,7 @@
 # text = bàː kaː san < sa'ànnan < dà Ìlleːlàː nan |c dà Gidan Tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihwai //
 # text_en = Don't you know that at that time, Illela, Gidan Tudu and Galmawa, those who are "Bagawaile", all, they were born in Illela.
 1	bàː	bàː	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=91200|AlignEnd=91599|Gloss=Neg|TokenType=Root
-2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	23	parataxis@discourse	_	AlignBegin=91599|AlignEnd=91998|Gloss=2Masc.Perf|TokenType=Root
+2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	23	discourse	_	AlignBegin=91599|AlignEnd=91998|Gloss=2Masc.Perf|TokenType=Root
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=91998|AlignEnd=92397|Gloss=know|TokenType=Root
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=92397|AlignEnd=92796|Gloss=PUNCT|TokenType=Break
 5	sa'ànnan	sa'ànnan	ADV	_	_	23	mod	_	AlignBegin=92796|AlignEnd=93195|Gloss=then|TokenType=Root
@@ -451,12 +451,12 @@
 1	tôː	tôː	INTJ	_	_	20	discourse	_	AlignBegin=132480|AlignEnd=132802|Gloss=well|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=132802|AlignEnd=133124|Gloss=PUNCT|TokenType=Break
 3	wai	wai	ADV	_	_	20	discourse	_	AlignBegin=133124|AlignEnd=133446|Gloss=apparently|TokenType=Root
-4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	20	parataxis@discourse	_	AlignBegin=133446|AlignEnd=133768|Gloss=1Sing.Perf|TokenType=Root
+4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	20	discourse	_	AlignBegin=133446|AlignEnd=133768|Gloss=1Sing.Perf|TokenType=Root
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=133768|AlignEnd=134090|Gloss=hear|TokenType=Root
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=134090|AlignEnd=134412|Gloss=PUNCT|TokenType=Break
 7	yànzu	yànzu	ADV	_	_	20	mod	_	AlignBegin=134412|AlignEnd=134734|Gloss=now|TokenType=Root
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=134734|AlignEnd=135056|Gloss=PUNCT|TokenType=Break
-9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	20	parataxis@discourse	_	AlignBegin=135056|AlignEnd=135378|Gloss=2Masc.Perf|TokenType=Root
+9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	20	discourse	_	AlignBegin=135056|AlignEnd=135378|Gloss=2Masc.Perf|TokenType=Root
 10	san	sanìː	VERB	_	_	9	comp:aux	_	AlignBegin=135378|AlignEnd=135700|Gloss=know|TokenType=Root
 11	wa'ànda	wandà	PRON	_	Number=Plur|PronType=Rel	20	dislocated	_	AlignBegin=135700|AlignEnd=136022|Gloss=which.Plur|TokenType=Root
 12	kàmas'	kàmat	ADP	_	_	13	discourse	_	AlignBegin=136022|AlignEnd=136344|Gloss=like|TokenType=Root
@@ -482,7 +482,7 @@
 # text_en = The Buzu, the way they are, their appearance, the origin of their difference from the Hausa ?
 1	Buːzàːyeː	Buːzuː	PROPN	_	Number=Plur	10	dislocated	_	AlignBegin=139896|AlignEnd=140177|Gloss=Buzu.Plur|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=140177|AlignEnd=140458|Gloss=PUNCT|TokenType=Break
-3	duwwàdà	dukwàdà	ADV	_	PronType=Rel	10	dislocated@mod	_	AlignBegin=140739|AlignEnd=141020|Gloss=way_that|TokenType=Root
+3	duwwàdà	dukwàdà	ADV	_	PronType=Rel	10	mod	_	AlignBegin=140739|AlignEnd=141020|Gloss=way_that|TokenType=Root
 4-5	sukè	_	_	_	_	_	_	_	_
 4	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=141301|AlignEnd=141582|Gloss=3Plur|TokenType=Root|wordform=kè
 5	kè	kè	AUX	_	_	3	mod@relcl	_	AlignBegin=141301|AlignEnd=141582|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
@@ -689,7 +689,7 @@
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	12	dislocated@comp	_	AlignBegin=183763|AlignEnd=183940|Gloss=3Masc.Nom|TokenType=Root
 5	kòː	kùwa	TopPART	_	_	4	discourse	_	AlignBegin=183940|AlignEnd=184117|Gloss=as_for|TokenType=Root
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=184117|AlignEnd=184294|Gloss=PUNCT|TokenType=Break
-7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	parataxis@discourse	_	AlignBegin=184294|AlignEnd=184471|Gloss=2Masc.Perf|TokenType=Root
+7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	discourse	_	AlignBegin=184294|AlignEnd=184471|Gloss=2Masc.Perf|TokenType=Root
 8	ji	jiyàː	VERB	_	_	7	comp:aux	_	AlignBegin=184471|AlignEnd=184648|Gloss=hear|TokenType=Root
 9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=184648|AlignEnd=184825|GE=[|Gloss=PUNCT|TokenType=Break
 10	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	conj:redup	_	AlignBegin=184825|AlignEnd=185002|Gloss=2Masc.Perf|TokenType=Root
@@ -776,7 +776,7 @@
 3	baːyuː	baːwàː	NOUN	_	Definite=Cons|Number=Plur	2	comp:pred	_	AlignBegin=194968|AlignEnd=195142|Gloss=slave.Plur.Cons|TokenType=Root
 4	-nai	-nai	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	3	mod/m@poss	_	AlignBegin=194968|AlignEnd=195142|Gloss=3Masc.Gen|TokenType=InflAff|wordform==nai
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=195142|AlignEnd=195316|Gloss=PUNCT|TokenType=Break
-6	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	parataxis@discourse	_	AlignBegin=195316|AlignEnd=195490|Gloss=2Masc.Perf|TokenType=Root
+6	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	discourse	_	AlignBegin=195316|AlignEnd=195490|Gloss=2Masc.Perf|TokenType=Root
 7	jiyàː	jiyàː	VERB	_	_	6	comp:aux	_	AlignBegin=195490|AlignEnd=195664|Gloss=hear|TokenType=Root
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=195664|AlignEnd=195840|Gloss=PUNCT|TokenType=Break
 
@@ -1118,7 +1118,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 262513, 272133
 # phonetic_text = àkwai lòːkacìn dà kanàː cikin ɗaːkìnka dà dare |c à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
-# text = àkwai lòːkacìn dà ka nàː cikin ɗaːkìnka dà dare |c à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
+# text = àkwai lòːkacìn dà ka nàː cikin ɗaːkìnka dà dare < à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
 # text_en = Sometimes, you were in you room at night, they came where you were, they caught you and took you away to work.
 1	àkwai	àkwai	PredPART	_	_	12	parataxis@mod	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is|TokenType=Root
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=262898|AlignEnd=263283|Gloss=time.Masc.Cons|TokenType=Root
@@ -1131,7 +1131,7 @@
 8	-ka	-ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	7	mod/m@poss	_	AlignBegin=264438|AlignEnd=264823|Gloss=2Masc.Gen|TokenType=InflAff|wordform==ka
 9	dà	dà	ADP	_	_	5	mod	_	AlignBegin=264823|AlignEnd=265208|Gloss=with|TokenType=Root
 10	dare	dare	ADV	_	_	9	comp:obj	_	AlignBegin=265208|AlignEnd=265593|Gloss=night|TokenType=Root
-11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=265593|AlignEnd=265978|Gloss=PUNCT|TokenType=Break
+11	<	<	PUNCT	_	_	12	punct	_	AlignBegin=265593|AlignEnd=265978|Gloss=PUNCT|TokenType=Break
 12	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=265978|AlignEnd=266363|Gloss=4.Aor|TokenType=Root
 13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=266363|AlignEnd=266748|Gloss=arrive|TokenType=Root
 14	indà	indà	ADV	_	PronType=Rel	13	comp:obj@G	_	AlignBegin=266748|AlignEnd=267133|Gloss=where|TokenType=Root
@@ -1548,12 +1548,12 @@
 # phonetic_text = nan nàː nikà biyoːwàː Gaːnà //
 # text = nan nàː nikà biyoːwàː Gaːnà //
 # text_en = I came here on my way to Ghana.
-1	nan	nan	ADV	_	Definite=Def	2	subj	_	AlignBegin=343521|AlignEnd=343830|Gloss=Def|TokenType=Root
-2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=343830|AlignEnd=344139|Gloss=Foc/Ident|TokenType=Root
-3	nikà	kà	AUX	_	Aspect=Prog|Number=Sing|Person=1	2	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Background=Yes|Gloss=1Sing.Prog.Bkg|TokenType=Root
+1	nan	nan	ADV	_	Definite=Def	0	root	_	AlignBegin=343521|AlignEnd=343830|Gloss=Def|TokenType=Root
+2	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=343830|AlignEnd=344139|Gloss=Foc|TokenType=Root
+3	nikà	kà	AUX	_	Aspect=Prog|Number=Sing|Person=1	1	comp:cleft	_	AlignBegin=344139|AlignEnd=344448|Background=Yes|Gloss=1Sing.Prog.Bkg|TokenType=Root
 4	biyoːwàː	bi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=344448|AlignEnd=344757|Gloss=follow.Vnoun.Fem|TokenType=Root
 5	Gaːnà	Gaːnà	PROPN	_	_	4	comp:obj@G	_	AlignBegin=344757|AlignEnd=345066|Gloss=Ghana|TokenType=Root
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=345066|AlignEnd=345377|Gloss=PUNCT|TokenType=Break
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=345066|AlignEnd=345377|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_091-091
 # speaker_id = SP2
@@ -1576,13 +1576,13 @@
 # phonetic_text = àmmaː niː sùmoːgàr naː niy yi //
 # text = àmmaː niː sùmoːgàr naː niy yi //
 # text_en = But I was a smuggler.
-1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=348820|AlignEnd=349000|Gloss=but|TokenType=Root
-2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	discourse	_	AlignBegin=349000|AlignEnd=349180|Gloss=1Sing.Nom|TokenType=Root
-3	sùmoːgàr	sùmoːgàr	NOUN	_	_	4	subj	_	AlignBegin=349180|AlignEnd=349360|Gloss=smuggling|TokenType=Root
-4	naː	naː/taː	AUX	_	_	0	root	_	AlignBegin=349360|AlignEnd=349540|Gloss=Foc/Ident|TokenType=Root
-5	niy	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=349540|AlignEnd=349720|Background=Yes|Gloss=1Sing.Perf.Bkg|TokenType=Root
+1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	3	discourse	_	AlignBegin=348820|AlignEnd=349000|Gloss=but|TokenType=Root
+2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	discourse	_	AlignBegin=349000|AlignEnd=349180|Gloss=1Sing.Nom|TokenType=Root
+3	sùmoːgàr	sùmoːgàr	NOUN	_	_	0	root	_	AlignBegin=349180|AlignEnd=349360|Gloss=smuggling|TokenType=Root
+4	naː	naː/taː	FocPART	_	_	3	discourse@foc	_	AlignBegin=349360|AlignEnd=349540|Gloss=Foc|TokenType=Root
+5	niy	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	comp:cleft	_	AlignBegin=349540|AlignEnd=349720|Background=Yes|Gloss=1Sing.Perf.Bkg|TokenType=Root
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=349720|AlignEnd=349900|Gloss=do|TokenType=Root
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=349900|AlignEnd=350080|Gloss=PUNCT|TokenType=Break
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=349900|AlignEnd=350080|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_093-093
 # speaker_id = SP2
@@ -1865,13 +1865,13 @@
 # phonetic_text = tàhe nàː >+ a kè //
 # text = tàhe nàː >+ akè //
 # text_en = We were walking.
-1	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	subj	_	AlignBegin=404820|AlignEnd=404913|Gloss=walk.Part.Stat|TokenType=Root
-2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=404913|AlignEnd=405006|Gloss=Foc/Ident|TokenType=Root
+1	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	0	root	_	AlignBegin=404820|AlignEnd=404913|Gloss=walk.Part.Stat|TokenType=Root
+2	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=404913|AlignEnd=405006|Gloss=Foc|TokenType=Root
 3	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=405006|AlignEnd=405099|Gloss=PUNCT|TokenType=Break
 4-5	akè	_	_	_	_	_	_	_	_
 4	a	a	PRON	_	Person=4|PronType=Prs	5	subj	_	AlignBegin=405192|AlignEnd=405285|Gloss=4|TokenType=Root|wordform=kè
-5	kè	kè	AUX	_	_	2	comp:cleft	_	AlignBegin=405192|AlignEnd=405285|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=405285|AlignEnd=405380|Gloss=PUNCT|TokenType=Break
+5	kè	kè	AUX	_	_	1	comp:cleft	_	AlignBegin=405192|AlignEnd=405285|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=405285|AlignEnd=405380|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_113-113
 # speaker_id = SP2
@@ -2069,22 +2069,22 @@
 # phonetic_text = tô cân Gaːnà < in kun zoː < wanèː irìn zamaː nàː kukài ?//
 # text = tô cân Gaːnà < in kun zoː < wanèː irìn zamaː nàː kukà yîː ?//
 # text_en = Well there in Ghana, when you went, what kind of life did you have there?
-1	tô	tô	INTJ	_	_	12	discourse	_	AlignBegin=437780|AlignEnd=438016|Gloss=well|TokenType=Root
-2	cân	cân	ADV	_	_	12	mod	_	AlignBegin=438016|AlignEnd=438252|Deixis=Dist|Gloss=Dist|TokenType=Root
+1	tô	tô	INTJ	_	_	10	discourse	_	AlignBegin=437780|AlignEnd=438016|Gloss=well|TokenType=Root
+2	cân	cân	ADV	_	_	10	mod	_	AlignBegin=438016|AlignEnd=438252|Deixis=Dist|Gloss=Dist|TokenType=Root
 3	Gaːnà	Gaːnà	PROPN	_	_	2	conj:appos	_	AlignBegin=438252|AlignEnd=438488|Gloss=Ghana|TokenType=Root
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=438488|AlignEnd=438724|Gloss=PUNCT|TokenType=Break
-5	in	in	SCONJ	_	_	12	mod	_	AlignBegin=438724|AlignEnd=438960|Gloss=if|TokenType=Root
+5	in	in	SCONJ	_	_	10	mod	_	AlignBegin=438724|AlignEnd=438960|Gloss=if|TokenType=Root
 6	kun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2	5	comp:obj	_	AlignBegin=438960|AlignEnd=439196|Gloss=2Plur.Perf|TokenType=Root
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=439196|AlignEnd=439432|Gloss=go|TokenType=Root
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=439432|AlignEnd=439668|Gloss=PUNCT|TokenType=Break
 9	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	10	det	_	AlignBegin=439668|AlignEnd=439904|Gloss=which.Masc|TokenType=Root
-10	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	12	subj	_	AlignBegin=439904|AlignEnd=440140|Gloss=type.Cons.Masc|TokenType=Root
+10	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=439904|AlignEnd=440140|Gloss=type.Cons.Masc|TokenType=Root
 11	zamaː	zamn-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	mod	_	AlignBegin=440140|AlignEnd=440376|Gloss=stay/sit.Vnoun.Masc|TokenType=Root
-12	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=440376|AlignEnd=440612|Gloss=Foc/Ident|TokenType=Root
+12	nàː	naː/taː	FocPART	_	_	10	discourse@foc	_	AlignBegin=440376|AlignEnd=440612|Gloss=Foc|TokenType=Root
 13-14	kukài	_	_	_	_	_	_	_	_
-13	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	12	comp:cleft	_	AlignBegin=440612|AlignEnd=440848|Background=Yes|Gloss=2Plur.Prog.Bkg|TokenType=Root
+13	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	10	comp:cleft	_	AlignBegin=440612|AlignEnd=440848|Background=Yes|Gloss=2Plur.Prog.Bkg|TokenType=Root
 14	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=440612|AlignEnd=440848|Gloss=do.Vnoun.Masc|TokenType=Root
-15	?//	?//	PUNCT	_	_	12	punct	_	AlignBegin=440848|AlignEnd=441080|Gloss=PUNCT|TokenType=Break
+15	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=440848|AlignEnd=441080|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_124-124
 # speaker_id = SP2
@@ -2113,11 +2113,11 @@
 # phonetic_text = kuɗɗiː nàː mukà bìɗaː //
 # text = kuɗɗiː nàː mukà bìɗaː //
 # text_en = We worked for money.
-1	kuɗɗiː	kuɗɗiː	NOUN	_	Number=Plur	2	subj	_	AlignBegin=443080|AlignEnd=443304|Gloss=money|TokenType=Root
-2	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=443304|AlignEnd=443528|Gloss=Foc/Ident|TokenType=Root
-3	mukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=1	2	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Background=Yes|Gloss=1Plur.Prog.Bkg|TokenType=Root
+1	kuɗɗiː	kuɗɗiː	NOUN	_	Number=Plur	0	root	_	AlignBegin=443080|AlignEnd=443304|Gloss=money|TokenType=Root
+2	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=443304|AlignEnd=443528|Gloss=Foc|TokenType=Root
+3	mukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=1	1	comp:cleft	_	AlignBegin=443528|AlignEnd=443752|Background=Yes|Gloss=1Plur.Prog.Bkg|TokenType=Root
 4	bìɗaː	biɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=443752|AlignEnd=443976|Gloss=look_for.Vnoun.Fem|TokenType=Root
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=443976|AlignEnd=444200|Gloss=PUNCT|TokenType=Break
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=443976|AlignEnd=444200|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_127-127
 # speaker_id = SP2
@@ -2248,17 +2248,17 @@
 # phonetic_text = sai kà tohoː nàː kai mà kânka sùturàː //
 # text = sai kà tohoː nàː kà yi mà kânka sùturàː //
 # text_en = You would only come back to get yourself some new clothes.
-1	sai	sai	SCONJ	_	_	4	subj	_	AlignBegin=470420|AlignEnd=470622|Gloss=only_if|TokenType=Root
+1	sai	sai	SCONJ	_	_	0	root	_	AlignBegin=470420|AlignEnd=470622|Gloss=only_if|TokenType=Root
 2	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=470622|AlignEnd=470824|Gloss=2Masc.Aor|TokenType=Root
 3	tohoː	tah-	VERB	_	_	2	comp:aux	_	AlignBegin=470824|AlignEnd=471026|Gloss=go|TokenType=Root
-4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=471026|AlignEnd=471228|Gloss=Foc/Ident|TokenType=Root
+4	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=471026|AlignEnd=471228|Gloss=Foc|TokenType=Root
 5-6	kai	_	_	_	_	_	_	_	_
-5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor|TokenType=Root
+5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	comp:cleft	_	AlignBegin=471228|AlignEnd=471430|Gloss=2Masc.Aor|TokenType=Root
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=471228|AlignEnd=471430|Gloss=do|TokenType=Root
 7	mà	mà	ADP	_	Case=Dat	6	comp:obl@R	_	AlignBegin=471430|AlignEnd=471632|Gloss=Dat|TokenType=Root
 8	kânka	kânka	PRON	_	Gender=Masc|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=471632|AlignEnd=471834|Gloss=2Masc|TokenType=Root
 9	sùturàː	sùturàː	NOUN	_	_	6	comp:obj	_	AlignBegin=471834|AlignEnd=472036|Gloss=clothes|TokenType=Root
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=472036|AlignEnd=472240|Gloss=PUNCT|TokenType=Break
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=472036|AlignEnd=472240|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_01_135-135
 # speaker_id = SP2

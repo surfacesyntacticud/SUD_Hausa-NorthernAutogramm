@@ -265,7 +265,7 @@
 # phonetic_text = kaː ga < sai à cikàː dà saurad dà ad dà sauraː //
 # text = kaː ga < sai à cikàː dà saurad dà ad dà sauraː //
 # text_en = You see, let's fill what remains.
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	parataxis@discourse	_	AlignBegin=50920|AlignEnd=51145|Gloss=2Masc.Perf|TokenType=Root
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	discourse	_	AlignBegin=50920|AlignEnd=51145|Gloss=2Masc.Perf|TokenType=Root
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=51145|AlignEnd=51370|Gloss=see|TokenType=Root
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=51370|AlignEnd=51595|Gloss=PUNCT|TokenType=Break
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=51595|AlignEnd=51820|Gloss=then|TokenType=Root
@@ -353,16 +353,16 @@
 # phonetic_text = da làːbàːrûn nan nàː >+ akà koː yàː musù ita //
 # text = dà làːbàːrûn nan nàː >+ akà koːyàː musù ita //
 # text_en = It's with these tales that they teach them Hausa.
-1	dà	dà	ADP	_	_	4	subj	_	AlignBegin=65463|AlignEnd=65643|Gloss=with|TokenType=Root
+1	dà	dà	ADP	_	_	0	root	_	AlignBegin=65463|AlignEnd=65643|Gloss=with|TokenType=Root
 2	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	1	comp:obj	_	AlignBegin=65643|AlignEnd=65823|Gloss=story.Plur.Def|TokenType=Root
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=65823|AlignEnd=66003|Gloss=Def|TokenType=Root
-4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=66003|AlignEnd=66183|Gloss=Foc/Ident|TokenType=Root
+4	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=66003|AlignEnd=66183|Gloss=Foc|TokenType=Root
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=66183|AlignEnd=66363|Gloss=PUNCT|TokenType=Break
-6	akà	kà	AUX	_	Aspect=Prog|Person=4	4	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+6	akà	kà	AUX	_	Aspect=Prog|Person=4	1	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
 7	koːyàː	koːy-	VERB	_	_	6	comp:aux	_	AlignBegin=66543|AlignEnd=66723|Gloss=teach|TokenType=Root
 8	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	comp:obl@R	_	AlignBegin=66903|AlignEnd=67083|Gloss=3Plur.Dat|TokenType=Root
 9	-ita	-ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp/m:obj	_	AlignBegin=67083|AlignEnd=67263|Gloss=3Fem.Nom|TokenType=InflAff|wordform=ita
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=67263|AlignEnd=67445|Gloss=PUNCT|TokenType=Break
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=67263|AlignEnd=67445|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_20
 # speaker_id = SP1
@@ -519,7 +519,7 @@
 1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=126000|AlignEnd=126288|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=126288|AlignEnd=126576|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	6	punct	_	AlignBegin=126576|AlignEnd=126864|Gloss=PUNCT|TokenType=Break
-4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	parataxis@discourse	_	AlignBegin=126864|AlignEnd=127152|Gloss=1Sing.Aor|TokenType=Root
+4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	discourse	_	AlignBegin=126864|AlignEnd=127152|Gloss=1Sing.Aor|TokenType=Root
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=127152|AlignEnd=127440|Gloss=hear|TokenType=Root
 6	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=127440|AlignEnd=127728|Gloss=there_is.Neg|TokenType=Root
 7	kàreː	kàreː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=127728|AlignEnd=128016|Gloss=dog.Masc|TokenType=Root
@@ -586,7 +586,7 @@
 6	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	3	comp:obj	_	AlignBegin=138620|AlignEnd=138844|Gloss=2Masc.Prog|TokenType=Root
 7	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	6	comp:aux	_	AlignBegin=138844|AlignEnd=139068|Gloss=communal_hunting.Fem|TokenType=Root
 8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=139068|AlignEnd=139292|Gloss=PUNCT|TokenType=Break
-9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	parataxis@discourse	_	AlignBegin=139292|AlignEnd=139516|Gloss=1Sing.Aor|TokenType=Root
+9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	discourse	_	AlignBegin=139292|AlignEnd=139516|Gloss=1Sing.Aor|TokenType=Root
 10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=139516|AlignEnd=139740|Gloss=hear|TokenType=Root
 11	baːbù	baːbù	PredPART	_	Polarity=Neg	6	parataxis	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg|TokenType=Root
 12	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	11	subj	_	AlignBegin=139964|AlignEnd=140188|Gloss=leopard.Fem|TokenType=Root
@@ -665,7 +665,7 @@
 2	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=148934|AlignEnd=149124|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=149124|AlignEnd=149314|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=149314|AlignEnd=149504|Gloss=PUNCT|TokenType=Break
-5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=149504|AlignEnd=149694|Gloss=1Sing.Aor|TokenType=Root
+5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	discourse	_	AlignBegin=149504|AlignEnd=149694|Gloss=1Sing.Aor|TokenType=Root
 6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=149694|AlignEnd=149884|Gloss=hear|TokenType=Root
 7	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=149884|AlignEnd=150074|Gloss=there_is.Neg|TokenType=Root
 8	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	7	subj	_	AlignBegin=150074|AlignEnd=150264|Gloss=leopard.Fem|TokenType=Root
@@ -715,7 +715,7 @@
 2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=156900|AlignEnd=157106|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=157106|AlignEnd=157312|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=157312|AlignEnd=157518|Gloss=PUNCT|TokenType=Break
-5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Aor|TokenType=Root
+5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Aor|TokenType=Root
 6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=157724|AlignEnd=157930|Gloss=hear|TokenType=Root
 7	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=157930|AlignEnd=158136|Gloss=there_is.Neg|TokenType=Root
 8	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=158136|AlignEnd=158342|Gloss=lion.Masc|TokenType=Root
