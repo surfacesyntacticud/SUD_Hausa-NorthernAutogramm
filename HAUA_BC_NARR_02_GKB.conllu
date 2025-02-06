@@ -5,14 +5,14 @@
 # phonetic_text = ham mù zoː gidaː < ani hwaɗàː maː //
 # text = ham mù zoː gidaː < ani hwaɗàː maː //
 # text_en = When we reach home, I'll tell you.
-1	ham	ham	SCONJ	_	_	6	mod	_	AlignBegin=6500|AlignEnd=6667|Gloss=up_to
-2	mù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=6667|AlignEnd=6834|Gloss=1Plur.Aor
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=6834|AlignEnd=7001|Gloss=go
-4	gidaː	gidaː	NOUN	_	Gender=Masc	3	comp:obj@G	_	AlignBegin=7001|AlignEnd=7168|Gloss=house.Masc
+1	ham	ham	SCONJ	_	_	6	mod	_	AlignBegin=6500|AlignEnd=6667|Gloss=up_to|TokenType=Root
+2	mù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=6667|AlignEnd=6834|Gloss=1Plur.Aor|TokenType=Root
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=6834|AlignEnd=7001|Gloss=go|TokenType=Root
+4	gidaː	gidaː	NOUN	_	Gender=Masc	3	comp:obj@G	_	AlignBegin=7001|AlignEnd=7168|Gloss=house.Masc|TokenType=Root
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=7168|AlignEnd=7335|Gloss=PUNCT|TokenType=Break
-6	ani	asu	AUX	_	Mood=Pot|Number=Sing|Person=1	0	root	_	AlignBegin=7335|AlignEnd=7502|Gloss=1Sing.Pot
-7	hwaɗàː	hwaɗ-	VERB	_	_	6	comp:aux	_	AlignBegin=7502|AlignEnd=7669|Gloss=tell
-8	maː	maː	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	7	comp:obl@R	_	AlignBegin=7669|AlignEnd=7836|Gloss=2Masc.Dat
+6	ani	asu	AUX	_	Mood=Pot|Number=Sing|Person=1	0	root	_	AlignBegin=7335|AlignEnd=7502|Gloss=1Sing.Pot|TokenType=Root
+7	hwaɗàː	hwaɗ-	VERB	_	_	6	comp:aux	_	AlignBegin=7502|AlignEnd=7669|Gloss=tell|TokenType=Root
+8	maː	maː	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	7	comp:obl@R	_	AlignBegin=7669|AlignEnd=7836|Gloss=2Masc.Dat|TokenType=Root
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=7836|AlignEnd=8000|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_02
@@ -22,15 +22,15 @@
 # phonetic_text = in kaz zoː < zaːhin kwaːnaː ka kài //
 # text = in kaz zoː < zaːhin kwaːnaː kakà yîː //
 # text_en = As soon as you arrive, you will fall asleep.
-1	in	in	SCONJ	_	_	5	mod	_	AlignBegin=10800|AlignEnd=10976|Gloss=if
-2	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=10976|AlignEnd=11152|Background=Yes|Gloss=2Masc.Perf.Bkg
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=11152|AlignEnd=11328|Gloss=go
+1	in	in	SCONJ	_	_	5	mod	_	AlignBegin=10800|AlignEnd=10976|Gloss=if|TokenType=Root
+2	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=10976|AlignEnd=11152|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=11152|AlignEnd=11328|Gloss=go|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=11328|AlignEnd=11504|Gloss=PUNCT|TokenType=Break
-5	zaːhin	zaːhiː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=11504|AlignEnd=11680|Gloss=heat.Masc
-6	kwaːnaː	kwaːna-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	mod	_	AlignBegin=11680|AlignEnd=11856|Gloss=lie_down.Vnoun.Masc
+5	zaːhin	zaːhiː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=11504|AlignEnd=11680|Gloss=heat.Masc|TokenType=Root
+6	kwaːnaː	kwaːna-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	mod	_	AlignBegin=11680|AlignEnd=11856|Gloss=lie_down.Vnoun.Masc|TokenType=Root
 7-8	ka	_	_	_	_	_	_	_	_
-7	kakà	kà	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=12032|AlignEnd=12208|Background=Yes|Gloss=2Masc.Prog.Bkg
-8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=12032|AlignEnd=12208|Gloss=do.Vnoun.Masc
+7	kakà	kà	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=12032|AlignEnd=12208|Background=Yes|Gloss=2Masc.Prog.Bkg|TokenType=Root
+8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=12032|AlignEnd=12208|Gloss=do.Vnoun.Masc|TokenType=Root
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=12208|AlignEnd=12380|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_03
@@ -40,18 +40,18 @@
 # phonetic_text = aː’àː < kai dai < in kaz zoː < kà tassan //
 # text = aː’àː < kai dai < in kaz zoː < kà tassheː ni //
 # text_en = No, you, when you arrive, you'll wake me up.
-1	aː’àː	aː’àː	INTJ	_	_	10	discourse	_	AlignBegin=12415|AlignEnd=12585|Gloss=no
+1	aː’àː	aː’àː	INTJ	_	_	10	discourse	_	AlignBegin=12415|AlignEnd=12585|Gloss=no|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12585|AlignEnd=12755|Gloss=PUNCT|TokenType=Break
-3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	10	vocative	_	AlignBegin=12755|AlignEnd=12925|Gloss=2Masc.Nom
-4	dai	dai	TopPART	_	_	3	discourse	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed
+3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	10	vocative	_	AlignBegin=12755|AlignEnd=12925|Gloss=2Masc.Nom|TokenType=Root
+4	dai	dai	TopPART	_	_	3	discourse	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed|TokenType=Root
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=13095|AlignEnd=13265|Gloss=PUNCT|TokenType=Break
-6	in	in	SCONJ	_	_	10	mod	_	AlignBegin=13265|AlignEnd=13435|Gloss=if
-7	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=13435|AlignEnd=13605|Background=Yes|Gloss=2Masc.Perf.Bkg
-8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=13605|AlignEnd=13775|Gloss=go
+6	in	in	SCONJ	_	_	10	mod	_	AlignBegin=13265|AlignEnd=13435|Gloss=if|TokenType=Root
+7	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=13435|AlignEnd=13605|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=13605|AlignEnd=13775|Gloss=go|TokenType=Root
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=13775|AlignEnd=13945|Gloss=PUNCT|TokenType=Break
-10	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=13945|AlignEnd=14115|Gloss=2Masc.Aor
+10	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=13945|AlignEnd=14115|Gloss=2Masc.Aor|TokenType=Root
 11-12	tassan	_	_	_	_	_	_	_	_
-11	tassheː	taːs-	VERB	_	Voice=Cau	10	comp:aux	_	AlignBegin=14115|AlignEnd=14285|Gloss=stand.Cau
+11	tassheː	taːs-	VERB	_	Voice=Cau	10	comp:aux	_	AlignBegin=14115|AlignEnd=14285|Gloss=stand.Cau|TokenType=Root
 12	-ni	-ni	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp/m:obj	_	AlignBegin=14115|AlignEnd=14285|Gloss=1Sing|TokenType=InflAff|wordform=ni
 13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=14285|AlignEnd=14455|Gloss=PUNCT|TokenType=Break
 
@@ -62,14 +62,14 @@
 # phonetic_text = koː nai kwaːnaː kà tassan //
 # text = koː naː yi kwaːnaː kà tassheː ni //
 # text_en = Even if I'm sleeping, wake me up!
-1	koː	koː	SCONJ	_	_	5	mod	_	AlignBegin=20150|AlignEnd=20330|Gloss=even_if
+1	koː	koː	SCONJ	_	_	5	mod	_	AlignBegin=20150|AlignEnd=20330|Gloss=even_if|TokenType=Root
 2-3	nai	_	_	_	_	_	_	_	_
-2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=20330|AlignEnd=20510|Gloss=1Sing.Perf
-3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=20330|AlignEnd=20510|Gloss=do
-4	kwaːnaː	kwaːn-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=20510|AlignEnd=20690|Gloss=spend_night.Vnoun.Masc
-5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=20690|AlignEnd=20870|Gloss=2Masc.Aor
+2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=20330|AlignEnd=20510|Gloss=1Sing.Perf|TokenType=Root
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=20330|AlignEnd=20510|Gloss=do|TokenType=Root
+4	kwaːnaː	kwaːn-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=20510|AlignEnd=20690|Gloss=spend_night.Vnoun.Masc|TokenType=Root
+5	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=20690|AlignEnd=20870|Gloss=2Masc.Aor|TokenType=Root
 6-7	tassan	_	_	_	_	_	_	_	_
-6	tassheː	taːs-	VERB	_	Voice=Cau	5	comp:aux	_	AlignBegin=20870|AlignEnd=21050|Gloss=stand.Cau
+6	tassheː	taːs-	VERB	_	Voice=Cau	5	comp:aux	_	AlignBegin=20870|AlignEnd=21050|Gloss=stand.Cau|TokenType=Root
 7	-ni	-ni	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp/m:obj	_	AlignBegin=20870|AlignEnd=21050|Gloss=1Sing|TokenType=InflAff|wordform=ni
 8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=21050|AlignEnd=21230|Gloss=PUNCT|TokenType=Break
 
@@ -80,12 +80,12 @@
 # phonetic_text = tôː niː < in nim mânceː ?//
 # text = tôː niː < in nim mânceː ?//
 # text_en = Well me, if I forget?
-1	tôː	tôː	INTJ	_	_	4	discourse	_	AlignBegin=24575|AlignEnd=24764|Gloss=well
-2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	mod	_	AlignBegin=24764|AlignEnd=24953|Gloss=1Sing.Nom
+1	tôː	tôː	INTJ	_	_	4	discourse	_	AlignBegin=24575|AlignEnd=24764|Gloss=well|TokenType=Root
+2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	mod	_	AlignBegin=24764|AlignEnd=24953|Gloss=1Sing.Nom|TokenType=Root
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=24953|AlignEnd=25142|Gloss=PUNCT|TokenType=Break
-4	in	in	SCONJ	_	_	0	root	_	AlignBegin=25142|AlignEnd=25331|Gloss=if
-5	nim	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=25331|AlignEnd=25520|Background=Yes|Gloss=1Sing.Perf.Bkg
-6	mânceː	mant-	VERB	_	_	5	comp:aux	_	AlignBegin=25520|AlignEnd=25709|Gloss=forget
+4	in	in	SCONJ	_	_	0	root	_	AlignBegin=25142|AlignEnd=25331|Gloss=if|TokenType=Root
+5	nim	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=25331|AlignEnd=25520|Background=Yes|Gloss=1Sing.Perf.Bkg|TokenType=Root
+6	mânceː	mant-	VERB	_	_	5	comp:aux	_	AlignBegin=25520|AlignEnd=25709|Gloss=forget|TokenType=Root
 7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=25709|AlignEnd=25895|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_06
@@ -95,8 +95,8 @@
 # phonetic_text = baːkà mânceːwà //
 # text = baːkà mânceːwà //
 # text_en = You won't forget.
-1	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=28170|AlignEnd=28470|Gloss=2Masc.Imp.Neg
-2	mânceːwà	mant-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=28470|AlignEnd=28770|Gloss=forget.Vnoun.Fem
+1	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=28170|AlignEnd=28470|Gloss=2Masc.Imp.Neg|TokenType=Root
+2	mânceːwà	mant-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=28470|AlignEnd=28770|Gloss=forget.Vnoun.Fem|TokenType=Root
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=28770|AlignEnd=29070|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_07
@@ -106,20 +106,20 @@
 # phonetic_text = kuma in kam mânceː < { àkwai || dà } wata raːnaː < sai mù koːmoː //
 # text = kuma in kam mânceː < àkwai || dà wata raːnaː < sai mù koːmoː //
 # text_en = And if you forget, another day, we'll resume.
-1	kuma	kuma	ADV	_	_	13	mod	_	AlignBegin=29070|AlignEnd=29209|Gloss=also
-2	in	in	SCONJ	_	_	13	mod	_	AlignBegin=29209|AlignEnd=29348|Gloss=if
-3	kam	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=29348|AlignEnd=29487|Background=Yes|Gloss=2Masc.Perf.Bkg
-4	mânceː	mant-	VERB	_	_	3	comp:aux	_	AlignBegin=29487|AlignEnd=29626|Gloss=forget
+1	kuma	kuma	ADV	_	_	13	mod	_	AlignBegin=29070|AlignEnd=29209|Gloss=also|TokenType=Root
+2	in	in	SCONJ	_	_	13	mod	_	AlignBegin=29209|AlignEnd=29348|Gloss=if|TokenType=Root
+3	kam	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=29348|AlignEnd=29487|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+4	mânceː	mant-	VERB	_	_	3	comp:aux	_	AlignBegin=29487|AlignEnd=29626|Gloss=forget|TokenType=Root
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=29626|AlignEnd=29765|Gloss=PUNCT|TokenType=Break
-6	àkwai	àkwai	PredPART	_	_	13	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is
+6	àkwai	àkwai	PredPART	_	_	13	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is|TokenType=Root
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=30043|AlignEnd=30182|GE=[|Gloss=PUNCT|TokenType=Break
-8	dà	dà	ADP	_	_	6	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with
-9	wata	wani	DET	_	Gender=Fem|PronType=Ind	10	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem
-10	raːnaː	raːnaː	NOUN	_	Gender=Fem	8	comp:obj	_	AlignBegin=30599|AlignEnd=30738|Gloss=day.Fem
+8	dà	dà	ADP	_	_	6	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with|TokenType=Root
+9	wata	wani	DET	_	Gender=Fem|PronType=Ind	10	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem|TokenType=Root
+10	raːnaː	raːnaː	NOUN	_	Gender=Fem	8	comp:obj	_	AlignBegin=30599|AlignEnd=30738|Gloss=day.Fem|TokenType=Root
 11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=30738|AlignEnd=30877|Gloss=PUNCT|TokenType=Break
-12	sai	sai	ADV	_	_	13	mod	_	AlignBegin=30877|AlignEnd=31016|Gloss=then
-13	mù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=31016|AlignEnd=31155|Gloss=1Plur.Aor
-14	koːmoː	koːm-	VERB	_	_	13	comp:aux	_	AlignBegin=31155|AlignEnd=31294|Gloss=go_back
+12	sai	sai	ADV	_	_	13	mod	_	AlignBegin=30877|AlignEnd=31016|Gloss=then|TokenType=Root
+13	mù	shì	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=31016|AlignEnd=31155|Gloss=1Plur.Aor|TokenType=Root
+14	koːmoː	koːm-	VERB	_	_	13	comp:aux	_	AlignBegin=31155|AlignEnd=31294|Gloss=go_back|TokenType=Root
 15	//	//	PUNCT	_	_	13	punct	_	AlignBegin=31294|AlignEnd=31440|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_08
@@ -129,25 +129,25 @@
 # phonetic_text = indà kaː tunàː dai < yànzu in kai yi tà < in yas soː < kaː san dà yawàː //
 # text = indà kaː tunàː dai < yànzu in kay yiː tà < in yas soː < kaː san dà yawàː //
 # text_en = If you remember indeed, now if you tell the tales, if he wants, you know many.
-1	indà	indà	SCONJ	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=if
-2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=34938|AlignEnd=35141|Gloss=2Masc.Perf
-3	tunàː	tun-	VERB	_	_	2	comp:aux	_	AlignBegin=35141|AlignEnd=35344|Gloss=remember
-4	dai	dai	TopPART	_	_	2	discourse	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed
+1	indà	indà	SCONJ	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=if|TokenType=Root
+2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=34938|AlignEnd=35141|Gloss=2Masc.Perf|TokenType=Root
+3	tunàː	tun-	VERB	_	_	2	comp:aux	_	AlignBegin=35141|AlignEnd=35344|Gloss=remember|TokenType=Root
+4	dai	dai	TopPART	_	_	2	discourse	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed|TokenType=Root
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=35547|AlignEnd=35750|Gloss=PUNCT|TokenType=Break
-6	yànzu	yànzu	ADV	_	_	16	mod	_	AlignBegin=35750|AlignEnd=35953|Gloss=now
-7	in	in	SCONJ	_	_	16	mod	_	AlignBegin=35953|AlignEnd=36156|Gloss=if
-8	kay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=36156|AlignEnd=36359|Background=Yes|Gloss=2Masc.Perf.Bkg
-9	yiː	yi	VERB	_	_	8	comp:aux	_	AlignBegin=36359|AlignEnd=36562|Gloss=do
+6	yànzu	yànzu	ADV	_	_	16	mod	_	AlignBegin=35750|AlignEnd=35953|Gloss=now|TokenType=Root
+7	in	in	SCONJ	_	_	16	mod	_	AlignBegin=35953|AlignEnd=36156|Gloss=if|TokenType=Root
+8	kay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=36156|AlignEnd=36359|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+9	yiː	yi	VERB	_	_	8	comp:aux	_	AlignBegin=36359|AlignEnd=36562|Gloss=do|TokenType=Root
 10	-tà	-ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp/m:obj	_	AlignBegin=36562|AlignEnd=36765|Gloss=3Fem|TokenType=InflAff|wordform=tà
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=36765|AlignEnd=36968|Gloss=PUNCT|TokenType=Break
-12	in	in	SCONJ	_	_	16	mod	_	AlignBegin=36968|AlignEnd=37171|Gloss=if
-13	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=37171|AlignEnd=37374|Background=Yes|Gloss=3Masc.Perf.Bkg
-14	soː	soː	VERB	_	_	13	comp:aux	_	AlignBegin=37374|AlignEnd=37577|Gloss=want
+12	in	in	SCONJ	_	_	16	mod	_	AlignBegin=36968|AlignEnd=37171|Gloss=if|TokenType=Root
+13	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=37171|AlignEnd=37374|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+14	soː	soː	VERB	_	_	13	comp:aux	_	AlignBegin=37374|AlignEnd=37577|Gloss=want|TokenType=Root
 15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=37577|AlignEnd=37780|Gloss=PUNCT|TokenType=Break
-16	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=37780|AlignEnd=37983|Gloss=2Masc.Perf
-17	san	sanìː	VERB	_	_	16	comp:aux	_	AlignBegin=37983|AlignEnd=38186|Gloss=know
-18	dà	dà	ADP	_	_	17	comp:obj	_	AlignBegin=38186|AlignEnd=38389|Gloss=with
-19	yawàː	yawàː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=38389|AlignEnd=38592|Gloss=quantity.Masc
+16	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=37780|AlignEnd=37983|Gloss=2Masc.Perf|TokenType=Root
+17	san	sanìː	VERB	_	_	16	comp:aux	_	AlignBegin=37983|AlignEnd=38186|Gloss=know|TokenType=Root
+18	dà	dà	ADP	_	_	17	comp:obj	_	AlignBegin=38186|AlignEnd=38389|Gloss=with|TokenType=Root
+19	yawàː	yawàː	NOUN	_	Gender=Masc	18	comp:obj	_	AlignBegin=38389|AlignEnd=38592|Gloss=quantity.Masc|TokenType=Root
 20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=38592|AlignEnd=38802|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_09
@@ -157,11 +157,11 @@
 # phonetic_text = gaːtunnàː < yawàː gàreː sù //
 # text = gaːtunnàː < yawàː gàreː sù //
 # text_en = The tales are many.
-1	gaːtunnàː	gàːtanàː	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=38802|AlignEnd=39024|Gloss=tale.Plur
+1	gaːtunnàː	gàːtanàː	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=38802|AlignEnd=39024|Gloss=tale.Plur|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=39024|AlignEnd=39246|Gloss=PUNCT|TokenType=Break
-3	yawàː	yawàː	NOUN	_	Gender=Masc	4	subj	_	AlignBegin=39246|AlignEnd=39468|Gloss=quantity.Masc
-4	gàreː	gà	ADP	_	_	0	root	_	AlignBegin=39468|AlignEnd=39690|Gloss=by
-5	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=39690|AlignEnd=39912|Gloss=3Plur
+3	yawàː	yawàː	NOUN	_	Gender=Masc	4	subj	_	AlignBegin=39246|AlignEnd=39468|Gloss=quantity.Masc|TokenType=Root
+4	gàreː	gà	ADP	_	_	0	root	_	AlignBegin=39468|AlignEnd=39690|Gloss=by|TokenType=Root
+5	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=39690|AlignEnd=39912|Gloss=3Plur|TokenType=Root
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=39912|AlignEnd=40136|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_10
@@ -171,28 +171,28 @@
 # phonetic_text = in yas soː < im munkà zoː < kà hwaɗoː min wata |c sai ìn zakàː |c ìn ƙaːràː gà wàccân taːkàː //
 # text = in yas soː < im munkà zoː < kà hwaɗoː min wata |c sai ìn zakà |c ìn ƙaːràː gà wàccân taːkà //
 # text_en = If he wants, when we go, you will tell me more, and I will come (back) and add more to yours.
-1	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40136|AlignEnd=40302|Gloss=if
-2	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=40302|AlignEnd=40468|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	soː	soː	VERB	_	_	2	comp:aux	_	AlignBegin=40468|AlignEnd=40634|Gloss=want
+1	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40136|AlignEnd=40302|Gloss=if|TokenType=Root
+2	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=40302|AlignEnd=40468|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	soː	soː	VERB	_	_	2	comp:aux	_	AlignBegin=40468|AlignEnd=40634|Gloss=want|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40634|AlignEnd=40800|Gloss=PUNCT|TokenType=Break
-5	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40800|AlignEnd=40966|Gloss=if|wordform=im
-6	munkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=40966|AlignEnd=41132|Background=Yes|Gloss=1Plur.Perf.Bkg
-7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=41132|AlignEnd=41298|Gloss=go
+5	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40800|AlignEnd=40966|Gloss=if|TokenType=Root|wordform=im
+6	munkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=40966|AlignEnd=41132|Background=Yes|Gloss=1Plur.Perf.Bkg|TokenType=Root
+7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=41132|AlignEnd=41298|Gloss=go|TokenType=Root
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=41298|AlignEnd=41464|Gloss=PUNCT|TokenType=Break
-9	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=41464|AlignEnd=41630|Gloss=2Masc.Aor
-10	hwaɗoː	hwa-	VERB	_	_	9	comp:aux	_	AlignBegin=41630|AlignEnd=41796|Gloss=tell
-11	min	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obl@R	_	AlignBegin=41796|AlignEnd=41962|Gloss=1Sing.Dat
-12	wata	wani	PRON	_	Gender=Fem|PronType=Ind	10	comp:obj	_	AlignBegin=41962|AlignEnd=42128|Gloss=some.Fem
+9	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=41464|AlignEnd=41630|Gloss=2Masc.Aor|TokenType=Root
+10	hwaɗoː	hwa-	VERB	_	_	9	comp:aux	_	AlignBegin=41630|AlignEnd=41796|Gloss=tell|TokenType=Root
+11	min	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obl@R	_	AlignBegin=41796|AlignEnd=41962|Gloss=1Sing.Dat|TokenType=Root
+12	wata	wani	PRON	_	Gender=Fem|PronType=Ind	10	comp:obj	_	AlignBegin=41962|AlignEnd=42128|Gloss=some.Fem|TokenType=Root
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=42128|AlignEnd=42294|Gloss=PUNCT|TokenType=Break
-14	sai	sai	ADV	_	_	15	mod	_	AlignBegin=42294|AlignEnd=42460|Gloss=then
-15	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	conj:coord	_	AlignBegin=42460|AlignEnd=42626|Gloss=1Sing.Aor
-16	zakà	zak-	VERB	_	_	15	comp:aux	_	AlignBegin=42626|AlignEnd=42792|Gloss=arrive
+14	sai	sai	ADV	_	_	15	mod	_	AlignBegin=42294|AlignEnd=42460|Gloss=then|TokenType=Root
+15	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	conj:coord	_	AlignBegin=42460|AlignEnd=42626|Gloss=1Sing.Aor|TokenType=Root
+16	zakà	zak-	VERB	_	_	15	comp:aux	_	AlignBegin=42626|AlignEnd=42792|Gloss=arrive|TokenType=Root
 17	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=42792|AlignEnd=42958|Gloss=PUNCT|TokenType=Break
-18	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	15	conj:coord	_	AlignBegin=42958|AlignEnd=43124|Gloss=1Sing.Aor
-19	ƙaːràː	ƙaːr-	VERB	_	_	18	comp:aux	_	AlignBegin=43124|AlignEnd=43290|Gloss=increase
-20	gà	gà	ADP	_	_	19	comp:obl	_	AlignBegin=43290|AlignEnd=43456|Gloss=by
-21	wàccân	wàccân	DET	_	Gender=Fem	22	det	_	AlignBegin=43456|AlignEnd=43622|Deixis=Prox|Gloss=Dist.Fem
-22	taːkà	taːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	20	comp:obj	_	AlignBegin=43622|AlignEnd=43788|Gloss=2Masc.Gen
+18	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	15	conj:coord	_	AlignBegin=42958|AlignEnd=43124|Gloss=1Sing.Aor|TokenType=Root
+19	ƙaːràː	ƙaːr-	VERB	_	_	18	comp:aux	_	AlignBegin=43124|AlignEnd=43290|Gloss=increase|TokenType=Root
+20	gà	gà	ADP	_	_	19	comp:obl	_	AlignBegin=43290|AlignEnd=43456|Gloss=by|TokenType=Root
+21	wàccân	wàccân	DET	_	Gender=Fem	22	det	_	AlignBegin=43456|AlignEnd=43622|Deixis=Prox|Gloss=Dist.Fem|TokenType=Root
+22	taːkà	taːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	20	comp:obj	_	AlignBegin=43622|AlignEnd=43788|Gloss=2Masc.Gen|TokenType=Root
 23	//	//	PUNCT	_	_	9	punct	_	AlignBegin=43788|AlignEnd=43963|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_11
@@ -202,9 +202,9 @@
 # phonetic_text = hakà nan yaː hi //
 # text = hakànan yaː hi //
 # text_en = It's better like that.
-1	hakànan	hakànan	ADV	_	_	2	dislocated@mod	_	AlignBegin=43963|AlignEnd=44230|Gloss=thus
-2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=44497|AlignEnd=44764|Gloss=3Masc.Perf
-3	hi	hi	VERB	_	_	2	comp:aux	_	AlignBegin=44764|AlignEnd=45031|Gloss=exceed
+1	hakànan	hakànan	ADV	_	_	2	dislocated@mod	_	AlignBegin=43963|AlignEnd=44230|Gloss=thus|TokenType=Root
+2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=44497|AlignEnd=44764|Gloss=3Masc.Perf|TokenType=Root
+3	hi	hi	VERB	_	_	2	comp:aux	_	AlignBegin=44764|AlignEnd=45031|Gloss=exceed|TokenType=Root
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45031|AlignEnd=45299|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_12
@@ -214,10 +214,10 @@
 # phonetic_text = kà yi ɗaː dai //
 # text = kà yi ɗaː dai //
 # text_en = Just do a small one.
-1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Gloss=2Masc.Aor
-2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=45443|AlignEnd=45587|Gloss=do
-3	ɗaː	ɗaː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=45587|AlignEnd=45731|Gloss=child.Masc
-4	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed
+1	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Gloss=2Masc.Aor|TokenType=Root
+2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=45443|AlignEnd=45587|Gloss=do|TokenType=Root
+3	ɗaː	ɗaː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=45587|AlignEnd=45731|Gloss=child.Masc|TokenType=Root
+4	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed|TokenType=Root
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=45875|AlignEnd=46018|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_13
@@ -227,18 +227,18 @@
 # phonetic_text = idan niz zoː |c kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text = ìdan niz zoː |c kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text_en = When I go, and you remember, I will come (back) and add more.
-1	ìdan	ìdan	SCONJ	_	_	9	mod	_	AlignBegin=46018|AlignEnd=46200|Gloss=if
-2	niz	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=46200|AlignEnd=46382|Background=Yes|Gloss=1Sing.Perf.Bkg
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=46382|AlignEnd=46564|Gloss=go
+1	ìdan	ìdan	SCONJ	_	_	9	mod	_	AlignBegin=46018|AlignEnd=46200|Gloss=if|TokenType=Root
+2	niz	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=46200|AlignEnd=46382|Background=Yes|Gloss=1Sing.Perf.Bkg|TokenType=Root
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=46382|AlignEnd=46564|Gloss=go|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=46564|AlignEnd=46746|Gloss=PUNCT|TokenType=Break
-5	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=46746|AlignEnd=46928|Background=Yes|Gloss=2Masc.Perf.Bkg
-6	tunoː	tun-	VERB	_	_	5	comp:aux	_	AlignBegin=46928|AlignEnd=47110|Gloss=remember
+5	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=46746|AlignEnd=46928|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+6	tunoː	tun-	VERB	_	_	5	comp:aux	_	AlignBegin=46928|AlignEnd=47110|Gloss=remember|TokenType=Root
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=47110|AlignEnd=47292|Gloss=PUNCT|TokenType=Break
-8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=47292|AlignEnd=47474|Gloss=then
-9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=47474|AlignEnd=47656|Gloss=1Sing.Aor
-10	zakà	zak-	VERB	_	_	9	comp:aux	_	AlignBegin=47656|AlignEnd=47838|Gloss=arrive
-11	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	conj:coord	_	AlignBegin=47838|AlignEnd=48020|Gloss=1Sing.Aor
-12	ƙaːràː	ƙaːr-	VERB	_	_	11	comp:aux	_	AlignBegin=48020|AlignEnd=48202|Gloss=increase
+8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=47292|AlignEnd=47474|Gloss=then|TokenType=Root
+9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=47474|AlignEnd=47656|Gloss=1Sing.Aor|TokenType=Root
+10	zakà	zak-	VERB	_	_	9	comp:aux	_	AlignBegin=47656|AlignEnd=47838|Gloss=arrive|TokenType=Root
+11	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	conj:coord	_	AlignBegin=47838|AlignEnd=48020|Gloss=1Sing.Aor|TokenType=Root
+12	ƙaːràː	ƙaːr-	VERB	_	_	11	comp:aux	_	AlignBegin=48020|AlignEnd=48202|Gloss=increase|TokenType=Root
 13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=48202|AlignEnd=48390|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_14
@@ -248,14 +248,14 @@
 # phonetic_text = kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text = kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text_en = If you remember, I will come back and add more.
-1	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	mod	_	AlignBegin=48720|AlignEnd=48883|Background=Yes|Gloss=2Masc.Perf.Bkg
-2	tunoː	tun-	VERB	_	_	1	comp:aux	_	AlignBegin=48883|AlignEnd=49046|Gloss=remember
+1	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	mod	_	AlignBegin=48720|AlignEnd=48883|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+2	tunoː	tun-	VERB	_	_	1	comp:aux	_	AlignBegin=48883|AlignEnd=49046|Gloss=remember|TokenType=Root
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=49046|AlignEnd=49209|Gloss=PUNCT|TokenType=Break
-4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=49209|AlignEnd=49372|Gloss=then
-5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=49372|AlignEnd=49535|Gloss=1Sing.Aor
-6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=49535|AlignEnd=49698|Gloss=arrive
-7	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	5	conj:coord	_	AlignBegin=49698|AlignEnd=49861|Gloss=1Sing.Aor
-8	ƙaːràː	ƙaːr-	VERB	_	_	7	comp:aux	_	AlignBegin=49861|AlignEnd=50024|Gloss=increase
+4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=49209|AlignEnd=49372|Gloss=then|TokenType=Root
+5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=49372|AlignEnd=49535|Gloss=1Sing.Aor|TokenType=Root
+6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=49535|AlignEnd=49698|Gloss=arrive|TokenType=Root
+7	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	5	conj:coord	_	AlignBegin=49698|AlignEnd=49861|Gloss=1Sing.Aor|TokenType=Root
+8	ƙaːràː	ƙaːr-	VERB	_	_	7	comp:aux	_	AlignBegin=49861|AlignEnd=50024|Gloss=increase|TokenType=Root
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=50024|AlignEnd=50184|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_15
@@ -265,18 +265,18 @@
 # phonetic_text = kaː ga < sai à cikàː dà saurad dà ad dà sauraː //
 # text = kaː ga < sai à cikàː dà saurad dà ad dà sauraː //
 # text_en = You see, let's fill what remains.
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	parataxis@discourse	_	AlignBegin=50920|AlignEnd=51145|Gloss=2Masc.Perf
-2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=51145|AlignEnd=51370|Gloss=see
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	parataxis@discourse	_	AlignBegin=50920|AlignEnd=51145|Gloss=2Masc.Perf|TokenType=Root
+2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=51145|AlignEnd=51370|Gloss=see|TokenType=Root
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=51370|AlignEnd=51595|Gloss=PUNCT|TokenType=Break
-4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=51595|AlignEnd=51820|Gloss=then
-5	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=51820|AlignEnd=52045|Gloss=4.Aor
-6	cikàː	cikàː	VERB	_	_	5	comp:aux	_	AlignBegin=52045|AlignEnd=52270|Gloss=fill
-7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=52270|AlignEnd=52495|Gloss=with
-8	saurad	sauraː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=52495|AlignEnd=52720|Gloss=remains.Fem.Cons
-9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=52720|AlignEnd=52945|Gloss=REL
-10	ad	aC	AUX	_	_	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Background=Yes|Gloss=Pred/Loc.Bkg
-11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=53170|AlignEnd=53395|Gloss=with
-12	sauraː	sauraː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=53395|AlignEnd=53620|Gloss=remains.Fem
+4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=51595|AlignEnd=51820|Gloss=then|TokenType=Root
+5	à	shì	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=51820|AlignEnd=52045|Gloss=4.Aor|TokenType=Root
+6	cikàː	cikàː	VERB	_	_	5	comp:aux	_	AlignBegin=52045|AlignEnd=52270|Gloss=fill|TokenType=Root
+7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=52270|AlignEnd=52495|Gloss=with|TokenType=Root
+8	saurad	sauraː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=52495|AlignEnd=52720|Gloss=remains.Fem.Cons|TokenType=Root
+9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=52720|AlignEnd=52945|Gloss=REL|TokenType=Root
+10	ad	aC	AUX	_	_	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
+11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=53170|AlignEnd=53395|Gloss=with|TokenType=Root
+12	sauraː	sauraː	NOUN	_	Gender=Fem	11	comp:obj	_	AlignBegin=53395|AlignEnd=53620|Gloss=remains.Fem|TokenType=Root
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=53620|AlignEnd=53848|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_16
@@ -286,21 +286,21 @@
 # phonetic_text = wàːtôː < ita gàːtanaː < dà ita akà cikoː abìn cikoː || abìn gashìn ?//
 # text = wàːtôː < ita gàːtanaː < dà ita akà cikoː abìn || cikoː abìn ga shìn ?//
 # text_en = That is, tales, it's with them that we fill this thing?
-1	wàːtôː	wàːtôː	INTJ	_	_	6	discourse	_	AlignBegin=56133|AlignEnd=56339|Gloss=that_is
+1	wàːtôː	wàːtôː	INTJ	_	_	6	discourse	_	AlignBegin=56133|AlignEnd=56339|Gloss=that_is|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=56339|AlignEnd=56545|Gloss=PUNCT|TokenType=Break
-3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	6	mod	_	AlignBegin=56545|AlignEnd=56751|Gloss=3Fem.Nom
-4	gàːtanaː	gàːtanaː	NOUN	_	Gender=Masc	3	conj:appos	_	AlignBegin=56751|AlignEnd=56957|Gloss=tale.Masc
+3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	6	mod	_	AlignBegin=56545|AlignEnd=56751|Gloss=3Fem.Nom|TokenType=Root
+4	gàːtanaː	gàːtanaː	NOUN	_	Gender=Masc	3	conj:appos	_	AlignBegin=56751|AlignEnd=56957|Gloss=tale.Masc|TokenType=Root
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=56957|AlignEnd=57163|Gloss=PUNCT|TokenType=Break
-6	dà	dà	ADP	_	_	0	root	_	AlignBegin=57163|AlignEnd=57369|Gloss=with
-7	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=57369|AlignEnd=57575|Gloss=3Fem.Nom
-8	akà	kà	AUX	_	Aspect=Prog|Person=4	6	comp:cleft	_	AlignBegin=57575|AlignEnd=57781|Background=Yes|Gloss=4.Prog.Bkg
-9	cikoː	cik-	VERB	_	_	8	comp:aux	_	AlignBegin=57781|AlignEnd=57987|Gloss=complete
-10	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	9	comp:obj	_	AlignBegin=57987|AlignEnd=58193|Gloss=thing.Masc.Def
+6	dà	dà	ADP	_	_	0	root	_	AlignBegin=57163|AlignEnd=57369|Gloss=with|TokenType=Root
+7	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=57369|AlignEnd=57575|Gloss=3Fem.Nom|TokenType=Root
+8	akà	kà	AUX	_	Aspect=Prog|Person=4	6	comp:cleft	_	AlignBegin=57575|AlignEnd=57781|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+9	cikoː	cik-	VERB	_	_	8	comp:aux	_	AlignBegin=57781|AlignEnd=57987|Gloss=complete|TokenType=Root
+10	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	9	comp:obj	_	AlignBegin=57987|AlignEnd=58193|Gloss=thing.Masc.Def|TokenType=Root
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=58193|AlignEnd=58399|Gloss=PUNCT|TokenType=Break
-12	cikoː	cikoː	VERB	_	_	9	conj:dicto	_	AlignBegin=58193|AlignEnd=58399|Gloss=fill
-13	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Def
-14	ga	ga	DET	_	_	13	det	_	AlignBegin=58811|AlignEnd=59017|Deixis=Prox|Gloss=Prox
-15	shìn	shìn	ADV	_	_	6	mod	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q|PartType=Int
+12	cikoː	cikoː	VERB	_	_	9	conj:dicto	_	AlignBegin=58193|AlignEnd=58399|Gloss=fill|TokenType=Root
+13	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Def|TokenType=Root
+14	ga	ga	DET	_	_	13	det	_	AlignBegin=58811|AlignEnd=59017|Deixis=Prox|Gloss=Prox|TokenType=Root
+15	shìn	shìn	ADV	_	_	6	mod	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q|PartType=Int|TokenType=Root
 16	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=59017|AlignEnd=59223|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_17
@@ -310,7 +310,7 @@
 # phonetic_text = m̂ː //
 # text = m̂ː //
 # text_en = Yes //
-1	m̂ː	m̂ː	INTJ	_	_	0	root	_	AlignBegin=59273|AlignEnd=59582|Gloss=yes
+1	m̂ː	m̂ː	INTJ	_	_	0	root	_	AlignBegin=59273|AlignEnd=59582|Gloss=yes|TokenType=Root
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=59582|AlignEnd=59891|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_18a
@@ -320,13 +320,13 @@
 # phonetic_text = dâː maː < dà ita ankà koːyàː musù //= ankà koːyàː musù Hausa //+ dà irìn làːbàːrîn nan //
 # text = dâːmaː < dà ita akà koːyàː musù //
 # text_en = Really, it's with these they teach them.
-1	dâːmaː	dâːmaː	ADV	_	_	3	discourse	_	AlignBegin=62280|AlignEnd=62436|Gloss=formerly
+1	dâːmaː	dâːmaː	ADV	_	_	3	discourse	_	AlignBegin=62280|AlignEnd=62436|Gloss=formerly|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=62592|AlignEnd=62748|Gloss=PUNCT|TokenType=Break
-3	dà	dà	ADP	_	_	0	root	_	AlignBegin=62748|AlignEnd=62904|Gloss=with
-4	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=62904|AlignEnd=63060|Gloss=3Fem.Nom
-5	akà	kà	AUX	_	Aspect=Prog|Person=4	3	comp:cleft	_	AlignBegin=63060|AlignEnd=63216|Background=Yes|Gloss=4.Prog.Bkg
-6	koːyàː	koːy-	VERB	_	_	5	comp:aux	_	AlignBegin=63216|AlignEnd=63372|Gloss=teach
-7	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obl@R	_	AlignBegin=63372|AlignEnd=63528|Gloss=3Plur.Ben
+3	dà	dà	ADP	_	_	0	root	_	AlignBegin=62748|AlignEnd=62904|Gloss=with|TokenType=Root
+4	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=62904|AlignEnd=63060|Gloss=3Fem.Nom|TokenType=Root
+5	akà	kà	AUX	_	Aspect=Prog|Person=4	3	comp:cleft	_	AlignBegin=63060|AlignEnd=63216|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+6	koːyàː	koːy-	VERB	_	_	5	comp:aux	_	AlignBegin=63216|AlignEnd=63372|Gloss=teach|TokenType=Root
+7	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obl@R	_	AlignBegin=63372|AlignEnd=63528|Gloss=3Plur.Ben|TokenType=Root
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=63528|AlignEnd=63684|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_18b
@@ -336,14 +336,14 @@
 # phonetic_text = dâː maː < dà ita ankà koːyàː musù //= ankà koːyàː musù Hausa //+ dà irìn làːbàːrîn nan //
 # text = akà koːyàː musù Hausa dà irìn làːbàːrûn nan //
 # text_en = They teach them Hausa with this type of tales.
-1	akà	kà	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=63684|AlignEnd=63840|Background=Yes|Gloss=4.Prog.Bkg
-2	koːyàː	koːy-	VERB	_	_	1	comp:aux	_	AlignBegin=63840|AlignEnd=63996|Gloss=teach
-3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl@R	_	AlignBegin=63996|AlignEnd=64152|Gloss=3Plur.Dat
-4	Hausa	Hausa	PROPN	_	_	2	comp:obj	_	AlignBegin=64152|AlignEnd=64308|Gloss=Hausa
-5	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=64463|AlignEnd=64663|Gloss=with
-6	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj	_	AlignBegin=64663|AlignEnd=64863|Gloss=type.Masc.Cons
-7	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	6	mod	_	AlignBegin=64863|AlignEnd=65063|Gloss=story.Plur.Def
-8	nan	nan	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=65063|AlignEnd=65263|Gloss=Def
+1	akà	kà	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=63684|AlignEnd=63840|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+2	koːyàː	koːy-	VERB	_	_	1	comp:aux	_	AlignBegin=63840|AlignEnd=63996|Gloss=teach|TokenType=Root
+3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl@R	_	AlignBegin=63996|AlignEnd=64152|Gloss=3Plur.Dat|TokenType=Root
+4	Hausa	Hausa	PROPN	_	_	2	comp:obj	_	AlignBegin=64152|AlignEnd=64308|Gloss=Hausa|TokenType=Root
+5	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=64463|AlignEnd=64663|Gloss=with|TokenType=Root
+6	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj	_	AlignBegin=64663|AlignEnd=64863|Gloss=type.Masc.Cons|TokenType=Root
+7	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	6	mod	_	AlignBegin=64863|AlignEnd=65063|Gloss=story.Plur.Def|TokenType=Root
+8	nan	nan	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=65063|AlignEnd=65263|Gloss=Def|TokenType=Root
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=65263|AlignEnd=65463|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_19
@@ -353,14 +353,14 @@
 # phonetic_text = da làːbàːrûn nan nàː >+ akà koː yàː musù ita //
 # text = dà làːbàːrûn nan nàː >+ akà koːyàː musù ita //
 # text_en = It's with these tales that they teach them Hausa.
-1	dà	dà	ADP	_	_	4	subj	_	AlignBegin=65463|AlignEnd=65643|Gloss=with
-2	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	1	comp:obj	_	AlignBegin=65643|AlignEnd=65823|Gloss=story.Plur.Def
-3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=65823|AlignEnd=66003|Gloss=Def
-4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=66003|AlignEnd=66183|Gloss=Foc/Ident
+1	dà	dà	ADP	_	_	4	subj	_	AlignBegin=65463|AlignEnd=65643|Gloss=with|TokenType=Root
+2	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	1	comp:obj	_	AlignBegin=65643|AlignEnd=65823|Gloss=story.Plur.Def|TokenType=Root
+3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=65823|AlignEnd=66003|Gloss=Def|TokenType=Root
+4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=66003|AlignEnd=66183|Gloss=Foc/Ident|TokenType=Root
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=66183|AlignEnd=66363|Gloss=PUNCT|TokenType=Break
-6	akà	kà	AUX	_	Aspect=Prog|Person=4	4	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Background=Yes|Gloss=4.Prog.Bkg
-7	koːyàː	koːy-	VERB	_	_	6	comp:aux	_	AlignBegin=66543|AlignEnd=66723|Gloss=teach
-8	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	comp:obl@R	_	AlignBegin=66903|AlignEnd=67083|Gloss=3Plur.Dat
+6	akà	kà	AUX	_	Aspect=Prog|Person=4	4	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+7	koːyàː	koːy-	VERB	_	_	6	comp:aux	_	AlignBegin=66543|AlignEnd=66723|Gloss=teach|TokenType=Root
+8	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	comp:obl@R	_	AlignBegin=66903|AlignEnd=67083|Gloss=3Plur.Dat|TokenType=Root
 9	-ita	-ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp/m:obj	_	AlignBegin=67083|AlignEnd=67263|Gloss=3Fem.Nom|TokenType=InflAff|wordform=ita
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=67263|AlignEnd=67445|Gloss=PUNCT|TokenType=Break
 
@@ -371,7 +371,7 @@
 # phonetic_text = tôː //
 # text = tôː //
 # text_en = OK.
-1	tôː	tôː	INTJ	_	_	0	root	_	AlignBegin=67404|AlignEnd=67708|Gloss=well
+1	tôː	tôː	INTJ	_	_	0	root	_	AlignBegin=67404|AlignEnd=67708|Gloss=well|TokenType=Root
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=67708|AlignEnd=68013|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_21
@@ -381,20 +381,20 @@
 # phonetic_text = dan shiː < shèːkaràːtai biyu < shinàː || shinàː koːyòn kàːràːtun Hausa //
 # text = dan shiː < shèːkaràː =tai biyu < shinàː || shinàː koːyòn kàːràːtun Hausa //
 # text_en = Well him, he has been learning Hausa for two years.
-1	dan	dan	ADP	_	_	8	discourse	_	AlignBegin=68269|AlignEnd=68591|Gloss=because
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=68591|AlignEnd=68913|Gloss=3Masc.Nom
+1	dan	dan	ADP	_	_	8	discourse	_	AlignBegin=68269|AlignEnd=68591|Gloss=because|TokenType=Root
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=68591|AlignEnd=68913|Gloss=3Masc.Nom|TokenType=Root
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=68913|AlignEnd=69235|Gloss=PUNCT|TokenType=Break
 4-5	shèːkaràːtai	_	_	_	_	_	_	_	_
-4	shèːkaràː	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	8	dislocated@mod	_	AlignBegin=69235|AlignEnd=69557|Gloss=year.Fem.Cons
+4	shèːkaràː	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	8	dislocated@mod	_	AlignBegin=69235|AlignEnd=69557|Gloss=year.Fem.Cons|TokenType=Root
 5	-tai	-tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod/m@poss	_	AlignBegin=69235|AlignEnd=69557|Gloss=3Masc.Gen|TokenType=InflAff|wordform==tai
-6	biyu	biyu	NUM	_	_	4	mod@num	_	AlignBegin=69557|AlignEnd=69879|Gloss=two
+6	biyu	biyu	NUM	_	_	4	mod@num	_	AlignBegin=69557|AlignEnd=69879|Gloss=two|TokenType=Root
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=69879|AlignEnd=70201|Gloss=PUNCT|TokenType=Break
-8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=70201|AlignEnd=70523|Gloss=3Masc.Prog
+8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=70201|AlignEnd=70523|Gloss=3Masc.Prog|TokenType=Root
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=70523|AlignEnd=70845|GE=[|Gloss=PUNCT|TokenType=Break
-10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	conj:dicto	_	AlignBegin=70845|AlignEnd=71167|Gloss=3Masc.Prog
-11	koːyòn	koːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=71167|AlignEnd=71489|Gloss=learn.Vnoun.Masc.Cons
-12	kàːràːtun	karant-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	udep	_	AlignBegin=71489|AlignEnd=71811|Gloss=read.Vnoun.Masc.Cons
-13	Hausa	Hausa	PROPN	_	_	12	mod	_	AlignBegin=71811|AlignEnd=72133|Gloss=Hausa
+10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	conj:dicto	_	AlignBegin=70845|AlignEnd=71167|Gloss=3Masc.Prog|TokenType=Root
+11	koːyòn	koːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=71167|AlignEnd=71489|Gloss=learn.Vnoun.Masc.Cons|TokenType=Root
+12	kàːràːtun	karant-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	udep	_	AlignBegin=71489|AlignEnd=71811|Gloss=read.Vnoun.Masc.Cons|TokenType=Root
+13	Hausa	Hausa	PROPN	_	_	12	mod	_	AlignBegin=71811|AlignEnd=72133|Gloss=Hausa|TokenType=Root
 14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=72133|AlignEnd=72455|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_22
@@ -404,13 +404,13 @@
 # phonetic_text = koː ‘yag guntuwaː gùdaː ɗai baːkà yîː ?//
 # text = koː ƴag guntuwaː gùdaː ɗai baːkà yîː ?//
 # text_en = Even a little one, you can't do it?
-1	koː	koː	CCONJ	_	_	3	cc	_	AlignBegin=87062|AlignEnd=87304|Gloss=even
-2	ƴag	ɗaː	ADJ	_	Definite=Cons|Gender=Fem	3	mod	_	AlignBegin=87304|AlignEnd=87546|Gloss=small.Fem
-3	guntuwaː	guntuː	NOUN	_	Gender=Fem	6	dislocated@comp	_	AlignBegin=87546|AlignEnd=87788|Gloss=piece.Fem
-4	gùdaː	gùdaː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=87788|AlignEnd=88030|Gloss=unit.Masc
-5	ɗai	ɗai	NUM	_	_	4	mod@num	_	AlignBegin=88030|AlignEnd=88272|Gloss=one
-6	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=88272|AlignEnd=88514|Gloss=2Masc.Imp.Neg
-7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=88514|AlignEnd=88756|Gloss=do.Vnoun.Masc
+1	koː	koː	CCONJ	_	_	3	cc	_	AlignBegin=87062|AlignEnd=87304|Gloss=even|TokenType=Root
+2	ƴag	ɗaː	ADJ	_	Definite=Cons|Gender=Fem	3	mod	_	AlignBegin=87304|AlignEnd=87546|Gloss=small.Fem|TokenType=Root
+3	guntuwaː	guntuː	NOUN	_	Gender=Fem	6	dislocated@comp	_	AlignBegin=87546|AlignEnd=87788|Gloss=piece.Fem|TokenType=Root
+4	gùdaː	gùdaː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=87788|AlignEnd=88030|Gloss=unit.Masc|TokenType=Root
+5	ɗai	ɗai	NUM	_	_	4	mod@num	_	AlignBegin=88030|AlignEnd=88272|Gloss=one|TokenType=Root
+6	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=88272|AlignEnd=88514|Gloss=2Masc.Imp.Neg|TokenType=Root
+7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=88514|AlignEnd=88756|Gloss=do.Vnoun.Masc|TokenType=Root
 8	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=88756|AlignEnd=88999|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_23
@@ -420,9 +420,9 @@
 # phonetic_text = bàri ìn ganiː //
 # text = bàri ìn ganiː //
 # text_en = Let me see.
-1	bàri	barìː	VERB	_	Mood=Jus	0	root	_	AlignBegin=92666|AlignEnd=92880|Gloss=let.Jus
-2	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=92880|AlignEnd=93094|Gloss=1Sing.Aor
-3	ganiː	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=93094|AlignEnd=93308|Gloss=see
+1	bàri	barìː	VERB	_	Mood=Jus	0	root	_	AlignBegin=92666|AlignEnd=92880|Gloss=let.Jus|TokenType=Root
+2	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=92880|AlignEnd=93094|Gloss=1Sing.Aor|TokenType=Root
+3	ganiː	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=93094|AlignEnd=93308|Gloss=see|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=93308|AlignEnd=93520|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_24
@@ -432,11 +432,11 @@
 # phonetic_text = wàːtôː shìryaː ìn kakkàːryaː hakà nan !//
 # text = wàːtôː shìryaː ìn kakkàːryaː hakànan !//
 # text_en = Well, get ready, I will ruin [a tale] right on!
-1	wàːtôː	wàːtôː	INTJ	_	_	2	discourse	_	AlignBegin=98166|AlignEnd=98934|Gloss=that_is
-2	shìryaː	shìryaː	VERB	_	Mood=Jus	0	root	_	AlignBegin=98934|AlignEnd=99702|Gloss=prepare.Jus
-3	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	mod	_	AlignBegin=99702|AlignEnd=100470|Gloss=1Sing.Aor
-4	kakkàːryaː	kary-	VERB	_	_	3	comp:aux	_	AlignBegin=100470|AlignEnd=101238|Gloss=break
-5	hakànan	hakànan	ADV	_	_	3	mod	_	AlignBegin=101238|AlignEnd=102006|Gloss=thus
+1	wàːtôː	wàːtôː	INTJ	_	_	2	discourse	_	AlignBegin=98166|AlignEnd=98934|Gloss=that_is|TokenType=Root
+2	shìryaː	shìryaː	VERB	_	Mood=Jus	0	root	_	AlignBegin=98934|AlignEnd=99702|Gloss=prepare.Jus|TokenType=Root
+3	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	mod	_	AlignBegin=99702|AlignEnd=100470|Gloss=1Sing.Aor|TokenType=Root
+4	kakkàːryaː	kary-	VERB	_	_	3	comp:aux	_	AlignBegin=100470|AlignEnd=101238|Gloss=break|TokenType=Root
+5	hakànan	hakànan	ADV	_	_	3	mod	_	AlignBegin=101238|AlignEnd=102006|Gloss=thus|TokenType=Root
 6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=102774|AlignEnd=103544|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_25
@@ -446,8 +446,8 @@
 # phonetic_text = tôː hm̂ː //
 # text = tôː hm̂ː //
 # text_en = Well er...
-1	tôː	tôː	INTJ	_	_	0	root	_	AlignBegin=103596|AlignEnd=103959|Gloss=well
-2	hm̂ː	hm̂ː	INTJ	_	_	1	parataxis	_	AlignBegin=103959|AlignEnd=104322|Gloss=er
+1	tôː	tôː	INTJ	_	_	0	root	_	AlignBegin=103596|AlignEnd=103959|Gloss=well|TokenType=Root
+2	hm̂ː	hm̂ː	INTJ	_	_	1	parataxis	_	AlignBegin=103959|AlignEnd=104322|Gloss=er|TokenType=Root
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=104322|AlignEnd=104685|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_26
@@ -457,16 +457,16 @@
 # phonetic_text = kàram ɓiki nàː kà yi mà sàràkkuwatai gàyyaː //
 # text = kàram ɓiki nàː kà yi mà sàràkkuwaː =tai gàyyaː //
 # text_en = It's Jackal doing a commmunal farming for his mother-in-law.
-1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	AlignBegin=108461|AlignEnd=108828|Gloss=dog.Masc.Cons
-2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=108828|AlignEnd=109195|Gloss=shit.Masc
-3	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=109195|AlignEnd=109562|Gloss=Foc/Ident
-4	kà	kà	AUX	_	Aspect=Prog	1	mod@relcl	_	AlignBegin=109562|AlignEnd=109929|Background=Yes|Gloss=Prog.Bkg
-5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=109929|AlignEnd=110296|Gloss=do
-6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=110296|AlignEnd=110663|Gloss=Dat
+1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	AlignBegin=108461|AlignEnd=108828|Gloss=dog.Masc.Cons|TokenType=Root
+2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=108828|AlignEnd=109195|Gloss=shit.Masc|TokenType=Root
+3	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=109195|AlignEnd=109562|Gloss=Foc/Ident|TokenType=Root
+4	kà	kà	AUX	_	Aspect=Prog	1	mod@relcl	_	AlignBegin=109562|AlignEnd=109929|Background=Yes|Gloss=Prog.Bkg|TokenType=Root
+5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=109929|AlignEnd=110296|Gloss=do|TokenType=Root
+6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=110296|AlignEnd=110663|Gloss=Dat|TokenType=Root
 7-8	sàràkkuwatai	_	_	_	_	_	_	_	_
-7	sàràkkuwaː	sìrikiː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=110663|AlignEnd=111030|Gloss=in-law.Fem
+7	sàràkkuwaː	sìrikiː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=110663|AlignEnd=111030|Gloss=in-law.Fem|TokenType=Root
 8	-tai	-tai	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	mod/m@poss	_	AlignBegin=110663|AlignEnd=111030|Gloss=3Masc.Gen|TokenType=InflAff|wordform==tai
-9	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	5	comp:obj	_	AlignBegin=111030|AlignEnd=111397|Gloss=communal_hunting.Fem
+9	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	5	comp:obj	_	AlignBegin=111030|AlignEnd=111397|Gloss=communal_hunting.Fem|TokenType=Root
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=111397|AlignEnd=111761|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_27
@@ -476,14 +476,14 @@
 # phonetic_text = yaz zoː || yah hwaɗì || shinàː hwaɗìː &//
 # text = yaz zoː || yah hwaɗì || shinàː hwaɗìː &//
 # text_en = He came... he said... he said...
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=115032|AlignEnd=115379|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=115379|AlignEnd=115726|Gloss=go
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=115032|AlignEnd=115379|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=115379|AlignEnd=115726|Gloss=go|TokenType=Root
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=115726|AlignEnd=116073|GE=[|Gloss=PUNCT|TokenType=Break
-4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:dicto	_	AlignBegin=116073|AlignEnd=116420|Background=Yes|Gloss=3Masc.Perf.Bkg
-5	hwaɗì	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=116420|AlignEnd=116767|Gloss=tell
+4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:dicto	_	AlignBegin=116073|AlignEnd=116420|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	hwaɗì	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=116420|AlignEnd=116767|Gloss=tell|TokenType=Root
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=116767|AlignEnd=117114|GE=[|Gloss=PUNCT|TokenType=Break
-7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	conj:dicto	_	AlignBegin=117114|AlignEnd=117461|Gloss=3Masc.Prog
-8	hwaɗìː	hwaɗ-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=117461|AlignEnd=117808|Gloss=tell.Vnoun.Masc
+7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	conj:dicto	_	AlignBegin=117114|AlignEnd=117461|Gloss=3Masc.Prog|TokenType=Root
+8	hwaɗìː	hwaɗ-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=117461|AlignEnd=117808|Gloss=tell.Vnoun.Masc|TokenType=Root
 9	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=117808|AlignEnd=118155|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_28
@@ -493,19 +493,19 @@
 # phonetic_text = yaz zoː //= ya îskèː mùzuːruː //= yac cêː mai [ inàː gàyyaː. //] //
 # text = yaz zoː |c ya' îskèː mùzuːruː |c yac cêː mai [ inàː gàyyaː. //] //
 # text_en = He went to see Cat and told him "I'm doing a communal farming."
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=119032|AlignEnd=119418|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=119418|AlignEnd=119804|Gloss=go
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=119032|AlignEnd=119418|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=119418|AlignEnd=119804|Gloss=go|TokenType=Root
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=119804|AlignEnd=120190|Gloss=PUNCT|TokenType=Break
-4	ya'	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=120190|AlignEnd=120576|Background=Yes|Gloss=3Masc.Perf.Bkg
-5	îskèː	isk-	VERB	_	_	4	comp:aux	_	AlignBegin=120576|AlignEnd=120962|Gloss=find
-6	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=120962|AlignEnd=121348|Gloss=cat.Masc
+4	ya'	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=120190|AlignEnd=120576|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	îskèː	isk-	VERB	_	_	4	comp:aux	_	AlignBegin=120576|AlignEnd=120962|Gloss=find|TokenType=Root
+6	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=120962|AlignEnd=121348|Gloss=cat.Masc|TokenType=Root
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=121348|AlignEnd=121734|Gloss=PUNCT|TokenType=Break
-8	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=121734|AlignEnd=122120|Background=Yes|Gloss=3Masc.Perf.Bkg
-9	cêː	cêː	VERB	_	_	8	comp:aux	_	AlignBegin=122120|AlignEnd=122506|Gloss=say
-10	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	9	comp:obl@R	_	AlignBegin=122506|AlignEnd=122892|Gloss=3Masc.Dat
+8	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=121734|AlignEnd=122120|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+9	cêː	cêː	VERB	_	_	8	comp:aux	_	AlignBegin=122120|AlignEnd=122506|Gloss=say|TokenType=Root
+10	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	9	comp:obl@R	_	AlignBegin=122506|AlignEnd=122892|Gloss=3Masc.Dat|TokenType=Root
 11	[	[	PUNCT	_	_	12	punct	_	AlignBegin=122892|AlignEnd=123278|Gloss=PUNCT|TokenType=Break
-12	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	9	comp:obj	_	AlignBegin=123278|AlignEnd=123664|Gloss=1Sing.Prog
-13	gàyyaː.	gàyyaː.	VERB	_	Gender=Fem	12	comp:aux	_	AlignBegin=123664|AlignEnd=124050|Gloss=communal_farming.Fem
+12	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	9	comp:obj	_	AlignBegin=123278|AlignEnd=123664|Gloss=1Sing.Prog|TokenType=Root
+13	gàyyaː.	gàyyaː.	VERB	_	Gender=Fem	12	comp:aux	_	AlignBegin=123664|AlignEnd=124050|Gloss=communal_farming.Fem|TokenType=Root
 14	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=124050|AlignEnd=124436|Gloss=PUNCT|TokenType=Break
 15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=124436|AlignEnd=124821|Gloss=PUNCT|TokenType=Break
 
@@ -516,13 +516,13 @@
 # phonetic_text = yac cèː [ ìn ji baːbù kàreː ?//] //
 # text = yac cèː [ ìn ji baːbù kàreː ?//] //
 # text_en = He told him "I hope Dog won't be there?"
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=126000|AlignEnd=126288|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=126288|AlignEnd=126576|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=126000|AlignEnd=126288|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=126288|AlignEnd=126576|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	6	punct	_	AlignBegin=126576|AlignEnd=126864|Gloss=PUNCT|TokenType=Break
-4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	parataxis@discourse	_	AlignBegin=126864|AlignEnd=127152|Gloss=1Sing.Aor
-5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=127152|AlignEnd=127440|Gloss=hear
-6	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=127440|AlignEnd=127728|Gloss=there_is.Neg
-7	kàreː	kàreː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=127728|AlignEnd=128016|Gloss=dog.Masc
+4	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	parataxis@discourse	_	AlignBegin=126864|AlignEnd=127152|Gloss=1Sing.Aor|TokenType=Root
+5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=127152|AlignEnd=127440|Gloss=hear|TokenType=Root
+6	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=127440|AlignEnd=127728|Gloss=there_is.Neg|TokenType=Root
+7	kàreː	kàreː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=127728|AlignEnd=128016|Gloss=dog.Masc|TokenType=Root
 8	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=128016|AlignEnd=128304|Gloss=PUNCT|TokenType=Break
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=128304|AlignEnd=128588|Gloss=PUNCT|TokenType=Break
 
@@ -533,8 +533,8 @@
 # phonetic_text = baːbù kàreː //
 # text = baːbù kàreː //
 # text_en = No Dog.
-1	baːbù	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=128588|AlignEnd=128787|Gloss=there_is.Neg
-2	kàreː	kàreː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=128787|AlignEnd=128986|Gloss=dog.Masc
+1	baːbù	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=128588|AlignEnd=128787|Gloss=there_is.Neg|TokenType=Root
+2	kàreː	kàreː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=128787|AlignEnd=128986|Gloss=dog.Masc|TokenType=Root
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=128986|AlignEnd=129184|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_31
@@ -544,13 +544,13 @@
 # phonetic_text = dà yaw wucèː yaz zoːindà kàreː //
 # text = dà yaw wucèː yaz zoː indà kàreː //
 # text_en = After he left, he went to Dog's house.
-1	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=131520|AlignEnd=131743|Gloss=as
-2	yaw	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=131743|AlignEnd=131966|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	wucèː	wucèː	VERB	_	_	2	comp:aux	_	AlignBegin=131966|AlignEnd=132189|Gloss=pass_by
-4	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=132189|AlignEnd=132412|Background=Yes|Gloss=3Masc.Perf.Bkg
-5	zoː	zoː	VERB	_	_	4	comp:aux	_	AlignBegin=132412|AlignEnd=132635|Gloss=go
-6	indà	indà	ADV	_	PronType=Rel	5	comp:obj@G	_	AlignBegin=132412|AlignEnd=132635|Gloss=where
-7	kàreː	kàreː	NOUN	_	Gender=Masc	6	mod@relcl	_	AlignBegin=132635|AlignEnd=132858|Gloss=dog.Masc
+1	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=131520|AlignEnd=131743|Gloss=as|TokenType=Root
+2	yaw	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=131743|AlignEnd=131966|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	wucèː	wucèː	VERB	_	_	2	comp:aux	_	AlignBegin=131966|AlignEnd=132189|Gloss=pass_by|TokenType=Root
+4	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=132189|AlignEnd=132412|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	zoː	zoː	VERB	_	_	4	comp:aux	_	AlignBegin=132412|AlignEnd=132635|Gloss=go|TokenType=Root
+6	indà	indà	ADV	_	PronType=Rel	5	comp:obj@G	_	AlignBegin=132412|AlignEnd=132635|Gloss=where|TokenType=Root
+7	kàreː	kàreː	NOUN	_	Gender=Masc	6	mod@relcl	_	AlignBegin=132635|AlignEnd=132858|Gloss=dog.Masc|TokenType=Root
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=132858|AlignEnd=133080|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_32
@@ -560,14 +560,14 @@
 # phonetic_text = yac cêː mà kàreː [ kàreː inàː gàyyaː. //] ]
 # text = yac cêː mà kàreː [ kàreː inàː gàyyaː. //] ]
 # text_en = He told Dog "Dog, I'm doing a communal farming."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=133905|AlignEnd=134146|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=134146|AlignEnd=134387|Gloss=say
-3	mà	mà	ADP	_	Case=Dat	2	comp:obl@R	_	AlignBegin=134387|AlignEnd=134628|Gloss=Dat
-4	kàreː	kàreː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=134628|AlignEnd=134869|Gloss=dog.Masc
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=133905|AlignEnd=134146|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=134146|AlignEnd=134387|Gloss=say|TokenType=Root
+3	mà	mà	ADP	_	Case=Dat	2	comp:obl@R	_	AlignBegin=134387|AlignEnd=134628|Gloss=Dat|TokenType=Root
+4	kàreː	kàreː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=134628|AlignEnd=134869|Gloss=dog.Masc|TokenType=Root
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=134869|AlignEnd=135110|Gloss=PUNCT|TokenType=Break
-6	kàreː	kàreː	NOUN	_	Gender=Masc	7	vocative	_	AlignBegin=135110|AlignEnd=135351|Gloss=dog.Masc
-7	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=135351|AlignEnd=135592|Gloss=1Sing.Prog
-8	gàyyaː.	gàyyaː.	VERB	_	Gender=Fem	7	comp:aux	_	AlignBegin=135592|AlignEnd=135833|Gloss=communal_farming.Fem
+6	kàreː	kàreː	NOUN	_	Gender=Masc	7	vocative	_	AlignBegin=135110|AlignEnd=135351|Gloss=dog.Masc|TokenType=Root
+7	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=135351|AlignEnd=135592|Gloss=1Sing.Prog|TokenType=Root
+8	gàyyaː.	gàyyaː.	VERB	_	Gender=Fem	7	comp:aux	_	AlignBegin=135592|AlignEnd=135833|Gloss=communal_farming.Fem|TokenType=Root
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=135833|AlignEnd=136074|Gloss=PUNCT|TokenType=Break
 10	]	]	PUNCT	_	_	1	punct	_	AlignBegin=136074|AlignEnd=136316|Gloss=PUNCT|TokenType=Break
 
@@ -578,18 +578,18 @@
 # phonetic_text = kàreː yac cêː mai [ kanàː gàyyaː //= ìn ji, baːbù dàːmisàː ?//] //
 # text = kàreː yac cêː mai [ kanàː gàyyaː //= ìn ji baːbù dàːmisàː ?//] //
 # text_en = Dog told him "You're doing a communal farming. Tell me, there won't be Leopard ?"
-1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=137500|AlignEnd=137724|Gloss=dog.Masc
-2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=137724|AlignEnd=137948|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=137948|AlignEnd=138172|Gloss=say
-4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl@R	_	AlignBegin=138172|AlignEnd=138396|Gloss=3Masc.Dat
+1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=137500|AlignEnd=137724|Gloss=dog.Masc|TokenType=Root
+2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=137724|AlignEnd=137948|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=137948|AlignEnd=138172|Gloss=say|TokenType=Root
+4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl@R	_	AlignBegin=138172|AlignEnd=138396|Gloss=3Masc.Dat|TokenType=Root
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=138396|AlignEnd=138620|Gloss=PUNCT|TokenType=Break
-6	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	3	comp:obj	_	AlignBegin=138620|AlignEnd=138844|Gloss=2Masc.Prog
-7	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	6	comp:aux	_	AlignBegin=138844|AlignEnd=139068|Gloss=communal_hunting.Fem
+6	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	3	comp:obj	_	AlignBegin=138620|AlignEnd=138844|Gloss=2Masc.Prog|TokenType=Root
+7	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	6	comp:aux	_	AlignBegin=138844|AlignEnd=139068|Gloss=communal_hunting.Fem|TokenType=Root
 8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=139068|AlignEnd=139292|Gloss=PUNCT|TokenType=Break
-9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	parataxis@discourse	_	AlignBegin=139292|AlignEnd=139516|Gloss=1Sing.Aor
-10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=139516|AlignEnd=139740|Gloss=hear
-11	baːbù	baːbù	PredPART	_	Polarity=Neg	6	parataxis	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg
-12	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	11	subj	_	AlignBegin=139964|AlignEnd=140188|Gloss=leopard.Fem
+9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	parataxis@discourse	_	AlignBegin=139292|AlignEnd=139516|Gloss=1Sing.Aor|TokenType=Root
+10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=139516|AlignEnd=139740|Gloss=hear|TokenType=Root
+11	baːbù	baːbù	PredPART	_	Polarity=Neg	6	parataxis	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg|TokenType=Root
+12	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	11	subj	_	AlignBegin=139964|AlignEnd=140188|Gloss=leopard.Fem|TokenType=Root
 13	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=140188|AlignEnd=140412|Gloss=PUNCT|TokenType=Break
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=140412|AlignEnd=140640|Gloss=PUNCT|TokenType=Break
 
@@ -600,11 +600,11 @@
 # phonetic_text = yac cèː [ baːbù dàːmisàː //] //
 # text = yac cèː [ baːbù dàːmisàː //] //
 # text_en = He said, there won't be Leopard.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=141744|AlignEnd=141906|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=141906|AlignEnd=142068|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=141744|AlignEnd=141906|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=141906|AlignEnd=142068|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=142068|AlignEnd=142230|Gloss=PUNCT|TokenType=Break
-4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=142230|AlignEnd=142392|Gloss=there_is.Neg
-5	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=142392|AlignEnd=142554|Gloss=leopard.Fem
+4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=142230|AlignEnd=142392|Gloss=there_is.Neg|TokenType=Root
+5	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=142392|AlignEnd=142554|Gloss=leopard.Fem|TokenType=Root
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=142554|AlignEnd=142716|Gloss=PUNCT|TokenType=Break
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=142716|AlignEnd=142877|Gloss=PUNCT|TokenType=Break
 
@@ -615,11 +615,11 @@
 # phonetic_text = yac cèː [ baːbù kuːra : //] //
 # text = yac cèː [ baːbù kuːraː //] //
 # text_en = He said, there won't be Hyena.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=143480|AlignEnd=143665|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=143665|AlignEnd=143850|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=143480|AlignEnd=143665|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=143665|AlignEnd=143850|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=143850|AlignEnd=144035|Gloss=PUNCT|TokenType=Break
-4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=144035|AlignEnd=144220|Gloss=there_is.Neg
-5	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=144220|AlignEnd=144405|Gloss=hyena.Fem
+4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=144035|AlignEnd=144220|Gloss=there_is.Neg|TokenType=Root
+5	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=144220|AlignEnd=144405|Gloss=hyena.Fem|TokenType=Root
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=144590|AlignEnd=144775|Gloss=PUNCT|TokenType=Break
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=144775|AlignEnd=144960|Gloss=PUNCT|TokenType=Break
 
@@ -630,11 +630,11 @@
 # phonetic_text = yac cèː [ baːbù kuːra : //] //
 # text = yac cèː [ baːbù kuːraː //] //
 # text_en = He said, there won't be Hyena.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=145943|AlignEnd=146065|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=146065|AlignEnd=146187|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=145943|AlignEnd=146065|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=146065|AlignEnd=146187|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=146187|AlignEnd=146309|Gloss=PUNCT|TokenType=Break
-4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=146309|AlignEnd=146431|Gloss=there_is.Neg
-5	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=146431|AlignEnd=146553|Gloss=hyena.Fem
+4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=146309|AlignEnd=146431|Gloss=there_is.Neg|TokenType=Root
+5	kuːraː	kuːraː	NOUN	_	Gender=Fem	4	subj	_	AlignBegin=146431|AlignEnd=146553|Gloss=hyena.Fem|TokenType=Root
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=146675|AlignEnd=146797|Gloss=PUNCT|TokenType=Break
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=146797|AlignEnd=146921|Gloss=PUNCT|TokenType=Break
 
@@ -645,13 +645,13 @@
 # phonetic_text = yaz zoː |c yah hwaɗàː mà kuːraː //
 # text = yaz zoː |c yah hwaɗàː mà kuːraː //
 # text_en = He went and told Hyena.
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=147026|AlignEnd=147241|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=147241|AlignEnd=147456|Gloss=go
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=147026|AlignEnd=147241|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=147241|AlignEnd=147456|Gloss=go|TokenType=Root
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=147456|AlignEnd=147671|Gloss=PUNCT|TokenType=Break
-4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=147671|AlignEnd=147886|Background=Yes|Gloss=3Masc.Perf.Bkg
-5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=147886|AlignEnd=148101|Gloss=tell
-6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=148101|AlignEnd=148316|Gloss=Dat
-7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148316|AlignEnd=148531|Gloss=hyena.Fem
+4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=147671|AlignEnd=147886|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=147886|AlignEnd=148101|Gloss=tell|TokenType=Root
+6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=148101|AlignEnd=148316|Gloss=Dat|TokenType=Root
+7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148316|AlignEnd=148531|Gloss=hyena.Fem|TokenType=Root
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=148531|AlignEnd=148744|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_38
@@ -661,14 +661,14 @@
 # phonetic_text = kuːraː tac cèː [ ìn ji baːbù dàːmisàː ?//] //
 # text = kuːraː tac cèː [ ìn ji baːbù dàːmisàː ?//] //
 # text_en = Hyena said "Tell me, there won't be Leopard ?"
-1	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=148744|AlignEnd=148934|Gloss=hyena.Fem
-2	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=148934|AlignEnd=149124|Background=Yes|Gloss=3Fem.Perf.Bkg
-3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=149124|AlignEnd=149314|Gloss=say
+1	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=148744|AlignEnd=148934|Gloss=hyena.Fem|TokenType=Root
+2	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=148934|AlignEnd=149124|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=149124|AlignEnd=149314|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=149314|AlignEnd=149504|Gloss=PUNCT|TokenType=Break
-5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=149504|AlignEnd=149694|Gloss=1Sing.Aor
-6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=149694|AlignEnd=149884|Gloss=hear
-7	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=149884|AlignEnd=150074|Gloss=there_is.Neg
-8	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	7	subj	_	AlignBegin=150074|AlignEnd=150264|Gloss=leopard.Fem
+5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=149504|AlignEnd=149694|Gloss=1Sing.Aor|TokenType=Root
+6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=149694|AlignEnd=149884|Gloss=hear|TokenType=Root
+7	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=149884|AlignEnd=150074|Gloss=there_is.Neg|TokenType=Root
+8	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	7	subj	_	AlignBegin=150074|AlignEnd=150264|Gloss=leopard.Fem|TokenType=Root
 9	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=150264|AlignEnd=150454|Gloss=PUNCT|TokenType=Break
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=150454|AlignEnd=150648|Gloss=PUNCT|TokenType=Break
 
@@ -679,12 +679,12 @@
 # phonetic_text = sa’àn nan yac cèː [ baːbù shi //] //
 # text = sa’ànnan yac cèː [ baːbù shi //] //
 # text_en = Then he said "He won't be there."
-1	sa’ànnan	sa’ànnan	ADV	_	_	2	mod	_	AlignBegin=152140|AlignEnd=152398|Gloss=then
-2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=152656|AlignEnd=152914|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=152914|AlignEnd=153172|Gloss=say
+1	sa’ànnan	sa’ànnan	ADV	_	_	2	mod	_	AlignBegin=152140|AlignEnd=152398|Gloss=then|TokenType=Root
+2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=152656|AlignEnd=152914|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=152914|AlignEnd=153172|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=153172|AlignEnd=153430|Gloss=PUNCT|TokenType=Break
-5	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=153430|AlignEnd=153688|Gloss=there_is.Neg
-6	shi	shi	PRON	_	Gender=Masc|Person=1|PronType=Prs	5	subj	_	AlignBegin=153688|AlignEnd=153946|Gloss=3Masc
+5	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=153430|AlignEnd=153688|Gloss=there_is.Neg|TokenType=Root
+6	shi	shi	PRON	_	Gender=Masc|Person=1|PronType=Prs	5	subj	_	AlignBegin=153688|AlignEnd=153946|Gloss=3Masc|TokenType=Root
 7	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=153946|AlignEnd=154204|Gloss=PUNCT|TokenType=Break
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=154204|AlignEnd=154460|Gloss=PUNCT|TokenType=Break
 
@@ -695,13 +695,13 @@
 # phonetic_text = yaz zo : |c yah hwaɗàː mà dàːmisàː //
 # text = yaz zoː |c yah hwaɗàː mà dàːmisàː //
 # text_en = He went and told Leopard.
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=154840|AlignEnd=155046|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=155046|AlignEnd=155252|Gloss=go
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=154840|AlignEnd=155046|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=155046|AlignEnd=155252|Gloss=go|TokenType=Root
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=155458|AlignEnd=155664|Gloss=PUNCT|TokenType=Break
-4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=155664|AlignEnd=155870|Background=Yes|Gloss=3Masc.Perf.Bkg
-5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=155870|AlignEnd=156076|Gloss=tell
-6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=156076|AlignEnd=156282|Gloss=Dat
-7	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=156282|AlignEnd=156488|Gloss=leopard.Fem
+4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=155664|AlignEnd=155870|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=155870|AlignEnd=156076|Gloss=tell|TokenType=Root
+6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=156076|AlignEnd=156282|Gloss=Dat|TokenType=Root
+7	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=156282|AlignEnd=156488|Gloss=leopard.Fem|TokenType=Root
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=156488|AlignEnd=156694|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_41
@@ -711,14 +711,14 @@
 # phonetic_text = dàːmisàː yac cèː [ ǐn ji baːbù zaːkìː ?//] //
 # text = dàːmisàː yac cèː [ ìn ji baːbù zaːkìː ?//] //
 # text_en = Leopard said "Tell me, there won't be Lion ?"
-1	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=156694|AlignEnd=156900|Gloss=leopard.Fem
-2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=156900|AlignEnd=157106|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=157106|AlignEnd=157312|Gloss=say
+1	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=156694|AlignEnd=156900|Gloss=leopard.Fem|TokenType=Root
+2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=156900|AlignEnd=157106|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=157106|AlignEnd=157312|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=157312|AlignEnd=157518|Gloss=PUNCT|TokenType=Break
-5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Aor
-6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=157724|AlignEnd=157930|Gloss=hear
-7	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=157930|AlignEnd=158136|Gloss=there_is.Neg
-8	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=158136|AlignEnd=158342|Gloss=lion.Masc
+5	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Aor|TokenType=Root
+6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=157724|AlignEnd=157930|Gloss=hear|TokenType=Root
+7	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=157930|AlignEnd=158136|Gloss=there_is.Neg|TokenType=Root
+8	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	7	subj	_	AlignBegin=158136|AlignEnd=158342|Gloss=lion.Masc|TokenType=Root
 9	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=158342|AlignEnd=158548|Gloss=PUNCT|TokenType=Break
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=158548|AlignEnd=158759|Gloss=PUNCT|TokenType=Break
 
@@ -729,11 +729,11 @@
 # phonetic_text = yac cèː [ baːbù shi //] //
 # text = yac cèː [ baːbù shi //] //
 # text_en = He said "He won't be there."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=159782|AlignEnd=159906|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=159906|AlignEnd=160030|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=159782|AlignEnd=159906|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=159906|AlignEnd=160030|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=160030|AlignEnd=160154|Gloss=PUNCT|TokenType=Break
-4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=160154|AlignEnd=160278|Gloss=there_is.Neg
-5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=160278|AlignEnd=160402|Gloss=3Masc
+4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=160154|AlignEnd=160278|Gloss=there_is.Neg|TokenType=Root
+5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=160278|AlignEnd=160402|Gloss=3Masc|TokenType=Root
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=160402|AlignEnd=160526|Gloss=PUNCT|TokenType=Break
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=160526|AlignEnd=160649|Gloss=PUNCT|TokenType=Break
 
@@ -744,9 +744,9 @@
 # phonetic_text = daɗà < shiː kèː nan //
 # text = daɗà < shiːkèːnan //
 # text_en = Well, that's it.
-1	daɗà	daɗà	ADV	_	_	3	mod	_	AlignBegin=163951|AlignEnd=164321|Gloss=then
+1	daɗà	daɗà	ADV	_	_	3	mod	_	AlignBegin=163951|AlignEnd=164321|Gloss=then|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=164321|AlignEnd=164691|Gloss=PUNCT|TokenType=Break
-3	shiːkèːnan	shiːkèːnan	INTJ	_	_	0	root	_	AlignBegin=164691|AlignEnd=165061|Gloss=OK
+3	shiːkèːnan	shiːkèːnan	INTJ	_	_	0	root	_	AlignBegin=164691|AlignEnd=165061|Gloss=OK|TokenType=Root
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=165801|AlignEnd=166172|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_44
@@ -756,8 +756,8 @@
 # phonetic_text = gòːbe gàyyaː //
 # text = gòːbe gàyyaː //
 # text_en = The communal farming is tomorrow.
-1	gòːbe	gòːbe	ADV	_	_	2	mod	_	AlignBegin=166172|AlignEnd=166631|Gloss=tomorrow
-2	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	0	root	_	AlignBegin=166631|AlignEnd=167090|Gloss=communal_hunting.Fem
+1	gòːbe	gòːbe	ADV	_	_	2	mod	_	AlignBegin=166172|AlignEnd=166631|Gloss=tomorrow|TokenType=Root
+2	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	0	root	_	AlignBegin=166631|AlignEnd=167090|Gloss=communal_hunting.Fem|TokenType=Root
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=167090|AlignEnd=167550|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_45
@@ -767,9 +767,9 @@
 # phonetic_text = sai sunkà tàːru //
 # text = sai sunkà tàːru //
 # text_en = Then they gathered.
-1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=169381|AlignEnd=169620|Gloss=until
-2	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=169620|AlignEnd=169859|Background=Yes|Gloss=3Plur.Perf.Bkg
-3	tàːru	taːr-	VERB	_	_	2	comp:aux	_	AlignBegin=169859|AlignEnd=170098|Gloss=meet
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=169381|AlignEnd=169620|Gloss=until|TokenType=Root
+2	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=169620|AlignEnd=169859|Background=Yes|Gloss=3Plur.Perf.Bkg|TokenType=Root
+3	tàːru	taːr-	VERB	_	_	2	comp:aux	_	AlignBegin=169859|AlignEnd=170098|Gloss=meet|TokenType=Root
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170098|AlignEnd=170336|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_46
@@ -779,9 +779,9 @@
 # phonetic_text = kâi < mùzuːruː &//
 # text = kâi < mùzuːruː &//
 # text_en = Eh, Cat...
-1	kâi	kâi	INTJ	_	_	3	discourse	_	AlignBegin=172580|AlignEnd=172850|Gloss=my!
+1	kâi	kâi	INTJ	_	_	3	discourse	_	AlignBegin=172580|AlignEnd=172850|Gloss=my!|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=172850|AlignEnd=173120|Gloss=PUNCT|TokenType=Break
-3	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=173120|AlignEnd=173390|Gloss=cat.Masc
+3	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=173120|AlignEnd=173390|Gloss=cat.Masc|TokenType=Root
 4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=173390|AlignEnd=173660|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_47
@@ -791,17 +791,17 @@
 # phonetic_text = zàkarà < wàːtôː zàkarà yaz zakà |c yaː riːgaːyoː wurin gàyyaː //
 # text = zàkaràː < wàːtôː zàkaràː yaz zakà |c yaː riːgaːyoː wurin gàyyaː //
 # text_en = Cock, well Cock arrived first at the farming place.
-1	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	5	dislocated@subj	_	AlignBegin=175780|AlignEnd=176303|Gloss=cock.Masc
+1	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	5	dislocated@subj	_	AlignBegin=175780|AlignEnd=176303|Gloss=cock.Masc|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=176303|AlignEnd=176826|Gloss=PUNCT|TokenType=Break
-3	wàːtôː	wàːtôː	INTJ	_	_	5	discourse	_	AlignBegin=176826|AlignEnd=177349|Gloss=that_is
-4	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=177349|AlignEnd=177872|Gloss=cock.Masc
-5	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=177872|AlignEnd=178395|Background=Yes|Gloss=3Masc.Perf.Bkg
-6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=178395|AlignEnd=178918|Gloss=arrive
+3	wàːtôː	wàːtôː	INTJ	_	_	5	discourse	_	AlignBegin=176826|AlignEnd=177349|Gloss=that_is|TokenType=Root
+4	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=177349|AlignEnd=177872|Gloss=cock.Masc|TokenType=Root
+5	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=177872|AlignEnd=178395|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=178395|AlignEnd=178918|Gloss=arrive|TokenType=Root
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=178918|AlignEnd=179441|Gloss=PUNCT|TokenType=Break
-8	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	conj:coord	_	AlignBegin=179441|AlignEnd=179964|Gloss=3Masc.Perf
-9	riːgaːyoː	riːg-	VERB	_	_	8	comp:aux	_	AlignBegin=179964|AlignEnd=180487|Gloss=precede
-10	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj@G	_	AlignBegin=180487|AlignEnd=181010|Gloss=place.Masc.Cons
-11	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	10	compound	_	AlignBegin=181010|AlignEnd=181533|Gloss=communal_hunting.Fem
+8	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	conj:coord	_	AlignBegin=179441|AlignEnd=179964|Gloss=3Masc.Perf|TokenType=Root
+9	riːgaːyoː	riːg-	VERB	_	_	8	comp:aux	_	AlignBegin=179964|AlignEnd=180487|Gloss=precede|TokenType=Root
+10	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj@G	_	AlignBegin=180487|AlignEnd=181010|Gloss=place.Masc.Cons|TokenType=Root
+11	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	10	compound	_	AlignBegin=181010|AlignEnd=181533|Gloss=communal_hunting.Fem|TokenType=Root
 12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=181533|AlignEnd=182056|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_48
@@ -811,19 +811,19 @@
 # phonetic_text = sai kàram ɓiki yac cêː mà zàkaràː [ mun isoː //= kaː zakà ?//] //
 # text = sai kàram ɓiki yac cêː mà zàkaràː [ mun isoː //= kaː zakà ?//] //
 # text_en = Then Jackal told Cock " Here we are, are you ready?"
-1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=182607|AlignEnd=182972|Gloss=until
-2	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	AlignBegin=182972|AlignEnd=183337|Gloss=dog.Masc.Cons
-3	ɓiki	ɓiki	NOUN	_	Gender=Masc	2	compound	_	AlignBegin=183337|AlignEnd=183702|Gloss=shit.Masc
-4	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=183702|AlignEnd=184067|Background=Yes|Gloss=3Masc.Perf.Bkg
-5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=184067|AlignEnd=184432|Gloss=say
-6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=184432|AlignEnd=184797|Gloss=Dat
-7	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=184797|AlignEnd=185162|Gloss=cock.Masc
+1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=182607|AlignEnd=182972|Gloss=until|TokenType=Root
+2	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	AlignBegin=182972|AlignEnd=183337|Gloss=dog.Masc.Cons|TokenType=Root
+3	ɓiki	ɓiki	NOUN	_	Gender=Masc	2	compound	_	AlignBegin=183337|AlignEnd=183702|Gloss=shit.Masc|TokenType=Root
+4	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=183702|AlignEnd=184067|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=184067|AlignEnd=184432|Gloss=say|TokenType=Root
+6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=184432|AlignEnd=184797|Gloss=Dat|TokenType=Root
+7	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=184797|AlignEnd=185162|Gloss=cock.Masc|TokenType=Root
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=185162|AlignEnd=185527|Gloss=PUNCT|TokenType=Break
-9	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=185527|AlignEnd=185892|Gloss=1Plur.Perf
-10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive
+9	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=185527|AlignEnd=185892|Gloss=1Plur.Perf|TokenType=Root
+10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive|TokenType=Root
 11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=186257|AlignEnd=186622|Gloss=PUNCT|TokenType=Break
-12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis	_	AlignBegin=186622|AlignEnd=186987|Gloss=2Masc.Perf
-13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=186987|AlignEnd=187352|Gloss=arrive
+12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis	_	AlignBegin=186622|AlignEnd=186987|Gloss=2Masc.Perf|TokenType=Root
+13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=186987|AlignEnd=187352|Gloss=arrive|TokenType=Root
 14	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=187352|AlignEnd=187717|Gloss=PUNCT|TokenType=Break
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=187717|AlignEnd=188087|Gloss=PUNCT|TokenType=Break
 
@@ -834,10 +834,10 @@
 # phonetic_text = yac cèː [ eː //] //
 # text = yac cèː [ eː //] //
 # text_en = He said "Yes."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=188087|AlignEnd=188196|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=188196|AlignEnd=188305|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=188087|AlignEnd=188196|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=188196|AlignEnd=188305|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=188305|AlignEnd=188414|Gloss=PUNCT|TokenType=Break
-4	eː	eː	INTJ	_	_	2	comp:obj	_	AlignBegin=188414|AlignEnd=188523|Gloss=yes
+4	eː	eː	INTJ	_	_	2	comp:obj	_	AlignBegin=188414|AlignEnd=188523|Gloss=yes|TokenType=Root
 5	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=188523|AlignEnd=188632|Gloss=PUNCT|TokenType=Break
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=188632|AlignEnd=188740|Gloss=PUNCT|TokenType=Break
 
@@ -848,10 +848,10 @@
 # phonetic_text = yac cèː [ wùceː !//] //
 # text = yac cèː [ wùceː !//] //
 # text_en = He said "Get in!"
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=189820|AlignEnd=189940|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=189940|AlignEnd=190060|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=189820|AlignEnd=189940|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=189940|AlignEnd=190060|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=190060|AlignEnd=190180|Gloss=PUNCT|TokenType=Break
-4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Jus
+4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Jus|TokenType=Root
 5	!//]	!//]	PUNCT	_	_	4	punct	_	AlignBegin=190300|AlignEnd=190420|Gloss=PUNCT|TokenType=Break
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=190420|AlignEnd=190540|Gloss=PUNCT|TokenType=Break
 
@@ -862,10 +862,10 @@
 # phonetic_text = sai gàː mùzuːruː zakkùwaː //
 # text = sai gàː mùzuːruː zakkùwaː //
 # text_en = Then, here came Cat.
-1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=192220|AlignEnd=192420|Gloss=then
-2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=192420|AlignEnd=192620|Gloss=here_is
-3	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=192620|AlignEnd=192820|Gloss=cat.Masc
-4	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=192820|AlignEnd=193020|Gloss=arrive.Vnoun.Fem
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=192220|AlignEnd=192420|Gloss=then|TokenType=Root
+2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=192420|AlignEnd=192620|Gloss=here_is|TokenType=Root
+3	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=192620|AlignEnd=192820|Gloss=cat.Masc|TokenType=Root
+4	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=192820|AlignEnd=193020|Gloss=arrive.Vnoun.Fem|TokenType=Root
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=193020|AlignEnd=193220|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_52
@@ -875,16 +875,16 @@
 # phonetic_text = dà mùzuːruː yaz zakà < yac cèː [ kaː isoː ?//] //
 # text = dà mùzuːruː yaz zakà < yac cèː [ kaː isoː ?//] //
 # text_en = When Cat arrived, he said "Are you ready?"
-1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=194025|AlignEnd=194128|Gloss=as
-2	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=194128|AlignEnd=194231|Gloss=cat.Masc
-3	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=194231|AlignEnd=194334|Background=Yes|Gloss=3Masc.Perf.Bkg
-4	zakà	zak-	VERB	_	_	3	comp:aux	_	AlignBegin=194334|AlignEnd=194437|Gloss=arrive
+1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=194025|AlignEnd=194128|Gloss=as|TokenType=Root
+2	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=194128|AlignEnd=194231|Gloss=cat.Masc|TokenType=Root
+3	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=194231|AlignEnd=194334|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	zakà	zak-	VERB	_	_	3	comp:aux	_	AlignBegin=194334|AlignEnd=194437|Gloss=arrive|TokenType=Root
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=194437|AlignEnd=194540|Gloss=PUNCT|TokenType=Break
-6	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=194540|AlignEnd=194643|Background=Yes|Gloss=3Masc.Perf.Bkg
-7	cèː	cêː	VERB	_	_	6	comp:aux	_	AlignBegin=194643|AlignEnd=194746|Gloss=say
+6	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=194540|AlignEnd=194643|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+7	cèː	cêː	VERB	_	_	6	comp:aux	_	AlignBegin=194643|AlignEnd=194746|Gloss=say|TokenType=Root
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=194746|AlignEnd=194849|Gloss=PUNCT|TokenType=Break
-9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=194849|AlignEnd=194952|Gloss=2Masc.Perf
-10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=194952|AlignEnd=195055|Gloss=arrive
+9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=194849|AlignEnd=194952|Gloss=2Masc.Perf|TokenType=Root
+10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=194952|AlignEnd=195055|Gloss=arrive|TokenType=Root
 11	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=195055|AlignEnd=195158|Gloss=PUNCT|TokenType=Break
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=195158|AlignEnd=195258|Gloss=PUNCT|TokenType=Break
 
@@ -895,14 +895,14 @@
 # phonetic_text = yac cèː [ wùceː !//= gàː naːmàː nân //] //
 # text = yac cèː [ wùceː !//= gàː naːmàː nân //] //
 # text_en = He said "Get in, here is some meat."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=195258|AlignEnd=195470|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=195470|AlignEnd=195682|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=195258|AlignEnd=195470|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=195470|AlignEnd=195682|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=195682|AlignEnd=195894|Gloss=PUNCT|TokenType=Break
-4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus
+4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus|TokenType=Root
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=196106|AlignEnd=196318|Gloss=PUNCT|TokenType=Break
-6	gàː	gàː	PredPART	_	_	4	parataxis	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is
-7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat.Masc
-8	nân	nân	ADV	_	_	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Deixis=Prox|Gloss=Prox
+6	gàː	gàː	PredPART	_	_	4	parataxis	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is|TokenType=Root
+7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat.Masc|TokenType=Root
+8	nân	nân	ADV	_	_	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Deixis=Prox|Gloss=Prox|TokenType=Root
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=196954|AlignEnd=197166|Gloss=PUNCT|TokenType=Break
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=197166|AlignEnd=197377|Gloss=PUNCT|TokenType=Break
 
@@ -913,7 +913,7 @@
 # phonetic_text = he'è: //
 # text = he'è: //
 # text_en = [laughter]
-1	he'è:	he'è:	INTJ	_	_	0	root	_	AlignBegin=198660|AlignEnd=198850|Gloss=hee-hee
+1	he'è:	he'è:	INTJ	_	_	0	root	_	AlignBegin=198660|AlignEnd=198850|Gloss=hee-hee|TokenType=Root
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=198850|AlignEnd=199040|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_55
@@ -923,9 +923,9 @@
 # phonetic_text = yac cânyè mùzuruː //
 # text = yac cânyè mùzuruː //
 # text_en = He ate Cat up.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=200060|AlignEnd=200325|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=200325|AlignEnd=200590|Gloss=eat
-3	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=200590|AlignEnd=200855|Gloss=cat.Masc
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=200060|AlignEnd=200325|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=200325|AlignEnd=200590|Gloss=eat|TokenType=Root
+3	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=200590|AlignEnd=200855|Gloss=cat.Masc|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200855|AlignEnd=201120|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_56
@@ -935,9 +935,9 @@
 # phonetic_text = yac cânyè zàkaràː //
 # text = yac cânyè zàkaràː //
 # text_en = He ate Cock up.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=202163|AlignEnd=202551|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=202551|AlignEnd=202939|Gloss=eat
-3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=202939|AlignEnd=203327|Gloss=cock.Masc
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=202163|AlignEnd=202551|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=202551|AlignEnd=202939|Gloss=eat|TokenType=Root
+3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=202939|AlignEnd=203327|Gloss=cock.Masc|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=203327|AlignEnd=203714|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_57
@@ -947,9 +947,9 @@
 # phonetic_text = yac cânyè zàkarà //
 # text = yac cânyè zàkaràː //
 # text_en = He ate Cock up.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=203630|AlignEnd=203921|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=203921|AlignEnd=204212|Gloss=eat
-3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=204212|AlignEnd=204503|Gloss=cock.Masc
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=203630|AlignEnd=203921|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=203921|AlignEnd=204212|Gloss=eat|TokenType=Root
+3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=204212|AlignEnd=204503|Gloss=cock.Masc|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=204503|AlignEnd=204795|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_58
@@ -959,15 +959,15 @@
 # phonetic_text = yaː cânyè zàkaràː |c yaː ƙaːrèː < gàː kàreː //
 # text = yaː cânyè zàkaràː |c yaː ƙaːrèː < gàː kàreː //
 # text_en = He had finished eating Cock when dog arrived.
-1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	mod	_	AlignBegin=205580|AlignEnd=205943|Gloss=3Masc.Perf
-2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=205943|AlignEnd=206306|Gloss=eat
-3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=206306|AlignEnd=206669|Gloss=cock.Masc
+1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	mod	_	AlignBegin=205580|AlignEnd=205943|Gloss=3Masc.Perf|TokenType=Root
+2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=205943|AlignEnd=206306|Gloss=eat|TokenType=Root
+3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=206306|AlignEnd=206669|Gloss=cock.Masc|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=206669|AlignEnd=207032|Gloss=PUNCT|TokenType=Break
-5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=207032|AlignEnd=207395|Gloss=3Masc.Perf
-6	ƙaːrèː	ƙaːr-	VERB	_	_	5	comp:aux	_	AlignBegin=207395|AlignEnd=207758|Gloss=finish
+5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=207032|AlignEnd=207395|Gloss=3Masc.Perf|TokenType=Root
+6	ƙaːrèː	ƙaːr-	VERB	_	_	5	comp:aux	_	AlignBegin=207395|AlignEnd=207758|Gloss=finish|TokenType=Root
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=207758|AlignEnd=208121|Gloss=PUNCT|TokenType=Break
-8	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=208121|AlignEnd=208484|Gloss=here_is
-9	kàreː	kàreː	NOUN	_	Gender=Masc	8	subj	_	AlignBegin=208484|AlignEnd=208847|Gloss=dog.Masc
+8	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=208121|AlignEnd=208484|Gloss=here_is|TokenType=Root
+9	kàreː	kàreː	NOUN	_	Gender=Masc	8	subj	_	AlignBegin=208484|AlignEnd=208847|Gloss=dog.Masc|TokenType=Root
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=208847|AlignEnd=209209|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_59
@@ -977,18 +977,18 @@
 # phonetic_text = kàreː yaz zakà < kàram ɓiki ya cèː [ sànnu dà zuwàː !//] //
 # text = kàreː yaz zakà |c kàram ɓiki yac cèː [ sànnu dà zuwàː !//] //
 # text_en = WWhen Dog arrived, Jackal said "Welcome!"
-1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=210800|AlignEnd=211015|Gloss=dog.Masc
-2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=211015|AlignEnd=211230|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=211230|AlignEnd=211445|Gloss=arrive
+1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=210800|AlignEnd=211015|Gloss=dog.Masc|TokenType=Root
+2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=211015|AlignEnd=211230|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=211230|AlignEnd=211445|Gloss=arrive|TokenType=Root
 4	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=211445|AlignEnd=211660|Gloss=PUNCT|TokenType=Break
-5	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	7	subj	_	AlignBegin=211660|AlignEnd=211875|Gloss=dog.Masc.Cons
-6	ɓiki	ɓiki	NOUN	_	Gender=Masc	5	compound	_	AlignBegin=211875|AlignEnd=212090|Gloss=shit.Masc
-7	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=212090|AlignEnd=212305|Background=Yes|Gloss=3Masc.Perf.Bkg
-8	cèː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=212305|AlignEnd=212520|Gloss=say
+5	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	7	subj	_	AlignBegin=211660|AlignEnd=211875|Gloss=dog.Masc.Cons|TokenType=Root
+6	ɓiki	ɓiki	NOUN	_	Gender=Masc	5	compound	_	AlignBegin=211875|AlignEnd=212090|Gloss=shit.Masc|TokenType=Root
+7	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=212090|AlignEnd=212305|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+8	cèː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=212305|AlignEnd=212520|Gloss=say|TokenType=Root
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=212520|AlignEnd=212735|Gloss=PUNCT|TokenType=Break
-10	sànnu	sànnu	INTJ	_	_	8	comp:obj	_	AlignBegin=212735|AlignEnd=212950|Gloss=hello
-11	dà	dà	ADP	_	_	10	mod	_	AlignBegin=212950|AlignEnd=213165|Gloss=with
-12	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=213165|AlignEnd=213380|Gloss=go.Vnoun.Masc
+10	sànnu	sànnu	INTJ	_	_	8	comp:obj	_	AlignBegin=212735|AlignEnd=212950|Gloss=hello|TokenType=Root
+11	dà	dà	ADP	_	_	10	mod	_	AlignBegin=212950|AlignEnd=213165|Gloss=with|TokenType=Root
+12	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=213165|AlignEnd=213380|Gloss=go.Vnoun.Masc|TokenType=Root
 13	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=213380|AlignEnd=213595|Gloss=PUNCT|TokenType=Break
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=213595|AlignEnd=213808|Gloss=PUNCT|TokenType=Break
 
@@ -999,11 +999,11 @@
 # phonetic_text = ya cèː [ sànnu kàɗai !//] //
 # text = yac cèː [ sànnu kàɗai !//] //
 # text_en = He said "Thanks!"
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=213813|AlignEnd=213900|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=213900|AlignEnd=213987|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=213813|AlignEnd=213900|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=213900|AlignEnd=213987|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=213987|AlignEnd=214074|Gloss=PUNCT|TokenType=Break
-4	sànnu	sànnu	INTJ	_	_	2	comp:obj	_	AlignBegin=214074|AlignEnd=214161|Gloss=hello
-5	kàɗai	kàɗai	ADV	_	_	4	mod	_	AlignBegin=214161|AlignEnd=214248|Gloss=indeed
+4	sànnu	sànnu	INTJ	_	_	2	comp:obj	_	AlignBegin=214074|AlignEnd=214161|Gloss=hello|TokenType=Root
+5	kàɗai	kàɗai	ADV	_	_	4	mod	_	AlignBegin=214161|AlignEnd=214248|Gloss=indeed|TokenType=Root
 6	!//]	!//]	PUNCT	_	_	4	punct	_	AlignBegin=214248|AlignEnd=214335|Gloss=PUNCT|TokenType=Break
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=214335|AlignEnd=214425|Gloss=PUNCT|TokenType=Break
 
@@ -1014,10 +1014,10 @@
 # phonetic_text = ‘yan gàyyaː sun zakà ?//
 # text = ƴan gàyyaː sun zakà ?//
 # text_en = Have the participants arrived?
-1	ƴan	ɗaː	NOUN	_	Number=Plur	3	subj	_	AlignBegin=214425|AlignEnd=214549|Gloss=child.Plur.Cons
-2	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	1	compound	_	AlignBegin=214549|AlignEnd=214673|Gloss=communal_hunting.Fem
-3	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=214673|AlignEnd=214797|Gloss=3Plur.Perf
-4	zakà	zak-	VERB	_	_	3	comp:aux	_	AlignBegin=214797|AlignEnd=214921|Gloss=arrive
+1	ƴan	ɗaː	NOUN	_	Number=Plur	3	subj	_	AlignBegin=214425|AlignEnd=214549|Gloss=child.Plur.Cons|TokenType=Root
+2	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	1	compound	_	AlignBegin=214549|AlignEnd=214673|Gloss=communal_hunting.Fem|TokenType=Root
+3	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=214673|AlignEnd=214797|Gloss=3Plur.Perf|TokenType=Root
+4	zakà	zak-	VERB	_	_	3	comp:aux	_	AlignBegin=214797|AlignEnd=214921|Gloss=arrive|TokenType=Root
 5	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=214921|AlignEnd=215044|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_62
@@ -1027,11 +1027,11 @@
 # phonetic_text = yac cè [ sun zakà //] //
 # text = yac cèː [ sun zakà //] //
 # text_en = He said "They have arrived."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=215044|AlignEnd=215152|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=215152|AlignEnd=215260|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=215044|AlignEnd=215152|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=215152|AlignEnd=215260|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=215260|AlignEnd=215368|Gloss=PUNCT|TokenType=Break
-4	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=215368|AlignEnd=215476|Gloss=3Plur.Perf
-5	zakà	zak-	VERB	_	_	4	comp:aux	_	AlignBegin=215476|AlignEnd=215584|Gloss=arrive
+4	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=215368|AlignEnd=215476|Gloss=3Plur.Perf|TokenType=Root
+5	zakà	zak-	VERB	_	_	4	comp:aux	_	AlignBegin=215476|AlignEnd=215584|Gloss=arrive|TokenType=Root
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=215584|AlignEnd=215692|Gloss=PUNCT|TokenType=Break
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=215692|AlignEnd=215800|Gloss=PUNCT|TokenType=Break
 
@@ -1042,14 +1042,14 @@
 # phonetic_text = shìga !//= gàː mùzuruː nân //= kà ci !//
 # text = shìga !//= gàː mùzuruː nân //= kà ci !//
 # text_en = Get in, here is Cat, eat him!
-1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=216753|AlignEnd=217152|Gloss=enter.Jus
+1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=216753|AlignEnd=217152|Gloss=enter.Jus|TokenType=Root
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=217152|AlignEnd=217551|Gloss=PUNCT|TokenType=Break
-3	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is
-4	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=217950|AlignEnd=218349|Gloss=cat.Masc
-5	nân	nân	ADV	_	_	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Deixis=Prox|Gloss=Prox
+3	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is|TokenType=Root
+4	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=217950|AlignEnd=218349|Gloss=cat.Masc|TokenType=Root
+5	nân	nân	ADV	_	_	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Deixis=Prox|Gloss=Prox|TokenType=Root
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=218748|AlignEnd=219147|Gloss=PUNCT|TokenType=Break
-7	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	parataxis	_	AlignBegin=219147|AlignEnd=219546|Gloss=2Masc.Aor
-8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=219546|AlignEnd=219945|Gloss=eat
+7	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	parataxis	_	AlignBegin=219147|AlignEnd=219546|Gloss=2Masc.Aor|TokenType=Root
+8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=219546|AlignEnd=219945|Gloss=eat|TokenType=Root
 9	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=219945|AlignEnd=220348|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_64
@@ -1059,20 +1059,20 @@
 # phonetic_text = shinàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text = shi nàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text_en = He is there, eating Cat, when Hyena arrived galloping.
-1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc
-2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=Pred/Loc
-3	cân	cân	ADV	_	_	2	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Deixis=Dist|Gloss=Dist
+1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=221471|AlignEnd=221797|Gloss=3Masc|TokenType=Root
+2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=Pred/Loc|TokenType=Root
+3	cân	cân	ADV	_	_	2	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Deixis=Dist|Gloss=Dist|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT|TokenType=Break
-5	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Prog
-6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons
-7	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc
+5	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Prog|TokenType=Root
+6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
+7	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc|TokenType=Root
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT|TokenType=Break
-9	sai	sai	CCONJ	_	_	10	cc	_	AlignBegin=223753|AlignEnd=224079|Gloss=then
-10	gàː	gàː	PredPART	_	_	5	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is
-11	kuːraː	kuːraː	NOUN	_	Gender=Fem	10	subj	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem
-12	sagàb	sagàb	IDEO	_	_	10	comp:pred	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup
-13	sagàb	sagàb	IDEO	_	_	12	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup
-14	sagàb	sagàb	IDEO	_	_	13	conj:redup	_	AlignBegin=225383|AlignEnd=225709|Gloss=gallup
+9	sai	sai	CCONJ	_	_	10	cc	_	AlignBegin=223753|AlignEnd=224079|Gloss=then|TokenType=Root
+10	gàː	gàː	PredPART	_	_	5	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is|TokenType=Root
+11	kuːraː	kuːraː	NOUN	_	Gender=Fem	10	subj	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem|TokenType=Root
+12	sagàb	sagàb	IDEO	_	_	10	comp:pred	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup|TokenType=Root
+13	sagàb	sagàb	IDEO	_	_	12	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup|TokenType=Root
+14	sagàb	sagàb	IDEO	_	_	13	conj:redup	_	AlignBegin=225383|AlignEnd=225709|Gloss=gallup|TokenType=Root
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=225709|AlignEnd=226032|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_65
@@ -1082,9 +1082,9 @@
 # phonetic_text = ìnaː ‘yan gàyyaː ?//
 # text = ìnaː ƴan gàyyaː ?//
 # text_en = Where are the participants?
-1	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=226032|AlignEnd=226260|Gloss=where
-2	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	1	comp:cleft	_	AlignBegin=226260|AlignEnd=226488|Gloss=child.Plur.Cons
-3	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	2	compound	_	AlignBegin=226488|AlignEnd=226716|Gloss=communal_hunting.Fem
+1	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=226032|AlignEnd=226260|Gloss=where|TokenType=Root
+2	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	1	comp:cleft	_	AlignBegin=226260|AlignEnd=226488|Gloss=child.Plur.Cons|TokenType=Root
+3	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	2	compound	_	AlignBegin=226488|AlignEnd=226716|Gloss=communal_hunting.Fem|TokenType=Root
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=226716|AlignEnd=226942|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_66
@@ -1094,14 +1094,14 @@
 # phonetic_text = yac cèː [ ‘yan gàyyaː koː sun zakà //] //
 # text = yac cèː [ ƴan gàyyaː kòː sun zakà //] //
 # text_en = He said "The participants have arrived."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=227312|AlignEnd=227455|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=227455|AlignEnd=227598|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=227312|AlignEnd=227455|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=227455|AlignEnd=227598|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=227598|AlignEnd=227741|Gloss=PUNCT|TokenType=Break
-4	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	7	dislocated@subj	_	AlignBegin=227741|AlignEnd=227884|Gloss=child.Plur.Cons
-5	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	4	compound	_	AlignBegin=227884|AlignEnd=228027|Gloss=communal_hunting.Fem
-6	kòː	kùwa	TopPART	_	_	4	discourse	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for
-7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=228170|AlignEnd=228313|Gloss=3Plur.Perf
-8	zakà	zak-	VERB	_	_	7	comp:aux	_	AlignBegin=228313|AlignEnd=228456|Gloss=arrive
+4	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	7	dislocated@subj	_	AlignBegin=227741|AlignEnd=227884|Gloss=child.Plur.Cons|TokenType=Root
+5	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	4	compound	_	AlignBegin=227884|AlignEnd=228027|Gloss=communal_hunting.Fem|TokenType=Root
+6	kòː	kùwa	TopPART	_	_	4	discourse	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for|TokenType=Root
+7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=228170|AlignEnd=228313|Gloss=3Plur.Perf|TokenType=Root
+8	zakà	zak-	VERB	_	_	7	comp:aux	_	AlignBegin=228313|AlignEnd=228456|Gloss=arrive|TokenType=Root
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=228456|AlignEnd=228599|Gloss=PUNCT|TokenType=Break
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=228599|AlignEnd=228741|Gloss=PUNCT|TokenType=Break
 
@@ -1112,11 +1112,11 @@
 # phonetic_text = shìga !//= gàː kàreː nân //
 # text = shìga !//= gàː kàreː nân //
 # text_en = Get in, Dog is there.
-1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Jus
+1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Jus|TokenType=Root
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=230462|AlignEnd=230679|Gloss=PUNCT|TokenType=Break
-3	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is
-4	kàreː	kàreː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc
-5	nân	nân	ADV	_	_	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Deixis=Prox|Gloss=Prox
+3	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is|TokenType=Root
+4	kàreː	kàreː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc|TokenType=Root
+5	nân	nân	ADV	_	_	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Deixis=Prox|Gloss=Prox|TokenType=Root
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=231330|AlignEnd=231548|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_68
@@ -1126,12 +1126,12 @@
 # phonetic_text = tab bi kàreː |c tat taushèː //
 # text = tab bi kàreː |c tat taushèː //
 # text_en = She chased Dog and tackled him.
-1	tab	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=234780|AlignEnd=234977|Background=Yes|Gloss=3Fem.Perf.Bkg
-2	bi	bi	VERB	_	_	1	comp:aux	_	AlignBegin=234977|AlignEnd=235174|Gloss=follow
-3	kàreː	kàreː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=235174|AlignEnd=235371|Gloss=dog.Masc
+1	tab	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=234780|AlignEnd=234977|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+2	bi	bi	VERB	_	_	1	comp:aux	_	AlignBegin=234977|AlignEnd=235174|Gloss=follow|TokenType=Root
+3	kàreː	kàreː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=235174|AlignEnd=235371|Gloss=dog.Masc|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=235371|AlignEnd=235568|Gloss=PUNCT|TokenType=Break
-5	tat	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=235568|AlignEnd=235765|Background=Yes|Gloss=3Fem.Perf.Bkg
-6	taushèː	taus-	VERB	_	_	5	comp:aux	_	AlignBegin=235765|AlignEnd=235962|Gloss=tackle
+5	tat	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=235568|AlignEnd=235765|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+6	taushèː	taus-	VERB	_	_	5	comp:aux	_	AlignBegin=235765|AlignEnd=235962|Gloss=tackle|TokenType=Root
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=235962|AlignEnd=236160|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_69
@@ -1141,12 +1141,12 @@
 # phonetic_text = taː taushèː kàreː < gàː dàːmisàː //
 # text = taː taushèː kàreː < gàː dàːmisàː //
 # text_en = After she had grounded Dog, here came Leopard.
-1	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	5	mod	_	AlignBegin=237483|AlignEnd=237875|Gloss=3Fem.Perf
-2	taushèː	taus-	VERB	_	_	1	comp:aux	_	AlignBegin=237875|AlignEnd=238267|Gloss=tackle
-3	kàreː	kàreː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=238267|AlignEnd=238659|Gloss=dog.Masc
+1	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	5	mod	_	AlignBegin=237483|AlignEnd=237875|Gloss=3Fem.Perf|TokenType=Root
+2	taushèː	taus-	VERB	_	_	1	comp:aux	_	AlignBegin=237875|AlignEnd=238267|Gloss=tackle|TokenType=Root
+3	kàreː	kàreː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=238267|AlignEnd=238659|Gloss=dog.Masc|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=238659|AlignEnd=239051|Gloss=PUNCT|TokenType=Break
-5	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=239051|AlignEnd=239443|Gloss=here_is
-6	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	5	subj	_	AlignBegin=239443|AlignEnd=239835|Gloss=leopard.Fem
+5	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=239051|AlignEnd=239443|Gloss=here_is|TokenType=Root
+6	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	5	subj	_	AlignBegin=239443|AlignEnd=239835|Gloss=leopard.Fem|TokenType=Root
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=239835|AlignEnd=240224|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_70
@@ -1156,17 +1156,17 @@
 # phonetic_text = dàːmisàː yaz zakà |c yac cèː [ ‘yan gàyyaː sun isoː ?//] //
 # text = dàːmisàː yaz zakà |c yac cèː [ ƴan gàyyaː sun isoː ?//] //
 # text_en = When Leopard arrived, he said "Have the participants arrived?"
-1	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=241138|AlignEnd=241272|Gloss=leopard.Fem
-2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=241272|AlignEnd=241406|Background=Yes|Gloss=3Masc.Perf.Bkg
-3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=241406|AlignEnd=241540|Gloss=arrive
+1	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=241138|AlignEnd=241272|Gloss=leopard.Fem|TokenType=Root
+2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=241272|AlignEnd=241406|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=241406|AlignEnd=241540|Gloss=arrive|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=241540|AlignEnd=241674|Gloss=PUNCT|TokenType=Break
-5	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=241674|AlignEnd=241808|Background=Yes|Gloss=3Masc.Perf.Bkg
-6	cèː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=241808|AlignEnd=241942|Gloss=say
+5	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=241674|AlignEnd=241808|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+6	cèː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=241808|AlignEnd=241942|Gloss=say|TokenType=Root
 7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=241942|AlignEnd=242076|Gloss=PUNCT|TokenType=Break
-8	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=242076|AlignEnd=242210|Gloss=child.Plur.Cons
-9	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	8	compound	_	AlignBegin=242210|AlignEnd=242344|Gloss=communal_hunting.Fem
-10	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=242344|AlignEnd=242478|Gloss=3Plur.Perf
-11	isoː	is-	VERB	_	_	10	comp:aux	_	AlignBegin=242478|AlignEnd=242612|Gloss=arrive
+8	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=242076|AlignEnd=242210|Gloss=child.Plur.Cons|TokenType=Root
+9	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	8	compound	_	AlignBegin=242210|AlignEnd=242344|Gloss=communal_hunting.Fem|TokenType=Root
+10	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=242344|AlignEnd=242478|Gloss=3Plur.Perf|TokenType=Root
+11	isoː	is-	VERB	_	_	10	comp:aux	_	AlignBegin=242478|AlignEnd=242612|Gloss=arrive|TokenType=Root
 12	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=242612|AlignEnd=242746|Gloss=PUNCT|TokenType=Break
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=242746|AlignEnd=242880|Gloss=PUNCT|TokenType=Break
 
@@ -1177,14 +1177,14 @@
 # phonetic_text = yac cè [ shìga !//= gàː kuːraː nân. //] //
 # text = yac cèː [ shìga !//= gàː kuːraː nân. //] //
 # text_en = He said "Get in, here is Dog."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=242880|AlignEnd=243124|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=243124|AlignEnd=243368|Gloss=say
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=242880|AlignEnd=243124|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=243124|AlignEnd=243368|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=243368|AlignEnd=243612|Gloss=PUNCT|TokenType=Break
-4	shìga	shig-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Jus
+4	shìga	shig-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Jus|TokenType=Root
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=243856|AlignEnd=244100|Gloss=PUNCT|TokenType=Break
-6	gàː	gàː	PredPART	_	_	4	parataxis	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is
-7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	subj	_	AlignBegin=244344|AlignEnd=244588|Gloss=hyena.Fem
-8	nân.	nân.	ADV	_	_	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Deixis=Prox|Gloss=Prox
+6	gàː	gàː	PredPART	_	_	4	parataxis	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is|TokenType=Root
+7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	subj	_	AlignBegin=244344|AlignEnd=244588|Gloss=hyena.Fem|TokenType=Root
+8	nân.	nân.	ADV	_	_	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Deixis=Prox|Gloss=Prox|TokenType=Root
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=244832|AlignEnd=245076|Gloss=PUNCT|TokenType=Break
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=245076|AlignEnd=245319|Gloss=PUNCT|TokenType=Break
 
@@ -1195,13 +1195,13 @@
 # phonetic_text = yak kashè kuːraː < sa’àn nan gàː zaːkìː //
 # text = yak kashè kuːraː < sa’ànnan gàː zaːkìː //
 # text_en = After he killed Dog, here came Lion.
-1	yak	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	mod	_	AlignBegin=247080|AlignEnd=247253|Background=Yes|Gloss=3Masc.Perf.Bkg
-2	kashè	kas-	VERB	_	_	1	comp:aux	_	AlignBegin=247253|AlignEnd=247426|Gloss=kill
-3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	comp:obj	_	AlignBegin=247426|AlignEnd=247599|Gloss=hyena.Fem
+1	yak	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	mod	_	AlignBegin=247080|AlignEnd=247253|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	kashè	kas-	VERB	_	_	1	comp:aux	_	AlignBegin=247253|AlignEnd=247426|Gloss=kill|TokenType=Root
+3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	comp:obj	_	AlignBegin=247426|AlignEnd=247599|Gloss=hyena.Fem|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=247599|AlignEnd=247772|Gloss=PUNCT|TokenType=Break
-5	sa’ànnan	sa’ànnan	ADV	_	_	6	mod	_	AlignBegin=247772|AlignEnd=247945|Gloss=then
-6	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=248118|AlignEnd=248291|Gloss=here_is
-7	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=248291|AlignEnd=248464|Gloss=lion.Masc
+5	sa’ànnan	sa’ànnan	ADV	_	_	6	mod	_	AlignBegin=247772|AlignEnd=247945|Gloss=then|TokenType=Root
+6	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=248118|AlignEnd=248291|Gloss=here_is|TokenType=Root
+7	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=248291|AlignEnd=248464|Gloss=lion.Masc|TokenType=Root
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=248464|AlignEnd=248640|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_73
@@ -1212,19 +1212,19 @@
 # text = tsàkaːnin =sù < shiː dà zaːkìː < tak kai àbin dà tak kai //
 # text_en = Between him and Lion, what was expected happened.
 1-2	tsàkaːninsù	_	_	_	_	_	_	_	_
-1	tsàkaːnin	tsàkaːnin	ADP	_	_	8	mod	_	AlignBegin=250021|AlignEnd=250316|Gloss=between
+1	tsàkaːnin	tsàkaːnin	ADP	_	_	8	mod	_	AlignBegin=250021|AlignEnd=250316|Gloss=between|TokenType=Root
 2	-sù	-sù	PRON	_	Number=Plur|Person=3|PronType=Prs	1	udep/m	_	AlignBegin=250021|AlignEnd=250316|Gloss=3Plur.Gen|TokenType=InflAff|wordform==sù
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=250316|AlignEnd=250611|Gloss=PUNCT|TokenType=Break
-4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=250611|AlignEnd=250906|Gloss=3Masc.Nom
-5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and
-6	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	4	conj:coord	_	AlignBegin=251201|AlignEnd=251496|Gloss=lion.Masc
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=250611|AlignEnd=250906|Gloss=3Masc.Nom|TokenType=Root
+5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and|TokenType=Root
+6	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	4	conj:coord	_	AlignBegin=251201|AlignEnd=251496|Gloss=lion.Masc|TokenType=Root
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=251496|AlignEnd=251791|Gloss=PUNCT|TokenType=Break
-8	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=251791|AlignEnd=252086|Background=Yes|Gloss=3Fem.Perf.Bkg
-9	kai	kai	VERB	_	_	8	comp:aux	_	AlignBegin=252086|AlignEnd=252381|Gloss=reach
-10	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc.Cons
-11	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL
-12	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	11	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Background=Yes|Gloss=3Fem.Perf.Bkg
-13	kai	kai	VERB	_	_	12	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach
+8	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=251791|AlignEnd=252086|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+9	kai	kai	VERB	_	_	8	comp:aux	_	AlignBegin=252086|AlignEnd=252381|Gloss=reach|TokenType=Root
+10	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc.Cons|TokenType=Root
+11	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL|TokenType=Root
+12	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	11	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+13	kai	kai	VERB	_	_	12	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach|TokenType=Root
 14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=253561|AlignEnd=253853|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_74
@@ -1234,24 +1234,24 @@
 # phonetic_text = daɗàn nan < dà shiː |a kàram ɓiki |c dà zaːkìː|c dà dàːmisàː < dun nan anka waːc’èː //
 # text = daɗànnan < dà shiː |a kàram ɓiki |c dà zaːkìː |c dà dàːmisàː < dûn nan ankà waːc'èː //
 # text_en = Then, him, Jackal, Lion and Leopard, they separated.
-1	daɗànnan	daɗànnan	ADV	_	_	15	mod	_	AlignBegin=254977|AlignEnd=255244|Gloss=then
+1	daɗànnan	daɗànnan	ADV	_	_	15	mod	_	AlignBegin=254977|AlignEnd=255244|Gloss=then|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=255511|AlignEnd=255778|Gloss=PUNCT|TokenType=Break
-3	dà	dà	CCONJ	_	_	4	cc@preconj	_	AlignBegin=255778|AlignEnd=256045|Gloss=and
-4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	15	mod	_	AlignBegin=256045|AlignEnd=256312|Gloss=3Masc.Nom
+3	dà	dà	CCONJ	_	_	4	cc@preconj	_	AlignBegin=255778|AlignEnd=256045|Gloss=and|TokenType=Root
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	15	mod	_	AlignBegin=256045|AlignEnd=256312|Gloss=3Masc.Nom|TokenType=Root
 5	|a	|a	PUNCT	_	_	6	punct	_	AlignBegin=256312|AlignEnd=256579|Gloss=PUNCT|TokenType=Break
-6	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	4	conj:appos	_	AlignBegin=256579|AlignEnd=256846|Gloss=dog.Masc.Cons
-7	ɓiki	ɓiki	NOUN	_	Gender=Masc	6	compound	_	AlignBegin=256846|AlignEnd=257113|Gloss=shit.Masc
+6	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	4	conj:appos	_	AlignBegin=256579|AlignEnd=256846|Gloss=dog.Masc.Cons|TokenType=Root
+7	ɓiki	ɓiki	NOUN	_	Gender=Masc	6	compound	_	AlignBegin=256846|AlignEnd=257113|Gloss=shit.Masc|TokenType=Root
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=257113|AlignEnd=257380|Gloss=PUNCT|TokenType=Break
-9	dà	dà	CCONJ	_	_	10	cc	_	AlignBegin=257380|AlignEnd=257647|Gloss=and
-10	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	4	conj:coord	_	AlignBegin=257647|AlignEnd=257914|Gloss=lion.Masc
+9	dà	dà	CCONJ	_	_	10	cc	_	AlignBegin=257380|AlignEnd=257647|Gloss=and|TokenType=Root
+10	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	4	conj:coord	_	AlignBegin=257647|AlignEnd=257914|Gloss=lion.Masc|TokenType=Root
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=257647|AlignEnd=257914|Gloss=PUNCT|TokenType=Break
-12	dà	dà	CCONJ	_	_	13	cc	_	AlignBegin=257914|AlignEnd=258181|Gloss=and
-13	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	10	conj:coord	_	AlignBegin=258181|AlignEnd=258448|Gloss=leopard.Fem
+12	dà	dà	CCONJ	_	_	13	cc	_	AlignBegin=257914|AlignEnd=258181|Gloss=and|TokenType=Root
+13	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	10	conj:coord	_	AlignBegin=258181|AlignEnd=258448|Gloss=leopard.Fem|TokenType=Root
 14	<	<	PUNCT	_	_	4	punct	_	AlignBegin=258448|AlignEnd=258715|Gloss=PUNCT|TokenType=Break
-15	dûn	dukà	DET	_	ExtPos=PRON|PronType=Tot	0	root	_	AlignBegin=258715|AlignEnd=258982|Gloss=all
-16	nan	nan	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=258982|AlignEnd=259249|Gloss=Def
-17	ankà	yaC	AUX	_	Aspect=Perf|Person=4	15	comp:cleft	_	AlignBegin=259249|AlignEnd=259516|Background=Yes|Gloss=4.Perf.Bkg|wordform=anka
-18	waːc'èː	waːs'-	VERB	_	_	17	comp:aux	_	AlignBegin=259516|AlignEnd=259783|Gloss=scatter|wordform=waːc’èː
+15	dûn	dukà	DET	_	ExtPos=PRON|PronType=Tot	0	root	_	AlignBegin=258715|AlignEnd=258982|Gloss=all|TokenType=Root
+16	nan	nan	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=258982|AlignEnd=259249|Gloss=Def|TokenType=Root
+17	ankà	yaC	AUX	_	Aspect=Perf|Person=4	15	comp:cleft	_	AlignBegin=259249|AlignEnd=259516|Background=Yes|Gloss=4.Perf.Bkg|TokenType=Root|wordform=anka
+18	waːc'èː	waːs'-	VERB	_	_	17	comp:aux	_	AlignBegin=259516|AlignEnd=259783|Gloss=scatter|TokenType=Root|wordform=waːc’èː
 19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=259783|AlignEnd=260055|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_75
@@ -1261,10 +1261,10 @@
 # phonetic_text = shiː dàːmisàː yaː hanà kâinai //
 # text = shiː dàːmisàː yaː hanà kâinai //
 # text_en = Him, Leopard, he refused.
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	discourse	_	AlignBegin=263561|AlignEnd=264106|Gloss=3Masc.Nom
-2	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	1	conj:appos	_	AlignBegin=264106|AlignEnd=264651|Gloss=leopard.Fem
-3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=264651|AlignEnd=265196|Gloss=3Masc.Perf
-4	hanà	han-	VERB	_	_	3	comp:aux	_	AlignBegin=265196|AlignEnd=265741|Gloss=refuse
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	discourse	_	AlignBegin=263561|AlignEnd=264106|Gloss=3Masc.Nom|TokenType=Root
+2	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	1	conj:appos	_	AlignBegin=264106|AlignEnd=264651|Gloss=leopard.Fem|TokenType=Root
+3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=264651|AlignEnd=265196|Gloss=3Masc.Perf|TokenType=Root
+4	hanà	han-	VERB	_	_	3	comp:aux	_	AlignBegin=265196|AlignEnd=265741|Gloss=refuse|TokenType=Root
 5	-kâinai	-kâinai	PRON	_	Gender=Masc|Person=3|PronType=Prs|Reflex=Yes	4	comp/m:obj	_	AlignBegin=265741|AlignEnd=266286|Gloss=3Masc.Reflex|TokenType=InflAff|wordform=kâinai
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=266286|AlignEnd=266831|Gloss=PUNCT|TokenType=Break
 
@@ -1275,10 +1275,10 @@
 # phonetic_text = sunkà bìɗi kàram ɓiki //
 # text = sunkà bìɗi kàram ɓiki //
 # text_en = They chased Jackal.
-1	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=267520|AlignEnd=267699|Background=Yes|Gloss=3Plur.Perf.Bkg
-2	bìɗi	biɗ-	VERB	_	_	1	comp:aux	_	AlignBegin=267699|AlignEnd=267878|Gloss=look_for
-3	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=267878|AlignEnd=268057|Gloss=dog.Masc.Cons
-4	ɓiki	ɓiki	NOUN	_	Gender=Masc	3	compound	_	AlignBegin=268057|AlignEnd=268236|Gloss=shit.Masc
+1	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=267520|AlignEnd=267699|Background=Yes|Gloss=3Plur.Perf.Bkg|TokenType=Root
+2	bìɗi	biɗ-	VERB	_	_	1	comp:aux	_	AlignBegin=267699|AlignEnd=267878|Gloss=look_for|TokenType=Root
+3	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=267878|AlignEnd=268057|Gloss=dog.Masc.Cons|TokenType=Root
+4	ɓiki	ɓiki	NOUN	_	Gender=Masc	3	compound	_	AlignBegin=268057|AlignEnd=268236|Gloss=shit.Masc|TokenType=Root
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=268236|AlignEnd=268415|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_77
@@ -1288,10 +1288,10 @@
 # phonetic_text = kàram ɓiki yac c’eːrèː //
 # text = kàram ɓiki yac c’eːrèː //
 # text_en = Jackal ran away.
-1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	3	mod	_	AlignBegin=268415|AlignEnd=268556|Gloss=dog.Masc.Cons
-2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=268556|AlignEnd=268697|Gloss=shit.Masc
-3	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=268697|AlignEnd=268838|Background=Yes|Gloss=3Masc.Perf.Bkg
-4	c’eːrèː	c’eːr-	VERB	_	_	3	comp:aux	_	AlignBegin=268838|AlignEnd=268979|Gloss=escape
+1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	3	mod	_	AlignBegin=268415|AlignEnd=268556|Gloss=dog.Masc.Cons|TokenType=Root
+2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=268556|AlignEnd=268697|Gloss=shit.Masc|TokenType=Root
+3	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=268697|AlignEnd=268838|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	c’eːrèː	c’eːr-	VERB	_	_	3	comp:aux	_	AlignBegin=268838|AlignEnd=268979|Gloss=escape|TokenType=Root
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=268979|AlignEnd=269120|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_78
@@ -1301,9 +1301,9 @@
 # phonetic_text = sa’àn nan gàːtawaːn taː waːc’èː //
 # text = sa’ànnan gàːtawaːn taː waːc’èː //
 # text_en = That's the end of the tale.
-1	sa’ànnan	sa’ànnan	ADV	_	_	3	mod	_	AlignBegin=269458|AlignEnd=269675|Gloss=then
-2	gàːtawaːn	X	X	_	_	3	subj	_	AlignBegin=269892|AlignEnd=270109|Gloss=X
-3	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=270109|AlignEnd=270326|Gloss=3Fem.Perf
-4	waːc'èː	waːs'-	VERB	_	_	3	comp:aux	_	AlignBegin=270326|AlignEnd=270543|Gloss=scatter|wordform=waːc’èː
+1	sa’ànnan	sa’ànnan	ADV	_	_	3	mod	_	AlignBegin=269458|AlignEnd=269675|Gloss=then|TokenType=Root
+2	gàːtawaːn	X	X	_	_	3	subj	_	AlignBegin=269892|AlignEnd=270109|Gloss=X|TokenType=Root
+3	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=270109|AlignEnd=270326|Gloss=3Fem.Perf|TokenType=Root
+4	waːc'èː	waːs'-	VERB	_	_	3	comp:aux	_	AlignBegin=270326|AlignEnd=270543|Gloss=scatter|TokenType=Root|wordform=waːc’èː
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=270543|AlignEnd=270761|Gloss=PUNCT|TokenType=Break
 
