@@ -35,11 +35,11 @@
 # phonetic_text = dâː maː ɗiyan kiyoːshiː nàː //
 # text = dâːmaː ɗiyan kiyoːshiː nàː //
 # text_en = They were jealous of each other.
-1	dâːmaː	dâːmaː	ADV	_	_	4	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly|TokenType=Root
-2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	comp:pred	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons|TokenType=Root
+1	dâːmaː	dâːmaː	ADV	_	_	2	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly|TokenType=Root
+2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	0	root	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons|TokenType=Root
 3	kiyoːshiː	kiːshìyaːː	NOUN	_	Number=Plur	2	compound	_	AlignBegin=7682|AlignEnd=7938|Gloss=co-wife.Plur|TokenType=Root
-4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=Ident|TokenType=Root
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=8194|AlignEnd=8448|Gloss=PUNCT|TokenType=Break
+4	nàː	naː/taː	FocPart	_	_	2	cop	_	AlignBegin=7938|AlignEnd=8194|Gloss=Ident|TokenType=Root
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=8194|AlignEnd=8448|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_004-004
 # speaker_id = SP
@@ -213,14 +213,14 @@
 # text = du' àbin dà tas saːmoː < maːtaː nàː //
 # text_en = Whatever she got was female.
 1	du'	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=41258|AlignEnd=41418|Gloss=all|TokenType=Root
-2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	dislocated@subj	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons|TokenType=Root
+2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	7	dislocated@subj	_	AlignBegin=41418|AlignEnd=41578|Gloss=thing.Masc.Cons|TokenType=Root
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=41578|AlignEnd=41738|Gloss=REL|TokenType=Root
 4	tas	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=41738|AlignEnd=41898|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=41898|AlignEnd=42058|Gloss=receive|TokenType=Root
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=42058|AlignEnd=42218|Gloss=PUNCT|TokenType=Break
-7	maːtaː	tamatà	ADJ	_	Number=Plur	8	comp:pred	_	AlignBegin=42218|AlignEnd=42378|Gloss=female.Plur|TokenType=Root
-8	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=42378|AlignEnd=42538|Gloss=Ident|TokenType=Root
-9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=42538|AlignEnd=42694|Gloss=PUNCT|TokenType=Break
+7	maːtaː	tamatà	ADJ	_	Number=Plur	0	root	_	AlignBegin=42218|AlignEnd=42378|Gloss=female.Plur|TokenType=Root
+8	nàː	naː/taː	FocPart	_	_	7	cop	_	AlignBegin=42378|AlignEnd=42538|Gloss=Ident|TokenType=Root
+9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=42538|AlignEnd=42694|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_012-012
 # speaker_id = SP
