@@ -746,8 +746,8 @@
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=135862|AlignEnd=135996|Gloss=PUNCT|TokenType=Break
 5	tay	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=135996|AlignEnd=136130|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=136130|AlignEnd=136264|Gloss=do|TokenType=Root
-7	ta	ta	ADP	_	Aspect=Iter	6	comp:pred	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter|TokenType=Root
-8	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=136398|AlignEnd=136532|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
+7	ta	ta	ADP	_	Aspect=Iter	6	compound@prt	_	AlignBegin=136130|AlignEnd=136264|Gloss=Iter|TokenType=Root
+8	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=136398|AlignEnd=136532|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
 9	naːmàː	naːmàː	NOUN	_	Gender=Masc	8	udep	_	AlignBegin=136532|AlignEnd=136666|Gloss=meat.Masc|TokenType=Root
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=136666|AlignEnd=136800|Gloss=PUNCT|TokenType=Break
 
@@ -763,16 +763,16 @@
 3	nàː	nàː	AUX	_	Gender=Fem	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=Pred/Loc|TokenType=Root
 4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def|TokenType=Root
 5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	3	parataxis	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog|TokenType=Root
-6	ta	ta	ADP	_	Aspect=Iter	5	comp:aux	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|TokenType=Root
-7	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
+6	ta	ta	ADP	_	Aspect=Iter	5	compound@prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|TokenType=Root
+7	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp@aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
 8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc|TokenType=Root
 9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT|TokenType=Break
 10	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	11	subj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem|TokenType=Root
 11	nàː	nàː	AUX	_	_	5	parataxis	_	AlignBegin=140373|AlignEnd=140512|Gloss=Pred/Loc|TokenType=Root
 12	nan	nan	ADV	_	Definite=Def	11	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def|TokenType=Root
 13	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	11	parataxis	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog|TokenType=Root
-14	ta	ta	ADP	_	Aspect=Iter	13	comp:aux	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|TokenType=Root
-15	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	14	comp:obj	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
+14	ta	ta	ADP	_	Aspect=Iter	13	compound@prt	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|TokenType=Root
+15	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp@aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
 16	naːmàː	naːmàː	NOUN	_	Definite=Cons	15	mod	_	AlignBegin=141068|AlignEnd=141207|Gloss=meat.Cons|TokenType=Root
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141207|AlignEnd=141341|Gloss=PUNCT|TokenType=Break
 
