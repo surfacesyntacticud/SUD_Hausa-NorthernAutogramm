@@ -746,7 +746,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 124399, 132065
 # text_ortho = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cèː mà uwaːtai [ níː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
-# text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaː =tai [ niː < inna < niː < hakàn ga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
+# text = sai rân nan < ankà baː shì kaːshiː |c yaz zakà |c yac cêː mà uwaːtai [ niː < inna < niː < hakànga nàː >+ Allàː yay yoː nì cikin duːniyàg ga ?//] //
 # text_en = Then one day, he got beaten, he came and told his mother "Me, mother, me, is that how God brought me into this world?"
 1	sai	sai	ADV	_	_	5	mod	_	AlignBegin=124399|AlignEnd=124612|Gloss=until|TokenType=Root
 2	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	5	mod	_	AlignBegin=124612|AlignEnd=124825|Gloss=day.Fem.Def|TokenType=Root
@@ -773,19 +773,18 @@
 22	<	<	PUNCT	_	_	21	punct	_	AlignBegin=128659|AlignEnd=128872|Gloss=PUNCT|TokenType=Break
 23	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	discourse	_	AlignBegin=128872|AlignEnd=129085|Gloss=1Sing.Nom|TokenType=Root
 24	<	<	PUNCT	_	_	23	punct	_	AlignBegin=129085|AlignEnd=129298|Gloss=PUNCT|TokenType=Break
-25	hakàn	hakà	ADV	_	_	14	comp:obj	_	AlignBegin=129298|AlignEnd=129511|Gloss=thus|TokenType=Root
-26	ga	ganiː	DET	_	_	25	mod	_	AlignBegin=129511|AlignEnd=129724|Deixis=Prox|Gloss=this|TokenType=Root
-27	nàː	naː/taː	FocPART	_	_	25	discourse@foc	_	AlignBegin=129724|AlignEnd=129937|Gloss=be|TokenType=Root
-28	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT|TokenType=Break
-29	Allàː	Allàː	PROPN	_	_	30	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God|TokenType=Root
-30	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	25	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
-31	yoː	yi	VERB	_	_	30	comp:aux	_	AlignBegin=130576|AlignEnd=130789|Gloss=do|TokenType=Root
-32	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	31	comp:obj	_	AlignBegin=130789|AlignEnd=131002|Gloss=1Sing|TokenType=InflAff
-33	cikin	cikin	ADP	_	_	31	comp:obl	_	AlignBegin=131002|AlignEnd=131215|Gloss=inside|TokenType=Root
-34	duːniyàg	duːniyàː	NOUN	_	Definite=Def|Gender=Fem	33	comp:obj	_	AlignBegin=131215|AlignEnd=131428|Gloss=world.Fem.Def|TokenType=Root
-35	ga	ga	DET	_	_	34	det	_	AlignBegin=131428|AlignEnd=131641|Deixis=Prox|Gloss=Prox|TokenType=Root
-36	?//]	?//]	PUNCT	_	_	25	punct	_	AlignBegin=131641|AlignEnd=131854|Gloss=PUNCT|TokenType=Break
-37	//	//	PUNCT	_	_	5	punct	_	AlignBegin=131854|AlignEnd=132065|Gloss=PUNCT|TokenType=Break
+25	hakànga	hakà	ADV	_	_	14	comp:obj	_	AlignBegin=129298|AlignEnd=129511|Gloss=thus|TokenType=Root
+26	nàː	naː/taː	FocPART	_	_	25	discourse@foc	_	AlignBegin=129724|AlignEnd=129937|Gloss=be|TokenType=Root
+27	>+	>+	PUNCT	_	_	29	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT|TokenType=Break
+28	Allàː	Allàː	PROPN	_	_	29	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God|TokenType=Root
+29	yay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	25	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+30	yoː	yi	VERB	_	_	29	comp:aux	_	AlignBegin=130576|AlignEnd=130789|Gloss=do|TokenType=Root
+31	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	30	comp:obj	_	AlignBegin=130789|AlignEnd=131002|Gloss=1Sing|TokenType=InflAff
+32	cikin	cikin	ADP	_	_	30	comp:obl	_	AlignBegin=131002|AlignEnd=131215|Gloss=inside|TokenType=Root
+33	duːniyàg	duːniyàː	NOUN	_	Definite=Def|Gender=Fem	32	comp:obj	_	AlignBegin=131215|AlignEnd=131428|Gloss=world.Fem.Def|TokenType=Root
+34	ga	ga	DET	_	_	33	det	_	AlignBegin=131428|AlignEnd=131641|Deixis=Prox|Gloss=Prox|TokenType=Root
+35	?//]	?//]	PUNCT	_	_	25	punct	_	AlignBegin=131641|AlignEnd=131854|Gloss=PUNCT|TokenType=Break
+36	//	//	PUNCT	_	_	5	punct	_	AlignBegin=131854|AlignEnd=132065|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_036-036
 # speaker_id = SP
