@@ -447,7 +447,7 @@
 # text = tôː hm̂ː //
 # text_en = Well er...
 1	tôː	tôː	INTJ	_	_	0	root	_	AlignBegin=103596|AlignEnd=103959|Gloss=well|TokenType=Root
-2	hm̂ː	hm̂ː	INTJ	_	_	1	parataxis	_	AlignBegin=103959|AlignEnd=104322|Gloss=er|TokenType=Root
+2	hm̂ː	hm̂ː	INTJ	_	_	1	parataxis@conj	_	AlignBegin=103959|AlignEnd=104322|Gloss=er|TokenType=Root
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=104322|AlignEnd=104685|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_02_GKB_26
@@ -588,7 +588,7 @@
 8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=139068|AlignEnd=139292|Gloss=PUNCT|TokenType=Break
 9	ìn	shì	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	discourse	_	AlignBegin=139292|AlignEnd=139516|Gloss=1Sing.Aor|TokenType=Root
 10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=139516|AlignEnd=139740|Gloss=hear|TokenType=Root
-11	baːbù	baːbù	PredPART	_	Polarity=Neg	6	parataxis	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg|TokenType=Root
+11	baːbù	baːbù	PredPART	_	Polarity=Neg	6	parataxis@conj	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg|TokenType=Root
 12	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	11	subj	_	AlignBegin=139964|AlignEnd=140188|Gloss=leopard.Fem|TokenType=Root
 13	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=140188|AlignEnd=140412|Gloss=PUNCT|TokenType=Break
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=140412|AlignEnd=140640|Gloss=PUNCT|TokenType=Break
@@ -822,7 +822,7 @@
 9	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=185527|AlignEnd=185892|Gloss=1Plur.Perf|TokenType=Root
 10	isoː	is-	VERB	_	_	9	comp:aux	_	AlignBegin=185892|AlignEnd=186257|Gloss=arrive|TokenType=Root
 11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=186257|AlignEnd=186622|Gloss=PUNCT|TokenType=Break
-12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis	_	AlignBegin=186622|AlignEnd=186987|Gloss=2Masc.Perf|TokenType=Root
+12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis@conj	_	AlignBegin=186622|AlignEnd=186987|Gloss=2Masc.Perf|TokenType=Root
 13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=186987|AlignEnd=187352|Gloss=arrive|TokenType=Root
 14	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=187352|AlignEnd=187717|Gloss=PUNCT|TokenType=Break
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=187717|AlignEnd=188087|Gloss=PUNCT|TokenType=Break
@@ -900,7 +900,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=195682|AlignEnd=195894|Gloss=PUNCT|TokenType=Break
 4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus|TokenType=Root
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=196106|AlignEnd=196318|Gloss=PUNCT|TokenType=Break
-6	gàː	gàː	PredPART	_	_	4	parataxis	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is|TokenType=Root
+6	gàː	gàː	PredPART	_	_	4	parataxis@conj	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is|TokenType=Root
 7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat.Masc|TokenType=Root
 8	nân	nân	ADV	_	_	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Deixis=Prox|Gloss=Prox|TokenType=Root
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=196954|AlignEnd=197166|Gloss=PUNCT|TokenType=Break
@@ -1044,11 +1044,11 @@
 # text_en = Get in, here is Cat, eat him!
 1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=216753|AlignEnd=217152|Gloss=enter.Jus|TokenType=Root
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=217152|AlignEnd=217551|Gloss=PUNCT|TokenType=Break
-3	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is|TokenType=Root
+3	gàː	gàː	PredPART	_	_	1	parataxis@conj	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is|TokenType=Root
 4	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=217950|AlignEnd=218349|Gloss=cat.Masc|TokenType=Root
 5	nân	nân	ADV	_	_	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Deixis=Prox|Gloss=Prox|TokenType=Root
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=218748|AlignEnd=219147|Gloss=PUNCT|TokenType=Break
-7	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	parataxis	_	AlignBegin=219147|AlignEnd=219546|Gloss=2Masc.Aor|TokenType=Root
+7	kà	shì	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	parataxis@conj	_	AlignBegin=219147|AlignEnd=219546|Gloss=2Masc.Aor|TokenType=Root
 8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=219546|AlignEnd=219945|Gloss=eat|TokenType=Root
 9	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=219945|AlignEnd=220348|Gloss=PUNCT|TokenType=Break
 
@@ -1063,7 +1063,7 @@
 2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=221471|AlignEnd=221797|Gloss=Pred/Loc|TokenType=Root
 3	cân	cân	ADV	_	_	2	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Deixis=Dist|Gloss=Dist|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT|TokenType=Break
-5	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Prog|TokenType=Root
+5	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis@conj	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Prog|TokenType=Root
 6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
 7	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc|TokenType=Root
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT|TokenType=Break
@@ -1114,7 +1114,7 @@
 # text_en = Get in, Dog is there.
 1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Jus|TokenType=Root
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=230462|AlignEnd=230679|Gloss=PUNCT|TokenType=Break
-3	gàː	gàː	PredPART	_	_	1	parataxis	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is|TokenType=Root
+3	gàː	gàː	PredPART	_	_	1	parataxis@conj	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is|TokenType=Root
 4	kàreː	kàreː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc|TokenType=Root
 5	nân	nân	ADV	_	_	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Deixis=Prox|Gloss=Prox|TokenType=Root
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=231330|AlignEnd=231548|Gloss=PUNCT|TokenType=Break
@@ -1182,7 +1182,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=243368|AlignEnd=243612|Gloss=PUNCT|TokenType=Break
 4	shìga	shig-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Jus|TokenType=Root
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=243856|AlignEnd=244100|Gloss=PUNCT|TokenType=Break
-6	gàː	gàː	PredPART	_	_	4	parataxis	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is|TokenType=Root
+6	gàː	gàː	PredPART	_	_	4	parataxis@conj	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is|TokenType=Root
 7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	subj	_	AlignBegin=244344|AlignEnd=244588|Gloss=hyena.Fem|TokenType=Root
 8	nân.	nân.	ADV	_	_	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Deixis=Prox|Gloss=Prox|TokenType=Root
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=244832|AlignEnd=245076|Gloss=PUNCT|TokenType=Break
