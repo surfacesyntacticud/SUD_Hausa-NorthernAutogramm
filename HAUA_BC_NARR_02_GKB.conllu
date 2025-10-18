@@ -23,13 +23,13 @@
 # text = in kaz zoː < zaːhin kwaːnaː kakà yîː //
 # text_en = As soon as you arrive, you will fall asleep.
 1	in	in	SCONJ	_	_	5	mod	_	AlignBegin=10800|AlignEnd=10976|Gloss=if|TokenType=Root
-2	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=10976|AlignEnd=11152|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+2	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=10976|AlignEnd=11152|Background=Yes|Gloss=2Masc.PerfBkg|TokenType=Root
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=11152|AlignEnd=11328|Gloss=go|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=11328|AlignEnd=11504|Gloss=PUNCT|TokenType=Break
 5	zaːhin	zaːhiː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=11504|AlignEnd=11680|Gloss=heat.Masc|TokenType=Root
 6	kwaːnaː	kwaːna-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	mod	_	AlignBegin=11680|AlignEnd=11856|Gloss=lie_down.Vnoun.Masc|TokenType=Root
 7-8	ka	_	_	_	_	_	_	_	_
-7	kakà	kà	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=12032|AlignEnd=12208|Background=Yes|Gloss=2Masc.Prog.Bkg|TokenType=Root
+7	kakà	kà	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=12032|AlignEnd=12208|Background=Yes|Gloss=2Masc.ProgBkg|TokenType=Root
 8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=12032|AlignEnd=12208|Gloss=do.Vnoun.Masc|TokenType=Root
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=12208|AlignEnd=12380|Gloss=PUNCT|TokenType=Break
 
@@ -46,7 +46,7 @@
 4	dai	dai	TopPART	_	_	3	discourse	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed|TokenType=Root
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=13095|AlignEnd=13265|Gloss=PUNCT|TokenType=Break
 6	in	in	SCONJ	_	_	10	mod	_	AlignBegin=13265|AlignEnd=13435|Gloss=if|TokenType=Root
-7	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=13435|AlignEnd=13605|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+7	kaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=13435|AlignEnd=13605|Background=Yes|Gloss=2Masc.PerfBkg|TokenType=Root
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=13605|AlignEnd=13775|Gloss=go|TokenType=Root
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=13775|AlignEnd=13945|Gloss=PUNCT|TokenType=Break
 10	kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=13945|AlignEnd=14115|Gloss=2Masc.Aor|TokenType=Root
@@ -84,7 +84,7 @@
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	mod	_	AlignBegin=24764|AlignEnd=24953|Gloss=1Sing.Nom|TokenType=Root
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=24953|AlignEnd=25142|Gloss=PUNCT|TokenType=Break
 4	in	in	SCONJ	_	_	0	root	_	AlignBegin=25142|AlignEnd=25331|Gloss=if|TokenType=Root
-5	nim	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=25331|AlignEnd=25520|Background=Yes|Gloss=1Sing.Perf.Bkg|TokenType=Root
+5	nim	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=25331|AlignEnd=25520|Background=Yes|Gloss=1Sing.PerfBkg|TokenType=Root
 6	mânceː	mant-	VERB	_	_	5	comp:aux	_	AlignBegin=25520|AlignEnd=25709|Gloss=forget|TokenType=Root
 7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=25709|AlignEnd=25895|Gloss=PUNCT|TokenType=Break
 
@@ -95,7 +95,7 @@
 # text_ortho = baːkà mânceːwà //
 # text = baːkà mânceːwà //
 # text_en = You won't forget.
-1	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=28170|AlignEnd=28470|Gloss=2Masc.Imp.Neg|TokenType=Root
+1	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=28170|AlignEnd=28470|Gloss=2Masc.ProgNeg|TokenType=Root
 2	mânceːwà	mant-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=28470|AlignEnd=28770|Gloss=forget.Vnoun.Fem|TokenType=Root
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=28770|AlignEnd=29070|Gloss=PUNCT|TokenType=Break
 
@@ -108,7 +108,7 @@
 # text_en = And if you forget, another day, we'll resume.
 1	kuma	kuma	PART	_	_	13	discourse	_	AlignBegin=29070|AlignEnd=29209|Gloss=also|TokenType=Root
 2	in	in	SCONJ	_	_	13	mod	_	AlignBegin=29209|AlignEnd=29348|Gloss=if|TokenType=Root
-3	kam	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=29348|AlignEnd=29487|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+3	kam	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=29348|AlignEnd=29487|Background=Yes|Gloss=2Masc.PerfBkg|TokenType=Root
 4	mânceː	mant-	VERB	_	_	3	comp:aux	_	AlignBegin=29487|AlignEnd=29626|Gloss=forget|TokenType=Root
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=29626|AlignEnd=29765|Gloss=PUNCT|TokenType=Break
 6	àkwai	àkwai	PredPART	_	_	13	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is|TokenType=Root
@@ -136,12 +136,12 @@
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=35547|AlignEnd=35750|Gloss=PUNCT|TokenType=Break
 6	yànzu	yànzu	ADV	_	_	16	mod	_	AlignBegin=35750|AlignEnd=35953|Gloss=now|TokenType=Root
 7	in	in	SCONJ	_	_	16	mod	_	AlignBegin=35953|AlignEnd=36156|Gloss=if|TokenType=Root
-8	kay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=36156|AlignEnd=36359|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+8	kay	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=36156|AlignEnd=36359|Background=Yes|Gloss=2Masc.PerfBkg|TokenType=Root
 9	yiː	yi	VERB	_	_	8	comp:aux	_	AlignBegin=36359|AlignEnd=36562|Gloss=do|TokenType=Root
 10	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=36562|AlignEnd=36765|Gloss=3Fem|TokenType=InflAff
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=36765|AlignEnd=36968|Gloss=PUNCT|TokenType=Break
 12	in	in	SCONJ	_	_	16	mod	_	AlignBegin=36968|AlignEnd=37171|Gloss=if|TokenType=Root
-13	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=37171|AlignEnd=37374|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+13	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=37171|AlignEnd=37374|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 14	soː	soː	VERB	_	_	13	comp:aux	_	AlignBegin=37374|AlignEnd=37577|Gloss=want|TokenType=Root
 15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=37577|AlignEnd=37780|Gloss=PUNCT|TokenType=Break
 16	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=37780|AlignEnd=37983|Gloss=2Masc.Perf|TokenType=Root
@@ -172,11 +172,11 @@
 # text = in yas soː < im munkà zoː < kà hwaɗoː min wata |c sai ìn zakà |c ìn ƙaːràː gà wàccân taːkà //
 # text_en = If he wants, when we go, you will tell me more, and I will come (back) and add more to yours.
 1	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40136|AlignEnd=40302|Gloss=if|TokenType=Root
-2	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=40302|AlignEnd=40468|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yas	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=40302|AlignEnd=40468|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	soː	soː	VERB	_	_	2	comp:aux	_	AlignBegin=40468|AlignEnd=40634|Gloss=want|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40634|AlignEnd=40800|Gloss=PUNCT|TokenType=Break
 5	in	in	SCONJ	_	_	9	mod	_	AlignBegin=40800|AlignEnd=40966|Gloss=if|TokenType=Root|wordform=im
-6	munkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=40966|AlignEnd=41132|Background=Yes|Gloss=1Plur.Perf.Bkg|TokenType=Root
+6	munkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=40966|AlignEnd=41132|Background=Yes|Gloss=1Plur.PerfBkg|TokenType=Root
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=41132|AlignEnd=41298|Gloss=go|TokenType=Root
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=41298|AlignEnd=41464|Gloss=PUNCT|TokenType=Break
 9	kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=41464|AlignEnd=41630|Gloss=2Masc.Aor|TokenType=Root
@@ -228,10 +228,10 @@
 # text = ìdan niz zoː |c kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text_en = When I go, and you remember, I will come (back) and add more.
 1	ìdan	ìdan	SCONJ	_	_	9	mod	_	AlignBegin=46018|AlignEnd=46200|Gloss=if|TokenType=Root
-2	niz	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=46200|AlignEnd=46382|Background=Yes|Gloss=1Sing.Perf.Bkg|TokenType=Root
+2	niz	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=46200|AlignEnd=46382|Background=Yes|Gloss=1Sing.PerfBkg|TokenType=Root
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=46382|AlignEnd=46564|Gloss=go|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=46564|AlignEnd=46746|Gloss=PUNCT|TokenType=Break
-5	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=46746|AlignEnd=46928|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+5	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=46746|AlignEnd=46928|Background=Yes|Gloss=2Masc.PerfBkg|TokenType=Root
 6	tunoː	tun-	VERB	_	_	5	comp:aux	_	AlignBegin=46928|AlignEnd=47110|Gloss=remember|TokenType=Root
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=47110|AlignEnd=47292|Gloss=PUNCT|TokenType=Break
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=47292|AlignEnd=47474|Gloss=then|TokenType=Root
@@ -248,7 +248,7 @@
 # text_ortho = kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text = kat tunoː < sai ìn zakà ìn ƙaːràː //
 # text_en = If you remember, I will come back and add more.
-1	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	mod	_	AlignBegin=48720|AlignEnd=48883|Background=Yes|Gloss=2Masc.Perf.Bkg|TokenType=Root
+1	kat	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	mod	_	AlignBegin=48720|AlignEnd=48883|Background=Yes|Gloss=2Masc.PerfBkg|TokenType=Root
 2	tunoː	tun-	VERB	_	_	1	comp:aux	_	AlignBegin=48883|AlignEnd=49046|Gloss=remember|TokenType=Root
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=49046|AlignEnd=49209|Gloss=PUNCT|TokenType=Break
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=49209|AlignEnd=49372|Gloss=then|TokenType=Root
@@ -293,7 +293,7 @@
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=56957|AlignEnd=57163|Gloss=PUNCT|TokenType=Break
 6	dà	dà	ADP	_	_	0	root	_	AlignBegin=57163|AlignEnd=57369|Gloss=with|TokenType=Root
 7	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=57369|AlignEnd=57575|Gloss=3Fem.Nom|TokenType=Root
-8	akà	kà	AUX	_	Aspect=Prog|Person=4	6	comp:cleft	_	AlignBegin=57575|AlignEnd=57781|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+8	akà	kà	AUX	_	Aspect=Prog|Person=4	6	comp:cleft	_	AlignBegin=57575|AlignEnd=57781|Background=Yes|Gloss=4.ProgBkg|TokenType=Root
 9	cikoː	cik-	VERB	_	_	8	comp:aux	_	AlignBegin=57781|AlignEnd=57987|Gloss=complete|TokenType=Root
 10	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	9	comp:obj	_	AlignBegin=57987|AlignEnd=58193|Gloss=thing.Masc.Def|TokenType=Root
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=58193|AlignEnd=58399|Gloss=PUNCT|TokenType=Break
@@ -324,7 +324,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=62592|AlignEnd=62748|Gloss=PUNCT|TokenType=Break
 3	dà	dà	ADP	_	_	0	root	_	AlignBegin=62748|AlignEnd=62904|Gloss=with|TokenType=Root
 4	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=62904|AlignEnd=63060|Gloss=3Fem.Nom|TokenType=Root
-5	akà	kà	AUX	_	Aspect=Prog|Person=4	3	comp:cleft	_	AlignBegin=63060|AlignEnd=63216|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+5	akà	kà	AUX	_	Aspect=Prog|Person=4	3	comp:cleft	_	AlignBegin=63060|AlignEnd=63216|Background=Yes|Gloss=4.ProgBkg|TokenType=Root
 6	koːyàː	koːy-	VERB	_	_	5	comp:aux	_	AlignBegin=63216|AlignEnd=63372|Gloss=teach|TokenType=Root
 7	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obl@R	_	AlignBegin=63372|AlignEnd=63528|Gloss=3Plur.Ben|TokenType=Root
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=63528|AlignEnd=63684|Gloss=PUNCT|TokenType=Break
@@ -336,7 +336,7 @@
 # text_ortho = dâː maː < dà ita ankà koːyàː musù //= ankà koːyàː musù Hausa //+ dà irìn làːbàːrîn nan //
 # text = akà koːyàː musù Hausa dà irìn làːbàːrûn nan //
 # text_en = They teach them Hausa with this type of tales.
-1	akà	kà	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=63684|AlignEnd=63840|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+1	akà	kà	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=63684|AlignEnd=63840|Background=Yes|Gloss=4.ProgBkg|TokenType=Root
 2	koːyàː	koːy-	VERB	_	_	1	comp:aux	_	AlignBegin=63840|AlignEnd=63996|Gloss=teach|TokenType=Root
 3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl@R	_	AlignBegin=63996|AlignEnd=64152|Gloss=3Plur.Dat|TokenType=Root
 4	Hausa	Hausa	PROPN	_	_	2	comp:obj	_	AlignBegin=64152|AlignEnd=64308|Gloss=Hausa|TokenType=Root
@@ -358,7 +358,7 @@
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=65823|AlignEnd=66003|Gloss=Def|TokenType=Root
 4	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=66003|AlignEnd=66183|Gloss=be|TokenType=Root
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=66183|AlignEnd=66363|Gloss=PUNCT|TokenType=Break
-6	akà	kà	AUX	_	Aspect=Prog|Person=4	1	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Background=Yes|Gloss=4.Prog.Bkg|TokenType=Root
+6	akà	kà	AUX	_	Aspect=Prog|Person=4	1	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Background=Yes|Gloss=4.ProgBkg|TokenType=Root
 7	koːyàː	koːy-	VERB	_	_	6	comp:aux	_	AlignBegin=66543|AlignEnd=66723|Gloss=teach|TokenType=Root
 8	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	comp:obl@R	_	AlignBegin=66903|AlignEnd=67083|Gloss=3Plur.Dat|TokenType=Root
 9	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj@T	_	AlignBegin=67083|AlignEnd=67263|Gloss=3Fem.Nom|TokenType=Root
@@ -407,7 +407,7 @@
 3	guntuwaː	guntuː	NOUN	_	Gender=Fem	6	dislocated@comp	_	AlignBegin=87546|AlignEnd=87788|Gloss=piece.Fem|TokenType=Root
 4	gùdaː	gùdaː	NOUN	_	Gender=Masc	3	mod	_	AlignBegin=87788|AlignEnd=88030|Gloss=unit.Masc|TokenType=Root
 5	ɗai	ɗai	NUM	_	_	4	det	_	AlignBegin=88030|AlignEnd=88272|Gloss=one|TokenType=Root
-6	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=88272|AlignEnd=88514|Gloss=2Masc.Imp.Neg|TokenType=Root
+6	baːkà	bâi	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=88272|AlignEnd=88514|Gloss=2Masc.ProgNeg|TokenType=Root
 7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=88514|AlignEnd=88756|Gloss=do.Vnoun.Masc|TokenType=Root
 8	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=88756|AlignEnd=88999|Gloss=PUNCT|TokenType=Break
 
@@ -458,7 +458,7 @@
 1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=108461|AlignEnd=108828|Gloss=dog.Masc.Cons|TokenType=Root
 2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=108828|AlignEnd=109195|Gloss=shit.Masc|TokenType=Root
 3	nàː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=109195|AlignEnd=109562|Gloss=be|TokenType=Root
-4	kà	kà	AUX	_	Aspect=Prog	1	mod@relcl	_	AlignBegin=109562|AlignEnd=109929|Background=Yes|Gloss=Prog.Bkg|TokenType=Root
+4	kà	kà	AUX	_	Aspect=Prog	1	mod@relcl	_	AlignBegin=109562|AlignEnd=109929|Background=Yes|Gloss=ProgBkg|TokenType=Root
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=109929|AlignEnd=110296|Gloss=do|TokenType=Root
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=110296|AlignEnd=110663|Gloss=Dat|TokenType=Root
 7	sàràkkuwaːtai	sìrikiː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=110663|AlignEnd=111030|Gloss=in-law.Fem.3Masc.Gen|TokenType=Root|wordform=sàràkkuwaː
@@ -472,10 +472,10 @@
 # text_ortho = yaz zoː || yah hwaɗì || shinàː hwaɗìː &//
 # text = yaz zoː || yah hwaɗì || shinàː hwaɗìː &//
 # text_en = He came... he said... he said...
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=115032|AlignEnd=115379|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=115032|AlignEnd=115379|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=115379|AlignEnd=115726|Gloss=go|TokenType=Root
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=115726|AlignEnd=116073|GE=[|Gloss=PUNCT|TokenType=Break
-4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:dicto	_	AlignBegin=116073|AlignEnd=116420|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:dicto	_	AlignBegin=116073|AlignEnd=116420|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 5	hwaɗì	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=116420|AlignEnd=116767|Gloss=tell|TokenType=Root
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=116767|AlignEnd=117114|GE=[|Gloss=PUNCT|TokenType=Break
 7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	conj:dicto	_	AlignBegin=117114|AlignEnd=117461|Gloss=3Masc.Prog|TokenType=Root
@@ -489,14 +489,14 @@
 # text_ortho = yaz zoː //= ya îskèː mùzuːruː //= yac cêː mai [ inàː gàyyaː. //] //
 # text = yaz zoː |c ya' îskèː mùzuːruː |c yac cêː mai [ inàː gàyyaː. //] //
 # text_en = He went to see Cat and told him "I'm doing a communal farming."
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=119032|AlignEnd=119418|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=119032|AlignEnd=119418|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=119418|AlignEnd=119804|Gloss=go|TokenType=Root
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=119804|AlignEnd=120190|Gloss=PUNCT|TokenType=Break
-4	ya'	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=120190|AlignEnd=120576|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	ya'	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=120190|AlignEnd=120576|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 5	îskèː	isk-	VERB	_	_	4	comp:aux	_	AlignBegin=120576|AlignEnd=120962|Gloss=find|TokenType=Root
 6	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=120962|AlignEnd=121348|Gloss=cat.Masc|TokenType=Root
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=121348|AlignEnd=121734|Gloss=PUNCT|TokenType=Break
-8	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=121734|AlignEnd=122120|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+8	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=121734|AlignEnd=122120|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 9	cêː	cêː	VERB	_	_	8	comp:aux	_	AlignBegin=122120|AlignEnd=122506|Gloss=say|TokenType=Root
 10	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	9	comp:obl@R	_	AlignBegin=122506|AlignEnd=122892|Gloss=3Masc.Dat|TokenType=Root
 11	[	[	PUNCT	_	_	12	punct	_	AlignBegin=122892|AlignEnd=123278|Gloss=PUNCT|TokenType=Break
@@ -512,7 +512,7 @@
 # text_ortho = yac cèː [ ìn ji baːbù kàreː ?//] //
 # text = yac cèː [ ìn ji baːbù kàreː ?//] //
 # text_en = He told him "I hope Dog won't be there?"
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=126000|AlignEnd=126288|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=126000|AlignEnd=126288|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=126288|AlignEnd=126576|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	6	punct	_	AlignBegin=126576|AlignEnd=126864|Gloss=PUNCT|TokenType=Break
 4	ìn	ø	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	discourse	_	AlignBegin=126864|AlignEnd=127152|Gloss=1Sing.Aor|TokenType=Root
@@ -541,9 +541,9 @@
 # text = dà yaw wucèː yaz zoː indà kàreː //
 # text_en = After he left, he went to Dog's house.
 1	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=131520|AlignEnd=131743|Gloss=as|TokenType=Root
-2	yaw	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=131743|AlignEnd=131966|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yaw	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=131743|AlignEnd=131966|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	wucèː	wucèː	VERB	_	_	2	comp:aux	_	AlignBegin=131966|AlignEnd=132189|Gloss=pass_by|TokenType=Root
-4	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=132189|AlignEnd=132412|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=132189|AlignEnd=132412|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 5	zoː	zoː	VERB	_	_	4	comp:aux	_	AlignBegin=132412|AlignEnd=132635|Gloss=go|TokenType=Root
 6	indà	indà	ADV	_	PronType=Rel	5	comp:obj@G	_	AlignBegin=132412|AlignEnd=132635|Gloss=where|TokenType=Root
 7	kàreː	kàreː	NOUN	_	Gender=Masc	6	mod@relcl	_	AlignBegin=132635|AlignEnd=132858|Gloss=dog.Masc|TokenType=Root
@@ -556,7 +556,7 @@
 # text_ortho = yac cêː mà kàreː [ kàreː inàː gàyyaː. //] ]
 # text = yac cêː mà kàreː [ kàreː inàː gàyyaː. //] ]
 # text_en = He told Dog "Dog, I'm doing a communal farming."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=133905|AlignEnd=134146|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=133905|AlignEnd=134146|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=134146|AlignEnd=134387|Gloss=say|TokenType=Root
 3	mà	mà	ADP	_	Case=Dat	2	comp:obl@R	_	AlignBegin=134387|AlignEnd=134628|Gloss=Dat|TokenType=Root
 4	kàreː	kàreː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=134628|AlignEnd=134869|Gloss=dog.Masc|TokenType=Root
@@ -575,7 +575,7 @@
 # text = kàreː yac cêː mai [ kanàː gàyyaː //= ìn ji baːbù dàːmisàː ?//] //
 # text_en = Dog told him "You're doing a communal farming. Tell me, there won't be Leopard ?"
 1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=137500|AlignEnd=137724|Gloss=dog.Masc|TokenType=Root
-2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=137724|AlignEnd=137948|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=137724|AlignEnd=137948|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=137948|AlignEnd=138172|Gloss=say|TokenType=Root
 4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl@R	_	AlignBegin=138172|AlignEnd=138396|Gloss=3Masc.Dat|TokenType=Root
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=138396|AlignEnd=138620|Gloss=PUNCT|TokenType=Break
@@ -596,7 +596,7 @@
 # text_ortho = yac cèː [ baːbù dàːmisàː //] //
 # text = yac cèː [ baːbù dàːmisàː //] //
 # text_en = He said, there won't be Leopard.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=141744|AlignEnd=141906|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=141744|AlignEnd=141906|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=141906|AlignEnd=142068|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=142068|AlignEnd=142230|Gloss=PUNCT|TokenType=Break
 4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=142230|AlignEnd=142392|Gloss=there_is.Neg|TokenType=Root
@@ -611,7 +611,7 @@
 # text_ortho = yac cèː [ baːbù kuːra : //] //
 # text = yac cèː [ baːbù kuːraː //] //
 # text_en = He said, there won't be Hyena.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=143480|AlignEnd=143665|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=143480|AlignEnd=143665|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=143665|AlignEnd=143850|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=143850|AlignEnd=144035|Gloss=PUNCT|TokenType=Break
 4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=144035|AlignEnd=144220|Gloss=there_is.Neg|TokenType=Root
@@ -626,7 +626,7 @@
 # text_ortho = yac cèː [ baːbù kuːra : //] //
 # text = yac cèː [ baːbù kuːraː //] //
 # text_en = He said, there won't be Hyena.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=145943|AlignEnd=146065|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=145943|AlignEnd=146065|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=146065|AlignEnd=146187|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=146187|AlignEnd=146309|Gloss=PUNCT|TokenType=Break
 4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=146309|AlignEnd=146431|Gloss=there_is.Neg|TokenType=Root
@@ -641,10 +641,10 @@
 # text_ortho = yaz zoː |c yah hwaɗàː mà kuːraː //
 # text = yaz zoː |c yah hwaɗàː mà kuːraː //
 # text_en = He went and told Hyena.
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=147026|AlignEnd=147241|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=147026|AlignEnd=147241|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=147241|AlignEnd=147456|Gloss=go|TokenType=Root
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=147456|AlignEnd=147671|Gloss=PUNCT|TokenType=Break
-4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=147671|AlignEnd=147886|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=147671|AlignEnd=147886|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=147886|AlignEnd=148101|Gloss=tell|TokenType=Root
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=148101|AlignEnd=148316|Gloss=Dat|TokenType=Root
 7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148316|AlignEnd=148531|Gloss=hyena.Fem|TokenType=Root
@@ -658,7 +658,7 @@
 # text = kuːraː tac cèː [ ìn ji baːbù dàːmisàː ?//] //
 # text_en = Hyena said "Tell me, there won't be Leopard ?"
 1	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=148744|AlignEnd=148934|Gloss=hyena.Fem|TokenType=Root
-2	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=148934|AlignEnd=149124|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+2	tac	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=148934|AlignEnd=149124|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=149124|AlignEnd=149314|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=149314|AlignEnd=149504|Gloss=PUNCT|TokenType=Break
 5	ìn	ø	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	discourse	_	AlignBegin=149504|AlignEnd=149694|Gloss=1Sing.Aor|TokenType=Root
@@ -676,7 +676,7 @@
 # text = sa’ànnan yac cèː [ baːbù shi //] //
 # text_en = Then he said "He won't be there."
 1	sa’ànnan	sa’ànnan	ADV	_	_	2	mod	_	AlignBegin=152140|AlignEnd=152398|Gloss=then|TokenType=Root
-2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=152656|AlignEnd=152914|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=152656|AlignEnd=152914|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=152914|AlignEnd=153172|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=153172|AlignEnd=153430|Gloss=PUNCT|TokenType=Break
 5	baːbù	baːbù	PredPART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=153430|AlignEnd=153688|Gloss=there_is.Neg|TokenType=Root
@@ -691,10 +691,10 @@
 # text_ortho = yaz zo : |c yah hwaɗàː mà dàːmisàː //
 # text = yaz zoː |c yah hwaɗàː mà dàːmisàː //
 # text_en = He went and told Leopard.
-1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=154840|AlignEnd=155046|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=154840|AlignEnd=155046|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=155046|AlignEnd=155252|Gloss=go|TokenType=Root
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=155458|AlignEnd=155664|Gloss=PUNCT|TokenType=Break
-4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=155664|AlignEnd=155870|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	yah	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=155664|AlignEnd=155870|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 5	hwaɗàː	hwaɗ-	VERB	_	_	4	comp:aux	_	AlignBegin=155870|AlignEnd=156076|Gloss=tell|TokenType=Root
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=156076|AlignEnd=156282|Gloss=Dat|TokenType=Root
 7	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=156282|AlignEnd=156488|Gloss=leopard.Fem|TokenType=Root
@@ -708,7 +708,7 @@
 # text = dàːmisàː yac cèː [ ìn ji baːbù zaːkìː ?//] //
 # text_en = Leopard said "Tell me, there won't be Lion ?"
 1	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=156694|AlignEnd=156900|Gloss=leopard.Fem|TokenType=Root
-2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=156900|AlignEnd=157106|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=156900|AlignEnd=157106|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=157106|AlignEnd=157312|Gloss=say|TokenType=Root
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=157312|AlignEnd=157518|Gloss=PUNCT|TokenType=Break
 5	ìn	ø	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Aor|TokenType=Root
@@ -725,7 +725,7 @@
 # text_ortho = yac cèː [ baːbù shi //] //
 # text = yac cèː [ baːbù shi //] //
 # text_en = He said "He won't be there."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=159782|AlignEnd=159906|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=159782|AlignEnd=159906|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=159906|AlignEnd=160030|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=160030|AlignEnd=160154|Gloss=PUNCT|TokenType=Break
 4	baːbù	baːbù	PredPART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=160154|AlignEnd=160278|Gloss=there_is.Neg|TokenType=Root
@@ -764,7 +764,7 @@
 # text = sai sunkà tàːru //
 # text_en = Then they gathered.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=169381|AlignEnd=169620|Gloss=until|TokenType=Root
-2	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=169620|AlignEnd=169859|Background=Yes|Gloss=3Plur.Perf.Bkg|TokenType=Root
+2	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=169620|AlignEnd=169859|Background=Yes|Gloss=3Plur.PerfBkg|TokenType=Root
 3	tàːru	taːr-	VERB	_	_	2	comp:aux	_	AlignBegin=169859|AlignEnd=170098|Gloss=meet|TokenType=Root
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170098|AlignEnd=170336|Gloss=PUNCT|TokenType=Break
 
@@ -791,7 +791,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=176303|AlignEnd=176826|Gloss=PUNCT|TokenType=Break
 3	wàːtôː	wàːtôː	INTJ	_	_	5	discourse	_	AlignBegin=176826|AlignEnd=177349|Gloss=that_is|TokenType=Root
 4	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	5	mod	_	AlignBegin=177349|AlignEnd=177872|Gloss=cock.Masc|TokenType=Root
-5	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=177872|AlignEnd=178395|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=177872|AlignEnd=178395|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 6	zakà	zak-	VERB	_	_	5	comp:aux	_	AlignBegin=178395|AlignEnd=178918|Gloss=arrive|TokenType=Root
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=178918|AlignEnd=179441|Gloss=PUNCT|TokenType=Break
 8	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	conj:coord	_	AlignBegin=179441|AlignEnd=179964|Gloss=3Masc.Perf|TokenType=Root
@@ -810,7 +810,7 @@
 1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=182607|AlignEnd=182972|Gloss=until|TokenType=Root
 2	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	AlignBegin=182972|AlignEnd=183337|Gloss=dog.Masc.Cons|TokenType=Root
 3	ɓiki	ɓiki	NOUN	_	Gender=Masc	2	compound	_	AlignBegin=183337|AlignEnd=183702|Gloss=shit.Masc|TokenType=Root
-4	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=183702|AlignEnd=184067|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+4	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=183702|AlignEnd=184067|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=184067|AlignEnd=184432|Gloss=say|TokenType=Root
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=184432|AlignEnd=184797|Gloss=Dat|TokenType=Root
 7	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=184797|AlignEnd=185162|Gloss=cock.Masc|TokenType=Root
@@ -830,7 +830,7 @@
 # text_ortho = yac cèː [ eː //] //
 # text = yac cèː [ eː //] //
 # text_en = He said "Yes."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=188087|AlignEnd=188196|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=188087|AlignEnd=188196|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=188196|AlignEnd=188305|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=188305|AlignEnd=188414|Gloss=PUNCT|TokenType=Break
 4	eː	eː	INTJ	_	_	2	comp:obj	_	AlignBegin=188414|AlignEnd=188523|Gloss=yes|TokenType=Root
@@ -844,7 +844,7 @@
 # text_ortho = yac cèː [ wùceː !//] //
 # text = yac cèː [ wùceː !//] //
 # text_en = He said "Get in!"
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=189820|AlignEnd=189940|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=189820|AlignEnd=189940|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=189940|AlignEnd=190060|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=190060|AlignEnd=190180|Gloss=PUNCT|TokenType=Break
 4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Jus|TokenType=Root
@@ -873,10 +873,10 @@
 # text_en = When Cat arrived, he said "Are you ready?"
 1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=194025|AlignEnd=194128|Gloss=as|TokenType=Root
 2	mùzuːruː	mùzuːruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=194128|AlignEnd=194231|Gloss=cat.Masc|TokenType=Root
-3	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=194231|AlignEnd=194334|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=194231|AlignEnd=194334|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 4	zakà	zak-	VERB	_	_	3	comp:aux	_	AlignBegin=194334|AlignEnd=194437|Gloss=arrive|TokenType=Root
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=194437|AlignEnd=194540|Gloss=PUNCT|TokenType=Break
-6	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=194540|AlignEnd=194643|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+6	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=194540|AlignEnd=194643|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 7	cèː	cêː	VERB	_	_	6	comp:aux	_	AlignBegin=194643|AlignEnd=194746|Gloss=say|TokenType=Root
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=194746|AlignEnd=194849|Gloss=PUNCT|TokenType=Break
 9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=194849|AlignEnd=194952|Gloss=2Masc.Perf|TokenType=Root
@@ -891,7 +891,7 @@
 # text_ortho = yac cèː [ wùceː !//= gàː naːmàː nân //] //
 # text = yac cèː [ wùceː !//= gàː naːmàː nân //] //
 # text_en = He said "Get in, here is some meat."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=195258|AlignEnd=195470|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=195258|AlignEnd=195470|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=195470|AlignEnd=195682|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=195682|AlignEnd=195894|Gloss=PUNCT|TokenType=Break
 4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus|TokenType=Root
@@ -919,7 +919,7 @@
 # text_ortho = yac cânyè mùzuruː //
 # text = yac cânyè mùzuruː //
 # text_en = He ate Cat up.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=200060|AlignEnd=200325|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=200060|AlignEnd=200325|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=200325|AlignEnd=200590|Gloss=eat|TokenType=Root
 3	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=200590|AlignEnd=200855|Gloss=cat.Masc|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200855|AlignEnd=201120|Gloss=PUNCT|TokenType=Break
@@ -931,7 +931,7 @@
 # text_ortho = yac cânyè zàkaràː //
 # text = yac cânyè zàkaràː //
 # text_en = He ate Cock up.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=202163|AlignEnd=202551|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=202163|AlignEnd=202551|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=202551|AlignEnd=202939|Gloss=eat|TokenType=Root
 3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=202939|AlignEnd=203327|Gloss=cock.Masc|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=203327|AlignEnd=203714|Gloss=PUNCT|TokenType=Break
@@ -943,7 +943,7 @@
 # text_ortho = yac cânyè zàkarà //
 # text = yac cânyè zàkaràː //
 # text_en = He ate Cock up.
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=203630|AlignEnd=203921|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=203630|AlignEnd=203921|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cânyè	ci	VERB	_	_	1	comp:aux	_	AlignBegin=203921|AlignEnd=204212|Gloss=eat|TokenType=Root
 3	zàkaràː	zàkaràː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=204212|AlignEnd=204503|Gloss=cock.Masc|TokenType=Root
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=204503|AlignEnd=204795|Gloss=PUNCT|TokenType=Break
@@ -974,12 +974,12 @@
 # text = kàreː yaz zakà |c kàram ɓiki yac cèː [ sànnu dà zuwàː !//] //
 # text_en = WWhen Dog arrived, Jackal said "Welcome!"
 1	kàreː	kàreː	NOUN	_	Gender=Masc	2	subj	_	AlignBegin=210800|AlignEnd=211015|Gloss=dog.Masc|TokenType=Root
-2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=211015|AlignEnd=211230|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=211015|AlignEnd=211230|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=211230|AlignEnd=211445|Gloss=arrive|TokenType=Root
 4	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=211445|AlignEnd=211660|Gloss=PUNCT|TokenType=Break
 5	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	7	subj	_	AlignBegin=211660|AlignEnd=211875|Gloss=dog.Masc.Cons|TokenType=Root
 6	ɓiki	ɓiki	NOUN	_	Gender=Masc	5	compound	_	AlignBegin=211875|AlignEnd=212090|Gloss=shit.Masc|TokenType=Root
-7	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=212090|AlignEnd=212305|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+7	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=212090|AlignEnd=212305|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 8	cèː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=212305|AlignEnd=212520|Gloss=say|TokenType=Root
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=212520|AlignEnd=212735|Gloss=PUNCT|TokenType=Break
 10	sànnu	sànnu	INTJ	_	_	8	comp:obj	_	AlignBegin=212735|AlignEnd=212950|Gloss=hello|TokenType=Root
@@ -995,7 +995,7 @@
 # text_ortho = ya cèː [ sànnu kàɗai !//] //
 # text = yac cèː [ sànnu kàɗai !//] //
 # text_en = He said "Thanks!"
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=213813|AlignEnd=213900|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=213813|AlignEnd=213900|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cèː	VERB	_	_	1	comp:aux	_	AlignBegin=213900|AlignEnd=213987|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=213987|AlignEnd=214074|Gloss=PUNCT|TokenType=Break
 4	sànnu	sànnu	INTJ	_	_	2	comp:obj	_	AlignBegin=214074|AlignEnd=214161|Gloss=hello|TokenType=Root
@@ -1023,7 +1023,7 @@
 # text_ortho = yac cè [ sun zakà //] //
 # text = yac cèː [ sun zakà //] //
 # text_en = He said "They have arrived."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=215044|AlignEnd=215152|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=215044|AlignEnd=215152|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=215152|AlignEnd=215260|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=215260|AlignEnd=215368|Gloss=PUNCT|TokenType=Break
 4	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=215368|AlignEnd=215476|Gloss=3Plur.Perf|TokenType=Root
@@ -1090,7 +1090,7 @@
 # text_ortho = yac cèː [ ‘yan gàyyaː koː sun zakà //] //
 # text = yac cèː [ ƴan gàyyaː kòː sun zakà //] //
 # text_en = He said "The participants have arrived."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=227312|AlignEnd=227455|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=227312|AlignEnd=227455|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=227455|AlignEnd=227598|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=227598|AlignEnd=227741|Gloss=PUNCT|TokenType=Break
 4	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	7	dislocated@subj	_	AlignBegin=227741|AlignEnd=227884|Gloss=child.Plur.Cons|TokenType=Root
@@ -1122,11 +1122,11 @@
 # text_ortho = tab bi kàreː |c tat taushèː //
 # text = tab bi kàreː |c tat taushèː //
 # text_en = She chased Dog and tackled him.
-1	tab	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=234780|AlignEnd=234977|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+1	tab	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=234780|AlignEnd=234977|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 2	bi	bi	VERB	_	_	1	comp:aux	_	AlignBegin=234977|AlignEnd=235174|Gloss=follow|TokenType=Root
 3	kàreː	kàreː	NOUN	_	Gender=Masc	2	comp:obj	_	AlignBegin=235174|AlignEnd=235371|Gloss=dog.Masc|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=235371|AlignEnd=235568|Gloss=PUNCT|TokenType=Break
-5	tat	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=235568|AlignEnd=235765|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+5	tat	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=235568|AlignEnd=235765|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 6	taushèː	taus-	VERB	_	_	5	comp:aux	_	AlignBegin=235765|AlignEnd=235962|Gloss=tackle|TokenType=Root
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=235962|AlignEnd=236160|Gloss=PUNCT|TokenType=Break
 
@@ -1153,10 +1153,10 @@
 # text = dàːmisàː yaz zakà |c yac cèː [ ƴan gàyyaː sun isoː ?//] //
 # text_en = When Leopard arrived, he said "Have the participants arrived?"
 1	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	2	subj	_	AlignBegin=241138|AlignEnd=241272|Gloss=leopard.Fem|TokenType=Root
-2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=241272|AlignEnd=241406|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+2	yaz	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=241272|AlignEnd=241406|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 3	zakà	zak-	VERB	_	_	2	comp:aux	_	AlignBegin=241406|AlignEnd=241540|Gloss=arrive|TokenType=Root
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=241540|AlignEnd=241674|Gloss=PUNCT|TokenType=Break
-5	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=241674|AlignEnd=241808|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+5	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=241674|AlignEnd=241808|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=241808|AlignEnd=241942|Gloss=say|TokenType=Root
 7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=241942|AlignEnd=242076|Gloss=PUNCT|TokenType=Break
 8	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=242076|AlignEnd=242210|Gloss=child.Plur.Cons|TokenType=Root
@@ -1173,7 +1173,7 @@
 # text_ortho = yac cè [ shìga !//= gàː kuːraː nân. //] //
 # text = yac cèː [ shìga !//= gàː kuːraː nân. //] //
 # text_en = He said "Get in, here is Dog."
-1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=242880|AlignEnd=243124|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=242880|AlignEnd=243124|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=243124|AlignEnd=243368|Gloss=say|TokenType=Root
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=243368|AlignEnd=243612|Gloss=PUNCT|TokenType=Break
 4	shìga	shig-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Jus|TokenType=Root
@@ -1191,7 +1191,7 @@
 # text_ortho = yak kashè kuːraː < sa’àn nan gàː zaːkìː //
 # text = yak kashè kuːraː < sa’ànnan gàː zaːkìː //
 # text_en = After he killed Dog, here came Lion.
-1	yak	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	mod	_	AlignBegin=247080|AlignEnd=247253|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+1	yak	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	mod	_	AlignBegin=247080|AlignEnd=247253|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 2	kashè	kas-	VERB	_	_	1	comp:aux	_	AlignBegin=247253|AlignEnd=247426|Gloss=kill|TokenType=Root
 3	kuːraː	kuːraː	NOUN	_	Gender=Fem	2	comp:obj	_	AlignBegin=247426|AlignEnd=247599|Gloss=hyena.Fem|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=247599|AlignEnd=247772|Gloss=PUNCT|TokenType=Break
@@ -1213,11 +1213,11 @@
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and|TokenType=Root
 5	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	3	conj:coord	_	AlignBegin=251201|AlignEnd=251496|Gloss=lion.Masc|TokenType=Root
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=251496|AlignEnd=251791|Gloss=PUNCT|TokenType=Break
-7	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=251791|AlignEnd=252086|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+7	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=251791|AlignEnd=252086|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 8	kai	kai	VERB	_	_	7	comp:aux	_	AlignBegin=252086|AlignEnd=252381|Gloss=reach|TokenType=Root
 9	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc.Cons|TokenType=Root
 10	dà	dà	SCONJ	_	_	9	mod@relcl	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL|TokenType=Root
-11	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Background=Yes|Gloss=3Fem.Perf.Bkg|TokenType=Root
+11	tak	yaC	AUX	_	Aspect=Perf|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 12	kai	kai	VERB	_	_	11	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach|TokenType=Root
 13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=253561|AlignEnd=253853|Gloss=PUNCT|TokenType=Break
 
@@ -1244,7 +1244,7 @@
 14	<	<	PUNCT	_	_	4	punct	_	AlignBegin=258448|AlignEnd=258715|Gloss=PUNCT|TokenType=Break
 15	dûn	dukà	PRON	_	ExtPos=PRON|PronType=Tot	0	root	_	AlignBegin=258715|AlignEnd=258982|Gloss=all|TokenType=Root
 16	nan	nan	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=258982|AlignEnd=259249|Gloss=Def|TokenType=Root
-17	ankà	yaC	AUX	_	Aspect=Perf|Person=4	15	comp:cleft	_	AlignBegin=259249|AlignEnd=259516|Background=Yes|Gloss=4.Perf.Bkg|TokenType=Root|wordform=anka
+17	ankà	yaC	AUX	_	Aspect=Perf|Person=4	15	comp:cleft	_	AlignBegin=259249|AlignEnd=259516|Background=Yes|Gloss=4.PerfBkg|TokenType=Root|wordform=anka
 18	waːc'èː	waːs'-	VERB	_	_	17	comp:aux	_	AlignBegin=259516|AlignEnd=259783|Gloss=scatter|TokenType=Root|wordform=waːc’èː
 19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=259783|AlignEnd=260055|Gloss=PUNCT|TokenType=Break
 
@@ -1269,7 +1269,7 @@
 # text_ortho = sunkà bìɗi kàram ɓiki //
 # text = sunkà bìɗi kàram ɓiki //
 # text_en = They chased Jackal.
-1	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=267520|AlignEnd=267699|Background=Yes|Gloss=3Plur.Perf.Bkg|TokenType=Root
+1	sunkà	yaC	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=267520|AlignEnd=267699|Background=Yes|Gloss=3Plur.PerfBkg|TokenType=Root
 2	bìɗi	biɗ-	VERB	_	_	1	comp:aux	_	AlignBegin=267699|AlignEnd=267878|Gloss=look_for|TokenType=Root
 3	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=267878|AlignEnd=268057|Gloss=dog.Masc.Cons|TokenType=Root
 4	ɓiki	ɓiki	NOUN	_	Gender=Masc	3	compound	_	AlignBegin=268057|AlignEnd=268236|Gloss=shit.Masc|TokenType=Root
@@ -1284,7 +1284,7 @@
 # text_en = Jackal ran away.
 1	kàram	kàreː	NOUN	_	Definite=Cons|Gender=Masc	3	mod	_	AlignBegin=268415|AlignEnd=268556|Gloss=dog.Masc.Cons|TokenType=Root
 2	ɓiki	ɓiki	NOUN	_	Gender=Masc	1	compound	_	AlignBegin=268556|AlignEnd=268697|Gloss=shit.Masc|TokenType=Root
-3	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=268697|AlignEnd=268838|Background=Yes|Gloss=3Masc.Perf.Bkg|TokenType=Root
+3	yac	yaC	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=268697|AlignEnd=268838|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 4	c’eːrèː	c’eːr-	VERB	_	_	3	comp:aux	_	AlignBegin=268838|AlignEnd=268979|Gloss=escape|TokenType=Root
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=268979|AlignEnd=269120|Gloss=PUNCT|TokenType=Break
 
