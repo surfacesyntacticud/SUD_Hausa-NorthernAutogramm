@@ -60,7 +60,7 @@
 # text = shi nàː tàhe //
 # text_en = He was walking.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=24520|AlignEnd=24687|Gloss=3Masc|TokenType=Root
-2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=Pred/Loc|TokenType=Root
+2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=Pred/Loc|TokenType=Root
 3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=24687|AlignEnd=24854|Gloss=walk.Part.Stat|TokenType=Root
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=24854|AlignEnd=25020|Gloss=PUNCT|TokenType=Break
 
@@ -72,15 +72,15 @@
 # text = shi nàː tàhe |r shi nàː tàhe |r shi nàː tàhe //
 # text_en = He kept walking, and walking, and walking.
 1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=25960|AlignEnd=26133|Gloss=3Masc|TokenType=Root
-2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=Pred/Loc|TokenType=Root
+2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=Pred/Loc|TokenType=Root
 3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=26133|AlignEnd=26306|Gloss=walk.Part.Stat|TokenType=Root
 4	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=26306|AlignEnd=26479|Gloss=PUNCT|TokenType=Break
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=26479|AlignEnd=26652|Gloss=3Masc|TokenType=Root
-6	nàː	nàː	AUX	_	_	2	conj:redup	_	AlignBegin=26479|AlignEnd=26652|Gloss=Pred/Loc|TokenType=Root
+6	nàː	nàː	PredPART	_	_	2	conj:redup	_	AlignBegin=26479|AlignEnd=26652|Gloss=Pred/Loc|TokenType=Root
 7	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=26652|AlignEnd=26825|Gloss=walk.Part.Stat|TokenType=Root
 8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=26825|AlignEnd=26998|Gloss=PUNCT|TokenType=Break
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=26998|AlignEnd=27171|Gloss=3Masc|TokenType=Root
-10	nàː	nàː	AUX	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=Pred/Loc|TokenType=Root
+10	nàː	nàː	PredPART	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=Pred/Loc|TokenType=Root
 11	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	10	comp:pred	_	AlignBegin=27171|AlignEnd=27344|Gloss=walk.Part.Stat|TokenType=Root
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=27344|AlignEnd=27521|Gloss=PUNCT|TokenType=Break
 
@@ -404,25 +404,25 @@
 # text = ta nàː bìye dà shiː |r ta nàː bìye dà shiː |r ta nàː bìye dà shiː |r ta nàː bìye dà shiː //
 # text_en = She kept following him.
 1	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=87259|AlignEnd=87377|Gloss=3Fem|TokenType=Root
-2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=87259|AlignEnd=87377|Gloss=Pred/Loc|TokenType=Root
+2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=87259|AlignEnd=87377|Gloss=Pred/Loc|TokenType=Root
 3	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=87377|AlignEnd=87495|Gloss=follow.Part.Stat|TokenType=Root
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=87495|AlignEnd=87613|Gloss=with|TokenType=Root
 5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=87613|AlignEnd=87731|Gloss=3Masc.Nom|TokenType=Root
 6	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=87731|AlignEnd=87849|Gloss=PUNCT|TokenType=Break
 7	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	subj	_	AlignBegin=87849|AlignEnd=87967|Gloss=3Fem|TokenType=Root
-8	nàː	nàː	AUX	_	_	2	conj:redup	_	AlignBegin=87849|AlignEnd=87967|Gloss=Pred/Loc|TokenType=Root
+8	nàː	nàː	PredPART	_	_	2	conj:redup	_	AlignBegin=87849|AlignEnd=87967|Gloss=Pred/Loc|TokenType=Root
 9	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=87967|AlignEnd=88085|Gloss=follow.Part.Stat|TokenType=Root
 10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=88085|AlignEnd=88203|Gloss=with|TokenType=Root
 11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=88203|AlignEnd=88321|Gloss=3Masc.Nom|TokenType=Root
 12	|r	|r	PUNCT	_	_	14	punct	_	AlignBegin=88321|AlignEnd=88439|Gloss=PUNCT|TokenType=Break
 13	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	14	subj	_	AlignBegin=88439|AlignEnd=88557|Gloss=3Fem|TokenType=Root
-14	nàː	nàː	AUX	_	_	8	conj:redup	_	AlignBegin=88439|AlignEnd=88557|Gloss=Pred/Loc|TokenType=Root
+14	nàː	nàː	PredPART	_	_	8	conj:redup	_	AlignBegin=88439|AlignEnd=88557|Gloss=Pred/Loc|TokenType=Root
 15	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	14	comp:pred	_	AlignBegin=88557|AlignEnd=88675|Gloss=follow.Part.Stat|TokenType=Root
 16	dà	dà	ADP	_	_	15	comp:obl	_	AlignBegin=88675|AlignEnd=88793|Gloss=with|TokenType=Root
 17	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=88793|AlignEnd=88911|Gloss=3Masc.Nom|TokenType=Root
 18	|r	|r	PUNCT	_	_	20	punct	_	AlignBegin=88911|AlignEnd=89029|Gloss=PUNCT|TokenType=Break
 19	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	20	subj	_	AlignBegin=89029|AlignEnd=89147|Gloss=3Fem|TokenType=Root
-20	nàː	nàː	AUX	_	_	14	conj:redup	_	AlignBegin=89029|AlignEnd=89147|Gloss=Pred/Loc|TokenType=Root
+20	nàː	nàː	PredPART	_	_	14	conj:redup	_	AlignBegin=89029|AlignEnd=89147|Gloss=Pred/Loc|TokenType=Root
 21	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	20	comp:pred	_	AlignBegin=89147|AlignEnd=89265|Gloss=follow.Part.Stat|TokenType=Root
 22	dà	dà	ADP	_	_	21	comp:obl	_	AlignBegin=89265|AlignEnd=89383|Gloss=with|TokenType=Root
 23	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=89383|AlignEnd=89501|Gloss=3Masc.Nom|TokenType=Root
@@ -437,7 +437,7 @@
 # text_en = Then, as he was walking, he saw her.
 1	sai	sai	ADV	_	_	7	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until|TokenType=Root
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc|TokenType=Root
-3	nàː	nàː	AUX	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=Pred/Loc|TokenType=Root
+3	nàː	nàː	PredPART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=Pred/Loc|TokenType=Root
 4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside|TokenType=Root
 5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem|TokenType=Root
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|TokenType=Root
@@ -494,7 +494,7 @@
 # text_en = There were many elephants standing there.
 1	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur|TokenType=Root
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur|TokenType=Root
-3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=Pred/Loc|TokenType=Root
+3	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=Pred/Loc|TokenType=Root
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|TokenType=Root
 5	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|TokenType=Root
 6	dà	dà	ADP	_	_	5	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|TokenType=Root
@@ -745,7 +745,7 @@
 # text_en = She kept eating and eating the meat.
 1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|TokenType=Root
 2	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|TokenType=Root
-3	nàː	nàː	AUX	_	Gender=Fem	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=Pred/Loc|TokenType=Root
+3	nàː	nàː	PredPART	_	Gender=Fem	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=Pred/Loc|TokenType=Root
 4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def|TokenType=Root
 5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	3	parataxis@conj	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog|TokenType=Root
 6	ta	ta	ADP	_	Aspect=Iter	5	compound@prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|TokenType=Root
@@ -753,7 +753,7 @@
 8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc|TokenType=Root
 9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT|TokenType=Break
 10	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	11	subj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem|TokenType=Root
-11	nàː	nàː	AUX	_	_	5	parataxis@conj	_	AlignBegin=140373|AlignEnd=140512|Gloss=Pred/Loc|TokenType=Root
+11	nàː	nàː	PredPART	_	_	5	parataxis@conj	_	AlignBegin=140373|AlignEnd=140512|Gloss=Pred/Loc|TokenType=Root
 12	nan	nan	ADV	_	Definite=Def	11	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def|TokenType=Root
 13	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	11	parataxis@conj	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog|TokenType=Root
 14	ta	ta	ADP	_	Aspect=Iter	13	compound@prt	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|TokenType=Root
