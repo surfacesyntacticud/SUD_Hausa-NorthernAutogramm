@@ -79,7 +79,7 @@
 2	àːgìzoː	aːgiz-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	0	root	_	AlignBegin=133143|AlignEnd=133326|Gloss=watch.Vnoun.Masc|TokenType=Root
 3	nàː	naː/taː	FocPART	_	_	2	discourse@foc	_	AlignBegin=133326|AlignEnd=133509|Gloss=be|TokenType=Root
 4-5	kukài	_	_	_	_	_	_	_	_
-4	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
+4	kukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=133509|AlignEnd=133692|Gloss=do|TokenType=Root
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl@R	_	AlignBegin=133692|AlignEnd=133875|Gloss=Dat|TokenType=Root
 7	bisàː	bisàː	NOUN	_	_	6	comp:obj	_	AlignBegin=133875|AlignEnd=134058|Gloss=animal|TokenType=Root
@@ -93,7 +93,7 @@
 # text_en = How did you keep watch on them?
 1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	0	root	_	AlignBegin=135140|AlignEnd=135308|Gloss=how|TokenType=Root
 2	naː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=135308|AlignEnd=135476|Gloss=be|TokenType=Root
-3	kukà	kà	AUX	_	Aspect=Prog|Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
+3	kukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
 4	àːgìzonta	aːgiz-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=135644|AlignEnd=135812|Gloss=watch.Vnoun.Masc.Cons.3Fem.Gen|TokenType=Root|wordform=àːgìzon
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=135812|AlignEnd=135980|Gloss=PUNCT|TokenType=Break
 
@@ -114,7 +114,7 @@
 # text_en = But you never confronted her?
 1	tôː	tôː	INTJ	_	_	3	discourse	_	AlignBegin=183180|AlignEnd=183352|Gloss=well|TokenType=Root
 2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	3	discourse	_	AlignBegin=183352|AlignEnd=183524|Gloss=but|TokenType=Root
-3	bàkù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=183524|AlignEnd=183696|Gloss=2Pl.PerfNeg|TokenType=Root
+3	bàkù	bài	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=183524|AlignEnd=183696|Gloss=2Pl.PerfNeg|TokenType=Root
 4	taɓà	taɓ-	VERB	_	_	3	comp:aux	_	AlignBegin=183696|AlignEnd=183868|Gloss=experience|TokenType=Root
 5	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=183868|AlignEnd=184040|Gloss=do.Vnoun.Masc.Cons|TokenType=Root
 6	àkaràs	àkaràs	NOUN	_	_	5	udep	_	AlignBegin=184040|AlignEnd=184212|Gloss=confrontation|TokenType=Root
@@ -129,7 +129,7 @@
 # sent_timecode = 185660, 186980
 # text = bàkù taɓà yîn àkaràs dà ita ba ?//
 # text_en = You never confronted her?
-1	bàkù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=183524|AlignEnd=183696|Gloss=2Pl.PerfNeg|TokenType=Root
+1	bàkù	bài	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=183524|AlignEnd=183696|Gloss=2Pl.PerfNeg|TokenType=Root
 2	taɓà	taɓ-	VERB	_	_	1	comp:aux	_	AlignBegin=183696|AlignEnd=183868|Gloss=experience|TokenType=Root
 3	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=183868|AlignEnd=184040|Gloss=do.Vnoun.Masc.Cons|TokenType=Root
 4	àkaràs	àkaràs	NOUN	_	_	3	udep	_	AlignBegin=184040|AlignEnd=184212|Gloss=confrontation|TokenType=Root
@@ -173,7 +173,7 @@
 # sent_timecode = 253425, 254025
 # text = bàn san wànnan ba //
 # text_en = I don't know about that.
-1	bàn	bài	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=253425|AlignEnd=253545|Gloss=1Sing.PerfNeg|TokenType=Root
+1	bàn	bài	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=253425|AlignEnd=253545|Gloss=1Sing.PerfNeg|TokenType=Root
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=253545|AlignEnd=253665|Gloss=know|TokenType=Root
 3	wànnan	wànnan	PRON	_	Gender=Masc|PronType=Dem	2	comp:obj	_	AlignBegin=253665|AlignEnd=253785|Deixis=Prox|Gloss=Prox.Masc|TokenType=Root
 4	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=253785|AlignEnd=253905|Gloss=Neg|TokenType=Root
@@ -191,7 +191,7 @@
 4	Isshìhi	Isshìhi	PROPN	_	_	0	root	_	AlignBegin=255197|AlignEnd=255346|Gloss=Isshihi|TokenType=Root
 5	nàː	naː/taː	FocPART	_	_	4	discourse@foc	_	AlignBegin=255346|AlignEnd=255495|Gloss=be|TokenType=Root
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=255495|AlignEnd=255644|Gloss=PUNCT|TokenType=Break
-7	nis	yaC	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=255644|AlignEnd=255793|Background=Yes|Gloss=1Sing.PerfBkg|TokenType=Root
+7	nis	yaC	AUX	_	Aspect=PerfBkg|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=255644|AlignEnd=255793|Background=Yes|Gloss=1Sing.PerfBkg|TokenType=Root
 8	sanìː	sanìː	VERB	_	_	7	comp:aux	_	AlignBegin=255793|AlignEnd=255942|Gloss=know|TokenType=Root
 9	wurìn	wurìː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	AlignBegin=255942|AlignEnd=256091|Gloss=place.Masc|TokenType=Root
 10	nan	nan	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=256091|AlignEnd=256240|Gloss=Def|TokenType=Root
@@ -252,7 +252,7 @@
 10	lòːkacìn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	9	comp:obj	_	AlignBegin=684143|AlignEnd=684390|Gloss=time.Masc.Def|TokenType=Root
 11	nan	nan	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=684390|AlignEnd=684637|Gloss=Def|TokenType=Root
 12	<	<	PUNCT	_	_	3	punct	_	AlignBegin=684637|AlignEnd=684884|Gloss=PUNCT|TokenType=Break
-13	baː'à	bâi	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	0	root	_	AlignBegin=684884|AlignEnd=685131|Gloss=4.ProgNeg|TokenType=Root
+13	baː'à	bâi	AUX	_	Aspect=ProgNeg|Person=4|Polarity=Neg	0	root	_	AlignBegin=684884|AlignEnd=685131|Gloss=4.ProgNeg|TokenType=Root
 14	koːmiː	koːmi	PRON	_	PronType=Ind	13	comp:aux	_	AlignBegin=685131|AlignEnd=685378|Gloss=anything|TokenType=Root
 15	dà	dà	CCONJ	_	_	16	cc	_	AlignBegin=685378|AlignEnd=685625|Gloss=and|TokenType=Root
 16	koːmiː	koːmi	PRON	_	PronType=Ind	14	conj:coord	_	AlignBegin=685625|AlignEnd=685872|Gloss=anything|TokenType=Root
