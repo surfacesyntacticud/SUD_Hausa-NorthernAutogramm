@@ -26,7 +26,7 @@
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=68165|AlignEnd=68350|Gloss=say|TokenType=Root
 3	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=68350|AlignEnd=68535|Gloss=now|TokenType=Root
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=68535|AlignEnd=68720|Gloss=then|TokenType=Root
-5	à	ø	AUX	_	Person=4	2	comp:obj	_	AlignBegin=68720|AlignEnd=68905|Gloss=4.Aor|TokenType=Root
+5	à	ø	AUX	_	Aspect=Aor|Person=4	2	comp:obj	_	AlignBegin=68720|AlignEnd=68905|Gloss=4.Aor|TokenType=Root
 6	zoː	zoː	VERB	_	_	5	comp:aux	_	AlignBegin=68905|AlignEnd=69090|Gloss=go|TokenType=Root
 7	à	ø	AUX	_	Aspect=Aor|Person=4	5	conj:coord	_	AlignBegin=69090|AlignEnd=69275|Gloss=4.Aor|TokenType=Root
 8	biɗoː	biɗ-	VERB	_	_	7	comp:aux	_	AlignBegin=69275|AlignEnd=69460|Gloss=look_for|TokenType=Root
@@ -130,34 +130,32 @@
 # sent_timecode = 17244, 21780
 # text = shiːkèːnan < su nàː nan |r su nàː nan < rân nan sai ankà zakà ankà cêː musù [ ai àkwai saːnìyas sarkiː dà taɓ ɓacèː //] //
 # text_en = OK, then, one day, they came and told them "Eh, one of the king's cows has got lost."
-1	shiːkèːnan	shiːkèːnan	INTJ	_	_	14	discourse	_	AlignBegin=17244|AlignEnd=17418|Gloss=OK|TokenType=Root
+1	shiːkèːnan	shiːkèːnan	INTJ	_	_	12	discourse	_	AlignBegin=17244|AlignEnd=17418|Gloss=OK|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=17418|AlignEnd=17592|Gloss=PUNCT|TokenType=Break
-3	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=17592|AlignEnd=17766|Gloss=3Plur|TokenType=Root
-4	nàː	nàː	PredPART	_	_	14	mod	_	AlignBegin=17592|AlignEnd=17766|Gloss=Pred/Loc|TokenType=Root
-5	nan	nan	ADV	_	Definite=Def	4	comp:pred	_	AlignBegin=17766|AlignEnd=17940|Gloss=Def|TokenType=Root
-6	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=17940|AlignEnd=18114|Gloss=PUNCT|TokenType=Break
-7	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	8	subj	_	AlignBegin=18114|AlignEnd=18288|Gloss=3Plur|TokenType=Root
-8	nàː	nàː	PredPART	_	_	4	conj:redup	_	AlignBegin=18114|AlignEnd=18288|Gloss=Pred/Loc|TokenType=Root
-9	nan	nan	ADV	_	Definite=Def	8	comp:pred	_	AlignBegin=18288|AlignEnd=18462|Gloss=Def|TokenType=Root
-10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=18462|AlignEnd=18636|Gloss=PUNCT|TokenType=Break
-11	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	14	mod	_	AlignBegin=18636|AlignEnd=18810|Gloss=day.Fem.Def|TokenType=Root
-12	nan	nan	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=18810|AlignEnd=18984|Gloss=Def|TokenType=Root
-13	sai	sai	ADV	_	_	14	mod	_	AlignBegin=18984|AlignEnd=19158|Gloss=until|TokenType=Root
-14	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=19158|AlignEnd=19332|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
-15	zakà	zak-	VERB	_	_	14	comp:aux	_	AlignBegin=19332|AlignEnd=19506|Gloss=arrive|TokenType=Root
-16	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	14	conj:coord	_	AlignBegin=19506|AlignEnd=19680|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
-17	cêː	cêː	VERB	_	_	16	comp:aux	_	AlignBegin=19680|AlignEnd=19854|Gloss=say|TokenType=Root
-18	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	17	comp:obl	_	AlignBegin=19854|AlignEnd=20028|Gloss=3Plur.Dat|TokenType=Root
-19	[	[	PUNCT	_	_	21	punct	_	AlignBegin=20028|AlignEnd=20202|Gloss=PUNCT|TokenType=Break
-20	ai	ai	INTJ	_	_	21	discourse	_	AlignBegin=20202|AlignEnd=20376|Gloss=eh!|TokenType=Root
-21	àkwai	àkwai	PredPART	_	_	17	comp:obj	_	AlignBegin=20376|AlignEnd=20550|Gloss=there_is|TokenType=Root
-22	saːnìyas	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	21	subj	_	AlignBegin=20550|AlignEnd=20724|Gloss=cow.Fem.Cons|TokenType=Root
-23	sarkiː	sarkiː	NOUN	_	Gender=Masc	22	mod	_	AlignBegin=20724|AlignEnd=20898|Gloss=king.Masc|TokenType=Root
-24	dà	dà	SCONJ	_	_	22	mod@relcl	_	AlignBegin=20898|AlignEnd=21072|Gloss=REL|TokenType=Root
-25	taɓ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	24	comp:obj	_	AlignBegin=21072|AlignEnd=21246|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
-26	ɓacèː	ɓat-	VERB	_	_	25	comp:aux	_	AlignBegin=21246|AlignEnd=21420|Gloss=get_lost|TokenType=Root
-27	//]	//]	PUNCT	_	_	21	punct	_	AlignBegin=21420|AlignEnd=21594|Gloss=PUNCT|TokenType=Break
-28	//	//	PUNCT	_	_	14	punct	_	AlignBegin=21594|AlignEnd=21780|Gloss=PUNCT|TokenType=Break
+3	sunàː	su	PredPART	_	Number=Plur|Person=3|PronType=Prs	12	mod	_	AlignBegin=17592|AlignEnd=17766|Gloss=3Plur.Pred/Loc|TokenType=Root|wordform=su
+4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=17766|AlignEnd=17940|Gloss=Def|TokenType=Root
+5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=17940|AlignEnd=18114|Gloss=PUNCT|TokenType=Break
+6	sunàː	su	PredPART	_	Number=Plur|Person=3|PronType=Prs	3	conj:redup	_	AlignBegin=18114|AlignEnd=18288|Gloss=3Plur.Pred/Loc|TokenType=Root|wordform=su
+7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=18288|AlignEnd=18462|Gloss=Def|TokenType=Root
+8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=18462|AlignEnd=18636|Gloss=PUNCT|TokenType=Break
+9	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	12	mod	_	AlignBegin=18636|AlignEnd=18810|Gloss=day.Fem.Def|TokenType=Root
+10	nan	nan	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=18810|AlignEnd=18984|Gloss=Def|TokenType=Root
+11	sai	sai	ADV	_	_	12	mod	_	AlignBegin=18984|AlignEnd=19158|Gloss=until|TokenType=Root
+12	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=19158|AlignEnd=19332|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
+13	zakà	zak-	VERB	_	_	12	comp:aux	_	AlignBegin=19332|AlignEnd=19506|Gloss=arrive|TokenType=Root
+14	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	12	conj:coord	_	AlignBegin=19506|AlignEnd=19680|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
+15	cêː	cêː	VERB	_	_	14	comp:aux	_	AlignBegin=19680|AlignEnd=19854|Gloss=say|TokenType=Root
+16	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	comp:obl	_	AlignBegin=19854|AlignEnd=20028|Gloss=3Plur.Dat|TokenType=Root
+17	[	[	PUNCT	_	_	19	punct	_	AlignBegin=20028|AlignEnd=20202|Gloss=PUNCT|TokenType=Break
+18	ai	ai	INTJ	_	_	19	discourse	_	AlignBegin=20202|AlignEnd=20376|Gloss=eh!|TokenType=Root
+19	àkwai	àkwai	PredPART	_	_	15	comp:obj	_	AlignBegin=20376|AlignEnd=20550|Gloss=there_is|TokenType=Root
+20	saːnìyas	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	19	subj	_	AlignBegin=20550|AlignEnd=20724|Gloss=cow.Fem.Cons|TokenType=Root
+21	sarkiː	sarkiː	NOUN	_	Gender=Masc	20	mod	_	AlignBegin=20724|AlignEnd=20898|Gloss=king.Masc|TokenType=Root
+22	dà	dà	SCONJ	_	_	20	mod@relcl	_	AlignBegin=20898|AlignEnd=21072|Gloss=REL|TokenType=Root
+23	taɓ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	22	comp:obj	_	AlignBegin=21072|AlignEnd=21246|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
+24	ɓacèː	ɓat-	VERB	_	_	23	comp:aux	_	AlignBegin=21246|AlignEnd=21420|Gloss=get_lost|TokenType=Root
+25	//]	//]	PUNCT	_	_	19	punct	_	AlignBegin=21420|AlignEnd=21594|Gloss=PUNCT|TokenType=Break
+26	//	//	PUNCT	_	_	12	punct	_	AlignBegin=21594|AlignEnd=21780|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_03_GMH_05-05
 # speaker_id = SP
@@ -262,18 +260,17 @@
 # sent_timecode = 38960, 41762
 # text = in tash shìga cikin ruwaː < shi nàː bìye dà shìgattà //
 # text_en = If it had gone into water, he followed her track.
-1	in	in	SCONJ	_	_	8	mod	_	AlignBegin=38960|AlignEnd=39194|Gloss=if|TokenType=Root
+1	in	in	SCONJ	_	_	7	mod	_	AlignBegin=38960|AlignEnd=39194|Gloss=if|TokenType=Root
 2	tash	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=39194|AlignEnd=39428|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 3	shìga	shig-	VERB	_	_	2	comp:aux	_	AlignBegin=39428|AlignEnd=39662|Gloss=enter|TokenType=Root
 4	cikin	cikin	ADP	_	_	3	comp:obl	_	AlignBegin=39662|AlignEnd=39896|Gloss=inside|TokenType=Root
 5	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=39896|AlignEnd=40130|Gloss=water.Plur|TokenType=Root
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40130|AlignEnd=40364|Gloss=PUNCT|TokenType=Break
-7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=40598|AlignEnd=40832|Gloss=3Masc|TokenType=Root
-8	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=Pred/Loc|TokenType=Root
-9	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=40832|AlignEnd=41066|Gloss=follow.Part.Stat|TokenType=Root
-10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=41066|AlignEnd=41300|Gloss=with|TokenType=Root
-11	shìgattà	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	10	comp:obj	_	AlignBegin=41300|AlignEnd=41534|Gloss=track.Fem.Cons.3Fem.Gen|TokenType=Root|wordform=shìgat
-12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=41534|AlignEnd=41762|Gloss=PUNCT|TokenType=Break
+7	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+8	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:pred	_	AlignBegin=40832|AlignEnd=41066|Gloss=follow.Part.Stat|TokenType=Root
+9	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=41066|AlignEnd=41300|Gloss=with|TokenType=Root
+10	shìgattà	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	9	comp:obj	_	AlignBegin=41300|AlignEnd=41534|Gloss=track.Fem.Cons.3Fem.Gen|TokenType=Root|wordform=shìgat
+11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=41534|AlignEnd=41762|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_03_GMH_12-12
 # speaker_id = SP
@@ -281,19 +278,18 @@
 # sent_timecode = 41762, 43440
 # text = tà hìta //= tà bi duːc'ìː < shi nàː bìye dà shìgattà //
 # text_en = If it came out [of the water] and went along some stones, he followed her track.
-1	tà	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=3	9	parataxis@mod	_	AlignBegin=41762|AlignEnd=41902|Gloss=3Fem.Aor|TokenType=Root
+1	tà	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=3	8	parataxis@mod	_	AlignBegin=41762|AlignEnd=41902|Gloss=3Fem.Aor|TokenType=Root
 2	hìta	hìta	VERB	_	_	1	comp:aux	_	AlignBegin=41902|AlignEnd=42042|Gloss=get_out|TokenType=Root
 3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=42042|AlignEnd=42182|Gloss=PUNCT|TokenType=Break
 4	tà	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=3	1	parataxis@conj	_	AlignBegin=42182|AlignEnd=42322|Gloss=3Fem.Aor|TokenType=Root
 5	bi	bi	VERB	_	_	4	comp:aux	_	AlignBegin=42322|AlignEnd=42462|Gloss=follow|TokenType=Root
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=42462|AlignEnd=42602|Gloss=stone.Masc|TokenType=Root
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=42602|AlignEnd=42742|Gloss=PUNCT|TokenType=Break
-8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=42742|AlignEnd=42882|Gloss=3Masc|TokenType=Root
-9	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=Pred/Loc|TokenType=Root
-10	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	9	comp:pred	_	AlignBegin=42882|AlignEnd=43022|Gloss=follow.Part.Stat|TokenType=Root
-11	dà	dà	ADP	_	_	10	comp:obl	_	AlignBegin=43022|AlignEnd=43162|Gloss=with|TokenType=Root
-12	shìgattà	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	11	comp:obj	_	AlignBegin=43162|AlignEnd=43302|Gloss=track.Fem.Cons.3Fem.Gen|TokenType=Root|wordform=shìgat
-13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=43302|AlignEnd=43440|Gloss=PUNCT|TokenType=Break
+8	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+9	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=42882|AlignEnd=43022|Gloss=follow.Part.Stat|TokenType=Root
+10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=43022|AlignEnd=43162|Gloss=with|TokenType=Root
+11	shìgattà	shìgaː	NOUN	_	Definite=Cons|Gender=Fem	10	comp:obj	_	AlignBegin=43162|AlignEnd=43302|Gloss=track.Fem.Cons.3Fem.Gen|TokenType=Root|wordform=shìgat
+12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=43302|AlignEnd=43440|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_03_GMH_13-13
 # speaker_id = SP

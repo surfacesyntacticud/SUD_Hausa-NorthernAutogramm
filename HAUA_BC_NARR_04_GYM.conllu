@@ -579,27 +579,24 @@
 # text_ortho = anàː nan |c anàː nan |c anàː nan < rân nan < sai uwattà tay yi cikìː //
 # text = a nàː nan |r a nàː nan |r a nàː nan < rân nan < sai uwattà tay yi cikìː //
 # text_en = After some time, one day, her [Dove's] mother became pregnant.
-1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=100380|AlignEnd=100603|Gloss=4|TokenType=Root
-2	nàː	nàː	PredPART	_	_	18	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=Pred/Loc|TokenType=Root
-3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def|TokenType=Root
-4	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=100826|AlignEnd=101049|Gloss=PUNCT|TokenType=Break
-5	a	a	PRON	_	Person=4|PronType=Prs	6	subj	_	AlignBegin=101049|AlignEnd=101272|Gloss=4|TokenType=Root
-6	nàː	nàː	PredPART	_	_	2	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=Pred/Loc|TokenType=Root
-7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=101272|AlignEnd=101495|Gloss=Def|TokenType=Root
-8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=101495|AlignEnd=101718|Gloss=PUNCT|TokenType=Break
-9	a	a	PRON	_	Person=4|PronType=Prs	10	subj	_	AlignBegin=101718|AlignEnd=101941|Gloss=4|TokenType=Root
-10	nàː	nàː	PredPART	_	_	6	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Gloss=Pred/Loc|TokenType=Root
-11	nan	nan	ADV	_	Definite=Def	10	comp:pred	_	AlignBegin=101941|AlignEnd=102164|Gloss=Def|TokenType=Root
-12	<	<	PUNCT	_	_	2	punct	_	AlignBegin=102164|AlignEnd=102387|Gloss=PUNCT|TokenType=Break
-13	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	18	mod	_	AlignBegin=102387|AlignEnd=102610|Gloss=day.Fem.Def|TokenType=Root
-14	nan	nan	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=102610|AlignEnd=102833|Gloss=Def|TokenType=Root
-15	<	<	PUNCT	_	_	13	punct	_	AlignBegin=102833|AlignEnd=103056|Gloss=PUNCT|TokenType=Break
-16	sai	sai	ADV	_	_	18	mod	_	AlignBegin=103056|AlignEnd=103279|Gloss=until|TokenType=Root
-17	uwattà	uwaː	NOUN	_	Definite=Cons|Gender=Fem	18	subj	_	AlignBegin=103279|AlignEnd=103502|Gloss=mother.Fem.Cons.3Fem.Gen|TokenType=Root|wordform=uwat
-18	tay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=103502|AlignEnd=103725|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
-19	yi	yi	VERB	_	_	18	comp:aux	_	AlignBegin=103725|AlignEnd=103948|Gloss=do|TokenType=Root
-20	cikìː	cikìː	NOUN	_	Gender=Masc	19	comp:obj	_	AlignBegin=103948|AlignEnd=104171|Gloss=belly.Masc|TokenType=Root
-21	//	//	PUNCT	_	_	18	punct	_	AlignBegin=104171|AlignEnd=104400|Gloss=PUNCT|TokenType=Break
+1	anàː	a	PredPART	_	Person=4|PronType=Prs	15	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+2	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def|TokenType=Root
+3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=100826|AlignEnd=101049|Gloss=PUNCT|TokenType=Break
+4	anàː	a	PredPART	_	Person=4|PronType=Prs	1	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+5	nan	nan	ADV	_	Definite=Def	4	comp:pred	_	AlignBegin=101272|AlignEnd=101495|Gloss=Def|TokenType=Root
+6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=101495|AlignEnd=101718|Gloss=PUNCT|TokenType=Break
+7	anàː	a	PredPART	_	Person=4|PronType=Prs	4	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+8	nan	nan	ADV	_	Definite=Def	7	comp:pred	_	AlignBegin=101941|AlignEnd=102164|Gloss=Def|TokenType=Root
+9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=102164|AlignEnd=102387|Gloss=PUNCT|TokenType=Break
+10	rân	raːnaː	NOUN	_	Definite=Def|Gender=Fem	15	mod	_	AlignBegin=102387|AlignEnd=102610|Gloss=day.Fem.Def|TokenType=Root
+11	nan	nan	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=102610|AlignEnd=102833|Gloss=Def|TokenType=Root
+12	<	<	PUNCT	_	_	10	punct	_	AlignBegin=102833|AlignEnd=103056|Gloss=PUNCT|TokenType=Break
+13	sai	sai	ADV	_	_	15	mod	_	AlignBegin=103056|AlignEnd=103279|Gloss=until|TokenType=Root
+14	uwattà	uwaː	NOUN	_	Definite=Cons|Gender=Fem	15	subj	_	AlignBegin=103279|AlignEnd=103502|Gloss=mother.Fem.Cons.3Fem.Gen|TokenType=Root|wordform=uwat
+15	tay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=103502|AlignEnd=103725|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
+16	yi	yi	VERB	_	_	15	comp:aux	_	AlignBegin=103725|AlignEnd=103948|Gloss=do|TokenType=Root
+17	cikìː	cikìː	NOUN	_	Gender=Masc	16	comp:obj	_	AlignBegin=103948|AlignEnd=104171|Gloss=belly.Masc|TokenType=Root
+18	//	//	PUNCT	_	_	15	punct	_	AlignBegin=104171|AlignEnd=104400|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_029-029
 # speaker_id = SP
@@ -839,13 +836,12 @@
 # text_en = She said "You have a sister."
 1	tac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=138324|AlignEnd=138437|Background=Yes|Gloss=3Fem.PerfBkg|TokenType=Root
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=138437|AlignEnd=138550|Gloss=say|TokenType=Root
-3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT|TokenType=Break
-4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=138776|AlignEnd=138889|Gloss=2Masc|TokenType=Root
-5	nàː	nàː	PredPART	_	_	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=Pred/Loc|TokenType=Root
-6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=138889|AlignEnd=139002|Gloss=with|TokenType=Root
-7	yâː	yâː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=139002|AlignEnd=139115|Gloss=elder_sister.Fem|TokenType=Root
-8	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=139115|AlignEnd=139228|Gloss=PUNCT|TokenType=Break
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=139228|AlignEnd=139340|Gloss=PUNCT|TokenType=Break
+3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT|TokenType=Break
+4	kanàː	ka	PredPART	_	Gender=Masc|Person=2|PronType=Prs	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=2Masc.Pred/Loc|TokenType=Root|wordform=ka
+5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=138889|AlignEnd=139002|Gloss=with|TokenType=Root
+6	yâː	yâː	NOUN	_	Gender=Fem	5	comp:obj	_	AlignBegin=139002|AlignEnd=139115|Gloss=elder_sister.Fem|TokenType=Root
+7	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=139115|AlignEnd=139228|Gloss=PUNCT|TokenType=Break
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=139228|AlignEnd=139340|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_041-041
 # speaker_id = SP
@@ -894,23 +890,22 @@
 # text_ortho = [ àmmaː lalleː ka nàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
 # text = [ àmmaː lalleː ka nàː dà yâː //= koːwaː yaː santà cikin gàrîn ga //]
 # text_en = "But of course you had a sister, and everyone knew her in this town."
-1	[	[	PUNCT	_	_	5	punct	_	AlignBegin=147522|AlignEnd=147698|Gloss=PUNCT|TokenType=Break
-2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	5	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but|TokenType=Root
-3	lalleː	lalleː	ADV	_	_	5	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course|TokenType=Root
-4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=148226|AlignEnd=148402|Gloss=2Masc|TokenType=Root
-5	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=Pred/Loc|TokenType=Root
-6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=148402|AlignEnd=148578|Gloss=with|TokenType=Root
-7	yâː	yâː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=148578|AlignEnd=148754|Gloss=elder_sister.Fem|TokenType=Root
-8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=148754|AlignEnd=148930|Gloss=PUNCT|TokenType=Break
-9	koːwaː	koːwaː	PRON	_	PronType=Ind	10	subj	_	AlignBegin=148930|AlignEnd=149106|Gloss=anyone|TokenType=Root
-10	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	parataxis@conj	_	AlignBegin=149106|AlignEnd=149282|Gloss=3Masc.Perf|TokenType=Root
-11-12	santà	_	_	_	_	_	_	_	_
-11	san	sanìː	VERB	_	_	10	comp:aux	_	AlignBegin=149282|AlignEnd=149458|Gloss=know|TokenType=Root
-12	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=149282|AlignEnd=149458|Gloss=3Fem|TokenType=InflAff
-13	cikin	cikin	ADP	_	_	11	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=inside|TokenType=Root
-14	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	13	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Def|TokenType=Root
-15	ga	ga	DET	_	_	14	det	_	AlignBegin=149810|AlignEnd=149986|Deixis=Prox|Gloss=Prox|TokenType=Root
-16	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=149986|AlignEnd=150164|Gloss=PUNCT|TokenType=Break
+1	[	[	PUNCT	_	_	4	punct	_	AlignBegin=147522|AlignEnd=147698|Gloss=PUNCT|TokenType=Break
+2	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but|TokenType=Root
+3	lalleː	lalleː	ADV	_	_	4	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course|TokenType=Root
+4	kanàː	ka	PredPART	_	Gender=Masc|Person=2|PronType=Prs	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=2Masc.Pred/Loc|TokenType=Root|wordform=ka
+5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=148402|AlignEnd=148578|Gloss=with|TokenType=Root
+6	yâː	yâː	NOUN	_	Gender=Fem	5	comp:obj	_	AlignBegin=148578|AlignEnd=148754|Gloss=elder_sister.Fem|TokenType=Root
+7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=148754|AlignEnd=148930|Gloss=PUNCT|TokenType=Break
+8	koːwaː	koːwaː	PRON	_	PronType=Ind	9	subj	_	AlignBegin=148930|AlignEnd=149106|Gloss=anyone|TokenType=Root
+9	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	parataxis@conj	_	AlignBegin=149106|AlignEnd=149282|Gloss=3Masc.Perf|TokenType=Root
+10-11	santà	_	_	_	_	_	_	_	_
+10	san	sanìː	VERB	_	_	9	comp:aux	_	AlignBegin=149282|AlignEnd=149458|Gloss=know|TokenType=Root
+11	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=149282|AlignEnd=149458|Gloss=3Fem|TokenType=InflAff
+12	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=inside|TokenType=Root
+13	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Def|TokenType=Root
+14	ga	ga	DET	_	_	13	det	_	AlignBegin=149810|AlignEnd=149986|Deixis=Prox|Gloss=Prox|TokenType=Root
+15	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=149986|AlignEnd=150164|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_044-044
 # speaker_id = SP
@@ -998,13 +993,11 @@
 13	gwadàː	gwad-	VERB	_	_	12	comp:aux	_	AlignBegin=165852|AlignEnd=166038|Gloss=show|TokenType=Root
 14	min	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	comp:obl	_	AlignBegin=166038|AlignEnd=166224|Gloss=1Sing.Dat|TokenType=Root
 15	indà	indà	ADV	_	PronType=Rel	13	comp:obj	_	AlignBegin=166224|AlignEnd=166410|Gloss=where|TokenType=Root
-16	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	19	dislocated@subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons|TokenType=Root
+16	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	18	dislocated@subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons|TokenType=Root
 17	yâːtaː	yâː	NOUN	_	Definite=Cons|Gender=Fem	16	mod	_	AlignBegin=166596|AlignEnd=166782|Gloss=elder_sister.Fem.Cons.1Sing.Gen|TokenType=Root|wordform=yâː
-18-19	takè	_	_	_	_	_	_	_	_
-18	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	19	subj	_	AlignBegin=166968|AlignEnd=167154|Gloss=3Fem|TokenType=Root|wordform=kè
-19	kè	kè	AUX	_	_	15	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-20	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT|TokenType=Break
-21	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT|TokenType=Break
+18	takè	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	15	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Gloss=3Fem.Pred/Loc.Bkg|TokenType=Root|wordform=kè
+19	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT|TokenType=Break
+20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_049-049
 # speaker_id = SP
@@ -1099,22 +1092,21 @@
 # text_ortho = a nàː nan < shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text = a nàː nan shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text_en = After a while, it kept creeping until it went out of the village.
-1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=178938|AlignEnd=179136|Gloss=4|TokenType=Root
-2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=178938|AlignEnd=179136|Gloss=Pred/Loc|TokenType=Root
-3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def|TokenType=Root
-4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis@conj	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Prog|TokenType=Root
-5	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	4	comp:aux	_	AlignBegin=179730|AlignEnd=179928|Gloss=creeping.Masc|TokenType=Root
-6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=179928|AlignEnd=180126|Gloss=PUNCT|TokenType=Break
-7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	conj:redup	_	AlignBegin=180126|AlignEnd=180324|Gloss=3Masc.Prog|TokenType=Root
-8	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	7	comp:aux	_	AlignBegin=180324|AlignEnd=180522|Gloss=creeping.Masc|TokenType=Root
-9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=180522|AlignEnd=180720|Gloss=PUNCT|TokenType=Break
-10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	7	conj:redup	_	AlignBegin=180720|AlignEnd=180918|Gloss=3Masc.Prog|TokenType=Root
-11	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	10	comp:aux	_	AlignBegin=180918|AlignEnd=181116|Gloss=creeping.Masc|TokenType=Root
-12	hay	hat	SCONJ	_	_	10	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=until|TokenType=Root
-13	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=181314|AlignEnd=181512|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
-14	hitoː	hit-	VERB	_	_	13	comp:aux	_	AlignBegin=181512|AlignEnd=181710|Gloss=come_out|TokenType=Root
-15	gàriː	gàriː	NOUN	_	Gender=Masc	14	comp:obj@G	_	AlignBegin=181710|AlignEnd=181908|Gloss=village.Masc|TokenType=Root
-16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=181908|AlignEnd=182100|Gloss=PUNCT|TokenType=Break
+1	anàː	a	PredPART	_	Person=4|PronType=Prs	0	root	_	AlignBegin=178938|AlignEnd=179136|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+2	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def|TokenType=Root
+3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis@conj	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Prog|TokenType=Root
+4	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	3	comp:aux	_	AlignBegin=179730|AlignEnd=179928|Gloss=creeping.Masc|TokenType=Root
+5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=179928|AlignEnd=180126|Gloss=PUNCT|TokenType=Break
+6	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	3	conj:redup	_	AlignBegin=180126|AlignEnd=180324|Gloss=3Masc.Prog|TokenType=Root
+7	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	6	comp:aux	_	AlignBegin=180324|AlignEnd=180522|Gloss=creeping.Masc|TokenType=Root
+8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=180522|AlignEnd=180720|Gloss=PUNCT|TokenType=Break
+9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=180720|AlignEnd=180918|Gloss=3Masc.Prog|TokenType=Root
+10	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	9	comp:aux	_	AlignBegin=180918|AlignEnd=181116|Gloss=creeping.Masc|TokenType=Root
+11	hay	hat	SCONJ	_	_	9	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=until|TokenType=Root
+12	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	11	comp:obj	_	AlignBegin=181314|AlignEnd=181512|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+13	hitoː	hit-	VERB	_	_	12	comp:aux	_	AlignBegin=181512|AlignEnd=181710|Gloss=come_out|TokenType=Root
+14	gàriː	gàriː	NOUN	_	Gender=Masc	13	comp:obj@G	_	AlignBegin=181710|AlignEnd=181908|Gloss=village.Masc|TokenType=Root
+15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181908|AlignEnd=182100|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_055-055
 # speaker_id = SP
@@ -1607,22 +1599,21 @@
 # text_ortho = a nàː nan < ɗaɗà hay yat taːshì |c ankà baː shì ruwaː |c yah hwalkàː //
 # text = a nàː nan ɗaɗà hay yat taːshì //= ankà baː shì ruwaː //= yah hwalkàː //
 # text_en = After a while, then, he got up, they gave him water, he felt better.
-1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=258440|AlignEnd=258588|Gloss=4|TokenType=Root
-2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=Pred/Loc|TokenType=Root
-3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def|TokenType=Root
-4	ɗaɗà	ɗaɗà	ADV	_	_	2	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then|TokenType=Root
-5	hay	hat	SCONJ	_	_	2	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until|TokenType=Root
-6	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	5	comp:obj	_	AlignBegin=259180|AlignEnd=259328|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
-7	taːshì	taːs-	VERB	_	_	6	comp:aux	_	AlignBegin=259328|AlignEnd=259476|Gloss=stand|TokenType=Root
-8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=259476|AlignEnd=259624|Gloss=PUNCT|TokenType=Break
-9	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	6	parataxis@conj	_	AlignBegin=259624|AlignEnd=259772|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
-10	baː	baː	VERB	_	_	9	comp:aux	_	AlignBegin=259772|AlignEnd=259920|Gloss=give|TokenType=Root
-11	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj@R	_	AlignBegin=259920|AlignEnd=260068|Gloss=3Masc|TokenType=Root
-12	ruwaː	ruwaː	NOUN	_	Number=Plur	10	comp:obj@T	_	AlignBegin=260068|AlignEnd=260216|Gloss=water.Plur|TokenType=Root
-13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=260216|AlignEnd=260364|Gloss=PUNCT|TokenType=Break
-14	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	9	parataxis@conj	_	AlignBegin=260364|AlignEnd=260512|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
-15	hwalkàː	hwalkàː	VERB	_	_	14	comp:aux	_	AlignBegin=260512|AlignEnd=260660|Gloss=wake_up|TokenType=Root
-16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=260660|AlignEnd=260800|Gloss=PUNCT|TokenType=Break
+1	anàː	a	PredPART	_	Person=4|PronType=Prs	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+2	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def|TokenType=Root
+3	ɗaɗà	ɗaɗà	ADV	_	_	1	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then|TokenType=Root
+4	hay	hat	SCONJ	_	_	1	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until|TokenType=Root
+5	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=259180|AlignEnd=259328|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+6	taːshì	taːs-	VERB	_	_	5	comp:aux	_	AlignBegin=259328|AlignEnd=259476|Gloss=stand|TokenType=Root
+7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=259476|AlignEnd=259624|Gloss=PUNCT|TokenType=Break
+8	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	5	parataxis@conj	_	AlignBegin=259624|AlignEnd=259772|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
+9	baː	baː	VERB	_	_	8	comp:aux	_	AlignBegin=259772|AlignEnd=259920|Gloss=give|TokenType=Root
+10	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:obj@R	_	AlignBegin=259920|AlignEnd=260068|Gloss=3Masc|TokenType=Root
+11	ruwaː	ruwaː	NOUN	_	Number=Plur	9	comp:obj@T	_	AlignBegin=260068|AlignEnd=260216|Gloss=water.Plur|TokenType=Root
+12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=260216|AlignEnd=260364|Gloss=PUNCT|TokenType=Break
+13	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	8	parataxis@conj	_	AlignBegin=260364|AlignEnd=260512|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+14	hwalkàː	hwalkàː	VERB	_	_	13	comp:aux	_	AlignBegin=260512|AlignEnd=260660|Gloss=wake_up|TokenType=Root
+15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=260660|AlignEnd=260800|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_082a-082a
 # speaker_id = SP
@@ -1672,28 +1663,26 @@
 # text_ortho = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text_en = After a while, after that, when everyone had gone away, he told his mother.
-1	a	a	PRON	_	Person=4|PronType=Prs	2	subj	_	AlignBegin=265186|AlignEnd=265372|Gloss=4|TokenType=Root
-2	nàː	nàː	PredPART	_	_	18	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=Pred/Loc|TokenType=Root
-3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def|TokenType=Root
-4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT|TokenType=Break
-5	a	a	PRON	_	Person=4|PronType=Prs	6	subj	_	AlignBegin=265930|AlignEnd=266116|Gloss=4|TokenType=Root
-6	nàː	nàː	PredPART	_	_	2	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=Pred/Loc|TokenType=Root
-7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=266116|AlignEnd=266302|Gloss=Def|TokenType=Root
-8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=266302|AlignEnd=266488|Gloss=PUNCT|TokenType=Break
-9	sai	sai	ADV	_	_	18	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=until|TokenType=Root
-10	dàb	dàk	ADP	_	_	18	mod	_	AlignBegin=266674|AlignEnd=266860|Gloss=from|TokenType=Root
-11	baːya	baːya	ADV	_	_	10	comp:obj	_	AlignBegin=266860|AlignEnd=267046|Gloss=in_back|TokenType=Root
-12	<	<	PUNCT	_	_	10	punct	_	AlignBegin=267046|AlignEnd=267232|Gloss=PUNCT|TokenType=Break
-13	dà	dà	SCONJ	_	_	18	mod	_	AlignBegin=267232|AlignEnd=267418|Gloss=as|TokenType=Root
-14	koːwaː	koːwaː	PRON	_	PronType=Ind	15	subj	_	AlignBegin=267418|AlignEnd=267604|Gloss=anyone|TokenType=Root
-15	yaw	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	13	comp:obj	_	AlignBegin=267604|AlignEnd=267790|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
-16	waːc'èː	waːs'-	VERB	_	_	15	comp:aux	_	AlignBegin=267790|AlignEnd=267976|Gloss=scatter|TokenType=Root
-17	<	<	PUNCT	_	_	13	punct	_	AlignBegin=267976|AlignEnd=268162|Gloss=PUNCT|TokenType=Break
-18	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=268162|AlignEnd=268348|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
-19	hwaɗàː	hwaɗ-	VERB	_	_	18	comp:aux	_	AlignBegin=268348|AlignEnd=268534|Gloss=tell|TokenType=Root
-20	mà	mà	ADP	_	Case=Dat	19	comp:obl	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat|TokenType=Root
-21	uwaːtai	uwaː	NOUN	_	Definite=Cons|Gender=Fem	20	comp:obj	_	AlignBegin=268720|AlignEnd=268906|Gloss=mother.Fem.Cons.3Masc.Gen|TokenType=Root|wordform=uwaː
-22	//	//	PUNCT	_	_	18	punct	_	AlignBegin=268906|AlignEnd=269100|Gloss=PUNCT|TokenType=Break
+1	anàː	a	PredPART	_	Person=4|PronType=Prs	16	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+2	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def|TokenType=Root
+3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT|TokenType=Break
+4	anàː	a	PredPART	_	Person=4|PronType=Prs	1	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=4.Pred/Loc|TokenType=Root|wordform=a
+5	nan	nan	ADV	_	Definite=Def	4	comp:pred	_	AlignBegin=266116|AlignEnd=266302|Gloss=Def|TokenType=Root
+6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=266302|AlignEnd=266488|Gloss=PUNCT|TokenType=Break
+7	sai	sai	ADV	_	_	16	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=until|TokenType=Root
+8	dàb	dàk	ADP	_	_	16	mod	_	AlignBegin=266674|AlignEnd=266860|Gloss=from|TokenType=Root
+9	baːya	baːya	ADV	_	_	8	comp:obj	_	AlignBegin=266860|AlignEnd=267046|Gloss=in_back|TokenType=Root
+10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=267046|AlignEnd=267232|Gloss=PUNCT|TokenType=Break
+11	dà	dà	SCONJ	_	_	16	mod	_	AlignBegin=267232|AlignEnd=267418|Gloss=as|TokenType=Root
+12	koːwaː	koːwaː	PRON	_	PronType=Ind	13	subj	_	AlignBegin=267418|AlignEnd=267604|Gloss=anyone|TokenType=Root
+13	yaw	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	11	comp:obj	_	AlignBegin=267604|AlignEnd=267790|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+14	waːc'èː	waːs'-	VERB	_	_	13	comp:aux	_	AlignBegin=267790|AlignEnd=267976|Gloss=scatter|TokenType=Root
+15	<	<	PUNCT	_	_	11	punct	_	AlignBegin=267976|AlignEnd=268162|Gloss=PUNCT|TokenType=Break
+16	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=268162|AlignEnd=268348|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+17	hwaɗàː	hwaɗ-	VERB	_	_	16	comp:aux	_	AlignBegin=268348|AlignEnd=268534|Gloss=tell|TokenType=Root
+18	mà	mà	ADP	_	Case=Dat	17	comp:obl	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat|TokenType=Root
+19	uwaːtai	uwaː	NOUN	_	Definite=Cons|Gender=Fem	18	comp:obj	_	AlignBegin=268720|AlignEnd=268906|Gloss=mother.Fem.Cons.3Masc.Gen|TokenType=Root|wordform=uwaː
+20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=268906|AlignEnd=269100|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_084-084
 # speaker_id = SP
@@ -1707,11 +1696,9 @@
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=269602|AlignEnd=269753|Gloss=3Masc.Perf|TokenType=Root
 4	ga	ganiː	VERB	_	_	3	comp:aux	_	AlignBegin=269753|AlignEnd=269904|Gloss=see|TokenType=Root
 5	indà	indà	ADV	_	PronType=Rel	4	comp:obj	_	AlignBegin=269904|AlignEnd=270055|Gloss=where|TokenType=Root
-6	yâːtai	yâː	NOUN	_	Definite=Cons|Gender=Fem	8	dislocated@subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem.3Masc.Gen|TokenType=Root|wordform=yâː
-7-8	takè	_	_	_	_	_	_	_	_
-7	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	subj	_	AlignBegin=270357|AlignEnd=270508|Gloss=3Fem|TokenType=Root|wordform=kè
-8	kè	kè	AUX	_	_	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT|TokenType=Break
+6	yâːtai	yâː	NOUN	_	Definite=Cons|Gender=Fem	7	subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem.3Masc.Gen|TokenType=Root|wordform=yâː
+7	takè	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Gloss=3Fem.Pred/Loc.Bkg|TokenType=Root|wordform=kè
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_085-085
 # speaker_id = SP
@@ -1720,15 +1707,14 @@
 # text_ortho = kuma ta nàː dà rânta bàtà mutù ba //
 # text = kuma ta nàː dà rânta bàtà mutù ba //
 # text_en = And she was alive, she had not died.
-1	kuma	kuma	PART	_	_	3	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also|TokenType=Root
-2	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem|TokenType=Root
-3	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=Pred/Loc|TokenType=Root
-4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with|TokenType=Root
-5	rânta	râi	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons.3Fem.Gen|TokenType=Root|wordform=rân
-6	bàtà	bài	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	3	parataxis@conj	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.PerfNeg|TokenType=Root
-7	mutù	mat-	VERB	_	_	6	comp:aux	_	AlignBegin=272194|AlignEnd=272343|Gloss=die|TokenType=Root
-8	ba	ba	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=272343|AlignEnd=272492|Gloss=Neg|TokenType=Root
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=272492|AlignEnd=272640|Gloss=PUNCT|TokenType=Break
+1	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also|TokenType=Root
+2	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with|TokenType=Root
+4	rânta	râi	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons.3Fem.Gen|TokenType=Root|wordform=rân
+5	bàtà	bài	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	2	parataxis@conj	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.PerfNeg|TokenType=Root
+6	mutù	mat-	VERB	_	_	5	comp:aux	_	AlignBegin=272194|AlignEnd=272343|Gloss=die|TokenType=Root
+7	ba	ba	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=272343|AlignEnd=272492|Gloss=Neg|TokenType=Root
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=272492|AlignEnd=272640|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_04_GYM_086-086
 # speaker_id = SP

@@ -59,10 +59,9 @@
 # text_ortho = shinàː tàhe //
 # text = shi nàː tàhe //
 # text_en = He was walking.
-1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=24520|AlignEnd=24687|Gloss=3Masc|TokenType=Root
-2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=Pred/Loc|TokenType=Root
-3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=24687|AlignEnd=24854|Gloss=walk.Part.Stat|TokenType=Root
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=24854|AlignEnd=25020|Gloss=PUNCT|TokenType=Break
+1	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=24520|AlignEnd=24687|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+2	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:pred	_	AlignBegin=24687|AlignEnd=24854|Gloss=walk.Part.Stat|TokenType=Root
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=24854|AlignEnd=25020|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_06-06
 # speaker_id = SP
@@ -71,18 +70,15 @@
 # text_ortho = shinàː tàhe |r shinàː tàhe |r shinàː tàhe //
 # text = shi nàː tàhe |r shi nàː tàhe |r shi nàː tàhe //
 # text_en = He kept walking, and walking, and walking.
-1	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=25960|AlignEnd=26133|Gloss=3Masc|TokenType=Root
-2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=Pred/Loc|TokenType=Root
-3	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=26133|AlignEnd=26306|Gloss=walk.Part.Stat|TokenType=Root
-4	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=26306|AlignEnd=26479|Gloss=PUNCT|TokenType=Break
-5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=26479|AlignEnd=26652|Gloss=3Masc|TokenType=Root
-6	nàː	nàː	PredPART	_	_	2	conj:redup	_	AlignBegin=26479|AlignEnd=26652|Gloss=Pred/Loc|TokenType=Root
-7	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=26652|AlignEnd=26825|Gloss=walk.Part.Stat|TokenType=Root
-8	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=26825|AlignEnd=26998|Gloss=PUNCT|TokenType=Break
-9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=26998|AlignEnd=27171|Gloss=3Masc|TokenType=Root
-10	nàː	nàː	PredPART	_	_	6	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=Pred/Loc|TokenType=Root
-11	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	10	comp:pred	_	AlignBegin=27171|AlignEnd=27344|Gloss=walk.Part.Stat|TokenType=Root
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=27344|AlignEnd=27521|Gloss=PUNCT|TokenType=Break
+1	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=25960|AlignEnd=26133|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+2	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:pred	_	AlignBegin=26133|AlignEnd=26306|Gloss=walk.Part.Stat|TokenType=Root
+3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=26306|AlignEnd=26479|Gloss=PUNCT|TokenType=Break
+4	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	1	conj:redup	_	AlignBegin=26479|AlignEnd=26652|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+5	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	AlignBegin=26652|AlignEnd=26825|Gloss=walk.Part.Stat|TokenType=Root
+6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=26825|AlignEnd=26998|Gloss=PUNCT|TokenType=Break
+7	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	4	conj:redup	_	AlignBegin=26998|AlignEnd=27171|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+8	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:pred	_	AlignBegin=27171|AlignEnd=27344|Gloss=walk.Part.Stat|TokenType=Root
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=27344|AlignEnd=27521|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_07-07
 # speaker_id = SP
@@ -403,30 +399,26 @@
 # text_ortho = tanàː bìye dà shiː |r tanàː bìye dà shiː |r tanàː bìye dà shiː |r tanàː bìye dà shiː //
 # text = ta nàː bìye dà shiː |r ta nàː bìye dà shiː |r ta nàː bìye dà shiː |r ta nàː bìye dà shiː //
 # text_en = She kept following him.
-1	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=87259|AlignEnd=87377|Gloss=3Fem|TokenType=Root
-2	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=87259|AlignEnd=87377|Gloss=Pred/Loc|TokenType=Root
-3	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=87377|AlignEnd=87495|Gloss=follow.Part.Stat|TokenType=Root
-4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=87495|AlignEnd=87613|Gloss=with|TokenType=Root
-5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=87613|AlignEnd=87731|Gloss=3Masc.Nom|TokenType=Root
-6	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=87731|AlignEnd=87849|Gloss=PUNCT|TokenType=Break
-7	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	subj	_	AlignBegin=87849|AlignEnd=87967|Gloss=3Fem|TokenType=Root
-8	nàː	nàː	PredPART	_	_	2	conj:redup	_	AlignBegin=87849|AlignEnd=87967|Gloss=Pred/Loc|TokenType=Root
-9	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=87967|AlignEnd=88085|Gloss=follow.Part.Stat|TokenType=Root
-10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=88085|AlignEnd=88203|Gloss=with|TokenType=Root
-11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=88203|AlignEnd=88321|Gloss=3Masc.Nom|TokenType=Root
-12	|r	|r	PUNCT	_	_	14	punct	_	AlignBegin=88321|AlignEnd=88439|Gloss=PUNCT|TokenType=Break
-13	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	14	subj	_	AlignBegin=88439|AlignEnd=88557|Gloss=3Fem|TokenType=Root
-14	nàː	nàː	PredPART	_	_	8	conj:redup	_	AlignBegin=88439|AlignEnd=88557|Gloss=Pred/Loc|TokenType=Root
-15	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	14	comp:pred	_	AlignBegin=88557|AlignEnd=88675|Gloss=follow.Part.Stat|TokenType=Root
-16	dà	dà	ADP	_	_	15	comp:obl	_	AlignBegin=88675|AlignEnd=88793|Gloss=with|TokenType=Root
-17	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=88793|AlignEnd=88911|Gloss=3Masc.Nom|TokenType=Root
-18	|r	|r	PUNCT	_	_	20	punct	_	AlignBegin=88911|AlignEnd=89029|Gloss=PUNCT|TokenType=Break
-19	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	20	subj	_	AlignBegin=89029|AlignEnd=89147|Gloss=3Fem|TokenType=Root
-20	nàː	nàː	PredPART	_	_	14	conj:redup	_	AlignBegin=89029|AlignEnd=89147|Gloss=Pred/Loc|TokenType=Root
-21	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	20	comp:pred	_	AlignBegin=89147|AlignEnd=89265|Gloss=follow.Part.Stat|TokenType=Root
-22	dà	dà	ADP	_	_	21	comp:obl	_	AlignBegin=89265|AlignEnd=89383|Gloss=with|TokenType=Root
-23	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=89383|AlignEnd=89501|Gloss=3Masc.Nom|TokenType=Root
-24	//	//	PUNCT	_	_	2	punct	_	AlignBegin=89501|AlignEnd=89620|Gloss=PUNCT|TokenType=Break
+1	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=87259|AlignEnd=87377|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+2	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	1	comp:pred	_	AlignBegin=87377|AlignEnd=87495|Gloss=follow.Part.Stat|TokenType=Root
+3	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=87495|AlignEnd=87613|Gloss=with|TokenType=Root
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=87613|AlignEnd=87731|Gloss=3Masc.Nom|TokenType=Root
+5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=87731|AlignEnd=87849|Gloss=PUNCT|TokenType=Break
+6	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	1	conj:redup	_	AlignBegin=87849|AlignEnd=87967|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+7	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=87967|AlignEnd=88085|Gloss=follow.Part.Stat|TokenType=Root
+8	dà	dà	ADP	_	_	7	comp:obl	_	AlignBegin=88085|AlignEnd=88203|Gloss=with|TokenType=Root
+9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=88203|AlignEnd=88321|Gloss=3Masc.Nom|TokenType=Root
+10	|r	|r	PUNCT	_	_	11	punct	_	AlignBegin=88321|AlignEnd=88439|Gloss=PUNCT|TokenType=Break
+11	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	6	conj:redup	_	AlignBegin=88439|AlignEnd=88557|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+12	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	11	comp:pred	_	AlignBegin=88557|AlignEnd=88675|Gloss=follow.Part.Stat|TokenType=Root
+13	dà	dà	ADP	_	_	12	comp:obl	_	AlignBegin=88675|AlignEnd=88793|Gloss=with|TokenType=Root
+14	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=88793|AlignEnd=88911|Gloss=3Masc.Nom|TokenType=Root
+15	|r	|r	PUNCT	_	_	16	punct	_	AlignBegin=88911|AlignEnd=89029|Gloss=PUNCT|TokenType=Break
+16	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	11	conj:redup	_	AlignBegin=89029|AlignEnd=89147|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+17	bìye	bìye	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	16	comp:pred	_	AlignBegin=89147|AlignEnd=89265|Gloss=follow.Part.Stat|TokenType=Root
+18	dà	dà	ADP	_	_	17	comp:obl	_	AlignBegin=89265|AlignEnd=89383|Gloss=with|TokenType=Root
+19	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=89383|AlignEnd=89501|Gloss=3Masc.Nom|TokenType=Root
+20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=89501|AlignEnd=89620|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_24-24
 # speaker_id = SP
@@ -435,15 +427,14 @@
 # text_ortho = sai shinàː cikin tàhiyàː sai yac c’ìnkay //
 # text = sai shi nàː cikin tàhiyàː sai yac c’ìnkai //
 # text_en = Then, as he was walking, he saw her.
-1	sai	sai	ADV	_	_	7	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until|TokenType=Root
-2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc|TokenType=Root
-3	nàː	nàː	PredPART	_	_	7	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=Pred/Loc|TokenType=Root
-4	cikin	cikin	ADP	_	_	3	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside|TokenType=Root
-5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem|TokenType=Root
-6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|TokenType=Root
-7	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
-8	c’ìnkai	c'inkaː	VERB	_	_	7	comp:aux	_	AlignBegin=92732|AlignEnd=93103|Gloss=spot-3Masc|TokenType=Root
-9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=93103|AlignEnd=93474|Gloss=PUNCT|TokenType=Break
+1	sai	sai	ADV	_	_	6	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until|TokenType=Root
+2	shinàː	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	6	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc.Pred/Loc|TokenType=Root|wordform=shi
+3	cikin	cikin	ADP	_	_	2	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside|TokenType=Root
+4	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem|TokenType=Root
+5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until|TokenType=Root
+6	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+7	c’ìnkai	c'inkaː	VERB	_	_	6	comp:aux	_	AlignBegin=92732|AlignEnd=93103|Gloss=spot-3Masc|TokenType=Root
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=93103|AlignEnd=93474|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_25-25
 # speaker_id = SP
@@ -492,14 +483,13 @@
 # text_ortho = giːwàːyeː sunàː tsàye suː dà yawàː //
 # text = giːwàːyeː su nàː tsàye suː dà yawàː //
 # text_en = There were many elephants standing there.
-1	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur|TokenType=Root
-2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur|TokenType=Root
-3	nàː	nàː	PredPART	_	_	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=Pred/Loc|TokenType=Root
-4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|TokenType=Root
-5	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|TokenType=Root
-6	dà	dà	ADP	_	_	5	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|TokenType=Root
-7	yawàː	yawàː	NOUN	_	Gender=Masc	6	comp:obj	_	AlignBegin=101522|AlignEnd=101802|Gloss=quantity.Masc|TokenType=Root
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=101802|AlignEnd=102080|Gloss=PUNCT|TokenType=Break
+1	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	2	subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur|TokenType=Root
+2	sunàː	su	PredPART	_	Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Pred/Loc|TokenType=Root|wordform=su
+3	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|TokenType=Root
+4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|TokenType=Root
+5	dà	dà	ADP	_	_	4	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|TokenType=Root
+6	yawàː	yawàː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=101522|AlignEnd=101802|Gloss=quantity.Masc|TokenType=Root
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=101802|AlignEnd=102080|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_28-28
 # speaker_id = SP
@@ -564,11 +554,9 @@
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=115963|AlignEnd=116086|Gloss=do|TokenType=Root
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=116086|AlignEnd=116209|Gloss=PUNCT|TokenType=Break
 5	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=116209|AlignEnd=116332|Gloss=where|TokenType=Root
-6-7	shikè	_	_	_	_	_	_	_	_
-6	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=116455|AlignEnd=116578|Gloss=3Masc|TokenType=Root|wordform=kè
-7	kè	kè	PredPART	_	_	5	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-8	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=116578|AlignEnd=116701|Gloss=PUNCT|TokenType=Break
-9	]	]	PUNCT	_	_	5	punct	_	AlignBegin=116701|AlignEnd=116824|Gloss=PUNCT|TokenType=Break
+6	shikè	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	5	comp:cleft	_	AlignBegin=116455|AlignEnd=116578|Gloss=3Masc.Pred/Loc.Bkg|TokenType=Root|wordform=kè
+7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=116578|AlignEnd=116701|Gloss=PUNCT|TokenType=Break
+8	]	]	PUNCT	_	_	5	punct	_	AlignBegin=116701|AlignEnd=116824|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_31-31
 # speaker_id = SP
@@ -600,10 +588,8 @@
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=118167|AlignEnd=118339|Gloss=PUNCT|TokenType=Break
 6	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=118339|AlignEnd=118511|Gloss=arrive.Vnoun.Fem|TokenType=Root
 7	indà	indà	ADV	_	PronType=Rel	6	mod	_	AlignBegin=118511|AlignEnd=118683|Gloss=where|TokenType=Root
-8-9	shikè	_	_	_	_	_	_	_	_
-8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=118855|AlignEnd=119027|Gloss=3Masc|TokenType=Root|wordform=kè
-9	kè	kè	PredPART	_	_	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=119027|AlignEnd=119202|Gloss=PUNCT|TokenType=Break
+8	shikè	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	7	mod@relcl	_	AlignBegin=118855|AlignEnd=119027|Gloss=3Masc.Pred/Loc.Bkg|TokenType=Root|wordform=kè
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=119027|AlignEnd=119202|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_33-33
 # speaker_id = SP
@@ -649,21 +635,19 @@
 # text_ortho = koː dà sunkà kaːwoː indà shi kè < dus sun hwaːɗi |c sun kariːrìyeː //
 # text = koːdà sunkà kaːwoː indà shikè < dus sun hwaːɗì |c sun kariːrìyeː //
 # text_en = As soon as they arrived where he was, they all fell down and broke into pieces.
-1	koːdà	koːdà	SCONJ	_	_	9	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=just_as|TokenType=Root
+1	koːdà	koːdà	SCONJ	_	_	8	discourse	_	AlignBegin=126420|AlignEnd=126527|Gloss=just_as|TokenType=Root
 2	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=126634|AlignEnd=126741|Background=Yes|Gloss=3Plur.PerfBkg|TokenType=Root
 3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=126741|AlignEnd=126848|Gloss=reach|TokenType=Root
 4	indà	indà	ADV	_	PronType=Rel	3	comp:obj@G	_	AlignBegin=126848|AlignEnd=126955|Gloss=where|TokenType=Root
-5-6	shikè	_	_	_	_	_	_	_	_
-5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=127062|AlignEnd=127169|Gloss=3Masc|TokenType=Root|wordform=kè
-6	kè	kè	PredPART	_	_	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
-7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT|TokenType=Break
-8	dus	dukà	DET	_	PronType=Tot	9	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all|TokenType=Root
-9	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=127383|AlignEnd=127490|Gloss=3Plur.Perf|TokenType=Root
-10	hwaːɗì	hwaːɗ-	VERB	_	_	9	comp:aux	_	AlignBegin=127490|AlignEnd=127597|Gloss=fall|TokenType=Root
-11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=127597|AlignEnd=127704|Gloss=PUNCT|TokenType=Break
-12	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	9	conj:coord	_	AlignBegin=127704|AlignEnd=127811|Gloss=3Plur.Perf|TokenType=Root
-13	kariːrìyeː	kary-	VERB	_	_	12	comp:aux	_	AlignBegin=127811|AlignEnd=127918|Gloss=break|TokenType=Root
-14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=127918|AlignEnd=128020|Gloss=PUNCT|TokenType=Break
+5	shikè	shi	PredPART	_	Gender=Masc|Person=3|PronType=Prs	4	mod@relcl	_	AlignBegin=127062|AlignEnd=127169|Gloss=3Masc.Pred/Loc.Bkg|TokenType=Root|wordform=kè
+6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127169|AlignEnd=127276|Gloss=PUNCT|TokenType=Break
+7	dus	dukà	DET	_	PronType=Tot	8	mod	_	AlignBegin=127276|AlignEnd=127383|Gloss=all|TokenType=Root
+8	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=127383|AlignEnd=127490|Gloss=3Plur.Perf|TokenType=Root
+9	hwaːɗì	hwaːɗ-	VERB	_	_	8	comp:aux	_	AlignBegin=127490|AlignEnd=127597|Gloss=fall|TokenType=Root
+10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=127597|AlignEnd=127704|Gloss=PUNCT|TokenType=Break
+11	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=127704|AlignEnd=127811|Gloss=3Plur.Perf|TokenType=Root
+12	kariːrìyeː	kary-	VERB	_	_	11	comp:aux	_	AlignBegin=127811|AlignEnd=127918|Gloss=break|TokenType=Root
+13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=127918|AlignEnd=128020|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_35-35
 # speaker_id = SP
@@ -743,23 +727,21 @@
 # text_ortho = tanàː nan tanàː ta cîn naːmàː |r tanàː nan tanàː ta cîn naːmàː //
 # text = ita ta nàː nan tanàː ta cîn naːmàː //= ta nàː nan tanàː ta cîn naːmàː //
 # text_en = She kept eating and eating the meat.
-1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|TokenType=Root
-2	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|TokenType=Root
-3	nàː	nàː	PredPART	_	Gender=Fem	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=Pred/Loc|TokenType=Root
-4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def|TokenType=Root
-5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	3	parataxis@conj	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog|TokenType=Root
-6	ta	ta	ADP	_	Aspect=Iter	5	compound@prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|TokenType=Root
-7	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp@aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
-8	naːmàː	naːmàː	NOUN	_	Gender=Masc	7	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc|TokenType=Root
-9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT|TokenType=Break
-10	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	11	subj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem|TokenType=Root
-11	nàː	nàː	PredPART	_	_	5	parataxis@conj	_	AlignBegin=140373|AlignEnd=140512|Gloss=Pred/Loc|TokenType=Root
-12	nan	nan	ADV	_	Definite=Def	11	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def|TokenType=Root
-13	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	11	parataxis@conj	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog|TokenType=Root
-14	ta	ta	ADP	_	Aspect=Iter	13	compound@prt	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|TokenType=Root
-15	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp@aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
-16	naːmàː	naːmàː	NOUN	_	Definite=Cons	15	mod	_	AlignBegin=141068|AlignEnd=141207|Gloss=meat.Cons|TokenType=Root
-17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141207|AlignEnd=141341|Gloss=PUNCT|TokenType=Break
+1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|TokenType=Root
+2	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def|TokenType=Root
+4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	parataxis@conj	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog|TokenType=Root
+5	ta	ta	ADP	_	Aspect=Iter	4	compound@prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|TokenType=Root
+6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp@aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
+7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc|TokenType=Root
+8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT|TokenType=Break
+9	tanàː	ta	PredPART	_	Gender=Fem|Person=3|PronType=Prs	4	parataxis@conj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+10	nan	nan	ADV	_	Definite=Def	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def|TokenType=Root
+11	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	9	parataxis@conj	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog|TokenType=Root
+12	ta	ta	ADP	_	Aspect=Iter	11	compound@prt	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|TokenType=Root
+13	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp@aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons|TokenType=Root
+14	naːmàː	naːmàː	NOUN	_	Definite=Cons	13	mod	_	AlignBegin=141068|AlignEnd=141207|Gloss=meat.Cons|TokenType=Root
+15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=141207|AlignEnd=141341|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_O1_KA_41-41
 # speaker_id = SP
