@@ -4,8 +4,8 @@
 # sent_timecode = 3700, 12120
 # text = tô lokàcin dà à~ àkwai { ƙwàːrin daːjìː || ƙwàːriː dai } cikin ràːhîn nan < ƙàːƙàː naː mutàːneː sukè zàmne ?//
 # text_en = Well, when there were wild animals, wild animals in that valley, how did people live?
-1	tô	tô	INTJ	_	_	17	discourse	_	AlignBegin=3700|AlignEnd=4066|Gloss=well|TokenType=Root
-2	lokàcin	lokàciː	NOUN	_	Definite=Cons|Gender=Masc	17	mod	_	AlignBegin=4066|AlignEnd=4432|Gloss=time.Masc|TokenType=Root
+1	tô	tô	INTJ	_	_	18	discourse	_	AlignBegin=3700|AlignEnd=4066|Gloss=well|TokenType=Root
+2	lokàcin	lokàciː	NOUN	_	Definite=Cons|Gender=Masc	18	mod	_	AlignBegin=4066|AlignEnd=4432|Gloss=time.Masc|TokenType=Root
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=4432|AlignEnd=4798|Gloss=REL|TokenType=Root
 4	à~	àkwai	PredPART	_	_	3	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Gloss=there_is|TokenType=Root
 5	àkwai	àkwai	PredPART	_	_	4	conj:dicto	_	AlignBegin=5164|AlignEnd=5530|Gloss=there_is|TokenType=Root
@@ -16,16 +16,16 @@
 10	ƙwàːriː	ƙwaːròː	NOUN	_	Number=Plur	7	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal.Plur|TokenType=Root
 11	dai	dai	TopPART	_	_	10	discourse	_	AlignBegin=7360|AlignEnd=7726|Gloss=indeed|TokenType=Root
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=7360|AlignEnd=7726|Gloss=PUNCT|TokenType=Break
-13	cikin	cikin	ADP	_	_	5	comp:pred	_	AlignBegin=7726|AlignEnd=8092|Gloss=inside|TokenType=Root
+13	cikin	cikin	ADP	_	_	5	comp:obl	_	AlignBegin=7726|AlignEnd=8092|Gloss=inside|TokenType=Root
 14	ràːhîn	ràːhiː	NOUN	_	Definite=Def|Gender=Masc	13	comp:obj	_	AlignBegin=8092|AlignEnd=8458|Gloss=valley.Masc.Def|TokenType=Root
 15	nan	nan	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=8458|AlignEnd=8824|Gloss=Def|TokenType=Root
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT|TokenType=Break
-17	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	0	root	_	AlignBegin=9556|AlignEnd=9922|Gloss=how|TokenType=Root
-18	naː	naː/taː	FocPART	_	_	17	discourse@foc	_	AlignBegin=9922|AlignEnd=10288|Gloss=be|TokenType=Root
+17	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	18	comp:pred	_	AlignBegin=9556|AlignEnd=9922|Gloss=how|TokenType=Root
+18	naː	naː/taː	FocPART	_	_	0	root	_	AlignBegin=9922|AlignEnd=10288|Gloss=be|TokenType=Root
 19	mutàːneː	mùtunèː	NOUN	_	Number=Plur	20	subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur|TokenType=Root
-20	sukè	kè	PredPART	_	Number=Plur|Person=3|PronType=Prs	17	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Gloss=3Plur.Pred/Loc.Bkg|TokenType=Root|wordform=kè
+20	sukè	kè	PredPART	_	Number=Plur|Person=3|PronType=Prs	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Gloss=3Plur.Pred/Loc.Bkg|TokenType=Root|wordform=kè
 21	zàmne	zamn-	VERB	_	VerbForm=Part|Voice=Stat	20	comp:pred	_	AlignBegin=11386|AlignEnd=11752|Gloss=stay/sit.Stat|TokenType=Root
-22	?//	?//	PUNCT	_	_	17	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT|TokenType=Break
+22	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_02_2
 # speaker_id = SP1
@@ -74,14 +74,14 @@
 # text = wanèː àːgìzoː nàː kukà yi mà bisàː ?//
 # text_en = What kind of watch did you keep on your cattle?
 1	wanèː	wanèː	DET	_	Gender=Masc|PronType=Int	2	det	_	AlignBegin=132960|AlignEnd=133143|Gloss=which.Masc|TokenType=Root
-2	àːgìzoː	aːgiz-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	0	root	_	AlignBegin=133143|AlignEnd=133326|Gloss=watch.Vnoun.Masc|TokenType=Root
-3	nàː	naː/taː	FocPART	_	_	2	discourse@foc	_	AlignBegin=133326|AlignEnd=133509|Gloss=be|TokenType=Root
+2	àːgìzoː	aːgiz-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=133143|AlignEnd=133326|Gloss=watch.Vnoun.Masc|TokenType=Root
+3	nàː	naː/taː	FocPART	_	_	0	root	_	AlignBegin=133326|AlignEnd=133509|Gloss=be|TokenType=Root
 4-5	kukài	_	_	_	_	_	_	_	_
-4	kukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
+4	kukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	3	comp:cleft	_	AlignBegin=133509|AlignEnd=133692|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=133509|AlignEnd=133692|Gloss=do|TokenType=Root
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	AlignBegin=133692|AlignEnd=133875|Gloss=Dat|TokenType=Root
 7	bisàː	bisàː	NOUN	_	_	6	comp:obj	_	AlignBegin=133875|AlignEnd=134058|Gloss=animal|TokenType=Root
-8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=134058|AlignEnd=134240|Gloss=PUNCT|TokenType=Break
+8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=134058|AlignEnd=134240|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_02_6
 # speaker_id = SP1
@@ -89,11 +89,11 @@
 # sent_timecode = 135140, 135980
 # text = ƙàːƙàː naː kukà àːgìzon =ta ?//
 # text_en = How did you keep watch on them?
-1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	0	root	_	AlignBegin=135140|AlignEnd=135308|Gloss=how|TokenType=Root
-2	naː	naː/taː	FocPART	_	_	1	discourse@foc	_	AlignBegin=135308|AlignEnd=135476|Gloss=be|TokenType=Root
-3	kukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
+1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	comp:pred	_	AlignBegin=135140|AlignEnd=135308|Gloss=how|TokenType=Root
+2	naː	naː/taː	FocPART	_	_	0	root	_	AlignBegin=135308|AlignEnd=135476|Gloss=be|TokenType=Root
+3	kukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Background=Yes|Gloss=2Plur.ProgBkg|TokenType=Root
 4	àːgìzonta	aːgiz-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=135644|AlignEnd=135812|Gloss=watch.Vnoun.Masc.Cons.3Fem.Gen|TokenType=Root|wordform=àːgìzon
-5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=135812|AlignEnd=135980|Gloss=PUNCT|TokenType=Break
+5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=135812|AlignEnd=135980|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_02_7
 # speaker_id = SP1
@@ -183,17 +183,17 @@
 # sent_timecode = 254750, 256385
 # text = niː < su Isshìhi nàː >+ nis sanìː wurìn nan //
 # text_en = Me, it's Isshihi I know there.
-1	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	dislocated	_	AlignBegin=254750|AlignEnd=254899|Gloss=1Sing.Nom|TokenType=Root
+1	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated	_	AlignBegin=254750|AlignEnd=254899|Gloss=1Sing.Nom|TokenType=Root
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=254899|AlignEnd=255048|Gloss=PUNCT|TokenType=Break
 3	su	su	DET	_	Number=Plur	4	det	_	AlignBegin=255048|AlignEnd=255197|Gloss=Plur|TokenType=Root
-4	Isshìhi	Isshìhi	PROPN	_	_	0	root	_	AlignBegin=255197|AlignEnd=255346|Gloss=Isshihi|TokenType=Root
-5	nàː	naː/taː	FocPART	_	_	4	discourse@foc	_	AlignBegin=255346|AlignEnd=255495|Gloss=be|TokenType=Root
+4	Isshìhi	Isshìhi	PROPN	_	_	5	comp:pred	_	AlignBegin=255197|AlignEnd=255346|Gloss=Isshihi|TokenType=Root
+5	nàː	naː/taː	FocPART	_	_	0	root	_	AlignBegin=255346|AlignEnd=255495|Gloss=be|TokenType=Root
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=255495|AlignEnd=255644|Gloss=PUNCT|TokenType=Break
-7	nis	(n)kà	AUX	_	Aspect=PerfBkg|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=255644|AlignEnd=255793|Background=Yes|Gloss=1Sing.PerfBkg|TokenType=Root
+7	nis	(n)kà	AUX	_	Aspect=PerfBkg|Number=Sing|Person=1	5	commp:cleft	_	AlignBegin=255644|AlignEnd=255793|Background=Yes|Gloss=1Sing.PerfBkg|TokenType=Root
 8	sanìː	sanìː	VERB	_	_	7	comp:aux	_	AlignBegin=255793|AlignEnd=255942|Gloss=know|TokenType=Root
 9	wurìn	wurìː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	AlignBegin=255942|AlignEnd=256091|Gloss=place.Masc|TokenType=Root
 10	nan	nan	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=256091|AlignEnd=256240|Gloss=Def|TokenType=Root
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=256240|AlignEnd=256385|Gloss=PUNCT|TokenType=Break
+11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=256240|AlignEnd=256385|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_02_15
 # speaker_id = SP1
@@ -210,16 +210,16 @@
 # sent_timecode = 475515, 477025
 # text = shiː ɗai nàː >+ at tàushe dà ita koː ?//
 # text_en = He held her down on his own, did he?
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=475515|AlignEnd=475666|Gloss=3Masc.Nom|TokenType=Root
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=475515|AlignEnd=475666|Gloss=3Masc.Nom|TokenType=Root
 2	ɗai	ɗai	NUM	_	_	1	mod	_	AlignBegin=475666|AlignEnd=475817|Gloss=one|TokenType=Root
-3	nàː	naː/taː	FocPART	_	PronType=Int	1	discourse@foc	_	AlignBegin=475817|AlignEnd=475968|Gloss=be|TokenType=Root
+3	nàː	naː/taː	FocPART	_	PronType=Int	0	root	_	AlignBegin=475817|AlignEnd=475968|Gloss=be|TokenType=Root
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=475968|AlignEnd=476119|Gloss=PUNCT|TokenType=Break
-5	at	ak	PredPART	_	_	1	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
+5	at	ak	PredPART	_	_	3	comp:cleft	_	AlignBegin=476119|AlignEnd=476270|Background=Yes|Gloss=Pred/Loc.Bkg|TokenType=Root
 6	tàushe	taus-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=476270|AlignEnd=476421|Gloss=tackle.Part|TokenType=Root
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=476421|AlignEnd=476572|Gloss=with|TokenType=Root
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=476572|AlignEnd=476723|Gloss=3Fem.Nom|TokenType=Root
-9	koː	koː	CCONJ	_	_	1	cc	_	AlignBegin=476723|AlignEnd=476874|Gloss=or|PartType=Int|TokenType=Root
-10	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=476874|AlignEnd=477025|Gloss=PUNCT|TokenType=Break
+9	koː	koː	CCONJ	_	_	3	cc	_	AlignBegin=476723|AlignEnd=476874|Gloss=or|PartType=Int|TokenType=Root
+10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=476874|AlignEnd=477025|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_DIAL_02_17
 # speaker_id = SP1

@@ -4,17 +4,17 @@
 # sent_timecode = 1800, 5000
 # text = àbîn ga dai < wasu mutàːne nà: > su huɗu //
 # text_en = This is the story of four men.
-1	àbîn	àbiː	NOUN	_	Definite=Def|Gender=Masc	6	dislocated@subj	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc.Def|TokenType=Root
+1	àbîn	àbiː	NOUN	_	Definite=Def|Gender=Masc	7	dislocated@subj	_	AlignBegin=1800|AlignEnd=2091|Gloss=thing.Masc.Def|TokenType=Root
 2	ga	ga	DET	_	_	1	det	_	AlignBegin=2091|AlignEnd=2382|Deixis=Prox|Gloss=Prox|TokenType=Root
-3	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed|TokenType=Root
+3	dai	dai	TopPART	_	_	1	discourse@top	_	AlignBegin=2382|AlignEnd=2673|Gloss=indeed|TokenType=Root
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT|TokenType=Break
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some.Plur|TokenType=Root
-6	mutàːneː	mùtunèː	NOUN	_	Number=Plur	0	root	_	AlignBegin=3255|AlignEnd=3546|Gloss=human.Plur|TokenType=Root|wordform=mutàːne
-7	nà:	naː/taː	FocPART	_	_	6	discourse@foc	_	AlignBegin=3546|AlignEnd=3837|Gloss=be|TokenType=Root
+6	mutàːneː	mùtunèː	NOUN	_	Number=Plur	7	comp:pred	_	AlignBegin=3255|AlignEnd=3546|Gloss=human.Plur|TokenType=Root|wordform=mutàːne
+7	nà:	naː/taː	FocPART	_	_	0	root	_	AlignBegin=3546|AlignEnd=3837|Gloss=be|TokenType=Root
 8	>	>	PUNCT	_	_	10	punct	_	AlignBegin=3837|AlignEnd=4128|Gloss=PUNCT|TokenType=Break
 9	su	su	DET	_	Number=Plur	10	det	_	AlignBegin=4128|AlignEnd=4419|Gloss=Plur|TokenType=Root
-10	huɗu	huɗu	NUM	_	_	6	dislocated@mod	_	AlignBegin=4419|AlignEnd=4710|Gloss=four|TokenType=Root
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=4710|AlignEnd=5000|Gloss=PUNCT|TokenType=Break
+10	huɗu	huɗu	NUM	_	_	7	dislocated@mod	_	AlignBegin=4419|AlignEnd=4710|Gloss=four|TokenType=Root
+11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=4710|AlignEnd=5000|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_03_GMH_18-18
 # speaker_id = SP
@@ -66,24 +66,24 @@
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_03_GMH.WAV
 # sent_timecode = 101260, 103980
-# text = tôː ankà cêː [ cikin mutàːnên ga huɗu < wanèː naː yah hi àbin màːmaːkiː ?// //
+# text = tôː ankà cêː [ cikin mutàːnên ga huɗu < wanèː naː yah hi àbin màːmaːkiː ?//] //
 # text_en = Well they said "Beteween these four people, who is the most amazing?"
 1	tôː	tôː	INTJ	_	_	2	discourse	_	AlignBegin=101260|AlignEnd=101430|Gloss=well|TokenType=Root
 2	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=101430|AlignEnd=101600|Background=Yes|Gloss=4.PerfBkg|TokenType=Root
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=101600|AlignEnd=101770|Gloss=say|TokenType=Root
-4	[	[	PUNCT	_	_	10	punct	_	AlignBegin=101770|AlignEnd=101940|Gloss=PUNCT|TokenType=Break
-5	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=101940|AlignEnd=102110|Gloss=inside|TokenType=Root
+4	[	[	PUNCT	_	_	11	punct	_	AlignBegin=101770|AlignEnd=101940|Gloss=PUNCT|TokenType=Break
+5	cikin	cikin	ADP	_	_	11	mod	_	AlignBegin=101940|AlignEnd=102110|Gloss=inside|TokenType=Root
 6	mutàːnên	mùtunèː	NOUN	_	Definite=Def|Number=Plur	5	comp:obj	_	AlignBegin=102110|AlignEnd=102280|Gloss=human.Plur.Def|TokenType=Root
 7	ga	ga	DET	_	_	6	det	_	AlignBegin=102280|AlignEnd=102450|Deixis=Prox|Gloss=Prox|TokenType=Root
 8	huɗu	huɗu	NUM	_	_	6	det	_	AlignBegin=102450|AlignEnd=102620|Gloss=four|TokenType=Root
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=102620|AlignEnd=102790|Gloss=PUNCT|TokenType=Break
-10	wanèː	wanèː	PRON	_	Gender=Masc|PronType=Int	3	comp:obj	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc|TokenType=Root
-11	naː	naː/taː	FocPART	_	_	10	discourse@foc	_	AlignBegin=102960|AlignEnd=103130|Gloss=be|TokenType=Root
-12	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	10	comp:cleft	_	AlignBegin=103130|AlignEnd=103300|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
+10	wanèː	wanèː	PRON	_	Gender=Masc|PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc|TokenType=Root
+11	naː	naː/taː	FocPART	_	_	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Gloss=be|TokenType=Root
+12	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	11	comp:cleft	_	AlignBegin=103130|AlignEnd=103300|Background=Yes|Gloss=3Masc.PerfBkg|TokenType=Root
 13	hi	hi	VERB	_	_	12	comp:aux	_	AlignBegin=103300|AlignEnd=103470|Gloss=exceed|TokenType=Root
 14	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	mod	_	AlignBegin=103470|AlignEnd=103640|Gloss=thing.Masc.Cons|TokenType=Root
 15	màːmaːkiː	màːmaːkiː	NOUN	_	_	14	mod	_	AlignBegin=103640|AlignEnd=103810|Gloss=wondering|TokenType=Root
-16	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=103810|AlignEnd=103980|Gloss=PUNCT|TokenType=Break
+16	?//]	?//]	PUNCT	_	_	11	punct	_	AlignBegin=103810|AlignEnd=103980|Gloss=PUNCT|TokenType=Break
 17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=103810|AlignEnd=103980|Gloss=PUNCT|TokenType=Break
 
 # sent_id = HAUA_BC_NARR_03_GMH_02-02
