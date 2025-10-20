@@ -484,7 +484,7 @@
 # text = giːwàːyeː su nàː tsàye suː dà yawàː //
 # text_en = There were many elephants standing there.
 1	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	2	subj	_	AlignBegin=100122|AlignEnd=100402|Gloss=elephant.Plur|TokenType=Root
-2	sunàː	nàː	PredPART	_	Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Pred/Loc|TokenType=Root|wordform=su
+2	sunàː	nàː	AUX	_	Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=100402|AlignEnd=100682|Gloss=3Plur.Pred/Loc|TokenType=Root|wordform=su
 3	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=100682|AlignEnd=100962|Gloss=stop.Part.Stat|TokenType=Root
 4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=100962|AlignEnd=101242|Gloss=3Plur.Nom|TokenType=Root
 5	dà	dà	ADP	_	_	4	mod	_	AlignBegin=101242|AlignEnd=101522|Gloss=with|TokenType=Root
@@ -728,7 +728,7 @@
 # text = ita ta nàː nan tanàː ta cîn naːmàː //= ta nàː nan tanàː ta cîn naːmàː //
 # text_en = She kept eating and eating the meat.
 1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem|TokenType=Root
-2	tanàː	nàː	PredPART	_	Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
+2	tanàː	nàː	AUX	_	Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Pred/Loc|TokenType=Root|wordform=ta
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def|TokenType=Root
 4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	parataxis@conj	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog|TokenType=Root
 5	ta	ta	ADP	_	Aspect=Iter	4	compound@prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|TokenType=Root
