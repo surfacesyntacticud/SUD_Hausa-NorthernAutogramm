@@ -19,7 +19,7 @@
 1-2	abìnga	_	_	_	_	_	_	_	_
 1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	dislocated@subj	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
 2	ga	ga	DET	_	_	1	det	_	AlignBegin=4000|AlignEnd=4324|Deixis=Prox|Gloss=Prox
-3	dai	dai	TopPART	_	_	1	discourse@top	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed
+3	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed|PartType=Top
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=4648|AlignEnd=4972|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur
 6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	comp:pred	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
@@ -387,7 +387,7 @@
 7	gàba	gàba	ADV	_	_	6	comp:obj@G	_	AlignBegin=71132|AlignEnd=71292|Gloss=in_front
 8	!//=	!//=	PUNCT	_	_	13	punct	_	AlignBegin=71292|AlignEnd=71452|Gloss=PUNCT
 9	nân	nân	ADV	_	_	13	dislocated@mod	_	AlignBegin=71452|AlignEnd=71612|Deixis=Prox|Gloss=Prox
-10	kuma	kuma	TopPART	_	_	9	discourse@top	_	AlignBegin=71612|AlignEnd=71772|Gloss=also
+10	kuma	kuma	PART	_	_	9	discourse@top	_	AlignBegin=71612|AlignEnd=71772|Gloss=also|PartType=Top
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=71772|AlignEnd=71932|Gloss=PUNCT
 12	shaːnunkì	sâː	NOUN	_	Definite=Cons|Number=Plur	13	subj	_	AlignBegin=71932|AlignEnd=72092|Gloss=cow.Plur.Cons.2Fem.Gen|wordform=shaːnun
 13	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	6	parataxis@conj	_	AlignBegin=72092|AlignEnd=72252|Background=Yes|Gloss=3Plur.PerfBkg
@@ -430,7 +430,7 @@
 7	gàba	gàba	ADV	_	_	6	comp:obj@G	_	AlignBegin=75816|AlignEnd=75994|Gloss=in_front
 8	!//=	!//=	PUNCT	_	_	13	punct	_	AlignBegin=75994|AlignEnd=76172|Gloss=PUNCT
 9	nân	nân	ADV	_	_	13	dislocated@mod	_	AlignBegin=76172|AlignEnd=76350|Deixis=Prox|Gloss=Prox
-10	hwa	hwa	TopPART	_	_	9	discourse	_	AlignBegin=76350|AlignEnd=76528|Gloss=as_for
+10	hwa	hwa	PART	_	_	9	discourse@top	_	AlignBegin=76350|AlignEnd=76528|Gloss=as_for|PartType=Top
 11	bàː	bàː	PART	_	Polarity=Neg	13	mod	_	AlignBegin=76528|AlignEnd=76706|Gloss=Neg|PartType=Neg
 12	baːyunkì	baːwàː	NOUN	_	Definite=Cons|Number=Plur	13	subj	_	AlignBegin=76706|AlignEnd=76884|Gloss=slave.Plur.Cons.2Fem.Gen|wordform=baːyun
 13	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	6	parataxis@conj	_	AlignBegin=76884|AlignEnd=77062|Background=Yes|Gloss=3Plur.PerfBkg
@@ -553,7 +553,7 @@
 # text_en = She, that one, she came back with all her cattle, she said "Dove has died."
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=96260|AlignEnd=96401|Gloss=3Fem.Nom
 2	duk	dukà	DET	_	ExtPos=PRON|PronType=Tot	8	dislocated@comp	_	AlignBegin=96401|AlignEnd=96542|Gloss=all
-3	kòː	kùwa	TopPART	_	_	2	discourse	_	AlignBegin=96542|AlignEnd=96683|Gloss=as_for
+3	kòː	kùwa	PART	_	_	2	discourse@top	_	AlignBegin=96542|AlignEnd=96683|Gloss=as_for|PartType=Top
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=96683|AlignEnd=96824|Gloss=PUNCT
 5	wàccan	wàccan	PRON	_	Gender=Fem|PronType=Dem	8	dislocated@subj	_	AlignBegin=96824|AlignEnd=96965|Deixis=Dist|Gloss=Fem.Dist
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=96965|AlignEnd=97106|Gloss=PUNCT
@@ -851,7 +851,7 @@
 # text = ɗan'ubancìː dai >+ yac ciː tà dàw wurin gwadìn kyaːwòː //
 # text_en = "It's rivalry that took her in a beauty contest."
 1	ɗan'ubancìː	ɗan'ubancìː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=140685|AlignEnd=141035|Gloss=rivalry.Masc
-2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=141385|AlignEnd=141735|Gloss=indeed
+2	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=141385|AlignEnd=141735|Gloss=indeed|PartType=Top
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=141385|AlignEnd=141735|Gloss=PUNCT
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=141735|AlignEnd=142085|Background=Yes|Gloss=3Masc.PerfBkg
 5	ciː	ci	VERB	_	_	4	comp:aux	_	AlignBegin=142085|AlignEnd=142435|Gloss=eat
@@ -872,7 +872,7 @@
 1	[	[	PUNCT	_	_	7	punct	_	AlignBegin=144540|AlignEnd=144769|Gloss=PUNCT
 2	dàc	dàc	ADP	_	_	7	mod	_	AlignBegin=144769|AlignEnd=144998|Gloss=from
 3	can	can	ADV	_	_	2	comp:obj	_	AlignBegin=144998|AlignEnd=145227|Deixis=Dist|Gloss=Dist+
-4	kuma	kuma	TopPART	_	_	2	discourse@top	_	AlignBegin=145227|AlignEnd=145456|Gloss=also
+4	kuma	kuma	PART	_	_	2	discourse@top	_	AlignBegin=145227|AlignEnd=145456|Gloss=also|PartType=Top
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=145456|AlignEnd=145685|Gloss=PUNCT
 6	Allàː	Allàː	PROPN	_	_	7	subj	_	AlignBegin=145685|AlignEnd=145914|Gloss=God
 7	ya'	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=145914|AlignEnd=146143|Background=Yes|Gloss=3Masc.PerfBkg
@@ -1301,7 +1301,7 @@
 # text = ita kòː < dàc can cikin ruwaː < sai ta' amsàː //
 # text_en = She, inside the water, she answered.
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	10	dislocated@subj	_	AlignBegin=218320|AlignEnd=218529|Gloss=3Fem.Nom
-2	kòː	kùwa	TopPART	_	_	1	discourse	_	AlignBegin=218529|AlignEnd=218738|Gloss=as_for
+2	kòː	kùwa	PART	_	_	1	discourse@top	_	AlignBegin=218529|AlignEnd=218738|Gloss=as_for|PartType=Top
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=218738|AlignEnd=218947|Gloss=PUNCT
 4	dàc	dàk	ADP	_	_	10	mod	_	AlignBegin=218947|AlignEnd=219156|Gloss=from
 5	can	can	ADV	_	_	4	comp:obj	_	AlignBegin=219156|AlignEnd=219365|Deixis=Dist|Gloss=Dist+
@@ -1573,7 +1573,7 @@
 5	ad	ak	PredPART	_	_	4	comp:obj	_	AlignBegin=254395|AlignEnd=254562|Background=Yes|Gloss=Pred/Loc.Bkg
 6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=254562|AlignEnd=254729|Gloss=with
 7	saurattà	sauraː	NOUN	_	Definite=Cons|Gender=Fem	6	comp:obj	_	AlignBegin=254729|AlignEnd=254896|Gloss=remains.Fem.Cons.3Fem.Gen|wordform=saurat
-8	kuma	kuma	TopPART	_	_	2	discourse@top	_	AlignBegin=254896|AlignEnd=255063|Gloss=also
+8	kuma	kuma	PART	_	_	2	discourse@top	_	AlignBegin=254896|AlignEnd=255063|Gloss=also|PartType=Top
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=255063|AlignEnd=255230|Gloss=PUNCT
 10	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is
 11	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=255397|AlignEnd=255564|Gloss=3Masc
