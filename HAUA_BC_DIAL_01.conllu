@@ -857,7 +857,7 @@
 # text_ortho = baːbù bàutaː s'àkaːníːnai dà suː //
 # text = baːbù bàutaː s'àkaːniː =nai dà suː //
 # text_en = There is no slavery between him and them.
-1	baːbù	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=217460|AlignEnd=217648|Gloss=there_is.Neg
+1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=217460|AlignEnd=217648|Gloss=there_is.Neg|PartType=Pred
 2	bàutaː	bàutaː	NOUN	_	_	1	subj	_	AlignBegin=217648|AlignEnd=217836|Gloss=slavery
 3	s'àkaːniːnai	s'àkaːnin	NOUN	_	_	1	comp:pred	_	AlignBegin=217836|AlignEnd=218024|Gloss=between.3Masc.Gen|wordform=s'àkaːniː
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=218024|AlignEnd=218212|Gloss=and
@@ -1025,7 +1025,7 @@
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=249714|AlignEnd=250037|Gloss=see
 3	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=250037|AlignEnd=250360|Gloss=indeed|PartType=Top
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=250360|AlignEnd=250683|Gloss=PUNCT
-5	àkwai	àkwai	PredPART	_	_	14	parataxis@top	_	AlignBegin=250683|AlignEnd=251006|Gloss=there_is
+5	àkwai	àkwai	PART	_	_	14	parataxis@top	_	AlignBegin=250683|AlignEnd=251006|Gloss=there_is|PartType=Pred
 6	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	5	subj	_	AlignBegin=251006|AlignEnd=251329|Gloss=time.Masc.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=251329|AlignEnd=251652|Gloss=REL
 8	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	7	comp:obj	_	AlignBegin=251652|AlignEnd=251975|Background=Yes|Gloss=4.ProgBkg
@@ -1046,7 +1046,7 @@
 # text_ortho = àkwai lòːkacìn dà akà sâː ka aikìː |c bàkà ƙiyàː ba |c kuma anàː bâː ka kaːshiː //
 # text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba //= kuma anàː bâː ka kaːshiː //
 # text_en = Sometimes they they would force you to work, you could not refuse, and they beat you.
-1	àkwai	àkwai	PredPART	_	_	9	parataxis@top	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	9	parataxis@top	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is|PartType=Pred
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=255663|AlignEnd=255926|Gloss=time.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=255926|AlignEnd=256189|Gloss=REL
 4	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	3	comp:obj	_	AlignBegin=256189|AlignEnd=256452|Background=Yes|Gloss=4.ProgBkg
@@ -1083,7 +1083,7 @@
 # text_ortho = àkwai lòːkacìn dà kanàː cikin ɗaːkìnka dà dare |c à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
 # text = àkwai lòːkacìn dà ka nàː cikin ɗaːkìnka dà dare < à zakà indà kakè //= à kam maː //= à tàhi dà kai wurin aikìː //
 # text_en = Sometimes, you were in you room at night, they came where you were, they caught you and took you away to work.
-1	àkwai	àkwai	PredPART	_	_	10	parataxis@top	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	10	parataxis@top	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is|PartType=Pred
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=262898|AlignEnd=263283|Gloss=time.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=263283|AlignEnd=263668|Gloss=REL
 4	kanàː	nàː	PredPART	_	Gender=Masc|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=263668|AlignEnd=264053|Gloss=2Masc.Pred/Loc|wordform=ka
@@ -1336,7 +1336,7 @@
 # text_ortho = àkwai indà mukà &//
 # text = àkwai indà mukà &//
 # text_en = We used to...
-1	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=315720|AlignEnd=315962|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=315720|AlignEnd=315962|Gloss=there_is|PartType=Pred
 2	indà	indà	ADV	_	PronType=Rel	1	subj	_	AlignBegin=315962|AlignEnd=316204|Gloss=where
 3	mukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	2	mod@relcl	_	AlignBegin=316204|AlignEnd=316446|Background=Yes|Gloss=1Plur.ProgBkg
 4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=316446|AlignEnd=316686|Gloss=PUNCT
@@ -1589,7 +1589,7 @@
 # text_ortho = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text_en = Once, I carried wrappers.
-1	àkwai	àkwai	PredPART	_	_	4	parataxis@top	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	4	parataxis@top	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is|PartType=Pred
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf
@@ -1604,7 +1604,7 @@
 # text_ortho = àkwai wata zakkùwaː naː kaːwoː duːc'ìː > wànga na ƴam maːtaː //
 # text = àkwai wata zakkùwaː naː kaːwoː duːc'ìː |a wànga na ƴan maːtaː //
 # text_en = Once, I carried (precious) stones, those for women.
-1	àkwai	àkwai	PredPART	_	_	4	parataxis@top	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	4	parataxis@top	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is|PartType=Pred
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=358770|AlignEnd=359014|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359014|AlignEnd=359258|Gloss=1Sing.Perf
@@ -1624,7 +1624,7 @@
 # text_ortho = àkwai wata zakkùwaː naː kaːwoː X //
 # text = àkwai wata zakkùwaː naː kaːwoː X &//
 # text_en = Once, I carried X.
-1	àkwai	àkwai	PredPART	_	_	4	parataxis@top	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	4	parataxis@top	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is|PartType=Pred
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=362283|AlignEnd=362726|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=362726|AlignEnd=363169|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=363169|AlignEnd=363612|Gloss=1Sing.Perf
@@ -1757,7 +1757,7 @@
 # text_ortho = bâː mùtun huɗu nà //= bâː mùtun ukkù //
 # text = bâː mùtun huɗu nàː //= mùtun ukkù //
 # text_en = They were not four, they were not three.
-1	bâː	baːbù	PredPART	_	Polarity=Neg	4	comp:pred	_	AlignBegin=399220|AlignEnd=399387|Gloss=there_is.Neg
+1	bâː	baːbù	PART	_	Polarity=Neg	4	comp:pred	_	AlignBegin=399220|AlignEnd=399387|Gloss=there_is.Neg|PartType=Pred
 2	mùtun	mùtunèː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=399387|AlignEnd=399554|Gloss=human.Masc
 3	huɗu	huɗu	NUM	_	_	2	det	_	AlignBegin=399554|AlignEnd=399721|Gloss=four
 4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=399721|AlignEnd=399888|Gloss=be
@@ -1773,12 +1773,12 @@
 # text_ortho = gàː naːkù aːràːyiː nân //= gàː na wàncéːnìyaː //
 # text = gàː naːkù aːràːyiː nân //= gàː na wàncéːnìyaː //
 # text_en = Our troup was here, over there was another one.
-1	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=400726|AlignEnd=401003|Gloss=here_is
+1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=400726|AlignEnd=401003|Gloss=here_is|PartType=Pred
 2	naːkù	naːkù	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	mod@poss	_	AlignBegin=401003|AlignEnd=401280|Gloss=2Plur.Gen
 3	aːràːyiː	aːràːyiː	NOUN	_	Gender=Masc	1	subj	_	AlignBegin=401280|AlignEnd=401557|Gloss=troup.Masc
 4	nân	nân	ADV	_	_	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Deixis=Prox|Gloss=Prox
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
-6	gàː	gàː	PredPART	_	_	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
+6	gàː	gàː	PART	_	_	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is|PartType=Pred
 7	na	na/ta	ADP	_	_	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=of
 8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Deixis=Dist|Gloss=Dist.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
@@ -1821,9 +1821,9 @@
 # text_en = I swear, day and night, people were walking.
 1	láːtà'addù	láːtà'addù	INTJ	_	_	10	discourse	_	AlignBegin=405960|AlignEnd=406156|Gloss=I_swear
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=406156|AlignEnd=406352|Gloss=PUNCT
-3	bâː	baːbù	PredPART	_	Polarity=Neg	10	mod	_	AlignBegin=406352|AlignEnd=406548|Gloss=there_is.Neg
+3	bâː	baːbù	PART	_	Polarity=Neg	10	mod	_	AlignBegin=406352|AlignEnd=406548|Gloss=there_is.Neg|PartType=Pred
 4	dareː	dareː	NOUN	_	_	3	subj	_	AlignBegin=406548|AlignEnd=406744|Gloss=night
-5	bâː	baːbù	PredPART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg
+5	bâː	baːbù	PART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg|PartType=Pred
 6	raːnaː	raːnaː	NOUN	_	Gender=Fem	5	subj	_	AlignBegin=406940|AlignEnd=407136|Gloss=day.Fem
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=407136|AlignEnd=407332|Gloss=PUNCT
 8	mutàːneː	mùtunèː	NOUN	_	Number=Plur	10	dislocated@subj	_	AlignBegin=407332|AlignEnd=407528|Gloss=human.Plur
@@ -1853,7 +1853,7 @@
 # text_en = So, you were not walking on your own, that one on his own, and that one on his own.
 1	wai	wai	ADV	_	_	3	discourse	_	AlignBegin=411060|AlignEnd=411290|Gloss=apparently
 2	kuma	kuma	CCONJ	_	_	3	discourse	_	AlignBegin=411290|AlignEnd=411520|Gloss=also
-3	bâː	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg
+3	bâː	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg|PartType=Pred
 4	tàhiyàkkà	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	subj	_	AlignBegin=411750|AlignEnd=411980|Gloss=walk.Vnoun.Fem.Cons.2Masc.Gen|wordform=tàhiyàk
 5	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
@@ -2151,19 +2151,19 @@
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=461672|AlignEnd=462120|Gloss=Def
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=462120|AlignEnd=462568|Gloss=PUNCT
 5	gida	gida	ADV	_	_	6	mod	_	AlignBegin=462568|AlignEnd=463016|Gloss=at_home
-6	baːbù	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=463016|AlignEnd=463464|Gloss=there_is.Neg
+6	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=463016|AlignEnd=463464|Gloss=there_is.Neg|PartType=Pred
 7	wàhalà'	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	6	subj	_	AlignBegin=463464|AlignEnd=463912|Gloss=suffering.Fem.Cons
 8	àbincîː	àbincîː	NOUN	_	Gender=Masc	7	mod	_	AlignBegin=463912|AlignEnd=464360|Gloss=food.Masc
 9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=464360|AlignEnd=464808|Gloss=PUNCT
-10	baːbù	baːbù	PredPART	_	Polarity=Neg	6	parataxis@conj	_	AlignBegin=464808|AlignEnd=465256|Gloss=there_is.Neg
+10	baːbù	baːbù	PART	_	Polarity=Neg	6	parataxis@conj	_	AlignBegin=464808|AlignEnd=465256|Gloss=there_is.Neg|PartType=Pred
 11	wàhalàd	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	10	subj	_	AlignBegin=465256|AlignEnd=465704|Gloss=suffering.Fem.Cons
 12	duːkìyaː	duːkìyaː	NOUN	_	Gender=Fem	11	mod	_	AlignBegin=465704|AlignEnd=466152|Gloss=domestic_animals.Fem
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=466152|AlignEnd=466600|Gloss=PUNCT
-14	baːbù	baːbù	PredPART	_	Polarity=Neg	10	parataxis@conj	_	AlignBegin=466600|AlignEnd=467048|Gloss=there_is.Neg
+14	baːbù	baːbù	PART	_	Polarity=Neg	10	parataxis@conj	_	AlignBegin=466600|AlignEnd=467048|Gloss=there_is.Neg|PartType=Pred
 15	wàhalàn	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	14	subj	_	AlignBegin=467048|AlignEnd=467496|Gloss=suffering.Fem.Cons
 16	noːnoː	noːnoː	NOUN	_	Definite=Cons|Gender=Masc	15	mod	_	AlignBegin=467496|AlignEnd=467944|Gloss=milk.Cons.Masc
 17	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=467944|AlignEnd=468392|Gloss=PUNCT
-18	baːbù	baːbù	PredPART	_	Polarity=Neg	14	parataxis@conj	_	AlignBegin=468392|AlignEnd=468840|Gloss=there_is.Neg
+18	baːbù	baːbù	PART	_	Polarity=Neg	14	parataxis@conj	_	AlignBegin=468392|AlignEnd=468840|Gloss=there_is.Neg|PartType=Pred
 19	wàhalàk	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	18	subj	_	AlignBegin=468840|AlignEnd=469288|Gloss=suffering.Fem.Cons
 20	koːmiː	koːmiː	PRON	_	PronType=Ind	19	mod	_	AlignBegin=469288|AlignEnd=469736|Gloss=anything
 21	//	//	PUNCT	_	_	6	punct	_	AlignBegin=469736|AlignEnd=470180|Gloss=PUNCT
@@ -2210,7 +2210,7 @@
 # sent_timecode = 475540, 476540
 # text_ortho = bâː yunwàː tah hîrkassheː kà gidaː //
 # text_en = There was no hunger that would drive you away from home.
-1	bâː	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg
+1	bâː	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg|PartType=Pred
 2	yunwàː	yunwàː	NOUN	_	Gender=Fem	1	subj	_	AlignBegin=475683|AlignEnd=475826|Gloss=hunger.Fem
 3	tah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	2	mod@relcl	_	AlignBegin=475826|AlignEnd=475969|Background=Yes|Gloss=3Fem.PerfBkg
 4	hîrkassheː	hit-	VERB	_	Voice=Cau	3	comp:aux	_	AlignBegin=475969|AlignEnd=476112|Gloss=come_out.Cau

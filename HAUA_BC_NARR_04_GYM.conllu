@@ -770,13 +770,13 @@
 # text_en = "Am I without an older brother, without a younger brother?"
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=132065|AlignEnd=132273|Gloss=PUNCT
 2-3	bân	_	_	_	_	_	_	_	_
-2	bâː	baːbù	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=132273|AlignEnd=132481|Gloss=there_is.Neg
+2	bâː	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=132273|AlignEnd=132481|Gloss=there_is.Neg|PartType=Pred
 3	ni	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=132273|AlignEnd=132481|Gloss=1Sing
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=132481|AlignEnd=132689|Gloss=with
 5	wâː	wâː	NOUN	_	Gender=Masc	4	comp:obj	_	AlignBegin=132689|AlignEnd=132897|Gloss=elder_brother.Masc
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=132897|AlignEnd=133105|Gloss=PUNCT
 7-8	bân	_	_	_	_	_	_	_	_
-7	bâː	baːbù	PredPART	_	Polarity=Neg	2	conj:coord	_	AlignBegin=133105|AlignEnd=133313|Gloss=there_is.Neg
+7	bâː	baːbù	PART	_	Polarity=Neg	2	conj:coord	_	AlignBegin=133105|AlignEnd=133313|Gloss=there_is.Neg|PartType=Pred
 8	ni	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=133105|AlignEnd=133313|Gloss=1Sing
 9	dà	dà	ADP	_	_	7	comp:pred	_	AlignBegin=133313|AlignEnd=133521|Gloss=with
 10	ƙaːnèː	ƙaːnèː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=133521|AlignEnd=133729|Gloss=younger_brother.Masc
@@ -922,7 +922,7 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=153530|AlignEnd=153808|Gloss=PUNCT
 7	tôː	tôː	INTJ	_	_	9	discourse	_	AlignBegin=153808|AlignEnd=154086|Gloss=well
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=154086|AlignEnd=154364|Gloss=PUNCT
-9	baːbù	baːbù	PredPART	_	Polarity=Neg	5	comp:obj	_	AlignBegin=154364|AlignEnd=154642|Gloss=there_is.Neg
+9	baːbù	baːbù	PART	_	Polarity=Neg	5	comp:obj	_	AlignBegin=154364|AlignEnd=154642|Gloss=there_is.Neg|PartType=Pred
 10	koːmiː	koːmiː	PRON	_	PronType=Ind	9	subj	_	AlignBegin=154642|AlignEnd=154920|Gloss=anything
 11	//]	//]	PUNCT	_	_	9	punct	_	AlignBegin=154920|AlignEnd=155198|Gloss=PUNCT
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=155198|AlignEnd=155480|Gloss=PUNCT
@@ -1447,7 +1447,7 @@
 # text = [ gàː niː maƙaːraː =tai //]
 # text_en = "Here I am to complain about him."
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=238042|AlignEnd=238288|Gloss=PUNCT
-2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=238288|AlignEnd=238534|Gloss=here_is
+2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=238288|AlignEnd=238534|Gloss=here_is|PartType=Pred
 3	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=238534|AlignEnd=238780|Gloss=1Sing.Nom
 4	maƙaːraːtai	maƙaːraː	NOUN	_	Definite=Cons|Gender=Fem	2	comp:pred	_	AlignBegin=238780|AlignEnd=239026|Gloss=complaint.Fem.Cons.3Masc.Gen|wordform=maƙaːraː
 5	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=239026|AlignEnd=239273|Gloss=PUNCT
@@ -1550,7 +1550,7 @@
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=251366|AlignEnd=251512|Gloss=say
 13	[	[	PUNCT	_	_	15	punct	_	AlignBegin=251512|AlignEnd=251658|Gloss=PUNCT
 14	yâu	yâu	ADV	_	_	15	mod	_	AlignBegin=251658|AlignEnd=251804|Gloss=today
-15	gàː	gàː	PredPART	_	_	12	comp:obj	_	AlignBegin=251804|AlignEnd=251950|Gloss=here_is
+15	gàː	gàː	PART	_	_	12	comp:obj	_	AlignBegin=251804|AlignEnd=251950|Gloss=here_is|PartType=Pred
 16	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	17	det	_	AlignBegin=251950|AlignEnd=252096|Gloss=some.Masc
 17	àbo	àbiː	NOUN	_	Gender=Masc	15	subj	_	AlignBegin=252096|AlignEnd=252242|Gloss=thing.Masc
 18	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	15	comp:pred	_	AlignBegin=252242|AlignEnd=252388|Gloss=3Masc.Perf
@@ -1575,7 +1575,7 @@
 7	saurattà	sauraː	NOUN	_	Definite=Cons|Gender=Fem	6	comp:obj	_	AlignBegin=254729|AlignEnd=254896|Gloss=remains.Fem.Cons.3Fem.Gen|wordform=saurat
 8	kuma	kuma	PART	_	_	2	discourse@top	_	AlignBegin=254896|AlignEnd=255063|Gloss=also|PartType=Top
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=255063|AlignEnd=255230|Gloss=PUNCT
-10	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is
+10	gàː	gàː	PART	_	_	0	root	_	AlignBegin=255230|AlignEnd=255397|Gloss=here_is|PartType=Pred
 11	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=255397|AlignEnd=255564|Gloss=3Masc
 12	yâu	yâu	ADV	_	_	13	mod	_	AlignBegin=255564|AlignEnd=255731|Gloss=today
 13	zâːshi	zâi	AUX	_	Gender=Masc|Person=3|Tense=Fut	10	comp:pred	_	AlignBegin=255731|AlignEnd=255898|Gloss=Fut.3Sing
