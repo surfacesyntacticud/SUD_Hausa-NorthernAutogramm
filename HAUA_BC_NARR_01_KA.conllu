@@ -190,7 +190,7 @@
 7	ìn	ø	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	comp:obj	_	AlignBegin=46910|AlignEnd=47025|Gloss=1Sing.Aor
 8	shìga	shig-	VERB	_	_	7	comp:aux	_	AlignBegin=47025|AlignEnd=47140|Gloss=enter
 9	ruwân	ruwaː	NOUN	_	Definite=Def|Number=Plur	8	comp:obj@G	_	AlignBegin=47140|AlignEnd=47255|Gloss=water.Plur.Def
-10	ga	ga	DET	_	Deixis=Prox	9	det	_	AlignBegin=47255|AlignEnd=47370|Gloss=Prox
+10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=47255|AlignEnd=47370|Gloss=Prox
 11	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=47370|AlignEnd=47485|Gloss=PUNCT
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=47485|AlignEnd=47600|Gloss=PUNCT
 
@@ -472,7 +472,7 @@
 9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=98659|AlignEnd=98903|Gloss=PUNCT
 10	gàː	gàː	PART	_	_	8	parataxis@conj	_	AlignBegin=98903|AlignEnd=99147|Gloss=here_is|PartType=Pred
 11	giːwàːyeː	giːwaː	NOUN	_	Number=Plur	10	subj	_	AlignBegin=99147|AlignEnd=99391|Gloss=elephant.Plur
-12	ceːnìyaː	ceːnìyaː	ADV	_	Deixis=Rmt	10	comp:pred	_	AlignBegin=99391|AlignEnd=99635|Gloss=Rmt
+12	ceːnìyaː	ceːnìyaː	ADV	_	Deixis=Rmt|PronType=Dem	10	comp:pred	_	AlignBegin=99391|AlignEnd=99635|Gloss=Rmt
 13	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=99635|AlignEnd=99879|Gloss=PUNCT
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=99879|AlignEnd=100122|Gloss=PUNCT
 
@@ -507,7 +507,7 @@
 7	tàhi	tah-	VERB	_	Mood=Jus	5	parataxis@conj	_	AlignBegin=104522|AlignEnd=104758|Gloss=go.Jus
 8	indà	indà	ADV	_	PronType=Rel	7	comp:obj@G	_	AlignBegin=104758|AlignEnd=104994|Gloss=where
 9	giːwàːyên	giːwaː	NOUN	_	Definite=Def|Number=Plur	8	mod@relcl	_	AlignBegin=104994|AlignEnd=105230|Gloss=elephant.Plur.Def
-10	can	can	DET	_	Deixis=Rmt	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Rmt+
+10	can	can	DET	_	Deixis=Rmt|PronType=Dem	9	det	_	AlignBegin=105230|AlignEnd=105466|Gloss=Rmt+
 11	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=105466|AlignEnd=105702|Gloss=PUNCT
 12	kì	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	parataxis@conj	_	AlignBegin=105702|AlignEnd=105938|Gloss=2Fem.Aor
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say
@@ -534,7 +534,7 @@
 8	gàː	gàː	PART	_	_	4	comp:obj	_	AlignBegin=111354|AlignEnd=111630|Gloss=here_is|PartType=Pred
 9	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	AlignBegin=111630|AlignEnd=111906|Gloss=child.Masc.Cons
 10	àlmaːjìriː	àlmaːjìriː	NOUN	_	Gender=Masc	9	compound	_	AlignBegin=111906|AlignEnd=112182|Gloss=student.Masc
-11	cân	cân	ADV	_	Deixis=Rmt	8	comp:pred	_	AlignBegin=112182|AlignEnd=112458|Gloss=Rmt
+11	cân	cân	ADV	_	Deixis=Rmt|PronType=Dem	8	comp:pred	_	AlignBegin=112182|AlignEnd=112458|Gloss=Rmt
 12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=112458|AlignEnd=112734|Gloss=PUNCT
 13	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	parataxis@conj	_	AlignBegin=112734|AlignEnd=113010|Gloss=3Masc.Prog
 14	ɓaːcìnku	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=113010|AlignEnd=113286|Gloss=insult.Vnoun.Masc.Cons.2Plur|wordform=ɓaːcìn
@@ -570,7 +570,7 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=117012|AlignEnd=117106|Gloss=PUNCT
 4	gàː	gàː	PART	_	_	2	comp:obj	_	AlignBegin=117106|AlignEnd=117200|Gloss=here_is|PartType=Pred
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=117200|AlignEnd=117294|Gloss=3Masc
-6	cân	cân	ADV	_	Deixis=Rmt	4	comp:pred	_	AlignBegin=117294|AlignEnd=117388|Gloss=Rmt
+6	cân	cân	ADV	_	Deixis=Rmt|PronType=Dem	4	comp:pred	_	AlignBegin=117294|AlignEnd=117388|Gloss=Rmt
 7	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=117388|AlignEnd=117479|Gloss=PUNCT
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=117388|AlignEnd=117479|Gloss=PUNCT
 
@@ -602,27 +602,27 @@
 2	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=120261|AlignEnd=120462|Gloss=3Masc.Prog
 3	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=120462|AlignEnd=120663|Gloss=say.Vnoun.Fem
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=120663|AlignEnd=120864|Gloss=PUNCT
-5	nân	nân	ADV	_	Deixis=Prox	3	comp:obj	_	AlignBegin=120864|AlignEnd=121065|Gloss=Prox
+5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:obj	_	AlignBegin=120864|AlignEnd=121065|Gloss=Prox
 6	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	5	comp:cleft	_	AlignBegin=121065|AlignEnd=121266|Background=Yes|Gloss=4.ProgBkg
 7	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=121266|AlignEnd=121467|Gloss=fall.Vnoun.Fem
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=121467|AlignEnd=121668|Gloss=PUNCT
-9	nân	nân	ADV	_	Deixis=Prox	5	parataxis@conj	_	AlignBegin=121668|AlignEnd=121869|Gloss=Prox
+9	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	5	parataxis@conj	_	AlignBegin=121668|AlignEnd=121869|Gloss=Prox
 10	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	9	comp:cleft	_	AlignBegin=121869|AlignEnd=122070|Background=Yes|Gloss=4.ProgBkg
 11	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=122070|AlignEnd=122271|Gloss=break.Vnoun.Fem
 12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=122271|AlignEnd=122472|Gloss=PUNCT
-13	nân	nân	ADV	_	Deixis=Prox	9	parataxis@conj	_	AlignBegin=122472|AlignEnd=122673|Gloss=Prox
+13	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	9	parataxis@conj	_	AlignBegin=122472|AlignEnd=122673|Gloss=Prox
 14	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	13	comp:cleft	_	AlignBegin=122673|AlignEnd=122874|Background=Yes|Gloss=4.ProgBkg
 15	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=122874|AlignEnd=123075|Gloss=fall.Vnoun.Fem
 16	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=123075|AlignEnd=123276|Gloss=PUNCT
-17	nân	nân	ADV	_	Deixis=Prox	13	parataxis@conj	_	AlignBegin=123276|AlignEnd=123477|Gloss=Prox
+17	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	13	parataxis@conj	_	AlignBegin=123276|AlignEnd=123477|Gloss=Prox
 18	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	17	comp:cleft	_	AlignBegin=123477|AlignEnd=123678|Background=Yes|Gloss=4.ProgBkg
 19	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	18	comp:aux	_	AlignBegin=123678|AlignEnd=123879|Gloss=break.Vnoun.Fem
 20	//=	//=	PUNCT	_	_	21	punct	_	AlignBegin=123879|AlignEnd=124080|Gloss=PUNCT
-21	nân	nân	ADV	_	Deixis=Prox	17	parataxis@conj	_	AlignBegin=124080|AlignEnd=124281|Gloss=Prox
+21	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	17	parataxis@conj	_	AlignBegin=124080|AlignEnd=124281|Gloss=Prox
 22	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	21	comp:cleft	_	AlignBegin=124281|AlignEnd=124482|Background=Yes|Gloss=4.ProgBkg
 23	hwaːɗùwaː	hwaːɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	22	comp:aux	_	AlignBegin=124482|AlignEnd=124683|Gloss=fall.Vnoun.Fem
 24	//=	//=	PUNCT	_	_	25	punct	_	AlignBegin=124683|AlignEnd=124884|Gloss=PUNCT
-25	nân	nân	ADV	_	Deixis=Prox	21	parataxis@conj	_	AlignBegin=124884|AlignEnd=125085|Gloss=Prox
+25	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	21	parataxis@conj	_	AlignBegin=124884|AlignEnd=125085|Gloss=Prox
 26	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	25	comp:cleft	_	AlignBegin=125085|AlignEnd=125286|Background=Yes|Gloss=4.ProgBkg
 27	kankaryaː	kary-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	26	comp:aux	_	AlignBegin=125286|AlignEnd=125487|Gloss=break.Vnoun.Fem
 28	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=125487|AlignEnd=125688|Gloss=PUNCT
@@ -711,7 +711,7 @@
 # text_en = She sat down, and started to eat the meat.
 1	taz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=135460|AlignEnd=135594|Background=Yes|Gloss=3Fem.PerfBkg
 2	zamnàː	zamn-	VERB	_	_	1	comp:aux	_	AlignBegin=135594|AlignEnd=135728|Gloss=stay/sit
-3	nân	nân	ADV	_	Deixis=Prox	2	mod	_	AlignBegin=135728|AlignEnd=135862|Gloss=Prox
+3	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	2	mod	_	AlignBegin=135728|AlignEnd=135862|Gloss=Prox
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=135862|AlignEnd=135996|Gloss=PUNCT
 5	tay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=135996|AlignEnd=136130|Background=Yes|Gloss=3Fem.PerfBkg
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=136130|AlignEnd=136264|Gloss=do
