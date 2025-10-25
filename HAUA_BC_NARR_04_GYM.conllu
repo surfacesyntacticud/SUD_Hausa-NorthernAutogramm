@@ -14,15 +14,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 4000, 6914
 # text_ortho = abìnga dai < wasu ƴam maːtaː nàː biyu //
-# text = abìn ga dai < wasu ƴan maːtaː nàː biyu //
+# text = abìnga dai < wasu ƴan maːtaː nàː biyu //
 # text_en = There were two girls.
 1-2	abìnga	_	_	_	_	_	_	_	_
-1	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	8	dislocated@subj	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Def
+1	abìn	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	dislocated@subj	_	AlignBegin=4000|AlignEnd=4324|Gloss=thing.Masc.Cons
 2	ga	ga	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=4000|AlignEnd=4324|Gloss=Prox
 3	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=4324|AlignEnd=4648|Gloss=indeed|PartType=Top
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=4648|AlignEnd=4972|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur
-6	ƴan	ɗaː	NOUN	_	Definite=Def|Number=Plur	8	comp:pred	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Def
+6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	8	comp:pred	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Cons
 7	maːtaː	màcce	NOUN	_	Number=Plur	6	compound	_	AlignBegin=5620|AlignEnd=5944|Gloss=woman.Plur
 8	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=be
 9	biyu	biyu	NUM	_	_	8	det	_	AlignBegin=6268|AlignEnd=6592|Gloss=two
@@ -132,7 +132,7 @@
 # text = dug gàrin dà sunkà zoː < sai sarkin gàrîn nan shì ɗòːki sâː namijì shì bâː wàccan |c sai shì ɗòːki sânyaː shì bâː wàgga //
 # text_en = Whatever town they went, the king of the town took a bull and gave it to that one; he took a cow and gave it to this one.
 1	dug	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=23567|AlignEnd=23942|Gloss=all
-2	gàrin	gàriː	NOUN	_	Definite=Def|Gender=Masc	11	mod	_	AlignBegin=23942|AlignEnd=24317|Gloss=village.Masc.Def
+2	gàrin	gàriː	NOUN	_	Definite=Cons|Gender=Masc	11	mod	_	AlignBegin=23942|AlignEnd=24317|Gloss=village.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=24317|AlignEnd=24692|Gloss=REL
 4	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=24692|AlignEnd=25067|Background=Yes|Gloss=3Plur.PerfBkg
 5	zoː	zoː	VERB	_	_	4	comp:aux	_	AlignBegin=25067|AlignEnd=25442|Gloss=go
@@ -178,7 +178,7 @@
 11	has	hat	SCONJ	_	_	1	mod	_	AlignBegin=35672|AlignEnd=35853|Gloss=until
 12	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=35853|AlignEnd=36034|Background=Yes|Gloss=3Plur.PerfBkg
 13	gamìkkè	gam-	VERB	_	_	12	comp:aux	_	AlignBegin=36034|AlignEnd=36215|Gloss=finish
-14	duːniyàg	duːniyàː	NOUN	_	Definite=Def|Gender=Fem	13	comp:obj	_	AlignBegin=36215|AlignEnd=36396|Gloss=world.Fem.Def
+14	duːniyàg	duːniyàː	NOUN	_	Definite=Cons|Gender=Fem	13	comp:obj	_	AlignBegin=36215|AlignEnd=36396|Gloss=world.Fem.Cons
 15	ga	ga	DET	_	Deixis=Prox|PronType=Dem	14	det	_	AlignBegin=36396|AlignEnd=36577|Gloss=Prox
 16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=36577|AlignEnd=36760|Gloss=PUNCT
 
@@ -756,7 +756,7 @@
 29	yoː	yi	VERB	_	_	28	comp:aux	_	AlignBegin=130576|AlignEnd=130789|Gloss=do
 30	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	29	comp:obj	_	AlignBegin=130789|AlignEnd=131002|Gloss=1Sing
 31	cikin	cikin	ADP	_	_	29	comp:obl	_	AlignBegin=131002|AlignEnd=131215|Gloss=inside
-32	duːniyàg	duːniyàː	NOUN	_	Definite=Def|Gender=Fem	31	comp:obj	_	AlignBegin=131215|AlignEnd=131428|Gloss=world.Fem.Def
+32	duːniyàg	duːniyàː	NOUN	_	Definite=Cons|Gender=Fem	31	comp:obj	_	AlignBegin=131215|AlignEnd=131428|Gloss=world.Fem.Cons
 33	ga	ga	DET	_	Deixis=Prox|PronType=Dem	32	det	_	AlignBegin=131428|AlignEnd=131641|Gloss=Prox
 34	?//]	?//]	PUNCT	_	_	25	punct	_	AlignBegin=131641|AlignEnd=131854|Gloss=PUNCT
 35	//	//	PUNCT	_	_	5	punct	_	AlignBegin=131854|AlignEnd=132065|Gloss=PUNCT
@@ -903,7 +903,7 @@
 10	san	sanìː	VERB	_	_	9	comp:aux	_	AlignBegin=149282|AlignEnd=149458|Gloss=know
 11	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=149282|AlignEnd=149458|Gloss=3Fem
 12	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=inside
-13	gàrîn	gàriː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Def
+13	gàrîn	gàriː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Cons
 14	ga	ga	DET	_	Deixis=Prox|PronType=Dem	13	det	_	AlignBegin=149810|AlignEnd=149986|Gloss=Prox
 15	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=149986|AlignEnd=150164|Gloss=PUNCT
 
@@ -981,7 +981,7 @@
 1	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=163620|AlignEnd=163806|Background=Yes|Gloss=3Masc.PerfBkg
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=163806|AlignEnd=163992|Gloss=say
 3	[	[	PUNCT	_	_	12	punct	_	AlignBegin=163992|AlignEnd=164178|Gloss=PUNCT
-4	ɗan	ɗaː	NOUN	_	Definite=Def|Gender=Masc	12	vocative	_	AlignBegin=164178|AlignEnd=164364|Gloss=child.Masc.Def
+4	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	12	vocative	_	AlignBegin=164178|AlignEnd=164364|Gloss=child.Masc.Cons
 5	dumèn	dumèː	NOUN	_	Definite=Cons|Gender=Masc	4	compound	_	AlignBegin=164364|AlignEnd=164550|Gloss=pumpkin.Masc.Cons
 6	ga	ga	DET	_	Deixis=Prox|PronType=Dem	4	det	_	AlignBegin=164550|AlignEnd=164736|Gloss=Prox
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=164736|AlignEnd=164922|Gloss=PUNCT
@@ -1079,7 +1079,7 @@
 5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj@R	_	AlignBegin=176447|AlignEnd=176617|Gloss=3Masc
 6	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj@T	_	AlignBegin=176617|AlignEnd=176787|Gloss=water.Plur
 7	had	hat	SCONJ	_	_	4	mod	_	AlignBegin=176787|AlignEnd=176957|Gloss=until
-8	dumèn	dumèː	NOUN	_	Definite=Def|Gender=Masc	9	subj	_	AlignBegin=176957|AlignEnd=177127|Gloss=pumpkin.Masc.Cons.Def
+8	dumèn	dumèː	NOUN	_	Definite=Cons|Gender=Masc	9	subj	_	AlignBegin=176957|AlignEnd=177127|Gloss=pumpkin.Masc.Cons.Cons
 9	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	7	comp:obj	_	AlignBegin=177127|AlignEnd=177297|Background=Yes|Gloss=3Masc.PerfBkg
 10	hwaːrà	hwaːr-	VERB	_	_	9	comp:aux	_	AlignBegin=177297|AlignEnd=177467|Gloss=begin
 11	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	10	comp:obj	_	AlignBegin=177467|AlignEnd=177637|Gloss=creeping.Masc
@@ -1567,7 +1567,7 @@
 # text = ɗan gùdaː-gudàn ga dà ad dà saurattà kuma < gàː shi yâu zâːshi mutuwàː //
 # text_en = The only one that is left to her, today he's going to die."
 1	ɗan	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	2	mod	_	AlignBegin=253727|AlignEnd=253894|Gloss=small.Masc.Cons
-2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Def|Gender=Masc	10	dislocated	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Def
+2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Cons|Gender=Masc	10	dislocated	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Cons
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=254061|AlignEnd=254228|Gloss=Prox
 4	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=254228|AlignEnd=254395|Gloss=REL
 5	ad	ak	AUX	_	_	4	comp:obj	_	AlignBegin=254395|AlignEnd=254562|Background=Yes|Gloss=Pred/Loc.Bkg
