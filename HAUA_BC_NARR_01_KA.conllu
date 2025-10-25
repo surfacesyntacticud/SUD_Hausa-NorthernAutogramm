@@ -49,7 +49,7 @@
 1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=18058|AlignEnd=19230|Gloss=3Masc.Prog
 2	tàhiyàːtay	tàhi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|Person=3|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=19230|AlignEnd=20402|Gloss=go.Vnoun.Fem.Cons-3Masc.Gen|wordform=tàhiyàː
 3	dà	dà	ADP	_	_	2	mod	_	AlignBegin=20402|AlignEnd=21574|Gloss=with
-4	jàlloːnai	jàlloː	NOUN	_	Definite=Cons|Person=3	3	comp:obj	_	AlignBegin=21574|AlignEnd=22746|Gloss=walking_stick.Cons.3Masc.Gen|wordform=jàlloː
+4	jàlloːnai	jàlloː	NOUN	_	Definite=Cons|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=21574|AlignEnd=22746|Gloss=walking_stick.Cons.3Masc.Gen|wordform=jàlloː
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=22746|AlignEnd=23920|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_O1_KA_05-05
@@ -88,7 +88,7 @@
 # text = tag ganai |c sai tab biː -shì //
 # text_en = She saw him and followed him.
 1	tag	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=27521|AlignEnd=27801|Background=Yes|Gloss=3Fem.PerfBkg
-2	ganai	ganiː	VERB	_	Person=3	1	comp:aux	_	AlignBegin=27801|AlignEnd=28081|Gloss=see-3Masc
+2	ganai	ganiː	VERB	_	Gender=Masc|Person=3	1	comp:aux	_	AlignBegin=27801|AlignEnd=28081|Gloss=see-3Masc
 3	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=28081|AlignEnd=28361|Gloss=PUNCT
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=28361|AlignEnd=28641|Gloss=until
 5	tab	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	conj:coord	_	AlignBegin=28641|AlignEnd=28921|Background=Yes|Gloss=3Fem.PerfBkg
@@ -433,7 +433,7 @@
 4	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until
 6	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=92361|AlignEnd=92732|Background=Yes|Gloss=3Masc.PerfBkg
-7	c’ìnkai	c'inkaː	VERB	_	Person=3	6	comp:aux	_	AlignBegin=92732|AlignEnd=93103|Gloss=spot-3Masc
+7	c’ìnkai	c'inkaː	VERB	_	Gender=Masc|Person=3	6	comp:aux	_	AlignBegin=92732|AlignEnd=93103|Gloss=spot-3Masc
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=93103|AlignEnd=93474|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_O1_KA_25-25
@@ -513,7 +513,7 @@
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=105938|AlignEnd=106174|Gloss=say
 14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=106174|AlignEnd=106410|Gloss=3Plur.Dat
 15	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	13	comp:obj	_	AlignBegin=106410|AlignEnd=106646|Gloss=1Sing.Prog
-16	ɓaːcìnsu	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.Vnoun.Masc.Cons.3Plur.Gen|wordform=ɓaːcìn
+16	ɓaːcìnsu	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Number=Plur|Person=3|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=106646|AlignEnd=106882|Gloss=insult.Vnoun.Masc.Cons.3Plur.Gen|wordform=ɓaːcìn
 17	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=106882|AlignEnd=107118|Gloss=PUNCT
 18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107118|AlignEnd=107353|Gloss=PUNCT
 
@@ -537,7 +537,7 @@
 11	cân	cân	ADV	_	Deixis=Remt|PronType=Dem	8	comp:pred	_	AlignBegin=112182|AlignEnd=112458|Gloss=Rmt
 12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=112458|AlignEnd=112734|Gloss=PUNCT
 13	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	parataxis@conj	_	AlignBegin=112734|AlignEnd=113010|Gloss=3Masc.Prog
-14	ɓaːcìnku	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=2|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=113010|AlignEnd=113286|Gloss=insult.Vnoun.Masc.Cons.2Plur|wordform=ɓaːcìn
+14	ɓaːcìnku	ɓaːt-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Number=Plur|Person=2|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=113010|AlignEnd=113286|Gloss=insult.Vnoun.Masc.Cons.2Plur|wordform=ɓaːcìn
 15	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=113286|AlignEnd=113562|Gloss=PUNCT
 16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=113562|AlignEnd=113834|Gloss=PUNCT
 
