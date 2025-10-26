@@ -31,7 +31,7 @@
 # text = Galmaːwaː kòː ?//
 # text_en = Galmahoua?
 1	Galmaːwaː	Galmaːwaː	PROPN	_	_	0	root	_	AlignBegin=9460|AlignEnd=9620|Gloss=Galmaːwaː
-2	kòː	kùwa	PART	_	_	1	discourse@top	_	AlignBegin=9620|AlignEnd=9780|Gloss=as_for|PartType=Top
+2	kòː	kùwa	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=9620|AlignEnd=9780|Gloss=as_for
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=9780|AlignEnd=9940|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_003-003
@@ -199,13 +199,13 @@
 # text_en = He did not stay long and said he could not do it.
 1	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	5	mod	_	AlignBegin=60896|AlignEnd=61093|Gloss=3Masc.PerfNeg
 2	daɗèː	daɗèː	VERB	_	_	1	comp:aux	_	AlignBegin=61093|AlignEnd=61290|Gloss=spend_time
-3	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=61290|AlignEnd=61487|Gloss=Neg|PartType=Neg
+3	ba	ba	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=61290|AlignEnd=61487|Gloss=Neg
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=61487|AlignEnd=61684|Gloss=PUNCT
 5	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=61684|AlignEnd=61881|Background=Yes|Gloss=3Masc.PerfBkg
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=61881|AlignEnd=62078|Gloss=say
 7	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	6	comp:obj	_	AlignBegin=62078|AlignEnd=62275|Gloss=3Masc.PerfNeg
 8	iyàː	iyàː	VERB	_	_	7	comp:aux	_	AlignBegin=62275|AlignEnd=62472|Gloss=be_able
-9	ba	ba	PART	_	Polarity=Neg	8	mod	_	AlignBegin=62472|AlignEnd=62669|Gloss=Neg|PartType=Neg
+9	ba	ba	PART	_	PartType=Neg|Polarity=Neg	8	mod	_	AlignBegin=62472|AlignEnd=62669|Gloss=Neg
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=62669|AlignEnd=62870|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_013-013
@@ -292,7 +292,7 @@
 2	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	1	comp:obj	_	AlignBegin=78680|AlignEnd=78840|Gloss=Illela
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=78840|AlignEnd=79000|Gloss=PUNCT
 4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=79000|AlignEnd=79160|Gloss=3Plur.Nom
-5	kuma	kuma	PART	_	_	4	discourse@top	_	AlignBegin=79160|AlignEnd=79320|Gloss=also|PartType=Top
+5	kuma	kuma	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=79160|AlignEnd=79320|Gloss=also
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=79320|AlignEnd=79480|Gloss=PUNCT
 7	sù	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=79480|AlignEnd=79640|Gloss=3Plur.Aor
 8	yi	yi	VERB	_	_	7	comp:aux	_	AlignBegin=79640|AlignEnd=79800|Gloss=do
@@ -346,7 +346,7 @@
 # text_en = Of Gidan Tudu!
 1	Gidan	Gidan	PROPN	_	_	0	root	_	AlignBegin=87080|AlignEnd=87275|Gloss=Gidan
 2	Tudùː	Tudùː	PROPN	_	_	1	flat@name	_	AlignBegin=87275|AlignEnd=87470|Gloss=Tudu
-3	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=87470|AlignEnd=87665|Gloss=indeed|PartType=Top
+3	dai	dai	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=87470|AlignEnd=87665|Gloss=indeed
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=87665|AlignEnd=87860|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_022-022
@@ -367,7 +367,7 @@
 # text_ortho = bàː kaː san < sa'àn nan < dà Ìlleːlàː nan |c dà Gidan tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihwai //
 # text = bàː kaː san < sa'ànnan < dà Ìlleːlàː nan |c dà Gidan Tudùː |c dà Galmaːwaː wandà ab Bàgawailèː < du' < Ìlleːlàː >+ ankà àihwai //
 # text_en = Don't you know that at that time, Illela, Gidan Tudu and Galmawa, those who are "Bagawaile", all, they were born in Illela.
-1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=91200|AlignEnd=91599|Gloss=Neg|PartType=Neg
+1	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=91200|AlignEnd=91599|Gloss=Neg
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	23	parataxis@discourse	_	AlignBegin=91599|AlignEnd=91998|Gloss=2Masc.Perf
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=91998|AlignEnd=92397|Gloss=know
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=92397|AlignEnd=92796|Gloss=PUNCT
@@ -538,10 +538,10 @@
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=154736|AlignEnd=155249|Gloss=PUNCT
 17	dâmaː	dâmaː	ADV	_	_	21	mod	_	AlignBegin=155249|AlignEnd=155762|Gloss=formerly
 18	bàːkinsù	bàːkiː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Number=Plur|Person=3	21	subj	_	AlignBegin=155762|AlignEnd=156275|Gloss=mouth.Masc.Cons.3Plur.Gen|wordform=bàːkin
-19	bàː	bàː	PART	_	Polarity=Neg	21	mod	_	AlignBegin=156275|AlignEnd=156788|Gloss=Neg|PartType=Neg
+19	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	21	mod	_	AlignBegin=156275|AlignEnd=156788|Gloss=Neg
 20	ɗai	ɗai	NUM	_	_	21	comp:pred	_	AlignBegin=156788|AlignEnd=157301|Gloss=one
 21	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=157301|AlignEnd=157814|Gloss=be
-22	ba	ba	PART	_	Polarity=Neg	21	mod	_	AlignBegin=157814|AlignEnd=158327|Gloss=Neg|PartType=Neg
+22	ba	ba	PART	_	PartType=Neg|Polarity=Neg	21	mod	_	AlignBegin=157814|AlignEnd=158327|Gloss=Neg
 23	//	//	PUNCT	_	_	21	punct	_	AlignBegin=158327|AlignEnd=158834|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_032-032
@@ -618,7 +618,7 @@
 9	yoː	yi	VERB	_	_	8	comp:aux	_	AlignBegin=177595|AlignEnd=177870|Gloss=do
 10	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=177870|AlignEnd=178145|Gloss=3Plur
 11	ɗai	ɗai	NUM	_	_	9	comp:pred	_	AlignBegin=178145|AlignEnd=178420|Gloss=one
-12	ba	ba	PART	_	Polarity=Neg	9	mod	_	AlignBegin=178420|AlignEnd=178695|Gloss=Neg|PartType=Neg
+12	ba	ba	PART	_	PartType=Neg|Polarity=Neg	9	mod	_	AlignBegin=178420|AlignEnd=178695|Gloss=Neg
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=178695|AlignEnd=178965|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_038-038
@@ -639,7 +639,7 @@
 9	yoː	yi	VERB	_	_	8	comp:aux	_	AlignBegin=177595|AlignEnd=177870|Gloss=do
 10	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=177870|AlignEnd=178145|Gloss=3Plur
 11	ɗai	ɗai	NUM	_	_	9	comp:pred	_	AlignBegin=178145|AlignEnd=178420|Gloss=one
-12	ba	ba	PART	_	Polarity=Neg	9	mod	_	AlignBegin=178420|AlignEnd=178695|Gloss=Neg|PartType=Neg
+12	ba	ba	PART	_	PartType=Neg|Polarity=Neg	9	mod	_	AlignBegin=178420|AlignEnd=178695|Gloss=Neg
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=178695|AlignEnd=178965|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_039-039
@@ -653,7 +653,7 @@
 2	<	<	PUNCT	_	_	3	punct	_	AlignBegin=181816|AlignEnd=182098|Gloss=PUNCT
 3	Baːwàn	Baːwàn	PROPN	_	_	0	root	_	AlignBegin=182098|AlignEnd=182380|Gloss=Bawan
 4	Tudùː	Tudùː	PROPN	_	_	3	flat@name	_	AlignBegin=182380|AlignEnd=182662|Gloss=Tudu
-5	hwa	hwa	PART	_	_	3	discourse@top	_	AlignBegin=182662|AlignEnd=182944|Gloss=as_for|PartType=Top
+5	hwa	hwa	PART	_	PartType=Top	3	discourse@top	_	AlignBegin=182662|AlignEnd=182944|Gloss=as_for
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=182944|AlignEnd=183224|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_040-040
@@ -667,7 +667,7 @@
 2	Tudùː	Tudùː	PROPN	_	_	1	flat@name	_	AlignBegin=183409|AlignEnd=183586|Gloss=Tudu
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=183586|AlignEnd=183763|Gloss=PUNCT
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	12	dislocated@comp	_	AlignBegin=183763|AlignEnd=183940|Gloss=3Masc.Nom
-5	kòː	kùwa	PART	_	_	4	discourse@top	_	AlignBegin=183940|AlignEnd=184117|Gloss=as_for|PartType=Top
+5	kòː	kùwa	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=183940|AlignEnd=184117|Gloss=as_for
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=184117|AlignEnd=184294|Gloss=PUNCT
 7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	parataxis@discourse	_	AlignBegin=184294|AlignEnd=184471|Gloss=2Masc.Perf
 8	ji	jiyàː	VERB	_	_	7	comp:aux	_	AlignBegin=184471|AlignEnd=184648|Gloss=hear
@@ -857,7 +857,7 @@
 # text_ortho = baːbù bàutaː s'àkaːníːnai dà suː //
 # text = baːbù bàutaː s'àkaːniː =nai dà suː //
 # text_en = There is no slavery between him and them.
-1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=217460|AlignEnd=217648|Gloss=there_is.Neg|PartType=Pred
+1	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=217460|AlignEnd=217648|Gloss=there_is.Neg
 2	bàutaː	bàutaː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=217648|AlignEnd=217836|Gloss=slavery
 3	s'àkaːniːnai	s'àkaːnin	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Person=3	1	comp:pred	_	AlignBegin=217836|AlignEnd=218024|Gloss=between.3Masc.Gen|wordform=s'àkaːniː
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=218024|AlignEnd=218212|Gloss=and
@@ -916,7 +916,7 @@
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=234631|AlignEnd=234915|Gloss=know
 3	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=234915|AlignEnd=235199|Gloss=time.Masc.Cons
 4	nan	nan	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=235199|AlignEnd=235483|Gloss=Def
-5	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=235483|AlignEnd=235767|Gloss=Neg|PartType=Neg
+5	ba	ba	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=235483|AlignEnd=235767|Gloss=Neg
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=235767|AlignEnd=236054|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_057-057
@@ -930,7 +930,7 @@
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=238304|AlignEnd=238454|Gloss=know
 3	loːkàcîn	loːkàcîː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=238454|AlignEnd=238604|Gloss=time.Cons.Masc
 4	nan	nan	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=238604|AlignEnd=238754|Gloss=Def
-5	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=238754|AlignEnd=238904|Gloss=Neg|PartType=Neg
+5	ba	ba	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=238754|AlignEnd=238904|Gloss=Neg
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=238904|AlignEnd=239053|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_058-058
@@ -959,7 +959,7 @@
 # text = ƙwarai kòː //
 # text_en = Absolutely.
 1	ƙwarai	ƙwarai	ADV	_	_	0	root	_	AlignBegin=241051|AlignEnd=241361|Gloss=quite
-2	kòː	kùwa	PART	_	_	1	discourse@top	_	AlignBegin=241361|AlignEnd=241671|Gloss=as_for|PartType=Top
+2	kòː	kùwa	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=241361|AlignEnd=241671|Gloss=as_for
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=241671|AlignEnd=241982|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_060-060
@@ -1023,9 +1023,9 @@
 # text_en = Well you see, sometimes they came to your place to take you.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	14	parataxis@discourse	_	AlignBegin=249391|AlignEnd=249714|Gloss=2Masc.Perf
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=249714|AlignEnd=250037|Gloss=see
-3	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=250037|AlignEnd=250360|Gloss=indeed|PartType=Top
+3	dai	dai	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=250037|AlignEnd=250360|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=250360|AlignEnd=250683|Gloss=PUNCT
-5	àkwai	àkwai	PART	_	_	14	parataxis@top	_	AlignBegin=250683|AlignEnd=251006|Gloss=there_is|PartType=Pred
+5	àkwai	àkwai	PART	_	PartType=Pred	14	parataxis@top	_	AlignBegin=250683|AlignEnd=251006|Gloss=there_is
 6	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	5	subj	_	AlignBegin=251006|AlignEnd=251329|Gloss=time.Masc.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=251329|AlignEnd=251652|Gloss=REL
 8	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	7	comp:obj	_	AlignBegin=251652|AlignEnd=251975|Background=Yes|Gloss=4.ProgBkg
@@ -1046,7 +1046,7 @@
 # text_ortho = àkwai lòːkacìn dà akà sâː ka aikìː |c bàkà ƙiyàː ba |c kuma anàː bâː ka kaːshiː //
 # text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba //= kuma anàː bâː ka kaːshiː //
 # text_en = Sometimes they they would force you to work, you could not refuse, and they beat you.
-1	àkwai	àkwai	PART	_	_	9	parataxis@top	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is|PartType=Pred
+1	àkwai	àkwai	PART	_	PartType=Pred	9	parataxis@top	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=255663|AlignEnd=255926|Gloss=time.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=255926|AlignEnd=256189|Gloss=REL
 4	akà	kà	AUX	_	Aspect=ProgBkg|Person=4	3	comp:obj	_	AlignBegin=256189|AlignEnd=256452|Background=Yes|Gloss=4.ProgBkg
@@ -1056,7 +1056,7 @@
 8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=257241|AlignEnd=257504|Gloss=PUNCT
 9	bàkà	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=257504|AlignEnd=257767|Gloss=2Masc.PerfNeg
 10	ƙiyàː	ƙiyàː	VERB	_	_	9	comp:aux	_	AlignBegin=257767|AlignEnd=258030|Gloss=refuse
-11	ba	ba	PART	_	Polarity=Neg	10	mod	_	AlignBegin=258030|AlignEnd=258293|Gloss=Neg|PartType=Neg
+11	ba	ba	PART	_	PartType=Neg|Polarity=Neg	10	mod	_	AlignBegin=258030|AlignEnd=258293|Gloss=Neg
 12	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=258293|AlignEnd=258556|Gloss=PUNCT
 13	kuma	kuma	CCONJ	_	_	14	discourse	_	AlignBegin=258556|AlignEnd=258819|Gloss=also
 14	anàː	nàː	AUX	_	Aspect=Prog|Person=4	9	parataxis@conj	_	AlignBegin=258819|AlignEnd=259082|Gloss=4.Prog
@@ -1083,7 +1083,7 @@
 # text_ortho = àkwai lòːkacìn dà kanàː cikin ɗaːkìnka dà dare |c à zakà indà kakè |c à kam maː |c à tàhi dà kai wurin aikìː //
 # text = àkwai lòːkacìn dà ka nàː cikin ɗaːkìnka dà dare < à zakà indà kakè //= à kam maː //= à tàhi dà kai wurin aikìː //
 # text_en = Sometimes, you were in you room at night, they came where you were, they caught you and took you away to work.
-1	àkwai	àkwai	PART	_	_	10	parataxis@top	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is|PartType=Pred
+1	àkwai	àkwai	PART	_	PartType=Pred	10	parataxis@top	_	AlignBegin=262513|AlignEnd=262898|Gloss=there_is
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=262898|AlignEnd=263283|Gloss=time.Masc.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=263283|AlignEnd=263668|Gloss=REL
 4	kanàː	nàː*	AUX	_	Gender=Masc|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=263668|AlignEnd=264053|Gloss=2Masc.Pred/Loc|wordform=ka
@@ -1200,7 +1200,7 @@
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=286560|AlignEnd=286968|Gloss=1Sing.Perf
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=286968|AlignEnd=287376|Gloss=see
 3	sà'addà	sà'addà	PRON	_	PronType=Rel	2	comp:obj	_	AlignBegin=287376|AlignEnd=287784|Gloss=when
-4	kuma	kuma	PART	_	_	3	discourse@top	_	AlignBegin=288192|AlignEnd=288600|Gloss=also|PartType=Top
+4	kuma	kuma	PART	_	PartType=Top	3	discourse@top	_	AlignBegin=288192|AlignEnd=288600|Gloss=also
 5	[	[	PUNCT	_	_	9	punct	_	AlignBegin=288600|AlignEnd=289008|Gloss=PUNCT
 6	dà	dà	ADP	_	_	9	dislocated	_	AlignBegin=289008|AlignEnd=289416|Gloss=with
 7	àbinka	àbiː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=2	6	comp:pred	_	AlignBegin=289416|AlignEnd=289824|Gloss=thing.Masc.Cons.2Masc.Gen|wordform=àbin
@@ -1336,7 +1336,7 @@
 # text_ortho = àkwai indà mukà &//
 # text = àkwai indà mukà &//
 # text_en = We used to...
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=315720|AlignEnd=315962|Gloss=there_is|PartType=Pred
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=315720|AlignEnd=315962|Gloss=there_is
 2	indà	indà	ADV	_	PronType=Rel	1	subj	_	AlignBegin=315962|AlignEnd=316204|Gloss=where
 3	mukà	kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	2	mod@relcl	_	AlignBegin=316204|AlignEnd=316446|Background=Yes|Gloss=1Plur.ProgBkg
 4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=316446|AlignEnd=316686|Gloss=PUNCT
@@ -1480,10 +1480,10 @@
 4	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=340887|AlignEnd=341216|Gloss=arrive.Vnoun.Fem
 5	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=341216|AlignEnd=341545|Gloss=PUNCT
 6	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	8	cc	_	AlignBegin=341545|AlignEnd=341874|Gloss=but
-7	bàː	bàː	PART	_	Polarity=Neg	8	mod	_	AlignBegin=341874|AlignEnd=342203|Gloss=Neg|PartType=Neg
+7	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	8	mod	_	AlignBegin=341874|AlignEnd=342203|Gloss=Neg
 8	hanyàː	hanyàː	NOUN	_	Definite=Ind|Gender=Fem	2	conj:coord	_	AlignBegin=342203|AlignEnd=342532|Gloss=way.Fem
 9	wàccân	wàccân	DET	_	Deixis=Remt|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=342532|AlignEnd=342861|Gloss=Rmt.Fem
-10	ba	ba	PART	_	Polarity=Neg	8	mod	_	AlignBegin=342861|AlignEnd=343190|Gloss=Neg|PartType=Neg
+10	ba	ba	PART	_	PartType=Neg|Polarity=Neg	8	mod	_	AlignBegin=342861|AlignEnd=343190|Gloss=Neg
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=343190|AlignEnd=343521|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_090-090
@@ -1589,7 +1589,7 @@
 # text_ortho = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text = àkwai wata zakkùwaː naː kaːwoː turàːmeː //
 # text_en = Once, I carried wrappers.
-1	àkwai	àkwai	PART	_	_	4	parataxis@top	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is|PartType=Pred
+1	àkwai	àkwai	PART	_	PartType=Pred	4	parataxis@top	_	AlignBegin=356740|AlignEnd=356960|Gloss=there_is
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf
@@ -1604,7 +1604,7 @@
 # text_ortho = àkwai wata zakkùwaː naː kaːwoː duːc'ìː > wànga na ƴam maːtaː //
 # text = àkwai wata zakkùwaː naː kaːwoː duːc'ìː |a wànga na ƴan maːtaː //
 # text_en = Once, I carried (precious) stones, those for women.
-1	àkwai	àkwai	PART	_	_	4	parataxis@top	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is|PartType=Pred
+1	àkwai	àkwai	PART	_	PartType=Pred	4	parataxis@top	_	AlignBegin=358282|AlignEnd=358526|Gloss=there_is
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=358770|AlignEnd=359014|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359014|AlignEnd=359258|Gloss=1Sing.Perf
@@ -1624,7 +1624,7 @@
 # text_ortho = àkwai wata zakkùwaː naː kaːwoː X //
 # text = àkwai wata zakkùwaː naː kaːwoː X &//
 # text_en = Once, I carried X.
-1	àkwai	àkwai	PART	_	_	4	parataxis@top	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is|PartType=Pred
+1	àkwai	àkwai	PART	_	PartType=Pred	4	parataxis@top	_	AlignBegin=361840|AlignEnd=362283|Gloss=there_is
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=362283|AlignEnd=362726|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=362726|AlignEnd=363169|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=363169|AlignEnd=363612|Gloss=1Sing.Perf
@@ -1713,7 +1713,7 @@
 12	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc	10	conj:coord	_	AlignBegin=388581|AlignEnd=388832|Gloss=animal.Cons.Masc
 13	daːjìː	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	12	compound	_	AlignBegin=388832|AlignEnd=389083|Gloss=bush.Masc
 14	hakà	hakà	ADV	_	_	7	mod	_	AlignBegin=389083|AlignEnd=389334|Gloss=thus
-15	ba	ba	PART	_	Polarity=Neg	6	mod	_	AlignBegin=389334|AlignEnd=389585|Gloss=Neg|PartType=Neg
+15	ba	ba	PART	_	PartType=Neg|Polarity=Neg	6	mod	_	AlignBegin=389334|AlignEnd=389585|Gloss=Neg
 16	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=389585|AlignEnd=389840|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_107-107
@@ -1757,7 +1757,7 @@
 # text_ortho = bâː mùtun huɗu nà //= bâː mùtun ukkù //
 # text = bâː mùtun huɗu nàː //= mùtun ukkù //
 # text_en = They were not four, they were not three.
-1	bâː	baːbù	PART	_	Polarity=Neg	4	comp:pred	_	AlignBegin=399220|AlignEnd=399387|Gloss=there_is.Neg|PartType=Pred
+1	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	4	comp:pred	_	AlignBegin=399220|AlignEnd=399387|Gloss=there_is.Neg
 2	mùtun	mùtunèː	NOUN	_	Definite=Ind|Gender=Masc	1	subj	_	AlignBegin=399387|AlignEnd=399554|Gloss=human.Masc
 3	huɗu	huɗu	NUM	_	_	2	det	_	AlignBegin=399554|AlignEnd=399721|Gloss=four
 4	nàː	naː/taː	AUX	_	_	0	root	_	AlignBegin=399721|AlignEnd=399888|Gloss=be
@@ -1773,12 +1773,12 @@
 # text_ortho = gàː naːkù aːràːyiː nân //= gàː na wàncéːnìyaː //
 # text = gàː naːkù aːràːyiː nân //= gàː na wàncéːnìyaː //
 # text_en = Our troup was here, over there was another one.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=400726|AlignEnd=401003|Gloss=here_is|PartType=Pred
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=400726|AlignEnd=401003|Gloss=here_is
 2	naːkù	naːkù	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	mod@poss	_	AlignBegin=401003|AlignEnd=401280|Gloss=2Plur.Gen
 3	aːràːyiː	aːràːyiː	NOUN	_	Definite=Ind|Gender=Masc	1	subj	_	AlignBegin=401280|AlignEnd=401557|Gloss=troup.Masc
 4	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Gloss=Prox
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
-6	gàː	gàː	PART	_	_	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is|PartType=Pred
+6	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
 7	na	na/ta	ADP	_	_	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=of
 8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Rmt.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
@@ -1821,9 +1821,9 @@
 # text_en = I swear, day and night, people were walking.
 1	láːtà'addù	láːtà'addù	INTJ	_	_	10	discourse	_	AlignBegin=405960|AlignEnd=406156|Gloss=I_swear
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=406156|AlignEnd=406352|Gloss=PUNCT
-3	bâː	baːbù	PART	_	Polarity=Neg	10	mod	_	AlignBegin=406352|AlignEnd=406548|Gloss=there_is.Neg|PartType=Pred
+3	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	10	mod	_	AlignBegin=406352|AlignEnd=406548|Gloss=there_is.Neg
 4	dareː	dareː	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=406548|AlignEnd=406744|Gloss=night
-5	bâː	baːbù	PART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg|PartType=Pred
+5	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	3	conj:coord	_	AlignBegin=406744|AlignEnd=406940|Gloss=there_is.Neg
 6	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	5	subj	_	AlignBegin=406940|AlignEnd=407136|Gloss=day.Fem
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=407136|AlignEnd=407332|Gloss=PUNCT
 8	mutàːneː	mùtunèː	NOUN	_	Definite=Ind|Number=Plur	10	dislocated@subj	_	AlignBegin=407332|AlignEnd=407528|Gloss=human.Plur
@@ -1853,7 +1853,7 @@
 # text_en = So, you were not walking on your own, that one on his own, and that one on his own.
 1	wai	wai	ADV	_	_	3	discourse	_	AlignBegin=411060|AlignEnd=411290|Gloss=apparently
 2	kuma	kuma	CCONJ	_	_	3	discourse	_	AlignBegin=411290|AlignEnd=411520|Gloss=also
-3	bâː	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg|PartType=Pred
+3	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=411520|AlignEnd=411750|Gloss=there_is.Neg
 4	tàhiyàkkà	tah-	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Fem|Person=2|VerbForm=Vnoun	3	subj	_	AlignBegin=411750|AlignEnd=411980|Gloss=walk.Vnoun.Fem.Cons.2Masc.Gen|wordform=tàhiyàk
 5	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
@@ -1880,7 +1880,7 @@
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=419108|AlignEnd=419320|Gloss=with
 6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	5	comp:obj	_	AlignBegin=419320|AlignEnd=419532|Gloss=child.Plur.Cons
 7	hwashìː	hwashìː	NOUN	_	Definite=Ind|Gender=Masc	6	compound	_	AlignBegin=419532|AlignEnd=419744|Gloss=highway_robbery.Masc
-8	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=419744|AlignEnd=419956|Gloss=Neg|PartType=Neg
+8	ba	ba	PART	_	PartType=Neg|Polarity=Neg	3	mod	_	AlignBegin=419744|AlignEnd=419956|Gloss=Neg
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=419956|AlignEnd=420172|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_117-117
@@ -2136,7 +2136,7 @@
 4	mutàːneː	mùtunèː	NOUN	_	Definite=Ind|Number=Plur	3	mod	_	AlignBegin=459644|AlignEnd=459870|Gloss=human.Plur
 5	bàsù	bài	AUX	_	Aspect=PerfNeg|Number=Plur|Person=3|Polarity=Neg	0	root	_	AlignBegin=459870|AlignEnd=460096|Gloss=3Plur.PerfNeg
 6	buːɗèː	buːɗèː	VERB	_	_	5	comp:aux	_	AlignBegin=460096|AlignEnd=460322|Gloss=open
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=460322|AlignEnd=460548|Gloss=Neg|PartType=Neg
+7	ba	ba	PART	_	PartType=Neg|Polarity=Neg	5	mod	_	AlignBegin=460322|AlignEnd=460548|Gloss=Neg
 8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=460548|AlignEnd=460776|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_133-133
@@ -2151,19 +2151,19 @@
 3	nan	nan	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=461672|AlignEnd=462120|Gloss=Def
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=462120|AlignEnd=462568|Gloss=PUNCT
 5	gida	gida	ADV	_	_	6	mod	_	AlignBegin=462568|AlignEnd=463016|Gloss=at_home
-6	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=463016|AlignEnd=463464|Gloss=there_is.Neg|PartType=Pred
+6	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=463016|AlignEnd=463464|Gloss=there_is.Neg
 7	wàhalà'	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	6	subj	_	AlignBegin=463464|AlignEnd=463912|Gloss=suffering.Fem.Cons
 8	àbincîː	àbincîː	NOUN	_	Definite=Ind|Gender=Masc	7	mod	_	AlignBegin=463912|AlignEnd=464360|Gloss=food.Masc
 9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=464360|AlignEnd=464808|Gloss=PUNCT
-10	baːbù	baːbù	PART	_	Polarity=Neg	6	parataxis@conj	_	AlignBegin=464808|AlignEnd=465256|Gloss=there_is.Neg|PartType=Pred
+10	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	6	parataxis@conj	_	AlignBegin=464808|AlignEnd=465256|Gloss=there_is.Neg
 11	wàhalàd	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	10	subj	_	AlignBegin=465256|AlignEnd=465704|Gloss=suffering.Fem.Cons
 12	duːkìyaː	duːkìyaː	NOUN	_	Definite=Ind|Gender=Fem	11	mod	_	AlignBegin=465704|AlignEnd=466152|Gloss=domestic_animals.Fem
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=466152|AlignEnd=466600|Gloss=PUNCT
-14	baːbù	baːbù	PART	_	Polarity=Neg	10	parataxis@conj	_	AlignBegin=466600|AlignEnd=467048|Gloss=there_is.Neg|PartType=Pred
+14	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	10	parataxis@conj	_	AlignBegin=466600|AlignEnd=467048|Gloss=there_is.Neg
 15	wàhalàn	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	14	subj	_	AlignBegin=467048|AlignEnd=467496|Gloss=suffering.Fem.Cons
 16	noːnoː	noːnoː	NOUN	_	Definite=Cons|Gender=Masc	15	mod	_	AlignBegin=467496|AlignEnd=467944|Gloss=milk.Cons.Masc
 17	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=467944|AlignEnd=468392|Gloss=PUNCT
-18	baːbù	baːbù	PART	_	Polarity=Neg	14	parataxis@conj	_	AlignBegin=468392|AlignEnd=468840|Gloss=there_is.Neg|PartType=Pred
+18	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	14	parataxis@conj	_	AlignBegin=468392|AlignEnd=468840|Gloss=there_is.Neg
 19	wàhalàk	wàhalàː	NOUN	_	Definite=Cons|Gender=Fem	18	subj	_	AlignBegin=468840|AlignEnd=469288|Gloss=suffering.Fem.Cons
 20	koːmiː	koːmiː	PRON	_	PronType=Ind	19	mod	_	AlignBegin=469288|AlignEnd=469736|Gloss=anything
 21	//	//	PUNCT	_	_	6	punct	_	AlignBegin=469736|AlignEnd=470180|Gloss=PUNCT
@@ -2210,7 +2210,7 @@
 # sent_timecode = 475540, 476540
 # text_ortho = bâː yunwàː tah hîrkassheː kà gidaː //
 # text_en = There was no hunger that would drive you away from home.
-1	bâː	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg|PartType=Pred
+1	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=475540|AlignEnd=475683|Gloss=there_is.Neg
 2	yunwàː	yunwàː	NOUN	_	Definite=Ind|Gender=Fem	1	subj	_	AlignBegin=475683|AlignEnd=475826|Gloss=hunger.Fem
 3	tah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	2	mod@relcl	_	AlignBegin=475826|AlignEnd=475969|Background=Yes|Gloss=3Fem.PerfBkg
 4	hîrkassheː	hit-	VERB	_	Voice=Cau	3	comp:aux	_	AlignBegin=475969|AlignEnd=476112|Gloss=come_out.Cau
@@ -2225,9 +2225,9 @@
 # text_ortho = bàː wata wàhalàː ba //
 # text = bàː wata wàhalàː ba //
 # text_en = There was no problem at all.
-1	bàː	bàː	PART	_	Polarity=Neg	0	root	_	AlignBegin=476540|AlignEnd=476737|Gloss=Neg|PartType=Neg
+1	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=476540|AlignEnd=476737|Gloss=Neg
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=476737|AlignEnd=476934|Gloss=some.Fem
 3	wàhalàː	wàhalàː	NOUN	_	Definite=Ind|Gender=Fem	1	comp:pred	_	AlignBegin=476934|AlignEnd=477131|Gloss=suffering.Fem
-4	ba	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=477131|AlignEnd=477328|Gloss=Neg|PartType=Neg
+4	ba	ba	PART	_	PartType=Neg|Polarity=Neg	1	mod	_	AlignBegin=477131|AlignEnd=477328|Gloss=Neg
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=477328|AlignEnd=477526|Gloss=PUNCT
 
