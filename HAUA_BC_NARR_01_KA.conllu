@@ -729,14 +729,14 @@
 # text_en = She kept eating and eating the meat.
 1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem
 2	tanàː	nàː*	AUX	_	Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Pred/Loc|wordform=ta
-3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def
+3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def
 4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	parataxis@conj	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog
 5	ta	ta	PART	_	Aspect=Iter	4	compound:prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter|PartType=Adv
 6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp@aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons
 7	naːmàː	naːmàː	NOUN	_	Definite=Ind|Gender=Masc	6	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT
 9	tanàː	nàː*	AUX	_	Gender=Fem|Person=3|PronType=Prs	4	parataxis@conj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem.Pred/Loc|wordform=ta
-10	nan	nan	ADV	_	Definite=Def	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def
+10	nan	nan	ADV	_	Definite=Def|PronType=Dem	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def
 11	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	9	parataxis@conj	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog
 12	ta	ta	PART	_	Aspect=Iter	11	compound:prt	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter|PartType=Adv
 13	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp@aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons
@@ -751,7 +751,7 @@
 # text = dun naːmàn sai tac cânyeː shi //
 # text_en = She ate all the meat.
 1	dun	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=141341|AlignEnd=141541|Gloss=all
-2	naːmàn	naːmàn	NOUN	_	Definite=Def|Gender=Masc	4	dislocated@comp	_	AlignBegin=141541|AlignEnd=141741|Gloss=meat.Masc.Def
+2	naːmàn	naːmàn	NOUN	_	Definite=Def|Gender=Masc|PronType=Dem	4	dislocated@comp	_	AlignBegin=141541|AlignEnd=141741|Gloss=meat.Masc.Def
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=141741|AlignEnd=141941|Gloss=until
 4	tac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=141941|AlignEnd=142141|Background=Yes|Gloss=3Fem.PerfBkg
 5	cânyeː	ci	VERB	_	_	4	comp:aux	_	AlignBegin=142141|AlignEnd=142341|Gloss=eat
