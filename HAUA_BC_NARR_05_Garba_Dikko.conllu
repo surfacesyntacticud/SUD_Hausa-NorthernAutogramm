@@ -1,31 +1,31 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__1
 # text = Shiː Dandà Garbaː Dikkò ùbaːnainàː ag Garbà , uwaːtai Dikkò .
 1	Shiː	shiː	PRON	_	Gender=Masc|Person=3	5	discourse@top	_	_
-2	Dandà	Dandàː	PROPN	_	_	1	conj:appos	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	_
-4	Dikkò	dikkgà	PROPN	_	_	3	flat@name	_	_
+2	Dandà	Dandà	PROPN	_	_	1	conj:appos	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
 5	ùbaːnainàː	ùbaːnainàː	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	0	root	_	_
 6	ag	neː	AUX	_	_	5	comp:cleft	_	_
-7	Garbà	Garbà	PROPN	_	_	6	comp:obj	_	_
+7	Garbà	Garbà	PROPN	_	_	6	comp:obj	_	Gloss=Garba
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	uwaːtai	uwaːtai	NOUN	_	Gender=Fem|Person=3	5	conj:coord	_	_
-10	Dikkò	Dikkò	PROPN	_	_	9	comp:pred	_	_
+10	Dikkò	Dikkò	PROPN	_	_	9	comp:pred	_	Gloss=Dikkò
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__2
 # text = Ùbaːnainàː ag Garbà , uwaːtai Dikkò .
 1	Ùbaːnainàː	ùbaːnainàː	PROPN	_	_	0	root	_	_
 2	ag	neː	AUX	_	_	1	mod@relcl	_	_
-3	Garbà	Garbà	PROPN	_	_	2	comp:pred	_	_
+3	Garbà	Garbà	PROPN	_	_	2	comp:pred	_	Gloss=Garba
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	3	mod	_	_
-6	Dikkò	dikkòː	PROPN	_	_	5	mod	_	_
+6	Dikkò	Dikkò	PROPN	_	_	5	mod	_	Gloss=Dikkò
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__3
 # text = Sabàddà Garbà dà ita bà sù sàːmu aihùwaː ba tun rad dà Allàː yay yi zamansù .
 1	Sabàddà	sabàddà	ADP	_	_	6	mod	_	_
-2	Garbà	Garbà	PROPN	_	_	1	comp:obj	_	_
+2	Garbà	Garbà	PROPN	_	_	1	comp:obj	_	Gloss=Garba
 3	dà	dà	ADP	_	_	2	comp:obl	_	_
 4	ita	ita	PRON	_	Gender=Fem|Person=3	3	comp:obj	_	_
 5	bà	bà	PART	_	Polarity=Neg	6	mod	_	_
@@ -45,7 +45,7 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__4
 # text = Dà Dikkò dà Garbàː Allàː bài baː sù ƙàːruwaː ba .
 1	Dà	dà	ADV	_	_	6	mod	_	_
-2	Dikkò	Dikkò	PROPN	_	_	6	subj	_	_
+2	Dikkò	Dikkò	PROPN	_	_	6	subj	_	Gloss=Dikkò
 3	dà	dà	CCONJ	_	_	2	cc	_	_
 4	Garbàː	Garbàː	PROPN	_	_	3	comp:obj	_	_
 5	Allàː	Allàː	PROPN	_	_	4	flat@name	_	_
@@ -59,9 +59,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__5
 # text = Dà Dikkò dà Garbà Allàː bài baː sù ƙaːruwàː ba àmman Garbà zaːrùmiː nàː .
 1	Dà	dà	ADV	_	_	6	mod	_	_
-2	Dikkò	Dikkò	PROPN	_	_	6	subj	_	_
+2	Dikkò	Dikkò	PROPN	_	_	6	subj	_	Gloss=Dikkò
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	_
-4	Garbà	Garbà	PROPN	_	_	3	comp:obj	_	_
+4	Garbà	Garbà	PROPN	_	_	3	comp:obj	_	Gloss=Garba
 5	Allàː	Allàː	PROPN	_	_	4	flat@name	_	_
 6	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
 7	baː	baː	VERB	_	_	6	comp:aux	_	_
@@ -69,14 +69,14 @@
 9	ƙaːruwàː	ƙaːruwàː	NOUN	_	Definite=Ind|Number=Plur	7	comp:obj@T	_	_
 10	ba	ba	PART	_	Polarity=Neg	7	mod	_	_
 11	àmman	àmman	CCONJ	_	_	9	mod	_	_
-12	Garbà	Garbà	PROPN	_	_	11	compound	_	_
+12	Garbà	Garbà	PROPN	_	_	11	compound	_	Gloss=Garba
 13	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	12	flat@name	_	_
 14	nàː	neː	AUX	_	_	9	mod	_	_
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__6
 # text = Garbà yat tàhi gàriː dà gàriː yay yi harìː yac ciyoː mutàːneː yaːƙìː yay yi yaːƙoːƙiː shinàː ta yaːƙìː , Garbà shinàː ta yaːƙìː dà shiː dà Dikkò Allàː bài baː sù aihùwaː ba .
-1	Garbà	Garbà	PROPN	_	_	2	subj	_	_
+1	Garbà	Garbà	PROPN	_	_	2	subj	_	Gloss=Garba
 2	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 3	tàhi	tàhi	VERB	_	_	2	comp:aux	_	_
 4	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj@G	_	_
@@ -96,14 +96,14 @@
 18	ta	ta	PART	_	Aspect=Iter	17	compound:prt	_	_
 19	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	15	comp:pred	_	_
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	Garbà	Garbà	PROPN	_	_	22	mod	_	_
+21	Garbà	Garbà	PROPN	_	_	22	mod	_	Gloss=Garba
 22	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	14	parataxis@conj	_	_
 23	ta	ta	PART	_	Aspect=Iter	22	compound:prt	_	_
 24	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	22	comp:aux	_	_
 25	dà	dà	ADP	_	_	24	comp:obl	_	_
 26	shiː	shiː	PRON	_	Gender=Masc|Person=3	25	comp:obj	_	_
 27	dà	dà	CCONJ	_	_	26	cc@preconj	_	_
-28	Dikkò	Dikkò	PROPN	_	_	26	conj:coord	_	_
+28	Dikkò	Dikkò	PROPN	_	_	26	conj:coord	_	Gloss=Dikkò
 29	Allàː	Allàː	PROPN	_	_	28	flat@name	_	_
 30	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	21	mod@relcl	_	_
 31	baː	baː	VERB	_	_	30	comp:aux	_	_
@@ -120,7 +120,7 @@
 4	wata	wata	DET	_	Gender=Fem	5	det	_	_
 5	shèːkaràː	shèːkaràː	NOUN	_	Definite=Ind|Gender=Fem	3	mod	_	_
 6	sai	sai	ADV	_	_	8	mod	_	_
-7	Garbà	Garbà	PROPN	_	_	8	subj	_	_
+7	Garbà	Garbà	PROPN	_	_	8	subj	_	Gloss=Garba
 8	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	2	parataxis@conj	_	_
 9	tàhi	tàhi	VERB	_	_	8	comp:aux	_	_
 10	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	9	comp:obj@G	_	_
@@ -129,12 +129,12 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__8
 # text = Dà Garbà yat tàhi yaːƙìː , Garbà shinàː cîn yaːƙìː sai ankà soːkèː shi dà maːshìː gà cikìː .
 1	Dà	dà	ADV	_	_	12	mod	_	_
-2	Garbà	Garbà	PROPN	_	_	1	comp:obj	_	_
+2	Garbà	Garbà	PROPN	_	_	1	comp:obj	_	Gloss=Garba
 3	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:obj	_	_
 4	tàhi	tàhi	VERB	_	_	3	comp:aux	_	_
 5	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj@G	_	_
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	Garbà	Garbà	PROPN	_	_	12	mod	_	_
+7	Garbà	Garbà	PROPN	_	_	12	mod	_	Gloss=Garba
 8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	7	comp:obj	_	_
 9	cîn	cîː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	8	comp:aux	_	_
 10	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	9	udep	_	_
@@ -153,7 +153,7 @@
 1	Tôː	tôː	INTJ	_	_	6	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Garbà	Garbà	PROPN	_	_	6	subj	_	_
+4	Garbà	Garbà	PROPN	_	_	6	subj	_	Gloss=Garba
 5	hanžiːnai	hanžiːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	6	subj	_	_
 6	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	_
 7	hitoː	hitoː	VERB	_	_	6	comp:aux	_	_
@@ -186,7 +186,7 @@
 1	Sa	sa	PROPN	_	_	13	mod	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	1	punct	_	_
 3	ànnan	ànnan	CCONJ	_	_	1	discourse	_	_
-4	Garbà	Garbà	PROPN	_	_	13	mod	_	_
+4	Garbà	Garbà	PROPN	_	_	13	mod	_	Gloss=Garba
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	_
 6	yash	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	5	comp:obj	_	_
 7	shìga	shìga	VERB	_	_	6	comp:aux	_	_
@@ -219,12 +219,12 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__13
 # text = Garbà .
-1	Garbà	Garbà	PROPN	_	_	0	root	_	_
+1	Garbà	Garbà	PROPN	_	_	0	root	_	Gloss=Garba
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__14
 # text = Garbà dà yaz zakà gidaː dàdàddàre , sa’ànnan yay yi sàbkaː dàb bisà doːkìː .
-1	Garbà	Garbà	PROPN	_	_	11	mod	_	_
+1	Garbà	Garbà	PROPN	_	_	11	mod	_	Gloss=Garba
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	_
 3	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	2	comp:obj	_	_
 4	zakà	zakàː	VERB	_	_	3	comp:aux	_	_
@@ -263,7 +263,7 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__16
 # text = Dà Garbà yash shìga gidaː yak kwantàː .
 1	Dà	dàː	ADV	_	_	3	mod	_	_
-2	Garbà	Garbà	PROPN	_	_	3	subj	_	_
+2	Garbà	Garbà	PROPN	_	_	3	subj	_	Gloss=Garba
 3	yash	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 4	shìga	shìga	VERB	_	_	3	comp:aux	_	_
 5	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj@G	_	_
@@ -299,7 +299,7 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__19
 # text = Dà Garbà yash shìga gidaː yak kwantàː , sai yak kwaːna à tàːre dà màːtaːtai Dikkò .
 1	Dà	dà	ADV	_	_	10	mod	_	_
-2	Garbà	Garbà	PROPN	_	_	3	subj	_	_
+2	Garbà	Garbà	PROPN	_	_	3	subj	_	Gloss=Garba
 3	yash	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 4	shìga	shìga	VERB	_	_	3	comp:aux	_	_
 5	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj@G	_	_
@@ -313,7 +313,7 @@
 13	tàːre	tàːre	VERB	_	_	12	comp:aux	_	_
 14	dà	dà	ADP	_	_	13	comp:obl	_	_
 15	màːtaːtai	màːtaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	14	comp:obj	_	_
-16	Dikkò	Dikkò	PROPN	_	_	15	mod	_	_
+16	Dikkò	Dikkò	PROPN	_	_	15	mod	_	Gloss=Dikkò
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__20
@@ -322,7 +322,7 @@
 2	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 3	kwan	kwaːnaː	VERB	_	ExtPos=NOUN|Gender=Masc	2	comp:aux	_	_
 4	dà	dà	ADP	_	_	3	comp:obl	_	_
-5	Dikkò	Dikkò	PROPN	_	_	4	comp:obj	_	_
+5	Dikkò	Dikkò	PROPN	_	_	4	comp:obj	_	Gloss=Dikkò
 6	shiːkèːnan	shiːkèːnaː	INTJ	_	_	3	comp:obj	_	_
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	_
 8	yaž	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	7	comp:obj	_	_
@@ -337,12 +337,12 @@
 17	cèː	cêː	VERB	_	_	16	comp:aux	_	_
 18	matà	mutà	PRON	_	Gender=Fem|Person=3	17	comp:obl	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
-20	Dikkò	dikkò	PROPN	_	_	16	subj	_	_
+20	Dikkò	Dikkò	PROPN	_	_	16	subj	_	Gloss=Dikkò
 21	»	»	PUNCT	_	_	16	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__21
 # text = Dikkò ta’ amsàː .
-1	Dikkò	dikkgà	VERB	_	_	0	root	_	_
+1	Dikkò	Dikkò	VERB	_	_	0	root	_	Gloss=Dikkò
 2	ta	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	SpaceAfter=No
 3	’	’	PUNCT	_	_	2	punct	_	_
 4	amsàː	amsàː	VERB	_	_	2	comp:aux	_	_
@@ -396,7 +396,7 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__26
 # text = Dikkò tac cèː « Naː gaːhwàrtaː maː . »
-1	Dikkò	dikkgà	SCONJ	_	_	2	mod	_	_
+1	Dikkò	Dikkò	SCONJ	_	_	2	mod	_	Gloss=Dikkò
 2	tac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	_
 4	«	«	PUNCT	_	_	5	punct	_	_
@@ -417,7 +417,7 @@
 7	dàn	dàgà	ADP	_	_	11	mod	_	_
 8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:obj	_	_
 9	sai	sai	ADV	_	_	11	mod	_	_
-10	Dikkò	Dikkò	PROPN	_	_	11	subj	_	_
+10	Dikkò	Dikkò	PROPN	_	_	11	subj	_	Gloss=Dikkò
 11	tat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 12	taːshì	taːshì	VERB	_	_	11	comp:aux	_	_
 13	dà	dà	ADP	_	_	12	comp:obl	_	_
@@ -445,7 +445,7 @@
 # text = Dàn nan Dikkò tat taːshì dà cikìː .
 1	Dàn	kè	ADV	_	_	4	mod	_	_
 2	nan	nan	DET	_	Definite=Def|PronType=Dem	1	det	_	_
-3	Dikkò	Dikkò	PROPN	_	_	4	subj	_	_
+3	Dikkò	Dikkò	PROPN	_	_	4	subj	_	Gloss=Dikkò
 4	tat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 5	taːshì	taːshì	VERB	_	_	4	comp:aux	_	_
 6	dà	dà	ADP	_	_	5	comp:obl	_	_
@@ -462,7 +462,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	1	parataxis@conj	_	_
 8	cêː	cêː	VERB	_	_	7	comp:aux	_	_
-9	Dikkò	Dikkò	PROPN	_	_	8	comp:obj	_	_
+9	Dikkò	Dikkò	PROPN	_	_	8	comp:obj	_	Gloss=Dikkò
 10	hwa	hwa	PART	_	_	9	mod	_	_
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	13	subj	_	_
@@ -475,12 +475,12 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__32
 # text = Garbà hwa yaː mutù àmman Dikkò cikìː gàreː tà .
-1	Garbà	Garbà	PROPN	_	_	3	mod	_	_
+1	Garbà	Garbà	PROPN	_	_	3	mod	_	Gloss=Garba
 2	hwa	hwa	PART	_	_	1	discourse@top	_	_
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	_
 4	mutù	mutù	VERB	_	_	3	comp:aux	_	_
 5	àmman	àmma	CCONJ	_	_	4	comp:obj@T	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	mod	_	_
+6	Dikkò	Dikkò	PROPN	_	_	5	mod	_	Gloss=Dikkò
 7	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj	_	_
 8	gàreː	gàreː	ADP	_	_	5	mod	_	_
 9	tà	ta	PRON	_	Gender=Fem|Person=3	8	comp:obj	_	_
@@ -496,7 +496,7 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__34
 # text = Dikkò sai dà tay yi watàn tarà ɗàuke dà cikìn nan sai Dikkò ta' aihù .
-1	Dikkò	Dikkò	PROPN	_	_	14	discourse	_	_
+1	Dikkò	Dikkò	PROPN	_	_	14	discourse	_	Gloss=Dikkò
 2	sai	sai	ADV	_	_	14	mod	_	_
 3	dà	dà	SCONJ	_	_	2	unk	_	_
 4	tay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	3	comp:obj	_	_
@@ -508,7 +508,7 @@
 10	cikìn	cikìː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	_
 11	nan	nan	DET	_	Definite=Def|PronType=Dem	10	det	_	_
 12	sai	sai	ADV	_	_	14	mod	_	_
-13	Dikkò	Dikkò	PROPN	_	_	14	subj	_	_
+13	Dikkò	Dikkò	PROPN	_	_	14	subj	_	Gloss=Dikkò
 14	ta	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 15	'	'	VERB	_	_	14	comp:aux	_	_
 16	aihù	aihù	INTJ	_	_	14	comp:aux	_	_
@@ -517,7 +517,7 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__35
 # text = Dà Dikkò tah haihù , màːlàmmai sunkà zakà raːnas suːnaː .
 1	Dà	dà	ADV	_	_	7	mod	_	_
-2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	_
+2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
 3	tah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	_
 4	haihù	haihù	VERB	_	_	3	comp:aux	_	_
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -535,7 +535,7 @@
 3	lìːsahiː	lìːsahiː	NOUN	_	Definite=Ind|Gender=Masc	2	comp:pred	_	_
 4	dà	dà	ADP	_	_	2	comp:obl	_	_
 5	mutuwàg	mutuwàː	NOUN	_	Definite=Cons|Gender=Fem	4	comp:obj	_	_
-6	Garbà	Garbà	PROPN	_	_	5	mod	_	_
+6	Garbà	Garbà	PROPN	_	_	5	mod	_	Gloss=Garba
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__37
@@ -546,21 +546,21 @@
 4	lìːsahiː	lìːsahiː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:pred	_	_
 5	dà	dà	ADP	_	_	3	comp:obl	_	_
 6	mutuwàg	mutuwàː	NOUN	_	Definite=Cons|Gender=Fem	5	comp:obj	_	_
-7	Garbà	Garbà	PROPN	_	_	6	mod	_	_
+7	Garbà	Garbà	PROPN	_	_	6	mod	_	Gloss=Garba
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	2	parataxis@conj	_	_
 10	yi	yi	VERB	_	_	9	comp:aux	_	_
 11	lìːsahiː	lìːsahiː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:pred	_	_
 12	dà	dà	ADP	_	_	10	comp:obl	_	_
 13	cikìn	cikìː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	_
-14	Dikkò	Dikkò	PROPN	_	_	13	mod	_	_
+14	Dikkò	Dikkò	PROPN	_	_	13	mod	_	Gloss=Dikkò
 15	,	,	PUNCT	_	_	9	punct	_	_
 16	sai	sai	ADV	_	_	17	mod	_	_
 17	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	_
 18	ga	ganiː	VERB	_	_	17	comp:aux	_	_
 19	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	18	comp:obj	_	_
 20	na	na/ta	ADP	_	_	19	mod	_	_
-21	Garbà	Garbà	PROPN	_	_	20	comp:obj	_	_
+21	Garbà	Garbà	PROPN	_	_	20	comp:obj	_	Gloss=Garba
 22	naː	neː	PART	_	_	21	mod	_	_
 23	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -570,7 +570,7 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	kè	AUX	_	_	6	comp:obj	_	_
-5	Dikkò	Dikkò	VERB	_	_	4	comp:aux	_	_
+5	Dikkò	Dikkò	VERB	_	_	4	comp:aux	_	Gloss=Dikkò
 6	sai	sai	ADV	_	_	7	mod	_	_
 7	ta	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 8	'	'	VERB	_	_	7	comp:aux	_	_
@@ -582,7 +582,7 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__39
 # text = Dàd Dikkò ta' aihù ɗaː namižì shiː kèː nan màːlàmmai sun tàːru à zaːnà suːnaː .
 1	Dàd	dàk	ADV	_	_	12	mod	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	_
+2	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	Gloss=Dikkò
 3	ta	na/ta	ADP	_	_	2	comp:obj	_	_
 4	'	'	PUNCT	_	_	8	punct	_	_
 5	aihù	aihù	INTJ	_	_	3	discourse	_	_
@@ -609,7 +609,7 @@
 6	suːnaː	suːnaː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	_
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	sai	sai	ADV	_	_	10	mod	_	_
-9	Dikkò	Dikkò	PROPN	_	_	10	subj	_	_
+9	Dikkò	Dikkò	PROPN	_	_	10	subj	_	Gloss=Dikkò
 10	tac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	_
 12	«	«	PUNCT	_	_	13	punct	_	_
@@ -696,8 +696,8 @@
 6	kù	ø	AUX	_	Aspect=Aor|Number=Plur|Person=2	2	parataxis@conj	_	_
 7	sâː	sâː	VERB	_	_	6	comp:aux	_	_
 8	mai	mai	PRON	_	Gender=Masc|Person=3	7	comp:obl	_	_
-9	Garbaː	Garbaː	PROPN	_	_	7	comp:obj	_	_
-10	Dikkò	Dikkò	PROPN	_	_	9	mod	_	_
+9	Garbaː	Garbaː	PROPN	_	_	7	comp:obj	_	Gloss=Garba
+10	Dikkò	Dikkò	PROPN	_	_	9	mod	_	Gloss=Dikkò
 11	.	.	PUNCT	_	_	2	punct	_	_
 12	»	»	PUNCT	_	_	2	punct	_	_
 
@@ -706,10 +706,10 @@
 1	«	«	PUNCT	_	_	2	punct	_	_
 2	Dà	dàː	ADV	_	_	0	root	_	_
 3	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	_
-4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	_
+4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	Gloss=Dikkò
 5	dà	dà	CCONJ	_	_	6	cc	_	_
 6	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	3	conj:coord	_	_
-7	Garbà	Garbà	PROPN	_	_	6	mod	_	_
+7	Garbà	Garbà	PROPN	_	_	6	mod	_	Gloss=Garba
 8	à	ø	AUX	_	Aspect=Aor|Person=4	2	comp:obj	_	_
 9	gamàː	gamàː	VERB	_	_	8	comp:aux	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -726,7 +726,7 @@
 3	mahwaːrin	mahwaːriː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:pred	_	_
 4	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	1	comp:cleft	_	_
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:pred	_	_
+6	Garbaː	Garbaː	PROPN	_	_	5	comp:pred	_	Gloss=Garba
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__49
@@ -735,38 +735,38 @@
 2	ži	ži	VERB	_	_	1	comp:aux	_	_
 3	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:pred	_	_
 4	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	3	mod	_	_
-5	Garbà	Garbà	PROPN	_	_	3	mod	_	_
+5	Garbà	Garbà	PROPN	_	_	3	mod	_	Gloss=Garba
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	4	conj:appos	_	_
-8	Dikkò	kkò	PROPN	_	_	7	mod	_	_
+8	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	sai	sai	ADV	_	_	11	mod	_	_
 11	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	_
 12	cêː	cêː	VERB	_	_	11	comp:aux	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	comp:obj	_	_
-14	Dikkò	kkò	PROPN	_	_	13	mod	_	_
+13	Garbaː	Garbaː	PROPN	_	_	12	comp:obj	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	13	mod	_	Gloss=Dikkò
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__50
 # text = Tôː shiː Dandà Garbaː Dikkò , Garbà Ɗiɗìː , Garbà Tatìː , Garbà hàlle hàllan hàukaː , Garbà hàlle hàllan mutuwàː .
 1	Tôː	tôː	INTJ	_	_	2	discourse	_	_
 2	shiː	shiː	PRON	_	Gender=Masc|Person=3	0	root	_	_
-3	Dandà	dandàː	PROPN	_	_	2	conj:appos	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	_
-5	Dikkò	dikkgà	PROPN	_	_	4	mod	_	_
+3	Dandà	Dandà	PROPN	_	_	2	conj:appos	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	flat@name	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	flat@name	_	Gloss=Dikkò
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	Garbà	Garbà	PROPN	_	_	2	conj:appos	_	_
+7	Garbà	Garbà	PROPN	_	_	2	conj:appos	_	Gloss=Garba
 8	Ɗiɗìː	ɗiɗìː	PROPN	_	_	7	mod	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	Garbà	Garbà	PROPN	_	_	7	mod	_	_
+10	Garbà	Garbà	PROPN	_	_	7	mod	_	Gloss=Garba
 11	Tatìː	tatìː	PROPN	_	Definite=Ind|Gender=Masc	10	mod	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Garbà	Garbà	PROPN	_	_	7	mod	_	_
+13	Garbà	Garbà	PROPN	_	_	7	mod	_	Gloss=Garba
 14	hàlle	hàlle	VERB	_	_	13	mod	_	_
 15	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	14	comp:obj	_	_
 16	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	15	mod	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	Garbà	Garbà	PROPN	_	_	13	mod	_	_
+18	Garbà	Garbà	PROPN	_	_	13	mod	_	Gloss=Garba
 19	hàlle	hàlle	VERB	_	_	18	mod	_	_
 20	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	19	comp:obj	_	_
 21	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	20	mod	_	_
@@ -787,14 +787,14 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__52
 # text = Àmman Garbaː Dikkò baːshì dà wâː , Garbaː Dikkò baːshì dà ƙanèː .
 1	Àmman	àmman	CCONJ	_	_	2	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	0	root	_	_
-3	Dikkò	Dikkò	PROPN	_	_	4	comp:pred	_	_
+2	Garbaː	Garbaː	PROPN	_	_	0	root	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	4	comp:pred	_	Gloss=Dikkò
 4	baːshì	baːshì	AUX	_	Person=3|Polarity=Neg	2	mod	_	_
 5	dà	dà	ADP	_	_	4	comp:pred	_	_
 6	wâː	wâː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	Garbaː	Garbaː	PROPN	_	_	10	dislocated@subj	_	_
-9	Dikkò	dikkòː	PROPN	_	_	8	mod	_	_
+8	Garbaː	Garbaː	PROPN	_	_	10	dislocated@subj	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	8	mod	_	Gloss=Dikkò
 10	baːshì	baːshì	AUX	_	Person=3|Polarity=Neg	4	parataxis@conj	_	_
 11	dà	dà	ADP	_	_	10	comp:pred	_	_
 12	ƙanèː	ƙanèː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	_
@@ -864,22 +864,22 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	parataxis@conj	_	_
 6	yi	yi	VERB	_	_	5	comp:aux	_	_
-7	Dandà	dandàː	PROPN	_	_	6	comp:pred	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	_
-9	Dikkò	Dikkò	PROPN	_	_	8	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	6	comp:pred	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	8	flat@name	_	Gloss=Dikkò
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	Garbà	Garbà	PROPN	_	_	7	conj:appos	_	_
+11	Garbà	Garbà	PROPN	_	_	7	conj:appos	_	Gloss=Garba
 12	Ɗiɗìː	ɗiɗìː	PROPN	_	Gender=Masc	11	mod	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	Garbà	Garbà	PROPN	_	_	11	conj:appos	_	_
+14	Garbà	Garbà	PROPN	_	_	11	conj:appos	_	Gloss=Garba
 15	Tatìː	tatìː	PROPN	_	_	14	mod	_	_
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	Garbà	garbà	PROPN	_	_	5	parataxis	_	_
+17	Garbà	Garbà	PROPN	_	_	5	parataxis	_	Gloss=Garba
 18	hàlle	hàlle	VERB	_	_	17	mod	_	_
 19	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	18	comp:obj	_	_
 20	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	19	mod	_	_
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	Garbà	Garbà	PROPN	_	_	17	mod	_	_
+22	Garbà	Garbà	PROPN	_	_	17	mod	_	Gloss=Garba
 23	hàlle	hàlle	VERB	_	_	22	comp:cleft	_	_
 24	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	23	comp:obj	_	_
 25	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	24	mod	_	_
@@ -946,9 +946,9 @@
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	shiː	shiː	PRON	_	Gender=Masc|Person=3	32	dislocated@subj	_	_
-6	Dandà	dandàː	PROPN	_	_	5	conj:appos	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	flat@name	_	_
-8	Dikkò	Dikkò	PROPN	_	_	17	mod	_	_
+6	Dandà	Dandà	PROPN	_	_	5	conj:appos	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	flat@name	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	17	mod	_	Gloss=Dikkò
 9	tun	tun	SCONJ	_	_	5	mod	_	_
 10	shinàː	kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	9	comp:obj	_	_
 11	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	21	comp:obj	_	_
@@ -958,7 +958,7 @@
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	in	in	SCONJ	_	_	32	mod	_	_
 17	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	19	subj	_	_
-18	Dikkò	Dikkò	PROPN	_	_	17	mod	_	_
+18	Dikkò	Dikkò	PROPN	_	_	17	mod	_	Gloss=Dikkò
 19	ta	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	16	comp:obj	_	_
 20	'	'	VERB	_	_	16	comp:obj	_	_
 21	ažèː	ažèː	VERB	_	_	19	comp:aux	_	_
@@ -988,7 +988,7 @@
 # text = Sai dai Dikkò tag ga shinàː ta mòːc'iː , shinàː ta moːtsàːwaː , in taɓ ɓaɓɓàkaː shi sai tà ga kyaːshèː tà kashèː .
 1	Sai	sai	ADV	_	_	20	mod	_	_
 2	dai	dai	PART	_	_	1	discourse@top	_	_
-3	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	_
+3	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	Gloss=Dikkò
 4	tag	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	_
 5	ga	ganiː	VERB	_	_	4	comp:aux	_	_
 6	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	5	comp:obj	_	_
@@ -1015,9 +1015,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__65
 # text = Àmman Dandà Garbaː Dikkò baːshì kuːkaː in dan hakànan .
 1	Àmman	Àmman	CCONJ	_	_	5	discourse	_	_
-2	Dandà	danon	PROPN	_	_	5	dislocated@subj	_	_
-3	Garbaː	Garbaː	PROPN	_	_	8	comp:obj	_	_
-4	Dikkò	kkò	PROPN	_	_	3	mod	_	_
+2	Dandà	Dandà	PROPN	_	_	5	dislocated@subj	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	8	comp:obj	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	Gloss=Dikkò
 5	baːshì	baâi	AUX	_	Person=3|Polarity=Neg	0	root	_	_
 6	kuːkaː	kuːkaː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:pred	_	_
 7	in	in	SCONJ	_	_	5	mod	_	_
@@ -1027,12 +1027,12 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__66
 # text = Dikkò .
-1	Dikkò	Dikkò	PROPN	_	_	0	root	_	_
+1	Dikkò	Dikkò	PROPN	_	_	0	root	_	Gloss=Dikkò
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__67
 # text = Dikkò sai tà ga ɗan ɗantà shinàː moːc'ìː tà ɓaɓɓàkaː shi tà ga kyaːshèː tà kashèː , àmman Dandà Garbaː Dikkò baːshì kuːkaː ba dan ciːzòn kyaːshèː .
-1	Dikkò	diːkà	CCONJ	_	_	3	discourse	_	_
+1	Dikkò	Dikkò	CCONJ	_	_	3	discourse	_	Gloss=Dikkò
 2	sai	sai	ADV	_	_	3	mod	_	_
 3	tà	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	_
 4	ga	ganiː	VERB	_	_	3	comp:aux	_	_
@@ -1051,9 +1051,9 @@
 17	kashèː	kashèː	VERB	_	_	16	comp:aux	_	_
 18	,	,	PUNCT	_	_	23	punct	_	_
 19	àmman	àmman	CCONJ	_	_	23	cc	_	_
-20	Dandà	Dandà	PROPN	_	_	10	subj	_	_
-21	Garbaː	Garbaː	PROPN	_	_	27	mod	_	_
-22	Dikkò	Dikkò	PROPN	_	_	27	mod	_	_
+20	Dandà	Dandà	PROPN	_	_	10	subj	_	Gloss=Dandà
+21	Garbaː	Garbaː	PROPN	_	_	27	mod	_	Gloss=Garba
+22	Dikkò	Dikkò	PROPN	_	_	27	mod	_	Gloss=Dikkò
 23	baːshì	baâi	AUX	_	Person=3|Polarity=Neg	20	mod@relcl	_	_
 24	kuːkaː	kuːkaː	NOUN	_	Definite=Ind|Gender=Masc	23	comp:aux	_	_
 25	ba	ba	PART	_	Polarity=Neg	23	mod	_	_
@@ -1085,8 +1085,8 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__70
 # text = Garbaː Dikkò yag girma ya' iyà tàhiyàː .
-1	Garbaː	Garbaː	PROPN	_	_	5	subj	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	_
+1	Garbaː	Garbaː	PROPN	_	_	5	subj	_	Gloss=Garba
+2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 3	yag	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:cleft	_	_
 4	girma	girma	VERB	_	_	3	comp:aux	_	_
 5	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
@@ -1115,7 +1115,7 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__72
 # text = Dikkò ta' izàː shi tàːre dà yâːra sù tàhi zuwàː wurin itàːceː .
-1	Dikkò	dikkgà	SCONJ	_	_	2	mod	_	_
+1	Dikkò	Dikkò	SCONJ	_	_	2	mod	_	Gloss=Dikkò
 2	ta	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 3	'	'	PUNCT	_	_	2	punct	_	_
 4	izàː	izàː	VERB	_	_	2	comp:aux	_	_
@@ -1138,9 +1138,9 @@
 4	yâːra	yâ	VERB	_	ExtPos=NOUN|Gender=Fem	3	comp:obj	_	_
 5	nàː	neː	AUX	_	_	0	root	_	_
 6	itàːceː	itàːceː	NOUN	_	Definite=Ind|Number=Plur	5	comp:pred	_	_
-7	Dandà	Dandà	ADP	_	_	6	mod	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	_
-9	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+7	Dandà	Dandà	ADP	_	_	6	mod	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	6	mod	_	Gloss=Dikkò
 10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	5	parataxis@conj	_	_
 11	kwancìːnai	kwancìːnai	VERB	_	ExtPos=NOUN|Gender=Masc|Person=3	10	comp:aux	_	_
 12	.	.	PUNCT	_	_	10	punct	_	_
@@ -1153,8 +1153,8 @@
 # text = « Kai Garbaː Dikkò baː kà yi mà uwakkà itàːceː , sai taː baː kà kaːshiː . »
 1	«	«	PUNCT	_	_	5	punct	_	_
 2	Kai	(n)kà	PRON	_	Gender=Masc|Person=2	5	vocative	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	conj:appos	_	_
-4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	_
+3	Garbaː	Garbaː	PROPN	_	_	2	conj:appos	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	Gloss=Dikkò
 5	baː	baː	INTJ	_	Polarity=Neg	0	root	_	_
 6	kà	kà	AUX	_	Aspect=ProgBkg	5	subj	_	_
 7	yi	yi	VERB	_	_	6	comp:aux	_	_
@@ -1172,7 +1172,7 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__76
 # text = Garbaː
-1	Garbaː	Garbaː	PROPN	_	_	0	root	_	_
+1	Garbaː	Garbaː	PROPN	_	_	0	root	_	Gloss=Garba
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__77
 # text = « Kù yi , niː baːnì yîː . »
@@ -1221,14 +1221,14 @@
 31	kai	kai	VERB	_	_	30	comp:aux	_	_
 32	mà	mà	ADP	_	_	31	comp:obl	_	_
 33	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	32	comp:obj	_	_
-34	Dikkò	Dikkò	PROPN	_	_	31	comp:obj@G	_	_
+34	Dikkò	Dikkò	PROPN	_	_	31	comp:obj@G	_	Gloss=Dikkò
 35	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__79
 # text = Dandà Garbaː Dikkò indà duy yat tàhi itàːceː tàːre dà yâːra bâː shi itàːceː sai dai yâːra sù yi , in an yoː kusa gà gàriː shì amshèː shì kai mà uwaːtai .
-1	Dandà	danon	ADP	_	_	27	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	dikkgà	PROPN	_	_	17	mod	_	_
+1	Dandà	Dandà	ADP	_	_	27	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	17	mod	_	Gloss=Dikkò
 4	indà	indà	ADV	_	_	17	mod	_	_
 5	duy	dukà	DET	_	_	4	det	_	_
 6	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	mod@relcl	_	_
@@ -1262,9 +1262,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__80
 # text = Dandà Garbaː Dikkò wàːriːnai bà sù iː mai ba kaːshiː .
-1	Dandà	dandàː	ADP	_	_	6	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	dikkgà	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	ADP	_	_	6	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	wàːriːnai	wàːriːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	6	subj	_	_
 5	bà	bà	PART	_	Polarity=Neg	6	mod	_	_
 6	sù	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	_
@@ -1308,12 +1308,12 @@
 2	žîː	žîː	VERB	_	ExtPos=NOUN|Gender=Masc	1	comp:aux	_	_
 3	dai	dai	PART	_	_	1	discourse@top	_	_
 4	sai	sai	ADP	_	_	1	mod	_	_
-5	Dikkò	Dikkò	PROPN	_	_	4	comp:obj	_	_
+5	Dikkò	Dikkò	PROPN	_	_	4	comp:obj	_	Gloss=Dikkò
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__85
 # text = Dikkò wànga ɗaː naːkì yaː matsàː munà .
-1	Dikkò	dikkòà	CCONJ	_	_	5	mod	_	_
+1	Dikkò	Dikkò	CCONJ	_	_	5	mod	_	Gloss=Dikkò
 2	wànga	wànga	DET	_	Gender=Masc|PronType=Dem	3	det	_	_
 3	ɗaː	ɗaː	NOUN	_	Definite=Ind|Gender=Masc	1	comp:obj	_	_
 4	naːkì	naːkì	NOUN	_	Definite=Ind|Gender=Masc	3	mod	_	_
@@ -1382,9 +1382,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__91
 # text = Dandà Garbaː Dikkò yaz zan baːlìgiː .
-1	Dandà	dandàː	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	zan	zama	VERB	_	_	4	comp:aux	_	_
 6	baːlìgiː	baːlìgiː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:pred	_	_
@@ -1392,10 +1392,10 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__92
 # text = Garbà Ɗiɗìː , Garbà taɗìː .
-1	Garbà	Garbà	PROPN	_	_	0	root	_	_
+1	Garbà	Garbà	PROPN	_	_	0	root	_	Gloss=Garba
 2	Ɗiɗìː	ɗiɗìː	PROPN	_	_	1	mod	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	Garbà	Garbà	PROPN	_	_	1	mod	_	_
+4	Garbà	Garbà	PROPN	_	_	1	mod	_	Gloss=Garba
 5	taɗìː	taɗìː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1411,9 +1411,9 @@
 8	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	7	comp:obj	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	15	punct	_	_
 10	«	«	PUNCT	_	_	11	punct	_	_
-11	Dikkò	dikkòː	PROPN	_	_	15	dislocated	_	_
+11	Dikkò	Dikkò	PROPN	_	_	15	dislocated	_	Gloss=Dikkò
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Dikkò	Dikkò	PROPN	_	_	11	conj:dicto	_	_
+13	Dikkò	Dikkò	PROPN	_	_	11	conj:dicto	_	Gloss=Dikkò
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	kì	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=2	6	comp:obj@T	_	_
 16	sai	sai	VERB	_	_	15	comp:aux	_	_
@@ -1442,7 +1442,7 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__95
 # text = Dikkò tas sai mai doːkìːnai .
-1	Dikkò	dikkgà	VERB	_	_	2	mod	_	_
+1	Dikkò	Dikkò	VERB	_	_	2	mod	_	Gloss=Dikkò
 2	tas	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 3	sai	sai	VERB	_	_	2	comp:aux	_	_
 4	mai	mai	PRON	_	Gender=Masc|Person=3	3	comp:obl	_	_
@@ -1484,7 +1484,7 @@
 6	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 7	cèː	cêː	VERB	_	_	6	comp:aux	_	_
 8	«	«	PUNCT	_	_	10	punct	_	_
-9	Dikkò	dok-	VERB	_	_	10	mod	_	_
+9	Dikkò	Dikkò	VERB	_	_	10	mod	_	Gloss=Dikkò
 10	kyaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	comp:obj	_	_
 11	san	sanìː	VERB	_	_	10	comp:aux	_	_
 12	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	_
@@ -1531,9 +1531,9 @@
 # text = Suːnan doːkìn Dandà Garbaː Dikkò Banìyoːgubà .
 1	Suːnan	suːnaː	PROPN	_	Definite=Cons|Number=Plur	0	root	_	_
 2	doːkìn	doːkìː	NOUN	_	Definite=Cons|Gender=Masc	1	mod	_	_
-3	Dandà	dandàː	PROPN	_	_	1	mod	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	_
-5	Dikkò	dikkgà	PROPN	_	_	4	mod	_	_
+3	Dandà	Dandà	PROPN	_	_	1	mod	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	flat@name	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	flat@name	_	Gloss=Dikkò
 6	Banìyoːgubà	Banìyoːgubà	PROPN	_	Definite=Ind|Gender=Fem	4	mod	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1559,9 +1559,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__104
 # text = Dandà Garbaː Dikkò shinàː ta kiːyòn doːkìːnai .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	_
 5	ta	ta	PART	_	Aspect=Iter	4	compound:prt	_	_
 6	kiːyòn	kiːyòː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	4	comp:aux	_	_
@@ -1589,9 +1589,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__106
 # text = Dandà Garbaː Dikkò sai shì hau àbiːnai shì tàhi wurin kìliːsàː bàːkin gulbiː .
-1	Dandà	danon	PROPN	_	_	5	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	sai	sai	ADV	_	_	5	mod	_	_
 5	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 6	hau	hau	VERB	_	_	5	comp:aux	_	_
@@ -1606,9 +1606,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__107
 # text = Dandà Garbaː Dikkò shì hau doːkìːnai shì tàhi wurin kìliːsàː bàːkin gulbiː .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 5	hau	hau	VERB	_	_	4	comp:aux	_	_
 6	doːkìːnai	doːkì:nai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	5	comp:obj	_	_
@@ -1653,8 +1653,8 @@
 1	Baːbù	bâː	PART	_	Polarity=Neg	0	root	_	_
 2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	_
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	_
-5	Dikkò	dikkgà	PROPN	_	_	4	mod	_	_
+4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 6	baːshì	baâi	AUX	_	Aspect=ProgNeg|Gender=Masc|Person=3|Polarity=Neg	2	mod@relcl	_	_
 7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	6	comp:aux	_	_
 8	dà	dà	ADP	_	_	7	comp:obl	_	_
@@ -1680,9 +1680,9 @@
 3	akà	(n)kà	AUX	_	Aspect=ProgBkg|Person=4	2	comp:obj	_	_
 4	tsòːroː	tsòːràː	VERB	_	_	3	comp:aux	_	_
 5	dukà	dukà	DET	_	_	4	comp:obl	_	_
-6	Dandà	Dandà	PROPN	_	_	9	mod	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	_
-8	Dikkò	Dikkò	PROPN	_	_	1	mod	_	_
+6	Dandà	Dandà	PROPN	_	_	9	mod	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	_
 10	sâːwaː	sâː	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	_
 11	doːkìn	doːkìː	NOUN	_	Definite=Cons|Gender=Masc	10	udep	_	_
@@ -1696,9 +1696,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__113
 # text = Dandà Garbaː Dikkò shinàː tàhe shinàː sukàː dà doːkìː .
-1	Dandà	danon	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shinàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	_
 5	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	_
 6	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	parataxis@conj	_	_
@@ -1750,22 +1750,22 @@
 1	Tôː	tôː	INTJ	_	_	14	discourse	_	_
 2	loːkàːcîn	loːkàːciː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	Dandà	PROPN	_	_	2	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	2	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	Garbà	Garbà	PROPN	_	_	5	conj:appos	_	_
+8	Garbà	Garbà	PROPN	_	_	5	conj:appos	_	Gloss=Garba
 9	Ɗiɗìː	ɗiɗìː	PROPN	_	_	8	mod	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	Garbà	Garbà	PROPN	_	_	8	mod	_	_
+11	Garbà	Garbà	PROPN	_	_	8	mod	_	Gloss=Garba
 12	Tatìː	tatìː	PROPN	_	_	11	mod	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	Garbà	Garbà	PROPN	_	_	8	mod	_	_
+14	Garbà	Garbà	PROPN	_	_	8	mod	_	Gloss=Garba
 15	hàlle	hàlle	VERB	_	_	14	mod	_	_
 16	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	15	comp:obj	_	_
 17	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	16	mod	_	_
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	Garbà	Garbà	PROPN	_	_	14	mod	_	_
+19	Garbà	Garbà	PROPN	_	_	14	mod	_	Gloss=Garba
 20	hàlle	hàlle	VERB	_	_	19	comp:aux	_	_
 21	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	20	comp:obj	_	_
 22	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	21	mod	_	_
@@ -1805,21 +1805,21 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__120
 # text = Dandà Garbaː Dikkò .
-1	Dandà	Dandà	PROPN	_	_	0	root	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	kkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	0	root	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__121
 # text = Dà Dikkò tac cèː mai « Garbaː Dikkò , kà tàhi kà bìɗi màːtaː . »
 1	Dà	dà	ADV	_	_	3	mod	_	_
-2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	_
+2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
 3	tac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 4	cèː	cêː	VERB	_	_	3	comp:aux	_	_
 5	mai	mai	PRON	_	Gender=Masc|Person=3	4	comp:obl	_	_
 6	«	«	PUNCT	_	_	7	punct	_	_
-7	Garbaː	Garbaː	PROPN	_	_	4	comp:obj@T	_	_
-8	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+7	Garbaː	Garbaː	PROPN	_	_	4	comp:obj@T	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	4	comp:obj@T	_	_
 11	tàhi	tàhi	VERB	_	_	10	comp:aux	_	_
@@ -1946,9 +1946,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__130
 # text = Dandà Garbaː Dikkò yac cèː bày ìsa armeː ba , Dikkò taƙ ƙyaːlèː shi .
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	mod	_	_
-3	Dikkò	Dikkò	PROPN	_	_	4	subj	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	mod	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	4	subj	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	bày	bày	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	5	comp:obj	_	_
@@ -1956,7 +1956,7 @@
 8	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	7	comp:obj	_	_
 9	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	Dikkò	Dikkò	PROPN	_	_	12	subj	_	_
+11	Dikkò	Dikkò	PROPN	_	_	12	subj	_	Gloss=Dikkò
 12	taƙ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	4	parataxis@conj	_	_
 13	ƙyaːlèː	ƙyaːlèː	VERB	_	_	12	comp:aux	_	_
 14	shi	shi	PRON	_	Gender=Masc|Person=3	13	comp:obj	_	_
@@ -1973,9 +1973,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__132
 # text = Dandà Garbaː Dikkò shinàː nan zamaːnai bài yi armeː ba .
-1	Dandà	dandàː	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	dikkgà	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shinàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	_
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	_
 6	zamaːnai	zamaːnai	VERB	_	ExtPos=NOUN|Gender=Masc|Person=3	5	mod	_	_
@@ -1994,15 +1994,15 @@
 # text = Anàː nan Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː , Garbà hàlla hàllan hàukaː yaː yi wata 'yat tàhiyàː sai yaž ži nàːbaːrìn wani yaːƙìː .
 1	Anàː	kè	AUX	_	Person=4	0	root	_	_
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	_
-3	Dandà	dandàː	ADP	_	_	1	comp:pred	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	_
-5	Dikkò	dikkòà	PROPN	_	_	6	mod	_	_
-6	Garbà	Garbà	PROPN	_	_	4	mod	_	_
+3	Dandà	Dandà	ADP	_	_	1	comp:pred	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	6	mod	_	Gloss=Dikkò
+6	Garbà	Garbà	PROPN	_	_	4	mod	_	Gloss=Garba
 7	Ɗiɗìː	ɗiɗìː	PROPN	_	_	6	punct	_	_
-8	Garbà	Garbà	PROPN	_	_	6	conj:redup	_	_
+8	Garbà	Garbà	PROPN	_	_	6	conj:redup	_	Gloss=Garba
 9	Tatìː	tatìː	PROPN	_	_	18	mod	_	_
 10	,	,	PUNCT	_	_	15	punct	_	_
-11	Garbà	Garbà	PROPN	_	_	15	mod	_	_
+11	Garbà	Garbà	PROPN	_	_	15	mod	_	Gloss=Garba
 12	hàlla	hàlla	ADV	_	_	6	mod	_	_
 13	hàllan	hàllan	ADV	_	_	16	comp:pred	_	_
 14	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	12	comp:obj	_	_
@@ -2028,9 +2028,9 @@
 5	wani	wani	DET	_	Definite=Spec|Gender=Masc	4	det	_	_
 6	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	4	mod	_	_
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	Dandà	Dandà	SCONJ	_	_	11	mod	_	_
-9	Garbaː	Garbaː	PROPN	_	_	11	subj	_	_
-10	Dikkò	Dikkò	PROPN	_	_	9	mod	_	_
+8	Dandà	Dandà	SCONJ	_	_	11	mod	_	Gloss=Dandà
+9	Garbaː	Garbaː	PROPN	_	_	11	subj	_	Gloss=Garba
+10	Dikkò	Dikkò	PROPN	_	_	9	mod	_	Gloss=Dikkò
 11	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 12	tàrbi	ɗarbaː	VERB	_	_	11	comp:aux	_	_
 13	yaːƙìn	yaːƙìː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	_
@@ -2058,9 +2058,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__137
 # text = Dandà Garbaː Dikkò , dukà wandà yaːt tuːba shì cêː mai « Kòːmaː wažžen shaːnuː . »
-1	Dandà	Dandà	PROPN	_	_	9	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	9	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	dukà	dukà	DET	_	_	9	dislocated@comp	_	_
 6	wandà	wandà	PRON	_	Gender=Masc|PronType=Rel	9	dislocated@subj	_	_
@@ -2114,7 +2114,7 @@
 20	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	16	parataxis@conj	_	_
 21	cèː	cêː	VERB	_	_	20	comp:aux	_	_
 22	mà	mà	ADP	_	_	21	comp:obl	_	_
-23	Dikkò	Dikkò	PROPN	_	_	22	comp:obj	_	_
+23	Dikkò	Dikkò	PROPN	_	_	22	comp:obj	_	Gloss=Dikkò
 24	«	«	PUNCT	_	_	25	punct	_	_
 25	Innà	innà	PROPN	_	_	21	comp:obj@T	_	_
 26	,	,	PUNCT	_	_	25	punct	_	_
@@ -2250,7 +2250,7 @@
 9	zan	zama	VERB	_	_	8	comp:aux	_	_
 10	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	9	comp:pred	_	_
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	Garbà	Garbà	PROPN	_	_	5	comp:pred	_	_
+12	Garbà	Garbà	PROPN	_	_	5	comp:pred	_	Gloss=Garba
 13	?	?	PUNCT	_	_	3	punct	_	_
 14	»	»	PUNCT	_	_	3	punct	_	_
 
@@ -2299,7 +2299,7 @@
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	_
 7	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	6	comp:obl	_	_
 8	«	«	PUNCT	_	_	13	punct	_	_
-9	Dikkò	dikkòà	SCONJ	_	_	13	discourse	_	_
+9	Dikkò	Dikkò	SCONJ	_	_	13	discourse	_	Gloss=Dikkò
 10	kâm	kùwa	PART	_	_	12	discourse@top	_	_
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	yànzu	yànzu	ADV	_	_	13	mod	_	_
@@ -2364,9 +2364,9 @@
 1	Sa	sa	PROPN	_	_	7	dislocated@subj	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	PART	_	_	7	discourse	_	_
-4	Dandà	Dandà	PROPN	_	_	7	subj	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	subj	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	tàhi	tàhi	VERB	_	_	7	comp:aux	_	_
 9	yab	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	7	parataxis@conj	_	_
@@ -2405,18 +2405,18 @@
 17	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	9	parataxis@conj	_	_
 18	kaːwoː	kai	VERB	_	_	17	comp:aux	_	_
 19	mà	mà	ADP	_	_	18	comp:obl	_	_
-20	Dandà	Dandà	PROPN	_	_	19	comp:obj	_	_
-21	Garbaː	Garbaː	PROPN	_	_	20	mod	_	_
-22	Dikkò	dikkòà	PROPN	_	_	23	mod	_	_
-23	Garbà	Garbà	PROPN	_	_	14	comp:pred	_	_
+20	Dandà	Dandà	PROPN	_	_	19	comp:obj	_	Gloss=Dandà
+21	Garbaː	Garbaː	PROPN	_	_	20	mod	_	Gloss=Garba
+22	Dikkò	Dikkò	PROPN	_	_	23	mod	_	Gloss=Dikkò
+23	Garbà	Garbà	PROPN	_	_	14	comp:pred	_	Gloss=Garba
 24	Ɗiɗìː	ɗiɗìː	PROPN	_	_	23	mod	_	_
-25	Garbà	Garbà	PROPN	_	_	23	mod	_	_
+25	Garbà	Garbà	PROPN	_	_	23	mod	_	Gloss=Garba
 26	Tatìː	tatìː	PROPN	_	_	23	comp:obj	_	_
-27	Garbà	garbà	PROPN	_	_	18	mod	_	_
+27	Garbà	Garbà	PROPN	_	_	18	mod	_	Gloss=Garba
 28	hàlle	hàlle	VERB	_	_	27	mod	_	_
 29	hàllan	hàllaː	NOUN	_	Definite=Cons	28	comp:obj	_	_
 30	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	29	mod	_	_
-31	Garbà	Garbà	PROPN	_	_	27	conj:redup	_	_
+31	Garbà	Garbà	PROPN	_	_	27	conj:redup	_	Gloss=Garba
 32	hàlle	hàlle	VERB	_	_	31	comp:cleft	_	_
 33	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Fem	32	comp:obj	_	_
 34	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	33	mod	_	_
@@ -2481,12 +2481,12 @@
 1	Tôː	tôː	INTJ	_	_	15	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	15	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	15	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	dikkòà	PROPN	_	_	5	mod	_	_
-7	Garbà	Garbà	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	15	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
+7	Garbà	Garbà	PROPN	_	_	5	mod	_	Gloss=Garba
 8	Ɗiɗìː	ɗiɗìː	PROPN	_	_	7	comp:obj	_	_
-9	Garbà	Garbà	PROPN	_	_	7	conj:redup	_	_
+9	Garbà	Garbà	PROPN	_	_	7	conj:redup	_	Gloss=Garba
 10	Tatìː	tatìː	PROPN	_	_	9	comp:obj	_	_
 11	,	,	PUNCT	_	_	2	punct	_	_
 12	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|Gender=Masc	15	mod	_	_
@@ -2605,9 +2605,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__168
 # text = Dandà Garbaː Dikkò koː dalàː baːshì baː sù .
-1	Dandà	danon	SCONJ	_	_	6	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	6	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	koː	koː	CCONJ	_	_	5	cc	_	_
 5	dalàː	dalàː	NOUN	_	Definite=Ind|Gender=Fem	6	subj	_	_
 6	baːshì	bâi	AUX	_	Person=3|Polarity=Neg	0	root	_	_
@@ -2624,9 +2624,9 @@
 5	yi	yi	VERB	_	_	4	comp:aux	_	_
 6	watàː	watàː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:pred	_	_
 7	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:pred	_	_
-8	Dandà	Dandà	PROPN	_	_	7	mod	_	_
-9	Garbaː	Garbaː	PROPN	_	_	8	flat@name	_	_
-10	Dikkò	Dikkò	PROPN	_	_	18	mod	_	_
+8	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+9	Garbaː	Garbaː	PROPN	_	_	8	flat@name	_	Gloss=Garba
+10	Dikkò	Dikkò	PROPN	_	_	18	mod	_	Gloss=Dikkò
 11	sai	sai	ADV	_	_	12	mod	_	_
 12	hurad	huraː	NOUN	_	Definite=Cons|Gender=Fem	0	root	_	_
 13	dà	dà	SCONJ	_	_	12	mod@relcl	_	_
@@ -2678,12 +2678,12 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__173
 # text = Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	dikkgà	PROPN	_	_	4	mod	_	_
-4	Garbà	Garbà	PROPN	_	_	0	root	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
+4	Garbà	Garbà	PROPN	_	_	0	root	_	Gloss=Garba
 5	Ɗiɗìː	ɗiɗìː	PROPN	_	_	4	mod	_	_
-6	Garbà	Garbà	PROPN	_	_	4	mod	_	_
+6	Garbà	Garbà	PROPN	_	_	4	mod	_	Gloss=Garba
 7	Tatìː	tatìː	PROPN	_	ExtPos=NOUN|Gender=Masc	6	comp:obj	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2712,9 +2712,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__175
 # text = Kai Dandà Garbaː Dikkò yac cèː « Yâu wacèː raːnaː tàː  ? »
 1	Kai	kai	PRON	_	Gender=Masc|Person=2	5	dislocated@subj	_	_
-2	Dandà	dandàː	PROPN	_	_	5	subj	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	_
-4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	_
+2	Dandà	Dandà	PROPN	_	_	5	subj	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
 5	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	_
 7	«	«	PUNCT	_	_	8	punct	_	_
@@ -3135,22 +3135,22 @@
 1	Yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	_
 3	«	«	PUNCT	_	_	4	punct	_	_
-4	Dandà	dandàː	PROPN	_	_	1	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	1	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	naː	neː	AUX	_	_	4	mod	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 9	»	»	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__207
 # text = Garbà Ɗiɗìː , Garbà Tatìː , Garbà hàlle hàllan hàukaː yac cèː « Mù biɗoː mai kiɗìːnai na maulòː . »
-1	Garbà	Garbà	PROPN	_	_	0	root	_	_
+1	Garbà	Garbà	PROPN	_	_	0	root	_	Gloss=Garba
 2	Ɗiɗìː	Ɗiɗìː	PROPN	_	_	1	mod	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	Garbà	Garbà	PROPN	_	_	1	conj:appos	_	_
+4	Garbà	Garbà	PROPN	_	_	1	conj:appos	_	Gloss=Garba
 5	Tatìː	Tatìː	PROPN	_	_	4	mod	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	Garbà	Garbà	PROPN	_	_	4	mod	_	_
+7	Garbà	Garbà	PROPN	_	_	4	mod	_	Gloss=Garba
 8	hàlle	hàlle	VERB	_	_	7	mod	_	_
 9	hàllan	hàllaː	ADJ	_	Definite=Cons	8	comp:pred	_	_
 10	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Fem	9	mod	_	_
@@ -3209,9 +3209,9 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	nàː	AUX	_	Aspect=Prog	0	root	_	_
-5	Dandà	dandàː	VERB	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	kkò	PROPN	_	_	6	mod	_	_
+5	Dandà	Dandà	VERB	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__211
@@ -3306,9 +3306,9 @@
 9	nàː	neː	AUX	_	_	0	root	_	_
 10	ak	k	AUX	_	Aspect=ProgBkg|Person=4	9	comp:cleft	_	_
 11	kiɗìn	kiɗìː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	10	comp:aux	_	_
-12	Dandà	Dandà	PROPN	_	_	11	udep	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	11	udep	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	.	.	PUNCT	_	_	9	punct	_	_
 16	»	»	PUNCT	_	_	9	punct	_	_
 
@@ -3464,9 +3464,9 @@
 4	sa	sa	PRON	_	_	3	comp:obj@T	_	SpaceAfter=No
 5	’	’	PUNCT	_	_	7	punct	_	_
 6	ànnan	ànnan	ADV	_	_	7	mod	_	_
-7	Dandà	Dandà	PROPN	_	_	4	comp:obj	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	_
-9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	4	comp:obj	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 10	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	7	comp:cleft	_	_
 11	hitoː	hitoː	VERB	_	_	10	comp:aux	_	_
 12	gà	gà	ADP	_	_	11	comp:obl	_	_
@@ -3613,9 +3613,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__237
 # text = Dandà Garbaː Dikkò shì cêː « Naː ži naːkà , kòːmaː cân . »
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	mod	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	_
 6	«	«	PUNCT	_	_	7	punct	_	_
@@ -3638,9 +3638,9 @@
 6	naːkà	ːkà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=3	5	comp:pred	_	_
 7	kiɗìː	kiɗìː	VERB	_	Definite=Ind|Gender=Masc	6	comp:aux	_	_
 8	,	,	PUNCT	_	_	1	punct	_	_
-9	Dandà	Dandà	PROPN	_	_	12	mod	_	_
-10	Garbaː	Garbaː	PROPN	_	_	9	mod	_	_
-11	Dikkò	dikkòà	PROPN	_	_	10	mod	_	_
+9	Dandà	Dandà	PROPN	_	_	12	mod	_	Gloss=Dandà
+10	Garbaː	Garbaː	PROPN	_	_	9	flat@name	_	Gloss=Garba
+11	Dikkò	Dikkò	PROPN	_	_	10	flat@name	_	Gloss=Dikkò
 12	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	_
 14	“	“	PUNCT	_	_	15	punct	_	_
@@ -3688,9 +3688,9 @@
 8	koːmà	koːmà	VERB	_	_	7	comp:aux	_	_
 9	gangaː	gangaː	NOUN	_	Definite=Ind|Gender=Masc	8	comp:obj	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	Dandà	Dandà	PROPN	_	_	14	mod	_	_
-12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	_
-13	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+11	Dandà	Dandà	PROPN	_	_	14	mod	_	Gloss=Dandà
+12	Garbaː	Garbaː	PROPN	_	_	11	flat@name	_	Gloss=Garba
+13	Dikkò	Dikkò	PROPN	_	_	12	flat@name	_	Gloss=Dikkò
 14	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
 15	ži	ži	VERB	_	_	14	comp:aux	_	_
 16	kiɗìːnai	kiɗìːnai	VERB	_	ExtPos=NOUN|Gender=Masc|Person=3	15	comp:obj	_	_
@@ -3747,9 +3747,9 @@
 13	zamnàː	zamnàː	VERB	_	_	12	comp:aux	_	_
 14	gàba	gàba	ADV	_	_	13	mod	_	_
 15	gà	gà	ADP	_	_	13	comp:obl	_	_
-16	Dandà	Dandà	PROPN	_	_	15	comp:obj	_	_
-17	Garbaː	Garbaː	PROPN	_	_	16	flat@name	_	_
-18	Dikkò	kkò	PROPN	_	_	16	mod	_	_
+16	Dandà	Dandà	PROPN	_	_	15	comp:obj	_	Gloss=Dandà
+17	Garbaː	Garbaː	PROPN	_	_	16	flat@name	_	Gloss=Garba
+18	Dikkò	Dikkò	PROPN	_	_	16	mod	_	Gloss=Dikkò
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__245
@@ -3759,8 +3759,8 @@
 3	zamaːnai	zamaː	NOUN	_	ExtPos=NOUN|Gender=Masc|Person=3	2	comp:obj	_	_
 4	gàba	gàba	ADV	_	_	3	mod	_	_
 5	gà	gà	ADP	_	_	3	mod	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	cc	_	_
+6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	cc	_	Gloss=Dikkò
 8	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	_
 9	ži	ži	VERB	_	_	8	comp:aux	_	_
 10	wàdà	wàdà	ADV	_	_	9	mod	_	_
@@ -3770,9 +3770,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__246
 # text = Dandà Garbaː Dikkò yaƙ kwàːshi màkarkataː .
-1	Dandà	danon	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yaƙ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	kwàːshi	kwài	VERB	_	_	4	comp:aux	_	_
 6	màkarkataː	màkarkataː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	_
@@ -3821,9 +3821,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__250
 # text = Dandà Garbaː Dikkò yac cèː « yaːròː ìnaː kaž žiyoː kiɗìn maulòːna  ? »
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	«	«	PUNCT	_	_	8	punct	_	_
@@ -3853,12 +3853,12 @@
 1	Tôː	tôː	INTJ	_	_	11	discourse	_	_
 2	loːkàːcîn	loːkàːciː	NOUN	_	Definite=Cons|Gender=Masc	11	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	11	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	dikkòà	PROPN	_	_	5	mod	_	_
-7	Garbà	Garbà	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	11	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
+7	Garbà	Garbà	PROPN	_	_	5	mod	_	Gloss=Garba
 8	Ɗiɗìː	ɗiɗìː	PROPN	_	_	7	punct	_	_
-9	Garbà	Garbà	PROPN	_	_	7	conj:redup	_	_
+9	Garbà	Garbà	PROPN	_	_	7	conj:redup	_	Gloss=Garba
 10	Tatìː	Tatìː	PROPN	_	_	9	comp:obj	_	_
 11	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	_
@@ -3870,9 +3870,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__253
 # text = Dandà Garbaː Dikkò yac cèː màːsu maulòː sù taːsoː .
-1	Dandà	dandàː	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	màːsu	mài	ADP	_	Number=Plur	5	comp:obl	_	_
@@ -3883,9 +3883,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__254
 # text = Dandà Garbaː Dikkò yac cèː màːsu maulòː sù taːsoː .
-1	Dandà	dandàː	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	màːsu	mài	ADP	_	Number=Plur	5	comp:obl	_	_
@@ -3951,9 +3951,9 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	_
 4	nan	nan	DET	_	Definite=Def|PronType=Dem	3	det	_	_
-5	Dandà	dandàː	PROPN	_	_	8	mod	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	mod	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+5	Dandà	Dandà	PROPN	_	_	8	mod	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
 8	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 9	cèː	cêː	VERB	_	_	8	comp:aux	_	_
 10	«	«	PUNCT	_	_	12	punct	_	_
@@ -4026,8 +4026,8 @@
 16	'	ø	AUX	_	_	15	comp:aux	_	_
 17	iyà	iyàː	VERB	_	_	15	comp:aux	_	_
 18	kiɗìn	kiɗìː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	17	comp:obj	_	_
-19	Garbaː	Garbaː	PROPN	_	_	18	udep	_	_
-20	Dikkò	Dikkò	PROPN	_	_	19	mod	_	_
+19	Garbaː	Garbaː	PROPN	_	_	18	udep	_	Gloss=Garba
+20	Dikkò	Dikkò	PROPN	_	_	19	mod	_	Gloss=Dikkò
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__263
@@ -4046,9 +4046,9 @@
 3	à	ø	AUX	_	Aspect=Aor|Person=4	1	parataxis@conj	_	_
 4	yi	yi	VERB	_	_	3	comp:aux	_	_
 5	mà	mà	ADP	_	_	4	comp:obl	_	_
-6	Dandà	Dandà	PROPN	_	_	5	comp:obj	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	mod	_	_
-8	Dikkò	dikkgà	PROPN	_	_	9	mod	_	_
+6	Dandà	Dandà	PROPN	_	_	5	comp:obj	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	mod	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	9	mod	_	Gloss=Dikkò
 9	kiɗìː	kiɗìː	NOUN	_	Definite=Ind|Gender=Masc	6	mod	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -4079,9 +4079,9 @@
 1	Sa	sa	ADP	_	_	15	mod	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	CCONJ	_	_	1	discourse	_	_
-4	Dandà	Dandà	PROPN	_	_	7	comp:obj	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	kkò	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	comp:obj	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	sai	sai	ADP	_	_	15	mod	_	_
 8	hwa	hwa	PART	_	_	7	discourse@top	_	_
 9	gaːrad	gaːraː	NOUN	_	Definite=Cons|Gender=Masc	7	comp:obj	_	_
@@ -4130,17 +4130,17 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	wata	wata	DET	_	Gender=Fem	6	det	_	_
 6	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	2	mod	_	_
-7	Dandà	Dandà	PROPN	_	_	6	mod	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	comp:obj	_	_
-9	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	6	mod	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	comp:obj	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	6	mod	_	Gloss=Dikkò
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	Garbà	Garbà	PROPN	_	_	6	conj:appos	_	_
+11	Garbà	Garbà	PROPN	_	_	6	conj:appos	_	Gloss=Garba
 12	Ɗiɗìː	ɗiɗìː	PROPN	_	_	11	mod	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	Garbà	Garbà	PROPN	_	_	11	mod	_	_
+14	Garbà	Garbà	PROPN	_	_	11	mod	_	Gloss=Garba
 15	Tatìː	tatìː	PROPN	_	_	14	mod	_	_
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	Garbà	Garbà	PROPN	_	_	14	mod	_	_
+17	Garbà	Garbà	PROPN	_	_	14	mod	_	Gloss=Garba
 18	hàlle	hàlle	VERB	_	_	17	mod	_	_
 19	hàllan	hàllaː	ADJ	_	_	18	comp:obj	_	_
 20	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	19	mod	_	_
@@ -4293,9 +4293,9 @@
 11	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	_
 12	ta	ta	PART	_	Aspect=Iter	11	compound:prt	_	_
 13	yàbonkà	yàboː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	11	comp:aux	_	_
-14	Dandà	dandàː	PROPN	_	_	13	mod	_	_
-15	Garbaː	Garbaː	PROPN	_	_	14	mod	_	_
-16	Dikkò	Dikkò	PROPN	_	_	14	mod	_	_
+14	Dandà	Dandà	PROPN	_	_	13	mod	_	Gloss=Dandà
+15	Garbaː	Garbaː	PROPN	_	_	14	mod	_	Gloss=Garba
+16	Dikkò	Dikkò	PROPN	_	_	14	mod	_	Gloss=Dikkò
 17	.	.	PUNCT	_	_	11	punct	_	_
 18	»	»	PUNCT	_	_	11	punct	_	_
 
@@ -4339,9 +4339,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__282
 # text = Dandà Garbaː Dikkò yac cèː « Wàːtôː yàboːnaː sukà ta yîː , sunàː ta gòːdiyaː , koː ban kòː baː sù koːmiː ba  ? »
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	«	«	PUNCT	_	_	8	punct	_	_
@@ -4448,9 +4448,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__286
 # text = « Dandà Garbaː Dikkò shinàː kiràː . »
 1	«	«	PUNCT	_	_	5	punct	_	_
-2	Dandà	dandàː	PROPN	_	_	5	mod	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	mod	_	_
-4	Dikkò	Dikkò	PROPN	_	_	3	mod	_	_
+2	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
 5	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	_
 6	kiràː	kiràː	VERB	_	ExtPos=NOUN|Gender=Masc	5	comp:aux	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -4518,9 +4518,9 @@
 3	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	1	comp:cleft	_	_
 4	koːmoː	koːmoː	VERB	_	_	3	comp:aux	_	_
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	Dandà	Dandà	PROPN	_	_	12	mod	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	mod	_	_
-8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	_
+6	Dandà	Dandà	PROPN	_	_	12	mod	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	mod	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	Gloss=Dikkò
 9	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 10	cèː	cêː	VERB	_	_	9	comp:aux	_	_
 11	«	«	PUNCT	_	_	12	punct	_	_
@@ -4657,12 +4657,12 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__300
 # text = Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	dikkgà	PROPN	_	_	4	mod	_	_
-4	Garbà	Garbà	PROPN	_	_	0	root	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
+4	Garbà	Garbà	PROPN	_	_	0	root	_	Gloss=Garba
 5	Ɗiɗìː	ɗiɗìː	PROPN	_	_	4	mod	_	_
-6	Garbà	Garbà	PROPN	_	_	4	mod	_	_
+6	Garbà	Garbà	PROPN	_	_	4	mod	_	Gloss=Garba
 7	Tatìː	tatìː	PROPN	_	ExtPos=NOUN|Gender=Masc	6	comp:obj	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4678,9 +4678,9 @@
 8	»	»	PUNCT	_	_	2	punct	_	_
 9	ìn	ø	AUX	_	Aspect=Aor|Person=1	2	mod	_	_
 10	ži	ži	VERB	_	_	9	comp:aux	_	_
-11	Dandà	Dandà	PROPN	_	_	10	comp:pred	_	_
-12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	_
-13	Dikkò	Dikkò	PROPN	_	_	11	mod	_	_
+11	Dandà	Dandà	PROPN	_	_	10	comp:pred	_	Gloss=Dandà
+12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	Gloss=Garba
+13	Dikkò	Dikkò	PROPN	_	_	11	mod	_	Gloss=Dikkò
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__302
@@ -4702,9 +4702,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__303
 # text = Dandà Garbaː Dikkò yac cèː « yànzu in àkwai , ìn yi kyàutaː . »
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	«	«	PUNCT	_	_	7	punct	_	_
@@ -4748,9 +4748,9 @@
 # text = Shiː , Dandà Garbaː Dikkò , indà duk mài maulòː , in kai ɗai ka kè , in kuː buy , in kuː goːmà , saːnìyaː ɗàriː nàː .
 1	Shiː	shiː	PRON	_	Gender=Masc|Person=3	28	dislocated@subj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	Dandà	Dandà	PROPN	_	_	28	mod	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	_
-5	Dikkò	dikkgà	PROPN	_	_	13	conj:appos	_	_
+3	Dandà	Dandà	PROPN	_	_	28	mod	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	13	conj:appos	_	Gloss=Dikkò
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	indà	indà	ADV	_	_	28	mod	_	_
 8	duk	dukà	DET	_	_	7	det	_	_
@@ -4812,9 +4812,9 @@
 10	ci	ci	VERB	_	_	9	comp:aux	_	_
 11	arzìkiː	arzìkiː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:obj	_	_
 12	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	7	subj	_	_
-13	Dandà	Dandà	PROPN	_	_	12	mod	_	_
-14	Garbaː	Garbaː	PROPN	_	_	13	mod	_	_
-15	Dikkò	kkò	PROPN	_	_	13	mod	_	_
+13	Dandà	Dandà	PROPN	_	_	12	mod	_	Gloss=Dandà
+14	Garbaː	Garbaː	PROPN	_	_	13	mod	_	Gloss=Garba
+15	Dikkò	Dikkò	PROPN	_	_	13	mod	_	Gloss=Dikkò
 16	.	.	PUNCT	_	_	1	punct	_	_
 17	»	»	PUNCT	_	_	1	punct	_	_
 
@@ -4867,8 +4867,8 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__313
 # text = Dikkò Dikkò .
-1	Dikkò	Dikkò	PROPN	_	_	0	root	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	conj:redup	_	_
+1	Dikkò	Dikkò	PROPN	_	_	0	root	_	Gloss=Dikkò
+2	Dikkò	Dikkò	PROPN	_	_	1	conj:redup	_	Gloss=Dikkò
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__314
@@ -4946,9 +4946,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__320
 # text = Dandà Garbaː Dikkò , in waɗànga màːsu maulòː sunkà tàhi saːnìyaː ɗàriː , wasu kà mayèːwaː .
-1	Dandà	dandàː	PROPN	_	_	15	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	15	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	6	mod	_	Gloss=Dikkò
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	in	in	SCONJ	_	_	15	mod	_	_
 6	waɗànga	waɗànga	DET	_	Definite=Ind|Gender=Fem	9	subj	_	_
@@ -4966,9 +4966,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__321
 # text = Dandà Garbaː Dikkò shaːnuː sù daɗàː .
-1	Dandà	dandàː	PROPN	_	_	5	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 4	shaːnuː	shaːnuː	NOUN	_	Definite=Ind|Number=Plur	5	subj	_	_
 5	sù	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	_
 6	daɗàː	daɗàː	VERB	_	_	5	comp:aux	_	_
@@ -5007,9 +5007,9 @@
 4	dà	dà	VERB	_	_	3	comp:aux	_	_
 5	sauraː	sauraː	VERB	_	Definite=Ind|Gender=Fem	4	comp:obj	_	_
 6	gà	gà	ADP	_	_	5	comp:obl	_	_
-7	Dandà	Dandà	PROPN	_	_	6	comp:obj	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	_
-9	Dikkò	dikkòà	PROPN	_	_	5	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	6	comp:obj	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	5	mod	_	Gloss=Dikkò
 10	doːkìːnai	doːkìːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	11	mod	_	_
 11	Banìyoːgubà	Banìyoːgubà	PROPN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	1	mod	_	_
 12	dà	dà	ADP	_	_	11	mod	_	_
@@ -5031,17 +5031,17 @@
 1	Tôː	tôː	INTJ	_	_	15	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	15	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	danon	PROPN	_	_	15	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	dikkòà	PROPN	_	_	7	mod	_	_
-7	Garbà	Garbà	PROPN	_	_	15	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	15	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
+7	Garbà	Garbà	PROPN	_	_	15	mod	_	Gloss=Garba
 8	Ɗiɗìː	ɗiɗìː	PROPN	_	_	7	mod	_	_
-9	Garbà	Garbà	PROPN	_	_	7	conj:redup	_	_
+9	Garbà	Garbà	PROPN	_	_	7	conj:redup	_	Gloss=Garba
 10	Tatìː	tatìː	PROPN	_	_	9	comp:obj	_	_
 11	,	,	PUNCT	_	_	7	punct	_	_
-12	Dandà	Dandà	PROPN	_	_	15	mod	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	comp:obj	_	_
-14	Dikkò	dikkgà	PROPN	_	_	13	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	15	mod	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	flat@name	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	13	flat@name	_	Gloss=Dikkò
 15	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	_
 16	ràkkeː	ràkkaː	VERB	_	_	15	comp:aux	_	_
 17	sù	sù	PRON	_	Number=Plur|Person=3	16	comp:obj@R	_	_
@@ -5600,9 +5600,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__360
 # text = Dandà Garbaː Dikkò yac cèː matà « Kì cèː sù ɗaːmà sirìddaː kì sàllàmeː sù . »
-1	Dandà	danon	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	mod	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	mod	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	5	comp:obl	_	_
@@ -5736,12 +5736,12 @@
 12	ànnan	ànnan	PART	_	_	22	discourse	_	_
 13	mài	mài	ADP	_	Gender=Masc	12	mod	_	_
 14	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	7	subj	_	_
-15	Dandà	Dandà	PROPN	_	_	14	mod	_	_
-16	Garbaː	Garbaː	PROPN	_	_	15	mod	_	_
-17	Dikkò	dikkòà	PROPN	_	_	33	mod	_	_
+15	Dandà	Dandà	PROPN	_	_	14	mod	_	Gloss=Dandà
+16	Garbaː	Garbaː	PROPN	_	_	15	mod	_	Gloss=Garba
+17	Dikkò	Dikkò	PROPN	_	_	33	mod	_	Gloss=Dikkò
 18	garba	garba	NOUN	_	Definite=Cons	33	mod	_	_
 19	Ɗiɗìː	Ɗiɗìː	PROPN	_	_	18	mod	_	_
-20	Garbà	Garbà	PROPN	_	_	33	conj:appos	_	_
+20	Garbà	Garbà	PROPN	_	_	33	conj:appos	_	Gloss=Garba
 21	Tatìː	tatìː	PROPN	_	_	47	mod	_	_
 22	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	_
 23	taːshì	taːshì	VERB	_	_	22	comp:aux	_	_
@@ -6003,14 +6003,14 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__382
 # text = Dikkò .
-1	Dikkò	Dikkò	PROPN	_	_	0	root	_	_
+1	Dikkò	Dikkò	PROPN	_	_	0	root	_	Gloss=Dikkò
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__383
 # text = Dandà Garbaː Dikkò dà sunkà žaː shì sunkà tàhi gà hanyàː .
-1	Dandà	danon	PROPN	_	_	0	root	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	0	root	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	dà	dà	SCONJ	_	_	1	mod@relcl	_	_
 5	sunkà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	4	comp:obj	_	_
 6	žaː	žaː	VERB	_	_	5	comp:aux	_	_
@@ -6037,9 +6037,9 @@
 12	Tôː	tôː	INTJ	_	_	13	discourse	_	_
 13	baːwàmmu	baːwàmmu	PART	_	Polarity=Neg	9	comp:obj@T	_	_
 14	dà	dà	ADP	_	_	13	comp:obl	_	_
-15	Dandà	Dandà	PROPN	_	_	14	comp:obj	_	_
-16	Garbaː	Garbaː	PROPN	_	_	15	mod	_	_
-17	Dikkò	Dikkò	PROPN	_	_	15	mod	_	_
+15	Dandà	Dandà	PROPN	_	_	14	comp:obj	_	Gloss=Dandà
+16	Garbaː	Garbaː	PROPN	_	_	15	mod	_	Gloss=Garba
+17	Dikkò	Dikkò	PROPN	_	_	15	mod	_	Gloss=Dikkò
 18	yab	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	13	parataxis@conj	_	_
 19	baː	baː	VERB	_	_	18	comp:aux	_	_
 20	mù	mù	PRON	_	Number=Plur|Person=1	19	comp:obj@R	_	_
@@ -6141,8 +6141,8 @@
 7	cèː	cêː	VERB	_	_	6	comp:aux	_	_
 8	«	«	PUNCT	_	_	9	punct	_	_
 9	Gaskiyaː	gaskiyaː	PROPN	_	_	7	comp:obj@T	_	_
-10	Garbaː	Garbaː	PROPN	_	_	9	flat@name	_	_
-11	Dikkò	Dikkò	PROPN	_	_	10	flat@name	_	_
+10	Garbaː	Garbaː	PROPN	_	_	9	flat@name	_	Gloss=Garba
+11	Dikkò	Dikkò	PROPN	_	_	10	flat@name	_	Gloss=Dikkò
 12	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	comp:obj	_	_
 13	kai	kai	VERB	_	_	12	comp:aux	_	_
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -6153,11 +6153,11 @@
 1	«	«	PUNCT	_	_	11	punct	_	_
 2	Im	in	SCONJ	_	_	11	mod	_	_
 3	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	_
-4	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	_
-5	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
-6	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	_
-8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	_
+4	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
+6	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	Gloss=Dikkò
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	waː	waː	PRON	_	_	11	mod	_	_
 11	kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	_
@@ -6196,9 +6196,9 @@
 9	indàː	indàː	ADV	_	_	15	mod	_	_
 10	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	11	subj	_	_
 11	kakèː	kèː	AUX	_	Gender=Masc|Person=2	9	mod@relcl	_	_
-12	Dandà	dandàː	PROPN	_	_	11	comp:pred	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	11	comp:pred	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	comp:obj@T	_	_
 16	kaːmoː	kaːmoː	VERB	_	Definite=Ind|Gender=Masc	15	comp:aux	_	_
 17	kà	ø	AUX	_	Aspect=ProgBkg	6	comp:obj	_	_
@@ -6511,14 +6511,14 @@
 7	dà	dà	ADP	_	_	6	comp:obl	_	_
 8	suː	suː	PRON	_	Number=Plur|Person=3	7	comp:obj	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	Dandà	Dandà	SCONJ	_	_	26	mod	_	_
-11	Garbaː	Garbaː	PROPN	_	_	10	comp:obj	_	_
-12	Dikkò	dikkòà	PROPN	_	_	11	cc	_	_
-13	Garbà	Garbà	PROPN	_	_	30	conj:dicto	_	_
+10	Dandà	Dandà	SCONJ	_	_	26	mod	_	Gloss=Dandà
+11	Garbaː	Garbaː	PROPN	_	_	10	flat@name	_	Gloss=Garba
+12	Dikkò	Dikkò	PROPN	_	_	11	flat@name	_	Gloss=Dikkò
+13	Garbà	Garbà	PROPN	_	_	30	conj:dicto	_	Gloss=Garba
 14	Ɗiɗìː	ɗiɗìː	PROPN	_	_	13	punct	_	_
-15	Garbà	Garbà	PROPN	_	_	13	conj:redup	_	_
+15	Garbà	Garbà	PROPN	_	_	13	conj:redup	_	Gloss=Garba
 16	Tatìː	tatìː	PROPN	_	_	15	comp:obj	_	_
-17	Garbà	Garbà	PROPN	_	_	29	mod	_	_
+17	Garbà	Garbà	PROPN	_	_	29	mod	_	Gloss=Garba
 18	hàlle	hàlle	VERB	_	_	15	mod	_	_
 19	hàllan	hàllan	ADV	_	_	17	mod	_	_
 20	hàukaː	hàukaː	NOUN	_	Definite=Ind	19	mod	_	_
@@ -6572,8 +6572,8 @@
 6	ìn	ø	AUX	_	Aspect=Aor|Person=1	5	udep	_	_
 7	zamnàː	zamnàː	VERB	_	_	6	comp:aux	_	_
 8	gà	gà	ADP	_	_	5	comp:obl	_	_
-9	Garbaː	Garbaː	PROPN	_	_	8	comp:obj	_	_
-10	Dikkò	Dikkò	PROPN	_	_	9	flat@name	_	_
+9	Garbaː	Garbaː	PROPN	_	_	8	comp:obj	_	Gloss=Garba
+10	Dikkò	Dikkò	PROPN	_	_	9	flat@name	_	Gloss=Dikkò
 11	ìn	ø	AUX	_	Aspect=Aor|Person=1	6	parataxis@conj	_	_
 12	yi	yi	VERB	_	_	11	comp:aux	_	_
 13	mai	mai	PRON	_	Gender=Masc|Person=3	12	comp:obl	_	_
@@ -6662,8 +6662,8 @@
 10	nùːraː	nùːraː	NOUN	_	Definite=Ind|Gender=Fem	8	comp:aux	_	_
 11	dà	dà	ADP	_	_	10	comp:obl	_	_
 12	idòn	idòː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__420
@@ -6817,9 +6817,9 @@
 # text = A'àː Dandà Garbaː Dikkò keːwàːyaːwàː naː yay yi .
 1	A	a	INTJ	_	_	7	discourse	_	_
 2	'àː	'àː	PUNCT	_	_	1	punct	_	_
-3	Dandà	dandàː	PROPN	_	_	7	comp:obj	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	comp:obj	_	_
-5	Dikkò	dikkgà	PROPN	_	_	4	mod	_	_
+3	Dandà	Dandà	PROPN	_	_	7	comp:obj	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	flat@name	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	flat@name	_	Gloss=Dikkò
 6	keːwàːyaːwàː	keːwàːyaːwàː	NOUN	_	Definite=Ind|Gender=Fem	7	subj	_	_
 7	naː	neː	AUX	_	_	0	root	_	_
 8	yay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	7	comp:cleft	_	_
@@ -6848,12 +6848,12 @@
 7	can	can	ADV	_	PronType=Dem	6	comp:obj	_	_
 8	gàba	gàba	ADV	_	_	6	comp:obj	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	Dandà	danon	SCONJ	_	_	17	mod	_	_
-11	Garbaː	Garbaː	PROPN	_	_	10	comp:obj	_	_
-12	Dikkò	dikkòà	PROPN	_	_	11	mod	_	_
-13	Garbà	Garbà	PROPN	_	_	11	mod	_	_
+10	Dandà	Dandà	SCONJ	_	_	17	mod	_	Gloss=Dandà
+11	Garbaː	Garbaː	PROPN	_	_	10	flat@name	_	Gloss=Garba
+12	Dikkò	Dikkò	PROPN	_	_	11	flat@name	_	Gloss=Dikkò
+13	Garbà	Garbà	PROPN	_	_	11	mod	_	Gloss=Garba
 14	Ɗiɗìː	ɗiɗìː	PROPN	_	_	13	punct	_	_
-15	Garbà	Garbà	PROPN	_	_	13	conj:redup	_	_
+15	Garbà	Garbà	PROPN	_	_	13	conj:redup	_	Gloss=Garba
 16	Tatìː	tatìː	PROPN	_	_	15	comp:obj	_	_
 17	yas	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	3	mod	_	_
 18	sallàmaː	sallàmaː	VERB	_	_	17	comp:aux	_	_
@@ -6922,9 +6922,9 @@
 1	Tôː	tôː	INTJ	_	_	7	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	7	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	dikkòà	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	tàrbi	tàrbi	VERB	_	_	7	comp:aux	_	_
 9	gàban	gàbaː	NOUN	_	Definite=Cons	8	mod	_	_
@@ -7056,18 +7056,18 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	niː	niː	PRON	_	Person=1	10	dislocated@subj	_	_
 10	nàː	nàː	AUX	_	Aspect=Prog	2	comp:obj	_	_
-11	Dandà	dandàː	VERB	_	_	10	comp:aux	_	_
-12	Garbaː	Garbaː	PROPN	_	_	11	comp:obj	_	_
-13	Dikkò	dikkòà	PROPN	_	_	12	mod	_	_
-14	Garbà	Garbà	PROPN	_	_	11	mod	_	_
+11	Dandà	Dandà	VERB	_	_	10	comp:aux	_	Gloss=Dandà
+12	Garbaː	Garbaː	PROPN	_	_	11	flat@name	_	Gloss=Garba
+13	Dikkò	Dikkò	PROPN	_	_	12	flat@name	_	Gloss=Dikkò
+14	Garbà	Garbà	PROPN	_	_	11	mod	_	Gloss=Garba
 15	Ɗiɗìː	ɗiɗìː	PROPN	_	_	14	comp:obj	_	_
-16	Garbà	Garbà	PROPN	_	_	14	conj:redup	_	_
+16	Garbà	Garbà	PROPN	_	_	14	conj:redup	_	Gloss=Garba
 17	Tatìː	tatìː	PROPN	_	_	16	comp:obj	_	_
-18	Garbà	Garbà	PROPN	_	_	10	comp:pred	_	_
+18	Garbà	Garbà	PROPN	_	_	10	comp:pred	_	Gloss=Garba
 19	hàlle	hàlle	VERB	_	_	18	mod	_	_
 20	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Fem	19	comp:obj	_	_
 21	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	20	mod	_	_
-22	Garbà	Garbà	PROPN	_	_	18	conj:redup	_	_
+22	Garbà	Garbà	PROPN	_	_	18	conj:redup	_	Gloss=Garba
 23	hàlle	hàlle	VERB	_	_	22	comp:cleft	_	_
 24	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Fem	23	comp:obj	_	_
 25	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	24	mod	_	_
@@ -7112,12 +7112,12 @@
 2	loːkàːcîn	loːkàːciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	neː	AUX	_	_	0	root	_	_
-5	Dandà	dandàː	ADP	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
-8	Garbà	Garbà	PROPN	_	_	6	conj:appos	_	_
+5	Dandà	Dandà	ADP	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
+8	Garbà	Garbà	PROPN	_	_	6	conj:appos	_	Gloss=Garba
 9	Ɗiɗìː	ɗiɗìː	PROPN	_	_	8	comp:obj	_	_
-10	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	_
+10	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	Gloss=Garba
 11	Tatìː	tatìː	PROPN	_	_	10	comp:obj	_	_
 12	im	in	SCONJ	_	_	4	mod	_	_
 13	mùtun	mùtun	NOUN	_	Definite=Ind|Gender=Masc	14	subj	_	_
@@ -7235,9 +7235,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__457
 # text = Dandà Garbaː Dikkò yak koːmà gidaː dà shaːnuː 'yak kàrad duːkìyaː .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	koːmà	koːmà	VERB	_	_	4	comp:aux	_	_
 6	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj@G	_	_
@@ -7255,9 +7255,9 @@
 3	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 4	koːmàː	koːmàː	VERB	_	_	3	comp:aux	_	_
 5	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj@G	_	_
-6	Dandà	Dandà	PROPN	_	_	5	mod	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	mod	_	_
-8	Dikkò	kkò	PROPN	_	_	6	mod	_	_
+6	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	mod	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	6	mod	_	Gloss=Dikkò
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__459
@@ -7286,9 +7286,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__461
 # text = Dandà Garbaː Dikkò yak koːmàː gidaː dà shaːnuːnai dà baːyuːnai .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	koːmàː	koːmàː	VERB	_	_	4	comp:aux	_	_
 6	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj@G	_	_
@@ -7376,9 +7376,9 @@
 4	arzìkiː	arzìkiː	NOUN	_	Definite=Ind|Gender=Masc	3	udep	_	_
 5	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	3	mod	_	_
 6	nan	nan	DET	_	Definite=Def|PronType=Dem	5	det	_	_
-7	Dandà	Dandà	PROPN	_	_	5	mod	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	_
-9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 10	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	parataxis@conj	_	_
 11	tàhi	tàhi	VERB	_	_	10	comp:aux	_	_
 12	indà	indà	ADV	_	_	11	comp:obj@G	_	_
@@ -7387,18 +7387,18 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__468
 # text = Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː Garbà hàlle hàllan hàukaː Garbà hàlle hàllan mutuwàː .
-1	Dandà	danon	SCONJ	_	_	0	root	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	dikkgà	PROPN	_	_	2	mod	_	_
-4	Garbà	Garbà	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	0	root	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
+4	Garbà	Garbà	PROPN	_	_	2	mod	_	Gloss=Garba
 5	Ɗiɗìː	ɗiɗìː	PROPN	_	_	4	mod	_	_
-6	Garbà	Garbà	PROPN	_	_	4	conj:redup	_	_
+6	Garbà	Garbà	PROPN	_	_	4	conj:redup	_	Gloss=Garba
 7	Tatìː	tatìː	PROPN	_	_	6	comp:obj	_	_
-8	Garbà	Garbà	PROPN	_	_	4	mod	_	_
+8	Garbà	Garbà	PROPN	_	_	4	mod	_	Gloss=Garba
 9	hàlle	hàlle	VERB	_	_	8	mod	_	_
 10	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	_
 11	hàukaː	hàukaː	NOUN	_	Definite=Ind	10	mod	_	_
-12	Garbà	Garbà	PROPN	_	_	8	mod	_	_
+12	Garbà	Garbà	PROPN	_	_	8	mod	_	Gloss=Garba
 13	hàlle	hàlle	VERB	_	_	12	comp:aux	_	_
 14	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	_
 15	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	14	mod	_	_
@@ -7416,9 +7416,9 @@
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	_
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	_
 4	shiː	shiː	PRON	_	Gender=Masc|Person=3	3	comp:obj	_	_
-5	Dandà	Dandà	PROPN	_	_	4	conj:appos	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	mod	_	_
-7	Dikkò	kkò	PROPN	_	_	6	mod	_	_
+5	Dandà	Dandà	PROPN	_	_	4	conj:appos	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
 8	baːshì	baâi	AUX	_	Person=3|Polarity=Neg	3	comp:obj	_	_
 9	tsòːroː	tsòːroː	NOUN	_	Definite=Ind|Gender=Masc	8	comp:aux	_	_
 10	sai	sai	ADP	_	_	8	mod	_	_
@@ -7532,9 +7532,9 @@
 12	akà	(n)kà	AUX	_	Aspect=ProgBkg|Person=4	8	comp:cleft	_	_
 13	cêː	cêː	VERB	_	_	12	comp:aux	_	_
 14	màː	màː	ADP	_	_	13	comp:obl	_	_
-15	Dandà	Dandà	PROPN	_	_	14	comp:obj	_	_
-16	Garbaː	Garbaː	PROPN	_	_	15	flat@name	_	_
-17	Dikkò	kkò	PROPN	_	_	15	mod	_	_
+15	Dandà	Dandà	PROPN	_	_	14	comp:obj	_	Gloss=Dandà
+16	Garbaː	Garbaː	PROPN	_	_	15	flat@name	_	Gloss=Garba
+17	Dikkò	Dikkò	PROPN	_	_	15	mod	_	Gloss=Dikkò
 18	?	?	PUNCT	_	_	4	punct	_	_
 19	“	“	PUNCT	_	_	4	punct	_	_
 
@@ -7557,9 +7557,9 @@
 3	mai	mai	PRON	_	Gender=Masc|Person=3	2	comp:obl	_	_
 4	“	“	PUNCT	_	_	6	punct	_	_
 5	Tôː	tôː	INTJ	_	_	6	discourse	_	_
-6	Dandà	Dandà	PROPN	_	_	1	mod	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	_
-8	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+6	Dandà	Dandà	PROPN	_	_	1	mod	_	Gloss=Dandà
+7	Garbaː	Garbaː	PROPN	_	_	6	flat@name	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	Gloss=Dikkò
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	kân	kâi	NOUN	_	Definite=Cons|Gender=Masc	6	mod	_	_
 11	bùːra	bùːra	VERB	_	Definite=Ind|Gender=Fem	10	mod	_	_
@@ -7574,14 +7574,14 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	nàː	AUX	_	Aspect=Prog	0	root	_	_
-5	Dandà	dandàː	ADP	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	dikkòà	PROPN	_	_	6	mod	_	_
-8	Garbà	Garbà	PROPN	_	_	6	mod	_	_
+5	Dandà	Dandà	ADP	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
+8	Garbà	Garbà	PROPN	_	_	6	mod	_	Gloss=Garba
 9	Ɗiɗìː	ɗiɗìː	PROPN	_	_	8	mod	_	_
-10	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	_
+10	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	Gloss=Garba
 11	Tatìː	tatìː	PROPN	_	_	10	comp:obj	_	_
-12	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	_
+12	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	Gloss=Garba
 13	hàlle	hàlle	VERB	_	_	12	mod	_	_
 14	hàllan	hàllan	ADV	_	_	13	mod	_	_
 15	hàukaː	hàukaː	NOUN	_	Definite=Ind	14	mod	_	_
@@ -7614,9 +7614,9 @@
 9	mutù	mutù	VERB	_	_	8	comp:aux	_	_
 10	ìn	ø	AUX	_	Aspect=Aor|Person=1	8	parataxis@conj	_	_
 11	ži	ži	VERB	_	_	10	comp:aux	_	_
-12	Dandà	dandàː	PROPN	_	_	11	comp:obj@G	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	11	comp:obj@G	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	.	.	PUNCT	_	_	1	punct	_	_
 16	“	“	PUNCT	_	_	1	punct	_	_
 
@@ -7649,9 +7649,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__483
 # text = Dandà Garbaː Dikkò yash shìga ruwaː dà doːkìː yah hwasàː sai dà yaɓ ɓullèː hakà .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yash	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	shìga	shìga	VERB	_	_	4	comp:aux	_	_
 6	ruwaː	ruwaː	NOUN	_	Definite=Ind|Number=Plur	5	comp:obj@G	_	_
@@ -7719,12 +7719,12 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	neː	AUX	_	_	0	root	_	_
-5	Dandà	dandàː	PROPN	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	cc	_	_
-8	Garbà	Garbà	PROPN	_	_	6	conj:appos	_	_
+5	Dandà	Dandà	PROPN	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
+8	Garbà	Garbà	PROPN	_	_	6	conj:appos	_	Gloss=Garba
 9	Ɗiɗìː	Ɗiɗìː	PROPN	_	_	8	punct	_	_
-10	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	_
+10	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	Gloss=Garba
 11	Tatìː	tatìː	PROPN	_	_	10	comp:obj	_	_
 12	dà	dà	SCONJ	_	_	6	mod@relcl	_	_
 13	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	12	comp:obj	_	_
@@ -7790,9 +7790,9 @@
 7	cèː	cêː	VERB	_	_	6	comp:aux	_	_
 8	“	“	PUNCT	_	_	9	punct	_	_
 9	Habàː	habàː	PROPN	_	_	7	comp:obj@T	_	_
-10	Dandà	dandàː	PROPN	_	_	9	comp:obj	_	_
-11	Garbaː	Garbaː	PROPN	_	_	10	mod	_	_
-12	Dikkò	Dikkò	PROPN	_	_	10	mod	_	_
+10	Dandà	Dandà	PROPN	_	_	9	comp:obj	_	Gloss=Dandà
+11	Garbaː	Garbaː	PROPN	_	_	10	mod	_	Gloss=Garba
+12	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	niː	niː	PRON	_	Person=1	15	dislocated@subj	_	_
 15	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	comp:cleft	_	_
@@ -7862,9 +7862,9 @@
 1	Tôː	tôː	INTJ	_	_	8	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	8	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	kkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	8	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	kuma	kuma	PART	_	_	2	discourse@top	_	_
 8	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 9	hwasoː	hwasàː	VERB	_	_	8	comp:aux	_	_
@@ -7899,9 +7899,9 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	neː	AUX	_	_	0	root	_	_
-5	Dandà	dandàː	ADP	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+5	Dandà	Dandà	ADP	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
 8	dà	dà	SCONJ	_	_	2	mod@relcl	_	_
 9	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	8	comp:obj	_	_
 10	hìta	hìta	VERB	_	_	9	comp:aux	_	_
@@ -7945,9 +7945,9 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ìn	ø	AUX	_	Aspect=Aor|Person=1	5	comp:obj@T	_	_
 11	ži	ži	VERB	_	_	10	comp:aux	_	_
-12	Dandà	dandàː	PROPN	_	_	11	comp:pred	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	11	comp:pred	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__500
@@ -8032,9 +8032,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__505
 # text = Dandà Garbaː Dikkò ya cèː “ Dan àbin dà yas sàː yac cèː shinàː tàmmahà indà duk namižì yak kaːc'èː koː wàndoːnai shinàː ɗàːme gau gau gau , gam gam gam shi kè , sai taːzàraːtai taː ɗan sakìː kàɗan , dan duz zardàɓeːwàː shikài kàmas shì yi zaːwòː , namižì in yak kaːc'èː ba ? “
-1	Dandà	danon	SCONJ	_	_	38	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	8	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	38	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	8	mod	_	Gloss=Dikkò
 4	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:obj	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	“	“	PUNCT	_	_	14	punct	_	_
@@ -8097,18 +8097,18 @@
 1	Tôː	tôː	INTJ	_	_	7	discourse	_	_
 2	loːkàːcîn	loːkàːciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	7	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	kkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	tohoː	tah-	VERB	_	_	7	comp:aux	_	_
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__507
 # text = Dandà Garbaː Dikkò yat tohoː .
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	_
-3	Dikkò	kkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	Gloss=Dikkò
 4	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	tohoː	tah-	VERB	_	_	4	comp:aux	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -8126,9 +8126,9 @@
 9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	comp:obj	_	_
 10	wucèː	wucèː	VERB	_	_	9	comp:aux	_	_
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	Dandà	Dandà	PROPN	_	_	9	mod	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	13	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	9	mod	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	flat@name	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	13	flat@name	_	Gloss=Dikkò
 15	hay	hat	SCONJ	_	_	9	mod	_	_
 16	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	15	comp:obj	_	_
 17	wucèː	wucèː	VERB	_	_	16	comp:aux	_	_
@@ -8302,9 +8302,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__519
 # text = Dandà Garbaː Dikkò bài tassà kâi yà diːbàː ba .
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	mod	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
 5	tassà	tassàː	VERB	_	Voice=Cau	4	comp:aux	_	_
 6	kâi	kâi	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
@@ -8360,9 +8360,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__522
 # text = Dandà Garbaː Dikkò bài waiwàyaː ba .
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	kkò	PROPN	_	_	1	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 4	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
 5	waiwàyaː	waiwàyaː	VERB	_	_	4	comp:aux	_	_
 6	ba	ba	PART	_	Polarity=Neg	5	mod	_	_
@@ -8378,9 +8378,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__524
 # text = Dandà Garbaː Dikkò bài waiwàyaː ba , tabbàːshiːnai shinàː tàhe shinàː tuːtsàːtai dà wasu c'inoːniː gà kuyùɓɓaː , àmman bài waiwàyaː ba .
-1	Dandà	dandàː	SCONJ	_	_	9	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	9	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	Gloss=Dikkò
 4	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	1	comp:obj	_	_
 5	waiwàyaː	waiwàyaː	VERB	_	_	4	comp:aux	_	_
 6	ba	ba	PART	_	Polarity=Neg	5	mod	_	_
@@ -8411,8 +8411,8 @@
 4	kai	kai	VERB	_	_	3	comp:aux	_	_
 5	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj@G	_	_
 6	wurin	wurin	ADP	_	Definite=Cons	4	comp:obj@G	_	_
-7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	_
-8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	_
+7	Garbaː	Garbaː	PROPN	_	_	6	comp:obj	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	Gloss=Dikkò
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 11	shìga	shìga	VERB	_	_	10	comp:aux	_	_
@@ -8438,9 +8438,9 @@
 4	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	3	mod	_	_
 5	àbincìː	àbincìː	NOUN	_	Definite=Ind|Gender=Masc	4	udep	_	_
 6	àmman	àmman	CCONJ	_	_	7	cc	_	_
-7	Dandà	Dandà	PROPN	_	_	10	subj	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	_
-9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	10	subj	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 10	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	2	parataxis@mod	_	_
 11	cêː	cêː	VERB	_	_	10	comp:aux	_	_
 12	mai	mai	PRON	_	Gender=Masc|Person=3	11	comp:obl	_	_
@@ -8682,9 +8682,9 @@
 1	Sa	sa	PROPN	_	_	7	dislocated@subj	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	ADV	_	_	7	discourse	_	_
-4	Dandà	Dandà	PROPN	_	_	7	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	_
+4	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	cèː	cêː	VERB	_	_	7	comp:aux	_	_
 9	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	8	comp:obl	_	_
@@ -8871,9 +8871,9 @@
 1	Tôː	tôː	INTJ	_	_	8	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	Dandà	PROPN	_	_	7	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	kwaːnaː	kwaːnaː	VERB	_	ExtPos=NOUN|Gender=Masc	8	mod	_	_
 8	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
 9	kammà	kammàː	VERB	_	_	8	comp:aux	_	_
@@ -8903,9 +8903,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__551
 # text = Dandà Garbaː Dikkò yat tassà baːwàːnai yac cèː shiː mà doːkìːnai sirdìː .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	tassà	taːs-	VERB	_	Voice=Cau	4	comp:aux	_	_
 6	baːwàːnai	baːwàːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	5	comp:obj	_	_
@@ -8992,9 +8992,9 @@
 1	Tôː	tôː	INTJ	_	_	8	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	2	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	2	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	sai	sai	ADV	_	_	8	mod	_	_
 8	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 9	‘	‘	PUNCT	_	_	8	punct	_	_
@@ -9032,9 +9032,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__558
 # text = Sai Dandà Garbaː Dikkò yay yi musù sallamàː .
 1	Sai	sai	ADV	_	_	5	mod	_	_
-2	Dandà	Dandà	PROPN	_	_	5	mod	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	mod	_	_
-4	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+2	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	mod	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	2	mod	_	Gloss=Dikkò
 5	yay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 6	yi	yi	VERB	_	_	5	comp:aux	_	_
 7	musù	musù	PRON	_	Number=Plur|Person=3	6	comp:obl	_	_
@@ -9069,9 +9069,9 @@
 1	Sa	sa	PROPN	_	_	7	dislocated@subj	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	PART	_	_	7	discourse	_	_
-4	Dandà	Dandà	PROPN	_	_	7	subj	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	subj	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 7	yas	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	sabkàː	sabkàː	VERB	_	_	7	comp:aux	_	_
 9	dàb	dàgà	ADP	_	_	8	comp:obl	_	_
@@ -9245,9 +9245,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__567
 # text = Dandà Garbaː Dikkò in ya’ azà ƙòːdagòː shì cêː « Yànzu dà mun ƙaːrèː darà ìn tàhi ìn tarà shaːnun Gilaːgèː-Gilaːgè saːnìyaː goːmà shâː buy dà ɗam màraƙìː goːmà shâː buy ìn kai mà màːtaː ‘YabBàraːya . »
-1	Dandà	danon	ADP	_	_	9	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	1	mod	_	_
+1	Dandà	Dandà	ADP	_	_	9	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 4	in	in	SCONJ	_	_	9	mod	_	_
 5	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	comp:obj	_	SpaceAfter=No
 6	’	’	PUNCT	_	_	5	comp:aux	_	_
@@ -9324,9 +9324,9 @@
 2	dà	dà	CCONJ	_	_	4	cc@preconj	_	_
 3	Gilaːgèː-Gilaːgè	Gilaːgèː-gilaːgè	PROPN	_	_	1	comp:obj	_	_
 4	shiːdà	shiːdà	PRON	_	Gender=Masc|Person=3	8	dislocated@subj	_	_
-5	Dandà	Dandà	PROPN	_	_	4	conj:appos	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	mod	_	_
-7	Dikkò	dikkòà	PROPN	_	_	5	mod	_	_
+5	Dandà	Dandà	PROPN	_	_	4	conj:appos	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	mod	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	5	mod	_	Gloss=Dikkò
 8	sunkài	(n)kài	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	_
 9	ta	ta	PART	_	Aspect=Iter	8	comp:aux	_	_
 10	darà	darà	VERB	_	_	8	comp:aux	_	_
@@ -9344,9 +9344,9 @@
 5	sa	sa	VERB	_	_	3	comp:obj	_	SpaceAfter=No
 6	’	’	PUNCT	_	_	8	punct	_	_
 7	ànnan	ànnan	CCONJ	_	_	11	subj	_	_
-8	Dandà	Dandà	PROPN	_	_	11	mod	_	_
-9	Garbaː	Garbaː	PROPN	_	_	8	flat@name	_	_
-10	Dikkò	Dikkò	PROPN	_	_	8	mod	_	_
+8	Dandà	Dandà	PROPN	_	_	11	mod	_	Gloss=Dandà
+9	Garbaː	Garbaː	PROPN	_	_	8	flat@name	_	Gloss=Garba
+10	Dikkò	Dikkò	PROPN	_	_	8	mod	_	Gloss=Dikkò
 11	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 12	taːshì	taːshì	VERB	_	_	11	comp:aux	_	_
 13	yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	11	parataxis@conj	_	_
@@ -9393,9 +9393,9 @@
 1	Loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	3	mod	_	_
 2	nan	nan	DET	_	Definite=Def|PronType=Dem	1	det	_	_
 3	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
-4	Dandà	dandàː	PROPN	_	_	3	comp:aux	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	Dikkò	PROPN	_	_	9	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	3	comp:aux	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	9	mod	_	Gloss=Dikkò
 7	yab	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	3	parataxis@conj	_	_
 8	bi	bi	VERB	_	_	7	comp:aux	_	_
 9	goːdabòn	goːdabòː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	_
@@ -9500,9 +9500,9 @@
 1	Tôː	tôː	INTJ	_	_	7	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	Dandà	dandàː	PROPN	_	_	7	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	kkò	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	tàhi	tàhi	VERB	_	_	7	comp:aux	_	_
 9	indà	indà	ADV	_	_	8	comp:obj@G	_	_
@@ -9538,9 +9538,9 @@
 1	Sa	sa	PROPN	_	_	8	mod	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	PART	_	_	1	discourse	_	_
-4	Dandà	Dandà	PROPN	_	_	8	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	kkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	8	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	bàːwaːnai	bàːwaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	8	subj	_	_
 8	yaž	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 9	žirkàː	žirkàː	VERB	_	_	8	comp:aux	_	_
@@ -9594,9 +9594,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__584
 # text = Dandà Garbaː Dikkò .
-1	Dandà	Dandà	PROPN	_	_	0	root	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	kkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	0	root	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__585
@@ -9946,9 +9946,9 @@
 7	doːkìːnai	doːkì:nai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	6	comp:obj	_	_
 8	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	5	parataxis@conj	_	_
 9	kwàràːri	kwàràːraː	VERB	_	_	8	comp:aux	_	_
-10	Dandà	dandàː	ADP	_	_	9	mod	_	_
-11	Garbaː	Garbaː	PROPN	_	_	10	mod	_	_
-12	Dikkò	Dikkò	PROPN	_	_	10	mod	_	_
+10	Dandà	Dandà	ADP	_	_	9	mod	_	Gloss=Dandà
+11	Garbaː	Garbaː	PROPN	_	_	10	mod	_	Gloss=Garba
+12	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__607
@@ -9975,9 +9975,9 @@
 9	c	êː	VERB	_	_	8	comp:aux	_	SpaceAfter=No
 10	’	’	PUNCT	_	_	11	punct	_	_
 11	ìnkai	ìnkai	ADV	_	_	9	comp:obj	_	_
-12	Dandà	Dandà	PROPN	_	_	11	mod	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Dandà	Dandà	PROPN	_	_	11	mod	_	Gloss=Dandà
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	can	can	ADV	_	PronType=Dem	9	comp:obj	_	_
 16	zàmne	zamnàː	VERB	_	_	11	mod	_	_
 17	bisà	bisà	ADP	_	_	16	comp:obl	_	_
@@ -9999,9 +9999,9 @@
 7	yi	yi	VERB	_	_	6	comp:aux	_	_
 8	kusa	kusa	ADV	_	_	7	comp:pred	_	_
 9	gà	gà	ADP	_	_	7	mod	_	_
-10	Dandà	Dandà	PROPN	_	_	9	comp:obj	_	_
-11	Garbaː	Garbaː	PROPN	_	_	10	flat@name	_	_
-12	Dikkò	Dikkò	PROPN	_	_	10	mod	_	_
+10	Dandà	Dandà	PROPN	_	_	9	comp:obj	_	Gloss=Dandà
+11	Garbaː	Garbaː	PROPN	_	_	10	flat@name	_	Gloss=Garba
+12	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	3	parataxis@conj	_	_
 15	cèː	cêː	VERB	_	_	14	comp:aux	_	_
@@ -10033,9 +10033,9 @@
 4	zâː	zâː	VERB	_	_	3	comp:aux	_	_
 5	ni	ni	PRON	_	Person=1	4	subj	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	Dandà	Dandà	PROPN	_	_	2	mod	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	_
-9	Dikkò	Dikkò	PROPN	_	_	8	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	2	mod	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	8	flat@name	_	Gloss=Dikkò
 10	.	.	PUNCT	_	_	2	punct	_	_
 11	»	»	PUNCT	_	_	3	punct	_	_
 
@@ -10044,9 +10044,9 @@
 1	Yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	_
 3	mà	mà	ADP	_	_	2	comp:obl	_	_
-4	Dandà	Dandà	PROPN	_	_	3	comp:obj	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	3	comp:obj	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	«	«	PUNCT	_	_	8	punct	_	_
 8	Kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	2	comp:obj@T	_	_
 9	taːshì	taːshì	VERB	_	_	8	comp:aux	_	_
@@ -10216,9 +10216,9 @@
 5	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 6	zaːburoː	zaːburoː	VERB	_	_	5	comp:aux	_	_
 7	gà	gà	ADP	_	_	6	comp:obl	_	_
-8	Dandà	dandàː	PROPN	_	_	7	comp:obj	_	_
-9	Garbaː	Garbaː	PROPN	_	_	8	mod	_	_
-10	Dikkò	dikkòà	PROPN	_	_	12	mod	_	_
+8	Dandà	Dandà	PROPN	_	_	7	comp:obj	_	Gloss=Dandà
+9	Garbaː	Garbaː	PROPN	_	_	8	mod	_	Gloss=Garba
+10	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 11	dà	dà	CCONJ	_	_	12	cc	_	_
 12	takoːbiː	takoːbiː	NOUN	_	Definite=Ind|Gender=Masc	8	conj:coord	_	_
 13	dà	dà	ADP	_	_	14	cc	_	_
@@ -10243,14 +10243,14 @@
 1	Yah	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 2	hwaːɗì	hwaːɗì	VERB	_	_	1	comp:aux	_	_
 3	bisà	bisà	ADP	_	_	2	comp:obl	_	_
-4	Dandà	dandàː	PROPN	_	_	3	comp:obj	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	kkò	PROPN	_	_	5	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	3	comp:obj	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	mod	_	_
 9	bâː	baːbù	VERB	_	_	8	comp:aux	_	_
-10	Garbaː	Garbaː	PROPN	_	_	9	comp:obj@T	_	_
-11	Dikkò	Dikkò	PROPN	_	_	10	mod	_	_
+10	Garbaː	Garbaː	PROPN	_	_	9	comp:obj@T	_	Gloss=Garba
+11	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
 12	ƙùlliː	ƙùlliː	NOUN	_	Definite=Ind|Gender=Masc	9	comp:obj@T	_	_
 13	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10258,8 +10258,8 @@
 # text = Shinàː bugùn Garbaː Dikkò .
 1	Shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	_
 2	bugùn	bugùː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	1	comp:aux	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	udep	_	_
-4	Dikkò	dikkgà	PROPN	_	_	2	mod	_	_
+3	Garbaː	Garbaː	PROPN	_	_	2	udep	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	2	mod	_	Gloss=Dikkò
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__629
@@ -10267,8 +10267,8 @@
 1	Àsheː	àsheː	INTJ	_	_	3	discourse	_	_
 2	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	_
 3	bugùn	bugùː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	_
-5	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
+4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 6	naː	yaː	AUX	_	Aspect=Perf|Person=1	3	mod	_	_
 7	shikài	shikài	VERB	_	Gender=Masc|Person=3	6	comp:obj	_	_
 8	ba	ba	PART	_	Polarity=Neg	3	mod	_	_
@@ -10276,8 +10276,8 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__630
 # text = Garbaː Dikkò shinàː ta kashìn ƙeːyàːtai bài kulàː mai ba .
-1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	_
+1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	Gloss=Garba
+2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	_
 4	ta	ta	PART	_	Aspect=Iter	3	compound:prt	_	_
 5	kashìn	kashìː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	3	comp:aux	_	_
@@ -10294,24 +10294,24 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	_
 4	bugùn	bugùː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	_
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	naː	yaː	AUX	_	_	4	mod	_	_
 8	shikài	shikài	AUX	_	Gender=Masc|Person=3	7	comp:obj	_	_
 9	ba	ba	PART	_	Polarity=Neg	4	mod	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	làllaƙàg	làllaƙàː	NOUN	_	Definite=Cons|Gender=Fem	4	mod	_	_
-12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	_
-13	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	Gloss=Garba
+13	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 14	naː	naː	AUX	_	Aspect=Perf|Person=1	11	mod	_	_
 15	shikài	shikài	AUX	_	Gender=Masc|Person=3	14	comp:obj	_	_
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__632
 # text = Dandà Garbaː Dikkò yac cèː mai « Dan Allàː im bàː hwaɗàː kaz zakà ba , kà ar mùrdukàːtaː , dàk kà sâː ni dàːriyaː .
-1	Dandà	danon	SCONJ	_	_	17	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	11	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	17	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	11	mod	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	mai	mai	PRON	_	Gender=Masc|Person=3	5	comp:obl	_	_
@@ -10372,9 +10372,9 @@
 4	sa	sa	ADP	_	_	2	mod	_	SpaceAfter=No
 5	’	’	PUNCT	_	_	7	punct	_	_
 6	ànnan	ànnan	ADV	_	_	7	mod	_	_
-7	Dandà	Dandà	PROPN	_	_	10	subj	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	_
-9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	10	subj	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 10	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	parataxis@conj	_	_
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	_
 12	«	«	PUNCT	_	_	17	punct	_	_
@@ -10406,14 +10406,14 @@
 1	Yaɗ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 2	ɗòːki	ɗauk-	VERB	_	_	1	comp:aux	_	_
 3	takòːbin	takòːbiː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	_
-4	Dandà	dandàː	PROPN	_	_	3	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	_
+4	Dandà	Dandà	PROPN	_	_	3	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	parataxis@conj	_	_
 8	zaːburoː	zaːburoː	VERB	_	_	7	comp:aux	_	_
 9	gà	gà	ADP	_	_	8	comp:obl	_	_
-10	Garbaː	Garbaː	PROPN	_	_	9	comp:obj	_	_
-11	Dikkò	Dikkò	PROPN	_	_	10	flat@name	_	_
+10	Garbaː	Garbaː	PROPN	_	_	9	comp:obj	_	Gloss=Garba
+11	Dikkò	Dikkò	PROPN	_	_	10	flat@name	_	Gloss=Dikkò
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__638
@@ -10433,19 +10433,19 @@
 2	hwaːɗì	hwaːɗì	VERB	_	_	1	comp:aux	_	_
 3	bisà	bisà	ADP	_	_	2	comp:obl	_	_
 4	gà	gà	ADP	_	_	3	comp:obj	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	_
-6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	_
+5	Garbaː	Garbaː	PROPN	_	_	4	comp:obj	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	comp:obj@T	_	_
 9	bugùn	bugùː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	8	comp:aux	_	_
-10	Garbaː	Garbaː	PROPN	_	_	9	udep	_	_
-11	Dikkò	Dikkò	PROPN	_	_	10	mod	_	_
+10	Garbaː	Garbaː	PROPN	_	_	9	udep	_	Gloss=Garba
+11	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__640
 # text = Garbaː Dikkò yac cèː « Niː làllaƙàːtaː nàː niž ži kanàː yîː . »
-1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	flat@name	_	_
+1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	Gloss=Garba
+2	Dikkò	Dikkò	PROPN	_	_	1	flat@name	_	Gloss=Dikkò
 3	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 4	cèː	cêː	VERB	_	_	3	comp:aux	_	_
 5	«	«	PUNCT	_	_	8	punct	_	_
@@ -10525,9 +10525,9 @@
 # text = Loːkàcîn nan Dandà Garbaː Dikkò yaɗ ɗaːmà wàndoːnai , taːzàraw wàndoːnai , yat taːshì yak kaːmà doːkìːnai Banìyoːgubà , yah hau .
 1	Loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	mod	_	_
 2	nan	nan	DET	_	Definite=Def|PronType=Dem	1	det	_	_
-3	Dandà	dandàː	PROPN	_	_	6	mod	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	_
-5	Dikkò	dikkgà	PROPN	_	_	10	mod	_	_
+3	Dandà	Dandà	PROPN	_	_	6	mod	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
 6	yaɗ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 7	ɗaːmà	ɗaːmàː	VERB	_	_	6	comp:aux	_	_
 8	wàndoːnai	wàndoːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	7	comp:obj	_	_
@@ -10628,16 +10628,16 @@
 2	Gilaːgè	Gilaːgè	PROPN	_	_	3	subj	_	_
 3	yaɗ	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:obj	_	_
 4	dòːki	ɗaːkaː	VERB	_	_	3	comp:aux	_	_
-5	Dandà	Dandà	PROPN	_	_	4	comp:obj	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	mod	_	_
-7	Dikkò	Dikkò	PROPN	_	_	5	mod	_	_
+5	Dandà	Dandà	PROPN	_	_	4	comp:obj	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	mod	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	5	mod	_	Gloss=Dikkò
 8	nân	nân	ADV	_	PronType=Dem	15	mod	_	_
 9	shikà	kà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=3	8	comp:cleft	_	_
 10	kashèːwaː	kashèː	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	_
 11	dà	dà	ADP	_	_	10	comp:obl	_	_
 12	kaːyèː	kaːyèː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	_
-14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 15	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 16	zoː	zoː	VERB	_	_	15	comp:aux	_	_
 17	tsàye	tsay-	VERB	_	_	16	mod	_	_
@@ -10645,8 +10645,8 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__653
 # text = Garbaː Dikkò shì ɗoːkoː Gilaːgè , nân shikà kashèːwaː dà kaːyèː shì zoː tsàye .
-1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	_
+1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	Gloss=Garba
+2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 3	shì	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	_
 4	ɗoːkoː	ɗauk-	VERB	_	_	3	comp:aux	_	_
 5	Gilaːgè	Gilaːgè	PROPN	_	_	4	comp:obj	_	_
@@ -10844,11 +10844,11 @@
 7	iyà	iyàː	VERB	_	_	5	comp:aux	_	_
 8	hakànan	hakànan	ADV	_	_	7	mod	_	_
 9	sai	sai	ADV	_	_	7	mod	_	_
-10	Garbaː	Garbaː	PROPN	_	_	3	subj	_	_
-11	Dikkò	dikkòà	PROPN	_	_	10	mod	_	_
-12	Garbà	Garbà	PROPN	_	_	10	mod	_	_
+10	Garbaː	Garbaː	PROPN	_	_	3	subj	_	Gloss=Garba
+11	Dikkò	Dikkò	PROPN	_	_	10	mod	_	Gloss=Dikkò
+12	Garbà	Garbà	PROPN	_	_	10	mod	_	Gloss=Garba
 13	Ɗiɗìː	ɗiɗìː	PROPN	_	_	12	mod	_	_
-14	Garbà	Garbà	PROPN	_	_	12	conj:redup	_	_
+14	Garbà	Garbà	PROPN	_	_	12	conj:redup	_	Gloss=Garba
 15	Tatìː	tatìː	PROPN	_	_	14	mod	_	_
 16	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10893,13 +10893,13 @@
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	«	«	PUNCT	_	_	7	punct	_	_
-7	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-8	Dikkò	dikkòà	PROPN	_	_	7	mod	_	_
-9	Garbà	Garbà	PROPN	_	_	7	mod	_	_
+7	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	Gloss=Garba
+8	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
+9	Garbà	Garbà	PROPN	_	_	7	mod	_	Gloss=Garba
 10	Ɗiɗìː	ɗiɗìː	PROPN	_	_	9	mod	_	_
-11	Garbà	Garbà	PROPN	_	_	9	conj:redup	_	_
+11	Garbà	Garbà	PROPN	_	_	9	conj:redup	_	Gloss=Garba
 12	Tatìː	tatìː	PROPN	_	_	11	comp:obj	_	_
-13	Garbà	Garbà	PROPN	_	_	9	mod	_	_
+13	Garbà	Garbà	PROPN	_	_	9	mod	_	Gloss=Garba
 14	hàlle	hàlle	VERB	_	_	17	comp:aux	_	_
 15	hàllan	hàllaː	ADJ	_	_	14	comp:obj	_	_
 16	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	15	mod	_	_
@@ -10912,8 +10912,8 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__669
 # text = Garbaː Dikkò kai kac cèː Allàː shì gamàː ka dà Banì gà dažìː kà kashèː Banì . »
-1	Garbaː	Garbaː	PROPN	_	_	7	subj	_	_
-2	Dikkò	Dikkò	PROPN	_	_	1	det	_	_
+1	Garbaː	Garbaː	PROPN	_	_	7	subj	_	Gloss=Garba
+2	Dikkò	Dikkò	PROPN	_	_	1	det	_	Gloss=Dikkò
 3	kai	kai	PRON	_	Gender=Masc|Person=2	7	mod	_	_
 4	kac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	3	comp:cleft	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
@@ -11180,8 +11180,8 @@
 1	Sa	sa	PROPN	_	_	6	dislocated@subj	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	PART	_	_	6	discourse	_	_
-4	Garbaː	Garbaː	PROPN	_	_	6	subj	_	_
-5	Dikkò	Dikkò	PROPN	_	_	4	flat@name	_	_
+4	Garbaː	Garbaː	PROPN	_	_	6	subj	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	flat@name	_	Gloss=Dikkò
 6	yac	yak	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 7	cèː	cêː	VERB	_	_	6	comp:aux	_	_
 8	«	«	PUNCT	_	_	10	punct	_	_
@@ -11271,9 +11271,9 @@
 4	tàhi	tàhi	VERB	_	_	3	comp:aux	_	_
 5	indà	indà	ADV	_	_	4	comp:obj@G	_	_
 6	baːwàn	baːwàː	NOUN	_	Definite=Cons|Number=Plur	5	mod	_	_
-7	Dandà	Dandà	PROPN	_	_	5	mod@relcl	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	_
-9	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	5	mod@relcl	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	mod	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 10	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	3	parataxis@conj	_	_
 11	taroː	tar-	VERB	_	_	10	comp:aux	_	_
 12	shaːnuː	shaːnuː	NOUN	_	Definite=Ind|Number=Plur	11	comp:obj	_	_
@@ -11314,9 +11314,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__691
 # text = Dandà Garbaː Dikkò yac cèː « Sai dai à yi hakà . »
-1	Dandà	Dandà	PROPN	_	_	4	subj	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	_
+1	Dandà	Dandà	PROPN	_	_	4	subj	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	_
 6	«	«	PUNCT	_	_	7	punct	_	_
@@ -11353,9 +11353,9 @@
 1	Sa	sa	PROPN	_	_	7	subj	_	SpaceAfter=No
 2	’	’	PUNCT	_	_	4	punct	_	_
 3	ànnan	ànnan	PART	_	_	1	discourse	_	_
-4	Dandà	Dandà	PROPN	_	_	7	mod	_	_
-5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	_
-6	Dikkò	kkò	PROPN	_	_	4	mod	_	_
+4	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+5	Garbaː	Garbaː	PROPN	_	_	4	mod	_	Gloss=Garba
+6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	yay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 8	yoː	yi	VERB	_	_	7	comp:aux	_	_
 9	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	8	comp:pred	_	_
@@ -11370,14 +11370,14 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__696
 # text = Dikkò .
-1	Dikkò	Dikkò	PROPN	_	_	0	root	_	_
+1	Dikkò	Dikkò	PROPN	_	_	0	root	_	Gloss=Dikkò
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__697
 # text = Dandà Garbaː Dikkò yaz zoː gidaː .
-1	Dandà	dandàː	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	kkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	zoː	zoː	VERB	_	_	4	comp:aux	_	_
 6	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj@G	_	_
@@ -11386,9 +11386,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__698
 # text = Dà Dandà Garbaː Dikkò yaz zakà gidaː yac cèː mà ‘YabBàraːya « Gàː shaːnuː nan . »
 1	Dà	dà	ADV	_	_	5	mod	_	_
-2	Dandà	dandàː	PROPN	_	_	5	subj	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	_
-4	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+2	Dandà	Dandà	PROPN	_	_	5	subj	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	2	mod	_	Gloss=Dikkò
 5	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 6	zakà	zak-	VERB	_	_	5	comp:aux	_	_
 7	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj@G	_	_
@@ -11471,9 +11471,9 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
 4	nàː	kè	AUX	_	_	0	root	_	_
-5	Dandà	dandàː	ADP	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+5	Dandà	Dandà	ADP	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
 8	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	parataxis@conj	_	_
 9	kwaːna	kwaːnaː	VERB	_	ExtPos=NOUN|Gender=Masc	8	comp:aux	_	_
 10	lìːsahiː	lìːsahiː	NOUN	_	Definite=Ind|Gender=Masc	9	comp:obj	_	_
@@ -11497,14 +11497,14 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__705
-# text = Tôː loːkàcîn nan nà Dandà Garbaː Dikkò yak kìrai màːlàmmai .
+# text = Tôː loːkàcîn nan nàː Dandà Garbaː Dikkò yak kìrai màːlàmmai .
 1	Tôː	tôː	INTJ	_	_	4	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nà	nà	AUX	_	_	0	root	_	_
-5	Dandà	dandàː	PROPN	_	_	4	comp:pred	_	_
-6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	_
-7	Dikkò	Dikkò	PROPN	_	_	6	mod	_	_
+4	nàː	nàː	AUX	_	_	0	root	_	_
+5	Dandà	Dandà	PROPN	_	_	4	comp:pred	_	Gloss=Dandà
+6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garba
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
 8	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	parataxis@conj	_	_
 9	kìrai	kiraː	VERB	_	_	8	comp:aux	_	_
 10	màːlàmmai	màːlàm	NOUN	_	Definite=Ind|Number=Plur	9	comp:obj	_	_
@@ -11610,9 +11610,9 @@
 8	mai	mai	PRON	_	Gender=Masc|Person=3	7	comp:obl	_	_
 9	«	«	PUNCT	_	_	11	punct	_	_
 10	Tôː	tôː	INTJ	_	_	11	discourse	_	_
-11	Dandà	dandàː	PROPN	_	_	6	mod	_	_
-12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	_
-13	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+11	Dandà	Dandà	PROPN	_	_	6	mod	_	Gloss=Dandà
+12	Garbaː	Garbaː	PROPN	_	_	11	flat@name	_	Gloss=Garba
+13	Dikkò	Dikkò	PROPN	_	_	12	flat@name	_	Gloss=Dikkò
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	bàː	bàː	PART	_	Polarity=Neg	11	mod	_	_
 16	dai	dai	PART	_	_	15	discourse@top	_	_
@@ -11790,9 +11790,9 @@
 # text = Loːkàcîn nan Dandà Garbaː Dikkò yay yi shaːwaràː gà râinai .
 1	Loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	mod	_	_
 2	nan	nan	DET	_	Definite=Def|PronType=Dem	1	det	_	_
-3	Dandà	dandàː	PROPN	_	_	6	mod	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	_
-5	Dikkò	kkò	PROPN	_	_	4	mod	_	_
+3	Dandà	Dandà	PROPN	_	_	6	mod	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	flat@name	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	4	flat@name	_	Gloss=Dikkò
 6	yay	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 7	yi	yi	VERB	_	_	6	comp:aux	_	_
 8	shaːwaràː	shaːwaràː	NOUN	_	Definite=Ind|Gender=Fem	7	comp:pred	_	_
@@ -11832,9 +11832,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__726
 # text = Dandà Garbaː Dikkò yas sàː rìgaː raggàː , yan naɗèː takòːbiːnai , yas sàː wàndon raggàː .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yas	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	sàː	sàː	VERB	_	_	4	comp:aux	_	_
 6	rìgaː	rìgaː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	_
@@ -11920,8 +11920,8 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__732
 # text = Garbaː Dikkò indà duk yat tàhi sai shì sàbka gidan sarkiː .
-1	Garbaː	Garbaː	PROPN	_	_	8	dislocated@subj	_	_
-2	Dikkò	dikkkà	PROPN	_	_	1	mod	_	_
+1	Garbaː	Garbaː	PROPN	_	_	8	dislocated@subj	_	Gloss=Garba
+2	Dikkò	Dikkò	PROPN	_	_	1	mod	_	Gloss=Dikkò
 3	indà	indà	ADV	_	PronType=Rel	8	mod	_	_
 4	duk	dukà	DET	_	_	3	det	_	_
 5	yat	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	3	mod@relcl	_	_
@@ -12482,9 +12482,9 @@
 # text = Shiː kòː Dandà Garbaː Dikkò , shinà nân , ankà kai shì gà ‘yab bukkàː can yâmma gà gàriː .
 1	Shiː	shiː	PRON	_	Gender=Masc|Person=3	7	dislocated@subj	_	_
 2	kòː	kùwa	PART	_	_	1	discourse@top	_	_
-3	Dandà	Dandà	PROPN	_	_	7	mod	_	_
-4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	_
-5	Dikkò	Dikkò	PROPN	_	_	3	mod	_	_
+3	Dandà	Dandà	PROPN	_	_	7	mod	_	Gloss=Dandà
+4	Garbaː	Garbaː	PROPN	_	_	3	mod	_	Gloss=Garba
+5	Dikkò	Dikkò	PROPN	_	_	3	mod	_	Gloss=Dikkò
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	shinà	nà	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	_
 8	nân	nân	ADV	_	PronType=Dem	7	comp:aux	_	_
@@ -13040,9 +13040,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__803
 # text = Dandà Garbaː Dikkò yaž žaː ɗan maguržiː , yaɗ ɗaːmèː cikìːnai .
-1	Dandà	danon	SCONJ	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yaž	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	žaː	žaː	VERB	_	_	4	comp:aux	_	_
 6	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:pred	_	_
@@ -13115,8 +13115,8 @@
 9	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	10	subj	_	_
 10	tas	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	_
 11	sàːri	sàːraː	VERB	_	_	10	comp:aux	_	_
-12	Garbaː	Garbaː	PROPN	_	_	11	comp:obj	_	_
-13	Dikkò	Dikkò	PROPN	_	_	12	mod	_	_
+12	Garbaː	Garbaː	PROPN	_	_	11	comp:obj	_	Gloss=Garba
+13	Dikkò	Dikkò	PROPN	_	_	12	mod	_	Gloss=Dikkò
 14	gà	gà	ADP	_	_	11	comp:obl	_	_
 15	ƙahwàː	ƙahwàː	NOUN	_	Definite=Ind|Gender=Fem	14	comp:obj	_	_
 16	.	.	PUNCT	_	_	10	punct	_	_
@@ -13143,9 +13143,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__810
 # text = Dà Dandà Garbaː Dikkò yag ga ƙahwàːtai nàː žiniː sai yat taːloː zanàn ɗìyas sarkiː yaɗ ɗaːmèː ƙahwàːtai dan sabàddà žiniː shì tsayàː .
 1	Dà	dà	SCONJ	_	_	11	mod	_	_
-2	Dandà	dandàː	PROPN	_	_	5	subj	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	_
-4	Dikkò	Dikkò	PROPN	_	_	8	subj	_	_
+2	Dandà	Dandà	PROPN	_	_	5	subj	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	8	subj	_	Gloss=Dikkò
 5	yag	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:obj	_	_
 6	ga	ganiː	VERB	_	_	5	comp:aux	_	_
 7	ƙahwàːtai	ƙahwàːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	8	subj	_	_
@@ -13210,9 +13210,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__813
 # text = Dandà Garbaː Dikkò yash shìga cikin yaːƙìː .
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yash	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 5	shìga	shìga	VERB	_	_	4	comp:aux	_	_
 6	cikin	cikin	ADP	_	_	5	comp:obl	_	_
@@ -13417,8 +13417,8 @@
 # text = Shiː kòː Garbaː Dikkò sai yak koːmoː cikin ‘yab bukkàːtai kàmab bàː shiː nàː yac ceːtoː gàriː ba .
 1	Shiː	shiː	PRON	_	_	6	dislocated@subj	_	_
 2	kòː	kùwa	PART	_	_	1	discourse@top	_	_
-3	Garbaː	Garbaː	PROPN	_	_	1	conj:appos	_	_
-4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	_
+3	Garbaː	Garbaː	PROPN	_	_	1	conj:appos	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
 5	sai	sai	ADV	_	_	6	mod	_	_
 6	yak	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	_
 7	koːmoː	koːmoː	VERB	_	_	6	comp:aux	_	_
@@ -13448,9 +13448,9 @@
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__827
 # text = Dandà Garbaː Dikkò dà yaz zakà sai yas sàː raggàn wàndoː mài ruhè makaːmiːnai .
-1	Dandà	danon	SCONJ	_	_	8	mod	_	_
-2	Garbaː	Garbaː	PROPN	_	_	1	comp:obj	_	_
-3	Dikkò	Dikkò	PROPN	_	_	2	mod	_	_
+1	Dandà	Dandà	SCONJ	_	_	8	mod	_	Gloss=Dandà
+2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garba
+3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	dà	dà	SCONJ	_	_	8	mod	_	_
 5	yaz	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	comp:obj	_	_
 6	zakà	zak-	VERB	_	_	5	comp:aux	_	_
@@ -13485,9 +13485,9 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__829
 # text = Àsheː Dandà Garbaː Dikkò bài cìnkài ta ba sai dà tat tirmisam mai .
 1	Àsheː	àsheː	PROPN	_	_	5	discourse	_	_
-2	Dandà	Dandà	PROPN	_	_	5	mod	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	mod	_	_
-4	Dikkò	kkò	PROPN	_	_	2	mod	_	_
+2	Dandà	Dandà	PROPN	_	_	5	mod	_	Gloss=Dandà
+3	Garbaː	Garbaː	PROPN	_	_	2	mod	_	Gloss=Garba
+4	Dikkò	Dikkò	PROPN	_	_	2	mod	_	Gloss=Dikkò
 5	bài	bài	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
 6	cìnkài	cìnkài	VERB	_	_	5	comp:aux	_	_
 7	ta	ta	PRON	_	Gender=Fem|Person=3	6	comp:obj	_	_
@@ -13618,9 +13618,9 @@
 4	ankà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	2	conj:coord	_	_
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	_
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	_
-7	Dandà	Dandà	PROPN	_	_	6	comp:obj	_	_
-8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	_
-9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	_
+7	Dandà	Dandà	PROPN	_	_	6	comp:obj	_	Gloss=Dandà
+8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garba
+9	Dikkò	Dikkò	PROPN	_	_	7	mod	_	Gloss=Dikkò
 10	«	«	PUNCT	_	_	12	punct	_	_
 11	Sarkiː	sarkiː	NOUN	_	Definite=Ind|Gender=Masc	12	subj	_	_
 12	nàː	nàː	AUX	_	Aspect=Prog	5	comp:obj	_	_
@@ -13739,20 +13739,20 @@
 10	«	«	PUNCT	_	_	12	punct	_	_
 11	Niː	niː	PRON	_	Person=1	12	subj	_	_
 12	nàː	nàː	AUX	_	Aspect=Prog	9	comp:obj	_	_
-13	Garbaː	Garbaː	PROPN	_	_	12	comp:aux	_	_
-14	Dikkò	dikkòà	PROPN	_	_	13	comp:obl	_	_
-15	Garbà	Garbà	PROPN	_	_	13	mod	_	_
+13	Garbaː	Garbaː	PROPN	_	_	12	comp:aux	_	Gloss=Garba
+14	Dikkò	Dikkò	PROPN	_	_	13	comp:obl	_	Gloss=Dikkò
+15	Garbà	Garbà	PROPN	_	_	13	mod	_	Gloss=Garba
 16	Ɗiɗìː	ɗiɗìː	PROPN	_	_	15	comp:obj	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	Garbà	Garbà	PROPN	_	_	15	mod	_	_
+18	Garbà	Garbà	PROPN	_	_	15	mod	_	Gloss=Garba
 19	Tatìː	tatìː	PROPN	_	_	18	mod	_	_
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	Garbà	Garbà	PROPN	_	_	12	comp:pred	_	_
+21	Garbà	Garbà	PROPN	_	_	12	comp:pred	_	Gloss=Garba
 22	hàlleː	hàlleː	VERB	_	_	21	mod	_	_
 23	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	22	mod	_	_
 24	hàukaː	hàukaː	NOUN	_	Definite=Ind|Gender=Masc	23	mod	_	_
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	Garbà	Garbà	PROPN	_	_	21	mod	_	_
+26	Garbà	Garbà	PROPN	_	_	21	mod	_	Gloss=Garba
 27	hàlleː	hàlleː	VERB	_	_	26	mod	_	_
 28	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Masc	27	mod	_	_
 29	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	28	mod	_	_
