@@ -1,16 +1,16 @@
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__1
 # text = Shiː Dandà Garbaː Dikkò ùbaːnainàː ag Garbà , uwaːtai Dikkò .
-1	Shiː	shiː	PRON	_	Gender=Masc|Person=3	0	root	_	_
-2	Dandà	dandàː	PROPN	_	_	1	conj:appos	_	_
-3	Garbaː	Garbaː	PROPN	_	_	2	comp:obj	_	_
-4	Dikkò	dikkgà	PROPN	_	_	3	mod	_	_
-5	ùbaːnainàː	ùbaːnainàː	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	1	conj:appos	_	_
-6	ag	neː	AUX	_	_	5	mod	_	_
+1	Shiː	shiː	PRON	_	Gender=Masc|Person=3	5	discourse@top	_	_
+2	Dandà	Dandàː	PROPN	_	_	1	conj:appos	_	_
+3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	_
+4	Dikkò	dikkgà	PROPN	_	_	3	flat@name	_	_
+5	ùbaːnainàː	ùbaːnainàː	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	0	root	_	_
+6	ag	neː	AUX	_	_	5	comp:cleft	_	_
 7	Garbà	Garbà	PROPN	_	_	6	comp:obj	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	7	mod	_	_
-10	Dikkò	Dikkò	PROPN	_	_	9	mod	_	_
-11	.	.	PUNCT	_	_	1	punct	_	_
+9	uwaːtai	uwaːtai	NOUN	_	Gender=Fem|Person=3	5	conj:coord	_	_
+10	Dikkò	Dikkò	PROPN	_	_	9	comp:pred	_	_
+11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = HAUA_BC_NARR_05_Garba_Dikko__2
 # text = Ùbaːnainàː ag Garbà , uwaːtai Dikkò .
