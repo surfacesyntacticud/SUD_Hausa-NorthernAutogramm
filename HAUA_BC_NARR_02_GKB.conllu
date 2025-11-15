@@ -10,7 +10,7 @@
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=6834|AlignEnd=7001|Gloss=go
 4	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj@G	_	AlignBegin=7001|AlignEnd=7168|Gloss=house.Masc
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=7168|AlignEnd=7335|Gloss=PUNCT
-6	ani	yâː	AUX	_	Number=Sing|Person=1|Tense=Pred	0	root	_	AlignBegin=7335|AlignEnd=7502|Gloss=1Sing.Fut2(Predict)|Predict=Yes
+6	ani	yâː	AUX	_	Mood=Pot|Number=Sing|Person=1	0	root	_	AlignBegin=7335|AlignEnd=7502|Gloss=1Sing.Pot
 7	hwaɗàː	hwaɗ-	VERB	_	_	6	comp:aux	_	AlignBegin=7502|AlignEnd=7669|Gloss=tell
 8	maː	maː	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	7	comp:obl	_	AlignBegin=7669|AlignEnd=7836|Gloss=2Masc.Dat
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=7836|AlignEnd=8000|Gloss=PUNCT
@@ -43,7 +43,7 @@
 1	aː’àː	aː’àː	INTJ	_	_	10	discourse	_	AlignBegin=12415|AlignEnd=12585|Gloss=no
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=12585|AlignEnd=12755|Gloss=PUNCT
 3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	10	vocative	_	AlignBegin=12755|AlignEnd=12925|Gloss=2Masc.Nom
-4	dai	dai	PART	_	_	3	discourse@top	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed|PartType=Top
+4	dai	dai	PART	_	PartType=Top	3	discourse@top	_	AlignBegin=12925|AlignEnd=13095|Gloss=indeed
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=13095|AlignEnd=13265|Gloss=PUNCT
 6	in	in	SCONJ	_	_	10	mod	_	AlignBegin=13265|AlignEnd=13435|Gloss=if
 7	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=2	6	comp:obj	_	AlignBegin=13435|AlignEnd=13605|Gloss=2Masc.PerfInd
@@ -111,9 +111,9 @@
 3	kam	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=2	2	comp:obj	_	AlignBegin=29348|AlignEnd=29487|Gloss=2Masc.PerfInd
 4	mânceː	mant-	VERB	_	_	3	comp:aux	_	AlignBegin=29487|AlignEnd=29626|Gloss=forget
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=29626|AlignEnd=29765|Gloss=PUNCT
-6	àkwai	àkwai	PART	_	_	13	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is|PartType=Pred
+6	àkwai	àkwai	PART	_	PartType=Pred	13	mod	_	AlignBegin=29904|AlignEnd=30043|Gloss=there_is
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=30043|AlignEnd=30182|Gloss=PUNCT
-8	dà	dà	PART	_	_	6	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with|PartType=Pred
+8	dà	dà	PART	_	PartType=Pred	6	conj:dicto	_	AlignBegin=30182|AlignEnd=30321|Gloss=with
 9	wata	wani	DET	_	Gender=Fem|PronType=Ind	10	det	_	AlignBegin=30460|AlignEnd=30599|Gloss=some.Fem
 10	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	8	comp:pred	_	AlignBegin=30599|AlignEnd=30738|Gloss=day.Fem
 11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=30738|AlignEnd=30877|Gloss=PUNCT
@@ -132,7 +132,7 @@
 1	indà	indà	SCONJ	_	_	16	mod	_	AlignBegin=34735|AlignEnd=34938|Gloss=if
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=34938|AlignEnd=35141|Gloss=2Masc.Perf
 3	tunàː	tun-	VERB	_	_	2	comp:aux	_	AlignBegin=35141|AlignEnd=35344|Gloss=remember
-4	dai	dai	PART	_	_	2	discourse@top	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed|PartType=Top
+4	dai	dai	PART	_	PartType=Top	2	discourse@top	_	AlignBegin=35344|AlignEnd=35547|Gloss=indeed
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=35547|AlignEnd=35750|Gloss=PUNCT
 6	yànzu	yànzu	ADV	_	_	16	mod	_	AlignBegin=35750|AlignEnd=35953|Gloss=now
 7	in	in	SCONJ	_	_	16	mod	_	AlignBegin=35953|AlignEnd=36156|Gloss=if
@@ -191,7 +191,7 @@
 18	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	15	conj:coord	_	AlignBegin=42958|AlignEnd=43124|Gloss=1Sing.Sub
 19	ƙaːràː	ƙaːr-	VERB	_	_	18	comp:aux	_	AlignBegin=43124|AlignEnd=43290|Gloss=increase
 20	gà	gà	ADP	_	_	19	comp:obl	_	AlignBegin=43290|AlignEnd=43456|Gloss=by
-21	wàccân	wàccân	DET	_	Gender=Fem|PronType=Dem	22	det	_	AlignBegin=43456|AlignEnd=43622|Deixis=Remt|Gloss=Rmt.Fem
+21	wàccân	wàccân	DET	_	Deixis=Remt|Gender=Fem|PronType=Dem	22	det	_	AlignBegin=43456|AlignEnd=43622|Gloss=Rmt.Fem
 22	taːkà	taːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	20	comp:obj	_	AlignBegin=43622|AlignEnd=43788|Gloss=2Masc.Gen
 23	//	//	PUNCT	_	_	9	punct	_	AlignBegin=43788|AlignEnd=43963|Gloss=PUNCT
 
@@ -217,7 +217,7 @@
 1	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	AlignBegin=45299|AlignEnd=45443|Gloss=2Masc.Sub
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=45443|AlignEnd=45587|Gloss=do
 3	ɗaː	ɗaː	NOUN	_	Definite=Ind|Gender=Masc	2	comp:obj	_	AlignBegin=45587|AlignEnd=45731|Gloss=child.Masc
-4	dai	dai	PART	_	_	1	discourse@top	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed|PartType=Top
+4	dai	dai	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=45731|AlignEnd=45875|Gloss=indeed
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=45875|AlignEnd=46018|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_13
@@ -274,7 +274,7 @@
 7	dà	dà	ADP	_	_	6	comp:obl	_	AlignBegin=52270|AlignEnd=52495|Gloss=with
 8	saurad	sauraː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj	_	AlignBegin=52495|AlignEnd=52720|Gloss=remains.Fem.Cons
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=52720|AlignEnd=52945|Gloss=REL
-10	ad	neː	AUX	_	_	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Background=Yes|Copula=Yes|Gloss=Ident.Bkg
+10	ad	neː	AUX	_	Background=Yes	9	comp:obj	_	AlignBegin=52945|AlignEnd=53170|Copula=Yes|Gloss=Ident.Bkg
 11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=53170|AlignEnd=53395|Gloss=with
 12	sauraː	sauraː	NOUN	_	Definite=Ind|Gender=Fem	11	comp:obj	_	AlignBegin=53395|AlignEnd=53620|Gloss=remains.Fem
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=53620|AlignEnd=53848|Gloss=PUNCT
@@ -299,7 +299,7 @@
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=58193|AlignEnd=58399|Gloss=PUNCT
 12	cikoː	cikoː	VERB	_	_	9	conj:dicto	_	AlignBegin=58193|AlignEnd=58399|Gloss=fill
 13	abìn	àbiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Cons
-14	ga	ga	DET	_	PronType=Dem	13	det	_	AlignBegin=58811|AlignEnd=59017|Deixis=Prox|Gloss=Prox
+14	ga	ga	DET	_	Deixis=Prox|PronType=Dem	13	det	_	AlignBegin=58811|AlignEnd=59017|Gloss=Prox
 15	shìn	shìn	ADV	_	_	6	mod	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q
 16	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=59017|AlignEnd=59223|Gloss=PUNCT
 
@@ -517,7 +517,7 @@
 3	[	[	PUNCT	_	_	6	punct	_	AlignBegin=126576|AlignEnd=126864|Gloss=PUNCT
 4	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	6	parataxis@discourse	_	AlignBegin=126864|AlignEnd=127152|Gloss=1Sing.Sub
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=127152|AlignEnd=127440|Gloss=hear
-6	baːbù	baːbù	PART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=127440|AlignEnd=127728|Gloss=there_is.Neg|PartType=Pred
+6	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	2	comp:obj	_	AlignBegin=127440|AlignEnd=127728|Gloss=there_is.Neg
 7	kàreː	kàreː	NOUN	_	Definite=Ind|Gender=Masc	6	subj	_	AlignBegin=127728|AlignEnd=128016|Gloss=dog.Masc
 8	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=128016|AlignEnd=128304|Gloss=PUNCT
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=128304|AlignEnd=128588|Gloss=PUNCT
@@ -529,7 +529,7 @@
 # text_ortho = baːbù kàreː //
 # text = baːbù kàreː //
 # text_en = No Dog.
-1	baːbù	baːbù	PART	_	Polarity=Neg	0	root	_	AlignBegin=128588|AlignEnd=128787|Gloss=there_is.Neg|PartType=Pred
+1	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=128588|AlignEnd=128787|Gloss=there_is.Neg
 2	kàreː	kàreː	NOUN	_	Definite=Ind|Gender=Masc	1	subj	_	AlignBegin=128787|AlignEnd=128986|Gloss=dog.Masc
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=128986|AlignEnd=129184|Gloss=PUNCT
 
@@ -584,7 +584,7 @@
 8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=139068|AlignEnd=139292|Gloss=PUNCT
 9	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	11	parataxis@discourse	_	AlignBegin=139292|AlignEnd=139516|Gloss=1Sing.Sub
 10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=139516|AlignEnd=139740|Gloss=hear
-11	baːbù	baːbù	PART	_	Polarity=Neg	6	parataxis@conj	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg|PartType=Pred
+11	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	6	parataxis@conj	_	AlignBegin=139740|AlignEnd=139964|Gloss=there_is.Neg
 12	dàːmisàː	dàːmisàː	NOUN	_	Definite=Ind|Gender=Fem	11	subj	_	AlignBegin=139964|AlignEnd=140188|Gloss=leopard.Fem
 13	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=140188|AlignEnd=140412|Gloss=PUNCT
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=140412|AlignEnd=140640|Gloss=PUNCT
@@ -599,7 +599,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=3	0	root	_	AlignBegin=141744|AlignEnd=141906|Gloss=3Masc.PerfInd
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=141906|AlignEnd=142068|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=142068|AlignEnd=142230|Gloss=PUNCT
-4	baːbù	baːbù	PART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=142230|AlignEnd=142392|Gloss=there_is.Neg|PartType=Pred
+4	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	2	comp:obj	_	AlignBegin=142230|AlignEnd=142392|Gloss=there_is.Neg
 5	dàːmisàː	dàːmisàː	NOUN	_	Definite=Ind|Gender=Fem	4	subj	_	AlignBegin=142392|AlignEnd=142554|Gloss=leopard.Fem
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=142554|AlignEnd=142716|Gloss=PUNCT
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=142716|AlignEnd=142877|Gloss=PUNCT
@@ -614,7 +614,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=3	0	root	_	AlignBegin=143480|AlignEnd=143665|Gloss=3Masc.PerfInd
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=143665|AlignEnd=143850|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=143850|AlignEnd=144035|Gloss=PUNCT
-4	baːbù	baːbù	PART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=144035|AlignEnd=144220|Gloss=there_is.Neg|PartType=Pred
+4	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	2	comp:obj	_	AlignBegin=144035|AlignEnd=144220|Gloss=there_is.Neg
 5	kuːraː	kuːraː	NOUN	_	Definite=Ind|Gender=Fem	4	subj	_	AlignBegin=144220|AlignEnd=144405|Gloss=hyena.Fem
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=144590|AlignEnd=144775|Gloss=PUNCT
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=144775|AlignEnd=144960|Gloss=PUNCT
@@ -629,7 +629,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=3	0	root	_	AlignBegin=145943|AlignEnd=146065|Gloss=3Masc.PerfInd
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=146065|AlignEnd=146187|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=146187|AlignEnd=146309|Gloss=PUNCT
-4	baːbù	baːbù	PART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=146309|AlignEnd=146431|Gloss=there_is.Neg|PartType=Pred
+4	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	2	comp:obj	_	AlignBegin=146309|AlignEnd=146431|Gloss=there_is.Neg
 5	kuːraː	kuːraː	NOUN	_	Definite=Ind|Gender=Fem	4	subj	_	AlignBegin=146431|AlignEnd=146553|Gloss=hyena.Fem
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=146675|AlignEnd=146797|Gloss=PUNCT
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=146797|AlignEnd=146921|Gloss=PUNCT
@@ -663,7 +663,7 @@
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=149314|AlignEnd=149504|Gloss=PUNCT
 5	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=149504|AlignEnd=149694|Gloss=1Sing.Sub
 6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=149694|AlignEnd=149884|Gloss=hear
-7	baːbù	baːbù	PART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=149884|AlignEnd=150074|Gloss=there_is.Neg|PartType=Pred
+7	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	3	comp:obj	_	AlignBegin=149884|AlignEnd=150074|Gloss=there_is.Neg
 8	dàːmisàː	dàːmisàː	NOUN	_	Definite=Ind|Gender=Fem	7	subj	_	AlignBegin=150074|AlignEnd=150264|Gloss=leopard.Fem
 9	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=150264|AlignEnd=150454|Gloss=PUNCT
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=150454|AlignEnd=150648|Gloss=PUNCT
@@ -679,7 +679,7 @@
 2	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=3	0	root	_	AlignBegin=152656|AlignEnd=152914|Gloss=3Masc.PerfInd
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=152914|AlignEnd=153172|Gloss=say
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=153172|AlignEnd=153430|Gloss=PUNCT
-5	baːbù	baːbù	PART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=153430|AlignEnd=153688|Gloss=there_is.Neg|PartType=Pred
+5	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	3	comp:obj	_	AlignBegin=153430|AlignEnd=153688|Gloss=there_is.Neg
 6	shi	shi	PRON	_	Gender=Masc|Person=1|PronType=Prs	5	subj	_	AlignBegin=153688|AlignEnd=153946|Gloss=3Masc
 7	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=153946|AlignEnd=154204|Gloss=PUNCT
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=154204|AlignEnd=154460|Gloss=PUNCT
@@ -713,7 +713,7 @@
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=157312|AlignEnd=157518|Gloss=PUNCT
 5	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=157518|AlignEnd=157724|Gloss=1Sing.Sub
 6	ji	jiyàː	VERB	_	_	5	comp:aux	_	AlignBegin=157724|AlignEnd=157930|Gloss=hear
-7	baːbù	baːbù	PART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=157930|AlignEnd=158136|Gloss=there_is.Neg|PartType=Pred
+7	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	3	comp:obj	_	AlignBegin=157930|AlignEnd=158136|Gloss=there_is.Neg
 8	zaːkìː	zaːkìː	NOUN	_	Definite=Ind|Gender=Masc	7	subj	_	AlignBegin=158136|AlignEnd=158342|Gloss=lion.Masc
 9	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=158342|AlignEnd=158548|Gloss=PUNCT
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=158548|AlignEnd=158759|Gloss=PUNCT
@@ -728,7 +728,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Mood=Ind|Person=3	0	root	_	AlignBegin=159782|AlignEnd=159906|Gloss=3Masc.PerfInd
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=159906|AlignEnd=160030|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=160030|AlignEnd=160154|Gloss=PUNCT
-4	baːbù	baːbù	PART	_	Polarity=Neg	2	comp:obj	_	AlignBegin=160154|AlignEnd=160278|Gloss=there_is.Neg|PartType=Pred
+4	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	2	comp:obj	_	AlignBegin=160154|AlignEnd=160278|Gloss=there_is.Neg
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=160278|AlignEnd=160402|Gloss=3Masc
 6	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=160402|AlignEnd=160526|Gloss=PUNCT
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=160526|AlignEnd=160649|Gloss=PUNCT
@@ -859,7 +859,7 @@
 # text = sai gàː mùzuːruː zakkùwaː //
 # text_en = Then, here came Cat.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=192220|AlignEnd=192420|Gloss=then
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=192420|AlignEnd=192620|Gloss=here_is|PartType=Pred
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=192420|AlignEnd=192620|Gloss=here_is
 3	mùzuːruː	mùzuːruː	NOUN	_	Definite=Ind|Gender=Masc	2	subj	_	AlignBegin=192620|AlignEnd=192820|Gloss=cat.Masc
 4	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=192820|AlignEnd=193020|Gloss=arrive.Vnoun.Fem
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=193020|AlignEnd=193220|Gloss=PUNCT
@@ -896,9 +896,9 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=195682|AlignEnd=195894|Gloss=PUNCT
 4	wùceː	wut-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=196106|AlignEnd=196318|Gloss=PUNCT
-6	gàː	gàː	PART	_	_	4	parataxis@conj	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is|PartType=Pred
+6	gàː	gàː	PART	_	PartType=Pred	4	parataxis@conj	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is
 7	naːmàː	naːmàː	NOUN	_	Definite=Ind|Gender=Masc	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat.Masc
-8	nân	nân	ADV	_	PronType=Dem	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Deixis=Prox|Gloss=Prox
+8	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	6	comp:pred	_	AlignBegin=196742|AlignEnd=196954|Gloss=Prox
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=196954|AlignEnd=197166|Gloss=PUNCT
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=197166|AlignEnd=197377|Gloss=PUNCT
 
@@ -962,7 +962,7 @@
 5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=207032|AlignEnd=207395|Gloss=3Masc.Perf
 6	ƙaːrèː	ƙaːr-	VERB	_	_	5	comp:aux	_	AlignBegin=207395|AlignEnd=207758|Gloss=finish
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=207758|AlignEnd=208121|Gloss=PUNCT
-8	gàː	gàː	PART	_	_	0	root	_	AlignBegin=208121|AlignEnd=208484|Gloss=here_is|PartType=Pred
+8	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=208121|AlignEnd=208484|Gloss=here_is
 9	kàreː	kàreː	NOUN	_	Definite=Ind|Gender=Masc	8	subj	_	AlignBegin=208484|AlignEnd=208847|Gloss=dog.Masc
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=208847|AlignEnd=209209|Gloss=PUNCT
 
@@ -1040,9 +1040,9 @@
 # text_en = Get in, here is Cat, eat him!
 1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=216753|AlignEnd=217152|Gloss=enter.Jus
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=217152|AlignEnd=217551|Gloss=PUNCT
-3	gàː	gàː	PART	_	_	1	parataxis@conj	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is|PartType=Pred
+3	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is
 4	mùzuruː	mùzuruː	NOUN	_	Definite=Ind|Gender=Masc	3	subj	_	AlignBegin=217950|AlignEnd=218349|Gloss=cat.Masc
-5	nân	nân	ADV	_	PronType=Dem	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Deixis=Prox|Gloss=Prox
+5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:pred	_	AlignBegin=218349|AlignEnd=218748|Gloss=Prox
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=218748|AlignEnd=219147|Gloss=PUNCT
 7	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	3	parataxis@conj	_	AlignBegin=219147|AlignEnd=219546|Gloss=2Masc.Sub
 8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=219546|AlignEnd=219945|Gloss=eat
@@ -1056,14 +1056,14 @@
 # text = shi nàː cân |c shinàː cîn mùzuːruː |c sai gàː kuːraː sagàb sagàb sagàb //
 # text_en = He is there, eating Cat, when Hyena arrived galloping.
 1	shinàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=221471|AlignEnd=221797|Copula=Yes|Gloss=3Masc.Pred/Loc|wordform=shi
-2	cân	cân	ADV	_	PronType=Dem	1	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Deixis=Remt|Gloss=Rmt
+2	cân	cân	ADV	_	Deixis=Remt|PronType=Dem	1	comp:pred	_	AlignBegin=221797|AlignEnd=222123|Gloss=Rmt
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=222123|AlignEnd=222449|Gloss=PUNCT
 4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis@conj	_	AlignBegin=222449|AlignEnd=222775|Gloss=3Masc.Prog
 5	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=222775|AlignEnd=223101|Gloss=eat.Vnoun.Masc.Cons
 6	mùzuːruː	mùzuːruː	NOUN	_	Definite=Ind|Gender=Masc	5	udep	_	AlignBegin=223101|AlignEnd=223427|Gloss=cat.Masc
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=223427|AlignEnd=223753|Gloss=PUNCT
 8	sai	sai	CCONJ	_	_	9	cc	_	AlignBegin=223753|AlignEnd=224079|Gloss=then
-9	gàː	gàː	PART	_	_	4	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is|PartType=Pred
+9	gàː	gàː	PART	_	PartType=Pred	4	conj:coord	_	AlignBegin=224079|AlignEnd=224405|Gloss=here_is
 10	kuːraː	kuːraː	NOUN	_	Definite=Ind|Gender=Fem	9	subj	_	AlignBegin=224405|AlignEnd=224731|Gloss=hyena.Fem
 11	sagàb	sagàb	ADV	_	_	9	comp:pred	_	AlignBegin=224731|AlignEnd=225057|Gloss=gallup|Ideo=Yes
 12	sagàb	sagàb	ADV	_	_	11	conj:redup	_	AlignBegin=225057|AlignEnd=225383|Gloss=gallup|Ideo=Yes
@@ -1094,7 +1094,7 @@
 3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=227598|AlignEnd=227741|Gloss=PUNCT
 4	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	7	dislocated@subj	_	AlignBegin=227741|AlignEnd=227884|Gloss=child.Plur.Cons
 5	gàyyaː	gàyyaː	NOUN	_	Definite=Ind|Gender=Fem	4	compound	_	AlignBegin=227884|AlignEnd=228027|Gloss=communal_hunting.Fem
-6	kòː	kùwa	PART	_	_	4	discourse@top	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for|PartType=Top
+6	kòː	kùwa	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=228027|AlignEnd=228170|Gloss=as_for
 7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=228170|AlignEnd=228313|Gloss=3Plur.Perf
 8	zakà	zak-	VERB	_	_	7	comp:aux	_	AlignBegin=228313|AlignEnd=228456|Gloss=arrive
 9	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=228456|AlignEnd=228599|Gloss=PUNCT
@@ -1109,9 +1109,9 @@
 # text_en = Get in, Dog is there.
 1	shìga	shig-	VERB	_	Mood=Jus	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Jus
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=230462|AlignEnd=230679|Gloss=PUNCT
-3	gàː	gàː	PART	_	_	1	parataxis@conj	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is|PartType=Pred
+3	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is
 4	kàreː	kàreː	NOUN	_	Definite=Ind|Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc
-5	nân	nân	ADV	_	PronType=Dem	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Deixis=Prox|Gloss=Prox
+5	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	3	comp:pred	_	AlignBegin=231113|AlignEnd=231330|Gloss=Prox
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=231330|AlignEnd=231548|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_68
@@ -1140,7 +1140,7 @@
 2	taushèː	taus-	VERB	_	_	1	comp:aux	_	AlignBegin=237875|AlignEnd=238267|Gloss=tackle
 3	kàreː	kàreː	NOUN	_	Definite=Ind|Gender=Masc	2	comp:obj	_	AlignBegin=238267|AlignEnd=238659|Gloss=dog.Masc
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=238659|AlignEnd=239051|Gloss=PUNCT
-5	gàː	gàː	PART	_	_	0	root	_	AlignBegin=239051|AlignEnd=239443|Gloss=here_is|PartType=Pred
+5	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=239051|AlignEnd=239443|Gloss=here_is
 6	dàːmisàː	dàːmisàː	NOUN	_	Definite=Ind|Gender=Fem	5	subj	_	AlignBegin=239443|AlignEnd=239835|Gloss=leopard.Fem
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=239835|AlignEnd=240224|Gloss=PUNCT
 
@@ -1177,9 +1177,9 @@
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=243368|AlignEnd=243612|Gloss=PUNCT
 4	shìga	shig-	VERB	_	Mood=Jus	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Jus
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=243856|AlignEnd=244100|Gloss=PUNCT
-6	gàː	gàː	PART	_	_	4	parataxis@conj	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is|PartType=Pred
+6	gàː	gàː	PART	_	PartType=Pred	4	parataxis@conj	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is
 7	kuːraː	kuːraː	NOUN	_	Definite=Ind|Gender=Fem	6	subj	_	AlignBegin=244344|AlignEnd=244588|Gloss=hyena.Fem
-8	nân.	nân.	ADV	_	PronType=Dem	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Deixis=Prox|Gloss=Prox
+8	nân.	nân.	ADV	_	Deixis=Prox|PronType=Dem	6	comp:pred	_	AlignBegin=244588|AlignEnd=244832|Gloss=Prox
 9	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=244832|AlignEnd=245076|Gloss=PUNCT
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=245076|AlignEnd=245319|Gloss=PUNCT
 
@@ -1195,7 +1195,7 @@
 3	kuːraː	kuːraː	NOUN	_	Definite=Ind|Gender=Fem	2	comp:obj	_	AlignBegin=247426|AlignEnd=247599|Gloss=hyena.Fem
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=247599|AlignEnd=247772|Gloss=PUNCT
 5	sa’ànnan	sa’ànnan	ADV	_	_	6	mod	_	AlignBegin=247772|AlignEnd=247945|Gloss=then
-6	gàː	gàː	PART	_	_	0	root	_	AlignBegin=248118|AlignEnd=248291|Gloss=here_is|PartType=Pred
+6	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=248118|AlignEnd=248291|Gloss=here_is
 7	zaːkìː	zaːkìː	NOUN	_	Definite=Ind|Gender=Masc	6	subj	_	AlignBegin=248291|AlignEnd=248464|Gloss=lion.Masc
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=248464|AlignEnd=248640|Gloss=PUNCT
 
