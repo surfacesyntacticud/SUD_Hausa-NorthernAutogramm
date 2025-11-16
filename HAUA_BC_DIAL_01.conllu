@@ -61,7 +61,7 @@
 6	Galmaːwaː	Galmaːwaː	PROPN	_	_	8	dislocated	_	AlignBegin=12284|AlignEnd=12515|Gloss=Galmaːwaː
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=12515|AlignEnd=12746|Gloss=PUNCT
 8	Bàːgai	Bàːgai	PROPN	_	_	0	root	_	AlignBegin=12746|AlignEnd=12977|Gloss=Bàːgai
-9	takè	kè	AUX	_	Background=Yes|Gender=Fem|Person=3	8	comp:cleft	_	AlignBegin=13208|AlignEnd=13439|Copula=Yes|Gloss=3Fem.Pred/Loc.Bkg|wordform=kè
+9	takè	kè	AUX	_	Gender=Fem|Mood=Ind|Person=3	8	comp:cleft	_	AlignBegin=13208|AlignEnd=13439|Copula=Yes|Gloss=3Fem.Pred/Loc.Ind|wordform=kè
 10	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	9	comp:pred	_	AlignBegin=13439|AlignEnd=13670|Gloss=follow.Part.Stat
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=13670|AlignEnd=13900|Gloss=PUNCT
 
@@ -312,7 +312,7 @@
 4	nàː	neː	AUX	_	_	0	root	_	AlignBegin=82028|AlignEnd=82184|Copula=Yes|Gloss=Ident
 5	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=82184|AlignEnd=82340|Gloss=PUNCT
 6	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	7	subj	_	AlignBegin=82340|AlignEnd=82496|Gloss=Illela
-7	takè	kè	AUX	_	Background=Yes|Gender=Fem|Person=3	4	comp:cleft	_	AlignBegin=82652|AlignEnd=82808|Copula=Yes|Gloss=3Fem.Pred/Loc.Bkg|wordform=ta
+7	takè	kè	AUX	_	Gender=Fem|Mood=Ind|Person=3	4	comp:cleft	_	AlignBegin=82652|AlignEnd=82808|Copula=Yes|Gloss=3Fem.Pred/Loc.Ind|wordform=ta
 8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=82808|AlignEnd=82960|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_019-019
@@ -384,7 +384,7 @@
 15	dà	dà	CCONJ	_	_	16	cc	_	AlignBegin=97185|AlignEnd=97584|Gloss=and
 16	Galmaːwaː	Galmaːwaː	PROPN	_	_	12	mod	_	AlignBegin=97584|AlignEnd=97983|Gloss=Galmaːwaː
 17	wandà	wandà	PRON	_	Gender=Masc|PronType=Rel	23	dislocated	_	AlignBegin=97983|AlignEnd=98382|Gloss=which.Masc
-18	ab	neː	AUX	_	Background=Yes	17	mod@relcl	_	AlignBegin=98382|AlignEnd=98781|Copula=Yes|Gloss=Ident.Bkg
+18	ab	neː	AUX	_	Mood=Ind	17	mod@relcl	_	AlignBegin=98382|AlignEnd=98781|Copula=Yes|Gloss=Ident.Ind
 19	Bàgawailèː	Bàgawailèː	PROPN	_	Gender=Masc	18	comp:pred	_	AlignBegin=98781|AlignEnd=99180|Gloss=Bagawaile.Masc
 20	<	<	PUNCT	_	_	17	punct	_	AlignBegin=99180|AlignEnd=99579|Gloss=PUNCT
 21	du'	dukà	DET	_	ExtPos=PRON|PronType=Tot	23	dislocated	_	AlignBegin=99579|AlignEnd=99978|Gloss=all
@@ -424,7 +424,7 @@
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=126102|AlignEnd=126403|Gloss=PUNCT
 5	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	dislocated	_	AlignBegin=126403|AlignEnd=126704|Gloss=thing.Masc.Cons
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=126704|AlignEnd=127005|Gloss=REL
-7	an	neː	AUX	_	Background=Yes	6	comp:obj	_	AlignBegin=127005|AlignEnd=127306|Copula=Yes|Gloss=Ident.Bkg
+7	an	neː	AUX	_	Mood=Ind	6	comp:obj	_	AlignBegin=127005|AlignEnd=127306|Copula=Yes|Gloss=Ident.Ind
 8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:pred	_	AlignBegin=127306|AlignEnd=127607|Gloss=Def
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=127607|AlignEnd=127908|Gloss=PUNCT
 10	duy	dukà	DET	_	PronType=Tot	11	det	_	AlignBegin=127908|AlignEnd=128209|Gloss=all
@@ -475,13 +475,13 @@
 1	Buːzàːyeː	Buːzuː	PROPN	_	Number=Plur	8	dislocated	_	AlignBegin=139896|AlignEnd=140177|Gloss=Buzu.Plur
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=140177|AlignEnd=140458|Gloss=PUNCT
 3	duwwàdà	dukwàdà	ADV	_	PronType=Rel	8	mod	_	AlignBegin=140739|AlignEnd=141020|Gloss=way_that
-4	sukè	kè	AUX	_	Background=Yes|Number=Plur|Person=3	3	mod@relcl	_	AlignBegin=141301|AlignEnd=141582|Copula=Yes|Gloss=3Plur.Pred/Loc.Bkg|wordform=kè
+4	sukè	kè	AUX	_	Mood=Ind|Number=Plur|Person=3	3	mod@relcl	_	AlignBegin=141301|AlignEnd=141582|Copula=Yes|Gloss=3Plur.Pred/Loc.Ind|wordform=kè
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=141582|AlignEnd=141863|Gloss=PUNCT
 6	ìllaːhìrinsù	ìllaːhìriː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Number=Plur|Person=3	8	dislocated	_	AlignBegin=141863|AlignEnd=142144|Gloss=appearance.Masc.3Plur.Gen|wordform=ìllaːhìrin
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=142144|AlignEnd=142425|Gloss=PUNCT
 8	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=142425|AlignEnd=142706|Gloss=thing.Masc.Cons
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=142706|AlignEnd=142987|Gloss=REL
-10	am	neː	AUX	_	Background=Yes	9	comp:obj	_	AlignBegin=142987|AlignEnd=143268|Copula=Yes|Gloss=Ident.Bkg
+10	am	neː	AUX	_	Mood=Ind	9	comp:obj	_	AlignBegin=142987|AlignEnd=143268|Copula=Yes|Gloss=Ident.Ind
 11	mahwaːrin	mahwaːriː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:pred	_	AlignBegin=143268|AlignEnd=143549|Gloss=beginning.Masc.Cons
 12	bambanciyassù	bambanciyaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Number=Plur|Person=3	11	mod	_	AlignBegin=143549|AlignEnd=143830|Gloss=difference.Fem.Cons.3Plur.Gen|wordform=bambanciyas
 13	dà	dà	ADP	_	_	12	comp:obl	_	AlignBegin=143830|AlignEnd=144111|Gloss=with
@@ -497,7 +497,7 @@
 # text_en = Their difference from the Hausa?
 1	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=144705|AlignEnd=144868|Gloss=thing.Masc.Cons
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=144868|AlignEnd=145031|Gloss=REL
-3	ab	neː	AUX	_	Background=Yes	2	comp:obj	_	AlignBegin=145031|AlignEnd=145194|Copula=Yes|Gloss=Ident.Bkg
+3	ab	neː	AUX	_	Mood=Ind	2	comp:obj	_	AlignBegin=145031|AlignEnd=145194|Copula=Yes|Gloss=Ident.Ind
 4	bambanciyassù	bambanciyaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Number=Plur|Person=3	3	comp:pred	_	AlignBegin=145194|AlignEnd=145357|Gloss=difference.Fem.Cons.3Plur.Gen|wordform=bambanciyas
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=145357|AlignEnd=145520|Gloss=with
 6	Hausaːwaː	Hausa	PROPN	_	Number=Plur	5	comp:obj	_	AlignBegin=145520|AlignEnd=145683|Gloss=Hausa.Plur
@@ -527,7 +527,7 @@
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=149093|AlignEnd=149606|Gloss=PUNCT
 6	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	21	dislocated@top	_	AlignBegin=149606|AlignEnd=150119|Gloss=thing.Masc.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=150119|AlignEnd=150632|Gloss=REL
-8	ab	neː	AUX	_	Background=Yes	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Copula=Yes|Gloss=Ident.Bkg
+8	ab	neː	AUX	_	Mood=Ind	7	comp:obj	_	AlignBegin=150632|AlignEnd=151145|Copula=Yes|Gloss=Ident.Ind
 9	bambanciyaːtai	bambanciyaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	8	comp:pred	_	AlignBegin=151145|AlignEnd=151658|Gloss=difference.Fem.Cons.3Masc.Gen|wordform=bambanciyaː
 10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=151658|AlignEnd=152171|Gloss=with
 11	Bàhaushèː	Hausa	PROPN	_	Gender=Masc	10	comp:obj	_	AlignBegin=152171|AlignEnd=152684|Gloss=Hausa.Masc
@@ -1095,7 +1095,7 @@
 10	à	yà	AUX	_	Mood=Sub|Person=4	0	root	_	AlignBegin=265978|AlignEnd=266363|Gloss=4.Sub
 11	zakà	zak-	VERB	_	_	10	comp:aux	_	AlignBegin=266363|AlignEnd=266748|Gloss=arrive
 12	indà	indà	ADV	_	PronType=Rel	11	comp:obj@G	_	AlignBegin=266748|AlignEnd=267133|Gloss=where
-13	kakè	kè	AUX	_	Background=Yes|Gender=Masc|Person=2	12	mod@relcl	_	AlignBegin=267133|AlignEnd=267518|Copula=Yes|Gloss=2Masc.Pred/Loc.Bkg|wordform=kè
+13	kakè	kè	AUX	_	Gender=Masc|Mood=Ind|Person=2	12	mod@relcl	_	AlignBegin=267133|AlignEnd=267518|Copula=Yes|Gloss=2Masc.Pred/Loc.Ind|wordform=kè
 14	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=267518|AlignEnd=267903|Gloss=PUNCT
 15	à	yà	AUX	_	Mood=Sub|Person=4	10	parataxis@conj	_	AlignBegin=267903|AlignEnd=268288|Gloss=4.Sub
 16	kam	kaːm-	VERB	_	_	15	comp:aux	_	AlignBegin=268288|AlignEnd=268673|Gloss=catch
@@ -1644,7 +1644,7 @@
 3	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=377366|AlignEnd=377492|Gloss=eh!
 4	cikin	cikin	ADP	_	_	0	root	_	AlignBegin=377492|AlignEnd=377618|Gloss=inside
 5	daːɗiː	daːɗiː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj	_	AlignBegin=377618|AlignEnd=377744|Gloss=happiness.Masc
-6	kukè	kè	AUX	_	Background=Yes|Number=Plur|Person=2	4	comp:cleft	_	AlignBegin=377870|AlignEnd=377996|Copula=Yes|Gloss=2Plur.Pred/Loc.Bkg|wordform=kè
+6	kukè	kè	AUX	_	Mood=Ind|Number=Plur|Person=2	4	comp:cleft	_	AlignBegin=377870|AlignEnd=377996|Copula=Yes|Gloss=2Plur.Pred/Loc.Ind|wordform=kè
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=377996|AlignEnd=378120|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_102-102
@@ -1668,7 +1668,7 @@
 2	ai	ai	INTJ	_	_	1	discourse	_	AlignBegin=379931|AlignEnd=380089|Gloss=eh!
 3	cikin	cikin	ADP	_	_	0	root	_	AlignBegin=380089|AlignEnd=380247|Gloss=inside
 4	daːɗiː	daːɗiː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj	_	AlignBegin=380247|AlignEnd=380405|Gloss=happiness.Masc
-5	kukè	kè	AUX	_	Background=Yes|Number=Plur|Person=2	3	comp:cleft	_	AlignBegin=380563|AlignEnd=380721|Copula=Yes|Gloss=2Plur.Pred/Loc.Bkg|wordform=kè
+5	kukè	kè	AUX	_	Mood=Ind|Number=Plur|Person=2	3	comp:cleft	_	AlignBegin=380563|AlignEnd=380721|Copula=Yes|Gloss=2Plur.Pred/Loc.Ind|wordform=kè
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=380721|AlignEnd=380876|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_104-104
@@ -1809,7 +1809,7 @@
 1	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=404820|AlignEnd=404913|Gloss=walk.Part.Stat
 2	nàː	neː	AUX	_	_	0	root	_	AlignBegin=404913|AlignEnd=405006|Copula=Yes|Gloss=Ident
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=405006|AlignEnd=405099|Gloss=PUNCT
-4	akè	kè	AUX	_	Background=Yes|Person=4	2	comp:cleft	_	AlignBegin=405192|AlignEnd=405285|Copula=Yes|Gloss=4.Pred/Loc.Bkg|wordform=kè
+4	akè	kè	AUX	_	Mood=Ind|Person=4	2	comp:cleft	_	AlignBegin=405192|AlignEnd=405285|Copula=Yes|Gloss=4.Pred/Loc.Ind|wordform=kè
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=405285|AlignEnd=405380|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_113-113
@@ -1830,7 +1830,7 @@
 9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=407528|AlignEnd=407724|Gloss=PUNCT
 10	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	0	root	_	AlignBegin=407724|AlignEnd=407920|Gloss=walk.Part.Stat
 11	>+	>+	PUNCT	_	_	12	punct	_	AlignBegin=407920|AlignEnd=408116|Gloss=PUNCT
-12	sukè	kè	AUX	_	Background=Yes|Number=Plur|Person=3	10	comp:cleft	_	AlignBegin=408312|AlignEnd=408508|Copula=Yes|Gloss=3Plur.Pred/Loc.Bkg|wordform=su
+12	sukè	kè	AUX	_	Mood=Ind|Number=Plur|Person=3	10	comp:cleft	_	AlignBegin=408312|AlignEnd=408508|Copula=Yes|Gloss=3Plur.Pred/Loc.Ind|wordform=su
 13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=408508|AlignEnd=408700|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_114-114
