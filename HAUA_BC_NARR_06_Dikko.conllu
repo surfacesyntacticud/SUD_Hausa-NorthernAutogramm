@@ -711,7 +711,7 @@
 7	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__48
-# text = tac cèː " kù ɗeːboː cikin suːnaːnaː dà suːnan ùbaːnai kù sâː mai. "
+# text = tac cèː " kù ɗeːboː cikin suːnaːnaː dà suːnan ùbaːnai kù sâː mai . "
 1	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	_
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	_
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
@@ -720,11 +720,11 @@
 6	cikin	cikin	ADP	_	_	5	comp:obl	_	_
 7	suːnaːnaː	suːnaːnaː	NOUN	_	Definite=Ind|Gender=Fem	6	comp:obj	_	_
 8	dà	dà	CCONJ	_	_	9	cc	_	_
-9	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:obj	_	_
+9	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	7	conj:coord	_	_
 10	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	9	mod	_	_
 11	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	4	parataxis@conj	_	Gloss=2Plur.Sub
 12	sâː	sâː	VERB	_	_	11	comp:aux	_	_
-13	mai	mai	PRON	_	Gender=Masc|Person=3	12	comp:obl	_	SpaceAfter=No
+13	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3	12	comp:obl	_	Gloss=3Masc.Dat
 14	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 15	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -7298,7 +7298,7 @@
 5	koːmàː	koːmàː	VERB	_	_	4	comp:aux	_	_
 6	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj@G	_	_
 7	dà	dà	CCONJ	_	_	8	cc	_	_
-8	shaːnuːnai	shaːnuːnai	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	6	conj:coord	_	_
+8	shaːnuːnai	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=3	6	conj:coord	_	Gloss=cow.Plur\3Masc.Gen
 9	dà	dà	CCONJ	_	_	10	cc	_	_
 10	baːyuːnai	baːyuːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	8	conj:coord	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
@@ -7589,7 +7589,7 @@
 1	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	_
 2	hau	hau	VERB	_	_	1	comp:aux	_	_
 3	doːkìːnai	doːkì:nai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	2	comp:obj	_	_
-4	Banìyoːgubà	Banìyoːgubà	PROPN	_	Definite=Ind|Number=Plur	2	comp:obj	_	Gloss=Banìyoːgubà|SpaceAfter=No
+4	Banìyoːgubà	Banìyoːgubà	PROPN	_	Definite=Ind|Number=Plur	3	conj:appos	_	Gloss=Banìyoːgubà|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__486
@@ -8634,7 +8634,7 @@
 10	Gilaːgèː	Gilaːgèː	PROPN	_	_	9	comp:obj	_	Gloss=Gilaːgèː|SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 12	mân	mân	VERB	_	_	18	subj	_	_
-13	shaːnuːnai	shaːnuːnai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	14	subj	_	_
+13	shaːnuːnai	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=3	14	subj	_	Gloss=cow.Plur\3Masc.Gen
 14	baːsù	kè	AUX	_	Person=3|Polarity=Neg	8	comp:obj	_	_
 15	dà	dà	ADP	_	_	14	comp:pred	_	_
 16	waːriː	waːriː	NOUN	_	Definite=Ind|Gender=Masc	15	comp:obj	_	SpaceAfter=No
@@ -8848,8 +8848,8 @@
 # text = “ wai shaːnuːnai hwarhwaruː nàː . “
 1	“	“	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 2	wai	wai	ADV	_	_	5	discourse	_	_
-3	shaːnuːnai	shaːnuːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	5	comp:pred	_	_
-4	hwarhwaruː	hwarhwaruː	NOUN	_	Definite=Ind|Number=Plur	5	comp:pred	_	_
+3	shaːnuːnai	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=3	5	subj	_	Gloss=cow.Plur\3Masc.Gen
+4	hwarhwaruː	hwarhwaruː	ADJ	_	Definite=Ind|Number=Plur	5	comp:pred	_	_
 5	nàː	kè	AUX	_	_	0	root	_	_
 6	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 7	“	“	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -8858,7 +8858,7 @@
 # text = “ mân shaːnuːnai, shiː ab bâi dà waːriː. “
 1	“	“	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 2	mân	mâi	VERB	_	_	5	dislocated@top	_	_
-3	shaːnuːnai	shaːnuːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	2	mod	_	SpaceAfter=No
+3	shaːnuːnai	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=3	2	mod	_	Gloss=cow.Plur\3Masc.Gen|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Nom
 6	ab	neː	AUX	_	_	5	comp:cleft	_	_
@@ -8927,7 +8927,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__563
 # text = kuma Gilaːgyàn ga àboːkiːnai nàː.
 1	kuma	kuma	PART	_	_	5	discourse	_	_
-2	Gilaːgyàn	Gilaːgyàn	PROPN	_	Definite=Cons|Number=Plur	5	comp:pred	_	Gloss=Gilaːgyàn
+2	Gilaːgyàn	Gilaːgè	PROPN	_	Definite=Cons	5	comp:pred	_	Gloss=Gilaːgè
 3	ga	ganiː	DET	_	PronType=Dem	2	det	_	_
 4	àboːkiːnai	àboːkiːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	5	comp:pred	_	_
 5	nàː	neː	AUX	_	_	0	root	_	SpaceAfter=No
@@ -9145,7 +9145,7 @@
 6	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__575
-# text = yac cèː " yànzu im munkà ƙaːrèː darà muː dà Gilaːgèː-Gilaːgè, ìn tàhi ìn tàri shaːnuːnai góːmà shâː buy ìn kai mà màːtaːtaː ʿYabBàraːya tà ɗarmè maruƙàː tà sàːmu noːnòː tà taːtsàː tai sukàː tà ɗeːbèː mâi tà tàhi à yi matà kàlmisàː sabàddà makàlmìsan gàrinmù sun cèː mân shaːnuːnaː wai waːrìː gàrai. "
+# text = yac cèː " yànzu im munkà ƙaːrèː darà muː dà Gilaːgèː-Gilaːgè, ìn tàhi ìn tàri shaːnuːnai góːmà shâː buy ìn kai mà màːtaːtaː ʿYabBàraːya tà ɗarmè maruƙàː tà sàːmu noːnòː tà taːtsàː tai sukàː tà ɗeːbèː mâi tà tàhi à yi matà kàlmisàː sabàddà makàlmìsan gàrinmù sun cèː mân shaːnuːnaː wai waːrìː gàrai. "
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	_
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	_
 3	"	"	PUNCT	_	_	13	punct	_	Gloss=PUNCT
@@ -9162,7 +9162,7 @@
 14	tàhi	tàhi	VERB	_	_	13	comp:aux	_	_
 15	ìn	yà	AUX	_	Mood=Sub|Person=1	13	parataxis@conj	_	Gloss=1Sing.Sub
 16	tàri	tàri	VERB	_	_	15	comp:aux	_	_
-17	shaːnuːnai	shaːnuːnai	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	16	comp:obj	_	_
+17	shaːnuːnai	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=3	16	comp:obj	_	Gloss=cow.Plur\3Masc.Gen
 18	góːmà	góːmà	VERB	_	_	17	mod	_	_
 19	shâː	shâː	NOUN	_	_	18	comp:obj	_	_
 20	buy	buy	NOUN	_	Foreign=Yes	16	comp:obj@G	_	_
@@ -11211,11 +11211,11 @@
 1	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	9	parataxis@discourse	_	_
 3	san	sanìː	VERB	_	_	2	comp:aux	_	Gloss=know
-4	kòː	kòː	PART	_	Definite=Ind|Gender=Masc	3	comp:obj	_	SpaceAfter=No
+4	kòː	kòː	PART	_	Definite=Ind|Gender=Masc	3	discourse@top	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	niː	niː	PRON	_	Person=1	9	dislocated@subj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-8	mùtun	mùtun	NOUN	_	Definite=Ind|Gender=Masc	9	subj	_	_
+8	mùtun	mùtun	NOUN	_	Definite=Ind|Gender=Masc	9	dislocated@top	_	_
 9	baːnì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	_
 10	tàron	tàroː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:aux	_	_
 11	kaːyaːnai	kaːyaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	10	mod	_	_
