@@ -65,7 +65,7 @@
 3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	Gloss=Garbaː
 4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
 5	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc	0	root	_	Gloss=father.Masc[L]=3Masc[L].Gen
-6	nàː	neː	PART	_	Copula=Yes|PartType=Foc	5	discourse@foc	_	Gloss=Emph.Masc
+6	nàː	neː	PART	_	Copula=Yes|PartType=Foc	5	discourse@foc	_	Gloss=Emph
 7	ag	neː	AUX	_	Relative=Yes	5	comp:cleft	_	Gloss=Ident.Rel
 8	Garbà	Garbà	PROPN	_	_	7	comp:obj	_	Gloss=Garbà|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
@@ -76,7 +76,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__8
 # text = ùbaːnai nàː ag Garbà, uwaːtai Dikkò.
 1	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Fem	0	root	_	_
-2	nàː	neː	PART	_	PartType=Foc	1	discourse@foc	_	Gloss=Emph.Masc
+2	nàː	neː	PART	_	PartType=Foc	1	discourse@foc	_	Gloss=Emph
 3	ag	neː	AUX	_	Copula=Yes	1	comp:cleft	_	Gloss=Ident.Rel
 4	Garbà	Garbà	PROPN	_	_	3	comp:obj	_	Gloss=Garbà|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
@@ -2264,7 +2264,7 @@
 2	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	_
 3	hakàn	hakàn	ADV	_	_	0	root	_	_
 4	ga	ga	VERB	_	_	3	det	_	_
-5	nàː	neː	PART	_	_	3	discourse@foc	_	_
+5	nàː	neː	PART	_	PartType=Foc	3	discourse@foc	_	Gloss=Emph
 6	ba	ba	VERB	_	_	3	mod	_	_
 7	ùbaːnaː	ùbaːnaː	NOUN	_	Definite=Ind|Gender=Fem	8	subj	_	_
 8	kà	nàː	AUX	_	Aspect=Prog	3	comp:cleft	_	_
@@ -2360,7 +2360,7 @@
 4	ciːyòn	ciːyòː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	_
 5	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	4	mod	_	_
 6	ba	ba	PART	_	Polarity=Neg	3	mod	_	_
-7	kèːnan	neː	PART	_	_	3	discourse@foc	_	Gloss=Emph
+7	kèːnan	neː	PART	_	PartType=Foc	3	discourse@foc	_	Gloss=Emph
 8	tun	tun	SCONJ	_	_	3	mod	_	_
 9	dà	dà	SCONJ	_	_	8	comp:obj	_	_
 10	bàː	bàː	PART	_	Polarity=Neg	11	mod	_	_
@@ -2798,7 +2798,7 @@
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 2	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	_
 3	nau	nau	PRON	_	_	0	root	_	_
-4	nàː	neː	PART	_	_	3	discourse@foc	_	_
+4	nàː	neː	PART	_	PartType=Foc	3	discourse@foc	_	Gloss=Emph
 5	kukài	kukài	NOUN	_	Person=3	3	comp:cleft	_	_
 6	ba	ba	PART	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
@@ -2825,7 +2825,7 @@
 6	àmman	àmma	CCONJ	_	_	8	cc	_	_
 7	bàː	bàː	PART	_	Polarity=Neg	8	mod	_	_
 8	nau	nau	PRON	_	Number=Plur|Person=3|PronType=Prs	2	conj:coord	_	Gloss=1Sing.Gen
-9	nàː	neː	PART	_	_	8	discourse@foc	_	Gloss=Emph.Masc
+9	nàː	neː	PART	_	PartType=Foc	8	discourse@foc	_	Gloss=Emph
 10	ba	ba	PART	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
@@ -2939,7 +2939,7 @@
 5	niː	niː	PRON	_	Person=1	7	discourse	_	_
 6	bàː	bàː	PART	_	Polarity=Neg	7	mod	_	_
 7	kiɗìːnaː	kiɗìːnaː	NOUN	_	Definite=Ind|Gender=Fem	0	root	_	_
-8	nàː	neː	PART	_	_	7	discourse@foc	_	_
+8	nàː	neː	PART	_	PartType=Foc	7	discourse@foc	_	Gloss=Emph
 9	akài	kài	AUX	_	_	7	comp:cleft	_	_
 10	min	min	PRON	_	Person=1	9	comp:obl	_	_
 11	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
@@ -3189,7 +3189,7 @@
 1	tôː	tôː	INTJ	_	_	2	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	0	root@scrap	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	PART	_	Aspect=Prog	2	discourse@foc	_	Gloss=Emph.Masc
+4	nàː	neː	PART	_	Aspect=Prog|PartType=Foc	2	discourse@foc	_	Gloss=Emph
 5	Dandà	Dandà	PROPN	_	_	2	comp:cleft	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò|SpaceAfter=No
@@ -5865,7 +5865,7 @@
 1	tôː	tôː	INTJ	_	_	2	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	PART	_	_	2	discourse@foc	_	_
+4	nàː	neː	PART	_	PartType=Foc	2	discourse@foc	_	Gloss=Emph
 5	ʿYabBàraːya	ʿyabbàraːya	PROPN	_	Number=Plur	6	subj	_	Gloss=ʿYabBàraːya
 6	taɗ	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	2	comp:cleft	_	Gloss=3Fem.Perf.Rel
 7	ɗòːki	ɗauk-	VERB	_	_	6	comp:aux	_	_
@@ -10451,7 +10451,7 @@
 5	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 6	niː	niː	PRON	_	Person=1	7	dislocated@top	_	_
 7	làllaƙàːtaː	làllaƙàːtaː	NOUN	_	Definite=Ind|Gender=Fem	4	comp:obj	_	_
-8	nàː	neː	PART	_	_	7	discourse@foc	_	_
+8	nàː	neː	PART	_	PartType=Foc	7	discourse@foc	_	Gloss=Emph
 9	nij	nij	PRON	_	Person=1	7	comp:cleft	_	_
 10	ji	ji	VERB	_	_	9	comp:aux	_	_
 11	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	10	comp:obj	_	Gloss=2Masc.Prog
@@ -11229,7 +11229,7 @@
 1	tôː	tôː	INTJ	_	_	2	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	PART	_	_	2	discourse@foc	_	_
+4	nàː	neː	PART	_	PartType=Foc	2	discourse@foc	_	Gloss=Emph
 5	mài	mài	ADP	_	Gender=Masc	7	subj	_	_
 6	maulòː	maulòː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	Gloss=guitar_sp.Masc[L]
 7	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	comp:cleft	_	Gloss=3Masc.Perf.Rel
@@ -11448,7 +11448,7 @@
 1	tôː	tôː	INTJ	_	_	2	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	PART	_	Aspect=Prog	2	discourse@foc	_	_
+4	nàː	neː	PART	_	Aspect=Prog|PartType=Foc	2	discourse@foc	_	Gloss=Emph
 5	Dandà	Dandà	PROPN	_	_	8	subj	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
@@ -13300,7 +13300,7 @@
 13	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	12	mod	_	_
 14	koː	koː	PART	_	PartType=Top	11	discourse@top	_	Gloss=as_for
 15	wanèː	wanèː	PRON	_	_	10	comp:obj	_	_
-16	naː	neː	PART	_	_	15	discourse@foc	_	Gloss=Emph.Masc
+16	naː	neː	PART	_	PartType=Foc	15	discourse@foc	_	Gloss=Emph
 17	yaƙ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	15	comp:cleft	_	Gloss=3Masc.Perf.Rel
 18	ƙwaːtoː	ƙwaːtoː	VERB	_	_	17	comp:aux	_	_
 19	dukà	dukà	DET	_	_	20	det	_	_
@@ -13403,7 +13403,7 @@
 2	rasà	rasàː	VERB	_	_	1	comp:aux	_	_
 3	koː	koː	SCONJ	_	Definite=Ind|Gender=Fem	2	comp:obj	_	_
 4	wanèː	wanèː	PRON	_	PronType=Int	3	comp:obj	_	Gloss=who
-5	naː	neː	PART	_	_	4	discourse@foc	_	_
+5	naː	neː	PART	_	PartType=Foc	4	discourse@foc	_	Gloss=Emph
 6	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	comp:cleft	_	Gloss=3Masc.Perf.Rel
 7	ceːtoː	ceːt-	VERB	_	_	6	comp:aux	_	_
 8	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	7	comp:obj	_	SpaceAfter=No
