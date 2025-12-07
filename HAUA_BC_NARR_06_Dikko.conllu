@@ -949,13 +949,13 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__61
 # text = jìːɗar ruwaː dàban dà ta iskàː.
-1	jìːɗar	jìːɗaː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
+1	jìːɗar	jìːɗaː	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	_
 2	ruwaː	ruwaː	NOUN	_	Definite=Ind|Number=Plur	1	mod	_	_
-3	dàban	dàban	ADV	_	_	1	mod	_	_
-4	dà	dà	SCONJ	_	_	3	mod@relcl	_	_
-5	ta	na/ta	AUX	_	Aspect=Perf|Gender=Fem|Person=3	4	comp:obj	_	_
-6	iskàː	iskàː	VERB	_	_	5	comp:aux	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+3	dàban	dàban	ADV	_	_	0	root	_	_
+4	dà	dà	ADP	_	_	3	mod	_	_
+5	ta	na	ADP	_	Case=Gen|Gender=Fem	4	comp:obj	_	Gloss=Gen.Fem
+6	iskàː	iskàː	VERB	_	_	5	comp:obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__62
 # text = indà duk akà kiràn mazaː, à ƙyaːlèː maːtaː.
@@ -1167,7 +1167,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__73
 # text = yâːra
-1	yâːra	yâːra	ADV	_	_	0	root	_	_
+1	yâːra	yâːra	NOUN	_	_	0	root	_	_
 
 # sent_id = HAUA_BC_NARR_06_Dikko__74
 # text = " kai Garbaː Dikkò baː kà yi mà uwakkà itàːceː, sai taː baː kà kaːshiː. "
@@ -1204,7 +1204,7 @@
 4	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	2	comp:obj@T	_	Gloss=2Plur.Sub
 5	yi	yi	VERB	_	_	4	comp:aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-7	niː	niː	PRON	_	Person=1	8	dislocated@subj	_	_
+7	niː	niː	PRON	_	Person=1	8	subj	_	_
 8	baːnì	yà	AUX	_	Mood=Sub|Person=1	4	parataxis@conj	_	_
 9	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	8	comp:aux	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
@@ -1212,41 +1212,41 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__77
 # text = in yâːra sunkai itàːceː sunkà ɗaːmìkkeː, sunkà ɗoːkoː, shì biyoː sù sai an kaːwoː kusa gà gàriː, sai shì baː yaːròː kaːshiː, shì ƙwaːcèː itàːceː shì kai mà uwaːtai Dikkò.
-1	in	in	SCONJ	_	_	22	mod	_	_
-2	yâːra	yâːra	ADV	_	_	1	comp:obj	_	_
-3	sunkai	sunkaː	AUX	_	Definite=Cons|Gender=Masc	1	comp:obj	_	_
-4	itàːceː	itàːceː	NOUN	_	Definite=Ind	3	subj	_	_
+1	in	in	SCONJ	_	_	11	mod	_	_
+2	yâːra	yâːra	ADV	_	_	3	subj	_	_
+3	sunkai	sunkaː	VERB	_	Definite=Cons|Gender=Masc	1	comp:obj	_	_
+4	itàːceː	itàːceː	NOUN	_	Definite=Ind	3	comp:pred	_	_
 5	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	3	parataxis@conj	_	_
 6	ɗaːmìkkeː	ɗàːmaː	VERB	_	_	5	comp:aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 8	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	5	parataxis@conj	_	_
 9	ɗoːkoː	ɗoːkoː	VERB	_	_	8	comp:aux	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
-11	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	parataxis@conj	_	Gloss=3Masc.Sub
-12	biyoː	biyaː	VERB	_	_	15	comp:aux	_	_
-13	sù	su	PRON	_	Number=Plur|Person=3	16	comp:obj	_	_
-14	sai	sai	SCONJ	_	_	22	mod	_	_
+11	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
+12	biyoː	biyaː	VERB	_	_	11	comp:aux	_	_
+13	sù	su	PRON	_	Number=Plur|Person=3	12	comp:obj	_	_
+14	sai	sai	SCONJ	_	_	12	mod	_	_
 15	an	yaː	AUX	_	Aspect=Perf|Person=4	14	comp:obj	_	_
 16	kaːwoː	kai	VERB	_	_	15	comp:aux	_	_
-17	kusa	kusa	ADV	_	_	16	mod	_	_
-18	gà	gà	ADP	_	_	16	comp:obl	_	_
+17	kusa	kusa	ADV	_	_	16	comp:obl	_	_
+18	gà	gà	ADP	_	_	17	mod	_	_
 19	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	18	comp:obj	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	15	punct	_	Gloss=PUNCT
+20	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
 21	sai	sai	ADV	_	_	22	mod	_	_
-22	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
+22	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	11	parataxis@conj	_	Gloss=3Masc.Sub
 23	baː	baː	VERB	_	_	22	comp:aux	_	_
 24	yaːròː	yaːròː	NOUN	_	Definite=Ind|Gender=Masc	23	comp:obj@R	_	_
 25	kaːshiː	kaːshiː	NOUN	_	Definite=Ind|Gender=Masc	23	comp:obj@T	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	Gloss=PUNCT
 27	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	22	parataxis@conj	_	Gloss=3Masc.Sub
 28	ƙwaːcèː	ƙwaːcèː	VERB	_	_	27	comp:aux	_	_
-29	itàːceː	itàːceː	NOUN	_	Definite=Ind|Gender=Fem	31	comp:obj	_	_
-30	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	27	parataxis	_	Gloss=3Masc.Sub
+29	itàːceː	itàːceː	NOUN	_	Definite=Ind|Gender=Fem	28	comp:obj	_	_
+30	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	27	parataxis@conj	_	Gloss=3Masc.Sub
 31	kai	kai	VERB	_	_	30	comp:aux	_	_
 32	mà	mà	ADP	_	_	31	comp:obl	_	_
 33	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	32	comp:obj	_	_
-34	Dikkò	Dikkò	PROPN	_	_	31	comp:obj@G	_	Gloss=Dikkò|SpaceAfter=No
-35	.	.	PUNCT	_	_	15	punct	_	Gloss=PUNCT
+34	Dikkò	Dikkò	PROPN	_	_	33	conj:appos	_	Gloss=Dikkò|SpaceAfter=No
+35	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__78
 # text = Dandà Garbaː Dikkò indà duy yat tàhi itàːceː tàːre dà yâːra bâː shi itàːceː.
