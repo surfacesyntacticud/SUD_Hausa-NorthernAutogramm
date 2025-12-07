@@ -24,7 +24,7 @@
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=4972|AlignEnd=5296|Gloss=some.Plur
 6	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	8	comp:pred	_	AlignBegin=5296|AlignEnd=5620|Gloss=child.Plur.Cons
 7	maːtaː	màcce	NOUN	_	Definite=Ind|Number=Plur	6	compound	_	AlignBegin=5620|AlignEnd=5944|Gloss=woman.Plur
-8	nàː	neː	AUX	_	_	0	root	_	AlignBegin=5944|AlignEnd=6268|Copula=Yes|Gloss=Ident
+8	nàː	neː	AUX	_	Copula=Yes	0	root	_	AlignBegin=5944|AlignEnd=6268|Gloss=Ident
 9	biyu	biyu	NUM	_	_	8	det	_	AlignBegin=6268|AlignEnd=6592|Gloss=two
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=6592|AlignEnd=6914|Gloss=PUNCT
 
@@ -38,7 +38,7 @@
 1	dâːmaː	dâːmaː	ADV	_	_	4	mod	_	AlignBegin=6914|AlignEnd=7170|Gloss=formerly
 2	ɗiyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	4	comp:pred	_	AlignBegin=7426|AlignEnd=7682|Gloss=child.Plur.Cons
 3	kiyoːshiː	kiːshìyaːː	NOUN	_	Definite=Ind|Number=Plur	2	compound	_	AlignBegin=7682|AlignEnd=7938|Gloss=co-wife.Plur
-4	nàː	neː	AUX	_	_	0	root	_	AlignBegin=7938|AlignEnd=8194|Copula=Yes|Gloss=Ident
+4	nàː	neː	AUX	_	Copula=Yes	0	root	_	AlignBegin=7938|AlignEnd=8194|Gloss=Ident
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=8194|AlignEnd=8448|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_004-004
@@ -217,7 +217,7 @@
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=41898|AlignEnd=42058|Gloss=receive
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=42058|AlignEnd=42218|Gloss=PUNCT
 7	maːtaː	tamatà	ADJ	_	Number=Plur	8	comp:pred	_	AlignBegin=42218|AlignEnd=42378|Gloss=female.Plur
-8	nàː	neː	AUX	_	_	0	root	_	AlignBegin=42378|AlignEnd=42538|Copula=Yes|Gloss=Ident
+8	nàː	neː	AUX	_	Copula=Yes	0	root	_	AlignBegin=42378|AlignEnd=42538|Gloss=Ident
 9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=42538|AlignEnd=42694|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_012-012
@@ -579,13 +579,13 @@
 # text_ortho = anàː nan |c anàː nan |c anàː nan < rân nan < sai uwattà tay yi cikìː //
 # text = a nàː nan |r a nàː nan |r a nàː nan < rân nan < sai uwattà tay yi cikìː //
 # text_en = After some time, one day, her [Dove's] mother became pregnant.
-1	anàː	kè	AUX	_	Person=4	15	mod	_	AlignBegin=100380|AlignEnd=100603|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+1	anàː	kè	AUX	_	Copula=Yes|Person=4	15	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Pred/Loc|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=100826|AlignEnd=101049|Gloss=PUNCT
-4	anàː	kè	AUX	_	Person=4	1	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+4	anàː	kè	AUX	_	Copula=Yes|Person=4	1	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=4.Pred/Loc|wordform=a
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	AlignBegin=101272|AlignEnd=101495|Gloss=Def
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=101495|AlignEnd=101718|Gloss=PUNCT
-7	anàː	kè	AUX	_	Person=4	4	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+7	anàː	kè	AUX	_	Copula=Yes|Person=4	4	conj:redup	_	AlignBegin=101718|AlignEnd=101941|Gloss=4.Pred/Loc|wordform=a
 8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:pred	_	AlignBegin=101941|AlignEnd=102164|Gloss=Def
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=102164|AlignEnd=102387|Gloss=PUNCT
 10	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	15	mod	_	AlignBegin=102387|AlignEnd=102610|Gloss=day.Fem.Cons
@@ -749,7 +749,7 @@
 22	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	discourse	_	AlignBegin=128872|AlignEnd=129085|Gloss=1Sing.Nom
 23	<	<	PUNCT	_	_	22	punct	_	AlignBegin=129085|AlignEnd=129298|Gloss=PUNCT
 24	hakànga	hakà	ADV	_	_	25	comp:pred	_	AlignBegin=129298|AlignEnd=129511|Gloss=thus
-25	nàː	neː	AUX	_	_	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937|Copula=Yes|Gloss=Ident
+25	nàː	neː	AUX	_	Copula=Yes	14	comp:obj	_	AlignBegin=129724|AlignEnd=129937|Gloss=Ident
 26	>+	>+	PUNCT	_	_	28	punct	_	AlignBegin=129937|AlignEnd=130150|Gloss=PUNCT
 27	Allàː	Allàː	PROPN	_	_	28	subj	_	AlignBegin=130150|AlignEnd=130363|Gloss=God
 28	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	25	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Gloss=3Masc.Perf.Rel
@@ -837,7 +837,7 @@
 1	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=138324|AlignEnd=138437|Gloss=3Fem.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=138437|AlignEnd=138550|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=138550|AlignEnd=138663|Gloss=PUNCT
-4	kanàː	kè	AUX	_	Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Copula=Yes|Gloss=2Masc.Pred/Loc|wordform=ka
+4	kanàː	kè	AUX	_	Copula=Yes|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=138776|AlignEnd=138889|Gloss=2Masc.Pred/Loc|wordform=ka
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=138889|AlignEnd=139002|Gloss=with
 6	yâː	yâː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	AlignBegin=139002|AlignEnd=139115|Gloss=elder_sister.Fem
 7	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=139115|AlignEnd=139228|Gloss=PUNCT
@@ -893,7 +893,7 @@
 1	[	[	PUNCT	_	_	4	punct	_	AlignBegin=147522|AlignEnd=147698|Gloss=PUNCT
 2	àmmaː	àmmaː	CCONJ	_	_	4	discourse	_	AlignBegin=147698|AlignEnd=147874|Gloss=but
 3	lalleː	lalleː	ADV	_	_	4	mod	_	AlignBegin=147874|AlignEnd=148050|Gloss=of_course
-4	kanàː	kè	AUX	_	Gender=Masc|Person=2	0	root	_	AlignBegin=148226|AlignEnd=148402|Copula=Yes|Gloss=2Masc.Pred/Loc|wordform=ka
+4	kanàː	kè	AUX	_	Copula=Yes|Gender=Masc|Person=2	0	root	_	AlignBegin=148226|AlignEnd=148402|Gloss=2Masc.Pred/Loc|wordform=ka
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=148402|AlignEnd=148578|Gloss=with
 6	yâː	yâː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	AlignBegin=148578|AlignEnd=148754|Gloss=elder_sister.Fem
 7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=148754|AlignEnd=148930|Gloss=PUNCT
@@ -995,7 +995,7 @@
 15	indà	indà	ADV	_	PronType=Rel	13	comp:obj	_	AlignBegin=166224|AlignEnd=166410|Gloss=where
 16	kùsheːway	kùsheːwaː	NOUN	_	Definite=Cons|Gender=Fem	18	dislocated@subj	_	AlignBegin=166410|AlignEnd=166596|Gloss=grave.Fem.Cons
 17	yâːtaː	yâː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=1	16	mod	_	AlignBegin=166596|AlignEnd=166782|Gloss=elder_sister.Fem.Cons.1Sing.Gen|wordform=yâː
-18	takè	kè	AUX	_	Gender=Fem|Person=3|Relative=Yes	15	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Copula=Yes|Gloss=3Fem.Pred/Loc..Rel|wordform=kè
+18	takè	kè	AUX	_	Copula=Yes|Gender=Fem|Person=3|Relative=Yes	15	mod@relcl	_	AlignBegin=166968|AlignEnd=167154|Gloss=3Fem.Pred/Loc..Rel|wordform=kè
 19	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=167154|AlignEnd=167340|Gloss=PUNCT
 20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167340|AlignEnd=167531|Gloss=PUNCT
 
@@ -1092,7 +1092,7 @@
 # text_ortho = a nàː nan < shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text = a nàː nan shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text_en = After a while, it kept creeping until it went out of the village.
-1	anàː	kè	AUX	_	Person=4	0	root	_	AlignBegin=178938|AlignEnd=179136|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+1	anàː	kè	AUX	_	Copula=Yes|Person=4	0	root	_	AlignBegin=178938|AlignEnd=179136|Gloss=4.Pred/Loc|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def
 3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis@conj	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Prog
 4	yaːɗaː	yaːɗaː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:aux	_	AlignBegin=179730|AlignEnd=179928|Gloss=creeping.Masc
@@ -1570,7 +1570,7 @@
 2	gùdaː-gudàn	gùdaː	NOUN	_	Definite=Cons|Gender=Masc	10	dislocated	_	AlignBegin=253894|AlignEnd=254061|Gloss=one_only.Masc.Cons
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=254061|AlignEnd=254228|Gloss=Prox
 4	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=254228|AlignEnd=254395|Gloss=REL
-5	ad	neː	AUX	_	Relative=Yes	4	comp:obj	_	AlignBegin=254395|AlignEnd=254562|Copula=Yes|Gloss=Ident..Rel
+5	ad	neː	AUX	_	Copula=Yes|Relative=Yes	4	comp:obj	_	AlignBegin=254395|AlignEnd=254562|Gloss=Ident..Rel
 6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=254562|AlignEnd=254729|Gloss=with
 7	saurattà	sauraː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=254729|AlignEnd=254896|Gloss=remains.Fem.Cons.3Fem.Gen|wordform=saurat
 8	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	AlignBegin=254896|AlignEnd=255063|Gloss=also
@@ -1599,7 +1599,7 @@
 # text_ortho = a nàː nan < ɗaɗà hay yat taːshì |c ankà baː shì ruwaː |c yah hwalkàː //
 # text = a nàː nan ɗaɗà hay yat taːshì //= ankà baː shì ruwaː //= yah hwalkàː //
 # text_en = After a while, then, he got up, they gave him water, he felt better.
-1	anàː	kè	AUX	_	Person=4	0	root	_	AlignBegin=258440|AlignEnd=258588|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+1	anàː	kè	AUX	_	Copula=Yes|Person=4	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=4.Pred/Loc|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def
 3	ɗaɗà	ɗaɗà	ADV	_	_	1	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then
 4	hay	hat	SCONJ	_	_	1	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until
@@ -1663,10 +1663,10 @@
 # text_ortho = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text_en = After a while, after that, when everyone had gone away, he told his mother.
-1	anàː	kè	AUX	_	Person=4	16	mod	_	AlignBegin=265186|AlignEnd=265372|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+1	anàː	kè	AUX	_	Copula=Yes|Person=4	16	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=4.Pred/Loc|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT
-4	anàː	kè	AUX	_	Person=4	1	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Copula=Yes|Gloss=4.Pred/Loc|wordform=a
+4	anàː	kè	AUX	_	Copula=Yes|Person=4	1	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=4.Pred/Loc|wordform=a
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	AlignBegin=266116|AlignEnd=266302|Gloss=Def
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=266302|AlignEnd=266488|Gloss=PUNCT
 7	sai	sai	ADV	_	_	16	mod	_	AlignBegin=266488|AlignEnd=266674|Gloss=until
@@ -1697,7 +1697,7 @@
 4	ga	ganiː	VERB	_	_	3	comp:aux	_	AlignBegin=269753|AlignEnd=269904|Gloss=see
 5	indà	indà	ADV	_	PronType=Rel	4	comp:obj	_	AlignBegin=269904|AlignEnd=270055|Gloss=where
 6	yâːtai	yâː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	7	subj	_	AlignBegin=270055|AlignEnd=270206|Gloss=elder_sister.Fem.3Masc.Gen|wordform=yâː
-7	takè	kè	AUX	_	Gender=Fem|Person=3|Relative=Yes	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Copula=Yes|Gloss=3Fem.Pred/Loc..Rel|wordform=kè
+7	takè	kè	AUX	_	Copula=Yes|Gender=Fem|Person=3|Relative=Yes	5	mod@relcl	_	AlignBegin=270357|AlignEnd=270508|Gloss=3Fem.Pred/Loc..Rel|wordform=kè
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=270508|AlignEnd=270660|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_085-085
@@ -1708,7 +1708,7 @@
 # text = kuma ta nàː dà rânta bàtà mutù ba //
 # text_en = And she was alive, she had not died.
 1	kuma	kuma	CCONJ	_	_	2	discourse	_	AlignBegin=271300|AlignEnd=271449|Gloss=also
-2	tanàː	kè	AUX	_	Gender=Fem|Person=3	0	root	_	AlignBegin=271598|AlignEnd=271747|Copula=Yes|Gloss=3Fem.Pred/Loc|wordform=ta
+2	tanàː	kè	AUX	_	Copula=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=271598|AlignEnd=271747|Gloss=3Fem.Pred/Loc|wordform=ta
 3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271747|AlignEnd=271896|Gloss=with
 4	rânta	râi	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=271896|AlignEnd=272045|Gloss=life.Masc.Cons.3Fem.Gen|wordform=rân
 5	bàtà	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	2	parataxis@conj	_	AlignBegin=272045|AlignEnd=272194|Gloss=3Fem.PerfNeg

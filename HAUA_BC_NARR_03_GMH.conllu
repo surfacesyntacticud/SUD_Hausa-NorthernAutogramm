@@ -10,7 +10,7 @@
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2673|AlignEnd=2964|Gloss=PUNCT
 5	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=2964|AlignEnd=3255|Gloss=some.Plur
 6	mutàːneː	mùtunèː	NOUN	_	Definite=Ind|Number=Plur	7	comp:pred	_	AlignBegin=3255|AlignEnd=3546|Gloss=human.Plur|wordform=mutàːne
-7	nàː	neː	AUX	_	_	0	root	_	AlignBegin=3546|AlignEnd=3837|Copula=Yes|Gloss=Ident|wordform=nà:
+7	nàː	neː	AUX	_	Copula=Yes	0	root	_	AlignBegin=3546|AlignEnd=3837|Gloss=Ident|wordform=nà:
 8	>	>	PUNCT	_	_	10	punct	_	AlignBegin=3837|AlignEnd=4128|Gloss=PUNCT
 9	su	su	DET	_	Number=Plur	10	det	_	AlignBegin=4128|AlignEnd=4419|Gloss=Plur
 10	huɗu	huɗu	NUM	_	_	7	dislocated@mod	_	AlignBegin=4419|AlignEnd=4710|Gloss=four
@@ -50,7 +50,7 @@
 8	dà	dà	CCONJ	_	_	9	cc	_	AlignBegin=87352|AlignEnd=87624|Gloss=and
 9	ɗantà	ɗaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	5	conj:coord	_	AlignBegin=87624|AlignEnd=87896|Gloss=child.Masc.Cons.3Fem.Gen|wordform=ɗan
 10	dà	dà	SCONJ	_	_	9	mod@relcl	_	AlignBegin=87896|AlignEnd=88168|Gloss=REL
-11	am	neː	AUX	_	Relative=Yes	10	comp:obj	_	AlignBegin=88168|AlignEnd=88440|Copula=Yes|Gloss=Ident..Rel
+11	am	neː	AUX	_	Copula=Yes|Relative=Yes	10	comp:obj	_	AlignBegin=88168|AlignEnd=88440|Gloss=Ident..Rel
 12	màːlìye	maːliy-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	11	comp:pred	_	AlignBegin=88440|AlignEnd=88712|Gloss=suckle.Part.Stat
 13	gàreː	gàreː	ADP	_	_	12	mod	_	AlignBegin=88712|AlignEnd=88984|Gloss=by
 14	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=88984|AlignEnd=89256|Gloss=3Fem
@@ -78,7 +78,7 @@
 8	huɗu	huɗu	NUM	_	_	6	det	_	AlignBegin=102450|AlignEnd=102620|Gloss=four
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=102620|AlignEnd=102790|Gloss=PUNCT
 10	wanèː	wanèː	PRON	_	Gender=Masc|PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc
-11	naː	neː	AUX	_	_	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Copula=Yes|Gloss=Ident
+11	naː	neː	AUX	_	Copula=Yes	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Gloss=Ident
 12	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	11	comp:cleft	_	AlignBegin=103130|AlignEnd=103300|Gloss=3Masc.Perf.Rel
 13	hi	hi	VERB	_	_	12	comp:aux	_	AlignBegin=103300|AlignEnd=103470|Gloss=exceed
 14	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	mod	_	AlignBegin=103470|AlignEnd=103640|Gloss=thing.Masc.Cons
@@ -132,10 +132,10 @@
 # text_en = OK, then, one day, they came and told them "Eh, one of the king's cows has got lost."
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	12	discourse	_	AlignBegin=17244|AlignEnd=17418|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=17418|AlignEnd=17592|Gloss=PUNCT
-3	sunàː	kè	AUX	_	Number=Plur|Person=3	12	mod	_	AlignBegin=17592|AlignEnd=17766|Copula=Yes|Gloss=3Plur.Pred/Loc|wordform=su
+3	sunàː	kè	AUX	_	Copula=Yes|Number=Plur|Person=3	12	mod	_	AlignBegin=17592|AlignEnd=17766|Gloss=3Plur.Pred/Loc|wordform=su
 4	nan	nan	ADV	_	Definite=Def|PronType=Dem	3	comp:pred	_	AlignBegin=17766|AlignEnd=17940|Gloss=Def
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=17940|AlignEnd=18114|Gloss=PUNCT
-6	sunàː	kè	AUX	_	Number=Plur|Person=3	3	conj:redup	_	AlignBegin=18114|AlignEnd=18288|Copula=Yes|Gloss=3Plur.Pred/Loc|wordform=su
+6	sunàː	kè	AUX	_	Copula=Yes|Number=Plur|Person=3	3	conj:redup	_	AlignBegin=18114|AlignEnd=18288|Gloss=3Plur.Pred/Loc|wordform=su
 7	nan	nan	ADV	_	Definite=Def|PronType=Dem	6	comp:pred	_	AlignBegin=18288|AlignEnd=18462|Gloss=Def
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=18462|AlignEnd=18636|Gloss=PUNCT
 9	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	AlignBegin=18636|AlignEnd=18810|Gloss=day.Fem.Cons
@@ -266,7 +266,7 @@
 4	cikin	cikin	ADP	_	_	3	comp:obl	_	AlignBegin=39662|AlignEnd=39896|Gloss=inside
 5	ruwaː	ruwaː	NOUN	_	Definite=Ind|Number=Plur	4	comp:obj	_	AlignBegin=39896|AlignEnd=40130|Gloss=water.Plur
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40130|AlignEnd=40364|Gloss=PUNCT
-7	shinàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=40598|AlignEnd=40832|Copula=Yes|Gloss=3Masc.Pred/Loc|wordform=shi
+7	shinàː	kè	AUX	_	Copula=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=40598|AlignEnd=40832|Gloss=3Masc.Pred/Loc|wordform=shi
 8	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:pred	_	AlignBegin=40832|AlignEnd=41066|Gloss=follow.Part.Stat
 9	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=41066|AlignEnd=41300|Gloss=with
 10	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	9	comp:obj	_	AlignBegin=41300|AlignEnd=41534|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
@@ -285,7 +285,7 @@
 5	bi	bi	VERB	_	_	4	comp:aux	_	AlignBegin=42322|AlignEnd=42462|Gloss=follow
 6	duːc'ìː	duːc'ìː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	AlignBegin=42462|AlignEnd=42602|Gloss=stone.Masc
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=42602|AlignEnd=42742|Gloss=PUNCT
-8	shinàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=42742|AlignEnd=42882|Copula=Yes|Gloss=3Masc.Pred/Loc|wordform=shi
+8	shinàː	kè	AUX	_	Copula=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=42742|AlignEnd=42882|Gloss=3Masc.Pred/Loc|wordform=shi
 9	bìye	bi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=42882|AlignEnd=43022|Gloss=follow.Part.Stat
 10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=43022|AlignEnd=43162|Gloss=with
 11	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=43162|AlignEnd=43302|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
