@@ -132,7 +132,7 @@
 11	àmman	àmma	CCONJ	_	_	14	comp:pred	_	Gloss=but
 12	Garbà	Garbà	PROPN	_	_	11	comp:obj	_	Gloss=Garbà
 13	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	Gloss=brave
-14	nàː	neː	AUX	_	_	0	root	_	SpaceAfter=No
+14	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident|SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__12
@@ -603,7 +603,7 @@
 19	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	18	comp:obj	_	_
 20	na	na/ta	ADP	_	_	19	mod	_	_
 21	Garbà	Garbà	PROPN	_	_	20	comp:obj	_	Gloss=Garbà
-22	naː	neː	AUX	_	_	18	comp:obj	_	SpaceAfter=No
+22	naː	neː	AUX	_	Copula=Yes	18	comp:obj	_	Gloss=Ident|SpaceAfter=No
 23	.	.	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__40
@@ -611,7 +611,7 @@
 1	tôː	tôː	INTJ	_	_	7	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	AUX	_	Aspect=Prog	7	parataxis@mod	_	_
+4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	7	parataxis@mod	_	Gloss=Ident
 5	Dikkò	Dikkò	PROPN	_	_	4	subj	_	Gloss=Dikkò
 6	sai	sai	ADV	_	_	7	mod	_	_
 7	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
@@ -842,7 +842,7 @@
 # text = bàː hakànan nàː ba.
 1	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	_
 2	hakànan	hakànan	ADV	_	_	3	comp:pred	_	_
-3	nàː	neː	AUX	_	_	0	root	_	_
+3	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 4	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
@@ -2594,7 +2594,7 @@
 9	dan	don	SCONJ	_	_	7	mod	_	_
 10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	9	comp:obj	_	Gloss=3Masc.Prog
 11	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:aux	_	Gloss=brave
-12	nàː	neː	AUX	_	_	7	parataxis@mod	_	SpaceAfter=No
+12	nàː	neː	AUX	_	Copula=Yes	7	parataxis@mod	_	Gloss=Ident|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 14	àmman	àmma	CCONJ	_	_	17	cc	_	Gloss=but
 15	koː	koː	SCONJ	_	_	17	mod	_	_
@@ -3095,7 +3095,7 @@
 # text = " ìnaː nàː nig ga zâː ka dà maulòː cikin daːjìː? "
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 2	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	_
-3	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
+3	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	0	root	_	Gloss=Ident
 4	nig	ni	AUX	_	Aspect=Perf|Number=Sing|Person=1|Relative=Yes	3	comp:cleft	_	Gloss=1Sing.Perf.Rel
 5	ga	ganiː	VERB	_	_	4	comp:aux	_	_
 6	zâː	zâː	PART	_	_	5	comp:obj	_	_
@@ -3115,7 +3115,7 @@
 4	Dandà	Dandà	PROPN	_	_	7	comp:pred	_	Gloss=Dandà
 5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garbaː
 6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
-7	naː	neː	AUX	_	_	2	comp:obj@T	_	SpaceAfter=No
+7	naː	neː	AUX	_	Copula=Yes	2	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -4158,7 +4158,7 @@
 6	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	Dìːbaː	Dìːbaː	PROPN	_	_	2	comp:obj@T	_	Gloss=Dìːbaː
 8	suwàː	suwàː	NOUN	_	Definite=Ind|Gender=Fem	9	comp:pred	_	_
-9	naː	neː	AUX	_	_	7	comp:obj	_	SpaceAfter=No
+9	naː	neː	AUX	_	Copula=Yes	7	comp:obj	_	Gloss=Ident|SpaceAfter=No
 10	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -4170,7 +4170,7 @@
 4	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 5	màːsu	màːsu	ADP	_	Number=Plur	7	comp:pred	_	_
 6	maulòː	maulòː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	Gloss=guitar_sp.Masc[L]
-7	naː	neː	AUX	_	_	2	comp:obj@T	_	SpaceAfter=No
+7	naː	neː	AUX	_	Copula=Yes	2	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 8	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -4218,7 +4218,7 @@
 9	cèː	cêː	VERB	_	_	8	comp:aux	_	_
 10	"	"	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 11	yànzu	yànzu	ADV	_	_	12	mod	_	_
-12	naː	neː	AUX	_	_	9	comp:obj	_	_
+12	naː	neː	AUX	_	Copula=Yes	9	comp:obj	_	Gloss=Ident
 13	nik	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	12	comp:cleft	_	Gloss=1Sing.Perf.Rel
 14	koːmoː	koːmoː	VERB	_	_	13	comp:aux	_	_
 15	dàr	dàn	ADP	_	_	14	comp:obl	_	_
@@ -5089,7 +5089,7 @@
 8	ganiː	ganiː	VERB	_	_	7	comp:aux	_	_
 9	koː	koː	PART	_	PartType=Top	8	discourse@top	_	_
 10	suwàː	suwàː	NOUN	_	Definite=Ind|Gender=Fem	11	comp:pred	_	_
-11	naː	neː	AUX	_	_	8	comp:obj	_	SpaceAfter=No
+11	naː	neː	AUX	_	Copula=Yes	8	comp:obj	_	Gloss=Ident|SpaceAfter=No
 12	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 13	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -5104,7 +5104,7 @@
 7	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 8	màːsu	màːsu	ADP	_	Number=Plur	10	comp:pred	_	_
 9	maulòː	maulòː	NOUN	_	Definite=Ind|Gender=Masc	8	comp:obj	_	Gloss=guitar_sp.Masc[L]
-10	naː	neː	AUX	_	_	5	comp:obj@T	_	SpaceAfter=No
+10	naː	neː	AUX	_	Copula=Yes	5	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 11	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -5117,7 +5117,7 @@
 5	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 6	màːsu	màːsu	ADP	_	Number=Plur	8	subj	_	_
 7	maulòː	maulòː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj	_	Gloss=guitar_sp.Masc[L]
-8	naː	neː	AUX	_	_	3	comp:obj@T	_	SpaceAfter=No
+8	naː	neː	AUX	_	Copula=Yes	3	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 9	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -5914,7 +5914,7 @@
 # text = yaːròː gùdaː nàː ad dà àlaːmàsh shì san shì.
 1	yaːròː	yaːròː	NOUN	_	Definite=Ind|Gender=Masc	3	subj	_	_
 2	gùdaː	gùdaː	NUM	_	_	1	det	_	_
-3	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
+3	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	0	root	_	Gloss=Ident
 4	ad	neː	AUX	_	Copula=Yes|Relative=Yes	3	comp:cleft	_	Gloss=Ident.Rel
 5	dà	dà	ADP	_	_	4	comp:obl	_	Gloss=with
 6	àlaːmàsh	àlaːmàs	NOUN	_	Definite=Cons|Gender=Fem	5	comp:obj	_	_
@@ -6301,7 +6301,7 @@
 4	goːdabèː	goːdabèː	NOUN	_	Definite=Ind	0	root	_	_
 5	na	na/ta	ADP	_	_	4	mod	_	_
 6	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
-7	naː	neː	AUX	_	_	4	parataxis:insert	_	SpaceAfter=No
+7	naː	neː	AUX	_	Copula=Yes	4	parataxis:insert	_	Gloss=Ident|SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT|wordform="
 
@@ -6797,7 +6797,7 @@
 3	Garbaː	Garbaː	PROPN	_	Definite=Ind	2	flat@name	_	Gloss=Garbaː
 4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
 5	keːwàːyaːwàː	keːwàːyaːwàː	NOUN	_	Definite=Ind|Number=Plur	6	subj	_	_
-6	naː	neː	AUX	_	_	0	root	_	_
+6	naː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 7	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	6	comp:cleft	_	Gloss=3Masc.Perf.Rel
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
@@ -6890,7 +6890,7 @@
 4	dà	dà	ADP	_	_	3	comp:pred	_	Gloss=with
 5	uwaː	uwaː	NOUN	_	Definite=Ind|Gender=Fem	4	comp:obj	_	_
 6	shìriːrìːtaː	shìriːrìːtaː	NOUN	_	Definite=Ind|Number=Plur	7	comp:pred	_	_
-7	nàː	neː	AUX	_	_	0	root	_	SpaceAfter=No
+7	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__441
@@ -7104,7 +7104,7 @@
 1	tôː	tôː	INTJ	_	_	4	discourse	_	_
 2	loːkàːcîn	loːkàːciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
+4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	0	root	_	Gloss=Ident
 5	Dandà	Dandà	PROPN	_	_	4	comp:pred	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
@@ -7174,7 +7174,7 @@
 7	wànnan	wànnan	PRON	_	Gender=Masc|PronType=Dem	5	det	_	_
 8	bàː	bàː	PART	_	Polarity=Neg	5	mod	_	_
 9	yînku	yîːsù	NOUN	_	Number=Plur|Person=3	10	subj	_	_
-10	nàː	neː	AUX	_	_	2	comp:obj	_	_
+10	nàː	neː	AUX	_	Copula=Yes	2	comp:obj	_	Gloss=Ident
 11	ba	ba	PART	_	Polarity=Neg	10	mod	_	Gloss=Neg|SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 13	“	“	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -7183,7 +7183,7 @@
 # text = “ niː nàː niy yi mà kâina. “
 1	“	“	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	comp:pred	_	Gloss=1Sing.Nom
-3	nàː	neː	AUX	_	_	0	root	_	_
+3	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 4	niy	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	3	comp:cleft	_	Gloss=1Sing.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
 6	mà	mà	ADP	_	_	5	comp:obl	_	_
@@ -7312,7 +7312,7 @@
 5	dai	dai	PART	_	_	4	discourse@top	_	_
 6	dàh	dàh	ADP	_	_	4	mod@relcl	_	_
 7	harìː	harìː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj	_	_
-8	naː	neː	AUX	_	_	4	mod@relcl	_	_
+8	naː	neː	AUX	_	Copula=Yes	4	mod@relcl	_	Gloss=Ident
 9	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	8	comp:cleft	_	Gloss=3Masc.Perf.Rel
 10	zoː	zoː	VERB	_	_	9	comp:aux	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -7530,7 +7530,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 5	“	“	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 6	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	dislocated@subj	_	Gloss=1Sing.Nom
-7	nàː	neː	AUX	_	_	2	comp:obj@T	_	SpaceAfter=No
+7	nàː	neː	AUX	_	Copula=Yes	2	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 9	”	”	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -7556,7 +7556,7 @@
 1	tôː	tôː	INTJ	_	_	4	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
+4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	0	root	_	Gloss=Ident
 5	Dandà	Dandà	PROPN	_	_	4	comp:pred	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	8	vocative	_	Gloss=Dikkò
@@ -7709,7 +7709,7 @@
 1	tôː	tôː	INTJ	_	_	4	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
+4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	0	root	_	Gloss=Ident
 5	Dandà	Dandà	PROPN	_	_	4	comp:pred	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
@@ -7893,7 +7893,7 @@
 1	tôː	tôː	INTJ	_	_	4	discourse	_	_
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	AUX	_	Aspect=Prog	0	root	_	_
+4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	0	root	_	Gloss=Ident
 5	Dandà	Dandà	PROPN	_	_	4	comp:pred	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	comp:obj	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
@@ -7918,7 +7918,7 @@
 # text = tôː nan nàː yay yi tsàye yak kaːmèː bàːkiː, yay yi lìːsahiː.
 1	tôː	tôː	INTJ	_	_	3	discourse	_	_
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	3	mod	_	_
-3	nàː	neː	AUX	_	_	0	root	_	_
+3	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 4	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	3	comp:cleft	_	Gloss=3Masc.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
 6	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	_
@@ -8919,7 +8919,7 @@
 2	Gilaːgyàn	Gilaːgè	PROPN	_	Definite=Cons	5	comp:pred	_	Gloss=Gilaːgè
 3	ga	ganiː	DET	_	PronType=Dem	2	det	_	_
 4	àboːkiːnai	àboːkiːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	5	comp:pred	_	_
-5	nàː	neː	AUX	_	_	0	root	_	SpaceAfter=No
+5	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__564
@@ -9363,7 +9363,7 @@
 11	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	10	comp:obl	_	_
 12	"	"	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 13	Ìnaː	Ìnaː	PROPN	_	_	14	comp:pred	_	Gloss=Ìnaː
-14	nàː	neː	AUX	_	_	6	comp:obj	_	_
+14	nàː	neː	AUX	_	Copula=Yes	6	comp:obj	_	Gloss=Ident
 15	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	14	comp:cleft	_	Gloss=4.Prog.Rel
 16	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	15	comp:aux	_	_
 17	shaːnun	shaːnuː	NOUN	_	Definite=Cons|Gender=Masc	16	udep	_	_
@@ -9411,7 +9411,7 @@
 5	su	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj@T	_	Gloss=3Plur.Acc
 6	makyàːyiː	makyàːyiː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj@T	_	_
 7	ukkù	ukkù	NUM	_	_	6	det	_	_
-8	naː	neː	AUX	_	_	4	comp:obj@T	_	_
+8	naː	neː	AUX	_	Copula=Yes	4	comp:obj@T	_	Gloss=Ident
 9	ag	neː	AUX	_	Copula=Yes|Relative=Yes	8	comp:cleft	_	Gloss=Ident.Rel
 10	gà	gà	ADP	_	_	9	comp:obl	_	_
 11	Gilaːgè-	Gilaːgè-	PROPN	_	_	9	unk@scrap	_	Gloss=Gilaːgè-
@@ -9657,7 +9657,7 @@
 7	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	comp:obj@T	_	Gloss=3Masc.Perf
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
 9	hàukaː	hàukaː	NOUN	_	Definite=Ind	8	comp:obj	_	Gloss=madness.Fem
-10	nàː	neː	AUX	_	_	5	mod	_	_
+10	nàː	neː	AUX	_	Copula=Yes	5	mod	_	Gloss=Ident
 11	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__600
@@ -9846,7 +9846,7 @@
 6	ga	ga	DET	_	PronType=Dem	5	det	_	_
 7	dà	dà	ADP	_	_	9	comp:pred	_	Gloss=with
 8	gàske	gàske	ADV	_	_	7	comp:obj	_	_
-9	nàː	neː	AUX	_	_	6	comp:obj	_	_
+9	nàː	neː	AUX	_	Copula=Yes	6	comp:obj	_	Gloss=Ident
 10	dan	don	SCONJ	_	_	13	discourse	_	_
 11	namijì	namijì	NOUN	_	Definite=Ind|Gender=Masc	10	comp:obj	_	_
 12	ukkù	ukkù	NUM	_	_	13	mod	_	_
@@ -9975,7 +9975,7 @@
 1	tôː	tôː	PART	_	Definite=Cons|Gender=Masc	4	discourse	_	_
 2	loːkàcîn	loːkàcîn	NOUN	_	Definite=Cons|Gender=Masc	4	mod	_	_
 3	nan	nan	DET	_	Definite=Def|PronType=Dem	2	det	_	_
-4	nàː	neː	AUX	_	_	0	root	_	_
+4	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 5	dà	dà	SCONJ	_	_	4	comp:pred	_	Gloss=that
 6	Gilaːgè	Gilaːgè	PROPN	_	_	10	comp:obj	_	Gloss=Gilaːgè
 7	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	5	comp:obj	_	Gloss=3Masc.Perf.Rel
@@ -12145,7 +12145,7 @@
 4	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 5	tôː	tôː	INTJ	_	_	7	discourse	_	_
 6	gaskiyaː	gaskiyaː	INTJ	_	Definite=Ind|Gender=Fem	7	subj	_	_
-7	nàː	neː	AUX	_	_	3	comp:obj	_	SpaceAfter=No
+7	nàː	neː	AUX	_	Copula=Yes	3	comp:obj	_	Gloss=Ident|SpaceAfter=No
 8	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -12216,7 +12216,7 @@
 1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc	4	subj	_	Gloss=some.Masc
 3	mùtun	mùtun	NOUN	_	Definite=Ind|Gender=Masc	4	comp:pred	_	_
-4	nàː	neː	AUX	_	_	0	root	_	SpaceAfter=No
+4	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	gàː	gàː	PART	_	_	4	parataxis@conj	_	_
 7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	_
@@ -12238,7 +12238,7 @@
 7	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 8	wànga	wànga	DET	_	Gender=Masc|PronType=Dem	9	det	_	_
 9	ɓàraːwòː	ɓàraːwòː	NOUN	_	Definite=Ind|Gender=Masc	10	subj	_	_
-10	naː	neː	AUX	_	_	6	comp:obj@T	_	SpaceAfter=No
+10	naː	neː	AUX	_	Copula=Yes	6	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 11	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -12347,7 +12347,7 @@
 2	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	_
 4	gaskiya	gaskiya	INTJ	_	_	5	comp:pred	_	_
-5	nàː	neː	AUX	_	_	3	comp:obj@T	_	SpaceAfter=No
+5	nàː	neː	AUX	_	Copula=Yes	3	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__777
@@ -13542,7 +13542,7 @@
 5	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 6	makyàːyin	makyàːyiː	NOUN	_	Definite=Cons|Gender=Masc	8	subj	_	_
 7	jàkkai	jàkkai	NOUN	_	Definite=Ind|Gender=Masc	6	mod	_	_
-8	nàː	neː	AUX	_	_	3	comp:obj@T	_	SpaceAfter=No
+8	nàː	neː	AUX	_	Copula=Yes	3	comp:obj@T	_	Gloss=Ident|SpaceAfter=No
 9	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
