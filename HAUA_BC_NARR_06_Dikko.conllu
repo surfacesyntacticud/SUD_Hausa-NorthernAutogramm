@@ -91,16 +91,16 @@
 3	dà	dà	CCONJ	_	_	4	cc	_	Gloss=and
 4	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	2	conj:coord	_	Gloss=3Fem.Nom
 5	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Perf.Neg|wordform=sù
-6	sàːmu	saːmùː	VERB	_	_	5	comp:aux	_	_
-7	aihùwaː	aihùwaː	NOUN	_	Definite=Ind|Gender=Fem	6	comp:obj	_	_
-8	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
-9	tun	tun	SCONJ	_	_	6	mod	_	_
-10	rad	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	9	comp:obj	_	_
+6	sàːmu	saːmùː	VERB	_	_	5	comp:aux	_	Gloss=get
+7	aihùwaː	aihùwaː	NOUN	_	Definite=Ind|Gender=Fem	6	comp:obj	_	Gloss=birth
+8	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
+9	tun	tun	SCONJ	_	_	6	mod	_	Gloss=since
+10	rad	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	9	comp:obj	_	Gloss=day
 11	dà	dà	SCONJ	_	_	10	mod@relcl	_	Gloss=that
 12	Allàː	Allàː	PROPN	_	_	13	subj	_	Gloss=Allàː
 13	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	11	comp:obj	_	Gloss=3Masc.Perf.Rel
 14	yi	yi	VERB	_	_	13	comp:aux	_	_
-15	zamansù	zamaː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3	14	comp:pred	_	SpaceAfter=No
+15	zamansù	zamaː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3	14	comp:pred	_	Gloss=stay|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__10
@@ -114,7 +114,7 @@
 7	baː	baː	VERB	_	_	6	comp:aux	_	_
 8	sù	su	PRON	_	Number=Plur|Person=3	7	comp:obj@R	_	_
 9	ƙàːruwaː	ƙàːru	VERB	_	ExtPos=NOUN|Gender=Fem	7	comp:obj@R	_	_
-10	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+10	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__11
@@ -128,7 +128,7 @@
 7	baː	baː	VERB	_	_	6	comp:aux	_	_
 8	sù	su	PRON	_	Number=Plur|Person=3	7	comp:obj@R	_	_
 9	ƙaːruwàː	ƙaːruwàː	NOUN	_	ExtPos=NOUN|Gender=Fem	7	comp:obj@T	_	_
-10	ba	ba	PART	_	Polarity=Neg	7	mod	_	_
+10	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg
 11	àmman	àmma	ADP	_	_	14	comp:pred	_	_
 12	Garbà	Garbà	PROPN	_	_	11	comp:obj	_	Gloss=Garbà
 13	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	_
@@ -175,7 +175,7 @@
 12	baː	baː	VERB	_	_	11	comp:aux	_	_
 13	sù	su	PRON	_	Number=Plur|Person=3	12	comp:obj@R	_	_
 14	aihùwaː	aihù	VERB	_	ExtPos=NOUN|Gender=Fem	12	comp:obj@T	_	_
-15	ba	ba	PART	_	Polarity=Neg	12	mod	_	SpaceAfter=No
+15	ba	ba	PART	_	Polarity=Neg	12	mod	_	Gloss=Neg|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__14
@@ -566,7 +566,7 @@
 6	màːlàmmai	màːlàmmai	NOUN	_	Definite=Ind|Gender=Masc	7	subj	_	_
 7	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 8	zakà	zakàː	VERB	_	_	7	comp:aux	_	_
-9	raːnas	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:obj	_	_
+9	raːnas	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:obj	_	Gloss=day
 10	suːnaː	suːnaː	NOUN	_	Definite=Ind|Gender=Fem	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -843,7 +843,7 @@
 1	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	_
 2	hakànan	hakànan	ADV	_	_	3	comp:pred	_	_
 3	nàː	neː	AUX	_	_	0	root	_	_
-4	ba	ba	PART	_	Polarity=Neg	3	mod	_	SpaceAfter=No
+4	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__56
@@ -979,7 +979,7 @@
 6	Dandà	Dandà	PROPN	_	_	5	conj:appos	_	Gloss=Dandà
 7	Garbaː	Garbaː	PROPN	_	_	5	conj:appos	_	Gloss=Garbaː
 8	Dikkò	Dikkò	PROPN	_	_	5	conj:appos	_	Gloss=Dikkò
-9	tun	tun	SCONJ	_	_	5	mod	_	_
+9	tun	tun	SCONJ	_	_	5	mod	_	Gloss=since
 10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	9	comp:obj	_	Gloss=3Masc.Prog
 11	ɗan	ɗaː	ADV	_	Definite=Cons|Gender=Masc	12	mod	_	_
 12	yaːròː	yaːròː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:aux	_	_
@@ -1082,7 +1082,7 @@
 21	Dikkò	Dikkò	PROPN	_	_	22	subj	_	Gloss=Dikkò
 22	baːshì	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	12	conj:coord	_	_
 23	kuːkaː	kuːkaː	NOUN	_	Definite=Ind|Gender=Masc	22	comp:aux	_	_
-24	ba	ba	PART	_	Polarity=Neg	22	mod	_	_
+24	ba	ba	PART	_	Polarity=Neg	22	mod	_	Gloss=Neg
 25	dan	don	ADP	_	_	22	comp:pred	_	_
 26	ciːzòn	ciːzòː	NOUN	_	Definite=Cons|Gender=Masc	25	comp:obj	_	_
 27	kyaːshèː	kyaːshèː	NOUN	_	Definite=Ind|Gender=Masc	26	mod	_	SpaceAfter=No
@@ -1296,7 +1296,7 @@
 5	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Perf.Neg|wordform=sù
 6	iː	iː	VERB	_	_	5	comp:aux	_	_
 7	mai	mai	PRON	_	Gender=Masc|Person=3	6	comp:obl	_	_
-8	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
+8	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
 9	kaːshiː	kaːshiː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj@T	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
@@ -1316,7 +1316,7 @@
 4	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Perf.Neg|wordform=sù
 5	iː	iː	VERB	_	_	4	comp:aux	_	_
 6	mai	mai	PRON	_	_	5	comp:obl	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	_
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg
 8	kaːshiː	kaːshiː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj@T	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -1364,7 +1364,7 @@
 2	ɗaː	ɗaː	NOUN	_	Definite=Ind|Gender=Masc	0	root	_	_
 3	dà	dà	ADP	_	_	2	mod	_	Gloss=with
 4	kis	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2|Relative=Yes	3	comp:obj	_	Gloss=2Fem.Perf.Rel
-5	saːmùː	saːmùː	VERB	_	Definite=Ind|Gender=Masc	4	comp:aux	_	SpaceAfter=No
+5	saːmùː	saːmùː	VERB	_	Definite=Ind|Gender=Masc	4	comp:aux	_	Gloss=get|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__88
@@ -1402,7 +1402,7 @@
 2	im	in	SCONJ	_	_	8	mod	_	_
 3	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	2	comp:obj	_	Gloss=3Masc.Perf.Neg
 4	jiyàː	jiyàː	VERB	_	_	3	comp:aux	_	_
-5	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+5	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 7	ƙòːhwatòːnai	ƙòːhwatòːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	8	subj	_	_
 8	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
@@ -1901,7 +1901,7 @@
 4	Bàn	yaː	PROPN	_	_	2	comp:obj	_	Gloss=Bàn
 5	ìsa	ìsa	VERB	_	_	4	comp:aux	_	_
 6	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	_
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg
 8	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	Gloss=1Sing.Nom|SpaceAfter=No
 9	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -1929,7 +1929,7 @@
 19	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	17	parataxis	_	Gloss=2Masc.Perf.Neg|wordform=kà
 20	ìsaː	ìsaː	VERB	_	_	19	comp:aux	_	_
 21	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	20	comp:obj	_	_
-22	ba	ba	PART	_	Polarity=Neg	20	mod	_	SpaceAfter=No
+22	ba	ba	PART	_	Polarity=Neg	20	mod	_	Gloss=Neg|SpaceAfter=No
 23	?	?	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 24	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -1943,7 +1943,7 @@
 6	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	2	comp:obj	_	Gloss=1Sing.Perf.Neg
 7	ìsa	ìsa	VERB	_	_	6	comp:aux	_	_
 8	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	7	comp:obj	_	_
-9	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 10	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -1967,7 +1967,7 @@
 4	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	0	root	_	Gloss=1Sing.Perf.Neg
 5	ìsa	ìsa	VERB	_	_	4	comp:aux	_	_
 6	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 8	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
 
@@ -1981,7 +1981,7 @@
 6	bày	bày	ADP	_	_	5	comp:obl	_	_
 7	ìsa	ìsa	AUX	_	_	6	comp:obj	_	_
 8	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	7	comp:aux	_	_
-9	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 11	Dikkò	Dikkò	PROPN	_	_	12	subj	_	Gloss=Dikkò
 12	taƙ	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	4	parataxis@conj	_	Gloss=3Fem.Perf.Rel
@@ -2006,7 +2006,7 @@
 13	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	10	parataxis@conj	_	Gloss=3Masc.Perf.Neg
 14	yi	yi	VERB	_	_	13	comp:aux	_	_
 15	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	14	comp:pred	_	_
-16	ba	ba	PART	_	Polarity=Neg	14	mod	_	SpaceAfter=No
+16	ba	ba	PART	_	Polarity=Neg	14	mod	_	Gloss=Neg|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__132
@@ -2338,7 +2338,7 @@
 27	yaƙ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	26	parataxis@mod	_	Gloss=3Masc.Perf.Rel
 28	ƙwaːtoː	ƙwaːtoː	VERB	_	_	27	comp:aux	_	_
 29	duːkìyaː	duːkìyaː	NOUN	_	Definite=Ind|Gender=Fem	28	comp:obj	_	_
-30	ba	ba	PART	_	Polarity=Neg	33	mod	_	_
+30	ba	ba	PART	_	Polarity=Neg	33	mod	_	Gloss=Neg
 31	ta	ta	ADP	_	_	26	mod	_	_
 32	wasu	wani	DET	_	Number=Plur	33	det	_	_
 33	zâi	zâi	AUX	_	Gender=Masc|Person=3|Tense=Fut	31	comp:obj	_	Gloss=Fut.3Masc
@@ -2356,9 +2356,9 @@
 3	san	sanìː	VERB	_	_	2	comp:aux	_	Gloss=know
 4	ciːyòn	ciːyòː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	_
 5	armeː	armeː	NOUN	_	Definite=Ind|Gender=Masc	4	mod	_	_
-6	ba	ba	PART	_	Polarity=Neg	3	mod	_	_
+6	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg
 7	kèːnan	neː	PART	_	PartType=Foc	3	discourse@foc	_	Gloss=Emph
-8	tun	tun	SCONJ	_	_	3	mod	_	_
+8	tun	tun	SCONJ	_	_	3	mod	_	Gloss=since
 9	dà	dà	SCONJ	_	_	8	comp:obj	_	Gloss=that
 10	bàː	bàː	PART	_	Polarity=Neg	11	mod	_	_
 11	bìɗaː	bìɗaː	VERB	_	Definite=Ind|Gender=Fem	14	comp:aux	_	_
@@ -2367,7 +2367,7 @@
 14	tàː	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	3	comp:obj	_	_
 15	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	14	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 16	yi	yi	VERB	_	_	15	comp:aux	_	_
-17	ba	ba	PART	_	Polarity=Neg	16	mod	_	SpaceAfter=No
+17	ba	ba	PART	_	Polarity=Neg	16	mod	_	Gloss=Neg|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	Gloss=PUNCT
 19	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	14	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 20	yi	yi	VERB	_	_	19	comp:aux	_	_
@@ -2464,7 +2464,7 @@
 23	bàn	yaː	AUX	_	Aspect=Perf|Person=1|Polarity=Neg	14	parataxis@conj	_	Gloss=1Sing.Perf.Neg
 24	bâː	baːbù	VERB	_	_	23	comp:aux	_	_
 25	wani	wani	PRON	_	Definite=Spec|Gender=Masc	24	comp:obj@R	_	_
-26	ba	ba	PART	_	Polarity=Neg	24	mod	_	SpaceAfter=No
+26	ba	ba	PART	_	Polarity=Neg	24	mod	_	Gloss=Neg|SpaceAfter=No
 27	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 28	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -2696,7 +2696,7 @@
 4	anàː	nàː	AUX	_	Person=4	1	parataxis@conj	_	Gloss=4.Prog
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-7	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	_
+7	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	Gloss=day
 8	nan	nan	DET	_	Definite=Def|PronType=Dem	7	det	_	_
 9	sai	sai	ADV	_	_	12	mod	_	_
 10	màːsu	mài	ADP	_	Number=Plur	12	subj	_	_
@@ -2721,7 +2721,7 @@
 7	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 8	yâu	yâu	ADV	_	_	6	comp:obj	_	_
 9	wacèː	wacèː	ADJ	_	Gender=Fem|PronType=Int	8	subj	_	_
-10	raːnaː	raːnaː	NOUN	_	Definite=Ind	8	subj	_	_
+10	raːnaː	raːnaː	NOUN	_	Definite=Ind	8	subj	_	Gloss=day
 11	tàː	tàa	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp:obj	_	_
 12	?	?	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 13	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
@@ -2786,7 +2786,7 @@
 10	nau	nau	PRON	_	Number=Plur|Person=3	7	comp:obj	_	_
 11	nàː	nàː	AUX	_	_	2	comp:obj	_	_
 12	kukài	kukài	AUX	_	Aspect=Prog|Number=Plur|Person=2	11	comp:cleft	_	_
-13	ba	ba	PART	_	Polarity=Neg	11	mod	_	SpaceAfter=No
+13	ba	ba	PART	_	Polarity=Neg	11	mod	_	Gloss=Neg|SpaceAfter=No
 14	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 15	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -2797,7 +2797,7 @@
 3	nau	nau	PRON	_	_	0	root	_	_
 4	nàː	neː	PART	_	PartType=Foc	3	discourse@foc	_	Gloss=Emph
 5	kukài	yi	VERB	_	Aspect=Prog|Number=Plur|Person=2|Relative=Yes	3	comp:cleft	_	Gloss=2Plur.Prog.Rel.do
-6	ba	ba	PART	_	Polarity=Neg	3	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg|SpaceAfter=No
 7	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
 8	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform="
 
@@ -2823,7 +2823,7 @@
 7	bàː	bàː	PART	_	Polarity=Neg	9	mod	_	_
 8	nau	nau	PRON	_	Number=Plur|Person=3|PronType=Prs	9	comp:pred	_	Gloss=1Sing.Gen
 9	nàː	neː	AUX	_	Copula=Yes	2	conj:coord	_	Gloss=Ident.Masc
-10	ba	ba	PART	_	Polarity=Neg	9	mod	_	SpaceAfter=No
+10	ba	ba	PART	_	Polarity=Neg	9	mod	_	Gloss=Neg|SpaceAfter=No
 11	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -2865,7 +2865,7 @@
 3	bàː	bàː	PART	_	Polarity=Neg	5	mod	_	_
 4	nau	nau	PRON	_	Case=Gen|Gender=Masc|Person=3	5	comp:pred	_	Gloss=3Masc.Gen
 5	nàː	nàː	AUX	_	_	0	root	_	_
-6	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 8	àmman	àmma	CCONJ	_	_	11	cc	_	_
 9	yànzu	yànzu	ADV	_	_	11	mod	_	_
@@ -2912,7 +2912,7 @@
 6	kaːwoː	kai	VERB	_	_	5	comp:aux	_	_
 7	min	min	PRON	_	Person=1	6	comp:obl	_	_
 8	kiɗìːnaː	kiɗìːnaː	NOUN	_	Definite=Ind|Gender=Fem	6	comp:obj	_	_
-9	ba	ba	PART	_	Polarity=Neg	6	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 11	màːsu	mài	ADP	_	Number=Plur	5	subj	_	_
 12	maulòː	maulòː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	Gloss=guitar_sp.Masc[L]
@@ -2937,7 +2937,7 @@
 7	nàː	neː	PART	_	PartType=Foc	6	discourse@foc	_	Gloss=Emph
 8	akài	kài	AUX	_	_	6	comp:cleft	_	_
 9	min	min	PRON	_	Person=1	8	comp:obl	_	_
-10	ba	ba	PART	_	Polarity=Neg	6	mod	_	SpaceAfter=No
+10	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg|SpaceAfter=No
 11	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT|wordform="
 
@@ -3032,7 +3032,7 @@
 6	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	1	comp:cleft	_	Gloss=3Masc.Perf.Neg
 7	yoː	yi	VERB	_	_	6	comp:aux	_	_
 8	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	7	comp:pred	_	_
-9	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 11	daːjì	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	12	subj	_	_
 12	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	6	parataxis@conj	_	Gloss=3Masc.Perf.Rel
@@ -3066,7 +3066,7 @@
 4	tsoːhon	tsoːhoː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:pred	_	_
 5	banzaː	banzaː	ADJ	_	Definite=Ind|Gender=Fem	4	mod	_	_
 6	nàː	nàː	AUX	_	_	0	root	_	_
-7	ba	ba	PART	_	Polarity=Neg	6	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 9	aljaninsù	aljaniːsù	NOUN	_	Definite=Cons|Gender=Masc|Number=Plur|Person=3	10	comp:pred	_	_
 10	naː	nàː	AUX	_	_	6	parataxis@conj	_	_
@@ -3149,10 +3149,10 @@
 3	bàmù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	2	comp:obj	_	Gloss=1Plur.Perf.Neg|wordform=mù
 4	biɗoː	biɗoː	VERB	_	_	3	comp:aux	_	_
 5	mai	mai	PRON	_	Gender=Masc|Person=3	4	comp:obl	_	_
-6	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	zàuke	zài	AUX	_	_	0	root	_	_
-9	raːnaː	raːnaː	NOUN	_	Definite=Ind	8	mod	_	_
+9	raːnaː	raːnaː	NOUN	_	Definite=Ind	8	mod	_	Gloss=day
 10	wàta	wàta	ADP	_	Definite=Cons|Gender=Fem	9	mod	_	_
 11	yâu	yâu	ADV	_	_	10	mod	_	_
 12	duk	dukà	DET	_	_	9	det	_	_
@@ -3173,7 +3173,7 @@
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	Gloss=that
 8	mukài	mukài	AUX	_	Number=Plur|Person=1	7	comp:obj	_	_
 9	mai	mai	PRON	_	Gender=Masc|Person=3	8	comp:obl	_	_
-10	ba	ba	PART	_	Polarity=Neg	8	mod	_	SpaceAfter=No
+10	ba	ba	PART	_	Polarity=Neg	8	mod	_	Gloss=Neg|SpaceAfter=No
 11	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
 
@@ -3241,7 +3241,7 @@
 8	kyâu	kyâu	NOUN	_	Definite=Ind|Gender=Masc	7	comp:obj	_	_
 9	dan	don	SCONJ	_	_	5	mod	_	_
 10	yànzu	yànzu	ADV	_	_	9	comp:obj	_	_
-11	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	13	comp:pred	_	_
+11	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	13	comp:pred	_	Gloss=day
 12	hwaːɗùwaː	hwaːɗùwaː	VERB	_	ExtPos=NOUN|Gender=Fem	13	subj	_	_
 13	zâː	zâː	PART	_	_	9	comp:obj	_	_
 14	ta	ta	PART	_	Aspect=Iter	13	subj	_	_
@@ -3324,7 +3324,7 @@
 # text = anàː nan raːnaː taː hwaːɗì sai cilàkko taz zakà tah hausà iccèː.
 1	anàː	nàː	AUX	_	Person=4	8	mod	_	Gloss=4.Prog
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	_
-3	raːnaː	raːnaː	NOUN	_	Definite=Ind	4	subj	_	_
+3	raːnaː	raːnaː	NOUN	_	Definite=Ind	4	subj	_	Gloss=day
 4	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	parataxis@conj	_	Gloss=3Fem.Perf
 5	hwaːɗì	hwaːàː	VERB	_	_	4	comp:aux	_	_
 6	sai	sai	ADV	_	_	8	mod	_	_
@@ -3671,7 +3671,7 @@
 14	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	11	comp:obj	_	Gloss=3Masc.Perf.Neg
 15	ji	ji	VERB	_	_	14	comp:aux	_	_
 16	kiɗìːnai	kiɗìːnai	VERB	_	ExtPos=NOUN|Gender=Masc|Person=3	15	comp:pred	_	_
-17	ba	ba	PART	_	Polarity=Neg	15	mod	_	SpaceAfter=No
+17	ba	ba	PART	_	Polarity=Neg	15	mod	_	Gloss=Neg|SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__234
@@ -3731,7 +3731,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__237
 # text = tun dà zamaːnai gàba gà Garbaː Dikkò kaː ji wàdà shi kài.
-1	tun	tun	SCONJ	_	_	5	mod	_	_
+1	tun	tun	SCONJ	_	_	5	mod	_	Gloss=since
 2	dà	dà	ADP	_	_	1	comp:obj	_	Gloss=with
 3	zamaːnai	zamaːnai	NOUN	_	ExtPos=NOUN|Gender=Masc|Person=3	2	comp:obj	_	_
 4	gàba	gàba	ADV	_	_	1	mod	_	_
@@ -3785,7 +3785,7 @@
 4	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:obj	_	_
 5	dai	dai	PART	_	_	4	discourse@top	_	_
 6	nis	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	4	comp:cleft	_	Gloss=1Sing.Perf.Rel
-7	saːmoː	saːmùː	VERB	_	_	6	comp:aux	_	_
+7	saːmoː	saːmùː	VERB	_	_	6	comp:aux	_	Gloss=get
 8	shì	shi	PRON	_	Gender=Masc|Person=3	7	comp:obj	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -3898,7 +3898,7 @@
 6	koːkòː	koːkòː	CCONJ	_	_	7	mod	_	_
 7	bàkù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2|Polarity=Neg	0	root	_	Gloss=2Plur.Perf.Neg|wordform=kù
 8	yàrda	yàrda	VERB	_	_	7	comp:aux	_	_
-9	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 10	?	?	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 11	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -4102,7 +4102,7 @@
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 5	wata	wata	DET	_	Gender=Fem	6	det	_	_
-6	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	21	mod	_	_
+6	raːnaː	raːnaː	NOUN	_	Definite=Ind|Gender=Fem	21	mod	_	Gloss=day
 7	Dandà	Dandà	PROPN	_	_	6	mod	_	Gloss=Dandà
 8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garbaː
 9	Dikkò	Dikkò	PROPN	_	_	8	flat@name	_	Gloss=Dikkò|SpaceAfter=No
@@ -4335,7 +4335,7 @@
 20	baː	baː	PART	_	Polarity=Neg	18	parataxis@conj	_	_
 21	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	20	comp:obj@R	_	Gloss=3Plur.Sub
 22	koːmiː	koːmiː	PRON	_	_	21	comp:aux	_	_
-23	ba	ba	PART	_	Polarity=Neg	20	mod	_	_
+23	ba	ba	PART	_	Polarity=Neg	20	mod	_	Gloss=Neg
 24	?	?	PUNCT	_	_	13	punct	_	Gloss=PUNCT
 25	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -4401,7 +4401,7 @@
 4	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	3	parataxis@conj	_	Gloss=3Masc.Perf.Neg
 5	buːɗèː	buːɗèː	VERB	_	_	4	comp:aux	_	_
 6	sirdìː	sirdìː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 9	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 10	kwàràːreː	kwàràːreː	VERB	_	Definite=Ind|Gender=Masc	9	comp:aux	_	_
@@ -4526,7 +4526,7 @@
 13	gyaːràː	gyaːràː	NOUN	_	Definite=Ind|Gender=Fem	20	comp:aux	_	_
 14	mukù	kù	AUX	_	Aspect=Perf|Number=Plur|Person=1	12	comp:obl	_	_
 15	koːmiː	koːmiː	PRON	_	_	20	comp:aux	_	_
-16	ba	ba	PART	_	Polarity=Neg	15	mod	_	_
+16	ba	ba	PART	_	Polarity=Neg	15	mod	_	Gloss=Neg
 17	sai	sai	SCONJ	_	_	12	mod	_	_
 18	tuwon	tuwoː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	_
 19	dà	dà	SCONJ	_	_	18	mod@relcl	_	Gloss=that
@@ -4817,7 +4817,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__303
 # text = " Rad dà arzìkiː yaƙ ƙaːrèː, amu ga wàdà zâi yîː" .
 1	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-2	Rad	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	mod	_	_
+2	Rad	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	mod	_	Gloss=day
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	Gloss=that
 4	arzìkiː	arzìkiː	NOUN	_	Definite=Ind|Gender=Masc	5	subj	_	_
 5	yaƙ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	3	comp:obj	_	Gloss=3Masc.Perf.Rel
@@ -4892,7 +4892,7 @@
 2	kaːmùn	kaːmùː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	_
 3	àwàrtakìn	àwàrtakìː	NOUN	_	Definite=Cons|Gender=Masc	2	mod	_	_
 4	banzaː	banzaː	NOUN	_	Definite=Ind|Gender=Fem	3	mod	_	_
-5	ba	ba	PART	_	Polarity=Neg	2	mod	_	_
+5	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg
 6	dan	don	SCONJ	_	_	2	mod	_	_
 7	dàk	dàgà	SCONJ	_	_	6	comp:obj	_	_
 8	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	6	comp:obj	_	Gloss=2Masc.Sub
@@ -5051,7 +5051,7 @@
 3	cikin	cikin	ADP	_	_	2	comp:obl	_	_
 4	ɗaːkìː	ɗaːkìː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-6	zamaː	zamaː	PART	_	Definite=Ind|Gender=Masc	1	subj	_	_
+6	zamaː	zamaː	PART	_	Definite=Ind|Gender=Masc	1	subj	_	Gloss=stay
 7	dai	dai	PART	_	_	6	discourse@top	_	_
 8	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 9	yi	yi	VERB	_	_	8	comp:aux	_	_
@@ -5445,7 +5445,7 @@
 3	îskeː	îskeː	VERB	_	_	2	comp:aux	_	_
 4	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	mod	_	Gloss=3Masc.Sub
 5	gidaː	gidaː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj@G	_	_
-6	ba	ba	PART	_	Polarity=Neg	3	mod	_	_
+6	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg
 7	àmman	àmma	CCONJ	_	_	8	cc	_	_
 8	shinàː	nàː	AUX	_	Gender=Masc|Person=3	2	parataxis	_	Gloss=3Masc.Prog
 9	dà	dà	ADP	_	_	8	comp:pred	_	Gloss=with
@@ -5906,7 +5906,7 @@
 6	bàː	bàː	PART	_	Polarity=Neg	8	mod	_	_
 7	sanìːnai	sanìːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	8	subj	_	_
 8	sukài	kài	AUX	_	Number=Plur|Person=3	5	comp:cleft	_	_
-9	ba	ba	PART	_	Polarity=Neg	8	mod	_	_
+9	ba	ba	PART	_	Polarity=Neg	8	mod	_	Gloss=Neg
 10	sòːsai	sòːsai	ADV	_	_	8	mod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -6365,7 +6365,7 @@
 2	iyàːwaː	iyàːwaː	NOUN	_	Definite=Ind|Gender=Fem	4	conj:appos	_	_
 3	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	_
 4	ƙarhiː	ƙarhiː	NOUN	_	Definite=Ind|Gender=Masc	0	root	_	_
-5	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+5	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__407
@@ -6520,7 +6520,7 @@
 44	ganiː	ganiː	VERB	_	_	53	comp:obj	_	_
 45	in	in	SCONJ	_	_	32	mod	_	Gloss=if
 46	inàː	nàː	AUX	_	Aspect=Prog|Person=1	45	comp:obj	_	Gloss=1Sing.Prog
-47	saːmùn	saːmùː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	46	comp:aux	_	_
+47	saːmùn	saːmùː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	46	comp:aux	_	Gloss=get
 48	àbin	àbù	NOUN	_	Definite=Cons|Gender=Masc	32	comp:obj	_	_
 49	dà	dà	SCONJ	_	_	48	mod@relcl	_	Gloss=that
 50	nih	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	49	comp:obj	_	Gloss=1Sing.Perf.Rel
@@ -6967,7 +6967,7 @@
 2	sâː	sâː	VERB	_	_	1	comp:aux	_	_
 3	na	na/ta	ADP	_	_	2	comp:obj	_	_
 4	yaːròː	yaːròː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj	_	_
-5	ba	ba	PART	_	Polarity=Neg	2	mod	_	SpaceAfter=No
+5	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__447
@@ -7175,7 +7175,7 @@
 8	bàː	bàː	PART	_	Polarity=Neg	5	mod	_	_
 9	yînku	yîːsù	NOUN	_	Number=Plur|Person=3	10	subj	_	_
 10	nàː	neː	AUX	_	_	2	comp:obj	_	_
-11	ba	ba	PART	_	Polarity=Neg	10	mod	_	SpaceAfter=No
+11	ba	ba	PART	_	Polarity=Neg	10	mod	_	Gloss=Neg|SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 13	“	“	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -7325,11 +7325,11 @@
 4	indà	indà	PRON	_	_	3	comp:obj	_	_
 5	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	mod@relcl	_	Gloss=3Masc.Perf.Rel
 6	zoː	zoː	VERB	_	_	5	comp:aux	_	_
-7	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
+7	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
 8	im	in	SCONJ	_	_	6	mod	_	_
 9	bàː	bàː	PART	_	Polarity=Neg	10	mod	_	_
 10	ʿYabBàraːya	ʿyabbàraːya	PROPN	_	_	8	comp:obj	_	Gloss=ʿYabBàraːya
-11	ba	ba	PART	_	Polarity=Neg	10	mod	_	_
+11	ba	ba	PART	_	Polarity=Neg	10	mod	_	Gloss=Neg
 12	màːtaːtai	màːtaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	10	conj:appos	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -7610,7 +7610,7 @@
 6	shìga	shìga	VERB	_	_	5	comp:aux	_	_
 7	ruwàn	ruwàː	NOUN	_	Definite=Cons|Number=Plur	6	comp:obj@G	_	_
 8	ga	ga	DET	_	PronType=Dem	7	det	_	_
-9	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
+9	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
 10	kuma	kuma	PART	_	_	4	discourse@top	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
 12	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	13	subj	_	Gloss=death.Fem
@@ -7974,7 +7974,7 @@
 9	naː	yaː	AUX	_	Aspect=Perf|Person=1	8	comp:obj	_	_
 10	yi	yi	VERB	_	_	9	comp:aux	_	_
 11	tsòːroː	tsòːroː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:pred	_	_
-12	ba	ba	PART	_	Polarity=Neg	10	mod	_	SpaceAfter=No
+12	ba	ba	PART	_	Polarity=Neg	10	mod	_	Gloss=Neg|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 14	“	“	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -8014,7 +8014,7 @@
 19	ji	ji	VERB	_	_	18	comp:aux	_	_
 20	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	19	comp:obj	_	Gloss=3Fem.Perf
 21	kaːcʿèː	kaːcʿèː	VERB	_	_	20	comp:aux	_	_
-22	ba	ba	PART	_	Polarity=Neg	19	mod	_	SpaceAfter=No
+22	ba	ba	PART	_	Polarity=Neg	19	mod	_	Gloss=Neg|SpaceAfter=No
 23	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 24	“	“	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -8085,7 +8085,7 @@
 12	in	in	SCONJ	_	_	8	mod	_	Gloss=if
 13	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	12	comp:obj	_	Gloss=3Masc.Perf.Rel
 14	kaːcʿèː	kaːcʿèː	VERB	_	_	13	comp:aux	_	_
-15	ba	ba	PART	_	Polarity=Neg	14	mod	_	SpaceAfter=No
+15	ba	ba	PART	_	Polarity=Neg	14	mod	_	Gloss=Neg|SpaceAfter=No
 16	?	?	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 17	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
@@ -8192,7 +8192,7 @@
 # text = bài waiwayoː ba, yaj ji an cèː “ kai, mài doːkìː, yaː kà! “
 1	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 2	waiwayoː	waiwayaː	VERB	_	_	1	comp:aux	_	_
-3	ba	ba	PART	_	Polarity=Neg	2	mod	_	SpaceAfter=No
+3	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	yaj	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 6	ji	jiyàː	VERB	_	_	5	comp:aux	_	_
@@ -8213,7 +8213,7 @@
 # text = bài waiwayoː ba.
 1	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 2	waiwayoː	waiwayoː	VERB	_	_	1	comp:aux	_	_
-3	ba	ba	PART	_	Polarity=Neg	2	mod	_	SpaceAfter=No
+3	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__524
@@ -8258,7 +8258,7 @@
 1	kuma	kuma	PART	_	_	2	discourse	_	_
 2	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 3	waiwàyaː	waiwàyaː	VERB	_	Definite=Ind|Gender=Fem	2	comp:aux	_	_
-4	ba	ba	PART	_	Polarity=Neg	3	mod	_	SpaceAfter=No
+4	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__527
@@ -8301,7 +8301,7 @@
 4	kâi	kâi	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj	_	_
 5	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	conj:coord	_	_
 6	diːbàː	diːbàː	VERB	_	_	5	comp:aux	_	_
-7	ba	ba	PART	_	Polarity=Neg	6	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__530
@@ -8314,7 +8314,7 @@
 6	kâi	kâi	VERB	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
 7	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	5	mod	_	_
 8	diːbàː	diːbàː	VERB	_	_	7	comp:aux	_	_
-9	ba	ba	PART	_	Polarity=Neg	8	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	8	mod	_	Gloss=Neg|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__531
@@ -8367,12 +8367,12 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 5	waiwàyaː	waiwàyaː	VERB	_	Definite=Ind|Gender=Fem	4	comp:aux	_	_
-6	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 8	aː	aː	INTJ	_	_	4	discourse	_	_
 9	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	4	parataxis@conj	_	Gloss=3Masc.Perf.Neg
 10	waiwàyaː	waiwàyaː	VERB	_	_	9	comp:aux	_	_
-11	ba	ba	PART	_	Polarity=Neg	10	mod	_	SpaceAfter=No
+11	ba	ba	PART	_	Polarity=Neg	10	mod	_	Gloss=Neg|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__534
@@ -8382,7 +8382,7 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	1	comp:obj	_	Gloss=3Masc.Perf.Neg
 5	waiwàyaː	waiwàyaː	VERB	_	Definite=Ind|Gender=Fem	4	comp:aux	_	_
-6	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 8	tabbàːshiːnai	tabbàːshiːnai	NOUN	_	Definite=Ind|Number=Plur	9	subj	_	_
 9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
@@ -8398,7 +8398,7 @@
 19	àmman	àmma	CCONJ	_	_	20	cc	_	_
 20	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	11	conj:coord	_	Gloss=3Masc.Perf.Neg
 21	waiwàyaː	waiwàyaː	VERB	_	Definite=Ind|Gender=Fem	20	comp:aux	_	_
-22	ba	ba	PART	_	Polarity=Neg	21	mod	_	SpaceAfter=No
+22	ba	ba	PART	_	Polarity=Neg	21	mod	_	Gloss=Neg|SpaceAfter=No
 23	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__535
@@ -8453,7 +8453,7 @@
 17	min	min	PRON	_	Person=1	16	comp:obl	_	_
 18	tàbiːʿàt	tàbiːʿàː	NOUN	_	Definite=Cons|Gender=Fem	16	comp:pred	_	_
 19	tan	yak	DET	_	Definite=Def|Gender=Fem|PronType=Dem	18	det	_	_
-20	ba	ba	PART	_	Polarity=Neg	16	mod	_	SpaceAfter=No
+20	ba	ba	PART	_	Polarity=Neg	16	mod	_	Gloss=Neg|SpaceAfter=No
 21	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__538
@@ -8563,7 +8563,7 @@
 3	tum	tun	SCONJ	_	_	2	mod@relcl	_	_
 4	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	3	comp:obj	_	Gloss=3Masc.Perf.Neg
 5	shaː	shaː	VERB	_	_	4	comp:aux	_	_
-6	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	zuccìyaː	zuccìyaː	NOUN	_	Definite=Ind|Gender=Fem	9	subj	_	_
 9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf
@@ -8715,7 +8715,7 @@
 4	tàː	tàa	AUX	_	Gender=Fem|Person=3	0	root	_	_
 5	zân	zâi	AUX	_	Number=Sing|Person=1|Tense=Fut	4	comp:cleft	_	Gloss=Fut.1Sing
 6	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	5	comp:aux	_	_
-7	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 9	“	“	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -8774,10 +8774,10 @@
 # text = “ yaːròː tun bài shaː ba, zuccìyaː taː ɓaːcì. “
 1	“	“	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 2	yaːròː	yaːròː	NOUN	_	Definite=Ind|Gender=Masc	9	subj	_	_
-3	tun	tun	SCONJ	_	_	2	mod	_	_
+3	tun	tun	SCONJ	_	_	2	mod	_	Gloss=since
 4	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	3	comp:obj	_	Gloss=3Masc.Perf.Neg
 5	shaː	shaː	VERB	_	_	4	comp:aux	_	_
-6	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	zuccìyaː	zuccìyaː	NOUN	_	Definite=Ind|Gender=Fem	9	subj	_	_
 9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf
@@ -8801,7 +8801,7 @@
 12	bà	bà	PART	_	Polarity=Neg	11	comp:obj	_	_
 13	kà	nàː	AUX	_	Aspect=Prog	11	comp:obj	_	_
 14	shaː	shaː	VERB	_	_	13	comp:aux	_	_
-15	ba	ba	PART	_	Polarity=Neg	14	mod	_	SpaceAfter=No
+15	ba	ba	PART	_	Polarity=Neg	14	mod	_	Gloss=Neg|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 17	à	yà	AUX	_	Mood=Sub|Person=4	0	root	_	Gloss=4.Sub
 18	yankèː	yankèː	VERB	_	_	17	comp:aux	_	_
@@ -8869,7 +8869,7 @@
 8	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 9	kammà	kammàː	VERB	_	_	8	comp:aux	_	_
 10	idòːnai	idòːnai	NOUN	_	ExtPos=NOUN|Gender=Masc|Person=3	9	comp:obj	_	_
-11	ba	ba	PART	_	Polarity=Neg	9	mod	_	SpaceAfter=No
+11	ba	ba	PART	_	Polarity=Neg	9	mod	_	Gloss=Neg|SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__561
@@ -9048,7 +9048,7 @@
 4	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Perf.Neg|wordform=sù
 5	kulàː	kulàː	VERB	_	_	4	comp:aux	_	_
 6	mai	mai	PRON	_	Gender=Masc|Person=3	5	comp:obl	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__570
@@ -9163,7 +9163,7 @@
 27	ɗarmè	ɗarmèː	VERB	_	_	26	comp:aux	_	_
 28	maruƙàː	maruƙàː	NOUN	_	Definite=Ind|Gender=Fem	27	comp:obj	_	_
 29	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	27	comp:obj	_	Gloss=3Fem.Sub
-30	sàːmu	saːmùː	VERB	_	_	29	comp:aux	_	_
+30	sàːmu	saːmùː	VERB	_	_	29	comp:aux	_	Gloss=get
 31	noːnòː	noːnòː	NOUN	_	Definite=Ind|Gender=Masc	30	comp:obj	_	_
 32	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	29	parataxis@conj	_	Gloss=3Fem.Sub
 33	taːtsàː	taːtsàː	VERB	_	_	32	comp:aux	_	_
@@ -9382,7 +9382,7 @@
 7	goːdabèː	goːdabèː	NOUN	_	Definite=Ind|Gender=Masc	6	conj:appos	_	_
 8	bàː	bàː	PART	_	Polarity=Neg	9	mod	_	_
 9	ɓàce	ɓàce	VERB	_	_	4	comp:pred	_	_
-10	ba	ba	PART	_	Polarity=Neg	9	mod	_	SpaceAfter=No
+10	ba	ba	PART	_	Polarity=Neg	9	mod	_	Gloss=Neg|SpaceAfter=No
 11	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -9673,7 +9673,7 @@
 9	shaːnuːnaː	shaːnuː	VERB	_	Definite=Ind|Number=Plur	8	comp:aux	_	_
 10	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	5	parataxis	_	Gloss=1Sing.Perf.Neg
 11	baːshì	baːshì	VERB	_	_	10	comp:aux	_	_
-12	ba	ba	PART	_	Polarity=Neg	10	mod	_	_
+12	ba	ba	PART	_	Polarity=Neg	10	mod	_	Gloss=Neg
 13	!	!	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 14	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
@@ -9694,7 +9694,7 @@
 6	daɗèː	daɗèː	VERB	_	_	5	comp:aux	_	_
 7	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	6	parataxis@mod	_	Gloss=3Masc.Perf.Neg
 8	zakà	zakàː	VERB	_	_	7	comp:aux	_	_
-9	ba	ba	PART	_	Polarity=Neg	8	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	8	mod	_	Gloss=Neg|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__603
@@ -9718,7 +9718,7 @@
 9	dà	dà	SCONJ	_	_	7	comp:obl	_	Gloss=that
 10	munkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Relative=Yes	9	comp:obj	_	Gloss=1Plur.Perf.Rel
 11	aikoː	aikoː	VERB	_	_	10	comp:aux	_	_
-12	ba	ba	PART	_	Polarity=Neg	11	mod	_	SpaceAfter=No
+12	ba	ba	PART	_	Polarity=Neg	11	mod	_	Gloss=Neg|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 14	an	yaː	AUX	_	Aspect=Perf|Person=4	2	comp:obj	_	Gloss=4.Perf
 15	tarèː	tar-	VERB	_	_	14	comp:aux	_	_
@@ -9783,7 +9783,7 @@
 6	daɗèː	daɗèː	VERB	_	_	5	comp:aux	_	_
 7	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	5	parataxis@conj	_	Gloss=3Plur.Perf.Neg|wordform=sù
 8	koːmàː	koːmàː	VERB	_	_	7	comp:aux	_	_
-9	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__609
@@ -9805,7 +9805,7 @@
 5	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	2	comp:obj	_	Gloss=2Masc.Perf.Neg|wordform=kà
 6	ga	ganiː	VERB	_	_	5	comp:aux	_	_
 7	suwaːnè	suwaːnè	NOUN	_	Number=Plur|Person=3	6	comp:obj	_	_
-8	ba	ba	PART	_	Polarity=Neg	7	mod	_	_
+8	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg
 9	dà	dà	SCONJ	_	_	4	mod@relcl	_	Gloss=that
 10	nic	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	9	comp:obj	_	Gloss=1Sing.Perf.Rel
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	_
@@ -10256,7 +10256,7 @@
 5	Dikkò	Dikkò	PROPN	_	_	3	mod	_	Gloss=Dikkò
 6	naː	yaː	AUX	_	Aspect=Perf|Person=1	3	conj:coord	_	_
 7	shikài	shikài	AUX	_	Gender=Masc|Person=3	6	comp:aux	_	_
-8	ba	ba	PART	_	Polarity=Neg	6	mod	_	SpaceAfter=No
+8	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__643
@@ -10270,7 +10270,7 @@
 7	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	3	conj:coord	_	Gloss=3Masc.Perf.Neg
 8	kulàː	kulàː	VERB	_	_	7	comp:aux	_	_
 9	mai	mai	PRON	_	Gender=Masc|Person=3	8	comp:obl	_	_
-10	ba	ba	PART	_	Polarity=Neg	8	mod	_	SpaceAfter=No
+10	ba	ba	PART	_	Polarity=Neg	8	mod	_	Gloss=Neg|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__644
@@ -10283,7 +10283,7 @@
 6	Dikkò	Dikkò	PROPN	_	_	4	mod	_	Gloss=Dikkò
 7	naː	yaː	AUX	_	Aspect=Perf|Person=1	4	mod	_	_
 8	shikài	shikài	VERB	_	Gender=Masc|Person=3	7	comp:aux	_	_
-9	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	làllaƙàg	làllaƙàː	NOUN	_	Definite=Cons|Gender=Fem	7	subj	_	_
 12	Garbaː	Garbaː	PROPN	_	_	11	mod	_	Gloss=Garbaː
@@ -10308,7 +10308,7 @@
 12	hwaɗàː	hwaɗàː	NOUN	_	Definite=Ind|Gender=Fem	13	subj	_	_
 13	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	10	comp:obj	_	Gloss=2Masc.Perf.Rel
 14	zakà	zak-	VERB	_	_	13	comp:aux	_	_
-15	ba	ba	PART	_	Polarity=Neg	12	mod	_	SpaceAfter=No
+15	ba	ba	PART	_	Polarity=Neg	12	mod	_	Gloss=Neg|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 17	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	5	comp:obj@T	_	Gloss=2Masc.Sub
 18	ar	arː	VERB	_	_	17	comp:aux	_	_
@@ -10373,7 +10373,7 @@
 14	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	9	comp:obj	_	Gloss=3Plur.Perf.Neg|wordform=sù
 15	ìsheː	ìsheː	VERB	_	_	14	comp:aux	_	_
 16	kà	ka	PRON	_	Gender=Masc|Person=2	15	comp:obj@T	_	_
-17	ba	ba	PART	_	Polarity=Neg	14	mod	_	SpaceAfter=No
+17	ba	ba	PART	_	Polarity=Neg	14	mod	_	Gloss=Neg|SpaceAfter=No
 18	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 19	ɗòːki	ɗòːki	NOUN	_	Definite=Ind|Gender=Masc	14	subj	_	_
 20	!	!	PUNCT	_	_	8	punct	_	Gloss=PUNCT
@@ -10484,7 +10484,7 @@
 4	hwaɗàː	hwaɗàː	NOUN	_	Definite=Ind|Gender=Fem	5	subj	_	_
 5	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	2	comp:obj	_	Gloss=2Masc.Perf.Rel
 6	zakà	zak-	VERB	_	_	5	comp:aux	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 9	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 10	koːmàː	koːmàː	VERB	_	_	9	comp:aux	_	_
@@ -10779,7 +10779,7 @@
 26	zâː	zâː	AUX	_	_	25	mod@relcl	_	_
 27	su	su	PRON	_	Person=3	26	subj	_	_
 28	kwaːshèːwaː	kwaːshèːwaː	VERB	_	ExtPos=NOUN|Gender=Fem	26	comp:aux	_	_
-29	ba	ba	PART	_	Polarity=Neg	21	mod	_	SpaceAfter=No
+29	ba	ba	PART	_	Polarity=Neg	21	mod	_	Gloss=Neg|SpaceAfter=No
 30	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
 31	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
 
@@ -10833,7 +10833,7 @@
 3	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	1	mod	_	Gloss=3Masc.Perf.Neg
 4	banyèː	banyèː	VERB	_	_	3	comp:aux	_	_
 5	sirdìː	sirdìː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj	_	_
-6	ba	ba	PART	_	Polarity=Neg	4	mod	_	_
+6	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg
 7	sai	sai	ADV	_	_	8	mod	_	_
 8	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 9	kwàràːreː	kwàràːraː	VERB	_	_	8	comp:aux	_	_
@@ -10919,7 +10919,7 @@
 3	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	2	comp:obj	_	Gloss=2Masc.Perf.Neg|wordform=kà
 4	kashèː	kashèː	VERB	_	_	3	comp:aux	_	_
 5	Banì	Banì	PROPN	_	_	4	comp:obj	_	Gloss=Banì
-6	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 9	gaːnàː	gaːnàː	VERB	_	_	8	comp:aux	_	_
@@ -10996,7 +10996,7 @@
 10	tum	tun	SCONJ	_	_	3	mod	_	_
 11	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	10	comp:obj	_	Gloss=3Masc.Perf.Neg
 12	shaː	shaː	VERB	_	_	11	comp:aux	_	_
-13	ba	ba	PART	_	Polarity=Neg	12	mod	_	_
+13	ba	ba	PART	_	Polarity=Neg	12	mod	_	Gloss=Neg
 14	zuccìyaː	zuccìyaː	NOUN	_	Definite=Ind|Gender=Fem	12	comp:obj	_	_
 15	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	10	comp:obj	_	Gloss=3Fem.Perf
 16	ɓaːcì	ɓaːcì	VERB	_	_	15	comp:aux	_	SpaceAfter=No
@@ -11018,7 +11018,7 @@
 11	im	in	SCONJ	_	_	15	mod	_	_
 12	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	11	comp:obj	_	Gloss=2Masc.Perf.Neg
 13	shaː	shaː	VERB	_	_	12	comp:aux	_	_
-14	ba	ba	PART	_	Polarity=Neg	13	mod	_	_
+14	ba	ba	PART	_	Polarity=Neg	13	mod	_	Gloss=Neg
 15	à	yà	AUX	_	Mood=Sub|Person=4	7	parataxis@conj	_	Gloss=4.Sub
 16	yankèː	yankèː	VERB	_	_	15	comp:aux	_	_
 17	ka	ka	PRON	_	Gender=Masc|Person=2	16	comp:obj	_	SpaceAfter=No
@@ -11038,7 +11038,7 @@
 9	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	8	comp:obj	_	Gloss=2Masc.Prog
 10	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	9	comp:aux	_	_
 11	kà	nàː	AUX	_	Aspect=Prog	10	udep	_	_
-12	sàːmu	saːmùː	VERB	_	_	11	comp:aux	_	_
+12	sàːmu	saːmùː	VERB	_	_	11	comp:aux	_	Gloss=get
 13	laːhiyàː	laːhiyàː	NOUN	_	Definite=Ind|Gender=Fem	12	comp:obj	_	_
 14	gà	gà	ADP	_	_	12	comp:obl	_	_
 15	jìkinkà	jìkiːkà	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=2	14	comp:obj	_	SpaceAfter=No
@@ -11146,7 +11146,7 @@
 19	bân	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	14	conj:coord	_	_
 20	baːsà	baːsà	VERB	_	_	19	comp:aux	_	_
 21	kyàutaː	kyàutaː	NOUN	_	Definite=Ind|Gender=Masc	20	comp:obj	_	_
-22	ba	ba	PART	_	Polarity=Neg	20	mod	_	_
+22	ba	ba	PART	_	Polarity=Neg	20	mod	_	Gloss=Neg
 23	à	yà	AUX	_	Mood=Sub|Person=4	19	conj:coord	_	Gloss=4.Sub
 24	kwaːcèː	kwaːcèː	VERB	_	_	23	comp:aux	_	_
 25	min	min	PRON	_	Person=1	24	comp:obl	_	_
@@ -11425,7 +11425,7 @@
 3	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 4	daːgèː	daːgèː	VERB	_	_	3	comp:aux	_	_
 5	gà	gà	ADP	_	_	4	comp:obl	_	_
-6	zamaː	zamaː	VERB	_	ExtPos=NOUN|Gender=Masc	5	comp:obj	_	SpaceAfter=No
+6	zamaː	zamaː	VERB	_	ExtPos=NOUN|Gender=Masc	5	comp:obj	_	Gloss=stay|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__716
@@ -11519,7 +11519,7 @@
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	bàmù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	2	comp:obj	_	Gloss=1Plur.Perf.Neg|wordform=mù
 5	sanìː	sanìː	VERB	_	_	4	comp:aux	_	Gloss=know
-6	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 7	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -11589,7 +11589,7 @@
 4	mà	mà	ADP	_	Case=Dat	3	comp:obl	_	_
 5	mùtun	mùtun	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj	_	_
 6	koːmiː	koːmiː	PRON	_	PronType=Ind	3	mod	_	_
-7	ba	ba	PART	_	Polarity=Neg	2	mod	_	_
+7	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg
 8	in	in	SCONJ	_	_	2	mod	_	Gloss=if
 9	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	8	comp:obj	_	Gloss=3Masc.Perf.Rel
 10	hwàɗi	hwàɗ-	VERB	_	_	9	comp:aux	_	_
@@ -11652,7 +11652,7 @@
 17	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	16	comp:obj	_	Gloss=2Masc.Prog
 18	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	17	comp:aux	_	_
 19	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	18	udep	_	Gloss=2Masc.Sub
-20	sàːmu	saːmùː	VERB	_	_	19	comp:aux	_	_
+20	sàːmu	saːmùː	VERB	_	_	19	comp:aux	_	Gloss=get
 21	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	20	comp:obj	_	Gloss=2Masc.Sub
 22	shaː	shaː	VERB	_	_	21	comp:aux	_	_
 23	ruwaː	ruwaː	NOUN	_	Definite=Ind|Number=Plur	22	comp:obj	_	_
@@ -11773,7 +11773,7 @@
 3	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 4	hwaɗàː	hwaɗàː	VERB	_	_	3	comp:aux	_	_
 5	màː	màː	ADP	_	_	4	comp:obl	_	_
-6	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+6	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__738
@@ -12013,11 +12013,11 @@
 11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 12	hwàːdàːwaː	hwàːdàːwaː	NOUN	_	Definite=Ind|Number=Plur	10	udep	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
-14	tun	tun	SCONJ	_	_	10	mod	_	_
+14	tun	tun	SCONJ	_	_	10	mod	_	Gloss=since
 15	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	14	comp:obj	_	Gloss=3Masc.Perf.Neg
 16	ʿissà	ʿissàː	VERB	_	_	15	comp:aux	_	_
 17	màganàː	màganàː	NOUN	_	Definite=Ind|Gender=Fem	16	comp:obj	_	_
-18	ba	ba	PART	_	Polarity=Neg	16	mod	_	SpaceAfter=No
+18	ba	ba	PART	_	Polarity=Neg	16	mod	_	Gloss=Neg|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	Gloss=PUNCT
 20	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	16	parataxis@mod	_	Gloss=3Plur.Perf.Rel
 21	zaːburoː	zaːburoː	NOUN	_	Definite=Ind|Gender=Masc	20	comp:aux	_	SpaceAfter=No
@@ -12088,7 +12088,7 @@
 19	kiːyò	kiːyò	NOUN	_	Definite=Ind|Gender=Masc	12	comp:aux	_	_
 20	kakà	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Relative=Yes	19	comp:cleft	_	Gloss=2Masc.Prog.Rel
 21	bìɗoː	bìɗaː	VERB	_	_	20	comp:aux	_	_
-22	ba	ba	PART	_	Polarity=Neg	19	mod	_	SpaceAfter=No
+22	ba	ba	PART	_	Polarity=Neg	19	mod	_	Gloss=Neg|SpaceAfter=No
 23	!	!	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 24	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -12101,7 +12101,7 @@
 5	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	4	comp:obj	_	_
 6	makyàːyin	makyàːyiː	NOUN	_	Definite=Cons|Gender=Masc	5	udep	_	_
 7	jàkkai	jàkkai	NOUN	_	Definite=Ind	6	mod	_	_
-8	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+8	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 9	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform="
 
@@ -12161,7 +12161,7 @@
 8	ad	neː	AUX	_	_	7	comp:cleft	_	_
 9	dà	dà	ADP	_	_	8	comp:pred	_	Gloss=with
 10	jàkkai	jàkkai	NOUN	_	Definite=Ind|Gender=Masc	9	comp:obj	_	_
-11	ba	ba	PART	_	Polarity=Neg	8	mod	_	SpaceAfter=No
+11	ba	ba	PART	_	Polarity=Neg	8	mod	_	Gloss=Neg|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 13	àmman	àmma	CCONJ	_	_	15	cc	_	_
 14	sai	sai	ADV	_	_	15	mod	_	_
@@ -12207,7 +12207,7 @@
 12	niy	yaː	VERB	_	Aspect=Perf|Person=1	11	comp:aux	_	_
 13	yi	yi	VERB	_	_	12	comp:aux	_	_
 14	mukù	mukù	PRON	_	Number=Plur|Person=1	13	comp:obl	_	_
-15	ba	ba	PART	_	Polarity=Neg	13	mod	_	SpaceAfter=No
+15	ba	ba	PART	_	Polarity=Neg	13	mod	_	Gloss=Neg|SpaceAfter=No
 16	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 17	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
 
@@ -12252,7 +12252,7 @@
 6	ga	ganiː	VERB	_	_	5	comp:aux	_	_
 7	makyàːyin	makyàːyiː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:obj	_	_
 8	jàkkai	jàkkai	NOUN	_	Definite=Ind	7	mod	_	_
-9	ba	ba	PART	_	Polarity=Neg	5	mod	_	SpaceAfter=No
+9	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg|SpaceAfter=No
 10	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
 11	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
 
@@ -12383,7 +12383,7 @@
 17	gùdaː	gùdaː	NUM	_	_	16	det	_	_
 18	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	14	comp:obj	_	Gloss=3Plur.Perf.Rel
 19	jìːɗa	jìːɗa	VERB	_	_	18	comp:aux	_	_
-20	ba	ba	PART	_	Polarity=Neg	18	mod	_	SpaceAfter=No
+20	ba	ba	PART	_	Polarity=Neg	18	mod	_	Gloss=Neg|SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__779
@@ -12438,7 +12438,7 @@
 2	koːmàː	koːmàː	VERB	_	_	1	comp:aux	_	_
 3	can	can	ADV	_	PronType=Dem	2	comp:obl	_	_
 4	dà	dà	ADP	_	_	3	mod	_	Gloss=with
-5	zamaː	zamaː	VERB	_	ExtPos=NOUN|Gender=Masc	4	comp:obj	_	SpaceAfter=No
+5	zamaː	zamaː	VERB	_	ExtPos=NOUN|Gender=Masc	4	comp:obj	_	Gloss=stay|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis@conj	_	Gloss=3Masc.Prog
 8	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	7	comp:aux	_	_
@@ -12700,7 +12700,7 @@
 5	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	comp:pred	_	Gloss=3Masc.Prog
 6	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:aux	_	_
 7	jàkkai	jàkkai	NOUN	_	Definite=Ind	6	mod	_	_
-8	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	_
+8	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	Gloss=day
 9	nan	nan	DET	_	Definite=Def|PronType=Dem	8	det	_	_
 10	sai	sai	ADV	_	_	12	mod	_	_
 11	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	12	subj	_	_
@@ -13156,7 +13156,7 @@
 4	bàtà	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	0	root	_	Gloss=3Fem.Perf.Neg|wordform=tà
 5	gaːnèː	gaːnèː	VERB	_	_	4	comp:aux	_	_
 6	shi	shi	PRON	_	Gender=Masc|Person=3	5	comp:obj	_	_
-7	ba	ba	PART	_	Polarity=Neg	5	mod	_	_
+7	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg
 8	dan	don	SCONJ	_	_	4	mod	_	_
 9	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	comp:obj	_	Gloss=3Masc.Perf
 10	sâkkà	sâkkaː	VERB	_	_	9	comp:aux	_	Gloss=put
@@ -13169,7 +13169,7 @@
 17	bàtà	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	15	mod@relcl	_	Gloss=3Fem.Perf.Neg|wordform=tà
 18	taɓà	taɓàː	VERB	_	_	17	comp:aux	_	Gloss=touch
 19	ganiː	ganiː	VERB	_	ExtPos=NOUN|Gender=Masc	18	comp:obj	_	Gloss=see.Nmlz.Masc
-20	ba	ba	PART	_	Polarity=Neg	18	mod	_	SpaceAfter=No
+20	ba	ba	PART	_	Polarity=Neg	18	mod	_	Gloss=Neg|SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__830
@@ -13213,7 +13213,7 @@
 2	waɗàndà	waɗàndà	PRON	_	Number=Plur|PronType=Rel	7	subj	_	_
 3	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	2	mod@relcl	_	Gloss=3Plur.Perf.Neg|wordform=sù
 4	bi	bi	VERB	_	_	3	comp:aux	_	_
-5	ba	ba	PART	_	Polarity=Neg	4	mod	_	SpaceAfter=No
+5	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	yag	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 8	gamàː	gamàː	VERB	_	_	7	comp:aux	_	_
@@ -13309,13 +13309,13 @@
 11	san	sanìː	VERB	_	_	10	comp:aux	_	Gloss=know
 12	koːwanèː	koːwanèː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	_
 13	naː	naː	AUX	_	_	11	comp:obj	_	Gloss=Ident
-14	ba	ba	PART	_	Polarity=Neg	11	mod	_	SpaceAfter=No
+14	ba	ba	PART	_	Polarity=Neg	11	mod	_	Gloss=Neg|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 16	dan	don	SCONJ	_	_	10	discourse	_	_
 17	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	10	conj:coord	_	Gloss=1Sing.Perf.Neg
 18	ga	ganiː	VERB	_	_	17	comp:aux	_	_
 19	huskàːtai	huskàːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	18	comp:obj	_	_
-20	ba	ba	PART	_	Polarity=Neg	18	mod	_	SpaceAfter=No
+20	ba	ba	PART	_	Polarity=Neg	18	mod	_	Gloss=Neg|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
 22	àmmaː	àmmaː	CCONJ	_	_	23	cc	_	_
 23	naː	yaː	AUX	_	Aspect=Perf|Person=1	10	parataxis@conj	_	_
@@ -13407,7 +13407,7 @@
 15	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	14	comp:cleft	_	Gloss=3Masc.Perf.Rel
 16	ceːtoː	ceːt-	VERB	_	_	15	comp:aux	_	_
 17	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	16	comp:obj@G	_	_
-18	ba	ba	PART	_	Polarity=Neg	16	mod	_	SpaceAfter=No
+18	ba	ba	PART	_	Polarity=Neg	16	mod	_	Gloss=Neg|SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__844
@@ -13444,7 +13444,7 @@
 2	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	_
 4	sai	sai	ADP	_	_	2	mod	_	_
-5	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	9	subj	_	_
+5	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	9	subj	_	Gloss=day
 6	nan	nan	DET	_	Definite=Def|PronType=Dem	5	det	_	_
 7	ɗìyas	ɗìyaː	NOUN	_	Definite=Ind|Gender=Masc	9	subj	_	_
 8	sarkiː	sarkiː	NOUN	_	Definite=Ind|Gender=Masc	7	mod	_	_
@@ -13465,7 +13465,7 @@
 5	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 6	cìnkài	cìnkài	VERB	_	_	5	comp:aux	_	_
 7	ta	ta	PRON	_	Gender=Fem|Person=3	6	comp:obj	_	_
-8	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
+8	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
 9	sai	sai	SCONJ	_	_	6	mod	_	_
 10	dà	dà	SCONJ	_	_	9	comp:obj	_	Gloss=that
 11	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	10	comp:obj	_	Gloss=3Fem.Perf.Rel
@@ -13504,7 +13504,7 @@
 5	kàmab	kàmat	NOUN	_	_	4	mod	_	_
 6	bàtà	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	3	conj:coord	_	Gloss=3Fem.Perf.Neg|wordform=tà
 7	ganiː	ganiː	VERB	_	_	6	comp:aux	_	_
-8	ba	ba	PART	_	Polarity=Neg	7	mod	_	SpaceAfter=No
+8	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__851
@@ -13640,7 +13640,7 @@
 2	yoː	yi	VERB	_	_	1	comp:aux	_	_
 3	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obl	_	Gloss=compound.Masc.Cons
 4	sarkiː	sarkiː	NOUN	_	Definite=Ind|Gender=Masc	3	comp:obj	_	_
-5	ba	ba	PART	_	Polarity=Neg	2	mod	_	_
+5	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg
 6	sai	sai	ADV	_	_	7	mod	_	_
 7	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 8	yi	yi	VERB	_	_	7	comp:aux	_	_
