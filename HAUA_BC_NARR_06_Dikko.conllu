@@ -105,7 +105,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__10
 # text = dà Dikkò dà Garbàː Allàː bài baː sù ƙàːruwaː ba.
-1	dà	dà	ADP	_	_	6	mod	_	Gloss=with
+1	dà	dà	ADP	_	_	6	dislocated@comp	_	Gloss=with
 2	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	Gloss=Dikkò
 3	dà	dà	CCONJ	_	_	4	cc	_	Gloss=and
 4	Garbàː	Garbàː	PROPN	_	_	2	conj:coord	_	Gloss=Garbàː
@@ -119,21 +119,21 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__11
 # text = dà Dikkò dà Garbà Allàː bài baː sù ƙaːruwàː ba àmman Garbà zaːrùmiː nàː.
-1	dà	dà	ADP	_	_	14	mod	_	Gloss=with
+1	dà	dà	ADP	_	_	6	dislocated@comp	_	Gloss=with
 2	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	Gloss=Dikkò
 3	dà	dà	SCONJ	_	_	2	cc@preconj	_	Gloss=that
 4	Garbà	Garbà	PROPN	_	_	3	comp:obj	_	Gloss=Garbà
 5	Allàː	Allàː	PROPN	_	_	4	flat@name	_	Gloss=Allàː
-6	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	3	comp:obj	_	Gloss=3Masc.Perf.Neg
+6	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 7	baː	baː	VERB	_	_	6	comp:aux	_	Gloss=give
 8	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj@R	_	Gloss=3Plur.Acc
 9	ƙaːruwàː	ƙàːru	NOUN	_	ExtPos=NOUN|Gender=Fem	7	comp:obj@T	_	Gloss=increase
 10	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg
-11	àmman	àmma	CCONJ	_	_	14	comp:pred	_	Gloss=but
-12	Garbà	Garbà	PROPN	_	_	11	comp:obj	_	Gloss=Garbà
-13	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	11	comp:obj	_	Gloss=brave
-14	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident|SpaceAfter=No
-15	.	.	PUNCT	_	_	14	punct	_	Gloss=PUNCT
+11	àmman	àmma	CCONJ	_	_	7	mod	_	Gloss=but
+12	Garbà	Garbà	PROPN	_	_	14	subj	_	Gloss=Garbà
+13	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	14	comp:pred	_	Gloss=brave
+14	nàː	neː	AUX	_	Copula=Yes	11	comp:obj	_	Gloss=Ident|SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__12
 # text = Garbà yat tàhi gàriː dà gàriː yay yi harìː yac ciyoː mutàːneː yaːƙì, yay yi yaːƙoːƙiː shinàː ta yaːƙìː.
@@ -147,13 +147,13 @@
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
 9	harìː	harìː	NOUN	_	Definite=Ind|Gender=Masc	8	comp:pred	_	Gloss=raiding.Masc
 10	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	7	parataxis@conj	_	Gloss=3Masc.Perf.Rel
-11	ciyoː	ciyaː	VERB	_	_	10	comp:aux	_	_
+11	ciyoː	ci	VERB	_	_	10	comp:aux	_	Gloss=beat.Dir
 12	mutàːneː	mùtûm	NOUN	_	Definite=Ind|Number=Plur	11	comp:obj	_	Gloss=people.Plur
-13	yaːƙì	yaːƙì	NOUN	_	Definite=Ind|Gender=Masc	11	mod	_	SpaceAfter=No
+13	yaːƙì	yaːƙì	NOUN	_	Definite=Ind|Gender=Masc	11	mod	_	Gloss=war.Masc|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 15	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	10	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 16	yi	yi	VERB	_	_	15	comp:aux	_	Gloss=do
-17	yaːƙoːƙiː	yaːƙoːƙiː	NOUN	_	Definite=Ind|Gender=Masc	16	comp:pred	_	_
+17	yaːƙoːƙiː	yaːƙìː	NOUN	_	Definite=Ind|Number=Plur	16	comp:pred	_	Gloss=war.Plur
 18	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	15	parataxis@conj	_	Gloss=3Masc.Prog
 19	ta	ta	PART	_	Aspect=Iter	18	compound:prt	_	_
 20	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	18	comp:aux	_	Gloss=war.Masc|SpaceAfter=No
@@ -2529,7 +2529,7 @@
 8	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
 9	tàhi	tàhi	VERB	_	_	8	comp:aux	_	_
 10	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	8	parataxis	_	Gloss=3Masc.Sub
-11	ciyoː	ciyàː	VERB	_	_	10	comp:aux	_	_
+11	ciyoː	ci	VERB	_	_	10	comp:aux	_	Gloss=beat.Dir
 12	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	10	parataxis@conj	_	Gloss=3Masc.Sub
 13	kaːwoː	kai	VERB	_	_	12	comp:aux	_	_
 14	duːkìyaː	duːkìyaː	NOUN	_	Definite=Ind|Gender=Fem	13	comp:obj	_	_
@@ -6238,7 +6238,7 @@
 1	wani	wani	DET	_	Definite=Spec|Gender=Masc	2	det	_	Gloss=some.Masc
 2	zaːrùmiː	zaːrùmiː	NOUN	_	Definite=Ind|Gender=Masc	3	subj	_	Gloss=brave
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
-4	ciyoː	ciyaː	VERB	_	_	3	comp:aux	_	_
+4	ciyoː	ci	VERB	_	_	3	comp:aux	_	Gloss=beat.Dir
 5	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	4	comp:obj	_	_
 6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
 7	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	5	conj:coord	_	SpaceAfter=No
@@ -13561,7 +13561,7 @@
 11	bàlleː	bàlleː	CCONJ	_	_	12	mod	_	_
 12	hash	hat	SCONJ	_	_	13	mod	_	_
 13	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	7	conj:coord	_	Gloss=3Masc.Sub
-14	ciyoː	ciyo	VERB	_	_	13	comp:aux	_	_
+14	ciyoː	ci	VERB	_	_	13	comp:aux	_	Gloss=beat.Dir
 15	yaːƙìn	yaːƙìː	NOUN	_	Definite=Cons|Gender=Masc	14	comp:obj	_	Gloss=war.Masc
 16	dà	dà	SCONJ	_	_	15	mod@relcl	_	Gloss=that
 17	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	16	comp:obj	_	Gloss=3Masc.Perf.Rel
