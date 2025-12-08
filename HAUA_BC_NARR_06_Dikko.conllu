@@ -9836,8 +9836,8 @@
 36	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
 37	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
-# sent_id = HAUA_BC_NARR_06_Dikko__611_split1
-# text = sai yac cèː " Bàtûn ga dà gàske nàː " .
+# sent_id = HAUA_BC_NARR_06_Dikko__611
+# text = sai yac cèː " Bàtûn ga dà gàske nàː dan namijì ukkù baːsù ƙaryaː daːjìː" .
 1	sai	sai	ADV	_	_	2	mod	_	Gloss=then
 2	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	_
@@ -9847,19 +9847,14 @@
 7	dà	dà	ADP	_	_	9	comp:pred	_	Gloss=with
 8	gàske	gàske	ADV	_	_	7	comp:obj	_	_
 9	nàː	neː	AUX	_	Copula=Yes	3	comp:obj	_	Gloss=Ident
-10	"	"	PUNCT	_	_	9	comp:obj	_	Gloss=PUNCT
-11	.	.	PUNCT	_	_	2	comp:obj	_	Gloss=PUNCT
-
-# sent_id = HAUA_BC_NARR_06_Dikko__611_split2
-# text = dan namijì ukkù baːsù ƙaryaː daːjìː " .
-1	dan	don	SCONJ	_	_	4	discourse	_	_
-2	namijì	namijì	NOUN	_	Definite=Ind|Gender=Masc	1	comp:obj	_	_
-3	ukkù	ukkù	NUM	_	_	4	mod	_	_
-4	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	_	_	_	Gloss=3Plur.Prog.Neg
-5	ƙaryaː	ƙaryaː	NOUN	_	Definite=Ind|Gender=Fem	4	subj	_	_
-6	daːjìː	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	5	mod	_	SpaceAfter=No
-7	"	"	PUNCT	_	_	_	_	_	Gloss=PUNCT|wordform=.
-8	.	.	PUNCT	_	_	_	_	_	Gloss=PUNCT|wordform="
+10	dan	don	SCONJ	_	_	9	mod	_	_
+11	namijì	namijì	NOUN	_	Definite=Ind|Gender=Masc	13	subj	_	_
+12	ukkù	ukkù	NUM	_	_	11	mod:num	_	_
+13	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	10	comp:obj	_	Gloss=3Plur.Prog.Neg
+14	ƙaryaː	ƙaryaː	NOUN	_	Definite=Ind|Gender=Fem	13	comp:aux	_	_
+15	daːjìː	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	14	mod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform=.
+17	.	.	PUNCT	_	_	2	_	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__612
 # text = " namijì ukkù baːsù dajìː "
@@ -9867,7 +9862,7 @@
 2	namijì	namijì	NOUN	_	Definite=Ind	4	subj	_	_
 3	ukkù	ukkù	NUM	_	_	2	det	_	_
 4	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Prog.Neg
-5	dajìː	dajìː	VERB	_	_	4	comp:aux	_	_
+5	dajìː	dajìː	NOUN	_	_	4	comp:aux	_	_
 6	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__613
