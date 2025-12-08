@@ -31,7 +31,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 15	Garbà	Garbà	PROPN	_	_	11	mod	_	Gloss=Garbà
 16	hàlle-hàllan	hàlle-hàllaː	NOUN	_	Definite=Cons|Gender=Fem	15	mod	_	Gloss=character(?)
-17	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	16	mod	_	_
+17	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	16	mod	_	Gloss=death.Fem
 18	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__4
@@ -64,23 +64,23 @@
 2	Dandà	Dandà	PROPN	_	_	1	conj:appos	_	Gloss=Dandà
 3	Garbaː	Garbaː	PROPN	_	_	2	flat@name	_	Gloss=Garbaː
 4	Dikkò	Dikkò	PROPN	_	_	3	flat@name	_	Gloss=Dikkò
-5	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc	0	root	_	Gloss=father.Masc[L]=3Masc[L].Gen
+5	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc	0	root	_	Gloss=father.Masc[L].Cons\3Masc.Gen[L]
 6	nàː	neː	PART	_	PartType=Foc	5	discourse@foc	_	Gloss=Emph
 7	ag	neː	AUX	_	Relative=Yes	5	comp:cleft	_	Gloss=Ident.Rel
 8	Garbà	Garbà	PROPN	_	_	7	comp:obj	_	Gloss=Garbà|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-10	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Person=3	5	parataxis@conj	_	Gloss=mother.Fem[L]=3Masc[L].Gen
+10	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Person=3	5	parataxis@conj	_	Gloss=mother.Fem[L].Cons\3Masc[L].Gen
 11	Dikkò	Dikkò	PROPN	_	_	10	comp:pred	_	Gloss=Dikkò|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__8
 # text = ùbaːnai nàː ag Garbà, uwaːtai Dikkò.
-1	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Fem	0	root	_	_
+1	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Fem	0	root	_	Gloss=father.Masc[L].Cons\3Masc.Gen[L]
 2	nàː	neː	PART	_	PartType=Foc	1	discourse@foc	_	Gloss=Emph
 3	ag	neː	AUX	_	Copula=Yes	1	comp:cleft	_	Gloss=Ident.Rel
 4	Garbà	Garbà	PROPN	_	_	3	comp:obj	_	Gloss=Garbà|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-6	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	1	parataxis@conj	_	_
+6	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	1	parataxis@conj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
 7	Dikkò	Dikkò	PROPN	_	_	6	comp:pred	_	Gloss=Dikkò|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -424,7 +424,7 @@
 6	laːhiyàː	laːhiyàː	NOUN	_	Definite=Ind|Gender=Fem	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 8	yànzu	yànzu	ADV	_	_	4	mod	_	_
-9	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	10	subj	_	_
+9	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	10	subj	_	Gloss=death.Fem
 10	nikài	nikài	AUX	_	Gender=Masc|Person=3	4	parataxis@conj	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
@@ -720,7 +720,7 @@
 7	suːnaːnaː	suːnaːnaː	NOUN	_	Definite=Ind|Gender=Fem	6	comp:obj	_	_
 8	dà	dà	CCONJ	_	_	9	cc	_	_
 9	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	7	conj:coord	_	_
-10	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	9	mod	_	_
+10	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc|Person=3	9	mod	_	Gloss=father.Masc[L].Cons\3Masc.Gen[L]
 11	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	4	parataxis@conj	_	Gloss=2Plur.Sub
 12	sâː	sâː	VERB	_	_	11	comp:aux	_	_
 13	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3	12	comp:obl	_	Gloss=3Masc.Dat
@@ -777,10 +777,10 @@
 6	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	parataxis@conj	_	Gloss=2Masc.Perf
 7	ji	jiyàː	VERB	_	_	6	comp:aux	_	_
 8	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	7	comp:obj	_	_
-9	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	8	mod	_	_
+9	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc|Person=3	8	mod	_	Gloss=father.Masc[L].Cons\3Masc.Gen[L]
 10	Garbà	Garbà	PROPN	_	_	7	comp:obj	_	Gloss=Garbà|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-12	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	10	conj:appos	_	_
+12	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	10	conj:appos	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
 13	Dikkò	Dikkò	PROPN	_	_	10	flat@name	_	Gloss=Dikkò|SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 15	sai	sai	ADV	_	_	16	mod	_	_
@@ -810,12 +810,12 @@
 16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 17	Garbà	Garbà	PROPN	_	_	13	mod	_	Gloss=Garbà
 18	hàlle-hàllan	hàlle-hàllaː	ADJ	_	Definite=Cons|Gender=Fem	17	conj:appos	_	Gloss=character(?)
-19	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	18	mod	_	SpaceAfter=No
+19	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	18	mod	_	Gloss=death.Fem|SpaceAfter=No
 20	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 21	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	25	subj	_	_
-22	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	21	mod	_	_
+22	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	21	mod	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
 23	dà	dà	ADP	_	_	22	comp:obl	_	_
-24	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	23	comp:obj	_	_
+24	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc|Person=3	23	comp:obj	_	Gloss=father.Masc[L].Cons\3Masc.Gen[L]
 25	nàː	nàː	AUX	_	Aspect=Prog	0	root	_	_
 26	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	25	comp:cleft	_	Gloss=4.Perf.Rel
 27	sâː	sâː	VERB	_	_	26	comp:aux	_	_
@@ -915,7 +915,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	Gloss=PUNCT
 21	Garbà	Garbà	PROPN	_	_	17	mod	_	Gloss=Garbà
 22	hàlle-hàllan	hàlle-hàllaː	NOUN	_	Definite=Cons|Number=Plur	21	conj:appos	_	Gloss=character(?)
-23	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	22	mod	_	SpaceAfter=No
+23	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	22	mod	_	Gloss=death.Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	Gloss=PUNCT
 25	kalì	yà	AUX	_	Mood=Sub|Person=1	17	mod	_	_
 26	handàɗi	handàɗi	VERB	_	_	25	comp:aux	_	_
@@ -987,7 +987,7 @@
 14	jàːriːrìː	jàːriːrìː	NOUN	_	Definite=Ind|Gender=Masc	12	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 16	in	in	SCONJ	_	_	19	mod	_	Gloss=if
-17	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	19	subj	_	_
+17	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	19	subj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
 18	Dikkò	Dikkò	PROPN	_	_	19	subj	_	Gloss=Dikkò
 19	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	9	comp:obj	_	Gloss=3Fem.Perf.Rel
 20	ajèː	ajèː	VERB	_	_	19	comp:aux	_	_
@@ -1243,7 +1243,7 @@
 30	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	27	parataxis@conj	_	Gloss=3Masc.Sub
 31	kai	kai	VERB	_	_	30	comp:aux	_	_
 32	mà	mà	ADP	_	_	31	comp:obl	_	_
-33	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	32	comp:obj	_	_
+33	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	32	comp:obj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
 34	Dikkò	Dikkò	PROPN	_	_	33	conj:appos	_	Gloss=Dikkò|SpaceAfter=No
 35	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
@@ -1284,7 +1284,7 @@
 15	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	13	parataxis@conj	_	Gloss=3Masc.Sub
 16	kai	kai	VERB	_	_	15	comp:aux	_	_
 17	mà	mà	ADP	_	_	16	comp:obl	_	_
-18	uwaːtai	uwaːtai	NOUN	_	Definite=Ind|Gender=Fem|Person=3	17	comp:obj	_	SpaceAfter=No
+18	uwaːtai	uwaː	NOUN	_	Definite=Ind|Gender=Fem|Person=3	17	comp:obj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]|SpaceAfter=No
 19	.	.	PUNCT	_	_	13	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__80
@@ -1434,7 +1434,7 @@
 5	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	_
 7	mà	mà	ADP	_	Case=Dat	6	comp:obl	_	_
-8	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	7	comp:obj	_	SpaceAfter=No
+8	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	7	comp:obj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]|SpaceAfter=No
 9	:	:	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 10	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 11	Dikkò	Dikkò	PROPN	_	_	5	subj	_	Gloss=Dikkò
@@ -1698,7 +1698,7 @@
 3	shi	shi	PRON	_	Gender=Masc|Person=3	2	comp:obj	_	_
 4	wuriː	wuriː	NOUN	_	Definite=Ind|Gender=Masc	2	comp:obj@L	_	_
 5	wandà	wandà	PRON	_	Gender=Masc|PronType=Rel	4	conj:appos	_	_
-6	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	5	mod@relcl	_	_
+6	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	5	mod@relcl	_	Gloss=3Masc.Prog.Neg
 7	tsòːroː	tsòːroː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -1796,7 +1796,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	Garbà	Garbà	PROPN	_	_	14	mod	_	Gloss=Garbà
 19	hàlle-hàllan	hàlle-hàllaː	NOUN	_	Definite=Cons|Number=Plur	18	conj:appos	_	Gloss=character(?)
-20	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	19	mod	_	SpaceAfter=No
+20	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	19	mod	_	Gloss=death.Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
 22	dukà	dukà	DET	_	_	23	det	_	_
 23	àbùkkainai	àbùkkainai	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur|Person=3	14	conj:coord	_	_
@@ -2430,7 +2430,7 @@
 29	hàukaː	hàukaː	NOUN	_	Definite=Ind	28	mod	_	Gloss=madness.Fem
 30	Garbà	Garbà	PROPN	_	_	27	conj:appos	_	Gloss=Garbà
 31	hàlle-hàllan	hàlle-hàllaː	NOUN	_	Definite=Cons|Number=Plur	27	conj:appos	_	Gloss=character(?)
-32	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Number=Plur	31	mod	_	_
+32	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Number=Plur	31	mod	_	Gloss=death.Fem
 33	kalì	yà	AUX	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	30	mod	_	_
 34	hadìɗiː	hadìɗiː	NOUN	_	Definite=Ind|Gender=Masc	33	comp:obj	_	_
 35	kali	kali	DET	_	Aspect=Perf|Gender=Masc|Person=2	30	mod	_	_
@@ -2599,7 +2599,7 @@
 14	àmman	àmma	CCONJ	_	_	17	cc	_	_
 15	koː	koː	SCONJ	_	_	17	mod	_	_
 16	dalàː	dalàː	NOUN	_	Definite=Ind|Gender=Fem	17	subj	_	_
-17	bâi	nà	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	12	parataxis@conj	_	_
+17	bâi	nà	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	12	parataxis@conj	_	Gloss=3Masc.Prog.Neg
 18	baː	baː	VERB	_	_	17	comp:aux	_	_
 19	sù	sù	PRON	_	Number=Plur|Person=3	18	comp:obj@R	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	17	punct	_	Gloss=PUNCT
@@ -2991,7 +2991,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__191
 # text = ùbaːnai yaː yi kiɗìn maulòː.
-1	ùbaːnai	ùbaːnai	NOUN	_	Definite=Ind|Gender=Masc|Person=3	2	subj	_	_
+1	ùbaːnai	ùbaː	NOUN	_	Definite=Ind|Gender=Masc|Person=3	2	subj	_	Gloss=father.Masc[L].Cons\3Masc.Gen[L]
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 3	yi	yi	VERB	_	_	2	comp:aux	_	_
 4	kiɗìn	kiɗìː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	3	comp:pred	_	_
@@ -6093,7 +6093,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 14	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	10	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 15	cèː	cêː	VERB	_	_	14	comp:aux	_	_
-16	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	15	comp:obj	_	_
+16	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	15	comp:obj	_	Gloss=3Masc.Prog.Neg
 17	shâː	shâː	VERB	_	ExtPos=NOUN|Gender=Masc	16	comp:aux	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -6886,7 +6886,7 @@
 # text = yaːƙìː im bâi dà uwaː shìriːrìːtaː nàː.
 1	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	7	dislocated@subj	_	_
 2	im	in	SCONJ	_	_	7	mod@relcl	_	_
-3	bâi	nàː	AUX	_	Person=3|Polarity=Neg	2	comp:obj	_	_
+3	bâi	nàː	AUX	_	Person=3|Polarity=Neg	2	comp:obj	_	Gloss=3Masc.Prog.Neg
 4	dà	dà	ADP	_	_	3	comp:pred	_	_
 5	uwaː	uwaː	NOUN	_	Definite=Ind|Gender=Fem	4	comp:obj	_	_
 6	shìriːrìːtaː	shìriːrìːtaː	NOUN	_	Definite=Ind|Number=Plur	7	comp:pred	_	_
@@ -6972,7 +6972,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__447
 # text = bâi saː shì, yaː yi jiːhwàː dà shiː can.
-1	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
+1	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Prog.Neg
 2	saː	saː	VERB	_	_	1	comp:aux	_	_
 3	shì	shi	PRON	_	Gender=Masc|Person=3	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -7063,7 +7063,7 @@
 13	hàukaː	hàukaː	NOUN	_	Definite=Ind	12	compound	_	Gloss=madness.Fem
 14	Garbà	Garbà	PROPN	_	_	11	conj:redup	_	Gloss=Garbà
 15	hàlle-hàllan	hàlle-hàllaː	ADJ	_	Definite=Cons|Number=Plur	11	flat@name	_	Gloss=character(?)
-16	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	15	mod	_	SpaceAfter=No
+16	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	15	mod	_	Gloss=death.Fem|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	kalìhandàɗiː	kalìhandàɗiː	NOUN	_	Definite=Ind|Number=Plur	11	conj:appos	_	_
 19	kalìhandà	kalìhandà	NOUN	_	Definite=Ind|Gender=Masc	18	mod	_	_
@@ -7396,7 +7396,7 @@
 10	hàukaː	hàukaː	NOUN	_	Definite=Ind	9	mod	_	Gloss=madness.Fem
 11	Garbà	Garbà	PROPN	_	_	8	conj:redup	_	Gloss=Garbà
 12	hàlle-hàllan	hàlle-hàllaː	ADJ	_	_	11	flat@name	_	Gloss=character(?)
-13	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	12	comp:obj	_	SpaceAfter=No
+13	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	12	comp:obj	_	Gloss=death.Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 15	kalìhandìɗiː	kalìhandìɗiː	NOUN	_	Definite=Ind|Gender=Masc	6	vocative	_	_
 16	kalìhandì	kalìhandì	NOUN	_	Definite=Ind|Gender=Masc	15	conj:coord	_	SpaceAfter=No
@@ -7613,7 +7613,7 @@
 9	ba	ba	PART	_	Polarity=Neg	6	mod	_	_
 10	kuma	kuma	PART	_	_	4	discourse@top	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
-12	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	13	subj	_	_
+12	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	13	subj	_	Gloss=death.Fem
 13	nikài	nikài	AUX	_	Definite=Ind|Gender=Masc	7	mod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 15	“	“	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -7622,9 +7622,9 @@
 # text = sôn râi bâi hanà mutuwàː.
 1	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	3	subj	_	_
 2	râi	râi	NOUN	_	Gender=Masc	1	mod	_	_
-3	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	0	root	_	_
+3	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Prog.Neg
 4	hanà	hanàː	VERB	_	_	3	mod	_	_
-5	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	4	comp:obj	_	SpaceAfter=No
+5	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	4	comp:obj	_	Gloss=death.Fem|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__489
@@ -8471,7 +8471,7 @@
 11	mijìn	mijìː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:obj	_	_
 12	nan	nan	DET	_	Definite=Def|PronType=Dem	11	det	_	_
 13	naːkì	naːkì	PRON	_	Gender=Fem|Person=2	11	mod	_	_
-14	bâi	nàː	AUX	_	Person=3|Polarity=Neg	13	parataxis@conj	_	_
+14	bâi	nàː	AUX	_	Person=3|Polarity=Neg	13	parataxis@conj	_	Gloss=3Masc.Prog.Neg
 15	dà	dà	ADP	_	_	14	comp:pred	_	_
 16	tsòːroː	tsòːroː	NOUN	_	Definite=Ind|Gender=Masc	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
@@ -8516,14 +8516,14 @@
 12	dà	dà	SCONJ	_	_	9	mod@relcl	_	_
 13	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	12	comp:obj	_	Gloss=4.Prog.Rel
 14	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem	13	comp:aux	_	_
-15	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	14	comp:obj	_	_
+15	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	14	comp:obj	_	Gloss=3Masc.Prog.Neg
 16	tsòːroː	tsòːroː	NOUN	_	Definite=Ind	15	comp:aux	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
-18	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	15	parataxis@conj	_	_
+18	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	15	parataxis@conj	_	Gloss=3Masc.Prog.Neg
 19	wani	wani	DET	_	Definite=Spec|Gender=Masc	20	det	_	_
 20	àbo	àbo	NOUN	_	Definite=Ind|Gender=Masc	18	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
-22	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	18	parataxis@conj	_	_
+22	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	18	parataxis@conj	_	Gloss=3Masc.Prog.Neg
 23	wani	wani	DET	_	Definite=Spec|Gender=Masc	33	det	_	_
 24	àbo	àbo	NOUN	_	Definite=Ind|Gender=Masc	22	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	31	punct	_	Gloss=PUNCT
@@ -8851,7 +8851,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Nom
 6	ab	neː	AUX	_	_	5	comp:cleft	_	_
-7	bâi	nàː	VERB	_	Person=3|Polarity=Neg	6	comp:pred	_	_
+7	bâi	nàː	VERB	_	Person=3|Polarity=Neg	6	comp:pred	_	Gloss=3Masc.Prog.Neg
 8	dà	dà	ADP	_	_	7	comp:pred	_	_
 9	waːriː	waːriː	NOUN	_	Definite=Ind|Gender=Masc	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -9307,7 +9307,7 @@
 19	kyàutaː	kyàutaː	NOUN	_	Definite=Ind|Gender=Masc	18	comp:obj	_	_
 20	kuma	kuma	PART	_	_	22	discourse	_	_
 21	mùtun	mùtun	NOUN	_	Definite=Ind|Gender=Masc	22	subj	_	_
-22	bâi	nà	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	17	parataxis	_	_
+22	bâi	nà	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	17	parataxis	_	Gloss=3Masc.Prog.Neg
 23	amshèː	amshèː	VERB	_	_	22	comp:aux	_	_
 24	min	min	PRON	_	Person=1	23	comp:obl	_	_
 25	dà	dà	ADP	_	_	23	comp:obl	_	_
@@ -10878,7 +10878,7 @@
 10	tatìː	tatìː	NOUN	_	Definite=Ind|Gender=Masc	9	comp:obj	_	_
 11	Garbà	Garbà	PROPN	_	_	9	mod	_	Gloss=Garbà
 12	hàlle-hàllan	hàlle-hàllaː	ADJ	_	_	14	mod	_	Gloss=character(?)
-13	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Number=Plur	12	comp:obj	_	_
+13	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Number=Plur	12	comp:obj	_	Gloss=death.Fem
 14	kalì	yà	AUX	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	11	mod	_	_
 15	hanɗìɗiː	hanɗìɗiː	NOUN	_	Definite=Ind|Gender=Masc	14	comp:obj	_	_
 16	kalìndì	kalìndì	ADV	_	_	15	mod	_	SpaceAfter=No
@@ -13722,7 +13722,7 @@
 24	Garbà	Garbà	PROPN	_	_	19	mod	_	Gloss=Garbà
 25	hàlle-ː	hàlle-ː	VERB	_	_	24	comp:aux	_	_
 26	hàllan	hàllaː	NOUN	_	Definite=Cons|Gender=Fem	24	conj:appos	_	_
-27	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	26	mod	_	SpaceAfter=No
+27	mutuwàː	mutuwàː	NOUN	_	Definite=Ind|Gender=Fem	26	mod	_	Gloss=death.Fem|SpaceAfter=No
 28	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform=.
 29	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform="
 
