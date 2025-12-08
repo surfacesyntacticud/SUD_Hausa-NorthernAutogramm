@@ -211,7 +211,7 @@
 15	dà	dà	ADP	_	_	13	comp:obl	_	Gloss=with
 16	maːshìː	maːshìː	NOUN	_	Definite=Ind|Gender=Masc	15	comp:obj	_	_
 17	gà	gà	ADP	_	_	13	comp:obl	_	Gloss=at
-18	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	17	comp:obj	_	_
+18	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	17	comp:obj	_	Gloss=belly.Masc
 19	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__16
@@ -468,7 +468,7 @@
 11	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 12	taːshì	taːshì	VERB	_	_	11	comp:aux	_	_
 13	dà	dà	ADP	_	_	12	comp:obl	_	Gloss=with
-14	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	13	comp:obj	_	_
+14	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	13	comp:obj	_	Gloss=belly.Masc
 15	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__31
@@ -493,28 +493,28 @@
 8	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 9	taːshì	taːshì	VERB	_	_	8	comp:aux	_	_
 10	dà	dà	ADP	_	_	9	comp:obl	_	Gloss=with
-11	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:obj	_	_
+11	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:obj	_	Gloss=belly.Masc
 12	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__33
-# text = anàː nan, anàː nan, ankà cêː Dikkò hwa, cikìː gàreː tà, jìmmaʿàː.
-1	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
+# text = anàː nan , anàː nan , ankà cêː Dikkò hwa , cikìː gàreː tà , jìmmaʿàː .
+1	anàː	nàː	AUX	_	Person=4	7	parataxis@mod	_	Gloss=4.Prog
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	Gloss=there
 3	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	anàː	nàː	AUX	_	Person=4	1	parataxis@conj	_	Gloss=4.Prog
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	Gloss=there
-6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-7	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	1	parataxis@conj	_	Gloss=4.Perf.Rel
+6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+7	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 8	cêː	cêː	VERB	_	_	7	comp:aux	_	Gloss=say
-9	Dikkò	Dikkò	PROPN	_	_	8	comp:obj	_	Gloss=Dikkò
+9	Dikkò	Dikkò	PROPN	_	_	13	dislocated@comp	_	Gloss=Dikkò
 10	hwa	hwa	PART	_	_	9	discourse@top	_	_
-11	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
-12	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	7	subj	_	_
-13	gàreː	gà	ADP	_	_	9	mod	_	_
-14	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	13	comp:obj	_	_
+11	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+12	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	13	subj	_	Gloss=belly.Masc
+13	gàreː	gà	ADP	_	_	8	comp:obj	_	Gloss=at
+14	tà	ta	PRON	_	Case=Acc|Gender=Fem|Person=3|PronType=Prs	13	comp:obj	_	Gloss=3Fem.Acc
 15	,	,	PUNCT	_	_	16	punct	_	Gloss=PUNCT
-16	jìmmaʿàː	jìmmaʿàː	NOUN	_	Definite=Ind|Gender=Fem	13	comp:obj	_	_
-17	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+16	jìmmaʿàː	jìmmaʿàː	NOUN	_	Number=Plur	13	vocative	_	Gloss=people
+17	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__34
 # text = Garbà hwa yaː mutù àmman Dikkò cikìː gàreː tà.
@@ -523,8 +523,8 @@
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 4	mutù	mutù	VERB	_	_	3	comp:aux	_	_
 5	àmman	àmma	CCONJ	_	_	4	comp:obj	_	Gloss=but
-6	Dikkò	Dikkò	PROPN	_	_	5	compound	_	Gloss=Dikkò
-7	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	5	comp:obj	_	_
+6	Dikkò	Dikkò	PROPN	_	_	8	dislocated@comp	_	Gloss=Dikkò
+7	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	8	subj	_	Gloss=belly.Masc
 8	gàreː	gà	ADP	_	_	5	comp:obl	_	_
 9	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	comp:obj	_	_
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
@@ -581,7 +581,7 @@
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__39
-# text = dà ankà yi lìːsahiː dà mutuwàg Garbà, ankà yi lìːsahiː dà cikìn Dikkò, sai ankà ga cikìː na Garbà naː.
+# text = dà ankà yi lìːsahiː dà mutuwàg Garbà , ankà yi lìːsahiː dà cikìn Dikkò , sai ankà ga cikìː na Garbà naː .
 1	dà	dà	SCONJ	_	_	17	mod	_	Gloss=that
 2	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	1	comp:obj	_	Gloss=4.Perf.Rel
 3	yi	yi	VERB	_	_	2	comp:aux	_	Gloss=do
@@ -594,14 +594,14 @@
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
 11	lìːsahiː	lìːsahiː	NOUN	_	Definite=Ind|Gender=Masc	10	comp:pred	_	_
 12	dà	dà	ADP	_	_	10	comp:obl	_	Gloss=with
-13	cikìn	cikìː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	_
+13	cikìn	cikìː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	Gloss=belly.Masc.Cons
 14	Dikkò	Dikkò	PROPN	_	_	13	mod	_	Gloss=Dikkò
 15	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 16	sai	sai	ADV	_	_	17	mod	_	Gloss=then
 17	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 18	ga	ganiː	VERB	_	_	17	comp:aux	_	_
-19	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	18	comp:obj	_	_
-20	na	na	ADP	_	Case=Gen	19	mod	_	Gloss=Gen
+19	cikìː	cikìː	NOUN	_	Definite=Ind|Gender=Masc	22	subj	_	Gloss=belly.Masc
+20	na	na	ADP	_	Case=Gen	22	comp:pred	_	Gloss=Gen
 21	Garbà	Garbà	PROPN	_	_	20	comp:obj	_	Gloss=Garbà
 22	naː	neː	AUX	_	Copula=Yes	18	comp:obj	_	Gloss=Ident
 23	.	.	PUNCT	_	_	17	punct	_	Gloss=PUNCT
