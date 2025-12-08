@@ -13248,19 +13248,21 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__836
 # text = dà gàriː yag ganeː sù câː sukài yaːƙìː naː kuma at tàhe.
-1	dà	dà	SCONJ	_	_	9	mod	_	Gloss=that
+1	dà	dà	SCONJ	_	_	6	mod	_	Gloss=that
 2	gàriː	gàriː	NOUN	_	Definite=Ind|Gender=Masc	3	subj	_	_
 3	yag	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
 4	ganeː	ganiː	VERB	_	_	3	comp:aux	_	_
-5	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	4	comp:obj	_	Gloss=3Plur.Sub
-6	câː	câː	VERB	_	_	5	comp:aux	_	_
-7	sukài	nàiː	AUX	_	Aspect=Prog|Number=Plur|Person=3	6	comp:obj@T	_	_
-8	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj@T	_	_
-9	naː	neː	AUX	_	_	0	root	_	_
-10	kuma	kuma	PART	_	_	11	discourse@top	_	_
-11	at	neː	AUX	_	_	9	comp:cleft	_	_
-12	tàhe	tàhe	VERB	_	_	11	comp:pred	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+5	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3	4	comp:obj	_	Gloss=3Plur.Acc
+6	câː	câː	NOUN	_	_	0	root	_	Gloss=thinking
+7-8	sukài	_	_	_	_	_	_	_	_
+7	sukà	sukà	AUX	_	Aspect=Prog|Number=Plur|Person=3|Relative=Yes	6	comp:cleft@T	_	Gloss=3Plur.Prog.Rel
+8	yîː	yi	VERB	_	_	7	comp:aux	_	Gloss=do
+9	yaːƙìː	yaːƙìː	NOUN	_	Definite=Ind|Gender=Masc	6	comp:obj	_	_
+10	naː	neː	PART	_	Gender=Masc|PartType=Foc	9	discourse@foc	_	Gloss=Emph
+11	kuma	kuma	PART	_	_	9	discourse@top	_	_
+12	at	neː	AUX	_	Copula=Yes|Relative=Yes	9	comp:cleft	_	Gloss=Ident.Rel
+13	tàhe	tàhe	VERB	_	_	12	comp:pred	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__837
 # text = dà sunkà zoː gidaː ankài ta màːmaːkìː sabàddà bà'à san cikin sàmàːrin gàriː koː wanèː naː yaƙ ƙwaːtoː dukà duːkìyag gàriː dà yâːran gàriː waɗàndà yaːƙìː yac ci.
