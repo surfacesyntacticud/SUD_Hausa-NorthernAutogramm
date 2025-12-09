@@ -279,13 +279,13 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__18
 # text = Garbà dà yaz zakà gidaː dàdàddàre , saʿànnan yay yi sàbkaː dàb bisà doːkìː .
-1	Garbà	Garbà	PROPN	_	_	9	subj	_	Gloss=Garbà
-2	dà	dà	SCONJ	_	_	1	mod@relcl	_	Gloss=that
+1	Garbà	Garbà	PROPN	_	_	9	dislocated@subj	_	Gloss=Garbà
+2	dà	dà	SCONJ	_	_	9	mod@relcl	_	Gloss=that
 3	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	comp:obj	_	Gloss=3Masc.Perf.Rel
 4	zakà	zakà	VERB	_	_	3	comp:aux	_	Gloss=arrive
 5	gidaː	gidaː	NOUN	_	Gender=Masc	4	comp:obj@L	_	Gloss=compound.Masc
 6	dàdàddàre	dàdàddàre	ADV	_	_	4	mod	_	Gloss=at_night
-7	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	saʿànnan	saʿànnan	ADV	_	_	9	mod	_	Gloss=then
 9	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
@@ -337,18 +337,18 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__22
 # text = sai in hwa Allàː yaː yi akà yîː.
-1	sai	sai	ADV	_	_	5	mod	_	Gloss=then
+1	sai	sai	ADV	_	_	2	mod	_	Gloss=then
 2	in	in	SCONJ	_	_	0	root	_	Gloss=if
 3	hwa	hwa	PART	_	_	2	discourse@top	_	_
 4	Allàː	Allàː	PROPN	_	_	5	subj	_	Gloss=Allàː
 5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	Gloss=3Masc.Perf
 6	yi	yi	VERB	_	_	5	comp:aux	_	Gloss=do
-7	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	6	comp:pred	_	Gloss=4.Prog.Rel
+7	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	2	comp:cleft	_	Gloss=4.Prog.Rel
 8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	7	comp:aux	_	Gloss=do.Vnoun.Masc
-9	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
+9	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__23
-# text = dà Garbà yash shìga gidaː yak kwantàː, sai yak kwaːna à tàːre dà màːtaːtai Dikkò.
+# text = dà Garbà yash shìga gidaː yak kwantàː , sai yak kwaːna à tàːre dà màːtaːtai Dikkò .
 1	dà	dà	SCONJ	_	_	10	mod	_	Gloss=that
 2	Garbà	Garbà	PROPN	_	_	3	subj	_	Gloss=Garbà
 3	yash	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
@@ -360,11 +360,11 @@
 9	sai	sai	ADV	_	_	10	mod	_	Gloss=then
 10	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 11	kwaːna	kwaːna	VERB	_	ExtPos=NOUN|Gender=Masc	10	comp:aux	_	_
-12	à	yà	AUX	_	Mood=Sub|Person=4	11	mod	_	Gloss=4.Sub
+12	à	à	ADP	_	_	11	mod	_	Gloss=at
 13	tàːre	tàːre	VERB	_	_	12	comp:aux	_	_
 14	dà	dà	ADP	_	_	13	comp:obl	_	Gloss=with
 15	màːtaːtai	màːtaːtai	NOUN	_	Gender=Fem|Person=3	14	comp:obj	_	_
-16	Dikkò	Dikkò	PROPN	_	_	15	compound	_	Gloss=Dikkò
+16	Dikkò	Dikkò	PROPN	_	_	15	conj:appos	_	Gloss=Dikkò
 17	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__24
