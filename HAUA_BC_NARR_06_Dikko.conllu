@@ -5805,16 +5805,16 @@
 15	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__370
-# text = " kì cêː gàː baːwàː nan nib baː sù. "
+# text = " kì cêː gàː baːwàː nan nib baː sù " .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	0	root	_	Gloss=2Fem.Sub
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
 4	gàː	gàː	PART	_	_	3	comp:obj	_	_
-5	baːwàː	baːwàː	NOUN	_	Definite=Ind|Gender=Fem	4	subj	_	_
-6	nan	nan	ADV	_	Definite=Def|PronType=Dem	5	det	_	Gloss=there
-7	nib	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	5	mod@relcl	_	Gloss=1Sing.Perf.Rel
+5	baːwàː	baːwàː	NOUN	_	Definite=Ind|Gender=Masc	4	subj	_	Gloss=slave.Masc
+6	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	Gloss=there
+7	nib	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	4	parataxis@conj	_	Gloss=1Sing.Perf.Rel
 8	baː	baː	VERB	_	_	7	comp:aux	_	Gloss=give
-9	sù	sù	PRON	_	Number=Plur|Person=3|PronType=Prs	8	comp:obj@R	_	_
+9	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	8	comp:obj@R	_	_
 10	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 11	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -6341,9 +6341,9 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
 4	“	“	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 5	wànga	wànga	DET	_	Gender=Masc|PronType=Dem	6	subj	_	_
-6	baːwàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Neg	3	comp:obj	_	_
-7	tsòːroː	tsòːroː	NOUN	_	Definite=Ind|Gender=Fem	6	subj	_	_
-8	gàreː	gà	ADP	_	_	6	mod	_	Gloss=by
+6	baːwàː	nàː	NOUN	_	Aspect=Prog|Gender=Masc|Number=Plur|Person=1|Polarity=Neg	8	vocative	_	Gloss=slave.Masc
+7	tsòːroː	tsòːroː	NOUN	_	Definite=Ind|Gender=Fem	8	subj	_	_
+8	gàreː	gà	ADP	_	_	3	comp:obj	_	Gloss=by
 9	kà	ka	PRON	_	_	8	comp:obj	_	_
 10	”	”	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 11	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
