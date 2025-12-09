@@ -323,17 +323,17 @@
 8	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__21
-# text = kaː san sai Allàː yaː yi akà yîː koː?
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	parataxis@discourse	_	Gloss=2Masc.Perf
+# text = kaː san sai Allàː yaː yi akà yîː koː ?
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	3	parataxis@discourse	_	Gloss=2Masc.Perf
 2	san	sanìː	VERB	_	_	1	comp:aux	_	Gloss=know
-3	sai	sai	ADV	_	_	5	mod	_	Gloss=then
+3	sai	sai	SCONJ	_	_	0	root	_	Gloss=only_if
 4	Allàː	Allàː	PROPN	_	_	5	subj	_	Gloss=Allàː
-5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
+5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	Gloss=3Masc.Perf
 6	yi	yi	VERB	_	_	5	comp:aux	_	Gloss=do
-7	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	6	comp:cleft	_	Gloss=4.Prog.Rel
+7	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	3	comp:cleft	_	Gloss=4.Prog.Rel
 8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	Gloss=do
-9	koː	koː	CCONJ	_	_	5	cc	_	_
-10	?	?	PUNCT	_	_	5	punct	_	Gloss=PUNCT
+9	koː	koː	CCONJ	_	_	3	cc	_	Gloss=or
+10	?	?	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__22
 # text = sai in hwa Allàː yaː yi akà yîː.
