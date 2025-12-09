@@ -391,7 +391,7 @@
 # text = Dikkò taʿ amsàː.
 1	Dikkò	Dikkò	PROPN	_	_	2	subj	_	Gloss=Dikkò
 2	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
-3	amsàː	amsàː	VERB	_	_	2	comp:aux	_	_
+3	amsàː	amsàː	VERB	_	_	2	comp:aux	_	Gloss=answer
 4	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__26
@@ -2118,7 +2118,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__138
-# text = saʿànnan yab bar sù nan tsàye gà bàːkin garkaː yash shìga cikin gidaː yac cèː mà, yac cèː mà Dikkò " innà, … " .
+# text = saʿànnan yab bar sù nan tsàye gà bàːkin garkaː yash shìga cikin gidaː yac cèː mà , yac cèː mà Dikkò " innà , … " .
 1	saʿànnan	saʿànnan	ADV	_	_	2	mod	_	Gloss=then
 2	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 3	bar	barìː	VERB	_	_	2	comp:aux	_	_
@@ -2141,14 +2141,14 @@
 20	mà	mà	ADP	_	Case=Dat	19	comp:obl	_	Gloss=Dat
 21	Dikkò	Dikkò	PROPN	_	_	20	comp:obj	_	Gloss=Dikkò
 22	"	"	PUNCT	_	_	23	punct	_	Gloss=PUNCT
-23	innà	innà	ADV	_	_	19	comp:obj	_	_
+23	innà	innà	NOUN	_	Gender=Fem	19	comp:obj	_	Gloss=mother.Fem
 24	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
 25	…	…	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 26	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 27	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__139
-# text = dàn nan, kâi gà dangaː, yad diːbàː dà doːkìːnai, yac cèː " innà ! "
+# text = dàn nan , kâi gà dangaː , yad diːbàː dà doːkìːnai , yac cèː " innà ! "
 1	dàn	dàk	ADP	_	_	8	mod	_	_
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:obj	_	Gloss=there
 3	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -2164,16 +2164,16 @@
 13	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	8	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 14	cèː	cêː	VERB	_	_	13	comp:aux	_	Gloss=say
 15	"	"	PUNCT	_	_	16	punct	_	Gloss=PUNCT
-16	innà	innà	ADV	_	_	14	comp:obj	_	_
+16	innà	innà	NOUN	_	Gender=Fem	14	comp:obj	_	Gloss=mother.Fem
 17	!	!	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 18	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__140
-# text = innà taʿ amsàː.
-1	innà	innà	AUX	_	PronType=Rel	0	root	_	_
-2	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	mod@relcl	_	Gloss=3Fem.Perf.Rel
-3	amsàː	amsàː	VERB	_	_	2	comp:aux	_	_
-4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+# text = innà taʿ amsàː .
+1	innà	innà	NOUN	_	Gender=Fem|PronType=Rel	2	subj	_	Gloss=mother.Fem
+2	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
+3	amsàː	amsàː	VERB	_	_	2	comp:aux	_	Gloss=answer
+4	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__141
 # text = yac cèː " Hìtoː kì ganiː ! "
@@ -2192,13 +2192,13 @@
 2	!	!	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__143
-# text = yac cèː " innà hìtoː kì ganiː. "
+# text = yac cèː " innà hìtoː kì ganiː " .
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
-3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-4	innà	nnà	AUX	_	Aspect=Prog|Person=1	2	comp:obj	_	_
-5	hìtoː	hìtoː	VERB	_	Gender=Masc	4	comp:aux	_	_
-6	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	5	comp:obl	_	Gloss=2Fem.Sub
+3	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
+4	innà	innà	NOUN	_	Aspect=Prog|Gender=Fem|Person=1	5	vocative	_	Gloss=mother.Fem
+5	hìtoː	hìtoː	VERB	_	Mood=Imp	2	comp:obj	_	Gloss=get_out.Imp
+6	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	5	mod	_	Gloss=2Fem.Sub
 7	ganiː	ganiː	VERB	_	ExtPos=NOUN|Gender=Masc	6	comp:aux	_	_
 8	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -12789,7 +12789,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__803
 # text = yaʿ amsàː.
 1	yaʿ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-2	amsàː	amsàː	VERB	_	_	1	comp:aux	_	_
+2	amsàː	amsàː	VERB	_	_	1	comp:aux	_	Gloss=answer
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__804
