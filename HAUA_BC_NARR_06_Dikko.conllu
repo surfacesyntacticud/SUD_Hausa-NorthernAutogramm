@@ -609,25 +609,25 @@
 23	.	.	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__40
-# text = tôː loːkàcîn nan nàː Dikkò sai taʿ aihà ɗantà namijì.
-1	tôː	tôː	INTJ	_	_	7	discourse	_	Gloss=well
-2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	Gloss=time.Masc.Cons
+# text = tôː loːkàcîn nan nàː Dikkò sai taʿ àihi ɗantà namijì .
+1	tôː	tôː	INTJ	_	_	2	discourse	_	Gloss=well
+2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	Gloss=time.Masc.Cons
 3	nan	nan	DET	_	Definite=PrevRef	2	det	_	Gloss=PreRef
-4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	7	parataxis@mod	_	Gloss=Ident
-5	Dikkò	Dikkò	PROPN	_	_	4	subj	_	Gloss=Dikkò
+4	nàː	neː	AUX	_	Aspect=Prog|Copula=Yes	2	discourse@foc	_	Gloss=Ident
+5	Dikkò	Dikkò	PROPN	_	_	7	subj	_	Gloss=Dikkò
 6	sai	sai	ADV	_	_	7	mod	_	Gloss=then
-7	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
-8	aihà	aihà	VERB	_	_	7	comp:aux	_	_
-9	ɗantà	ɗaːtà	NOUN	_	Definite=Cons|Gender=Fem|Person=3	8	comp:obj	_	_
-10	namijì	namijì	NOUN	_	Gender=Masc	8	comp:obj@G	_	_
+7	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	2	comp:cleft	_	Gloss=3Fem.Perf.Rel
+8	àihi	àihwaː	VERB	_	_	7	comp:aux	_	Gloss=give_birth_to
+9	ɗantà	ɗaː	NOUN	_	Case=Gen|Gender=Fem|Person=3	8	comp:obj	_	Gloss=son.Masc.Cons\3Fem.Gen
+10	namijì	namijì	ADJ	_	Gender=Masc	9	mod	_	Gloss=male.Masc
 11	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__41
-# text = dàd Dikkò taʿ aihù ɗaː namijì shiː kèː nan màːlàmmai sun tàːru à zaːnà suːnaː.
+# text = dàd Dikkò taʿ àihi ɗaː namijì shiː kèː nan màːlàmmai sun tàːru à zaːnà suːnaː .
 1	dàd	dàk	SCONJ	_	_	11	mod	_	_
 2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
 3	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
-4	aihù	aihù	VERB	_	_	3	comp:aux	_	Gloss=give_birth
+4	àihi	àihwaː	VERB	_	_	3	comp:aux	_	Gloss=give_birth_to
 5	ɗaː	ɗaː	NOUN	_	Gender=Masc	4	comp:obj@T	_	_
 6	namijì	namijì	ADJ	_	Gender=Masc	5	mod	_	_
 7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	dislocated@subj	_	Gloss=3Masc.Nom
