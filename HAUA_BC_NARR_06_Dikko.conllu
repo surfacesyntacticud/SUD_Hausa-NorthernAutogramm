@@ -533,12 +533,11 @@
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__35
-# text = ʿyan giːgaràː kèːnan nan .
+# text = ʿyan giːgaràː kèːnan .
 1	ʿyan	ɗan	ADJ	_	Number=Plur	2	mod	_	_
 2	giːgaràː	giːgaràː	NOUN	_	Gender=Fem	0	root	_	_
 3	kèːnan	nèː	PART	_	PartType=Foc	2	discourse@foc	_	Gloss=Emph
-4	nan	nan	ADV	_	Definite=Def|PronType=Dem	3	comp:pred	_	Gloss=there
-5	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+4	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__36
 # text = Dikkò sai dà tay yi watàn tarà ɗàuke dà cikìn nan sai Dikkò taʿ aihù .
@@ -569,8 +568,8 @@
 6	màːlàmmai	maːlàmiː	NOUN	_	Gender=Masc|Number=Plur	7	subj	_	Gloss=scholar.Plur
 7	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 8	zakà	zakà	VERB	_	_	7	comp:aux	_	Gloss=arrive
-9	raːnas	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:obj	_	Gloss=day
-10	suːnaː	suːnaː	NOUN	_	Gender=Fem	8	comp:obj	_	_
+9	raːnas	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:obj	_	Gloss=day.Fem.Cons
+10	suːnaː	suːnaː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=name.Masc
 11	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__38
@@ -639,7 +638,7 @@
 12	tàːru	tàːru	VERB	_	_	11	comp:aux	_	_
 13	à	yà	ADP	_	Mood=Sub|Person=4	12	mod	_	_
 14	zaːnà	zaːnàː	VERB	_	_	13	comp:obj	_	_
-15	suːnaː	suːnaː	NOUN	_	ExtPos=NOUN|Gender=Masc	14	comp:obj	_	_
+15	suːnaː	suːnaː	NOUN	_	ExtPos=NOUN|Gender=Masc	14	comp:obj	_	Gloss=name.Masc
 16	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__42
@@ -649,7 +648,7 @@
 3	tàːru	tàːru	VERB	_	_	2	comp:aux	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	zaːnà	zaːnàː	AUX	_	_	4	comp:obj	_	_
-6	suːnaː	suːnaː	NOUN	_	Gender=Masc	5	comp:obj	_	_
+6	suːnaː	suːnaː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=name.Masc
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__43
@@ -677,14 +676,14 @@
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__45
-# text = tac cèː " naː bàː ɗaːnaː suːnaː. "
+# text = tac cèː " naː bàː ɗaːnaː suːnaː " .
 1	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	2	comp:obj	_	Gloss=1Sing.Perf
 5	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	_
 6	ɗaːnaː	ɗaːnaː	NOUN	_	Gender=Fem	4	comp:pred	_	_
-7	suːnaː	suːnaː	NOUN	_	Gender=Masc	4	comp:pred	_	_
+7	suːnaː	suːnaː	NOUN	_	Gender=Masc	4	comp:pred	_	Gloss=name.Masc
 8	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -746,7 +745,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__50
-# text = " dà suːnan Dikkò dà suːnan Garbà à gamàː, ai mai suːnaː. "
+# text = " dà suːnan Dikkò dà suːnan Garbà à gamàː , ai mai suːnaː " .
 1	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 2	dà	dà	CCONJ	_	_	3	cc@preconj	_	Gloss=and
 3	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	11	dislocated@top	_	_
@@ -757,11 +756,13 @@
 8	à	yà	AUX	_	Mood=Sub|Person=4	3	mod	_	Gloss=4.Sub
 9	gamàː	gamàː	VERB	_	_	8	comp:aux	_	_
 10	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-11	ai	ai	INTJ	_	_	0	root	_	_
-12	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	11	comp:obl	_	Gloss=3Masc.Dat
-13	suːnaː	suːnaː	NOUN	_	Gender=Masc	11	comp:pred	_	_
-14	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform=.
-15	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform="
+11-12	ai	_	_	_	_	_	_	_	_
+11	à	à	AUX	_	Mood=Sub|Person=4	0	root	_	Gloss=4.Sub
+12	yi	yi	VERB	_	_	11	comp:aux	_	Gloss=do
+13	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	12	comp:obl	_	Gloss=3Masc.Dat
+14	suːnaː	suːnaː	NOUN	_	Gender=Masc	12	comp:obj	_	Gloss=name.Masc
+15	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform=.
+16	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__51
 # text = shiː am mahwaːrin.
@@ -1542,7 +1543,7 @@
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
 11	mà	mà	ADP	_	Case=Dat	10	comp:obl	_	Gloss=Dat
 12	àbinkà	àbiː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=2	11	comp:obj	_	_
-13	suːnaː	suːnaː	NOUN	_	Gender=Fem	10	comp:obj@T	_	_
+13	suːnaː	suːnaː	NOUN	_	Gender=Masc	10	comp:obj@T	_	Gloss=name.Masc
 14	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 15	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
