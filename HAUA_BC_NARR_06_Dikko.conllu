@@ -319,7 +319,7 @@
 4	shìga	shìga	VERB	_	_	3	comp:aux	_	Gloss=enter
 5	gidaː	gidaː	NOUN	_	Gender=Masc	4	comp:obj@G	_	Gloss=compound.Masc
 6	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-7	kwantà	kwantà	VERB	_	_	6	comp:aux	_	Gloss=lie_down
+7	kwantà	kwantà	VERB	_	_	6	comp:aux	_	Gloss=lay_down
 8	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__21
@@ -458,12 +458,12 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__30
 # text = shiː kuma Allàː dà iːkòːnai , dàn nan sai Dikkò tat taːshì dà cikìː .
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	dislocated@subj	_	Gloss=3Masc.Nom
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	dislocated@subj	_	Gloss=3Masc.Nom
 2	kuma	kuma	PART	_	_	1	discourse@top	_	_
 3	Allàː	Allàː	PROPN	_	_	1	conj:appos	_	Gloss=Allàː
-4	dà	dà	CCONJ	_	_	5	cc	_	Gloss=and
-5	iːkòːnai	iːkòː	NOUN	_	Case=Gen|Gender=Masc|Person=3	3	conj:coord	_	Gloss=power.Masc  \3Masc.Gen
-6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+4	dà	dà	CCONJ	_	_	11	discourse	_	Gloss=and
+5	iːkòːnai	iːkòː	NOUN	_	Case=Gen|Gender=Masc|Person=3	4	comp:obj	_	Gloss=power.Masc  \3Masc.Gen
+6	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 7	dàn	dàgà	ADP	_	_	11	mod	_	Gloss=from
 8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:obj	_	Gloss=there
 9	sai	sai	ADV	_	_	11	mod	_	Gloss=then
@@ -486,13 +486,13 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__32
 # text = Allàː dà iːkòːnai , dàn nan Dikkò tat taːshì dà cikìː .
-1	Allàː	Allàː	PROPN	_	_	8	dislocated@subj	_	Gloss=Allàː
-2	dà	dà	CCONJ	_	_	3	cc	_	Gloss=and
-3	iːkòːnai	iːkòː	NOUN	_	Case=Gen|Gender=Masc|Person=3	1	conj:coord	_	Gloss=power.Masc  \3Masc.Gen
-4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+1	Allàː	Allàː	PROPN	_	_	2	subj	_	Gloss=Allàː
+2	dà	dà	CCONJ	_	_	8	discourse	_	Gloss=and
+3	iːkòːnai	iːkòː	NOUN	_	Case=Gen|Gender=Masc|Person=3	2	comp:obj	_	Gloss=power.Masc  \3Masc.Gen
+4	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 5	dàn	dàgà	ADP	_	_	8	mod	_	Gloss=from
 6	nan	nan	ADV	_	Definite=Def|PronType=Dem	5	comp:obj	_	Gloss=there
-7	Dikkò	Dikkò	PROPN	_	_	5	comp:obj	_	Gloss=Dikkò
+7	Dikkò	Dikkò	PROPN	_	_	8	subj	_	Gloss=Dikkò
 8	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 9	taːshì	taːshì	VERB	_	_	8	comp:aux	_	_
 10	dà	dà	ADP	_	_	9	comp:obl	_	Gloss=with
@@ -521,7 +521,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__34
 # text = Garbà hwa yaː mutù àmman Dikkò cikìː gàreː tà.
-1	Garbà	Garbà	PROPN	_	_	3	subj	_	Gloss=Garbà
+1	Garbà	Garbà	PROPN	_	_	3	dislocated@subj	_	Gloss=Garbà
 2	hwa	hwa	PART	_	_	1	discourse@top	_	_
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 4	mutù	mutù	VERB	_	_	3	comp:aux	_	_
@@ -533,25 +533,25 @@
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__35
-# text = ʿyan giːgaràː kèː nan.
-1	ʿyan	ɗan	ADJ	_	Number=Plur	3	subj	_	_
-2	giːgaràː	giːgaràː	NOUN	_	Gender=Fem	3	subj	_	_
-3	kèː	nèːː	AUX	_	Aspect=Prog	0	root	_	_
+# text = ʿyan giːgaràː kèːnan nan .
+1	ʿyan	ɗan	ADJ	_	Number=Plur	2	mod	_	_
+2	giːgaràː	giːgaràː	NOUN	_	Gender=Fem	0	root	_	_
+3	kèːnan	nèː	PART	_	PartType=Foc	2	discourse@foc	_	Gloss=Emph
 4	nan	nan	ADV	_	Definite=Def|PronType=Dem	3	comp:pred	_	Gloss=there
-5	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+5	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__36
-# text = Dikkò sai dà tay yi watàn tarà ɗàuke dà cikìn nan sai Dikkò taʿ aihù.
+# text = Dikkò sai dà tay yi watàn tarà ɗàuke dà cikìn nan sai Dikkò taʿ aihù .
 1	Dikkò	Dikkò	PROPN	_	_	14	discourse	_	Gloss=Dikkò
 2	sai	sai	ADV	_	_	14	mod	_	Gloss=then
 3	dà	dà	SCONJ	_	_	14	mod	_	Gloss=that
 4	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	3	comp:obj	_	Gloss=3Fem.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
 6	watàn	watàː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	5	comp:pred	_	_
-7	tarà	tarà	PRON	_	Gender=Fem|Person=3|PronType=Prs	6	mod	_	_
-8	ɗàuke	ɗàuke	ADJ	_	_	6	mod	_	_
-9	dà	dà	CCONJ	_	_	10	cc	_	Gloss=and
-10	cikìn	cikìː	NOUN	_	Definite=Cons|Gender=Masc	7	conj:coord	_	_
+7	tarà	tarà	NUM	_	Gender=Fem|Person=3|PronType=Prs	6	mod:num	_	_
+8	ɗàuke	ɗàuke	ADJ	_	ExtPos=ADV|VerbForm=Part	5	mod	_	Gloss=take.Part
+9	dà	dà	CCONJ	_	_	8	mod	_	Gloss=and
+10	cikìn	cikìː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	Gloss=belly.Masc.Cons
 11	nan	nan	DET	_	Definite=Def|PronType=Dem	10	det	_	_
 12	sai	sai	ADV	_	_	14	mod	_	Gloss=then
 13	Dikkò	Dikkò	PROPN	_	_	14	subj	_	Gloss=Dikkò
