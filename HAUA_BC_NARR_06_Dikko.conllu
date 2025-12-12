@@ -628,8 +628,8 @@
 2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
 3	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
 4	àihi	àihwaː	VERB	_	_	3	comp:aux	_	Gloss=give_birth_to
-5	ɗaː	ɗaː	NOUN	_	Gender=Masc	4	comp:obj	_	_
-6	namijì	namijì	ADJ	_	Gender=Masc	5	mod	_	_
+5	ɗaː	ɗaː	NOUN	_	Gender=Masc	4	comp:obj	_	Gloss=son.Masc
+6	namijì	namijì	ADJ	_	Gender=Masc	5	mod	_	Gloss=male
 7	shiːkèːnan	shiːkèːnan	INTJ	_	_	9	dislocated@subj	_	Gloss=OK
 8	màːlàmmai	maːlàmiː	NOUN	_	Gender=Fem|Number=Plur|Person=3	9	subj	_	Gloss=scholar.Plur
 9	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
@@ -2333,7 +2333,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
 22	yaushèː	yaushèː	NOUN	_	Gender=Masc	14	comp:obj	_	_
 23	naː	yaː	PART	_	PartType=Foc	22	discourse@foc	_	Gloss=Emph
-24	namijì	namijì	NOUN	_	Gender=Masc	25	subj	_	_
+24	namijì	namijì	NOUN	_	Gender=Masc	25	subj	_	Gloss=man
 25	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	22	comp:cleft	_	Gloss=3Masc.Perf.Neg
 26	tàhi	tàhi	VERB	_	_	25	comp:aux	_	Gloss=go
 27	yaƙ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	26	parataxis@mod	_	Gloss=3Masc.Perf.Rel
@@ -4152,7 +4152,7 @@
 12	an	yaː	AUX	_	Aspect=Perf|Person=4	11	comp:obj	_	Gloss=4.Perf
 13	cèː	cêː	VERB	_	_	12	comp:aux	_	Gloss=say
 14	sàlaːma	sàlaːmt	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem	13	comp:obj	_	_
-15	àleːkùm	àleːkù	NOUN	_	Gender=Masc	14	comp:obj	_	_
+15	àleːkùm	àleːkù	INTJ	_	Gender=Masc	14	comp:obj	_	Gloss=to_you
 16	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__262
@@ -5069,18 +5069,18 @@
 14	cèː	cêː	VERB	_	_	13	comp:aux	_	Gloss=say
 15	"	"	PUNCT	_	_	16	punct	_	Gloss=PUNCT
 16	sàːlaːmù	saːlaːmùː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	14	comp:obj	_	_
-17	àleːkùm	àleːkù	NOUN	_	Gender=Masc	16	comp:obj	_	_
+17	àleːkùm	àleːkù	INTJ	_	Gender=Masc	16	comp:obj	_	Gloss=to_you
 18	!	!	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 19	».	».	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__321
 # text = " sàlaːmù àleːkùm, sàlaːmù àleːkùm ! "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-2	sàlaːmù	salaːmùː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	_
-3	àleːkùm	àleːkùm	NOUN	_	Gender=Masc	2	comp:obj	_	_
+2	sàlaːmù	salaːmùː	INTJ	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=greetings
+3	àleːkùm	àleːkùm	INTJ	_	Gender=Masc	2	comp:obj	_	Gloss=to_you
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
-5	sàlaːmù	salaːmùː	NOUN	_	Aspect=Perf|Number=Plur|Person=3	2	parataxis@conj	_	_
-6	àleːkùm	àleːkoː	NOUN	_	Gender=Masc	5	comp:obj	_	_
+5	sàlaːmù	salaːmùː	INTJ	_	Aspect=Perf|Number=Plur|Person=3	2	parataxis@conj	_	Gloss=greetings
+6	àleːkùm	àleːkoː	INTJ	_	Gender=Masc	5	comp:obj	_	Gloss=to_you
 7	!	!	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -8044,7 +8044,7 @@
 15	tàmmahà	tàmmahà	VERB	_	ExtPos=NOUN|Gender=Fem	14	comp:aux	_	_
 16	indà	indà	ADV	_	_	15	comp:obj@G	_	_
 17	duk	dukà	DET	_	PronType=Tot	18	det	_	Gloss=all
-18	namijì	namijì	NOUN	_	Gender=Masc	19	subj	_	_
+18	namijì	namijì	NOUN	_	Gender=Masc	19	subj	_	Gloss=man
 19	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	16	mod@relcl	_	Gloss=3Masc.Perf.Rel
 20	kaːcʿèː	kaːcʿèː	VERB	_	_	19	comp:aux	_	_
 21	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
@@ -8088,7 +8088,7 @@
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
 9	zaːwòː	zaːwòː	NOUN	_	Gender=Masc	8	comp:pred	_	_
 10	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-11	namijì	namijì	NOUN	_	Gender=Masc	8	comp:pred	_	_
+11	namijì	namijì	NOUN	_	Gender=Masc	12	subj	_	Gloss=man
 12	in	in	SCONJ	_	_	8	mod	_	Gloss=if
 13	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	12	comp:obj	_	Gloss=3Masc.Perf.Rel
 14	kaːcʿèː	kaːcʿèː	VERB	_	_	13	comp:aux	_	_
@@ -9040,18 +9040,18 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl	_	Gloss=3Plur.Dat
 4	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
-5	sàlaːmù	salaːmùː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj@T	_	_
-6	àleːkùm	àleːkùː	NOUN	_	Gender=Masc	5	comp:obj	_	_
+5	sàlaːmù	salaːmùː	INTJ	_	Definite=Cons|Gender=Masc	2	comp:obj@T	_	Gloss=greetings
+6	àleːkùm	àleːkùː	INTJ	_	Gender=Masc	5	comp:obj	_	Gloss=to_you
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-8	sàlaːmù	salaːmùː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	5	parataxis@conj	_	_
-9	àleːkùm	àleːkoː	NOUN	_	Gender=Masc	8	comp:obj	_	_
+8	sàlaːmù	salaːmùː	INTJ	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	5	parataxis@conj	_	Gloss=greetings
+9	àleːkùm	àleːkoː	INTJ	_	Gender=Masc	8	comp:obj	_	Gloss=to_you
 10	”	”	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__569
 # text = sàlaːmù àleːkùm, bà sù kulàː mai ba.
-1	sàlaːmù	salaːmùː	NOUN	_	Mood=Sub|Number=Plur|Person=3	4	dislocated@subj	_	_
-2	àleːkùm	àleːkùm	NOUN	_	Gender=Masc	1	mod	_	_
+1	sàlaːmù	salaːmùː	INTJ	_	Mood=Sub|Number=Plur|Person=3	4	dislocated@subj	_	Gloss=greetings
+2	àleːkùm	àleːkùm	INTJ	_	Gender=Masc	1	mod	_	Gloss=to_you
 3	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 4	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Perf.Neg|wordform=sù
 5	kulàː	kulàː	VERB	_	_	4	comp:aux	_	_
@@ -9858,7 +9858,7 @@
 8	gàske	gàske	ADV	_	_	7	comp:obj	_	_
 9	nàː	neː	AUX	_	Copula=Yes	3	comp:obj	_	Gloss=Ident
 10	dan	don	ADP	_	_	9	mod	_	Gloss=because
-11	namijì	namijì	NOUN	_	Gender=Masc	13	subj	_	_
+11	namijì	namijì	NOUN	_	Gender=Masc	13	subj	_	Gloss=man
 12	ukkù	ukkù	NUM	_	_	11	mod:num	_	_
 13	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	10	comp:obj	_	Gloss=3Plur.Prog.Neg
 14	ƙaryaː	ƙaryaː	NOUN	_	Gender=Fem	13	comp:aux	_	_
@@ -9869,7 +9869,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__612
 # text = " namijì ukkù baːsù dajìː "
 1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-2	namijì	namijì	NOUN	_	_	4	subj	_	_
+2	namijì	namijì	NOUN	_	_	4	subj	_	Gloss=man
 3	ukkù	ukkù	NUM	_	_	2	det	_	_
 4	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	0	root	_	Gloss=3Plur.Prog.Neg
 5	dajìː	dajìː	NOUN	_	_	4	comp:aux	_	_
@@ -10000,9 +10000,9 @@
 16	cèː	cêː	VERB	_	_	15	comp:aux	_	Gloss=say
 17	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	16	comp:obl	_	Gloss=3Masc.Dat
 18	"	"	PUNCT	_	_	19	punct	_	Gloss=PUNCT
-19	namijì	namijì	NOUN	_	Gender=Masc	16	comp:obj@T	_	_
+19	namijì	namijì	NOUN	_	Gender=Masc	16	comp:obj@T	_	Gloss=man
 20	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
-21	sàlaːmù	sàlaːmù	NOUN	_	Gender=Masc	22	subj	_	_
+21	sàlaːmù	sàlaːmù	INTJ	_	Gender=Masc	22	subj	_	Gloss=greetings
 22	à	yà	AUX	_	Mood=Sub|Person=4	16	mod	_	Gloss=4.Sub
 23	leːkùm	leːkùm	VERB	_	_	22	comp:aux	_	_
 24	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
