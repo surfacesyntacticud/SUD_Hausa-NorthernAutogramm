@@ -688,14 +688,14 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__46
 # text = " kawài kù yankè ràːgoː, kù yi àddàʿaː. "
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-2	kawài	kawài	ADV	_	_	3	mod	_	_
+2	kawài	kawài	ADV	_	_	3	mod	_	Gloss=merely
 3	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	0	root	_	Gloss=2Plur.Sub
 4	yankè	yankèː	VERB	_	_	3	comp:aux	_	Gloss=slaughter
 5	ràːgoː	ràːgoː	NOUN	_	Gender=Masc	4	comp:obj	_	_
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	3	parataxis@conj	_	Gloss=2Plur.Sub
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
-9	àddàʿaː	àddàʿaː	NOUN	_	Gender=Fem	8	comp:pred	_	_
+9	àddàʿaː	àddàʿaː	NOUN	_	Gender=Fem	8	comp:pred	_	Gloss=prayer
 10	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
 11	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform="
 
@@ -1038,7 +1038,7 @@
 20	ga	ganiː	VERB	_	_	19	comp:aux	_	Gloss=see
 21	kyaːshèː	kyaːshèː	NOUN	_	Gender=Masc	20	comp:obj	_	_
 22	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	19	parataxis@conj	_	Gloss=3Fem.Sub
-23	kashèː	kashèː	VERB	_	_	22	comp:aux	_	_
+23	kashèː	kashèː	VERB	_	_	22	comp:aux	_	Gloss=kill
 24	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__65
@@ -1076,7 +1076,7 @@
 13	ga	ganiː	VERB	_	_	12	comp:aux	_	Gloss=see
 14	kyaːshèː	kyaːshèː	NOUN	_	Gender=Masc	13	comp:obj	_	_
 15	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	12	parataxis@conj	_	Gloss=3Fem.Sub
-16	kashèː	kashèː	VERB	_	_	12	comp:aux	_	_
+16	kashèː	kashèː	VERB	_	_	12	comp:aux	_	Gloss=kill
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	àmman	àmma	CCONJ	_	_	22	cc	_	Gloss=but
 19	Dandà	Dandà	PROPN	_	_	22	subj	_	Gloss=Dandà
@@ -2076,7 +2076,7 @@
 10	shìga	shìga	VERB	_	_	9	comp:aux	_	Gloss=enter
 11	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	10	comp:obj@G	_	Gloss=war.Masc
 12	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	9	parataxis@conj	_	Gloss=3Masc.Perf.Rel
-13	kashèː	kashèː	VERB	_	_	12	comp:aux	_	_
+13	kashèː	kashèː	VERB	_	_	12	comp:aux	_	Gloss=kill
 14	uway	uwaː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	_
 15	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	14	mod	_	Gloss=war.Masc
 16	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
@@ -2580,7 +2580,7 @@
 16	na	na	ADP	_	Case=Gen	0	root	_	Gloss=Gen
 17	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	16	comp:obj	_	Gloss=3Masc.Prog
 18	zaːrùmiː	zaːrùmiː	NOUN	_	Gender=Masc	17	comp:pred	_	Gloss=brave
-19	kawài	kawài	ADV	_	_	18	mod	_	_
+19	kawài	kawài	ADV	_	_	18	mod	_	Gloss=merely
 20	.	.	PUNCT	_	_	16	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__164
@@ -2819,7 +2819,7 @@
 # text = " kiɗìː kawài kukài, àmman bàː nau nàː ba" .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	0	root	_	Gloss=music.Masc
-3	kawài	kawài	ADV	_	_	2	mod	_	_
+3	kawài	kawài	ADV	_	_	2	mod	_	Gloss=merely
 4	kukài	kukài	NOUN	_	Gender=Masc	2	comp:cleft	_	_
 5	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 6	àmman	àmma	CCONJ	_	_	9	cc	_	Gloss=but
@@ -7769,7 +7769,7 @@
 # text = “ baːnì kashèː ka , halshànka dai nikà yankèːwaː dàk kà koːmà ɓaːcìn wani “ .
 1	“	“	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 2	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	8	parataxis@mod	_	Gloss=1Sing.Prog.Neg
-3	kashèː	kashèː	VERB	_	_	2	mod	_	_
+3	kashèː	kashèː	VERB	_	_	2	mod	_	Gloss=kill
 4	ka	ka	PRON	_	Case=Acc|Gender=Masc|Person=2|PronType=Prs	3	comp:obj@R	_	Gloss=2Masc.Acc
 5	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 6	halshànka	halshèː	NOUN	_	Case=Gen|Gender=Masc|Person=2	8	subj	_	Gloss=tongue.Masc.Cons\2Masc.Gen
@@ -7812,7 +7812,7 @@
 2	yànzu	yànzu	ADV	_	_	15	mod	_	_
 3	in	in	SCONJ	_	_	15	mod	_	Gloss=if
 4	kak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	3	comp:obj	_	Gloss=2Masc.Perf.Rel
-5	kashèː	kashèː	VERB	_	_	4	comp:aux	_	_
+5	kashèː	kashèː	VERB	_	_	4	comp:aux	_	Gloss=kill
 6	ni	ni	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	Gloss=1Sing.Acc
 7	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 8	in	in	SCONJ	_	_	15	mod	_	Gloss=if
@@ -10620,7 +10620,7 @@
 7	Dikkò	Dikkò	PROPN	_	_	8	conj:appos	_	Gloss=Dikkò
 8	nân	nân	ADV	_	PronType=Dem	0	root	_	_
 9	shikà	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Relative=Yes	8	comp:cleft	_	Gloss=3Masc.Prog.Rel
-10	kashèːwaː	kashèː	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	_
+10	kashèːwaː	kashèː	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	Gloss=kill
 11	dà	dà	ADP	_	_	10	comp:obl	_	Gloss=with
 12	kaːyèː	kaːyèː	NOUN	_	Gender=Masc	11	comp:obj	_	_
 13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garbaː
@@ -10640,7 +10640,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	nân	nân	ADV	_	PronType=Dem	3	parataxis@conj	_	_
 8	shikà	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Relative=Yes	7	comp:cleft	_	Gloss=3Masc.Prog.Rel
-9	kashèːwaː	kashèː	VERB	_	ExtPos=NOUN|Gender=Fem	8	comp:aux	_	_
+9	kashèːwaː	kashèː	VERB	_	ExtPos=NOUN|Gender=Fem	8	comp:aux	_	Gloss=kill
 10	dà	dà	SCONJ	_	_	9	comp:obl	_	Gloss=that
 11	kaːyèː	kaːyèː	NOUN	_	Gender=Masc	10	comp:obj	_	_
 12	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	8	parataxis@conj	_	Gloss=3Masc.Sub
@@ -10916,7 +10916,7 @@
 # text = " kà kashèː Banì. "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-3	kashèː	kashèː	VERB	_	_	2	comp:aux	_	_
+3	kashèː	kashèː	VERB	_	_	2	comp:aux	_	Gloss=kill
 4	Banì	Banì	PROPN	_	_	3	comp:obj	_	Gloss=Banì
 5	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
@@ -10926,7 +10926,7 @@
 1	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 2	im	in	SCONJ	_	_	8	mod	_	_
 3	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	2	comp:obj	_	Gloss=2Masc.Perf.Neg|wordform=kà
-4	kashèː	kashèː	VERB	_	_	3	comp:aux	_	_
+4	kashèː	kashèː	VERB	_	_	3	comp:aux	_	Gloss=kill
 5	Banì	Banì	PROPN	_	_	4	comp:obj	_	Gloss=Banì
 6	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
@@ -10944,7 +10944,7 @@
 2	koːkòː	koːkòː	CCONJ	_	_	3	discourse	_	_
 3	Banì	Banì	PROPN	_	_	0	root	_	Gloss=Banì
 4	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	comp:cleft	_	Gloss=3Masc.Sub
-5	kashèː	kashèː	VERB	_	_	4	comp:aux	_	_
+5	kashèː	kashèː	VERB	_	_	4	comp:aux	_	Gloss=kill
 6	ka	ka	PRON	_	Case=Acc|Gender=Masc|Person=2|PronType=Prs	5	comp:obj	_	Gloss=2Masc.Acc
 7	koːkòː	koːkòː	PRON	_	_	8	mod	_	_
 8	Banì	Banì	PROPN	_	_	3	parataxis@conj	_	Gloss=Banì
