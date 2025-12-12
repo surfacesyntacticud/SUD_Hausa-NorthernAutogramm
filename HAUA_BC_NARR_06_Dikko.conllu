@@ -7231,28 +7231,28 @@
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__462
-# text = Dandà Garbaː Dikkò yak koːmà gidaː dà shaːnuː.
+# text = Dandà Garbaː Dikkò yak koːmà gidaː .
 1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-5	koːmà	koːmà	VERB	_	_	4	comp:aux	_	_
+5	koːmà	koːmà	VERB	_	_	4	comp:aux	_	Gloss=go_back
 6	gidaː	gidaː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=compound.Masc
-7	dà	dà	ADP	_	_	6	comp:obl	_	Gloss=with
-8	shaːnuː	shaːnuː	NOUN	_	Number=Plur	7	comp:obj	_	_
-9	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+7	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__463
-# text = ʿyak kàrad duːkìyaː dà baːyuː yak koːmàː gidaː .
-1	ʿyak	ɗan	ADJ	_	Definite=Cons|Gender=Fem	2	mod	_	Gloss=small.Fem.Cons
-2	kàrad	kàraː	ADJ	_	Definite=Cons|Gender=Fem	3	mod	_	Gloss=quantity.Fem.Cons
-3	duːkìyaː	duːkìyaː	NOUN	_	Gender=Fem	6	dislocated@comp	_	Gloss=wealth.Fem
-4	dà	dà	CCONJ	_	_	5	cc	_	Gloss=and
-5	baːyuː	baːwàː	NOUN	_	Number=Plur	3	conj:coord	_	Gloss=slave.Plur
-6	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-7	koːmàː	koːmàː	VERB	_	_	6	comp:aux	_	_
-8	gidaː	gidaː	NOUN	_	Gender=Masc	7	comp:obj@G	_	Gloss=compound.Masc
-9	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+# text = dà shaːnuː ʿyak kàrad duːkìyaː dà baːyuː yak koːmàː gidaː .
+1	dà	dà	ADP	_	_	8	dislocated@comp	_	Gloss=with
+2	shaːnuː	sâː	ADJ	_	Number=Plur	1	comp:obj	_	Gloss=cow.Plur
+3	ʿyak	ɗan	ADJ	_	Definite=Cons|Gender=Fem	4	mod	_	Gloss=small.Fem.Cons
+4	kàrad	kàraː	ADJ	_	Definite=Cons|Gender=Fem	5	mod	_	Gloss=quantity.Fem.Cons
+5	duːkìyaː	duːkìyaː	NOUN	_	Gender=Fem	2	mod	_	Gloss=wealth.Fem
+6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
+7	baːyuː	baːwàː	NOUN	_	Number=Plur	2	conj:coord	_	Gloss=slave.Plur
+8	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
+9	koːmàː	koːmàː	VERB	_	_	8	comp:aux	_	Gloss=go_back
+10	gidaː	gidaː	NOUN	_	Gender=Masc	9	comp:obj@G	_	Gloss=compound.Masc
+11	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__464
 # text = Dandà Garbaː Dikkò.
