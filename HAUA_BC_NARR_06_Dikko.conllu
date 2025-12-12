@@ -623,31 +623,29 @@
 11	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__41
-# text = dàd Dikkò taʿ àihi ɗaː namijì shiː kèː nan màːlàmmai sun tàːru à zaːnà suːnaː .
-1	dàd	dàk	SCONJ	_	_	11	mod	_	_
+# text = dàd Dikkò taʿ àihi ɗaː namijì shiːkèːnan màːlàmmai sun tàːru à zaːnà suːnaː .
+1	dàd	dàk	SCONJ	_	_	9	mod	_	_
 2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
 3	taʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
 4	àihi	àihwaː	VERB	_	_	3	comp:aux	_	Gloss=give_birth_to
-5	ɗaː	ɗaː	NOUN	_	Gender=Masc	4	comp:obj@T	_	_
+5	ɗaː	ɗaː	NOUN	_	Gender=Masc	4	comp:obj	_	_
 6	namijì	namijì	ADJ	_	Gender=Masc	5	mod	_	_
-7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	dislocated@subj	_	Gloss=3Masc.Nom
-8	kèː	keː	AUX	_	Aspect=Prog	7	comp:cleft	_	_
-9	nan	nan	ADV	_	Definite=Def|PronType=Dem	11	mod	_	Gloss=there
-10	màːlàmmai	maːlàmiː	NOUN	_	Gender=Fem|Number=Plur|Person=3	13	comp:obj	_	Gloss=scholar.Plur
-11	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
-12	tàːru	tàːru	VERB	_	_	11	comp:aux	_	_
-13	à	yà	ADP	_	Mood=Sub|Person=4	12	mod	_	_
-14	zaːnà	zaːnàː	VERB	_	_	13	comp:obj	_	_
-15	suːnaː	suːnaː	NOUN	_	ExtPos=NOUN|Gender=Masc	14	comp:obj	_	Gloss=name.Masc
-16	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+7	shiːkèːnan	shiːkèːnan	INTJ	_	_	9	dislocated@subj	_	Gloss=OK
+8	màːlàmmai	maːlàmiː	NOUN	_	Gender=Fem|Number=Plur|Person=3	9	subj	_	Gloss=scholar.Plur
+9	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
+10	tàːru	tàːru	VERB	_	_	9	comp:aux	_	Gloss=meet
+11	à	à	ADP	_	Mood=Sub|Person=4	9	mod	_	Gloss=at
+12	zaːnà	zaːnàː	VERB	_	_	11	comp:obj	_	Gloss=write
+13	suːnaː	suːnaː	NOUN	_	ExtPos=NOUN|Gender=Masc	12	comp:obj	_	Gloss=name.Masc
+14	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__42
-# text = màːlàmmai sun tàːru à zaːnà suːnaː.
+# text = màːlàmmai sun tàːru à zaːnà suːnaː .
 1	màːlàmmai	maːlàmiː	NOUN	_	Gender=Masc|Number=Plur	2	subj	_	Gloss=scholar.Plur
 2	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
-3	tàːru	tàːru	VERB	_	_	2	comp:aux	_	_
-4	à	à	ADP	_	_	3	comp:obl	_	_
-5	zaːnà	zaːnàː	AUX	_	_	4	comp:obj	_	_
+3	tàːru	tàːru	VERB	_	_	2	comp:aux	_	Gloss=meet
+4	à	à	ADP	_	_	3	comp:obl	_	Gloss=at
+5	zaːnà	zaːnàː	AUX	_	_	4	comp:obj	_	Gloss=write
 6	suːnaː	suːnaː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=name.Masc
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -936,7 +934,7 @@
 5	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	1	parataxis@conj	_	Gloss=2Masc.Sub
 6	bugàː	bugàː	VERB	_	_	5	comp:aux	_	_
 7	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	Gloss=3Masc.Acc
-8	à	yà	ADP	_	Mood=Sub|Person=4	6	mod	_	_
+8	à	à	ADP	_	Mood=Sub|Person=4	6	mod	_	Gloss=at
 9	hankàliː	hankàliː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=attention.Masc
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -4913,7 +4911,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__310
 # text = jaː à hankàliː kà yi maulòː.
 1	jaː	jaː	ADJ	_	_	0	root	_	_
-2	à	yà	ADP	_	_	1	mod	_	_
+2	à	à	ADP	_	_	1	mod	_	Gloss=at
 3	hankàliː	hankàliː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=attention.Masc
 4	kà	nàː	AUX	_	Aspect=Prog	2	parataxis	_	_
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
