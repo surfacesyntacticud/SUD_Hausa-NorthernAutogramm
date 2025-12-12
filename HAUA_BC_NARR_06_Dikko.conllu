@@ -710,14 +710,14 @@
 7	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__48
-# text = tac cèː " kù ɗeːboː cikin suːnaːnaː dà suːnan ùbaːnai kù sâː mai . "
+# text = tac cèː " kù ɗeːboː cikin suːnaːnaː dà suːnan ùbaːnai kù sâː mai " .
 1	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	2	comp:obj	_	Gloss=2Plur.Sub
-5	ɗeːboː	ɗiːbàː	VERB	_	_	4	comp:aux	_	Gloss=take.Dir
-6	cikin	cikin	ADP	_	_	5	comp:obl	_	Gloss=in
-7	suːnaːnaː	suːnaːnaː	NOUN	_	Gender=Fem	6	comp:obj	_	_
+5	ɗeːboː	ɗiːbàː	VERB	_	_	4	comp:aux	_	_
+6	cikin	cikin	ADP	_	_	5	comp:obl	_	_
+7	suːnaːnaː	suːnaː	NOUN	_	Case=Gen|Number=Sing|Person=1	6	comp:obj	_	Gloss=name.Masc.Cons\1Sing.Gen
 8	dà	dà	CCONJ	_	_	9	cc	_	Gloss=and
 9	suːnan	suːnaː	NOUN	_	Definite=Cons|Gender=Masc	7	conj:coord	_	Gloss=name.Masc.Cons
 10	ùbaːnai	ùbaː	NOUN	_	Gender=Masc|Person=3	9	mod	_	Gloss=father.Masc.Cons\3Masc.Gen
@@ -731,7 +731,7 @@
 # text = " kù naɗàː mai, kù sâː mai Garbaː Dikkò. "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	0	root	_	Gloss=2Plur.Sub
-3	naɗàː	naɗàː	VERB	_	_	2	comp:aux	_	_
+3	naɗàː	naɗàː	Verb	_	_	2	comp:aux	_	Gloss=tie
 4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	Gloss=3Masc.Dat
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	2	parataxis	_	Gloss=2Plur.Sub
