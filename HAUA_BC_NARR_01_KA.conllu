@@ -85,10 +85,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_01_KA.WAV
 # sent_timecode = 27521, 29760
 # text_ortho = tag ganai |c sai tab biː shì //
-# text = tag ganai |c sai tab biː -shì //
+# text = tag ganai |c sai tab biː shì //
 # text_en = She saw him and followed him.
 1	tag	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=27521|AlignEnd=27801|Gloss=3Fem.Perf.Rel
-2	ganai	ganiː	VERB	_	Gender=Masc|Person=3	1	comp:aux	_	AlignBegin=27801|AlignEnd=28081|Gloss=see-3Masc
+2	ganai	ganiː	VERB	_	Case=Acc|Gender=Masc|Person=3	1	comp:aux	_	AlignBegin=27801|AlignEnd=28081|Gloss=see\3Masc.Acc
 3	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=28081|AlignEnd=28361|Gloss=PUNCT
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=28361|AlignEnd=28641|Gloss=until
 5	tab	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	conj:coord	_	AlignBegin=28641|AlignEnd=28921|Gloss=3Fem.Perf.Rel
@@ -106,7 +106,7 @@
 1	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=31645|AlignEnd=31831|Gloss=3Fem.Prog
 2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=31831|AlignEnd=32017|Gloss=want.Vnoun.Masc.Cons
 3	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	2	udep	_	AlignBegin=32017|AlignEnd=32203|Gloss=3Fem.Sub
-4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=32203|AlignEnd=32389|Gloss=eat
+4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=32203|AlignEnd=32389|Gloss=eat/conquer
 5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=32389|AlignEnd=32575|Gloss=3Masc
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32575|AlignEnd=32762|Gloss=PUNCT
 
@@ -120,19 +120,19 @@
 1	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=32762|AlignEnd=32953|Gloss=3Fem.Prog
 2	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=32953|AlignEnd=33144|Gloss=want.Vnoun.Masc.Cons
 3	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	2	udep	_	AlignBegin=33144|AlignEnd=33335|Gloss=3Fem.Sub
-4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=33335|AlignEnd=33526|Gloss=eat
+4	ciː	ci	VERB	_	_	3	comp:aux	_	AlignBegin=33335|AlignEnd=33526|Gloss=eat/conquer
 5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=33526|AlignEnd=33717|Gloss=3Masc
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=33717|AlignEnd=33908|Gloss=PUNCT
 7	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	1	conj:redup	_	AlignBegin=33908|AlignEnd=34099|Gloss=3Fem.Prog
 8	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=34099|AlignEnd=34290|Gloss=want.Vnoun.Masc.Cons
 9	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	8	udep	_	AlignBegin=34290|AlignEnd=34481|Gloss=3Fem.Sub
-10	ciː	ci	VERB	_	_	9	comp:aux	_	AlignBegin=34481|AlignEnd=34672|Gloss=eat
+10	ciː	ci	VERB	_	_	9	comp:aux	_	AlignBegin=34481|AlignEnd=34672|Gloss=eat/conquer
 11	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=34672|AlignEnd=34863|Gloss=3Masc
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=34863|AlignEnd=35054|Gloss=PUNCT
 13	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	7	conj:redup	_	AlignBegin=35054|AlignEnd=35245|Gloss=3Fem.Prog
 14	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=35245|AlignEnd=35436|Gloss=want.Vnoun.Masc.Cons
 15	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	14	udep	_	AlignBegin=35436|AlignEnd=35627|Gloss=3Fem.Sub
-16	ciː	ci	VERB	_	_	15	comp:aux	_	AlignBegin=35627|AlignEnd=35818|Gloss=eat
+16	ciː	ci	VERB	_	_	15	comp:aux	_	AlignBegin=35627|AlignEnd=35818|Gloss=eat/conquer
 17	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=35818|AlignEnd=36009|Gloss=3Masc
 18	har	har	SCONJ	_	_	13	mod	_	AlignBegin=36009|AlignEnd=36200|Gloss=until
 19	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	18	comp:obj	_	AlignBegin=36200|AlignEnd=36391|Gloss=3Plur.Perf.Rel
@@ -156,7 +156,7 @@
 5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=39072|AlignEnd=39361|Gloss=3Fem.Prog
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=39361|AlignEnd=39650|Gloss=want.Vnoun.Masc.Cons
 7	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	6	udep	_	AlignBegin=39650|AlignEnd=39939|Gloss=3Fem.Sub
-8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=39939|AlignEnd=40228|Gloss=eat
+8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=39939|AlignEnd=40228|Gloss=eat/conquer
 9	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=40228|AlignEnd=40517|Gloss=3Masc
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=40517|AlignEnd=40806|Gloss=PUNCT
 11	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=40806|AlignEnd=41095|Gloss=3Masc.Perf.Rel
@@ -371,7 +371,7 @@
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=78871|AlignEnd=79233|Gloss=PUNCT
 8	sa’ànnan	sa’ànnan	ADV	_	_	9	mod	_	AlignBegin=79233|AlignEnd=79595|Gloss=then
 9	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=79957|AlignEnd=80319|Gloss=3Masc.Perf.Rel
-10	tàhiyàːtai	tàhi	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Fem|Person=3|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=80319|AlignEnd=80681|Gloss=go.Vnoun.Fem.Cons-3Masc.Gen|wordform=tàhiyàː
+10	tàhiyàːtai	tàhi	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=80319|AlignEnd=80681|Gloss=go.Vnoun.Fem.Cons\3Masc.Gen|wordform=tàhiyàː
 11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=80681|AlignEnd=81038|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_O1_KA_22-22
@@ -450,7 +450,7 @@
 5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	conj:coord	_	AlignBegin=94362|AlignEnd=94584|Gloss=3Fem.Prog
 6	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=94584|AlignEnd=94806|Gloss=want.Vnoun.Masc.Cons
 7	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	6	udep	_	AlignBegin=94806|AlignEnd=95028|Gloss=3Fem.Sub
-8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=95028|AlignEnd=95250|Gloss=eat
+8	ciː	ci	VERB	_	_	7	comp:aux	_	AlignBegin=95028|AlignEnd=95250|Gloss=eat/conquer
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	mod	_	AlignBegin=95250|AlignEnd=95472|Gloss=3Masc
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95472|AlignEnd=95691|Gloss=PUNCT
 
@@ -689,7 +689,7 @@
 # text_en = Then he went away.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=132608|AlignEnd=132777|Gloss=until
 2	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=132777|AlignEnd=132946|Gloss=3Masc.Perf.Rel
-3	tàhiyàːtai	tàhi	VERB	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=go.Vnoun.Fem.Cons-3Masc.Gen|wordform=tàhiyàː
+3	tàhiyàːtai	tàhi	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=132946|AlignEnd=133115|Gloss=go.Vnoun.Fem.Cons\3Masc.Gen|wordform=tàhiyàː
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133115|AlignEnd=133285|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_O1_KA_38-38
