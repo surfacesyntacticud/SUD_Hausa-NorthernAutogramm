@@ -1234,7 +1234,7 @@
 15	sai	sai	SCONJ	_	_	13	mod	_	Gloss=until
 16	an	yaː	AUX	_	Aspect=Perf|Person=4	15	comp:obj	_	Gloss=4.Perf
 17	kaːwoː	kai	VERB	_	_	16	comp:aux	_	Gloss=bring.Dir
-18	kusa	kusa	ADV	_	_	17	comp:obl	_	_
+18	kusa	kusa	ADV	_	_	17	comp:obl	_	Gloss=near
 19	gà	gà	ADP	_	_	18	mod	_	Gloss=at
 20	gàriː	gàriː	NOUN	_	Gender=Masc	19	comp:obj	_	_
 21	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
@@ -1283,8 +1283,8 @@
 7	in	in	SCONJ	_	_	13	mod	_	Gloss=if
 8	an	yaː	AUX	_	Aspect=Perf|Person=4	7	comp:obj	_	Gloss=4.Perf
 9	yoː	yi	VERB	_	_	8	comp:aux	_	Gloss=do
-10	kusa	kusa	ADV	_	_	9	comp:obl	_	_
-11	gà	gà	ADP	_	_	9	comp:obl	_	Gloss=at
+10	kusa	kusa	ADV	_	_	9	comp:obl	_	Gloss=near
+11	gà	gà	ADP	_	_	10	mod	_	Gloss=at
 12	gàriː	gàriː	NOUN	_	Gender=Masc	11	comp:obj	_	_
 13	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
 14	amshèː	amshèː	VERB	_	_	13	comp:aux	_	_
@@ -3457,7 +3457,7 @@
 1	gàː	gàː	PART	_	PartType=Pred	0	root	_	Gloss=here_is
 2	doːkìːnai	doːkìː	NOUN	_	Case=Gen|Gender=Masc|Person=3	1	subj	_	Gloss=horse.Masc  \3Masc.Gen
 3	Banìyoːgubà	Banìyoːgubà	PROPN	_	Definite=Cons|Number=Plur	2	conj:appos	_	Gloss=Banìyoːgubà
-4	kusa	kusa	ADV	_	_	1	comp:pred	_	_
+4	kusa	kusa	ADV	_	_	1	comp:pred	_	Gloss=near
 5	gàrai	gàrai	NOUN	_	Gender=Masc	4	mod	_	_
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -3469,7 +3469,7 @@
 4	takoːbîn	takoːbî	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	_
 5	nan	nan	DET	_	Definite=PrevRef	4	det	_	Gloss=PreRef
 6	naːshì	naːshì	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod@poss	_	_
-7	kusa	kusa	ADV	_	_	3	comp:pred	_	_
+7	kusa	kusa	ADV	_	_	3	comp:pred	_	Gloss=near
 8	gàrai	gàrai	NOUN	_	Gender=Masc	7	mod	_	_
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 10	shinàː	nàː	AUX	_	Gender=Masc|Person=3	3	parataxis@conj	_	Gloss=3Masc.Prog
@@ -5755,7 +5755,7 @@
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 3	ajèː	ajèː	VERB	_	_	2	comp:aux	_	_
 4	yaggiyàː	yaggiyàː	NOUN	_	Gender=Fem	3	comp:obj	_	_
-5	kusa	kusa	ADV	_	_	4	comp:obl	_	_
+5	kusa	kusa	ADV	_	_	4	comp:obl	_	Gloss=near
 6	gàrai	gàrai	NOUN	_	Gender=Masc	4	mod	_	_
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -8972,8 +8972,8 @@
 1	dà	dà	SCONJ	_	_	14	mod	_	Gloss=that
 2	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Plur.Perf.Rel
 3	kai	kai	VERB	_	_	2	comp:aux	_	_
-4	kusa	kusa	ADV	_	_	3	comp:obl	_	_
-5	gà	gà	ADP	_	_	3	comp:obl	_	Gloss=at
+4	kusa	kusa	ADV	_	_	3	comp:obl	_	Gloss=near
+5	gà	gà	ADP	_	_	4	mod	_	Gloss=at
 6	gàriː	gàriː	NOUN	_	Gender=Masc	5	comp:obj	_	_
 7	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
 8	cèː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
@@ -10002,11 +10002,11 @@
 3	nan	nan	DET	_	Definite=PrevRef	2	det	_	Gloss=PreRef
 4	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 5	dà	dà	SCONJ	_	_	4	comp:pred	_	Gloss=that
-6	Gilaːgè	Gilaːgè	PROPN	_	_	10	comp:obj	_	Gloss=Gilaːgè
+6	Gilaːgè	Gilaːgè	PROPN	_	_	7	subj	_	Gloss=Gilaːgè
 7	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	5	comp:obj	_	Gloss=3Masc.Perf.Rel
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
-9	kusa	kusa	ADV	_	_	8	comp:pred	_	_
-10	gà	gà	ADP	_	_	8	comp:obl	_	Gloss=at
+9	kusa	kusa	ADV	_	_	8	comp:obl	_	Gloss=near
+10	gà	gà	ADP	_	_	9	mod	_	Gloss=at
 11	Dandà	Dandà	PROPN	_	_	10	comp:obj	_	Gloss=Dandà
 12	Garbaː	Garbaː	PROPN	_	_	11	flat@name	_	Gloss=Garbaː
 13	Dikkò	Dikkò	PROPN	_	_	11	flat@name	_	Gloss=Dikkò
@@ -12979,9 +12979,9 @@
 6	ìn	yà	AUX	_	Mood=Sub|Person=1	5	comp:obj	_	Gloss=1Sing.Sub
 7	kai	kai	VERB	_	_	6	comp:aux	_	_
 8	jàkkan	jàkkaː	ADJ	_	Definite=Cons|Number=Plur	9	mod	_	_
-9	mutàːneː	mùtûm	NOUN	_	Number=Plur	7	comp:obj@T	_	Gloss=people.Plur
-10	kusa	kusa	ADV	_	_	7	mod	_	_
-11	gà	gà	ADP	_	_	7	comp:obl	_	Gloss=at
+9	mutàːneː	mùtûm	NOUN	_	Number=Plur	7	comp:obj	_	Gloss=people.Plur
+10	kusa	kusa	ADV	_	_	7	comp:obl	_	Gloss=near
+11	gà	gà	ADP	_	_	10	mod	_	Gloss=at
 12	gàriː	gàriː	NOUN	_	Gender=Masc	11	comp:obj	_	_
 13	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 14	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -13258,8 +13258,8 @@
 1	dà	dà	SCONJ	_	_	8	mod	_	Gloss=that
 2	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Plur.Perf.Rel
 3	yoː	yi	VERB	_	_	2	comp:aux	_	Gloss=do
-4	kusa	kusa	ADV	_	_	3	comp:obl	_	_
-5	gà	gà	ADP	_	_	3	comp:obl	_	Gloss=at
+4	kusa	kusa	ADV	_	_	3	comp:obl	_	Gloss=near
+5	gà	gà	ADP	_	_	4	mod	_	Gloss=at
 6	gàriː	gàriː	NOUN	_	Gender=Masc	5	comp:obj	_	_
 7	sai	sai	ADV	_	_	8	mod	_	Gloss=then
 8	yas	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
