@@ -1216,41 +1216,43 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__77
 # text = in yâːra sunkai itàːceː sunkà ɗaːmìkkeː , sunkà ɗoːkoː , shì biyoː sù sai an kaːwoː kusa gà gàriː , sai shì baː yaːròː kaːshiː , shì ƙwaːcèː itàːceː shì kai mà uwaːtai Dikkò .
-1	in	in	SCONJ	_	_	11	mod	_	Gloss=if
+1	in	in	SCONJ	_	_	12	mod	_	Gloss=if
 2	yâːra	yaːròː	ADV	_	Number=Plur	3	subj	_	Gloss=children
-3	sunkai	sunkaː	VERB	_	Definite=Cons|Gender=Masc	1	comp:obj	_	_
-4	itàːceː	itàːceː	NOUN	_	Number=Plur	3	comp:pred	_	Gloss=wood.Plur
-5	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Plur.Perf.Rel
-6	ɗaːmìkkeː	ɗaːmàː	VERB	_	_	5	comp:aux	_	Gloss=tie.Res.Dir
-7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-8	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	5	parataxis@conj	_	Gloss=3Plur.Perf.Rel
-9	ɗoːkoː	ɗaukàː	VERB	_	_	8	comp:aux	_	Gloss=take.Dir
-10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
-11	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
-12	biyoː	bi	VERB	_	_	11	comp:aux	_	Gloss=follow.Dir
-13	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	Gloss=3Plur.Acc
-14	sai	sai	SCONJ	_	_	12	mod	_	Gloss=until
-15	an	yaː	AUX	_	Aspect=Perf|Person=4	14	comp:obj	_	Gloss=4.Perf
-16	kaːwoː	kai	VERB	_	_	15	comp:aux	_	Gloss=bring.Dir
-17	kusa	kusa	ADV	_	_	16	comp:obl	_	_
-18	gà	gà	ADP	_	_	17	mod	_	Gloss=at
-19	gàriː	gàriː	NOUN	_	Gender=Masc	18	comp:obj	_	_
-20	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
-21	sai	sai	ADV	_	_	22	mod	_	Gloss=then
-22	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	11	parataxis@conj	_	Gloss=3Masc.Sub
-23	baː	baː	VERB	_	_	22	comp:aux	_	Gloss=give
-24	yaːròː	yaːròː	NOUN	_	Gender=Masc	23	comp:obj@R	_	Gloss=boy.Masc
-25	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	23	comp:obj@T	_	Gloss=thrashing
-26	,	,	PUNCT	_	_	27	punct	_	Gloss=PUNCT
-27	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	22	parataxis@conj	_	Gloss=3Masc.Sub
-28	ƙwaːcèː	ƙwaːcèː	VERB	_	_	27	comp:aux	_	Gloss=seize
-29	itàːceː	itàːceː	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	Gloss=wood.Plur
-30	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	27	parataxis@conj	_	Gloss=3Masc.Sub
-31	kai	kai	VERB	_	_	30	comp:aux	_	_
-32	mà	mà	ADP	_	Case=Dat	31	comp:obl	_	Gloss=Dat
-33	uwaːtai	uwaː	NOUN	_	Gender=Fem|Person=3	32	comp:obj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
-34	Dikkò	Dikkò	PROPN	_	_	33	conj:appos	_	Gloss=Dikkò
-35	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+3-4	sunkai	_	_	_	_	_	_	_	_
+3	sunkà	sunkà	VERB	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Plur.Perf.Rel
+4	yi	yi	VERB	_	_	3	comp:aux	_	Gloss=do
+5	itàːceː	itàːceː	NOUN	_	Number=Plur	4	comp:pred	_	Gloss=wood.Plur
+6	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Plur.Perf.Rel
+7	ɗaːmìkkeː	ɗaːmàː	VERB	_	_	6	comp:aux	_	Gloss=tie.Res.Dir
+8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+9	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	6	parataxis@conj	_	Gloss=3Plur.Perf.Rel
+10	ɗoːkoː	ɗaukàː	VERB	_	_	9	comp:aux	_	Gloss=take.Dir
+11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
+12	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
+13	biyoː	bi	VERB	_	_	12	comp:aux	_	Gloss=follow.Dir
+14	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	Gloss=3Plur.Acc
+15	sai	sai	SCONJ	_	_	13	mod	_	Gloss=until
+16	an	yaː	AUX	_	Aspect=Perf|Person=4	15	comp:obj	_	Gloss=4.Perf
+17	kaːwoː	kai	VERB	_	_	16	comp:aux	_	Gloss=bring.Dir
+18	kusa	kusa	ADV	_	_	17	comp:obl	_	_
+19	gà	gà	ADP	_	_	18	mod	_	Gloss=at
+20	gàriː	gàriː	NOUN	_	Gender=Masc	19	comp:obj	_	_
+21	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
+22	sai	sai	ADV	_	_	23	mod	_	Gloss=then
+23	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	12	parataxis@conj	_	Gloss=3Masc.Sub
+24	baː	baː	VERB	_	_	23	comp:aux	_	Gloss=give
+25	yaːròː	yaːròː	NOUN	_	Gender=Masc	24	comp:obj@R	_	Gloss=boy.Masc
+26	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	24	comp:obj@T	_	Gloss=thrashing
+27	,	,	PUNCT	_	_	28	punct	_	Gloss=PUNCT
+28	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	23	parataxis@conj	_	Gloss=3Masc.Sub
+29	ƙwaːcèː	ƙwaːcèː	VERB	_	_	28	comp:aux	_	Gloss=seize
+30	itàːceː	itàːceː	NOUN	_	Gender=Fem|Number=Plur	29	comp:obj	_	Gloss=wood.Plur
+31	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	28	parataxis@conj	_	Gloss=3Masc.Sub
+32	kai	kai	VERB	_	_	31	comp:aux	_	_
+33	mà	mà	ADP	_	Case=Dat	32	comp:obl	_	Gloss=Dat
+34	uwaːtai	uwaː	NOUN	_	Gender=Fem|Person=3	33	comp:obj	_	Gloss=mother.Fem[L].Cons\3Masc.Gen[L]
+35	Dikkò	Dikkò	PROPN	_	_	34	conj:appos	_	Gloss=Dikkò
+36	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__78
 # text = Dandà Garbaː Dikkò indà duy yat tàhi itàːceː tàːre dà yâːra bâː shi itàːceː.
