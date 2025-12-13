@@ -4084,14 +4084,14 @@
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc
 3	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 4	in	in	SCONJ	_	_	11	mod	_	Gloss=if
-5	waɗànga	waɗànga	NOUN	_	Definite=Cons|Gender=Fem	6	subj	_	_
+5	waɗànga	wànga	PRON	_	Definite=Cons|Deixis=Prox|Gender=Fem|Number=Plur	6	subj	_	Gloss=Prox.Plur|ProntType=Dem
 6	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	4	comp:obj	_	Gloss=3Plur.Perf
 7	tàhi	tàhi	VERB	_	_	6	comp:aux	_	Gloss=go
 8	yâu	yâu	ADV	_	Gender=Masc	7	comp:obj@G	_	Gloss=today
 9	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 10	gòːbe	gòːbe	ADV	_	_	11	mod	_	_
 11	gàː	gàː	PART	_	PartType=Pred	0	root	_	Gloss=here_is
-12	waɗànga	waɗànga	NOUN	_	Gender=Fem	11	subj	_	_
+12	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	11	subj	_	Gloss=Prox.Plur|ProntType=Dem
 13	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__259
@@ -4512,7 +4512,7 @@
 15	dà	dà	SCONJ	_	_	14	mod@relcl	_	Gloss=that
 16	kunkài	kunkài	AUX	_	_	15	comp:obj	_	_
 17	mà	mà	ADP	_	Case=Dat	16	comp:obl	_	Gloss=Dat
-18	waɗànga	waɗànga	PRON	_	Gender=Masc|PronType=Dem	17	comp:obj	_	_
+18	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	17	comp:obj	_	Gloss=Prox.Plur|ProntType=Dem
 19	àbùkkankù	àbùkkaː	NOUN	_	Number=Plur	17	comp:obj	_	_
 20	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform=.
 21	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform="
@@ -4753,24 +4753,27 @@
 27	nàː	nàː	AUX	_	_	0	root	_	_
 28	.	.	PUNCT	_	_	27	punct	_	Gloss=PUNCT
 
-# sent_id = HAUA_BC_NARR_06_Dikko__299
-# text = koːdà waɗànga kà tàhiyàː gàː waɗànga , tàbbàshinnàinai dà maƙìyaː sunkà hau dàwàːkiː cikin garuːruwàː .
-1	koːdà	koːdà	SCONJ	_	_	8	mod	_	_
-2	waɗànga	waɗànga	PRON	_	Gender=Fem	3	subj	_	_
+# sent_id = HAUA_BC_NARR_06_Dikko__299a
+# text = koːdà waɗànga kà tàhiyàː gàː waɗànga .
+1	koːdà	koːdà	SCONJ	_	_	5	mod	_	_
+2	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	3	subj	_	Gloss=Prox.Plur|ProntType=Dem
 3	kà	nàː	AUX	_	Aspect=Prog	1	comp:obj	_	_
 4	tàhiyàː	tàhiyàː	VERB	_	ExtPos=NOUN|Gender=Fem	3	comp:aux	_	_
-5	gàː	gàː	PART	_	PartType=Pred	4	comp:obl	_	Gloss=here_is
-6	waɗànga	waɗànga	PRON	_	Gender=Fem	5	subj	_	_
-7	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
-8	tàbbàshinnàinai	tabbàːshiː	NOUN	_	Case=Gen|Gender=Masc|Number=Plur|Person=3	0	root	_	Gloss=teasing_relative.Plur.Masc  \3Masc.Gen
-9	dà	dà	SCONJ	_	_	8	mod@relcl	_	Gloss=that
-10	maƙìyaː	maƙìyaː	NOUN	_	Gender=Fem	9	comp:obj	_	_
-11	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	9	comp:obj	_	Gloss=3Plur.Perf.Rel
-12	hau	hau	VERB	_	_	11	comp:aux	_	_
-13	dàwàːkiː	dàwàːkiː	NOUN	_	Gender=Masc	12	comp:obj	_	_
-14	cikin	cikin	ADP	_	_	12	comp:obl	_	Gloss=in
-15	garuːruwàː	garuːruwàː	NOUN	_	Number=Plur	14	comp:obj	_	_
-16	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+5	gàː	gàː	PART	_	PartType=Pred	0	root	_	Gloss=here_is
+6	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	5	subj	_	Gloss=Prox.Plur|ProntType=Dem
+7	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_06_Dikko__299b
+# text = tàbbàshinnàinai dà maƙìyaː sunkà hau dàwàːkiː cikin garuːruwàː .
+1	tàbbàshinnàinai	tabbàːshiː	NOUN	_	Case=Gen|Gender=Masc|Number=Plur|Person=3	4	subj	_	Gloss=teasing_relative.Plur.Masc  \3Masc.Gen
+2	dà	dà	CCONJ	_	_	3	cc	_	Gloss=and
+3	maƙìyaː	maƙìyaː	NOUN	_	Gender=Fem	1	conj:coord	_	_
+4	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
+5	hau	hau	VERB	_	_	4	comp:aux	_	_
+6	dàwàːkiː	dàwàːkiː	NOUN	_	Gender=Masc	5	comp:obj	_	_
+7	cikin	cikin	ADP	_	_	5	comp:obl	_	Gloss=in
+8	garuːruwàː	garuːruwàː	NOUN	_	Number=Plur	7	comp:obj	_	_
+9	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__300
 # text = sunàː cêː mà màːsu maulòː " kù tàhi kù ci arzìkiː gidan Dandà Garbaː Dikkò. "
@@ -4926,7 +4929,7 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 5	in	in	SCONJ	_	_	15	mod	_	Gloss=if
-6	waɗànga	waɗànga	PRON	_	Definite=Cons|Gender=Fem	9	subj	_	_
+6	waɗànga	wànga	PRON	_	Definite=Cons|Deixis=Prox|Gender=Fem|Number=Plur	9	subj	_	Gloss=Prox.Plur|ProntType=Dem
 7	màːsu	mài	ADP	_	Number=Plur	5	comp:obj	_	_
 8	maulòː	maulòː	NOUN	_	Gender=Masc	9	subj	_	Gloss=guitar.Masc
 9	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	5	comp:obj	_	Gloss=3Plur.Perf.Rel
@@ -7354,11 +7357,11 @@
 # text = màːsu maulòː waɗànga sù zoː, waɗànga sù zoː, koːwanèː zuwàː shikài shì abìngaː.
 1	màːsu	mài	ADP	_	Number=Plur	4	subj	_	_
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc
-3	waɗànga	waɗànga	PRON	_	Gender=Fem	4	subj	_	_
+3	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	4	subj	_	Gloss=Prox.Plur|ProntType=Dem
 4	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Sub
 5	zoː	zoː	VERB	_	_	4	comp:aux	_	_
 6	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-7	waɗànga	waɗànga	PRON	_	Gender=Fem	8	subj	_	_
+7	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	8	subj	_	Gloss=Prox.Plur|ProntType=Dem
 8	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	4	parataxis@conj	_	Gloss=3Plur.Sub
 9	zoː	zoː	VERB	_	_	8	comp:aux	_	_
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
