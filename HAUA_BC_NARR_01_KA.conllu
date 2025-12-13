@@ -271,7 +271,7 @@
 # text_en = When she got the fish, she put it aside.
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=62377|AlignEnd=62858|Gloss=if
 2	taɗ	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.Rel
-3	ɗaukoː	ɗauk-	VERB	_	_	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take
+3	ɗaukoː	ɗaukàː	VERB	_	_	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take.Dir
 4	kiːhîn	kiːhiː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Cons
 5	nan	nan	DET	_	Definite=PrevRef	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=PreRef
 6	ta'	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=64782|AlignEnd=65263|Gloss=3Fem.Perf.Rel
@@ -309,7 +309,7 @@
 7	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=70184|AlignEnd=70446|Gloss=3Masc.Perf
 8	taːsoː	taːs-	VERB	_	_	7	comp:aux	_	AlignBegin=70446|AlignEnd=70708|Gloss=stand
 9	dàc	dàk	ADP	_	_	8	comp:obl	_	AlignBegin=70708|AlignEnd=70970|Gloss=from
-10	cikin	cikin	ADP	_	_	9	comp:obj	_	AlignBegin=70970|AlignEnd=71232|Gloss=inside
+10	cikin	cikin	ADP	_	_	9	comp:obj	_	AlignBegin=70970|AlignEnd=71232|Gloss=in
 11	ruwaː	ruwaː	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=71232|AlignEnd=71494|Gloss=water.Plur
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=71494|AlignEnd=71762|Gloss=PUNCT
 
@@ -429,7 +429,7 @@
 # text_en = Then, as he was walking, he saw her.
 1	sai	sai	ADV	_	_	6	mod	_	AlignBegin=90506|AlignEnd=90877|Gloss=until
 2	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	mod	_	AlignBegin=90877|AlignEnd=91248|Gloss=3Masc.Prog|wordform=shi
-3	cikin	cikin	ADP	_	_	2	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=inside
+3	cikin	cikin	ADP	_	_	2	comp:pred	_	AlignBegin=91248|AlignEnd=91619|Gloss=in
 4	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=91619|AlignEnd=91990|Gloss=go.Vnoun.Fem
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=91990|AlignEnd=92361|Gloss=until
 6	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=92361|AlignEnd=92732|Gloss=3Masc.Perf.Rel
@@ -657,7 +657,7 @@
 # text = baːbù mài taːshìː tsàye //
 # text_en = None could get up.
 1	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=128500|AlignEnd=128728|Gloss=there_is.Neg
-2	mài	mài	ADP	_	_	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=holder_of.Sing
+2	mài	mài	PART	_	Number=Sing|PartType=Der	1	subj	_	AlignBegin=128728|AlignEnd=128956|Gloss=owner_of.Sing
 3	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=128956|AlignEnd=129184|Gloss=stand.Vnoun.Masc
 4	tsàye	tsay-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	mod	_	AlignBegin=129184|AlignEnd=129412|Gloss=stop.Part.Stat
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=129412|AlignEnd=129640|Gloss=PUNCT
