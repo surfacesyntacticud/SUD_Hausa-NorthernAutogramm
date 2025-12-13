@@ -1347,10 +1347,10 @@
 # text = Dikkò wànga ɗaː naːkì yaː matsàː munà.
 1	Dikkò	Dikkò	PROPN	_	_	5	subj	_	Gloss=Dikkò
 2	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	3	det	_	Gloss=Prox.Masc
-3	ɗaː	ɗaː	NOUN	_	Gender=Masc	5	subj	_	_
-4	naːkì	naːkì	PRON	_	Gender=Masc	3	mod	_	_
+3	ɗaː	ɗaː	NOUN	_	Gender=Masc	5	subj	_	Gloss=son.Masc
+4	naːkì	naːkì	PRON	_	Case=Gen|Gender=Fem|Person=2|PronType=Prs	3	mod	_	Gloss=2Fem.Gen
 5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
-6	matsàː	matsàː	VERB	_	_	5	comp:aux	_	_
+6	matsàː	matsàː	VERB	_	_	5	comp:aux	_	Gloss=disturb
 7	munà	munà	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	comp:obl	_	Gloss=1Plur.Dat
 8	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
@@ -1360,14 +1360,14 @@
 2	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	3	det	_	Gloss=Prox.Masc
 3	yaːròː	yaːròː	NOUN	_	Gender=Masc	4	subj	_	Gloss=boy.Masc
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
-5	matsàː	matsàː	VERB	_	_	4	comp:aux	_	_
+5	matsàː	matsàː	VERB	_	_	4	comp:aux	_	Gloss=disturb
 6	munà	munà	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	comp:obl	_	Gloss=1Plur.Dat
 7	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__87
 # text = wànga ɗaː dà kis saːmùː , yaː maːtsàː mà ɗiyammù .
 1	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	2	conj:appos	_	Gloss=Prox.Masc
-2	ɗaː	ɗaː	NOUN	_	Gender=Masc	7	dislocated@subj	_	_
+2	ɗaː	ɗaː	NOUN	_	Gender=Masc	7	dislocated@subj	_	Gloss=son.Masc
 3	dà	dà	ADP	_	_	2	mod	_	Gloss=with
 4	kis	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2|Relative=Yes	3	comp:obj	_	Gloss=2Fem.Perf.Rel
 5	saːmùː	saːmùː	VERB	_	Gender=Masc	4	comp:aux	_	Gloss=get
@@ -1385,7 +1385,7 @@
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	Gloss=Prox
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
-6	matsàː	matsàː	VERB	_	_	5	comp:aux	_	_
+6	matsàː	matsàː	VERB	_	_	5	comp:aux	_	Gloss=disturb
 7	munà	munà	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	comp:obl	_	Gloss=1Plur.Dat
 8	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
@@ -8490,7 +8490,7 @@
 10	Lalleː	Lalleː	PROPN	_	_	14	mod	_	Gloss=Lalleː
 11	mijìn	mijìː	NOUN	_	Definite=Cons|Gender=Masc	6	comp:obj	_	_
 12	nan	nan	DET	_	Definite=PrevRef	11	det	_	Gloss=PreRef
-13	naːkì	naːkì	PRON	_	Gender=Fem|Person=2|PronType=Prs	11	mod	_	_
+13	naːkì	naːkì	PRON	_	Case=Gen|Gender=Fem|Person=2|PronType=Prs	11	mod	_	Gloss=2Fem.Gen
 14	bâi	nàː	AUX	_	Person=3|Polarity=Neg	13	parataxis@conj	_	Gloss=3Masc.Prog.Neg
 15	dà	dà	ADP	_	_	14	comp:pred	_	Gloss=with
 16	tsòːroː	tsòːroː	NOUN	_	Gender=Masc	15	comp:obj	_	_
@@ -8532,7 +8532,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 9	mijìn	mijìː	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	_
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	Gloss=Prox
-11	naːkì	naːkì	PRON	_	Gender=Masc	14	comp:obj	_	_
+11	naːkì	naːkì	PRON	_	Case=Gen|Gender=Fem|Person=2|PronType=Prs	9	mod	_	Gloss=2Fem.Gen
 12	dà	dà	SCONJ	_	_	9	mod@relcl	_	Gloss=that
 13	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	12	comp:obj	_	Gloss=4.Prog.Rel
 14	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem	13	comp:aux	_	Gloss=say
