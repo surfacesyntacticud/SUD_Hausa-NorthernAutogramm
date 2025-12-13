@@ -1365,17 +1365,17 @@
 7	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__87
-# text = wànga ɗaː dà kis saːmùː , yaː maːtsàː mà ɗiyammù .
+# text = wànga ɗaː dà kis saːmùː , yaː matsàː mà ɗiyammù .
 1	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	2	conj:appos	_	Gloss=Prox.Masc
 2	ɗaː	ɗaː	NOUN	_	Gender=Masc	7	dislocated@subj	_	Gloss=son.Masc
-3	dà	dà	ADP	_	_	2	mod	_	Gloss=with
+3	dà	dà	ADP	_	_	2	mod@relcl	_	Gloss=with
 4	kis	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2|Relative=Yes	3	comp:obj	_	Gloss=2Fem.Perf.Rel
 5	saːmùː	saːmùː	VERB	_	Gender=Masc	4	comp:aux	_	Gloss=get
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 7	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
-8	maːtsàː	maːtsàː	VERB	_	_	7	comp:aux	_	_
+8	matsàː	matsàː	VERB	_	_	7	comp:aux	_	Gloss=disturb
 9	mà	mà	ADP	_	Case=Dat	8	comp:obl	_	Gloss=Dat
-10	ɗiyammù	ɗiyammù	NOUN	_	Number=Plur	9	comp:obj	_	_
+10	ɗiyammù	ɗaː	NOUN	_	Number=Plur	9	comp:obj	_	Gloss=child.Plur
 11	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__89
@@ -1403,12 +1403,12 @@
 1	doːkìː	doːkìː	NOUN	_	Gender=Masc	8	dislocated@top	_	Gloss=horse.Mac
 2	im	in	SCONJ	_	_	8	mod	_	_
 3	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	2	comp:obj	_	Gloss=3Masc.Perf.Neg
-4	jiyàː	jiyàː	VERB	_	_	3	comp:aux	_	_
+4	jiyàː	ji	VERB	_	_	3	comp:aux	_	Gloss=hear
 5	ba	ba	PART	_	Polarity=Neg	4	mod	_	Gloss=Neg
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 7	ƙòːhwatòːnai	ƙòːhwatòː	NOUN	_	Definite=Cons|Gender=Masc|Person=3	8	subj	_	Gloss=hoof.Masc\3Masc.Gen
 8	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
-9	jiyàː	jiyàː	VERB	_	_	8	comp:aux	_	_
+9	jiyàː	ji	VERB	_	_	8	comp:aux	_	Gloss=hear
 10	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__92
@@ -5620,21 +5620,21 @@
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__359
-# text = tac cèː " tôː, jiyàː dai naː cèː mukù baːbù mài gidaː. "
+# text = tac cèː " tôː , jiyàː dai naː cèː mukù baːbù mài gidaː " .
 1	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 4	tôː	tôː	INTJ	_	_	8	discourse	_	Gloss=well
 5	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-6	jiyàː	jiyàː	NOUN	_	Gender=Fem	8	comp:pred	_	_
-7	dai	dai	PART	_	PartType=Top	4	discourse@top	_	Gloss=anyway
+6	jiyàː	jiyàː	ADV	_	_	8	comp:pred	_	Gloss=yesterday
+7	dai	dai	PART	_	PartType=Top	6	discourse@top	_	Gloss=anyway
 8	naː	yaː	AUX	_	Aspect=Perf|Person=1	2	comp:obj	_	_
 9	cèː	cêː	VERB	_	_	8	comp:aux	_	Gloss=say
 10	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	comp:obl	_	Gloss=2Plur.Dat
 11	baːbù	baːbù	VERB	_	Polarity=Neg	9	comp:obj	_	_
 12	mài	mài	PART	_	Gender=Masc|Number=Sing|PartType=Der	11	subj	_	Gloss=owner_of.Sing
 13	gidaː	gidaː	NOUN	_	Gender=Masc	12	comp:obj	_	Gloss=compound.Masc
-14	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
+14	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT|wordform=.
 15	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__360
@@ -11119,7 +11119,7 @@
 4	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 5	dàːkàntaː	dàːkant-	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	6	mod	_	_
 6	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	3	comp:obj	_	Gloss=2Masc.Sub
-7	jiyàː	jiyàː	VERB	_	_	6	comp:aux	_	_
+7	jiyàː	ji	VERB	_	_	6	comp:aux	_	Gloss=hear
 8	mài	mài	PART	_	Number=Sing|PartType=Der	7	comp:obl	_	Gloss=owner_of.Sing
 9	maulòː	maulòː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=guitar.Masc
 10	!	!	PUNCT	_	_	6	punct	_	Gloss=PUNCT
@@ -11187,8 +11187,8 @@
 6	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 7	dàːkàntaː	dàːkànː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	8	subj	_	_
 8	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	5	comp:obj	_	Gloss=2Masc.Sub
-9	jiyàː	jiyàː	VERB	_	_	8	comp:aux	_	_
-10	mài	mài	PART	_	Number=Sing|PartType=Der	9	comp:obl	_	Gloss=owner_of.Sing
+9	jiyàː	ji	VERB	_	_	8	comp:aux	_	Gloss=hear
+10	mài	mài	PART	_	Number=Sing|PartType=Der	9	vocative	_	Gloss=owner_of.Sing
 11	maulòː	maulòː	NOUN	_	Gender=Masc	10	comp:obj	_	Gloss=guitar.Masc
 12	!	!	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 13	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
