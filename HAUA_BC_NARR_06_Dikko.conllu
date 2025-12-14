@@ -1655,15 +1655,15 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__109
 # text = shinàː tàhe shinàː koːyàː mà doːkìːnai ƙèːtaràg gyàbbuː , ƙèːtaràm mayyàn gyàbbuː , dà kòːyon hwaɗàː , dà gwabta dà doːkìː .
 1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-2	tàhe	tàhe	VERB	_	_	1	comp:pred	_	_
+2	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part	1	comp:pred	_	Gloss=walk.Part
 3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis@conj	_	Gloss=3Masc.Prog
 4	koːyàː	koːyàː	VERB	_	_	3	comp:aux	_	Gloss=teach
 5	mà	mà	ADP	_	Case=Dat	4	comp:obl	_	Gloss=Dat
 6	doːkìːnai	doːkìː	NOUN	_	Case=Gen|Gender=Masc|Person=3	5	comp:obj	_	Gloss=horse.Masc  \3Masc.Gen
-7	ƙèːtaràg	ƙeːtàraː	VERB	_	_	4	comp:obj	_	_
+7	ƙèːtaràg	ƙeːtàraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:obj	_	Gloss=cross.Vnoun.Fem.Cons
 8	gyàbbuː	geːbèː	VERB	_	Number=Plur	7	comp:obj	_	Gloss=stream.Plur
-9	,	,	PUNCT	_	_	_	_	_	Gloss=PUNCT
-10	ƙèːtaràm	ƙeːtàraː	VERB	_	Definite=Cons|Gender=Fem	7	conj:dicto	_	_
+9	,	,	PUNCT	_	_	10	_	_	Gloss=PUNCT
+10	ƙèːtaràm	ƙeːtàraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	7	conj:dicto	_	Gloss=cross.Vnoun.Fem.Cons
 11	mayyàn	bàbbaː	ADJ	_	Definite=Cons|Number=Plur	12	mod	_	Gloss=big.Plur
 12	gyàbbuː	geːbèː	NOUN	_	Number=Plur	10	comp:obj	_	Gloss=stream.Plur
 13	,	,	PUNCT	_	_	15	punct	_	Gloss=PUNCT
@@ -1673,7 +1673,7 @@
 17	,	,	PUNCT	_	_	19	punct	_	Gloss=PUNCT
 18	dà	dà	CCONJ	_	_	19	cc	_	Gloss=and
 19	gwabta	gwàbtaː	VERB	_	_	15	conj:coord	_	Gloss=collide
-20	dà	dà	CCONJ	_	_	19	comp:obl	_	Gloss=and
+20	dà	dà	ADP	_	_	19	comp:obl	_	Gloss=with
 21	doːkìː	doːkìː	NOUN	_	Gender=Masc	20	comp:obj	_	Gloss=horse.Mac
 22	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -1729,7 +1729,7 @@
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shinàː	nàː	AUX	_	Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-5	tàhe	tàhe	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	_
+5	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	Gloss=walk.Part
 6	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	parataxis@conj	_	Gloss=3Masc.Prog
 7	sukàː	sukàː	VERB	_	Person=3	6	comp:aux	_	_
 8	dà	dà	ADP	_	_	7	comp:obl	_	Gloss=with
@@ -3047,7 +3047,7 @@
 2	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
 3	tàhi	tàhi	VERB	_	_	2	comp:aux	_	Gloss=go
 4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	3	comp:obj	_	Gloss=3Masc.Prog
-5	tàhe	tah-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:aux	_	_
+5	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:aux	_	Gloss=walk.Part
 6	dà	dà	ADP	_	_	5	comp:obl	_	Gloss=with
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	cikin	cikin	ADP	_	_	5	mod	_	Gloss=in
@@ -6403,9 +6403,9 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__409
 # text = sunàː tàhe sunàː tàhe, hàncʿiː yaː yi sai sunkà cʿìnkai wani duhùn wani tabkìː dabràh hanyàː.
 1	sunàː	nàː	AUX	_	Aspect=Prog|Person=3	0	root	_	Gloss=3Plur.Prog
-2	tàhe	tàhe	VERB	_	_	1	comp:aux	_	_
+2	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part	1	comp:aux	_	Gloss=walk.Part
 3	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	1	parataxis@conj	_	Gloss=3Plur.Prog
-4	tàhe	tàhe	VERB	_	_	3	comp:aux	_	_
+4	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part	3	comp:aux	_	Gloss=walk.Part
 5	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 6	hàncʿiː	hàncʿiː	NOUN	_	Gender=Masc	7	subj	_	_
 7	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	parataxis@conj	_	Gloss=3Masc.Perf
@@ -8404,7 +8404,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 8	tabbàːshiːnai	tabbàːshiː	NOUN	_	Case=Gen|Gender=Masc|Number=Plur|Person=3	9	subj	_	Gloss=teasing_relative.Masc  \3Masc.Gen
 9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-10	tàhe	tàhe	VERB	_	_	9	comp:pred	_	_
+10	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part	9	comp:pred	_	Gloss=walk.Part
 11	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	9	parataxis@conj	_	Gloss=3Masc.Prog
 12	tuːtsàːtai	tuːtsàːtai	VERB	_	Case=Gen|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	11	comp:aux	_	Gloss=prick.Vnoun.Fem.Cons\3Masc.Gen
 13	dà	dà	ADP	_	_	12	comp:obl	_	Gloss=with
@@ -13281,7 +13281,7 @@
 10	naː	neː	PART	_	Gender=Masc|PartType=Foc	9	discourse@foc	_	Gloss=Emph
 11	kuma	kuma	PART	_	_	9	discourse@top	_	_
 12	at	neː	AUX	_	Copula=Yes|Relative=Yes	9	comp:cleft	_	Gloss=Ident.Rel
-13	tàhe	tàhe	VERB	_	_	12	comp:pred	_	_
+13	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part	12	comp:pred	_	Gloss=walk.Part
 14	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__837
