@@ -731,7 +731,7 @@
 # text = " kù naɗàː mai, kù sâː mai Garbaː Dikkò. "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	0	root	_	Gloss=2Plur.Sub
-3	naɗàː	naɗàː	Verb	_	_	2	comp:aux	_	Gloss=tie
+3	naɗàː	naɗàː	VERB	_	_	2	comp:aux	_	Gloss=tie
 4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	Gloss=3Masc.Dat
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	2	parataxis	_	Gloss=2Plur.Sub
@@ -848,7 +848,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__56
 # text = jaː à hankàliː , Àlhajì Àːmadù na tudùː mài maulòː , mài maulòn madoːbìyaː , ùban Hàwwaːʿù .
-1	jaː	jaː	VERB	_	_	0	root	_	Gloss=draw.Imp|mood=Imp
+1	jaː	jaː	VERB	_	Mood=Imp	0	root	_	Gloss=draw.Imp
 2	à	à	ADP	_	_	1	mod	_	Gloss=at
 3	hankàliː	hankàliː	NOUN	_	Gender=Masc	2	comp:aux	_	Gloss=care.Masc
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -874,7 +874,7 @@
 3	ùban	ùbaː	NOUN	_	Definite=Cons|Gender=Masc	6	vocative	_	Gloss=father.Masc.Cons
 4	Yàːkuːbù	Yàːkuːbù	PROPN	_	_	3	mod	_	Gloss=Yàːkuːbù
 5	,	,	PUNCT	_	_	3	_	_	Gloss=PUNCT
-6	jaː	jaː	VERB	_	_	0	root	_	Gloss=draw.Imp|mood=Imp
+6	jaː	jaː	VERB	_	Mood=Imp	0	root	_	Gloss=draw.Imp
 7	à	à	ADP	_	Mood=Sub|Person=4	6	mod	_	Gloss=at
 8	hankàliː	hankàliː	NOUN	_	Gender=Masc	7	comp:obj	_	Gloss=care.Masc
 9	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
@@ -929,7 +929,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__59
 # text = jaː à hankàliː, kà bugàː shi à hankàliː.
-1	jaː	jaː	VERB	_	_	0	root	_	Gloss=draw.Imp|mood=Imp
+1	jaː	jaː	VERB	_	Mood=Imp	0	root	_	Gloss=draw.Imp
 2	à	à	ADP	_	_	1	mod	_	Gloss=at
 3	hankàliː	hankàliː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=care.Masc
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -2540,7 +2540,7 @@
 1	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|Gender=Masc	6	mod	_	Gloss=music.Masc.Cons
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	mod	_	Gloss=guitar.Masc
 3	ɗai	ɗai	NUM	_	_	1	mod	_	_
-4	màːsu	mài	PAR	_	Number=Plur|PartType=Der	6	subj	_	Gloss=owner_of.Plur
+4	màːsu	mài	PART	_	Number=Plur|PartType=Der	6	subj	_	Gloss=owner_of.Plur
 5	maulòː	maulòː	NOUN	_	Gender=Masc	4	comp:obj	_	Gloss=guitar.Masc
 6	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 7	yi	yi	VERB	_	_	6	comp:aux	_	Gloss=do
@@ -2558,7 +2558,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 8	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|Gender=Masc	16	subj	_	Gloss=music.Masc.Cons
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	Gloss=that
-10	màːsu	mài	PAR	_	Number=Plur|PartType=Der	12	subj	_	Gloss=owner_of.Plur
+10	màːsu	mài	PART	_	Number=Plur|PartType=Der	12	subj	_	Gloss=owner_of.Plur
 11	maulòː	maulòː	NOUN	_	Gender=Masc	10	comp:obj	_	Gloss=guitar.Masc
 12	kà	nàː	AUX	_	Aspect=Prog	9	comp:obj	_	Gloss=Prog.Rel
 13	yi	yi	VERB	_	_	12	comp:aux	_	Gloss=do
@@ -2575,7 +2575,7 @@
 1	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	Gloss=music.Masc.Cons
 2	maulòn	maulòː	NOUN	_	Definite=Cons|Gender=Masc	1	mod	_	Gloss=guitar.Masc.Cons
 3	dà	dà	SCONJ	_	_	1	mod@relcl	_	Gloss=that
-4	màːsu	mài	PAR	_	Number=Plur|PartType=Der	6	subj	_	Gloss=owner_of.Plur
+4	màːsu	mài	PART	_	Number=Plur|PartType=Der	6	subj	_	Gloss=owner_of.Plur
 5	maulòː	maulòː	NOUN	_	Gender=Masc	4	comp:obj	_	Gloss=guitar.Masc
 6	kà	nàː	AUX	_	Aspect=Prog	3	comp:obj	_	Gloss=Prog.Rel
 7	yi	yi	VERB	_	_	6	comp:aux	_	Gloss=do
@@ -2688,7 +2688,7 @@
 7	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	Gloss=day
 8	nan	nan	DET	_	Definite=PrevRef	7	det	_	Gloss=PreRef
 9	sai	sai	ADV	_	_	12	mod	_	Gloss=then
-10	màːsu	mài	PAR	_	Number=Plur|PartType=Der	12	subj	_	Gloss=owner_of.Plur
+10	màːsu	mài	PART	_	Number=Plur|PartType=Der	12	subj	_	Gloss=owner_of.Plur
 11	maulòː	maulòː	NOUN	_	Gender=Masc	10	comp:obj	_	Gloss=guitar.Masc
 12	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 13	zakà	zakà	VERB	_	_	12	comp:aux	_	Gloss=arrive
@@ -2736,7 +2736,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__174
 # text = " màːsu maulòː dà kuː nikè dà màganàː. "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-2	màːsu	mài	PAR	_	Number=Plur|PartType=Der	0	root	_	Gloss=owner_of.Plur
+2	màːsu	mài	PART	_	Number=Plur|PartType=Der	0	root	_	Gloss=owner_of.Plur
 3	maulòː	maulòː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=guitar.Masc
 4	dà	dà	ADP	_	_	3	comp:obl	_	Gloss=with
 5	kuː	kuː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	Gloss=2Plur.Nom
@@ -2904,7 +2904,7 @@
 8	kiɗìːnaː	kiɗìːnaː	NOUN	_	Gender=Fem	6	comp:obj	_	_
 9	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
 10	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-11	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	subj	_	Gloss=owner_of.Plur
+11	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	subj	_	Gloss=owner_of.Plur
 12	maulòː	maulòː	NOUN	_	Gender=Masc	11	comp:obj	_	Gloss=guitar.Masc
 13	dukà	dukà	DET	_	PronType=Tot	12	det	_	Gloss=all
 14	na	na	ADP	_	Case=Gen	8	mod	_	Gloss=Gen
@@ -2948,7 +2948,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 6	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	10	mod	_	Gloss=time.Masc.Cons
 7	nan	nan	DET	_	Definite=PrevRef	6	det	_	Gloss=PreRef
-8	màːsu	mài	PAR	_	Number=Plur|PartType=Der	10	subj	_	Gloss=owner_of.Plur
+8	màːsu	mài	PART	_	Number=Plur|PartType=Der	10	subj	_	Gloss=owner_of.Plur
 9	maulòː	maulòː	NOUN	_	Gender=Masc	10	subj	_	Gloss=guitar.Masc
 10	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	2	parataxis@conj	_	Gloss=3Plur.Perf.Rel
 11	waːcʿèː	waːcʿèː	VERB	_	_	10	comp:aux	_	_
@@ -3391,13 +3391,13 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	Gloss=time.Masc.Cons
 3	nan	nan	DET	_	Definite=PrevRef	2	det	_	Gloss=PreRef
 4	dukà	dukà	DET	_	PronType=Tot	7	dislocated@comp	_	Gloss=all
-5	màːsu	mài	PAR	_	Number=Plur|PartType=Der	7	subj	_	Gloss=owner_of.Plur
+5	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	subj	_	Gloss=owner_of.Plur
 6	maulòː	maulòː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=guitar.Masc
 7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
 8	gamèː	gamèː	VERB	_	_	7	comp:aux	_	_
 9	dan	don	ADP	_	_	8	mod	_	Gloss=because
 10	wajjan	wajjaː	ADV	_	_	11	mod	_	Gloss=about
-11	màːsu	mài	PAR	_	Number=Plur|PartType=Der	16	subj	_	Gloss=owner_of.Plur
+11	màːsu	mài	PART	_	Number=Plur|PartType=Der	16	subj	_	Gloss=owner_of.Plur
 12	maulòː	maulòː	NOUN	_	Gender=Masc	11	comp:obj	_	Gloss=guitar.Masc
 13	tàlàːtin	tàlàːtin	NUM	_	Definite=Cons	11	mod:num	_	_
 14	dà	dà	CCONJ	_	_	15	cc	_	Gloss=and
@@ -3487,7 +3487,7 @@
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	Gloss=say
 7	“	“	PUNCT	_	_	21	punct	_	Gloss=PUNCT
 8	tôː	tôː	INTJ	_	_	12	discourse	_	Gloss=well
-9	màːsu	mài	PAR	_	Number=Plur|PartType=Der	12	dislocated@top	_	Gloss=owner_of.Plur
+9	màːsu	mài	PART	_	Number=Plur|PartType=Der	12	dislocated@top	_	Gloss=owner_of.Plur
 10	maulòː	maulòː	NOUN	_	Gender=Masc	9	comp:obj	_	Gloss=guitar.Masc
 11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 12	à	yà	AUX	_	Mood=Sub|Person=4	4	parataxis@conj	_	Gloss=4.Sub
@@ -3517,7 +3517,7 @@
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 4	shaː	shaː	VERB	_	_	3	comp:aux	_	_
 5	naɗìː	naɗìː	NOUN	_	Gender=Masc	4	comp:obj	_	_
-6	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	mod	_	Gloss=owner_of.Plur
+6	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	mod	_	Gloss=owner_of.Plur
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
@@ -3646,7 +3646,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__233
 # text = dukà màːsu maulòː tàlàːtin sai dà sunkà koːmà gangaː , Dandà Garbaː Dikkò bài ji kiɗìːnai ba .
 1	dukà	dukà	DET	_	PronType=Tot	7	dislocated@comp	_	Gloss=all
-2	màːsu	mài	PAR	_	Number=Plur|PartType=Der	7	dislocated@subj	_	Gloss=owner_of.Plur
+2	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	dislocated@subj	_	Gloss=owner_of.Plur
 3	maulòː	maulòː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=guitar.Masc
 4	tàlàːtin	tàlàːtin	NUM	_	_	7	mod	_	_
 5	sai	sai	SCONJ	_	_	7	mod	_	Gloss=until
@@ -3823,7 +3823,7 @@
 10	Tatìː	tatìː	PROPN	_	_	9	flat@name	_	Gloss=Tatìː
 11	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	Gloss=say
-13	màːsu	mài	PAR	_	Number=Plur|PartType=Der	12	comp:obl	_	Gloss=owner_of.Plur
+13	màːsu	mài	PART	_	Number=Plur|PartType=Der	12	comp:obl	_	Gloss=owner_of.Plur
 14	maulòː	maulòː	NOUN	_	Gender=Masc	13	comp:obj	_	Gloss=guitar.Masc
 15	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	Gloss=3Plur.Sub
 16	taːsoː	taːsoː	VERB	_	_	15	comp:aux	_	_
@@ -3836,7 +3836,7 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
-6	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	comp:obl	_	Gloss=owner_of.Plur
+6	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	comp:obl	_	Gloss=owner_of.Plur
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	sù	yà	AUX	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj@T	_	Gloss=3Plur.Sub
 9	taːsoː	taːsoː	VERB	_	_	8	comp:aux	_	_
@@ -3849,7 +3849,7 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
-6	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	comp:obl	_	Gloss=owner_of.Plur
+6	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	comp:obl	_	Gloss=owner_of.Plur
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	5	comp:obj@T	_	Gloss=3Plur.Sub
 9	taːsoː	taːsoː	VERB	_	_	8	comp:aux	_	_
@@ -3858,7 +3858,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__245
 # text = dà màːsu maulòː sunkà taːsoː , yac cèː musù " tôː kun ga bàbbankù , gàː shi nan " .
 1	dà	dà	SCONJ	_	_	7	mod	_	Gloss=that
-2	màːsu	mài	PAR	_	Number=Plur|PartType=Der	1	comp:obj	_	Gloss=owner_of.Plur
+2	màːsu	mài	PART	_	Number=Plur|PartType=Der	1	comp:obj	_	Gloss=owner_of.Plur
 3	maulòː	maulòː	NOUN	_	Gender=Masc	4	subj	_	Gloss=guitar.Masc
 4	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Plur.Perf.Rel
 5	taːsoː	taːsoː	VERB	_	_	4	comp:aux	_	_
@@ -4066,18 +4066,18 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__258
 # text = màːsu maulòː, in waɗànga sun tàhi yâu, gòːbe gàː waɗànga.
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	11	dislocated@subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	11	dislocated@subj	_	Gloss=owner_of.Plur
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc
 3	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 4	in	in	SCONJ	_	_	11	mod	_	Gloss=if
-5	waɗànga	wànga	PRON	_	Definite=Cons|Deixis=Prox|Gender=Fem|Number=Plur	6	subj	_	Gloss=Prox.Plur|ProntType=Dem
+5	waɗànga	wànga	PRON	_	Definite=Cons|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	6	subj	_	Gloss=Prox.Plur
 6	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	4	comp:obj	_	Gloss=3Plur.Perf
 7	tàhi	tàhi	VERB	_	_	6	comp:aux	_	Gloss=go
 8	yâu	yâu	ADV	_	Gender=Masc	7	comp:obj@G	_	Gloss=today
 9	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 10	gòːbe	gòːbe	ADV	_	_	11	mod	_	Gloss=tomorrow
 11	gàː	gàː	PART	_	PartType=Pred	0	root	_	Gloss=here_is
-12	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	11	subj	_	Gloss=Prox.Plur|ProntType=Dem
+12	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	11	subj	_	Gloss=Prox.Plur
 13	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__259
@@ -4115,7 +4115,7 @@
 22	ràkki	ràkki	VERB	_	_	21	comp:aux	_	_
 23	wasu	wasu	DET	_	Definite=Spec|Gender=Masc|Number=Plur	22	comp:obj	_	Gloss=some.Plur
 24	,	,	PUNCT	_	_	25	punct	_	Gloss=PUNCT
-25	màːsu	mài	PAR	_	Number=Plur|PartType=Der	21	subj	_	Gloss=owner_of.Plur
+25	màːsu	mài	PART	_	Number=Plur|PartType=Der	21	subj	_	Gloss=owner_of.Plur
 26	maulòː	maulòː	NOUN	_	Gender=Masc	25	comp:obj	_	Gloss=guitar.Masc
 27	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	conj:appos	_	Gloss=3Plur.Nom
 28	buy	buy	ADP	_	_	27	mod	_	_
@@ -4162,7 +4162,7 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	2	comp:obl	_	Gloss=3Masc.Dat
 4	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-5	màːsu	mài	PAR	_	Number=Plur|PartType=Der	7	comp:pred	_	Gloss=owner_of.Plur
+5	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	comp:pred	_	Gloss=owner_of.Plur
 6	maulòː	maulòː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=guitar.Masc
 7	naː	neː	AUX	_	Copula=Yes	2	comp:obj@T	_	Gloss=Ident
 8	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
@@ -4218,7 +4218,7 @@
 15	dàr	dàn	ADP	_	_	14	comp:obl	_	_
 16	rakkiyàw	rakkiyàː	NOUN	_	Definite=Cons|Gender=Fem	15	comp:obj	_	_
 17	wasu	wani	DET	_	Definite=Spec|Number=Plur	16	det	_	Gloss=some.Plur
-18	màːsu	mài	PAR	_	Number=Plur|PartType=Der	16	mod	_	Gloss=owner_of.Plur
+18	màːsu	mài	PART	_	Number=Plur|PartType=Der	16	mod	_	Gloss=owner_of.Plur
 19	maulòː	maulòː	NOUN	_	Gender=Masc	18	comp:obj	_	Gloss=guitar.Masc
 20	"	"	PUNCT	_	_	12	punct	_	Gloss=PUNCT|wordform=.
 21	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT|wordform="
@@ -4407,7 +4407,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 17	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	14	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 18	cèː	cêː	VERB	_	_	17	comp:aux	_	Gloss=say
-19	màːsu	mài	PAR	_	Number=Plur|PartType=Der	18	comp:obj@R	_	Gloss=owner_of.Plur
+19	màːsu	mài	PART	_	Number=Plur|PartType=Der	18	comp:obj@R	_	Gloss=owner_of.Plur
 20	maulòː	maulòː	NOUN	_	Gender=Masc	19	comp:obj	_	Gloss=guitar.Masc
 21	"	"	PUNCT	_	_	22	punct	_	Gloss=PUNCT
 22	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	18	comp:obj@T	_	Gloss=2Plur.Sub
@@ -4480,7 +4480,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__285
 # text = màːsu maulòː sunkà koːmoː, Dandà Garbaː Dikkò yac cèː " naː ji nàːbaːrìn dà kunkài mà waɗànga àbùkkankù. "
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	9	subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	9	subj	_	Gloss=owner_of.Plur
 2	maulòː	maulòː	NOUN	_	Gender=Masc	3	subj	_	Gloss=guitar.Masc
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	6	comp:obj	_	Gloss=3Plur.Perf.Rel
 4	koːmoː	koːmàː	VERB	_	_	3	comp:aux	_	Gloss=go_back.Dir
@@ -4497,7 +4497,7 @@
 15	dà	dà	SCONJ	_	_	14	mod@relcl	_	Gloss=that
 16	kunkài	kunkài	AUX	_	_	15	comp:obj	_	_
 17	mà	mà	ADP	_	Case=Dat	16	comp:obl	_	Gloss=Dat
-18	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	17	comp:obj	_	Gloss=Prox.Plur|ProntType=Dem
+18	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	17	comp:obj	_	Gloss=Prox.Plur
 19	àbùkkankù	àbùkkaː	NOUN	_	Number=Plur	17	comp:obj	_	_
 20	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform=.
 21	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform="
@@ -4700,7 +4700,7 @@
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	Gloss=time.Masc.Cons
 3	nan	nan	DET	_	Definite=PrevRef	2	det	_	Gloss=PreRef
 4	daɗàː	daɗàː	NOUN	_	Gender=Fem	7	subj	_	_
-5	màːsu	mài	PAR	_	Number=Plur|PartType=Der	4	mod	_	Gloss=owner_of.Plur
+5	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	mod	_	Gloss=owner_of.Plur
 6	maulòː	maulòː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=guitar.Masc
 7	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
 8	ta	ta	PART	_	Aspect=Iter	7	compound:prt	_	Gloss=Iter
@@ -4741,11 +4741,11 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__299a
 # text = koːdà waɗànga kà tàhiyàː gàː waɗànga .
 1	koːdà	koːdà	SCONJ	_	_	5	mod	_	Gloss=as_soon_as
-2	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	3	subj	_	Gloss=Prox.Plur|ProntType=Dem
+2	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	3	subj	_	Gloss=Prox.Plur
 3	kà	nàː	AUX	_	Aspect=Prog	1	comp:obj	_	Gloss=Prog.Rel
 4	tàhiyàː	tàhi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	Gloss=leave.Vnoun.Fem
 5	gàː	gàː	PART	_	PartType=Pred	0	root	_	Gloss=here_is
-6	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	5	subj	_	Gloss=Prox.Plur|ProntType=Dem
+6	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	5	subj	_	Gloss=Prox.Plur
 7	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__299b
@@ -4765,7 +4765,7 @@
 1	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	mà	mà	ADP	_	Case=Dat	2	comp:obl	_	Gloss=Dat
-4	màːsu	mài	PAR	_	Number=Plur|PartType=Der	3	comp:obj	_	Gloss=owner_of.Plur
+4	màːsu	mài	PART	_	Number=Plur|PartType=Der	3	comp:obj	_	Gloss=owner_of.Plur
 5	maulòː	maulòː	NOUN	_	Gender=Masc	4	comp:obj	_	Gloss=guitar.Masc
 6	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	2	comp:obj@T	_	Gloss=2Plur.Sub
@@ -4914,8 +4914,8 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 5	in	in	SCONJ	_	_	15	mod	_	Gloss=if
-6	waɗànga	wànga	PRON	_	Definite=Cons|Deixis=Prox|Gender=Fem|Number=Plur	9	subj	_	Gloss=Prox.Plur|ProntType=Dem
-7	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	comp:obj	_	Gloss=owner_of.Plur
+6	waɗànga	wànga	PRON	_	Definite=Cons|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	9	subj	_	Gloss=Prox.Plur
+7	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	comp:obj	_	Gloss=owner_of.Plur
 8	maulòː	maulòː	NOUN	_	Gender=Masc	9	subj	_	Gloss=guitar.Masc
 9	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	5	comp:obj	_	Gloss=3Plur.Perf.Rel
 10	tàhi	tàhi	VERB	_	_	9	comp:aux	_	Gloss=go
@@ -4940,7 +4940,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__313
 # text = wasu màːsu maulòː sun zakà, yaː yi musù kyàutaː, yaː baː sù saːnìyaː ɗàriː, sai shaːnuː sunkà ƙaːrèː.
 1	wasu	wasu	DET	_	Definite=Spec|Number=Plur	4	subj	_	Gloss=some.Plur
-2	màːsu	mài	PAR	_	Number=Plur|PartType=Der	4	subj	_	Gloss=owner_of.Plur
+2	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	subj	_	Gloss=owner_of.Plur
 3	maulòː	maulòː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=guitar.Masc
 4	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
 5	zakà	zakà	VERB	_	_	4	comp:aux	_	Gloss=arrive
@@ -5015,7 +5015,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__318
 # text = màːsu maulòn ga, yaː baː sù saːnìyaː ɗàriː.
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	subj	_	Gloss=owner_of.Plur
 2	maulòn	maulòː	NOUN	_	Definite=Cons|Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc.Cons
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	Gloss=Prox
 4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -5098,7 +5098,7 @@
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
 6	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	5	comp:obl	_	Gloss=3Masc.Dat
 7	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-8	màːsu	mài	PAR	_	Number=Plur|PartType=Der	10	comp:pred	_	Gloss=owner_of.Plur
+8	màːsu	mài	PART	_	Number=Plur|PartType=Der	10	comp:pred	_	Gloss=owner_of.Plur
 9	maulòː	maulòː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=guitar.Masc
 10	naː	neː	AUX	_	Copula=Yes	5	comp:obj@T	_	Gloss=Ident
 11	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
@@ -5111,7 +5111,7 @@
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
 4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	Gloss=3Masc.Dat
 5	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-6	màːsu	mài	PAR	_	Number=Plur|PartType=Der	8	subj	_	Gloss=owner_of.Plur
+6	màːsu	mài	PART	_	Number=Plur|PartType=Der	8	subj	_	Gloss=owner_of.Plur
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	naː	neː	AUX	_	Copula=Yes	3	comp:obj@T	_	Gloss=Ident
 9	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
@@ -5401,7 +5401,7 @@
 4	zoː	zoː	VERB	_	_	3	comp:aux	_	_
 5	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Fem.Perf.Rel
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	Gloss=say
-7	màːsu	mài	PAR	_	Number=Plur|PartType=Der	6	comp:obl	_	Gloss=owner_of.Plur
+7	màːsu	mài	PART	_	Number=Plur|PartType=Der	6	comp:obl	_	Gloss=owner_of.Plur
 8	maulòː	maulòː	NOUN	_	Gender=Masc	7	comp:obj	_	Gloss=guitar.Masc
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
@@ -5581,7 +5581,7 @@
 3	zakà	zakà	VERB	_	_	2	comp:aux	_	Gloss=arrive
 4	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	2	conj:coord	_	Gloss=3Fem.Perf.Rel
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
-6	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	comp:obl	_	Gloss=owner_of.Plur
+6	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	comp:obl	_	Gloss=owner_of.Plur
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 9	Ìnaː	Ìnaː	PROPN	_	_	5	comp:obj	_	Gloss=Ìnaː
@@ -5793,7 +5793,7 @@
 9	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	2	parataxis	_	Gloss=2Fem.Sub
 10	kai	kai	VERB	_	_	9	comp:aux	_	Gloss=take
 11	mà	mà	ADP	_	Case=Dat	10	comp:obl	_	Gloss=Dat
-12	màːsu	mài	PAR	_	Number=Plur|PartType=Der	11	comp:obj	_	Gloss=owner_of.Plur
+12	màːsu	mài	PART	_	Number=Plur|PartType=Der	11	comp:obj	_	Gloss=owner_of.Plur
 13	maulòː	maulòː	NOUN	_	Gender=Masc	12	comp:obj	_	Gloss=guitar.Masc
 14	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 15	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
@@ -5875,7 +5875,7 @@
 4	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Fem.Perf.Rel
 5	kai	kai	VERB	_	_	4	comp:aux	_	Gloss=take
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	Gloss=Dat
-7	màːsu	mài	PAR	_	Number=Plur|PartType=Der	6	comp:obj	_	Gloss=owner_of.Plur
+7	màːsu	mài	PART	_	Number=Plur|PartType=Der	6	comp:obj	_	Gloss=owner_of.Plur
 8	maulòː	maulòː	NOUN	_	Gender=Masc	7	comp:obj	_	Gloss=guitar.Masc
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 10	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	4	parataxis@conj	_	Gloss=3Fem.Perf.Rel
@@ -6418,7 +6418,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__411
 # text = màːsu maulòː sai ankà shìga shaːwaràː.
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	4	subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	subj	_	Gloss=owner_of.Plur
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc
 3	sai	sai	ADV	_	_	4	mod	_	Gloss=then
 4	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
@@ -6453,7 +6453,7 @@
 # text = “ tundà màːsu maulòː mukè dai baːà yi munà koːmiː. ”
 1	“	“	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	tundà	tundà	SCONJ	_	_	7	mod	_	_
-3	màːsu	mài	PAR	_	Number=Plur|PartType=Der	2	comp:obj	_	Gloss=owner_of.Plur
+3	màːsu	mài	PART	_	Number=Plur|PartType=Der	2	comp:obj	_	Gloss=owner_of.Plur
 4	maulòː	maulòː	NOUN	_	Gender=Masc	3	comp:obj	_	Gloss=guitar.Masc
 5	mukè	nàː	AUX	_	Number=Plur|Person=1	0	root	_	_
 6	dai	dai	PART	_	PartType=Top	5	discourse@top	_	Gloss=anyway
@@ -6503,7 +6503,7 @@
 26	sôː	soː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	25	comp:aux	_	Gloss=like.Vnoun.Masc
 27	gàreː	gà	ADP	_	_	26	comp:obl	_	Gloss=by
 28	kù	ku	PRON	_	Number=Plur|Person=2	27	comp:obj	_	_
-29	màːsu	mài	PAR	_	Number=Plur|PartType=Der	28	conj:appos	_	Gloss=owner_of.Plur
+29	màːsu	mài	PART	_	Number=Plur|PartType=Der	28	conj:appos	_	Gloss=owner_of.Plur
 30	maulòː	maulòː	NOUN	_	Gender=Masc	29	comp:obj	_	Gloss=guitar.Masc
 31	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	19	comp:obj	_	Gloss=2Plur.Sub
 32	aràː	aràː	VERB	_	_	31	comp:aux	_	_
@@ -6557,7 +6557,7 @@
 6	ìn	yà	AUX	_	Mood=Sub|Person=1	4	parataxis@mod	_	Gloss=1Sing.Sub
 7	zamnàː	zamnàː	VERB	_	_	6	comp:aux	_	_
 8	gà	gà	ADP	_	_	7	comp:obl	_	Gloss=at
-9	màːsu	mài	PAR	_	Gender=Fem|PartType=Der	8	comp:obj	_	Gloss=owner_of.Plur
+9	màːsu	mài	PART	_	Gender=Fem|PartType=Der	8	comp:obj	_	Gloss=owner_of.Plur
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	gà	gà	ADP	_	_	5	comp:obl	_	Gloss=at
 12	Garbaː	Garbaː	PROPN	_	_	11	comp:obj	_	Gloss=Garbaː
@@ -6570,7 +6570,7 @@
 19	ìn	yà	AUX	_	Mood=Sub|Person=1	14	parataxis@conj	_	Gloss=1Sing.Sub
 20	yi	yi	VERB	_	_	19	comp:aux	_	Gloss=do
 21	mà	mà	ADP	_	Case=Dat	20	comp:obl	_	Gloss=Dat
-22	màːsu	mài	PAR	_	Number=Plur|PartType=Der	21	comp:obj	_	Gloss=owner_of.Plur
+22	màːsu	mài	PART	_	Number=Plur|PartType=Der	21	comp:obj	_	Gloss=owner_of.Plur
 23	maulòn	maulòː	NOUN	_	Definite=Cons|Gender=Masc	21	comp:obj	_	Gloss=guitar.Masc.Cons
 24	ga	ga	DET	_	Deixis=Prox|PronType=Dem	23	det	_	Gloss=Prox
 25	bàutaː	bàutaː	NOUN	_	Gender=Masc	23	mod	_	_
@@ -7031,7 +7031,7 @@
 18	zaːmèː	zaːmèː	VERB	_	_	17	comp:aux	_	_
 19	gàːba	gàːba	ADV	_	_	18	mod	_	_
 20	gà	gà	ADP	_	_	18	comp:obl	_	Gloss=at
-21	màːsu	mài	PAR	_	Number=Plur|PartType=Der	20	comp:obj	_	Gloss=owner_of.Plur
+21	màːsu	mài	PART	_	Number=Plur|PartType=Der	20	comp:obj	_	Gloss=owner_of.Plur
 22	maulòː	maulòː	NOUN	_	Gender=Masc	20	comp:obj	_	Gloss=guitar.Masc
 23	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 
@@ -7138,7 +7138,7 @@
 5	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 6	kaːwoː	kai	VERB	_	_	5	comp:aux	_	Gloss=bring.Dir
 7	indà	indà	PRON	_	PronType=Rel	6	comp:obj	_	Gloss=where
-8	màːsu	mài	PAR	_	Number=Plur|PartType=Der	7	conj:appos	_	Gloss=owner_of.Plur
+8	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	conj:appos	_	Gloss=owner_of.Plur
 9	maulòː	maulòː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=guitar.Masc
 10	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -7146,7 +7146,7 @@
 # text = yac cèː màːsu maulòː “ kù rabà duːkìyât tan tsakà. “
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
-3	màːsu	mài	PAR	_	Number=Plur|PartType=Der	2	comp:obl	_	Gloss=owner_of.Plur
+3	màːsu	mài	PART	_	Number=Plur|PartType=Der	2	comp:obl	_	Gloss=owner_of.Plur
 4	maulòː	maulòː	NOUN	_	Gender=Masc	3	comp:obj	_	Gloss=guitar.Masc
 5	“	“	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	2	comp:obj@T	_	Gloss=2Plur.Sub
@@ -7296,7 +7296,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__468
 # text = màːsu maulòː suː kòː sunkài gidaː.
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	5	dislocated@subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	5	dislocated@subj	_	Gloss=owner_of.Plur
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc
 3	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	dislocated@subj	_	Gloss=3Plur.Nom
 4	kòː	kùwa	PART	_	_	3	discourse@top	_	_
@@ -7345,13 +7345,13 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__472
 # text = màːsu maulòː waɗànga sù zoː , waɗànga sù zoː , koːwanèː zuwàː shikài shì abìn ga .
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	4	dislocated@subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	dislocated@subj	_	Gloss=owner_of.Plur
 2	maulòː	maulòː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=guitar.Masc
-3	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	4	subj	_	Gloss=Prox.Plur|ProntType=Dem
+3	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	4	subj	_	Gloss=Prox.Plur
 4	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Sub
 5	zoː	zoː	VERB	_	_	4	comp:aux	_	Gloss=come
 6	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-7	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur	8	subj	_	Gloss=Prox.Plur|ProntType=Dem
+7	waɗànga	wànga	PRON	_	Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	8	subj	_	Gloss=Prox.Plur
 8	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	4	parataxis@conj	_	Gloss=3Plur.Sub
 9	zoː	zoː	VERB	_	_	8	comp:aux	_	Gloss=come
 10	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
@@ -9473,7 +9473,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__589
 # text = " màːsu ɗiyaː nàː nit taràː. "
 1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-2	màːsu	mài	PAR	_	Number=Plur|PartType=Der	4	subj	_	Gloss=owner_of.Plur
+2	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	subj	_	Gloss=owner_of.Plur
 3	ɗiyaː	ɗiyaː	NOUN	_	Gender=Fem	2	comp:obj	_	_
 4	nàː	nàː	AUX	_	_	0	root	_	_
 5	nit	yaː	AUX	_	Gender=Fem|Person=3	4	comp:cleft	_	_
@@ -12266,7 +12266,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__770
 # text = màːsu jàkkai sunkà cêː " kù daːkàntaː. "
-1	màːsu	mài	PAR	_	Number=Plur|PartType=Der	3	subj	_	Gloss=owner_of.Plur
+1	màːsu	mài	PART	_	Number=Plur|PartType=Der	3	subj	_	Gloss=owner_of.Plur
 2	jàkkai	jàːkiː	NOUN	_	Number=Plur	1	comp:obj	_	Gloss=donkey.Plur
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	Gloss=say
