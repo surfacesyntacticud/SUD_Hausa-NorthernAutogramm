@@ -1836,87 +1836,82 @@
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__121-125
-# text = dà Dikkò tac cèː mai " Garbaː Dikkò, kà tàhi kà bìɗi màːtaː. " " kai maː kà yi armeː. " " dukà wàːrinkà sun yi armeː " . " kà tàhi kà bìɗi màːtaː kà yi armeː. " yac cèː " bàn ìsa armeː ba niː " .
-1	dà	dà	SCONJ	_	_	10	mod	_	Gloss=that
+# text = dà Dikkò tac cèː mai " Garbaː Dikkò , kà tàhi kà bìɗi màːtaː ; kai maː kà yi armeː ; dukà wàːrinkà sun yi armeː ; kà tàhi kà bìɗi màːtaː kà yi armeː . " yac cèː " bàn ìsa armeː ba niː " .
+1	dà	dà	SCONJ	_	_	38	mod	_	Gloss=that
 2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
 3	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
 4	cèː	cêː	VERB	_	_	3	comp:aux	_	Gloss=say
 5	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	4	comp:obl	_	Gloss=3Masc.Dat
-6	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+6	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 7	Garbaː	Garbaː	PROPN	_	_	10	vocative	_	Gloss=Garbaː
 8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	Gloss=Dikkò
 9	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-10	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
+10	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	4	comp:obj	_	Gloss=2Masc.Sub
 11	tàhi	tàhi	VERB	_	_	10	comp:aux	_	Gloss=go
 12	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	10	parataxis	_	Gloss=2Masc.Sub
 13	bìɗi	bìɗaː	VERB	_	_	12	comp:aux	_	Gloss=look_for
 14	màːtaː	màːtaː	NOUN	_	Gender=Fem	13	comp:obj	_	Gloss=wife.Fem
-15	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform=.
-16	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform="
-17	"	"	PUNCT	_	_	20	punct	_	Gloss=PUNCT
-18	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	20	vocative	_	Gloss=2Masc.Nom
-19	maː	maː	PART	_	_	18	discourse@top	_	_
-20	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-21	yi	yi	VERB	_	_	20	comp:aux	_	Gloss=do
-22	armeː	armeː	NOUN	_	Gender=Masc	21	comp:pred	_	Gloss=wedding.Masc
-23	"	"	PUNCT	_	_	20	punct	_	Gloss=PUNCT|wordform=.
-24	.	.	PUNCT	_	_	20	punct	_	Gloss=PUNCT|wordform="
-25	"	"	PUNCT	_	_	28	punct	_	Gloss=PUNCT
-26	dukà	dukà	DET	_	PronType=Tot	27	det	_	Gloss=all
-27	wàːrinkà	wàːriː	NOUN	_	Case=Gen|Gender=Masc|Person=2	28	subj	_	Gloss=like.Plur.Cons\2Masc.Gen
-28	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
-29	yi	yi	VERB	_	_	28	comp:aux	_	Gloss=do
-30	armeː	armeː	NOUN	_	Gender=Masc	29	comp:pred	_	Gloss=wedding.Masc
-31	"	"	PUNCT	_	_	28	punct	_	Gloss=PUNCT|wordform=.
-32	.	.	PUNCT	_	_	28	punct	_	Gloss=PUNCT|wordform="
-33	"	"	PUNCT	_	_	34	punct	_	Gloss=PUNCT
-34	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-35	tàhi	tàhi	VERB	_	_	34	comp:aux	_	Gloss=go
-36	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	34	parataxis@conj	_	Gloss=2Masc.Sub
-37	bìɗi	bìɗaː	VERB	_	_	36	comp:aux	_	Gloss=look_for
-38	màːtaː	màːtaː	NOUN	_	Gender=Fem	37	comp:obj	_	Gloss=wife.Fem
-39	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	36	parataxis@conj	_	Gloss=2Masc.Sub
-40	yi	yi	VERB	_	_	39	comp:aux	_	Gloss=do
-41	armeː	armeː	NOUN	_	Gender=Masc	40	comp:pred	_	Gloss=wedding.Masc
-42	"	"	PUNCT	_	_	34	punct	_	Gloss=PUNCT|wordform=.
-43	.	.	PUNCT	_	_	34	punct	_	Gloss=PUNCT|wordform="
-44	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-45	cèː	cêː	VERB	_	_	44	comp:aux	_	Gloss=say
-46	"	"	PUNCT	_	_	47	punct	_	Gloss=PUNCT
-47	bàn	yaː	PROPN	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	45	comp:obj	_	Gloss=1Sing.Perf.Neg
-48	ìsa	ìsa	VERB	_	_	47	comp:aux	_	Gloss=reach
-49	armeː	armeː	NOUN	_	Gender=Masc	48	comp:obj@L	_	Gloss=wedding.Masc
-50	ba	ba	PART	_	Polarity=Neg	48	mod	_	Gloss=Neg
-51	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	dislocated@subj	_	Gloss=1Sing.Nom
-52	"	"	PUNCT	_	_	44	punct	_	Gloss=PUNCT|wordform=.
-53	.	.	PUNCT	_	_	44	punct	_	Gloss=PUNCT|wordform="
+15	;	;	PUNCT	_	_	18	punct	_	Gloss=PUNCT|wordform="
+16	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	18	vocative	_	Gloss=2Masc.Nom
+17	maː	maː	PART	_	_	16	discourse@top	_	_
+18	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	10	parataxis@conj	_	Gloss=2Masc.Sub
+19	yi	yi	VERB	_	_	18	comp:aux	_	Gloss=do
+20	armeː	armeː	NOUN	_	Gender=Masc	19	comp:pred	_	Gloss=wedding.Masc
+21	;	:	PUNCT	_	_	24	punct	_	Gloss=PUNCT|wordform="
+22	dukà	dukà	DET	_	PronType=Tot	23	det	_	Gloss=all
+23	wàːrinkà	wàːriː	NOUN	_	Case=Gen|Gender=Masc|Person=2	24	subj	_	Gloss=like.Plur.Cons\2Masc.Gen
+24	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	18	parataxis@conj	_	Gloss=3Plur.Perf
+25	yi	yi	VERB	_	_	24	comp:aux	_	Gloss=do
+26	armeː	armeː	NOUN	_	Gender=Masc	25	comp:pred	_	Gloss=wedding.Masc
+27	;	;	PUNCT	_	_	28	punct	_	Gloss=PUNCT|wordform="
+28	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	24	parataxis@conj	_	Gloss=2Masc.Sub
+29	tàhi	tàhi	VERB	_	_	28	comp:aux	_	Gloss=go
+30	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	28	parataxis@conj	_	Gloss=2Masc.Sub
+31	bìɗi	bìɗaː	VERB	_	_	30	comp:aux	_	Gloss=look_for
+32	màːtaː	màːtaː	NOUN	_	Gender=Fem	31	comp:obj	_	Gloss=wife.Fem
+33	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	30	parataxis@conj	_	Gloss=2Masc.Sub
+34	yi	yi	VERB	_	_	33	comp:aux	_	Gloss=do
+35	armeː	armeː	NOUN	_	Gender=Masc	34	comp:pred	_	Gloss=wedding.Masc
+36	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+37	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+38	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
+39	cèː	cêː	VERB	_	_	38	comp:aux	_	Gloss=say
+40	"	"	PUNCT	_	_	41	punct	_	Gloss=PUNCT
+41	bàn	yaː	PROPN	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	39	comp:obj	_	Gloss=1Sing.Perf.Neg
+42	ìsa	ìsa	VERB	_	_	41	comp:aux	_	Gloss=reach
+43	armeː	armeː	NOUN	_	Gender=Masc	42	comp:obj@L	_	Gloss=wedding.Masc
+44	ba	ba	PART	_	Polarity=Neg	42	mod	_	Gloss=Neg
+45	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	dislocated@subj	_	Gloss=1Sing.Nom
+46	"	"	PUNCT	_	_	38	punct	_	Gloss=PUNCT|wordform=.
+47	.	.	PUNCT	_	_	38	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__126
-# text = tac cèː " gàː duːkìyaː nan ùbankà yab bar makà , dà koːmiː dà baːyuː , kà cêː bàkà ìsaː armeː ba ? "
+# text = tac cèː " gàː duːkìyaː nan ; ùbankà yab bar makà dà koːmiː dà baːyuː ; kà cêː bàkà ìsa armeː ba ? " .
 1	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	gàː	gàː	PART	_	PartType=Pred	2	comp:obj	_	Gloss=here_is
 5	duːkìyaː	duːkìyaː	NOUN	_	Gender=Fem	4	subj	_	Gloss=wealth.Fem
 6	nan	nan	ADV	_	Deixis=Remt|PronType=Dem	4	comp:pred	_	Gloss=Remt
-7	ùbankà	ùban	NOUN	_	Gender=Fem	4	subj	_	_
-8	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	7	mod@relcl	_	Gloss=3Masc.Perf.Rel
-9	bar	barìː	VERB	_	_	8	comp:aux	_	_
-10	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	9	comp:obl	_	Gloss=2Masc.Dat
-11	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
-12	dà	dà	CCONJ	_	_	13	cc	_	Gloss=and
-13	koːmiː	koːmiː	PRON	_	PronType=Ind	7	conj:coord	_	_
+7	;	;	ADV	_	_	4	comp:pred	_	Gloss=PUNCT
+8	ùbankà	ùban	NOUN	_	Gender=Fem	9	subj	_	_
+9	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	parataxis@conj	_	Gloss=3Masc.Perf.Rel
+10	bar	barìː	VERB	_	_	9	comp:aux	_	_
+11	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	10	comp:obl	_	Gloss=2Masc.Dat
+12	dà	dà	CCONJ	_	_	13	cc@preconj	_	Gloss=and
+13	koːmiː	koːmiː	PRON	_	PronType=Ind	10	comp:obj	_	_
 14	dà	dà	CCONJ	_	_	15	cc	_	Gloss=and
 15	baːyuː	baːwàː	NOUN	_	Number=Plur	13	conj:coord	_	Gloss=slave.Plur
-16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
-17	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	2	comp:obj	_	Gloss=2Masc.Sub
+16	;	;	PUNCT	_	_	17	punct	_	Gloss=PUNCT
+17	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	9	parataxis@conj	_	Gloss=2Masc.Sub
 18	cêː	cêː	VERB	_	_	17	comp:aux	_	Gloss=say
-19	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	17	parataxis	_	Gloss=2Masc.Perf.Neg|wordform=kà
-20	ìsaː	ìsaː	VERB	_	_	19	comp:aux	_	_
-21	armeː	armeː	NOUN	_	Gender=Masc	20	comp:obj	_	Gloss=wedding.Masc
+19	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	18	comp:obj	_	Gloss=2Masc.Perf.Neg|wordform=kà
+20	ìsa	ìsa	VERB	_	_	19	comp:aux	_	Gloss=reach
+21	armeː	armeː	NOUN	_	Gender=Masc	20	comp:obj@L	_	Gloss=wedding.Masc
 22	ba	ba	PART	_	Polarity=Neg	20	mod	_	Gloss=Neg
-23	?	?	PUNCT	_	_	17	punct	_	Gloss=PUNCT
-24	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+23	?	?	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+24	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+25	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__127
 # text = yac cèː " niː dai bàn ìsa armeː ba. "
@@ -13819,3 +13814,4 @@
 2	zama	zama	VERB	_	_	1	comp:aux	_	_
 3	màːtaːtai	màːtaː	NOUN	_	Case=Gen|Gender=Masc|Person=3	2	comp:pred	_	Gloss=wife.Fem\3Masc.Gen
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+
