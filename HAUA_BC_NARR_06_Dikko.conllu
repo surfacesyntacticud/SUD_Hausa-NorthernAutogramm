@@ -1835,7 +1835,7 @@
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
-# sent_id = HAUA_BC_NARR_06_Dikko__121_122_HAUA_BC_NARR_06_Dikko__123_HAUA_BC_NARR_06_Dikko__124_HAUA_BC_NARR_06_Dikko__125
+# sent_id = HAUA_BC_NARR_06_Dikko__121-125
 # text = dà Dikkò tac cèː mai " Garbaː Dikkò, kà tàhi kà bìɗi màːtaː. " " kai maː kà yi armeː. " " dukà wàːrinkà sun yi armeː " . " kà tàhi kà bìɗi màːtaː kà yi armeː. " yac cèː " bàn ìsa armeː ba niː " .
 1	dà	dà	SCONJ	_	_	10	mod	_	Gloss=that
 2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
@@ -13819,60 +13819,3 @@
 2	zama	zama	VERB	_	_	1	comp:aux	_	_
 3	màːtaːtai	màːtaː	NOUN	_	Case=Gen|Gender=Masc|Person=3	2	comp:pred	_	Gloss=wife.Fem\3Masc.Gen
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
-
-# sent_id = HAUA_BC_NARR_06_Dikko__121-5
-# text = dà Dikkò tac cèː mai " Garbaː Dikkò, kà tàhi kà bìɗi màːtaː. " " kai maː kà yi armeː. " " dukà wàːrinkà sun yi armeː " . " kà tàhi kà bìɗi màːtaː kà yi armeː. " yac cèː " bàn ìsa armeː ba niː " .
-1	dà	dà	SCONJ	_	_	10	mod	_	Gloss=that
-2	Dikkò	Dikkò	PROPN	_	_	3	subj	_	Gloss=Dikkò
-3	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
-4	cèː	cêː	VERB	_	_	3	comp:aux	_	Gloss=say
-5	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	4	comp:obl	_	Gloss=3Masc.Dat
-6	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-7	Garbaː	Garbaː	PROPN	_	_	10	vocative	_	Gloss=Garbaː
-8	Dikkò	Dikkò	PROPN	_	_	7	flat@name	_	Gloss=Dikkò
-9	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-10	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-11	tàhi	tàhi	VERB	_	_	10	comp:aux	_	Gloss=go
-12	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	10	parataxis	_	Gloss=2Masc.Sub
-13	bìɗi	bìɗaː	VERB	_	_	12	comp:aux	_	Gloss=look_for
-14	màːtaː	màːtaː	NOUN	_	Gender=Fem	13	comp:obj	_	Gloss=wife.Fem
-15	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform=.
-16	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform="
-17	"	"	PUNCT	_	_	20	punct	_	Gloss=PUNCT
-18	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	20	vocative	_	Gloss=2Masc.Nom
-19	maː	maː	PART	_	_	18	discourse@top	_	_
-20	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-21	yi	yi	VERB	_	_	20	comp:aux	_	Gloss=do
-22	armeː	armeː	NOUN	_	Gender=Masc	21	comp:pred	_	Gloss=wedding.Masc
-23	"	"	PUNCT	_	_	20	punct	_	Gloss=PUNCT|wordform=.
-24	.	.	PUNCT	_	_	20	punct	_	Gloss=PUNCT|wordform="
-25	"	"	PUNCT	_	_	28	punct	_	Gloss=PUNCT
-26	dukà	dukà	DET	_	PronType=Tot	27	det	_	Gloss=all
-27	wàːrinkà	wàːriː	NOUN	_	Case=Gen|Gender=Masc|Person=2	28	subj	_	Gloss=like.Plur.Cons\2Masc.Gen
-28	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
-29	yi	yi	VERB	_	_	28	comp:aux	_	Gloss=do
-30	armeː	armeː	NOUN	_	Gender=Masc	29	comp:pred	_	Gloss=wedding.Masc
-31	"	"	PUNCT	_	_	28	punct	_	Gloss=PUNCT|wordform=.
-32	.	.	PUNCT	_	_	28	punct	_	Gloss=PUNCT|wordform="
-33	"	"	PUNCT	_	_	34	punct	_	Gloss=PUNCT
-34	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-35	tàhi	tàhi	VERB	_	_	34	comp:aux	_	Gloss=go
-36	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	34	parataxis@conj	_	Gloss=2Masc.Sub
-37	bìɗi	bìɗaː	VERB	_	_	36	comp:aux	_	Gloss=look_for
-38	màːtaː	màːtaː	NOUN	_	Gender=Fem	37	comp:obj	_	Gloss=wife.Fem
-39	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	36	parataxis@conj	_	Gloss=2Masc.Sub
-40	yi	yi	VERB	_	_	39	comp:aux	_	Gloss=do
-41	armeː	armeː	NOUN	_	Gender=Masc	40	comp:pred	_	Gloss=wedding.Masc
-42	"	"	PUNCT	_	_	34	punct	_	Gloss=PUNCT|wordform=.
-43	.	.	PUNCT	_	_	34	punct	_	Gloss=PUNCT|wordform="
-44	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-45	cèː	cêː	VERB	_	_	44	comp:aux	_	Gloss=say
-46	"	"	PUNCT	_	_	47	punct	_	Gloss=PUNCT
-47	bàn	yaː	PROPN	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	45	comp:obj	_	Gloss=1Sing.Perf.Neg
-48	ìsa	ìsa	VERB	_	_	47	comp:aux	_	Gloss=reach
-49	armeː	armeː	NOUN	_	Gender=Masc	48	comp:obj@L	_	Gloss=wedding.Masc
-50	ba	ba	PART	_	Polarity=Neg	48	mod	_	Gloss=Neg
-51	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	dislocated@subj	_	Gloss=1Sing.Nom
-52	"	"	PUNCT	_	_	44	punct	_	Gloss=PUNCT|wordform=.
-53	.	.	PUNCT	_	_	44	punct	_	Gloss=PUNCT|wordform="
-
