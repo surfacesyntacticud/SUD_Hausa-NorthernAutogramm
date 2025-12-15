@@ -459,7 +459,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__30
 # text = shiː kuma Allàː dà iːkòːnai , dàn nan sai Dikkò tat taːshì dà cikìː .
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	dislocated@subj	_	Gloss=3Masc.Nom
-2	kuma	kuma	PART	_	_	1	discourse@top	_	_
+2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	Gloss=too
 3	Allàː	Allàː	PROPN	_	_	1	conj:appos	_	Gloss=Allàː
 4	dà	dà	CCONJ	_	_	11	discourse	_	Gloss=and
 5	iːkòːnai	iːkòː	NOUN	_	Case=Gen|Gender=Masc|Person=3	4	comp:obj	_	Gloss=power.Masc  \3Masc.Gen
@@ -2425,44 +2425,49 @@
 36	handì	X	X	_	_	35	flat@foreign	_	Gloss=X
 37	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
-# sent_id = HAUA_BC_NARR_06_Dikko__157
-# text = yac cèː matà " tôː yaːrinyà, niː hwa zaman dà nikè : baːnì tsòːroː, kyaː sanìː kuma, baːnì cîː bàn bâː wani ba. "
+# sent_id = HAUA_BC_NARR_06_Dikko__157a
+# text = yac cèː matà " tôː yaːrinyà , niː hwa zaman dà nikè , baːnì tsòːroː " .
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	Gloss=3Fem.Dat
-4	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-5	tôː	tôː	INTJ	_	_	6	discourse	_	Gloss=well
-6	yaːrinyà	yaːrinyà	NOUN	_	Gender=Fem	2	comp:obj	_	Gloss=girl.Fem
-7	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
-8	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	dislocated@subj	_	Gloss=1Sing.Nom
+4	"	"	PUNCT	_	_	14	punct	_	Gloss=PUNCT
+5	tôː	tôː	INTJ	_	_	14	discourse	_	Gloss=well
+6	yaːrinyà	yaːrinyà	NOUN	_	Gender=Fem	14	vocative	_	Gloss=girl.Fem
+7	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+8	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	dislocated@subj	_	Gloss=1Sing.Nom
 9	hwa	hwa	PART	_	PartType=Top	8	discourse@top	_	Gloss=indeed
-10	zaman	zamai	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	6	conj:appos	_	_
+10	zaman	zama	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	14	dislocated@top	_	Gloss=stay.Vnoun.Masc.Cons
 11	dà	dà	SCONJ	_	_	10	mod@relcl	_	Gloss=that
-12	nikè	nàː	AUX	_	Gender=Fem|Person=3	11	comp:obj	_	_
-13	:	:	PUNCT	_	_	14	punct	_	Gloss=PUNCT
-14	baːnì	nàː	AUX	_	Aspect=Prog|Definite=Cons|Gender=Masc|Number=Sing|Person=1|Polarity=Neg	6	mod	_	Gloss=1Sing.Prog.Neg
+12	nikè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	11	comp:obj	_	Gloss=1Sing.Prog.Rel2
+13	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+14	baːnì	nàː	AUX	_	Aspect=Prog|Definite=Cons|Gender=Masc|Number=Sing|Person=1|Polarity=Neg	2	comp:obj	_	Gloss=1Sing.Prog.Neg
 15	tsòːroː	tsòːroː	NOUN	_	Gender=Masc	14	comp:aux	_	Gloss=fear.Masc
-16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
-17	kyaː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	12	parataxis@conj	_	Gloss=2Fem.Perf
-18	sanìː	sanìː	VERB	_	_	17	comp:aux	_	Gloss=know
-19	kuma	kuma	PART	_	_	17	discourse@top	_	_
-20	,	,	PUNCT	_	_	21	punct	_	Gloss=PUNCT
-21	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	14	parataxis@conj	_	Gloss=1Sing.Prog.Neg
-22	cîː	cîː	VERB	_	ExtPos=NOUN|Gender=Masc	21	comp:aux	_	_
-23	bàn	yaː	AUX	_	Aspect=Perf|Person=1|Polarity=Neg	14	parataxis@conj	_	Gloss=1Sing.Perf.Neg
-24	bâː	baːbù	VERB	_	_	23	comp:aux	_	_
-25	wani	wani	DET	_	Definite=Spec|Gender=Masc	24	comp:obj@R	_	Gloss=some.Masc
-26	ba	ba	PART	_	Polarity=Neg	24	mod	_	Gloss=Neg
-27	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
-28	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
+16	"	"	PUNCT	_	_	14	punct	_	Gloss=PUNCT
+17	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_06_Dikko__157_split2
+# text = " kyaː sanìː kuma , baːnì cîː bàn bâː wani ba . "
+1	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+2	kyaː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	6	parataxis@discourse	_	Gloss=2Fem.Perf
+3	sanìː	sanìː	VERB	_	_	2	comp:aux	_	Gloss=know
+4	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	Gloss=too
+5	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+6	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	0	root	_	Gloss=1Sing.Prog.Neg
+7	cîː	ci	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:aux	_	Gloss=conquer.Vnoun.Masc
+8	bàn	yaː	AUX	_	Aspect=Perf|Person=1|Polarity=Neg	7	parataxis@mod	_	Gloss=1Sing.Perf.Neg
+9	bâː	baː	VERB	_	_	8	comp:aux	_	Gloss=give
+10	wani	wani	PRON	_	Definite=Spec|Gender=Masc	9	comp:obj@R	_	Gloss=some.Masc
+11	ba	ba	PART	_	Polarity=Neg	9	mod	_	Gloss=Neg
+12	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+13	"	"	PUNCT	_	_	_	_	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__158
-# text = " kuma baːnì kiːshìn màːtaːta. "
+# text = " kuma baːnì kiːshìn màːtaːta " .
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-2	kuma	kuma	PART	_	_	3	discourse	_	_
+2	kuma	kuma	PART	_	PartType=Disc	3	discourse	_	Gloss=too
 3	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	0	root	_	Gloss=1Sing.Prog.Neg
-4	kiːshìn	kiːshìː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	3	comp:aux	_	_
-5	màːtaːta	màːtaːta	NOUN	_	Gender=Fem|Person=3	4	udep	_	_
+4	kiːshìn	kiːshìː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	3	comp:aux	_	Gloss=beating.Masc.Cons
+5	màːtaːta	màːtaː	NOUN	_	Case=Gen|Number=Sing|Person=1	4	udep	_	Gloss=wife.Fem.Cons\1Sing.Gen
 6	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform="
 
@@ -2551,7 +2556,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__163
 # text = shiː kuma, gà loːkàcîn nan, kiɗìn dà màːsu maulòː kà yi mai, na shinàː zaːrùmiː kawài.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	16	dislocated@top	_	Gloss=3Masc.Nom
-2	kuma	kuma	PART	_	_	1	discourse@top	_	_
+2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	Gloss=too
 3	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 4	gà	gà	ADP	_	_	16	mod	_	Gloss=at
 5	loːkàcîn	loːkàcíː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	Gloss=time.Masc.Cons
@@ -2860,7 +2865,7 @@
 7	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 8	àmman	àmma	CCONJ	_	_	11	cc	_	Gloss=but
 9	yànzu	yànzu	ADV	_	_	11	mod	_	Gloss=now
-10	kuma	kuma	PART	_	_	9	discourse@top	_	_
+10	kuma	kuma	PART	_	PartType=Top	9	discourse@top	_	Gloss=too
 11	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	5	conj:coord	_	Gloss=1Sing.Prog.Neg
 12	hwaɗàː	hwaɗàː	VERB	_	_	11	comp:aux	_	_
 13	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	12	comp:obl	_	Gloss=2Plur.Dat
@@ -2972,7 +2977,7 @@
 3	yaːròː	yaːròː	NOUN	_	Gender=Masc	1	subj	_	Gloss=boy.Masc
 4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	Gloss=3Masc.Nom
-6	kuma	kuma	PART	_	_	5	discourse@top	_	_
+6	kuma	kuma	PART	_	PartType=Top	5	discourse@top	_	Gloss=too
 7	kàːkaːnai	kàːkaː	NOUN	_	Definite=Cons|Gender=Masc|Person=3	8	subj	_	Gloss=grandfather.Masc\3Masc.Gen
 8	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 9	yi	yi	VERB	_	_	8	comp:aux	_	Gloss=do
@@ -3003,7 +3008,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__193
 # text = kuma haʿ àljaniː gàreː sù na kiɗìn maulòː .
-1	kuma	kuma	PART	_	_	4	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	4	discourse	_	Gloss=too
 2	haʿ	har	SCONJ	_	_	4	mod	_	Gloss=until
 3	àljaniː	àljaniː	NOUN	_	Gender=Masc	4	subj	_	_
 4	gàreː	gà	ADP	_	_	0	root	_	Gloss=by
@@ -3243,7 +3248,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__208
 # text = " kuma àkwai wani tsuntsuː mài hawaː bisà iccàn ga. "
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-2	kuma	kuma	CCONJ	_	_	3	discourse	_	_
+2	kuma	kuma	PART	_	PartType=Disc	3	discourse	_	Gloss=too
 3	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	Gloss=there_is
 4	wani	wani	DET	_	Definite=Spec|Gender=Masc	5	det	_	Gloss=some.Masc
 5	tsuntsuː	tsuntsuː	NOUN	_	Gender=Fem	3	subj	_	_
@@ -3333,7 +3338,7 @@
 2	kuːkaː	kuːkaː	NOUN	_	Gender=Masc	1	comp:aux	_	Gloss=crying.Masc
 3	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	dislocated@subj	_	Gloss=3Masc.Nom
-5	kuma	kuma	PART	_	_	4	discourse@top	_	_
+5	kuma	kuma	PART	_	PartType=Top	4	discourse@top	_	Gloss=too
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	yaːròn	yaːròː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	Gloss=boy.Masc.Cons
 8	ga	ganiː	SCONJ	_	PronType=Dem	7	det	_	_
@@ -3450,7 +3455,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__222
 # text = saʿànnan kuma gàː takoːbîn nan naːshì kusa gàrai, shinàː nàɗe cikin àljiːhuː.
 1	saʿànnan	saʿànnan	ADV	_	_	3	mod	_	Gloss=then
-2	kuma	kuma	PART	_	_	1	discourse@top	_	_
+2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	Gloss=too
 3	gàː	gàː	PART	_	PartType=Pred	0	root	_	Gloss=here_is
 4	takoːbîn	takoːbî	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	_
 5	nan	nan	DET	_	Definite=PrevRef	4	det	_	Gloss=PreRef
@@ -4513,7 +4518,7 @@
 7	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:pred	_	Gloss=thing.Masc.Cons
 8	gyaːraː	gyaːraː	NOUN	_	Gender=Fem	7	mod	_	_
 9	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-10	kuma	kuma	PART	_	_	12	discourse	_	_
+10	kuma	kuma	PART	_	PartType=Disc	12	discourse	_	Gloss=too
 11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 12	bàn	yaː	SCONJ	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	4	parataxis@conj	_	Gloss=1Sing.Perf.Neg
 13	gyaːràː	gyaːràː	NOUN	_	Gender=Fem	20	comp:aux	_	_
@@ -4686,7 +4691,7 @@
 1	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 2	in	in	SCONJ	_	_	5	mod	_	Gloss=if
 3	baːbù	bâː	PART	_	PartType=Pred|Polarity=Neg	2	comp:obj	_	Gloss=there_is_not
-4	kuma	kuma	PART	_	_	3	discourse@top	_	_
+4	kuma	kuma	PART	_	PartType=Top	3	discourse@top	_	Gloss=too
 5	ìn	yà	AUX	_	Mood=Sub|Person=1	0	root	_	Gloss=1Sing.Sub
 6	bâː	baːbù	VERB	_	_	5	comp:aux	_	_
 7	mài	mài	PART	_	Gender=Masc|Number=Sing|PartType=Der	6	comp:obj@R	_	Gloss=owner_of.Sing
@@ -5653,7 +5658,7 @@
 # text = " in kuma gidaː kunkài, kù yi sirìddaː, ìn sàllàmeː kù kù tàhiyàkkù. "
 1	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 2	in	in	SCONJ	_	_	7	mod	_	Gloss=if
-3	kuma	kuma	PART	_	_	2	discourse@top	_	_
+3	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	Gloss=too
 4	gidaː	gidaː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=compound.Masc
 5	kunkài	kunkài	NOUN	_	_	4	mod	_	_
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
@@ -5735,7 +5740,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__365
 # text = kuma yaː ajèː yaggiyàː kusa gàrai.
-1	kuma	kuma	PART	_	_	2	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	2	discourse	_	Gloss=too
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 3	ajèː	ajèː	VERB	_	_	2	comp:aux	_	_
 4	yaggiyàː	yaggiyàː	NOUN	_	Gender=Fem	3	comp:obj	_	_
@@ -5927,7 +5932,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__377
 # text = shiː kuma yaː ɓacèː mai.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	Gloss=3Masc.Nom
-2	kuma	kuma	PART	_	_	1	discourse@top	_	_
+2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	Gloss=too
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 4	ɓacèː	ɓacèː	VERB	_	_	3	comp:aux	_	_
 5	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	4	comp:obl	_	Gloss=3Masc.Dat
@@ -6778,13 +6783,13 @@
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 3	cʿeːrèː	cʿeːrèː	VERB	_	_	2	comp:aux	_	_
 4	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-5	kuma	kuma	PART	_	_	6	discourse	_	_
+5	kuma	kuma	PART	_	PartType=Disc	6	discourse	_	Gloss=too
 6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	parataxis@conj	_	Gloss=3Masc.Perf
 7	cʿeːrèː	cʿeːrèː	VERB	_	_	6	comp:aux	_	_
 8	dà	dà	ADP	_	_	7	comp:obl	_	Gloss=with
 9	doːkìnka	doːkìːkà	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=2	8	comp:obj	_	_
 10	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-11	kuma	kuma	PART	_	_	12	discourse	_	_
+11	kuma	kuma	PART	_	PartType=Disc	12	discourse	_	Gloss=too
 12	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	parataxis@conj	_	Gloss=3Masc.Perf
 13	cʿeːrèː	cʿeːrèː	VERB	_	_	12	comp:aux	_	_
 14	dà	dà	ADP	_	_	13	comp:obl	_	Gloss=with
@@ -7216,7 +7221,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__461
 # text = “ kuma naː san baːtà zuwàː koːʿìnaː “ .
 1	“	“	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-2	kuma	kuma	PART	_	_	3	discourse	_	_
+2	kuma	kuma	PART	_	PartType=Disc	3	discourse	_	Gloss=too
 3	naː	yaː	AUX	_	Aspect=Perf|Person=1	0	root	_	_
 4	san	sanìː	VERB	_	_	3	comp:aux	_	Gloss=know
 5	baːtà	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3|Polarity=Neg	4	comp:obj	_	_
@@ -7617,7 +7622,7 @@
 7	ruwàn	ruwàː	NOUN	_	Definite=Cons|Number=Plur	6	comp:obj@G	_	_
 8	ga	ga	DET	_	Deixis=Prox|PronType=Dem	7	det	_	Gloss=Prox
 9	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
-10	kuma	kuma	PART	_	_	4	discourse@top	_	_
+10	kuma	kuma	PART	_	PartType=Top	4	discourse@top	_	Gloss=too
 11	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
 12	mutuwàː	mutuwàː	NOUN	_	Gender=Fem	13	subj	_	Gloss=death.Fem
 13	nikài	nikài	AUX	_	Gender=Masc	7	mod	_	_
@@ -7865,7 +7870,7 @@
 4	Dandà	Dandà	PROPN	_	_	8	subj	_	Gloss=Dandà
 5	Garbaː	Garbaː	PROPN	_	_	4	flat@name	_	Gloss=Garbaː
 6	Dikkò	Dikkò	PROPN	_	_	5	flat@name	_	Gloss=Dikkò
-7	kuma	kuma	PART	_	_	8	discourse	_	_
+7	kuma	kuma	PART	_	PartType=Disc	8	discourse	_	Gloss=too
 8	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 9	hwasoː	hwasoː	VERB	_	_	8	comp:aux	_	_
 10	tsakar	tsakaː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	_
@@ -7878,10 +7883,10 @@
 # text = kadoːdiː sunkài kuma kaːmùːnai , kuma doːkìː yaz zullàːƙeː .
 1	kadoːdiː	kadoːdiː	NOUN	_	_	2	subj	_	_
 2	sunkài	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	_
-3	kuma	kuma	PART	_	_	2	discourse@top	_	_
+3	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	Gloss=too
 4	kaːmùːnai	kaːmàː	NOUN	_	Case=Acc|Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3	2	subj	_	Gloss=catch.Vnoun.Masc\3Masc.Acc\3Masc.Gen
 5	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-6	kuma	kuma	PART	_	_	8	discourse	_	_
+6	kuma	kuma	PART	_	PartType=Disc	8	discourse	_	Gloss=too
 7	doːkìː	doːkìː	NOUN	_	Gender=Masc	8	subj	_	Gloss=horse.Mac
 8	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 9	zullàːƙeː	zullàːƙeː	VERB	_	_	8	comp:aux	_	_
@@ -7970,7 +7975,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__509
 # text = “ kuma àmman nân cikin zuccìyaːtaː bàn ji naː yi tsòːroː ba. “
 1	“	“	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-2	kuma	kuma	CCONJ	_	_	7	discourse	_	_
+2	kuma	kuma	PART	_	PartType=Disc	7	discourse	_	Gloss=too
 3	àmman	àmma	CCONJ	_	_	7	discourse	_	Gloss=but
 4	nân	nân	ADV	_	PronType=Dem	7	mod	_	_
 5	cikin	cikin	ADP	_	_	7	mod	_	Gloss=in
@@ -8261,7 +8266,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__526
 # text = kuma bài waiwàyaː ba.
-1	kuma	kuma	PART	_	_	2	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	2	discourse	_	Gloss=too
 2	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 3	waiwàyaː	waiwàyaː	VERB	_	Gender=Fem	2	comp:aux	_	_
 4	ba	ba	PART	_	Polarity=Neg	3	mod	_	Gloss=Neg
@@ -8301,7 +8306,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__529
 # text = kuma bài tassà kâi yà diːbàː ba.
-1	kuma	kuma	PART	_	_	2	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	2	discourse	_	Gloss=too
 2	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 3	tassà	taːs-	VERB	_	Voice=Cau	2	comp:aux	_	_
 4	kâi	kâi	NOUN	_	Gender=Masc	3	comp:obj	_	Gloss=head.Masc
@@ -8921,7 +8926,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__563
 # text = kuma Gilaːgyàn ga àboːkiːnai nàː .
-1	kuma	kuma	PART	_	_	5	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	5	discourse	_	Gloss=too
 2	Gilaːgyàn	Gilaːgè	PROPN	_	Definite=Cons	5	comp:pred	_	Gloss=Gilaːgè.Cons
 3	ga	ga	DET	_	Deixis=Prox|PronType=Dem	2	det	_	Gloss=Prox
 4	àboːkiːnai	àboːkiː	NOUN	_	Case=Gen|Gender=Masc|Person=3	5	comp:pred	_	Gloss=friend.Masc  \3Masc.Gen
@@ -9242,7 +9247,7 @@
 2	Baːnì	Baːnì	PROPN	_	_	0	root	_	Gloss=Baːnì
 3	baːsà	nàː	VERB	_	_	2	comp:cleft	_	_
 4	kyàutaː	kyàutaː	NOUN	_	Gender=Masc	3	comp:obj@T	_	_
-5	kuma	kuma	PART	_	_	6	discourse	_	_
+5	kuma	kuma	PART	_	PartType=Disc	6	discourse	_	Gloss=too
 6	baːʿà	nàː	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	2	parataxis	_	_
 7	amshèː	nàhèː	VERB	_	_	6	comp:aux	_	Gloss=seize
 8	min	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	Gloss=1Sing.Dat
@@ -9300,7 +9305,7 @@
 4	azà	azàː	VERB	_	_	3	comp:aux	_	_
 5	ƙòːdagòː	ƙòːdagòː	NOUN	_	Gender=Masc	4	comp:obj	_	_
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-7	kuma	kuma	PART	_	_	8	discourse	_	_
+7	kuma	kuma	PART	_	PartType=Disc	8	discourse	_	Gloss=too
 8	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
 9	cêː	cêː	VERB	_	_	8	comp:aux	_	Gloss=say
 10	"	"	PUNCT	_	_	17	punct	_	Gloss=PUNCT
@@ -9313,7 +9318,7 @@
 17	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	12	parataxis@conj	_	Gloss=1Sing.Prog.Neg
 18	baːsà	baːsàː	VERB	_	_	17	comp:aux	_	_
 19	kyàutaː	kyàutaː	NOUN	_	Gender=Masc	18	comp:obj	_	_
-20	kuma	kuma	PART	_	_	22	discourse	_	_
+20	kuma	kuma	PART	_	PartType=Disc	22	discourse	_	Gloss=too
 21	mùtun	mùtun	NOUN	_	Gender=Masc	22	subj	_	Gloss=man.Masc
 22	bâi	nà	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	17	parataxis	_	Gloss=3Masc.Prog.Neg
 23	amshèː	amshèː	VERB	_	_	22	comp:aux	_	Gloss=seize
@@ -9709,7 +9714,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__603
 # text = shiː kuma yaz zakà.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	Gloss=3Masc.Nom
-2	kuma	kuma	PART	_	_	1	discourse@top	_	_
+2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	Gloss=too
 3	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 4	zakà	zakà	VERB	_	_	3	comp:aux	_	Gloss=arrive
 5	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
@@ -9798,7 +9803,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__609
 # text = shiː kuma yaz zakà dà kâinai .
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	Gloss=3Masc.Nom
-2	kuma	kuma	PART	_	_	1	discourse@top	_	_
+2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	Gloss=too
 3	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 4	zakà	zakà	VERB	_	_	3	comp:aux	_	Gloss=arrive
 5	dà	dà	ADP	_	_	4	mod	_	Gloss=with
@@ -9829,7 +9834,7 @@
 20	baː	baː	VERB	_	_	19	comp:aux	_	Gloss=give
 21	mù	mu	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	comp:obj@R	_	Gloss=1Plur.Acc
 22	kaːshìː	kaːshìː	NOUN	_	Gender=Masc	20	comp:obj@T	_	_
-23	kuma	kuma	PART	_	_	24	discourse	_	_
+23	kuma	kuma	PART	_	PartType=Disc	24	discourse	_	Gloss=too
 24	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	14	parataxis@conj	_	Gloss=3Masc.Perf
 25	tarà	taràː	VERB	_	_	24	comp:aux	_	Gloss=gather
 26	saːnìyaː	saːnìyaː	VERB	_	Gender=Fem	25	comp:obj	_	_
@@ -12077,7 +12082,7 @@
 # text = yat tàhi kuma wani gàriː, yab bìɗi kiːyòn jàkkai, ankà cêː mai " kâi ! bàː kiːyò kakà bìɗoː ba! "
 1	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	tàhi	tàhi	VERB	_	_	1	comp:aux	_	Gloss=go
-3	kuma	kuma	PART	_	_	2	discourse@top	_	_
+3	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	Gloss=too
 4	wani	wani	DET	_	Definite=Spec|Gender=Masc	5	det	_	Gloss=some.Masc
 5	gàriː	gàriː	NOUN	_	Gender=Masc	2	comp:obj@G	_	Gloss=town.Masc
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
@@ -12429,7 +12434,7 @@
 # text = " niː kuma, inàː nân, inàː kiːyòn jàkkaìnaː. "
 1	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated@subj	_	Gloss=1Sing.Nom
-3	kuma	kuma	PART	_	_	2	discourse@top	_	_
+3	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	Gloss=too
 4	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 5	inàː	nàː	AUX	_	Number=Sing|Person=1	0	root	_	Gloss=1Sing.Prog
 6	nân	nân	ADV	_	PronType=Dem	5	comp:pred	_	_
@@ -13182,7 +13187,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__830
 # text = kuma baːʿà ganin huskàːtai sabàddà naɗìn dà yay yoː .
-1	kuma	kuma	PART	_	_	2	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	2	discourse	_	Gloss=too
 2	baːʿà	nàː	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	0	root	_	_
 3	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	2	comp:aux	_	_
 4	huskàːtai	huskàː	NOUN	_	Case=Gen|Gender=Masc|Person=3	3	udep	_	Gloss=face.Fem\3Masc.Gen
@@ -13217,7 +13222,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__833
 # text = kuma waɗàndà bà sù bi ba, yag gamàː dà suː.
-1	kuma	kuma	PART	_	_	7	discourse	_	_
+1	kuma	kuma	PART	_	PartType=Disc	7	discourse	_	Gloss=too
 2	waɗàndà	waɗàndà	PRON	_	Number=Plur|PronType=Rel	7	subj	_	_
 3	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Polarity=Neg	2	mod@relcl	_	Gloss=3Plur.Perf.Neg|wordform=sù
 4	bi	bi	VERB	_	_	3	comp:aux	_	_
@@ -13267,7 +13272,7 @@
 8	yîː	yi	VERB	_	_	7	comp:aux	_	Gloss=do.Vnoun.Masc
 9	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=war.Masc
 10	naː	neː	PART	_	Gender=Masc|PartType=Foc	9	discourse@foc	_	Gloss=Emph
-11	kuma	kuma	PART	_	_	9	discourse@top	_	_
+11	kuma	kuma	PART	_	PartType=Top	9	discourse@top	_	Gloss=too
 12	at	neː	AUX	_	Copula=Yes|Relative=Yes	9	comp:cleft	_	Gloss=Ident.Rel
 13	tàhe	tàhi	VERB	_	ExtPos=ADV|VerbForm=Part	12	comp:pred	_	Gloss=walk.Part
 14	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
@@ -13785,7 +13790,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__866
 # text = " kuma yànzu kun san koː waː nikè. "
 1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-2	kuma	kuma	PART	_	_	4	discourse	_	_
+2	kuma	kuma	PART	_	PartType=Disc	4	discourse	_	Gloss=too
 3	yànzu	yànzu	ADV	_	_	4	mod	_	Gloss=now
 4	kun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2	0	root	_	Gloss=2Plur.Perf
 5	san	sanìː	VERB	_	_	4	comp:aux	_	Gloss=know
@@ -13804,7 +13809,7 @@
 5	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	4	comp:obj@R	_	Gloss=3Masc.Acc
 6	rabìn	rabìː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj@T	_	_
 7	gàriː	gàriː	NOUN	_	Gender=Masc	6	mod	_	Gloss=town.Masc
-8	kuma	kuma	PART	_	_	9	discourse@top	_	_
+8	kuma	kuma	PART	_	PartType=Top	9	discourse@top	_	Gloss=too
 9	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 10	baː	baː	VERB	_	_	9	comp:aux	_	Gloss=give
 11	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	10	comp:obj@R	_	Gloss=3Masc.Acc
