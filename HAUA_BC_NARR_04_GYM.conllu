@@ -90,7 +90,7 @@
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	AlignBegin=14831|AlignEnd=15209|Gloss=3Plur.Perf.Rel
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=15209|AlignEnd=15587|Gloss=say
 5	bàri	barìː	VERB	_	Mood=Jus	4	comp:obj	_	AlignBegin=15587|AlignEnd=15965|Gloss=let.Jus
-6	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=15965|AlignEnd=16343|Gloss=3Plur.Sub
+6	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=15965|AlignEnd=16343|Gloss=3Plur.Sub
 7	tàhi	tah-	VERB	_	_	6	comp:aux	_	AlignBegin=16343|AlignEnd=16721|Gloss=go
 8	yaːwòn	yaːwòː	NOUN	_	Definite=Cons|Gender=Masc	7	mod	_	AlignBegin=16721|AlignEnd=17099|Gloss=stroll.Masc.Cons
 9	duːniyàː	duːniyàː	NOUN	_	Gender=Fem	8	mod	_	AlignBegin=17099|AlignEnd=17477|Gloss=world.Fem
@@ -175,7 +175,7 @@
 8	ta	ta	PART	_	Aspect=Iter|PartType=Adv	7	compound:prt	_	AlignBegin=34948|AlignEnd=35129|Gloss=Iter
 9	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	7	comp@aux	_	AlignBegin=35129|AlignEnd=35310|Gloss=go.Vnoun.Fem
 10	duh	dukà	ADV	_	ExtPos=PRON|PronType=Tot	9	mod	_	AlignBegin=35491|AlignEnd=35672|Gloss=all
-11	has	hat	SCONJ	_	_	1	mod	_	AlignBegin=35672|AlignEnd=35853|Gloss=until
+11	has	har	SCONJ	_	_	1	mod	_	AlignBegin=35672|AlignEnd=35853|Gloss=until
 12	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	11	comp:obj	_	AlignBegin=35853|AlignEnd=36034|Gloss=3Plur.Perf.Rel
 13	gamìkkè	gam-	VERB	_	_	12	comp:aux	_	AlignBegin=36034|AlignEnd=36215|Gloss=finish
 14	duːniyàg	duːniyàː	NOUN	_	Definite=Cons|Gender=Fem	13	comp:obj	_	AlignBegin=36215|AlignEnd=36396|Gloss=world.Fem.Cons
@@ -280,7 +280,7 @@
 15	jìːɗa	jiːɗ-	VERB	_	_	14	comp:aux	_	AlignBegin=51886|AlignEnd=52195|Gloss=come_down
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=52195|AlignEnd=52504|Gloss=PUNCT
 17	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	14	conj:coord	_	AlignBegin=52504|AlignEnd=52813|Gloss=3Fem.Sub
-18	ɗeːboː	ɗiːb-	VERB	_	_	17	comp:aux	_	AlignBegin=52813|AlignEnd=53122|Gloss=scoop
+18	ɗeːboː	ɗiːbàː	VERB	_	_	17	comp:aux	_	AlignBegin=52813|AlignEnd=53122|Gloss=take.Dir
 19	maw	mat	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	18	comp:obl	_	AlignBegin=53122|AlignEnd=53431|Gloss=3Fem.Dat
 20	ruwaː	ruwaː	NOUN	_	Number=Plur	18	comp:obj	_	AlignBegin=53431|AlignEnd=53740|Gloss=water.Plur
 21	//	//	PUNCT	_	_	9	punct	_	AlignBegin=53740|AlignEnd=54040|Gloss=PUNCT
@@ -313,7 +313,7 @@
 2	dà	dà	SCONJ	_	_	19	mod	_	AlignBegin=59904|AlignEnd=60088|Gloss=as
 3	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	2	comp:obj	_	AlignBegin=60088|AlignEnd=60272|Gloss=3Fem.Perf.Rel
 4	tàhi	tah-	VERB	_	_	3	comp:aux	_	AlignBegin=60272|AlignEnd=60456|Gloss=go
-5	ɗeːboː	ɗiːb-	VERB	_	_	4	mod	_	AlignBegin=60456|AlignEnd=60640|Gloss=scoop
+5	ɗeːboː	ɗiːbàː	VERB	_	_	4	mod	_	AlignBegin=60456|AlignEnd=60640|Gloss=take.Dir
 6	maw	mat	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=60640|AlignEnd=60824|Gloss=3Fem.Dat
 7	ruwaː	ruwaː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=60824|AlignEnd=61008|Gloss=water.Plur
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=61008|AlignEnd=61192|Gloss=PUNCT
@@ -322,7 +322,7 @@
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	AlignBegin=61744|AlignEnd=61928|Gloss=say
 12	[	[	PUNCT	_	_	13	punct	_	AlignBegin=61928|AlignEnd=62112|Gloss=PUNCT
 13	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	11	comp:obj	_	AlignBegin=62112|AlignEnd=62296|Gloss=1Sing.Sub
-14	ɗeːboː	ɗiːb-	VERB	_	_	13	comp:aux	_	AlignBegin=62296|AlignEnd=62480|Gloss=scoop
+14	ɗeːboː	ɗiːbàː	VERB	_	_	13	comp:aux	_	AlignBegin=62296|AlignEnd=62480|Gloss=take.Dir
 15	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	14	mod	_	AlignBegin=62480|AlignEnd=62664|Gloss=Prox
 16	?//]	?//]	PUNCT	_	_	13	punct	_	AlignBegin=62664|AlignEnd=62848|Gloss=PUNCT
 17	<	<	PUNCT	_	_	9	punct	_	AlignBegin=62848|AlignEnd=63032|Gloss=PUNCT
@@ -347,7 +347,7 @@
 35	<	<	PUNCT	_	_	22	punct	_	AlignBegin=65976|AlignEnd=66160|Gloss=PUNCT
 36	zâːki	zâi	AUX	_	Gender=Fem|Person=2|Tense=Fut	20	comp:obj	_	AlignBegin=66160|AlignEnd=66344|Gloss=Fut.2Fem
 37-38	ki	_	_	_	_	_	_	_	_
-37	ɗeːboː	ɗiːb-	VERB	_	_	36	comp:aux	_	AlignBegin=66528|AlignEnd=66712|Gloss=scoop
+37	ɗeːboː	ɗiːbàː	VERB	_	_	36	comp:aux	_	AlignBegin=66528|AlignEnd=66712|Gloss=take.Dir
 38	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	37	mod	_	AlignBegin=66712|AlignEnd=66896|Gloss=Prox
 39	?//=	?//=	PUNCT	_	_	40	punct	_	AlignBegin=66896|AlignEnd=67080|Gloss=PUNCT
 40	ƙàːraː	ƙàːraː	VERB	_	Mood=Jus	36	parataxis@conj	_	AlignBegin=67080|AlignEnd=67264|Gloss=increase.Jus
@@ -366,7 +366,7 @@
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=68104|AlignEnd=68399|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=68399|AlignEnd=68694|Gloss=PUNCT
 4	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=68694|AlignEnd=68989|Gloss=1Sing.Sub
-5	ɗeːboː	ɗiːb-	VERB	_	_	4	comp:aux	_	AlignBegin=68989|AlignEnd=69284|Gloss=scoop
+5	ɗeːboː	ɗiːbàː	VERB	_	_	4	comp:aux	_	AlignBegin=68989|AlignEnd=69284|Gloss=take.Dir
 6	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	5	mod	_	AlignBegin=69284|AlignEnd=69579|Gloss=Prox
 7	?//]	?//]	PUNCT	_	_	4	punct	_	AlignBegin=69579|AlignEnd=69874|Gloss=PUNCT
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=69874|AlignEnd=70172|Gloss=PUNCT
@@ -409,7 +409,7 @@
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=74048|AlignEnd=74148|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=74148|AlignEnd=74248|Gloss=PUNCT
 4	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=74248|AlignEnd=74348|Gloss=1Sing.Sub
-5	ɗeːboː	ɗiːb-	VERB	_	_	4	comp:aux	_	AlignBegin=74348|AlignEnd=74448|Gloss=scoop
+5	ɗeːboː	ɗiːbàː	VERB	_	_	4	comp:aux	_	AlignBegin=74348|AlignEnd=74448|Gloss=take.Dir
 6	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	5	mod	_	AlignBegin=74448|AlignEnd=74548|Gloss=Prox
 7	?//]	?//]	PUNCT	_	_	4	punct	_	AlignBegin=74548|AlignEnd=74648|Gloss=PUNCT
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=74648|AlignEnd=74748|Gloss=PUNCT
@@ -454,7 +454,7 @@
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=78930|AlignEnd=79165|Gloss=PUNCT
 4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	1	conj:redup	_	AlignBegin=79165|AlignEnd=79400|Gloss=3Fem.Prog
 5	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=79400|AlignEnd=79635|Gloss=go.Vnoun.Fem
-6	har	hat	SCONJ	_	ExtPos=ADV	1	mod	_	AlignBegin=79635|AlignEnd=79870|Gloss=until
+6	har	har	SCONJ	_	ExtPos=ADV	1	mod	_	AlignBegin=79635|AlignEnd=79870|Gloss=until
 7	ruwaː	ruwaː	NOUN	_	Number=Plur	8	subj	_	AlignBegin=79870|AlignEnd=80105|Gloss=water.Plur
 8	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	6	comp:obj	_	AlignBegin=80105|AlignEnd=80340|Gloss=3Plur.Perf.Rel
 9	haɗèː	haɗ-	VERB	_	_	8	comp:aux	_	AlignBegin=80340|AlignEnd=80575|Gloss=swallow
@@ -740,7 +740,7 @@
 13	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	10	parataxis@conj	_	AlignBegin=126955|AlignEnd=127168|Gloss=3Masc.Perf.Rel
 14	cêː	cêː	VERB	_	_	13	comp:aux	_	AlignBegin=127168|AlignEnd=127381|Gloss=say
 15	mà	mà	ADP	_	Case=Dat	14	comp:obl	_	AlignBegin=127381|AlignEnd=127594|Gloss=Dat
-16	uwaːtai	uwaː	NOUN	_	Case=Gen|Gender=Fem|Person=3	15	comp:obj	_	AlignBegin=127594|AlignEnd=127807|Gloss=mother.Fem.3Masc.Gen|wordform=uwaː
+16	uwaːtai	uwaː	NOUN	_	Case=Gen|Gender=Masc|Person=3	15	comp:obj	_	AlignBegin=127594|AlignEnd=127807|Gloss=mother.Fem.Cons\3Masc.Gen|wordform=uwaː
 17	[	[	PUNCT	_	_	25	punct	_	AlignBegin=127807|AlignEnd=128020|Gloss=PUNCT
 18	niː	níː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	dislocated	_	AlignBegin=128020|AlignEnd=128233|Gloss=1Sing.Nom|wordform=níː
 19	<	<	PUNCT	_	_	18	punct	_	AlignBegin=128233|AlignEnd=128446|Gloss=PUNCT
@@ -755,7 +755,7 @@
 28	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	25	comp:cleft	_	AlignBegin=130363|AlignEnd=130576|Gloss=3Masc.Perf.Rel
 29	yoː	yi	VERB	_	_	28	comp:aux	_	AlignBegin=130576|AlignEnd=130789|Gloss=do
 30	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	29	comp:obj	_	AlignBegin=130789|AlignEnd=131002|Gloss=1Sing
-31	cikin	cikin	ADP	_	_	29	comp:obl	_	AlignBegin=131002|AlignEnd=131215|Gloss=inside
+31	cikin	cikin	ADP	_	_	29	comp:obl	_	AlignBegin=131002|AlignEnd=131215|Gloss=in
 32	duːniyàg	duːniyàː	NOUN	_	Definite=Cons|Gender=Fem	31	comp:obj	_	AlignBegin=131215|AlignEnd=131428|Gloss=world.Fem.Cons
 33	ga	ga	DET	_	Deixis=Prox|PronType=Dem	32	det	_	AlignBegin=131428|AlignEnd=131641|Gloss=Prox
 34	?//]	?//]	PUNCT	_	_	25	punct	_	AlignBegin=131641|AlignEnd=131854|Gloss=PUNCT
@@ -902,7 +902,7 @@
 10-11	santà	_	_	_	_	_	_	_	_
 10	san	sanìː	VERB	_	_	9	comp:aux	_	AlignBegin=149282|AlignEnd=149458|Gloss=know
 11	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=149282|AlignEnd=149458|Gloss=3Fem
-12	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=inside
+12	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=149458|AlignEnd=149634|Gloss=in
 13	gàrîn	gàriː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=149634|AlignEnd=149810|Gloss=village.Masc.Cons
 14	ga	ga	DET	_	Deixis=Prox|PronType=Dem	13	det	_	AlignBegin=149810|AlignEnd=149986|Gloss=Prox
 15	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=149986|AlignEnd=150164|Gloss=PUNCT
@@ -1032,7 +1032,7 @@
 6	dumèn	dumèː	NOUN	_	Definite=Cons|Gender=Masc	5	compound	_	AlignBegin=171220|AlignEnd=171380|Gloss=pumpkin.Masc.Cons
 7	nan	nan	DET	_	Definite=PrevRef	5	det	_	AlignBegin=171380|AlignEnd=171540|Gloss=PreRef
 8	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj@T	_	AlignBegin=171540|AlignEnd=171700|Gloss=water.Plur
-9	hay	hat	SCONJ	_	_	4	mod	_	AlignBegin=171700|AlignEnd=171860|Gloss=until
+9	hay	har	SCONJ	_	_	4	mod	_	AlignBegin=171700|AlignEnd=171860|Gloss=until
 10	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	9	comp:obj	_	AlignBegin=171860|AlignEnd=172020|Gloss=3Masc.Perf.Rel
 11	hitoː	hit-	VERB	_	_	10	comp:aux	_	AlignBegin=172020|AlignEnd=172180|Gloss=come_out
 12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=172180|AlignEnd=172340|Gloss=PUNCT
@@ -1078,7 +1078,7 @@
 4	baː	baː	VERB	_	_	3	comp:aux	_	AlignBegin=176277|AlignEnd=176447|Gloss=give
 5	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj@R	_	AlignBegin=176447|AlignEnd=176617|Gloss=3Masc
 6	ruwaː	ruwaː	NOUN	_	Number=Plur	4	comp:obj@T	_	AlignBegin=176617|AlignEnd=176787|Gloss=water.Plur
-7	had	hat	SCONJ	_	_	4	mod	_	AlignBegin=176787|AlignEnd=176957|Gloss=until
+7	had	har	SCONJ	_	_	4	mod	_	AlignBegin=176787|AlignEnd=176957|Gloss=until
 8	dumèn	dumèː	NOUN	_	Definite=Def|Gender=Masc	9	subj	_	AlignBegin=176957|AlignEnd=177127|Gloss=pumpkin.Masc.Def
 9	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	7	comp:obj	_	AlignBegin=177127|AlignEnd=177297|Gloss=3Masc.Perf.Rel
 10	hwaːrà	hwaːr-	VERB	_	_	9	comp:aux	_	AlignBegin=177297|AlignEnd=177467|Gloss=begin
@@ -1102,7 +1102,7 @@
 8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=180522|AlignEnd=180720|Gloss=PUNCT
 9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=180720|AlignEnd=180918|Gloss=3Masc.Prog
 10	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	9	comp:aux	_	AlignBegin=180918|AlignEnd=181116|Gloss=creeping.Masc
-11	hay	hat	SCONJ	_	_	9	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=until
+11	hay	har	SCONJ	_	_	9	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=until
 12	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	11	comp:obj	_	AlignBegin=181314|AlignEnd=181512|Gloss=3Masc.Perf.Rel
 13	hitoː	hit-	VERB	_	_	12	comp:aux	_	AlignBegin=181512|AlignEnd=181710|Gloss=come_out
 14	gàriː	gàriː	NOUN	_	Gender=Masc	13	comp:obj@G	_	AlignBegin=181710|AlignEnd=181908|Gloss=village.Masc
@@ -1192,7 +1192,7 @@
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=192204|AlignEnd=192486|Gloss=PUNCT
 4	kwàːni	kwaːn-	VERB	_	ExtPos=ADV	1	conj:redup	_	AlignBegin=192486|AlignEnd=192768|Gloss=spend_night|Idiom=Yes
 5	taːshì	taːs-	VERB	_	ExtPos=ADV	4	udep	_	AlignBegin=192768|AlignEnd=193050|Gloss=stand|InIdiom=Yes
-6	haw	hat	SCONJ	_	_	1	mod	_	AlignBegin=193050|AlignEnd=193332|Gloss=until
+6	haw	har	SCONJ	_	_	1	mod	_	AlignBegin=193050|AlignEnd=193332|Gloss=until
 7	wata	wani	DET	_	Gender=Fem|PronType=Ind	8	det	_	AlignBegin=193332|AlignEnd=193614|Gloss=some.Fem
 8	raːnaː	raːnaː	NOUN	_	Gender=Fem	10	mod	_	AlignBegin=193614|AlignEnd=193896|Gloss=day.Fem
 9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=193896|AlignEnd=194178|Gloss=PUNCT
@@ -1305,7 +1305,7 @@
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=218738|AlignEnd=218947|Gloss=PUNCT
 4	dàc	dàk	ADP	_	_	10	mod	_	AlignBegin=218947|AlignEnd=219156|Gloss=from
 5	can	can	ADV	_	Deixis=Remt|PronType=Dem	4	comp:obj	_	AlignBegin=219156|AlignEnd=219365|Gloss=Rmt+
-6	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=219365|AlignEnd=219574|Gloss=inside
+6	cikin	cikin	ADP	_	_	10	mod	_	AlignBegin=219365|AlignEnd=219574|Gloss=in
 7	ruwaː	ruwaː	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=219574|AlignEnd=219783|Gloss=water.Plur
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=219783|AlignEnd=219992|Gloss=PUNCT
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=219992|AlignEnd=220201|Gloss=until
@@ -1342,7 +1342,7 @@
 # text_en = "Shall I fetch water here?"
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=225540|AlignEnd=225777|Gloss=PUNCT
 2	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	0	root	_	AlignBegin=225777|AlignEnd=226014|Gloss=1Sing.Sub
-3	ɗeːboː	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=226014|AlignEnd=226251|Gloss=scoop
+3	ɗeːboː	ɗiːbàː	VERB	_	_	2	comp:aux	_	AlignBegin=226014|AlignEnd=226251|Gloss=take.Dir
 4	ruwaː	ruwaː	NOUN	_	Number=Plur	3	comp:obj@T	_	AlignBegin=226251|AlignEnd=226488|Gloss=water.Plur
 5	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	mod	_	AlignBegin=226488|AlignEnd=226725|Gloss=Prox
 6	?//]	?//]	PUNCT	_	_	2	punct	_	AlignBegin=226725|AlignEnd=226962|Gloss=PUNCT
@@ -1373,7 +1373,7 @@
 # text_en = "Shall I fetch water here?"
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=229477|AlignEnd=229712|Gloss=PUNCT
 2	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	0	root	_	AlignBegin=229712|AlignEnd=229947|Gloss=1Sing.Sub
-3	ɗeːboː	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=229947|AlignEnd=230182|Gloss=scoop
+3	ɗeːboː	ɗiːbàː	VERB	_	_	2	comp:aux	_	AlignBegin=229947|AlignEnd=230182|Gloss=take.Dir
 4	ruwaː	ruwaː	NOUN	_	Number=Plur	3	comp:obj@T	_	AlignBegin=230182|AlignEnd=230417|Gloss=water.Plur
 5	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	mod	_	AlignBegin=230417|AlignEnd=230652|Gloss=Prox
 6	?//]	?//]	PUNCT	_	_	2	punct	_	AlignBegin=230652|AlignEnd=230888|Gloss=PUNCT
@@ -1404,7 +1404,7 @@
 # text_en = "Shall I fetch water here?"
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=233380|AlignEnd=233614|Gloss=PUNCT
 2	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	0	root	_	AlignBegin=233614|AlignEnd=233848|Gloss=1Sing.Sub
-3	ɗeːboː	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=233848|AlignEnd=234082|Gloss=scoop
+3	ɗeːboː	ɗiːbàː	VERB	_	_	2	comp:aux	_	AlignBegin=233848|AlignEnd=234082|Gloss=take.Dir
 4	ruwaː	ruwaː	NOUN	_	Number=Plur	3	comp:obj@T	_	AlignBegin=234082|AlignEnd=234316|Gloss=water.Plur
 5	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	mod	_	AlignBegin=234316|AlignEnd=234550|Gloss=Prox
 6	?//]	?//]	PUNCT	_	_	2	punct	_	AlignBegin=234550|AlignEnd=234783|Gloss=PUNCT
@@ -1500,7 +1500,7 @@
 # text_en = He arrived in his room and fell down on his bed.
 1	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=245000|AlignEnd=245198|Gloss=3Masc.Perf.Rel
 2	zakà	zak-	VERB	_	_	1	comp:aux	_	AlignBegin=245198|AlignEnd=245396|Gloss=arrive
-3	cikin	cikin	ADP	_	_	2	comp:obl	_	AlignBegin=245396|AlignEnd=245594|Gloss=inside
+3	cikin	cikin	ADP	_	_	2	comp:obl	_	AlignBegin=245396|AlignEnd=245594|Gloss=in
 4	ɗaːkìː	ɗaːkìː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=245594|AlignEnd=245792|Gloss=room.Masc
 5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=245792|AlignEnd=245990|Gloss=PUNCT
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=245990|AlignEnd=246188|Gloss=until
@@ -1516,7 +1516,7 @@
 # text_ortho = uwaːtai tac cèː [ mis sàːmeː kà > Muːsà ?//]
 # text = uwaː =tai tac cèː [ miː yas sàːmeː kà > Muːsà ?//]
 # text_en = His mother said "What happened, Musa?"
-1	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	2	subj	_	AlignBegin=247200|AlignEnd=247386|Gloss=mother.Fem.Cons.3Masc.Gen|wordform=uwaː
+1	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	2	subj	_	AlignBegin=247200|AlignEnd=247386|Gloss=mother.Fem.Cons\3Masc.Gen|wordform=uwaː
 2	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=247386|AlignEnd=247572|Gloss=3Fem.Perf.Rel
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=247572|AlignEnd=247758|Gloss=say
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=247758|AlignEnd=247944|Gloss=PUNCT
@@ -1602,7 +1602,7 @@
 1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=4.Prog|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def
 3	ɗaɗà	ɗaɗà	ADV	_	_	1	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then
-4	hay	hat	SCONJ	_	_	1	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until
+4	hay	har	SCONJ	_	_	1	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until
 5	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	comp:obj	_	AlignBegin=259180|AlignEnd=259328|Gloss=3Masc.Perf.Rel
 6	taːshì	taːs-	VERB	_	_	5	comp:aux	_	AlignBegin=259328|AlignEnd=259476|Gloss=stand
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=259476|AlignEnd=259624|Gloss=PUNCT
@@ -1681,7 +1681,7 @@
 16	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=268162|AlignEnd=268348|Gloss=3Masc.Perf.Rel
 17	hwaɗàː	hwaɗ-	VERB	_	_	16	comp:aux	_	AlignBegin=268348|AlignEnd=268534|Gloss=tell
 18	mà	mà	ADP	_	Case=Dat	17	comp:obl	_	AlignBegin=268534|AlignEnd=268720|Gloss=Dat
-19	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	18	comp:obj	_	AlignBegin=268720|AlignEnd=268906|Gloss=mother.Fem.Cons.3Masc.Gen|wordform=uwaː
+19	uwaːtai	uwaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	18	comp:obj	_	AlignBegin=268720|AlignEnd=268906|Gloss=mother.Fem.Cons\3Masc.Gen|wordform=uwaː
 20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=268906|AlignEnd=269100|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_084-084
@@ -2071,7 +2071,7 @@
 # text_en = OK, then, they could no longer see him.
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	4	discourse	_	AlignBegin=331340|AlignEnd=331558|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=331558|AlignEnd=331776|Gloss=PUNCT
-3	ha'	hat	SCONJ	_	ExtPos=ADV	4	discourse	_	AlignBegin=331776|AlignEnd=331994|Gloss=until
+3	ha'	har	SCONJ	_	ExtPos=ADV	4	discourse	_	AlignBegin=331776|AlignEnd=331994|Gloss=until
 4	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	AlignBegin=331994|AlignEnd=332212|Gloss=4.Perf.Rel
 5	bar	barìː	VERB	_	_	4	comp:aux	_	AlignBegin=332212|AlignEnd=332430|Gloss=let
 6	ganiːnai	ganiː	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=332430|AlignEnd=332648|Gloss=see.Vnoun.Cons.3Masc.Gen|wordform=ganiː
@@ -2102,7 +2102,7 @@
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=334756|AlignEnd=334965|Gloss=then
 6	yash	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=334965|AlignEnd=335174|Gloss=3Masc.Perf.Rel
 7	shìga	shig-	VERB	_	_	6	comp:aux	_	AlignBegin=335174|AlignEnd=335383|Gloss=enter
-8	cikin	cikin	ADP	_	_	7	comp:obl	_	AlignBegin=335383|AlignEnd=335592|Gloss=inside
+8	cikin	cikin	ADP	_	_	7	comp:obl	_	AlignBegin=335383|AlignEnd=335592|Gloss=in
 9	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=335592|AlignEnd=335801|Gloss=house.Masc.Cons
 10	Dòːdoː	Dòːdoː	PROPN	_	_	9	mod	_	AlignBegin=335801|AlignEnd=336010|Gloss=Dodo|wordform=dòːdoː
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=336010|AlignEnd=336223|Gloss=PUNCT
@@ -2162,7 +2162,7 @@
 10	tàhi	tah-	VERB	_	_	4	comp:obj	_	AlignBegin=344220|AlignEnd=344442|Gloss=go
 11	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	10	conj:coord	_	AlignBegin=344442|AlignEnd=344664|Gloss=2Fem.Sub
 12	kiraːyoː	kiraː	VERB	_	_	11	comp:aux	_	AlignBegin=344664|AlignEnd=344886|Gloss=call
-13	mài	mài	ADP	_	_	12	comp:obj	_	AlignBegin=344886|AlignEnd=345108|Gloss=having
+13	mài	mài	PART	_	Number=Sing|PartType=Der	12	comp:obj	_	AlignBegin=344886|AlignEnd=345108|Gloss=owner_of.Sing
 14	ayaː	ayaː	NOUN	_	ExtPos=NOUN	13	comp:obj	_	AlignBegin=345108|AlignEnd=345330|Gloss=tiger_nut|Idiom=Yes
 15	wàjên	wàjêː	ADV	_	_	14	compound	_	AlignBegin=345330|AlignEnd=345552|Gloss=outside|InIdiom=Yes
 16	nan	nan	DET	_	Definite=PrevRef	13	det	_	AlignBegin=345552|AlignEnd=345774|Gloss=PreRef
@@ -2256,7 +2256,7 @@
 # text_en = He entered the compound.
 1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=355273|AlignEnd=355477|Gloss=3Masc.Perf
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=355477|AlignEnd=355681|Gloss=enter
-3	cikin	cikin	ADP	_	_	2	comp:obl	_	AlignBegin=355681|AlignEnd=355885|Gloss=inside
+3	cikin	cikin	ADP	_	_	2	comp:obl	_	AlignBegin=355681|AlignEnd=355885|Gloss=in
 4	gidaː	gidaː	NOUN	_	Gender=Masc	3	comp:obj	_	AlignBegin=355885|AlignEnd=356089|Gloss=house.Masc
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=356089|AlignEnd=356292|Gloss=PUNCT
 
