@@ -7807,6 +7807,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__499
 # text = “ yànzu in kak kashèː ni , in kak kaːcʿèː min halshèː , waː kà kan nàːbaːrìː kaː hwasoː tsakar ruwân ga dà doːkìː ? “
+# validated_by = B-CARON
 1	“	“	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 2	yànzu	yànzu	ADV	_	_	15	mod	_	_
 3	in	in	SCONJ	_	_	15	mod	_	Gloss=if
@@ -7822,8 +7823,8 @@
 13	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 14	waː	waː	PRON	_	Gender=Fem|PronType=Rel	15	dislocated@subj	_	_
 15	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-16	kan	kan	ADV	_	Gender=Masc|Person=2	15	comp:aux	_	_
-17	nàːbaːrìː	nàːbaːrìː	NOUN	_	Gender=Masc	15	comp:aux	_	_
+16	kan	kan	PART	_	Aspect=Iter	15	compound:prt	_	Gloss=Iter
+17	nàːbaːrìː	nàːbaːrìː	NOUN	_	Gender=Masc	15	comp:aux	_	Gloss=story.Masc
 18	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	15	parataxis	_	Gloss=2Masc.Perf
 19	hwasoː	hwasaː	VERB	_	_	18	comp:aux	_	_
 20	tsakar	tsakaː	NOUN	_	Definite=Cons|Gender=Masc	19	comp:obj	_	_
