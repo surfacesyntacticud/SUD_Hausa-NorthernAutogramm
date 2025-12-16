@@ -2722,30 +2722,30 @@
 14	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__173
-# text = dà ankà cêː " jimmaʿàː », yac cèː " inàː dà màganàː " .
+# text = dà ankà cêː " jimmaʿàː " yac cèː " inàː dà màganàː " .
 1	dà	dà	SCONJ	_	_	7	mod	_	Gloss=that
 2	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	1	comp:obj	_	Gloss=4.Perf.Rel
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
 4	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	jimmaʿàː	jimmaʿàː	NOUN	_	Number=Plur	3	comp:obj	_	Gloss=people.Plur
-6	»,	»,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+6	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 7	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 8	cèː	cêː	VERB	_	_	7	comp:aux	_	Gloss=say
 9	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 10	inàː	nàː	AUX	_	Gender=Masc|Person=3	8	comp:obj	_	Gloss=1Sing.Prog
 11	dà	dà	ADP	_	_	10	comp:pred	_	Gloss=with
 12	màganàː	màganàː	NOUN	_	Gender=Fem	11	comp:obj	_	Gloss=speech.Fem
-13	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT|wordform=.
+13	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform=.
 14	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__174
-# text = " màːsu maulòː dà kuː nikè dà màganàː. "
+# text = " màːsu maulòː dà kuː nikè dà màganàː " .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-2	màːsu	mài	PART	_	Number=Plur|PartType=Der	0	root	_	Gloss=owner_of.Plur
+2	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	vocative	_	Gloss=owner_of.Plur
 3	maulòː	maulòː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=guitar.Masc
-4	dà	dà	ADP	_	_	3	comp:obl	_	Gloss=with
+4	dà	dà	ADP	_	_	0	root	_	Gloss=with
 5	kuː	kuː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	Gloss=2Plur.Nom
-6	nikè	nàː	AUX	_	Gender=Fem|Person=3	4	comp:obj	_	_
+6	nikè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	4	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 7	dà	dà	ADP	_	_	6	comp:pred	_	Gloss=with
 8	màganàː	màganàː	NOUN	_	Gender=Fem	7	comp:obj	_	Gloss=speech.Fem
 9	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
@@ -6459,12 +6459,12 @@
 20	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__413
-# text = “ tundà màːsu maulòː mukè dai baːà yi munà koːmiː. ”
+# text = “ tundà màːsu maulòː mukè dai baːà yi munà koːmiː ” .
 1	“	“	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	tundà	tundà	SCONJ	_	_	7	mod	_	_
 3	màːsu	mài	PART	_	Number=Plur|PartType=Der	2	comp:obj	_	Gloss=owner_of.Plur
 4	maulòː	maulòː	NOUN	_	Gender=Masc	3	comp:obj	_	Gloss=guitar.Masc
-5	mukè	nàː	AUX	_	Number=Plur|Person=1	0	root	_	_
+5	mukè	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1|Relative=Yes	0	root	_	Gloss=1Plur.Prog.Rel2
 6	dai	dai	PART	_	PartType=Top	5	discourse@top	_	Gloss=anyway
 7	baːà	nàː	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	5	parataxis@conj	_	Gloss=4.Prog.Neg
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
@@ -7810,7 +7810,7 @@
 14	ga	ganiː	VERB	_	_	13	comp:aux	_	Gloss=see
 15	ɗam	ɗaː	ADJ	_	Definite=Cons|Gender=Masc	14	comp:obj	_	_
 16	maːbà	maːbà	NOUN	_	Gender=Fem	15	mod	_	_
-17	nikè	nàː	AUX	_	Gender=Fem|Person=3	14	comp:obj	_	_
+17	nikè	nàː	AUX	_	Aspect=Prog|Gender=Fem|Number=Sing|Person=1|Relative=Yes	14	comp:obj	_	Gloss=1Sing.Prog.Rel2
 18	“	“	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 19	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -7862,7 +7862,7 @@
 8	san	sanìː	VERB	_	_	7	comp:aux	_	Gloss=know
 9	ɗam	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	_
 10	maːbà	maːbà	NOUN	_	Gender=Fem	9	mod	_	_
-11	kakè	nàː	AUX	_	Gender=Masc|Person=2	8	comp:obj	_	_
+11	kakè	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2|Relative=Yes	8	comp:obj	_	Gloss=2Masc.Prog.Rel2
 12	!	!	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 13	“	“	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -10100,7 +10100,7 @@
 4	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	dislocated@subj	_	Gloss=1Sing.Nom
 5	hwa	hwa	PART	_	PartType=Top	4	discourse@top	_	Gloss=indeed
 6	shìrye	shìrye	VERB	_	Gender=Masc	2	comp:obj	_	_
-7	nikè	nàː	AUX	_	Number=Sing|Person=1	6	comp:cleft	_	_
+7	nikè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	6	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 8	tundà	tundà	SCONJ	_	_	7	mod	_	_
 9	nit	yaː	AUX	_	Aspect=Perf|Person=1|Relative=Yes	6	mod	_	Gloss=1Sing.Perf.Rel
 10	taroː	taràː	VERB	_	_	9	comp:aux	_	Gloss=gather.dir
@@ -10134,7 +10134,7 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	shìrye	shìrye	VERB	_	Mood=Jus	2	comp:obj@T	_	_
-5	nikè	nàː	AUX	_	Gender=Fem|Person=3	4	comp:cleft	_	_
+5	nikè	nàː	AUX	_	Aspect=Prog|Gender=Fem|Number=Sing|Person=1|Relative=Yes	4	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 6	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -10144,7 +10144,7 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	shìrye	shìrye	VERB	_	Mood=Jus	2	comp:obj@T	_	_
-5	nikè	nàː	AUX	_	Aspect=Prog	4	comp:cleft	_	_
+5	nikè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	4	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 6	niː	niː	PRON	_	Case=Nom|ExtPos=NOUN|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	dislocated@subj	_	Gloss=1Sing.Nom
 7	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -11095,14 +11095,14 @@
 6	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__695
-# text = " wànga muːgùn àboː ay àbùkkeː kukè. "
+# text = " wànga muːgùn àboː ay àbùkkeː kukè " .
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 2	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	3	det	_	Gloss=Prox.Masc
 3	muːgùn	muːgùː	NOUN	_	Definite=Cons|Gender=Masc	5	dislocated@comp	_	_
 4	àboː	àboː	NOUN	_	_	3	mod	_	_
 5	ay	neː	AUX	_	Copula=Yes|Relative=Yes	0	root	_	Gloss=Ident.Rel
 6	àbùkkeː	àbùkkeː	NOUN	_	Gender=Masc	5	comp:pred	_	_
-7	kukè	nàː	AUX	_	Number=Plur|Person=2	5	comp:obl	_	_
+7	kukè	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2|Relative=Yes	5	comp:obl	_	Gloss=2Plur.Prog.Rel2
 8	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform="
 
@@ -11227,7 +11227,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__702
-# text = tôː loːkàcîn nan nàː mài maulòː yac cèː " Ìnaː sukè, shaːnuː ? " .
+# text = tôː loːkàcîn nan nàː mài maulòː yac cèː " Ìnaː sukè , shaːnuː ? " .
 1	tôː	tôː	INTJ	_	_	2	discourse	_	Gloss=well
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	Gloss=time.Masc.Cons
 3	nan	nan	DET	_	Definite=PrevRef	2	det	_	Gloss=PreRef
@@ -11238,7 +11238,7 @@
 8	cèː	cêː	VERB	_	_	7	comp:aux	_	Gloss=say
 9	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 10	Ìnaː	ìnaː	PROPN	_	_	8	comp:obj	_	Gloss=Ìnaː
-11	sukè	nàː	AUX	_	Number=Plur|Person=3	10	comp:cleft	_	_
+11	sukè	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Relative=Yes	10	comp:cleft	_	Gloss=3Plur.Prog.Rel2
 12	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
 13	shaːnuː	sâː	NOUN	_	Number=Plur	11	dislocated@subj	_	Gloss=cow.Plur
 14	?	?	PUNCT	_	_	10	punct	_	Gloss=PUNCT
@@ -11950,7 +11950,7 @@
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated@subj	_	Gloss=1Sing.Nom
 3	hwa	hwa	PART	_	PartType=Top	2	discourse@top	_	Gloss=indeed
 4	bàːƙoː	bàːƙoː	NOUN	_	Gender=Masc	5	subj	_	_
-5	nikè	nàː	AUX	_	Gender=Fem|Person=3	0	root	_	_
+5	nikè	nàː	AUX	_	Aspect=Prog|Gender=Fem|Number=Sing|Person=1|Relative=Yes	0	root	_	Gloss=1Sing.Prog.Rel2
 6	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -11981,7 +11981,7 @@
 5	dàw	dàgà	ADP	_	_	0	root	_	Gloss=from
 6	wani	wani	DET	_	Definite=Spec|Gender=Masc	7	det	_	Gloss=some.Masc
 7	gàriː	gàriː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=town.Masc
-8	nikè	nàː	AUX	_	Gender=Fem|Person=3	5	comp:cleft	_	_
+8	nikè	nàː	AUX	_	Aspect=Prog|Gender=Fem|Number=Sing|Person=1|Relative=Yes	5	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 9	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
 
@@ -13800,7 +13800,7 @@
 5	san	sanìː	VERB	_	_	4	comp:aux	_	Gloss=know
 6	koː	koː	SCONJ	_	_	5	comp:obj	_	_
 7	waː	waː	PRON	_	_	6	comp:obj	_	_
-8	nikè	nàː	AUX	_	Number=Sing|Person=1	7	comp:cleft	_	_
+8	nikè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	7	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 9	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
 10	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
 
