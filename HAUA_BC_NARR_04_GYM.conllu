@@ -579,7 +579,7 @@
 # text_ortho = anàː nan |c anàː nan |c anàː nan < rân nan < sai uwattà tay yi cikìː //
 # text = a nàː nan |r a nàː nan |r a nàː nan < rân nan < sai uwattà tay yi cikìː //
 # text_en = After some time, one day, her [Dove's] mother became pregnant.
-1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	15	mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Prog|wordform=a
+1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	15	parataxis@mod	_	AlignBegin=100380|AlignEnd=100603|Gloss=4.Prog|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=100603|AlignEnd=100826|Gloss=Def
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=100826|AlignEnd=101049|Gloss=PUNCT
 4	anàː	nàː	AUX	_	Aspect=Prog|Person=4	1	conj:redup	_	AlignBegin=101049|AlignEnd=101272|Gloss=4.Prog|wordform=a
@@ -1090,11 +1090,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 178740, 182100
 # text_ortho = a nàː nan < shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
-# text = a nàː nan shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
+# text = anàː nan shinàː yaːɗaː |r shinàː yaːɗaː |r shinàː yaːɗaː hay yah hitoː gàriː //
 # text_en = After a while, it kept creeping until it went out of the village.
-1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=178938|AlignEnd=179136|Gloss=4.Prog|wordform=a
+1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	12	parataxis@mod	_	AlignBegin=178938|AlignEnd=179136|Gloss=4.Prog|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=179136|AlignEnd=179334|Gloss=Def
-3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis@conj	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Prog
+3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	12	parataxis@mod	_	AlignBegin=179532|AlignEnd=179730|Gloss=3Masc.Prog
 4	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	3	comp:aux	_	AlignBegin=179730|AlignEnd=179928|Gloss=creeping.Masc
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=179928|AlignEnd=180126|Gloss=PUNCT
 6	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	3	conj:redup	_	AlignBegin=180126|AlignEnd=180324|Gloss=3Masc.Prog
@@ -1102,11 +1102,11 @@
 8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=180522|AlignEnd=180720|Gloss=PUNCT
 9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=180720|AlignEnd=180918|Gloss=3Masc.Prog
 10	yaːɗaː	yaːɗaː	NOUN	_	Gender=Masc	9	comp:aux	_	AlignBegin=180918|AlignEnd=181116|Gloss=creeping.Masc
-11	hay	har	SCONJ	_	_	9	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=until
-12	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	11	comp:obj	_	AlignBegin=181314|AlignEnd=181512|Gloss=3Masc.Perf.Rel
+11	hay	har	ADV	_	_	12	mod	_	AlignBegin=181116|AlignEnd=181314|Gloss=finally
+12	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=181314|AlignEnd=181512|Gloss=3Masc.Perf.Rel
 13	hitoː	hit-	VERB	_	_	12	comp:aux	_	AlignBegin=181512|AlignEnd=181710|Gloss=come_out
 14	gàriː	gàriː	NOUN	_	Gender=Masc	13	comp:obj@G	_	AlignBegin=181710|AlignEnd=181908|Gloss=village.Masc
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181908|AlignEnd=182100|Gloss=PUNCT
+15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=181908|AlignEnd=182100|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_055-055
 # speaker_id = SP
@@ -1597,13 +1597,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_04_GYM.WAV
 # sent_timecode = 258292, 260800
 # text_ortho = a nàː nan < ɗaɗà hay yat taːshì |c ankà baː shì ruwaː |c yah hwalkàː //
-# text = a nàː nan ɗaɗà hay yat taːshì //= ankà baː shì ruwaː //= yah hwalkàː //
+# text = anàː nan ɗaɗà hay yat taːshì //= ankà baː shì ruwaː //= yah hwalkàː //
 # text_en = After a while, then, he got up, they gave him water, he felt better.
-1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=258440|AlignEnd=258588|Gloss=4.Prog|wordform=a
+1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	5	parataxis@mod	_	AlignBegin=258440|AlignEnd=258588|Gloss=4.Prog|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=258588|AlignEnd=258736|Gloss=Def
-3	ɗaɗà	ɗaɗà	ADV	_	_	1	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then
-4	hay	har	SCONJ	_	_	1	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=until
-5	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	comp:obj	_	AlignBegin=259180|AlignEnd=259328|Gloss=3Masc.Perf.Rel
+3	ɗaɗà	ɗaɗà	ADV	_	_	5	mod	_	AlignBegin=258884|AlignEnd=259032|Gloss=then
+4	hay	har	ADV	_	_	5	mod	_	AlignBegin=259032|AlignEnd=259180|Gloss=finally
+5	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=259180|AlignEnd=259328|Gloss=3Masc.Perf.Rel
 6	taːshì	taːs-	VERB	_	_	5	comp:aux	_	AlignBegin=259328|AlignEnd=259476|Gloss=stand
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=259476|AlignEnd=259624|Gloss=PUNCT
 8	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	5	parataxis@conj	_	AlignBegin=259624|AlignEnd=259772|Gloss=4.Perf.Rel
@@ -1613,7 +1613,7 @@
 12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=260216|AlignEnd=260364|Gloss=PUNCT
 13	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	8	parataxis@conj	_	AlignBegin=260364|AlignEnd=260512|Gloss=3Masc.Perf.Rel
 14	hwalkàː	hwalkàː	VERB	_	_	13	comp:aux	_	AlignBegin=260512|AlignEnd=260660|Gloss=wake_up
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=260660|AlignEnd=260800|Gloss=PUNCT
+15	//	//	PUNCT	_	_	5	punct	_	AlignBegin=260660|AlignEnd=260800|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_082a-082a
 # speaker_id = SP
@@ -1663,7 +1663,7 @@
 # text_ortho = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text = a nàː nan |c a nàː nan < sai dàb baːya < dà koːwaː yaw waːc'èː < yah hwaɗàː mà uwaːtai //
 # text_en = After a while, after that, when everyone had gone away, he told his mother.
-1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	16	mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=4.Prog|wordform=a
+1	anàː	nàː	AUX	_	Aspect=Prog|Person=4	16	parataxis@mod	_	AlignBegin=265186|AlignEnd=265372|Gloss=4.Prog|wordform=a
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	AlignBegin=265372|AlignEnd=265558|Gloss=Def
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=265558|AlignEnd=265744|Gloss=PUNCT
 4	anàː	nàː	AUX	_	Aspect=Prog|Person=4	1	conj:redup	_	AlignBegin=265930|AlignEnd=266116|Gloss=4.Prog|wordform=a

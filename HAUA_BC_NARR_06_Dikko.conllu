@@ -180,17 +180,17 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__14
 # text = tôː anàː nan wata shèːkaràː sai Garbà yat tàhi yaːƙìː.
-1	tôː	tôː	INTJ	_	_	2	discourse	_	Gloss=well
-2	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
+1	tôː	tôː	INTJ	_	_	8	discourse	_	Gloss=well
+2	anàː	nàː	AUX	_	Person=4	8	parataxis@mod	_	Gloss=4.Prog
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	Gloss=there
 4	wata	wata	DET	_	Definite=Spec|Gender=Fem	5	det	_	Gloss=some.Fem
-5	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	3	conj:appos	_	Gloss=year.Fem
+5	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	8	mod	_	Gloss=year.Fem
 6	sai	sai	ADV	_	_	8	mod	_	Gloss=then
 7	Garbà	Garbà	PROPN	_	_	8	subj	_	Gloss=Garbà
-8	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	parataxis@conj	_	Gloss=3Masc.Perf.Rel
+8	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 9	tàhi	tàhi	VERB	_	_	8	comp:aux	_	Gloss=go
 10	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	9	comp:obj@G	_	Gloss=war.Masc
-11	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+11	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__15
 # text = dà Garbà yat tàhi yaːƙìː , Garbà shinàː cîn yaːƙìː sai ankà soːkèː shi dà maːshìː gà cikìː .
@@ -504,7 +504,7 @@
 1	anàː	nàː	AUX	_	Person=4	7	parataxis@mod	_	Gloss=4.Prog
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	Gloss=there
 3	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-4	anàː	nàː	AUX	_	Person=4	1	parataxis@conj	_	Gloss=4.Prog
+4	anàː	nàː	AUX	_	Person=4	1	conj:redup	_	Gloss=4.Prog
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	Gloss=there
 6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 7	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
@@ -1094,20 +1094,20 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__68
 # text = tôː anàː nan, anàː nan, yaːròː yag girma yaʿ iyà tàhiyàː.
-1	tôː	tôː	INTJ	_	_	2	discourse	_	Gloss=well
-2	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
+1	tôː	tôː	INTJ	_	_	9	discourse	_	Gloss=well
+2	anàː	nàː	AUX	_	Person=4	9	parataxis@mod	_	Gloss=4.Prog
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	Gloss=there
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
-5	anàː	nàː	AUX	_	Person=4	2	parataxis@conj	_	Gloss=4.Prog
+5	anàː	nàː	AUX	_	Person=4	2	conj:redup	_	Gloss=4.Prog
 6	nan	nan	ADV	_	Definite=Def|PronType=Dem	5	comp:pred	_	Gloss=there
 7	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 8	yaːròː	yaːròː	NOUN	_	Gender=Masc	9	subj	_	Gloss=boy.Masc
-9	yag	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	parataxis@conj	_	Gloss=3Masc.Perf.Rel
+9	yag	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 10	girma	girma	VERB	_	_	9	comp:aux	_	Gloss=grow
 11	yaʿ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	10	comp:obj	_	Gloss=3Masc.Perf.Rel
 12	iyà	iyàː	VERB	_	_	11	comp:aux	_	Gloss=can
 13	tàhiyàː	tàhi	VERB	_	ExtPos=NOUN|Gender=Fem	12	comp:obj	_	Gloss=go
-14	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+14	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__69
 # text = Garbaː Dikkò yag girma yaʿ iyà tàhiyàː.
@@ -2005,7 +2005,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__133
 # text = anàː nan Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː Garbà hàlla-hàllan hàukaː yaː yi wata ʿyat tàhiyàː sai yaj ji nàːbaːrìn wani yaːƙìː .
-1	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
+1	anàː	nàː	AUX	_	Person=4	19	parataxis@mod	_	Gloss=4.Prog
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	Gloss=there
 3	Dandà	Dandà	PROPN	_	_	13	subj	_	Gloss=Dandà
 4	Garbaː	Garbaː	PROPN	_	_	3	flat@name	_	Gloss=Garbaː
@@ -2017,18 +2017,18 @@
 10	Garbà	Garbà	PROPN	_	_	8	conj:dicto	_	Gloss=Garbà
 11	hàlla-hàllan	hàlla-hàllan	NOUN	_	_	10	flat@name	_	Gloss=character(?).Masc
 12	hàukaː	hàukaː	NOUN	_	Gender=Fem	11	flat@name	_	Gloss=madness.Fem
-13	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	parataxis@conj	_	Gloss=3Masc.Perf
+13	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	19	parataxis@mod	_	Gloss=3Masc.Perf
 14	yi	yi	VERB	_	_	13	comp:aux	_	Gloss=do
 15	wata	wata	DET	_	Definite=Spec|Gender=Fem	17	det	_	Gloss=some.Fem
 16	ʿyat	ɗan	ADJ	_	Definite=Cons|Gender=Fem	17	mod	_	Gloss=small.Fem
 17	tàhiyàː	tàhi	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:pred	_	Gloss=leave.Vnoun.Fem
 18	sai	sai	ADV	_	_	19	mod	_	Gloss=then
-19	yaj	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	13	parataxis@conj	_	Gloss=3Masc.Perf.Rel
+19	yaj	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 20	ji	ji	VERB	_	_	19	comp:aux	_	Gloss=hear
 21	nàːbaːrìn	nàːbaːrìː	NOUN	_	Definite=Cons|Gender=Masc	20	comp:obj	_	Gloss=story.Masc.Cons
 22	wani	wani	DET	_	Definite=Spec|Gender=Masc	23	det	_	Gloss=some.Masc
 23	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	20	comp:obj	_	Gloss=war.Masc
-24	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+24	.	.	PUNCT	_	_	19	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__134
 # text = dà yaj ji nàːbaːrìn wani yaːƙìː, Dandà Garbaː Dikkò yat tàrbi yaːƙìn nan.
@@ -2389,14 +2389,14 @@
 # text = ankà kai kuɗiː ankà ɗarmàː musù armeː , ankà wankèː ta , ankà yi aggànta , ankà kaːwoː mà Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː Garbà hàlle-hàllan hàukaː Garbà hàlle-hàllan mutuwàː kalì hadìɗiː kali handì .
 1	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 2	kai	kai	VERB	_	_	1	comp:aux	_	Gloss=take
-3	kuɗiː	kuɗiː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=money.Masc
+3	kuɗiː	kuɗiː	NOUN	_	Gender=Masc	2	comp:obj	_	_
 4	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	1	parataxis@conj	_	Gloss=4.Perf.Rel
-5	ɗarmàː	ɗarmàː	VERB	_	_	4	comp:aux	_	Gloss=tie
+5	ɗarmàː	ɗarmàː	VERB	_	_	4	comp:aux	_	_
 6	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	comp:obl	_	Gloss=3Plur.Dat
 7	armeː	armeː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=wedding.Masc
 8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 9	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	4	parataxis@conj	_	Gloss=4.Perf.Rel
-10	wankèː	wankèː	VERB	_	_	9	comp:aux	_	Gloss=wash
+10	wankèː	wankèː	VERB	_	_	9	comp:aux	_	_
 11	ta	ta	PRON	_	Case=Acc|Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	Gloss=3Fem.Acc
 12	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
 13	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	9	parataxis@conj	_	Gloss=4.Perf.Rel
@@ -2419,9 +2419,9 @@
 30	Garbà	Garbà	PROPN	_	_	27	conj:dicto	_	Gloss=Garbà
 31	hàlle-hàllan	hàlle-hàllaː	NOUN	_	Definite=Cons|Gender=Masc	30	flat@name	_	Gloss=character(?).Masc.Cons
 32	mutuwàː	mutuwàː	NOUN	_	Number=Plur	31	flat@name	_	Gloss=death.Fem
-33	kalì	X	X	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	30	conj:dicto	_	Gloss=X
-34	hadìɗiː	X	X	_	Gender=Masc	33	flat@foreign	_	Gloss=X
-35	kali	X	X	_	Aspect=Perf|Gender=Masc|Person=2	34	flat@foreign	_	Gloss=X
+33	kalì	X	X	_	_	30	conj:dicto	_	Gloss=X
+34	hadìɗiː	X	X	_	_	33	flat@foreign	_	Gloss=X
+35	kali	X	X	_	_	34	flat@foreign	_	Gloss=X
 36	handì	X	X	_	_	35	flat@foreign	_	Gloss=X
 37	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -2648,49 +2648,48 @@
 3	taːshì	taːshì	VERB	_	_	2	comp:aux	_	Gloss=rise/leave
 4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 5	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
-6	ràkkeː	ràkkaː	VERB	_	_	5	comp:aux	_	_
+6	ràkkeː	ràkkaː	VERB	_	_	5	comp:aux	_	Gloss=escort
 7	kà	ka	PRON	_	Case=Acc|Gender=Masc|Person=2	6	comp:obj	_	Gloss=2Masc.Acc
 8	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	5	parataxis@conj	_	Gloss=2Masc.Sub
-9	tàhiyàkka	tàhiyàː	VERB	_	ExtPos=NOUN|Gender=Fem	8	comp:aux	_	_
+9	tàhiyàkka	tàhi	VERB	_	Case=Gen|Gender=Masc|Person=2	8	comp:aux	_	Gloss=go.Vnoun.Fem.Cons\2Masc.Gen
 10	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__168
-# text = koː dallàː, baːshì baːsuwàː.
-1	koː	koː	CCONJ	_	_	2	cc	_	_
-2	dallàː	dallàː	NOUN	_	Gender=Masc	4	subj	_	_
+# text = koː dallàː , baːshì baːsuwàː .
+1	koː	koː	ADV	_	_	2	mod	_	Gloss=even
+2	dallàː	dallàː	NOUN	_	Gender=Fem	4	subj	_	Gloss=shilling.Fem
 3	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 4	baːshì	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Prog.Neg
-5	baːsuwàː	baːsuwàː	VERB	_	ExtPos=NOUN|Gender=Fem	4	comp:aux	_	_
+5	baːsuwàː	baːsàː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun|Voice=Cau	4	comp:aux	_	Gloss=give
 6	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__169
-# text = hakàn ga nàː akèː zuwàː .
-1	hakàn	hakàn	ADV	_	_	3	mod	_	_
-2	ga	ganiː	VERB	_	_	1	mod	_	Gloss=see
-3	nàː	nàː	AUX	_	_	0	root	_	_
-4	akèː	nàː	AUX	_	Aspect=Prog|Person=4	3	comp:cleft	_	_
-5	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp:aux	_	Gloss=go.Vnoun.Masc
-6	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+# text = hakànga nàː akè zuwàː .
+1	hakànga	hakànga	ADV	_	_	0	root	_	Gloss=like_this
+2	nàː	nàː	PART	_	PartType=Foc	1	discourse@foc	_	Gloss=Emph
+3	akè	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	1	comp:cleft	_	Gloss=4.Prog.Rel2
+4	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	Gloss=go.Vnoun.Masc
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__170
 # text = Dandà Garbaː Dikkò Garbà Ɗiɗìː Garbà Tatìː.
-1	Dandà	Dandà	PROPN	_	_	4	mod	_	Gloss=Dandà
-2	Garbaː	Garbaː	NOUN	_	_	4	mod	_	_
+1	Dandà	Dandà	PROPN	_	_	0	root	_	Gloss=Dandà
+2	Garbaː	Garbaː	NOUN	_	_	1	flat@name	_	_
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
-4	Garbà	Garbà	PROPN	_	_	0	root	_	Gloss=Garbà
+4	Garbà	Garbà	PROPN	_	_	1	conj:dicto	_	Gloss=Garbà
 5	Ɗiɗìː	Ɗiɗìː	PROPN	_	Gender=Masc	4	flat@name	_	Gloss=Ɗiɗìː
 6	Garbà	Garbà	PROPN	_	_	4	conj:dicto	_	Gloss=Garbà
 7	Tatìː	tatìː	VERB	_	_	6	flat@name	_	_
-8	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__171
 # text = anàː nan, anàː nan, rân nan sai màːsu maulòː sunkà zakà sunàː yi mai kiɗìn maulòː.
-1	anàː	nàː	AUX	_	Person=4	12	mod	_	Gloss=4.Prog
+1	anàː	nàː	AUX	_	Person=4	12	parataxis@mod	_	Gloss=4.Prog
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	Gloss=there
 3	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 4	anàː	nàː	AUX	_	Person=4	1	parataxis@conj	_	Gloss=4.Prog
 5	nan	nan	ADV	_	Definite=Def|PronType=Dem	4	comp:pred	_	Gloss=there
-6	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 7	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	12	mod	_	Gloss=day
 8	nan	nan	DET	_	Definite=PrevRef	7	det	_	Gloss=PreRef
 9	sai	sai	ADV	_	_	12	mod	_	Gloss=then
@@ -3317,14 +3316,14 @@
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__212
-# text = anàː nan raːnaː taː hwaːɗì sai cilàkko taz zakà tah hausà iccèː.
-1	anàː	nàː	AUX	_	Person=4	8	mod	_	Gloss=4.Prog
+# text = anàː nan raːnaː taː hwaːɗì sai cilàkko taz zakà tah hausà iccèː .
+1	anàː	nàː	AUX	_	Person=4	8	parataxis@mod	_	Gloss=4.Prog
 2	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	comp:pred	_	Gloss=there
 3	raːnaː	raːnaː	NOUN	_	_	4	subj	_	Gloss=day
-4	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	parataxis@conj	_	Gloss=3Fem.Perf
-5	hwaːɗì	hwaːɗà	VERB	_	_	4	comp:aux	_	Gloss=fall
+4	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	8	parataxis@mod	_	Gloss=3Fem.Perf
+5	hwaːɗì	hwaːɗì	VERB	_	_	4	comp:aux	_	Gloss=fall
 6	sai	sai	ADV	_	_	8	mod	_	Gloss=then
-7	cilàkko	cilàkko	NOUN	_	Gender=Masc	8	subj	_	_
+7	cilàkko	cilàkko	NOUN	_	Gender=Fem	8	subj	_	Gloss=hornbill.Fem
 8	taz	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 9	zakà	zakà	VERB	_	_	8	comp:aux	_	Gloss=arrive
 10	tah	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	8	parataxis@conj	_	Gloss=3Fem.Perf.Rel
@@ -4096,14 +4095,14 @@
 6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__260
-# text = tôː anàː nan, wata raːnaː Dandà Garbaː Dikkò, Garbà Ɗiɗìː, Garbà Tatìː, Garbà hàlle-hàllan hàukaː, yaː ràkki wasu, màːsu maulòː suː buy sun tàhi.
-1	tôː	tôː	INTJ	_	_	2	discourse	_	Gloss=well
-2	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
+# text = tôː anàː nan , wata raːnaː Dandà Garbaː Dikkò , Garbà Ɗiɗìː , Garbà Tatìː , Garbà hàlle-hàllan hàukaː , yaː ràkki wasu , màːsu maulòː suː buy sun tàhi .
+1	tôː	tôː	INTJ	_	_	21	discourse	_	Gloss=well
+2	anàː	nàː	AUX	_	Person=4	21	parataxis@mod	_	Gloss=4.Prog
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	Gloss=there
-4	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+4	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 5	wata	wata	DET	_	Definite=Spec|Gender=Fem	6	det	_	Gloss=some.Fem
 6	raːnaː	raːnaː	NOUN	_	Gender=Fem	21	mod	_	Gloss=day
-7	Dandà	Dandà	PROPN	_	_	6	mod	_	Gloss=Dandà
+7	Dandà	Dandà	PROPN	_	_	21	subj	_	Gloss=Dandà
 8	Garbaː	Garbaː	PROPN	_	_	7	flat@name	_	Gloss=Garbaː
 9	Dikkò	Dikkò	PROPN	_	_	8	flat@name	_	Gloss=Dikkò
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
@@ -4117,17 +4116,17 @@
 18	hàlle-hàllan	hàlle-hàllaː	ADJ	_	Definite=Cons|Number=Plur	17	flat@name	_	Gloss=character(?)
 19	hàukaː	hàukaː	NOUN	_	Gender=Fem	18	flat@name	_	Gloss=madness.Fem
 20	,	,	PUNCT	_	_	21	punct	_	Gloss=PUNCT
-21	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	parataxis@conj	_	Gloss=3Masc.Perf
-22	ràkki	ràkki	VERB	_	_	21	comp:aux	_	_
+21	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
+22	ràkki	ràkkaː	VERB	_	_	21	comp:aux	_	Gloss=escort
 23	wasu	wasu	DET	_	Definite=Spec|Gender=Masc|Number=Plur	22	comp:obj	_	Gloss=some.Plur
 24	,	,	PUNCT	_	_	25	punct	_	Gloss=PUNCT
 25	màːsu	mài	PART	_	Number=Plur|PartType=Der	21	subj	_	Gloss=owner_of.Plur
 26	maulòː	maulòː	NOUN	_	Gender=Masc	25	comp:obj	_	Gloss=guitar.Masc
-27	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	conj:appos	_	Gloss=3Plur.Nom
-28	buy	buy	ADP	_	_	27	mod	_	_
-29	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	28	comp:obj	_	Gloss=3Plur.Perf
+27	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	mod	_	Gloss=3Plur.Nom
+28	buy	biyu	NUM	_	_	27	mod@num	_	Gloss=two
+29	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	21	parataxis@conj	_	Gloss=3Plur.Perf
 30	tàhi	tàhi	VERB	_	_	29	comp:aux	_	Gloss=go
-31	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+31	.	.	PUNCT	_	_	21	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__261
 # text = koːdà yaz zakà, yash shìga cikin ɗaːkìː sai yaj ji an cèː sàlaːma àleːkùm.
@@ -4780,7 +4779,7 @@
 11	arzìkiː	arzìkiː	NOUN	_	Gender=Masc	10	comp:obj	_	_
 12	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	10	mod	_	Gloss=compound.Masc.Cons
 13	Dandà	Dandà	PROPN	_	_	12	mod	_	Gloss=Dandà
-14	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garbaː
+14	Garbaː	Garbaː	PROPN	_	_	13	flat@name	_	Gloss=Garbaː
 15	Dikkò	Dikkò	PROPN	_	_	14	flat@name	_	Gloss=Dikkò
 16	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 17	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -5014,7 +5013,7 @@
 2	Garbaː	Garbaː	PROPN	_	_	4	subj	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
-5	ràkkeː	ràkkaː	VERB	_	_	4	comp:aux	_	_
+5	ràkkeː	ràkkaː	VERB	_	_	4	comp:aux	_	Gloss=escort
 6	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	Gloss=3Plur.Acc
 7	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -13459,22 +13458,22 @@
 15	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__846
-# text = tôː anàː nan sai rân nan ɗìyas sarkiː taː tàhi wurin kai mai àbincìː.
+# text = tôː anàː nan sai rân nan ɗìyas sarkiː taː tàhi wurin kai mai àbincìː .
 1	tôː	tôː	INTJ	_	_	9	discourse	_	Gloss=well
-2	anàː	nàː	AUX	_	Person=4	0	root	_	Gloss=4.Prog
+2	anàː	nàː	AUX	_	Person=4	9	parataxis@mod	_	Gloss=4.Prog
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	Gloss=there
-4	sai	sai	ADP	_	_	2	mod	_	_
-5	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	9	subj	_	Gloss=day
+4	sai	sai	ADV	_	_	9	mod	_	_
+5	rân	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	9	mod	_	Gloss=day
 6	nan	nan	DET	_	Definite=PrevRef	5	det	_	Gloss=PreRef
 7	ɗìyas	ɗìyaː	NOUN	_	Gender=Fem	9	subj	_	Gloss=daughter.Fem
 8	sarkiː	sarkiː	NOUN	_	Gender=Masc	7	mod	_	Gloss=king.Masc
-9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	parataxis@conj	_	Gloss=3Fem.Perf
+9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf
 10	tàhi	tàhi	VERB	_	_	9	comp:aux	_	Gloss=go
-11	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obl	_	Gloss=place.Masc.Cons
+11	wurin	wuriː	ADP	_	Definite=Cons|Gender=Masc	10	comp:obl	_	Gloss=to
 12	kai	kai	VERB	_	_	11	comp:obj	_	Gloss=take
 13	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	12	comp:obl	_	Gloss=3Masc.Dat
 14	àbincìː	àbincìː	NOUN	_	Gender=Masc	12	comp:obj	_	_
-15	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+15	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__847
 # text = àsheː Dandà Garbaː Dikkò bài cìnkài ta ba sai dà tat tirmisam mai.
