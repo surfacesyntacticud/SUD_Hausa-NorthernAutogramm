@@ -2740,7 +2740,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__174
 # text = " màːsu maulòː dà kuː nikè dà màganàː " .
-1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 2	màːsu	mài	PART	_	Number=Plur|PartType=Der	4	vocative	_	Gloss=owner_of.Plur
 3	maulòː	maulòː	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=guitar.Masc
 4	dà	dà	ADP	_	_	0	root	_	Gloss=with
@@ -2748,23 +2748,23 @@
 6	nikè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	4	comp:cleft	_	Gloss=1Sing.Prog.Rel2
 7	dà	dà	ADP	_	_	6	comp:pred	_	Gloss=with
 8	màganàː	màganàː	NOUN	_	Gender=Fem	7	comp:obj	_	Gloss=speech.Fem
-9	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
-10	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
+9	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
+10	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__175
-# text = sunkà cêː mai " Rânkà shì daɗèː, màganàː ta mìː? "
+# text = sunkà cêː mai " rânkà shì daɗèː , màganàː ta mìː ? "
 1	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	2	comp:obl	_	Gloss=3Masc.Dat
-4	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-5	Rânkà	Rânkà	PROPN	_	_	6	subj	_	Gloss=Rânkà
-6	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	2	comp:obj@T	_	Gloss=3Masc.Sub
+4	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+5	rânkà	rânkà	NOUN	_	Case=Gen|Gender=Masc|Person=2	6	subj	_	Gloss=life.Masc.Cons\2Masc.Gen
+6	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	9	discourse	_	Gloss=3Masc.Sub
 7	daɗèː	daɗèː	VERB	_	_	6	comp:aux	_	_
-8	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-9	màganàː	màganàː	NOUN	_	Gender=Fem	6	subj	_	Gloss=speech.Fem
-10	ta	na	AUX	_	Case=Gen|Gender=Fem	7	mod	_	Gloss=Gen.Fem
-11	mìː	mìː	PRON	_	_	10	comp:obj	_	_
-12	?	?	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+8	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+9	màganàː	màganàː	NOUN	_	Gender=Fem	2	comp:obj	_	Gloss=speech.Fem
+10	ta	na	ADP	_	Case=Gen|Gender=Fem	9	mod	_	Gloss=Gen.Fem
+11	mìː	mìː	PRON	_	PronType=Int	10	comp:obj	_	Gloss=what
+12	?	?	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 13	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__176
@@ -8698,13 +8698,13 @@
 8	“	“	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 9	ʿYabBàraːya	ʿyabbàraːya	PROPN	_	_	10	vocative	_	Gloss=ʿYabBàraːya
 10	don	don	ADP	_	_	6	comp:obj	_	Gloss=because
-11	mìː	mìː	PRON	_	_	10	comp:obj	_	_
-12	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	10	discourse@foc	_	_
+11	mìː	mìː	PRON	_	PronType=Int	10	comp:obj	_	Gloss=what
+12	naː	yaː	PART	_	PartType=Foc	11	discourse@foc	_	Gloss=Emph
 13	kikà	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=2|Relative=Yes	10	comp:cleft	_	Gloss=2Fem.Prog.Rel
-14	barìn	barìː	VERB	_	Definite=Cons	13	comp:aux	_	_
-15	kânki	kânki	NOUN	_	_	14	comp:obj	_	_
-16	bùːɗe	bùːɗe	ADV	_	_	14	mod	_	_
-17	hakà	hakà	ADV	_	_	16	mod	_	_
+14	barìn	bar	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	13	comp:aux	_	Gloss=leave.Vnoun.Masc.Cons
+15	kânki	kâi	NOUN	_	Case=Gen|Gender=Fem|Person=2	14	comp:obj	_	Gloss=head.Masc.Cons\2Fem.Gen
+16	bùːɗe	buːɗèː	ADV	_	ExtPos=ADV|VerbForm=Part	14	mod	_	Gloss=open.Stat
+17	hakà	hakà	ADV	_	_	16	mod	_	Gloss=like_this
 18	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	17	conj:dicto	_	Gloss=there_is_not
 19	kàlmisàː	kàlmisàː	NOUN	_	_	18	subj	_	_
 20	?	?	PUNCT	_	_	10	punct	_	Gloss=PUNCT
