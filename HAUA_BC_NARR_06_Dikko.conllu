@@ -3002,43 +3002,43 @@
 6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__192
-# text = shiː, kiɗìn maulòː gàba dà daːma gàrai.
+# text = shiː , kiɗìn maulòː gàba dà daːma gàrai .
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	Gloss=3Masc.Nom
 2	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 3	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|Gender=Masc	1	conj:appos	_	Gloss=music.Masc.Cons
 4	maulòː	maulòː	NOUN	_	Gender=Masc	3	mod	_	Gloss=guitar.Masc
-5	gàba	gàba	ADV	_	_	8	comp:pred	_	_
+5	gàba	gàba	ADV	_	_	8	comp:pred	_	Gloss=in_front
 6	dà	dà	ADP	_	_	5	mod	_	Gloss=with
-7	daːma	daːma	NOUN	_	Gender=Fem	6	comp:obj	_	_
-8	gàrai	gàrai	NOUN	_	Gender=Masc	0	root	_	_
+7	daːma	daːma	NOUN	_	_	6	comp:obj	_	Gloss=at_right
+8	gàrai	gàrai	ADP	_	Case=Acc|Gender=Masc|Person=3	0	root	_	Gloss=at\3Masc.Acc
 9	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__193
 # text = kuma haʿ àljaniː gàreː sù na kiɗìn maulòː .
 1	kuma	kuma	PART	_	PartType=Disc	4	discourse	_	Gloss=too
-2	haʿ	har	SCONJ	_	_	4	mod	_	Gloss=until
-3	àljaniː	àljaniː	NOUN	_	Gender=Masc	4	subj	_	_
+2	haʿ	har	ADV	_	_	3	mod	_	Gloss=even
+3	àljaniː	àljaniː	NOUN	_	Gender=Masc	4	subj	_	Gloss=jinn.Masc
 4	gàreː	gà	ADP	_	_	0	root	_	Gloss=by
 5	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	Gloss=3Plur.Acc
-6	na	na	ADP	_	Case=Gen	5	mod	_	Gloss=Gen
+6	na	na	ADP	_	Case=Gen	3	mod	_	Gloss=Gen
 7	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	6	comp:obj	_	Gloss=music.Masc.Cons
 8	maulòː	maulòː	NOUN	_	Gender=Masc	7	udep	_	Gloss=guitar.Masc
 9	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__194
 # text = shiː dà yaɗ ɗòːki maulòːnai bài yoː gidaː ba , daːjì yay yi .
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	Gloss=3Masc.Nom
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@subj	_	Gloss=3Masc.Nom
 2	dà	dà	SCONJ	_	_	1	mod	_	Gloss=that
 3	yaɗ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	comp:obj	_	Gloss=3Masc.Perf.Rel
-4	ɗòːki	ɗaːkaː	VERB	_	_	3	comp:aux	_	_
+4	ɗòːki	ɗòːkaː	VERB	_	_	3	comp:aux	_	Gloss=take
 5	maulòːnai	maulòː	NOUN	_	Case=Gen|Gender=Masc|Person=3	4	comp:obj	_	Gloss=guitar.Masc  \3Masc.Gen
-6	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	1	comp:cleft	_	Gloss=3Masc.Perf.Neg
+6	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 7	yoː	yi	VERB	_	_	6	comp:aux	_	Gloss=do
 8	gidaː	gidaː	NOUN	_	Gender=Masc	7	comp:pred	_	Gloss=compound.Masc
 9	ba	ba	PART	_	Polarity=Neg	7	mod	_	Gloss=Neg
-10	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-11	daːjì	daːjìː	NOUN	_	Gender=Masc	12	subj	_	_
-12	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	6	parataxis@conj	_	Gloss=3Masc.Perf.Rel
+10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+11	daːjì	daːjìː	NOUN	_	Gender=Masc	6	parataxis@conj	_	_
+12	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	11	comp:cleft	_	Gloss=3Masc.Perf.Rel
 13	yi	yi	VERB	_	_	12	comp:aux	_	Gloss=do
 14	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
@@ -3052,7 +3052,7 @@
 6	dà	dà	ADP	_	_	5	comp:obl	_	Gloss=with
 7	maulòː	maulòː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=guitar.Masc
 8	cikin	cikin	ADP	_	_	5	mod	_	Gloss=in
-9	daːjìː	daːjìː	NOUN	_	Gender=Masc	8	comp:obj	_	_
+9	daːjìː	daːjìː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=bush.Masc
 10	sai	sai	ADV	_	_	11	mod	_	Gloss=then
 11	yaʿ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 12	îskè	îskèː	VERB	_	_	11	comp:aux	_	_
@@ -3106,7 +3106,7 @@
 8	dà	dà	ADP	_	_	6	comp:obl	_	Gloss=with
 9	maulòː	maulòː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=guitar.Masc
 10	cikin	cikin	ADP	_	_	6	comp:obl	_	Gloss=in
-11	daːjìː	daːjìː	NOUN	_	Gender=Masc	10	comp:obj	_	_
+11	daːjìː	daːjìː	NOUN	_	Gender=Masc	10	comp:obj	_	Gloss=bush.Masc
 12	?	?	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 13	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
@@ -9382,7 +9382,7 @@
 1	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	hìta	hìta	VERB	_	_	1	comp:aux	_	_
 3	bàːkin	bàːkin	ADP	_	Definite=Cons|Gender=Masc	2	comp:obl	_	Gloss=near
-4	daːjìː	daːjìː	NOUN	_	Gender=Masc	3	compound	_	_
+4	daːjìː	daːjìː	NOUN	_	Gender=Masc	3	compound	_	Gloss=bush.Masc
 5	yag	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	conj:coord	_	Gloss=3Masc.Perf.Rel
 6	ga	ganiː	VERB	_	_	5	comp:aux	_	Gloss=see
 7	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	8	det	_	Gloss=some.Masc
@@ -9882,7 +9882,7 @@
 12	ukkù	ukkù	NUM	_	_	11	mod:num	_	_
 13	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	10	comp:obj	_	Gloss=3Plur.Prog.Neg
 14	ƙaryaː	ƙaryaː	NOUN	_	Gender=Fem	13	comp:aux	_	_
-15	daːjìː	daːjìː	NOUN	_	Gender=Masc	14	mod	_	_
+15	daːjìː	daːjìː	NOUN	_	Gender=Masc	14	mod	_	Gloss=bush.Masc
 16	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform=.
 17	.	.	PUNCT	_	_	2	_	_	Gloss=PUNCT|wordform="
 
@@ -12510,7 +12510,7 @@
 7	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	0	root	_	Gloss=3Masc.Sub
 8	koːmàː	koːmàː	VERB	_	_	7	comp:aux	_	_
 9	bàːkin	bàːkin	ADP	_	Definite=Cons|Gender=Masc	8	comp:obl@G	_	Gloss=near
-10	daːjìː	daːjìː	NOUN	_	Gender=Masc	9	mod	_	_
+10	daːjìː	daːjìː	NOUN	_	Gender=Masc	9	mod	_	Gloss=bush.Masc
 11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
 12	à	yà	AUX	_	Mood=Sub|Person=4	7	parataxis@conj	_	Gloss=4.Sub
 13	sàki	sàkaː	VERB	_	_	12	comp:aux	_	_
