@@ -3485,12 +3485,12 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__224
 # text = sai an dahwàː akà tsàːmeː .
-1	sai	sai	ADV	_	_	2	mod	_	Gloss=then
-2	an	yaː	AUX	_	Aspect=Perf|Person=4	0	root	_	Gloss=4.Perf
+1	sai	sai	SCONJ	_	_	0	root	_	Gloss=only_if
+2	an	yaː	AUX	_	Aspect=Perf|Person=4	1	root:obj	_	Gloss=4.Perf
 3	dahwàː	dahwàː	VERB	_	_	2	comp:aux	_	Gloss=cook
-4	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	3	comp:cleft	_	Gloss=4.Prog.Rel
+4	akà	nàː	AUX	_	Aspect=Prog|Person=4|Relative=Yes	1	comp:cleft	_	Gloss=4.Prog.Rel
 5	tsàːmeː	tsàːmeː	NOUN	_	Gender=Masc	4	comp:aux	_	Gloss=tasting.Masc
-6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__225
 # text = tôː loːkàːcîn nan nàː yac cèː “ tôː màːsu maulòː , à tohoː dà gùdaː gùdaː , à yi , à tohoː dà gùdaː gùdaː , à yi " .
@@ -3527,7 +3527,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__226
 # text = koːwanèː yaː shaː naɗìː màːsu maulòː .
-1	koːwanèː	koːwanèː	PRON	_	PronType=Ind	2	mod	_	Gloss=each_one
+1	koːwanèː	koːwanèː	PRON	_	PronType=Ind	2	subj	_	Gloss=each_one
 2	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 3	shaː	shaː	VERB	_	_	2	comp:aux	_	Gloss=drink
 4	naɗìː	naɗìː	NOUN	_	Gender=Masc	3	comp:obj	_	Gloss=suffering.Masc
@@ -3570,7 +3570,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__229
-# text = in kaz zakà kay yi naːkà kiɗìː, Dandà Garbaː Dikkò shì cêː " naː ji naːkà, kòːmaː cân. "
+# text = in kaz zakà kay yi naːkà kiɗìː , Dandà Garbaː Dikkò shì cêː " naː ji naːkà , kòːmaː cân " .
 1	in	in	SCONJ	_	_	12	mod	_	Gloss=if
 2	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	1	comp:obj	_	Gloss=2Masc.Perf.Rel
 3	zakà	zakà	VERB	_	_	2	comp:aux	_	Gloss=arrive
@@ -3587,22 +3587,22 @@
 14	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 15	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	13	comp:obj@T	_	Gloss=1Sing.Perf
 16	ji	ji	VERB	_	_	15	comp:aux	_	Gloss=hear
-17	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	16	comp:obl	_	Gloss=2Masc.Gen
-18	,	,	PUNCT	_	_	20	punct	_	Gloss=PUNCT
-19	kòːmaː	koːmàː	VERB	_	Mood=Imp	16	mod	_	Gloss=return.Imp
-20	cân	cân	ADV	_	PronType=Dem	16	mod	_	_
-21	"	"	PUNCT	_	_	12	punct	_	Gloss=PUNCT|wordform=.
+17	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	16	comp:obj	_	Gloss=2Masc.Gen
+18	,	,	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+19	kòːmaː	koːmàː	VERB	_	Mood=Imp	15	parataxis@conj	_	Gloss=return.Imp
+20	cân	cân	ADV	_	Deixis=Med|PronType=Dem	19	comp:obl	_	Gloss=Med
+21	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT|wordform=.
 22	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__230
-# text = in kaz zakà kay yi naːkà kiɗìː, Dandà Garbaː Dikkò shì cêː “ naː ji naːkà kiɗìː, kòːmaː cân. "
+# text = in kaz zakà kay yi naːkà kiɗìː , Dandà Garbaː Dikkò shì cêː “ naː ji naːkà kiɗìː , kòːmaː cân " .
 1	in	in	SCONJ	_	_	12	mod	_	Gloss=if
 2	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	1	comp:obj	_	Gloss=2Masc.Perf.Rel
 3	zakà	zakà	VERB	_	_	2	comp:aux	_	Gloss=arrive
-4	kay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	3	conj:coord	_	Gloss=2Masc.Perf.Rel
+4	kay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	2	conj:coord	_	Gloss=2Masc.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
-6	naːkà	naːkà	PRON	_	Aspect=Prog|Case=Gen|Gender=Masc|Person=2|PronType=Prs	5	comp:pred	_	Gloss=2Masc.Gen
-7	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	6	comp:aux	_	Gloss=music.Masc
+6	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	7	mod@poss	_	Gloss=2Masc.Gen
+7	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	5	comp:pred	_	Gloss=music.Masc
 8	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 9	Dandà	Dandà	PROPN	_	_	12	mod	_	Gloss=Dandà
 10	Garbaː	Garbaː	PROPN	_	_	9	flat@name	_	Gloss=Garbaː
@@ -3612,12 +3612,12 @@
 14	“	“	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 15	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	13	comp:obj	_	Gloss=1Sing.Perf
 16	ji	ji	VERB	_	_	15	comp:aux	_	Gloss=hear
-17	naːkà	naːkà	PRON	_	Aspect=Prog|Case=Gen|Gender=Masc|Person=2|PronType=Prs	16	comp:obj	_	Gloss=2Masc.Gen
-18	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	17	comp:aux	_	Gloss=music.Masc
+17	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	18	mod@poss	_	Gloss=2Masc.Gen
+18	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	16	comp:obj	_	Gloss=music.Masc
 19	,	,	PUNCT	_	_	20	punct	_	Gloss=PUNCT
-20	kòːmaː	koːmàː	VERB	_	Mood=Imp	16	mod	_	Gloss=return.Imp
-21	cân	cân	ADV	_	PronType=Dem	16	mod	_	_
-22	"	"	PUNCT	_	_	12	punct	_	Gloss=PUNCT|wordform=.
+20	kòːmaː	koːmàː	VERB	_	Mood=Imp	15	parataxis@conj	_	Gloss=return.Imp
+21	cân	cân	ADV	_	Deixis=Med|PronType=Dem	20	comp:obl	_	Gloss=Med
+22	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT|wordform=.
 23	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__231
@@ -3625,36 +3625,36 @@
 1	in	in	SCONJ	_	_	11	mod	_	Gloss=if
 2	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	1	comp:obj	_	Gloss=2Masc.Perf.Rel
 3	zakà	zakà	VERB	_	_	2	comp:aux	_	Gloss=arrive
-4	kay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	3	conj:coord	_	Gloss=2Masc.Perf.Rel
+4	kay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	2	conj:coord	_	Gloss=2Masc.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
-6	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	5	comp:pred	_	Gloss=2Masc.Gen
+6	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	7	mod@poss	_	Gloss=2Masc.Gen
 7	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	5	comp:pred	_	Gloss=music.Masc
 8	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
-9	Dandà	Dandà	PROPN	_	_	11	mod	_	Gloss=Dandà
-10	Garbaː	Garbaː	PROPN	_	_	11	subj	_	Gloss=Garbaː
+9	Dandà	Dandà	PROPN	_	_	11	dislocated@subj	_	Gloss=Dandà
+10	Garbaː	Garbaː	PROPN	_	_	9	flat@name	_	Gloss=Garbaː
 11	à	yà	AUX	_	Mood=Sub|Person=4	0	root	_	Gloss=4.Sub
 12	cêː	cêː	VERB	_	_	11	comp:aux	_	Gloss=say
 13	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	12	comp:obl	_	Gloss=2Masc.Dat
-14	“	“	PUNCT	_	_	12	punct	_	Gloss=PUNCT
+14	“	“	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 15	kòːmaː	koːmàː	VERB	_	Mood=Imp	12	mod	_	Gloss=return.Imp
-16	cân	cân	ADV	_	PronType=Dem	12	mod	_	_
-17	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform=.
+16	cân	cân	ADV	_	Deixis=Med|PronType=Dem	15	comp:obl	_	Gloss=Med
+17	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT|wordform=.
 18	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__232
-# text = in kaz zakà kay yi naːkà kiɗìː à cêː maː kòːmaː cân.
+# text = in kaz zakà kay yi naːkà kiɗìː à cêː maː kòːmaː cân .
 1	in	in	SCONJ	_	_	8	mod	_	Gloss=if
 2	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	1	comp:obj	_	Gloss=2Masc.Perf.Rel
 3	zakà	zakà	VERB	_	_	2	comp:aux	_	Gloss=arrive
 4	kay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	3	conj:coord	_	Gloss=2Masc.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
-6	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	5	comp:pred	_	Gloss=2Masc.Gen
+6	naːkà	naːkà	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	7	mod@poss	_	Gloss=2Masc.Gen
 7	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	5	comp:pred	_	Gloss=music.Masc
 8	à	yà	AUX	_	Mood=Sub|Person=4	0	root	_	Gloss=4.Sub
 9	cêː	cêː	VERB	_	_	8	comp:aux	_	Gloss=say
-10	maː	maː	PART	_	_	9	comp:obl	_	_
+10	maː	makà	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	9	comp:obl	_	Gloss=2Masc.Dat
 11	kòːmaː	koːmàː	VERB	_	Mood=Imp	9	comp:obj	_	Gloss=return.Imp
-12	cân	cân	ADV	_	PronType=Dem	9	mod	_	_
+12	cân	cân	ADV	_	Deixis=Med|PronType=Dem	11	comp:obl	_	Gloss=Med
 13	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__233
