@@ -4264,46 +4264,41 @@
 8	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
-# sent_id = HAUA_BC_NARR_06_Dikko__270
-# text = " àbin dà suː sunkà ƙaːrà baː mù ƙarhiː. "
-1	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
-2	àbin	àbi	NOUN	_	Definite=Cons|Gender=Masc	5	dislocated@subj	_	_
+# sent_id = HAUA_BC_NARR_06_Dikko__270-1
+# text = " àbin dà suː sunkà ƙaːrà baː mù ƙarhiː , sunàː ta yàbonkà Dandà Garbaː Dikkò " .
+1	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+2	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	11	dislocated@top	_	Gloss=àbiː
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	Gloss=that
-4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	Gloss=3Plur.Nom
-5	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
-6	ƙaːrà	ƙaːràː	VERB	_	_	5	comp:aux	_	_
+4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	dislocated@subj	_	Gloss=3Plur.Nom
+5	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	3	comp:obj	_	Gloss=3Plur.Perf.Rel
+6	ƙaːrà	ƙaːràː	VERB	_	_	5	comp:aux	_	Gloss=increase
 7	baː	baː	VERB	_	_	6	comp:obj	_	Gloss=give
 8	mù	mu	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	comp:obj@R	_	Gloss=1Plur.Acc
 9	ƙarhiː	ƙarhiː	NOUN	_	Gender=Masc	7	comp:obj@T	_	Gloss=strength.Masc
-10	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
-11	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
-
-# sent_id = HAUA_BC_NARR_06_Dikko__271
-# text = " sunàː ta yàbonkà Dandà Garbaː Dikkò. "
-1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-2	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
-4	yàbonkà	yàboː	VERB	_	ExtPos=NOUN|Gender=Fem	2	comp:aux	_	_
-5	Dandà	Dandà	PROPN	_	_	4	udep	_	Gloss=Dandà
-6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garbaː
-7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
-8	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
-9	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
+10	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
+11	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
+12	ta	ta	PART	_	Aspect=Iter	11	compound:prt	_	Gloss=Iter
+13	yàbonkà	yàboː	VERB	_	Case=Gen|Gender=Masc|Person=2	11	comp:aux	_	Gloss=praise.Masc.Cons\2Masc.Gen
+14	Dandà	Dandà	PROPN	_	_	11	dislocated@comp	_	Gloss=Dandà
+15	Garbaː	Garbaː	PROPN	_	_	14	flat@name	_	Gloss=Garbaː
+16	Dikkò	Dikkò	PROPN	_	_	15	flat@name	_	Gloss=Dikkò
+17	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform=.
+18	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__272
 # text = " waɗànnan mutàːneː dà munkà gàmu dà suː sunàː yàbonkà. "
-1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+1	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 2	waɗànnan	waɗànnan	DET	_	Number=Plur|PronType=Dem	3	det	_	_
-3	mutàːneː	mùtûm	NOUN	_	Number=Plur	0	root	_	Gloss=people.Plur
+3	mutàːneː	mùtûm	NOUN	_	Number=Plur	9	dislocated@subj	_	Gloss=people.Plur
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	Gloss=that
 5	munkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Relative=Yes	4	comp:obj	_	Gloss=1Plur.Perf.Rel
 6	gàmu	gàmu	VERB	_	_	5	comp:aux	_	Gloss=meet
 7	dà	dà	ADP	_	_	6	comp:obl	_	Gloss=with
 8	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	Gloss=3Plur.Nom
-9	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	4	comp:obj	_	Gloss=3Plur.Prog
+9	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
 10	yàbonkà	yàboː	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	_
-11	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
-12	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform="
+11	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform=.
+12	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__273
 # text = " mun tàmbai sù nàːbaːrìnka , sunkà cêː Àlhamdù rìllaːhì , sai shukuràː " .
