@@ -3765,22 +3765,22 @@
 11	dà	dà	ADP	_	_	10	comp:obl	_	Gloss=with
 12	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	comp:obj	_	Gloss=3Masc.Nom
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
-14	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	parataxis@conj	_	Gloss=3Masc.Perf.Rel
+14	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	9	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 15	taːshì	taːshì	VERB	_	_	14	comp:aux	_	Gloss=rise/leave
 16	tsàye	tsayàː	VERB	_	ExtPos=ADV|VerbForm=Stat	15	mod	_	Gloss=stand.Stat
 17	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	14	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 18	cèː	cêː	VERB	_	_	17	comp:aux	_	Gloss=say
-19	"	"	PUNCT	_	_	20	punct	_	Gloss=PUNCT
-20	yaːròː	yaːròː	NOUN	_	Gender=Masc	18	comp:obj@T	_	Gloss=boy.Masc
-21	dàg	dàgà	ADP	_	_	18	comp:obl	_	Gloss=from
+19	"	"	PUNCT	_	_	21	punct	_	Gloss=PUNCT
+20	yaːròː	yaːròː	NOUN	_	Gender=Masc	21	vocative	_	Gloss=boy.Masc
+21	dàg	dàgà	ADP	_	_	18	comp:obj	_	Gloss=from
 22	gà	gà	ADP	_	_	21	comp:obj	_	Gloss=at
-23	ìnaː	ìnaː	ADV	_	PronType=Int	21	comp:obj	_	_
-24	kaj	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	20	mod@relcl	_	Gloss=2Masc.Perf.Rel
+23	ìnaː	ìnaː	ADV	_	PronType=Int	22	comp:obj	_	Gloss=where
+24	kaj	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Relative=Yes	21	comp:cleft	_	Gloss=2Masc.Perf.Rel
 25	jiyoː	jiyaː	VERB	_	_	24	comp:obj	_	_
 26	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	25	mod	_	Gloss=music.Masc.Cons
 27	maulòːna	maulòː	NOUN	_	Case=Gen|Number=Sing|Person=1	26	mod	_	Gloss=guitar.Masc.Cons\1Sing.Gen
-28	?	?	PUNCT	_	_	14	punct	_	Gloss=PUNCT
-29	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+28	?	?	PUNCT	_	_	21	punct	_	Gloss=PUNCT
+29	"	"	PUNCT	_	_	21	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__239
 # text = yac cèː " nan dai nis saːmoː shì. "
@@ -3804,7 +3804,7 @@
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
 6	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 7	yaːròː	yaːròː	NOUN	_	Gender=Masc	8	vocative	_	Gloss=boy.Masc
-8	ìnaː	ìnaː	ADV	_	PronType=Int	5	comp:obj	_	_
+8	ìnaː	ìnaː	ADV	_	PronType=Int	5	comp:obj	_	Gloss=where
 9	kaj	yaː	VERB	_	_	8	comp:cleft	_	_
 10	jiyoː	ji	VERB	_	_	9	comp:obj	_	_
 11	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	mod	_	Gloss=music.Masc.Cons
@@ -6979,7 +6979,7 @@
 1	na	na	ADP	_	Case=Gen	4	mod	_	Gloss=Gen
 2	yaːròː	yaːròː	NOUN	_	Gender=Masc	1	comp:obj	_	Gloss=boy.Masc
 3	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-4	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	_
+4	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	Gloss=where
 5	na	na	ADP	_	Case=Gen	4	mod	_	Gloss=Gen
 6	yaːròː	yaːròː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=boy.Masc
 7	?	?	PUNCT	_	_	4	punct	_	Gloss=PUNCT
@@ -11974,12 +11974,12 @@
 5	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__750
-# text = " Bàƙoː had dàʿ ìnaː ? "
+# text = " Bàƙoː had dàʿ ìnaː ? "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	Bàƙoː	Bàƙoː	PROPN	_	_	0	root	_	Gloss=Bàƙoː
 3	had	har	ADP	_	_	2	mod	_	Gloss=until
-4	dàʿ	dàʿ	ADP	_	_	2	mod	_	_
-5	ìnaː	ìnaː	ADV	_	PronType=Int	4	comp:obj	_	_
+4	dàʿ	dàgà	ADP	_	_	2	mod	_	Gloss=from
+5	ìnaː	ìnaː	ADV	_	PronType=Int	4	comp:obj	_	Gloss=where
 6	?	?	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 7	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -12940,7 +12940,7 @@
 3	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 4	tôː	tôː	INTJ	_	_	6	discourse	_	Gloss=well
 5	wajjan	wajjaː	NOUN	_	Definite=Cons|Number=Plur	6	dislocated	_	_
-6	ìnaː	ìnaː	ADV	_	PronType=Int	2	comp:obj	_	_
+6	ìnaː	ìnaː	ADV	_	PronType=Int	2	comp:obj	_	Gloss=where
 7	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	6	comp:cleft	_	Gloss=war.Masc
 8	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	7	mod@relcl	_	Gloss=3Masc.Perf.Rel
 9	yi	yi	VERB	_	_	8	comp:aux	_	Gloss=do
