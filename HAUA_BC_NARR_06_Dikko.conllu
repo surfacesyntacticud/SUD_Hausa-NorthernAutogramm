@@ -400,7 +400,7 @@
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	2	comp:obl	_	Gloss=3Fem.Dat
 4	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-5	lalleː	lalleː	ADV	_	_	6	mod	_	Gloss=indeed
+5	lalleː	lalleː	ADV	_	_	6	mod	_	Gloss=of_course
 6	gaːwaː	gaːwaː	NOUN	_	Gender=Fem	2	comp:obj	_	Gloss=corpse.Fem
 7	tàː	neː	PART	_	Gender=Fem|PartType=Foc	6	discourse@foc	_	Gloss=Emph
 8	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	6	comp:cleft	_	Gloss=3Fem.Perf.Rel
@@ -4132,8 +4132,8 @@
 21	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 22	ràkki	ràkkaː	VERB	_	_	21	comp:aux	_	Gloss=escort
 23	wasu	wasu	DET	_	Definite=Spec|Gender=Masc|Number=Plur	22	comp:obj	_	Gloss=some.Plur
-24	,	,	PUNCT	_	_	25	punct	_	Gloss=PUNCT
-25	màːsu	mài	PART	_	Number=Plur|PartType=Der	21	subj	_	Gloss=owner_of.Plur
+24	,	,	PUNCT	_	_	29	punct	_	Gloss=PUNCT
+25	màːsu	mài	PART	_	Number=Plur|PartType=Der	29	subj	_	Gloss=owner_of.Plur
 26	maulòː	maulòː	NOUN	_	Gender=Masc	25	comp:obj	_	Gloss=guitar.Masc
 27	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	mod	_	Gloss=3Plur.Nom
 28	buy	biyu	NUM	_	_	27	mod@num	_	Gloss=two
@@ -4182,7 +4182,7 @@
 5	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	comp:pred	_	Gloss=owner_of.Plur
 6	maulòː	maulòː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=guitar.Masc
 7	naː	neː	AUX	_	Copula=Yes	2	comp:obj	_	Gloss=Ident
-8	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
+8	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT|wordform=.
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__264
@@ -4279,16 +4279,16 @@
 11	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
 12	ta	ta	PART	_	Aspect=Iter	11	compound:prt	_	Gloss=Iter
 13	yàbonkà	yàboː	VERB	_	Case=Gen|Gender=Masc|Person=2	11	comp:aux	_	Gloss=praise.Masc.Cons\2Masc.Gen
-14	Dandà	Dandà	PROPN	_	_	11	dislocated@comp	_	Gloss=Dandà
+14	Dandà	Dandà	PROPN	_	_	11	vocative	_	Gloss=Dandà
 15	Garbaː	Garbaː	PROPN	_	_	14	flat@name	_	Gloss=Garbaː
 16	Dikkò	Dikkò	PROPN	_	_	15	flat@name	_	Gloss=Dikkò
 17	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform=.
 18	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__272
-# text = " waɗànnan mutàːneː dà munkà gàmu dà suː sunàː yàbonkà. "
+# text = " waɗànnan mutàːneː dà munkà gàmu dà suː sunàː yàbonkà " .
 1	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT
-2	waɗànnan	waɗànnan	DET	_	Number=Plur|PronType=Dem	3	det	_	_
+2	waɗànnan	wànnan	DET	_	Number=Plur|PronType=Dem	3	det	_	Gloss=PreRef.Plur
 3	mutàːneː	mùtûm	NOUN	_	Number=Plur	9	dislocated@subj	_	Gloss=people.Plur
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	Gloss=that
 5	munkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Relative=Yes	4	comp:obj	_	Gloss=1Plur.Perf.Rel
@@ -4296,27 +4296,26 @@
 7	dà	dà	ADP	_	_	6	comp:obl	_	Gloss=with
 8	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	Gloss=3Plur.Nom
 9	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-10	yàbonkà	yàboː	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	_
+10	yàbonkà	yàboː	VERB	_	Case=Gen|Gender=Masc|Person=2	9	comp:aux	_	Gloss=praise.Masc.Cons\2Masc.Gen
 11	"	"	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__273
-# text = " mun tàmbai sù nàːbaːrìnka , sunkà cêː Àlhamdù rìllaːhì , sai shukuràː " .
+# text = " mun tàmbai sù nàːbaːrìnka , sunkà cêː àlhamdùrìllaːhì , sai shukuràː " .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	Gloss=1Plur.Perf
-3	tàmbai	tàmbai	VERB	_	_	2	mod	_	_
-4	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	Gloss=3Plur.Sub
-5	nàːbaːrìnka	nàːbaːrìː	NOUN	_	Case=Gen|Gender=Masc|Person=2	4	comp:aux	_	Gloss=story.Masc.Cons\2Masc.Gen
+3	tàmbai	tàmbayàː	VERB	_	_	2	mod	_	Gloss=ask
+4	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3|PronType=Prs	3	comp:obj@R	_	Gloss=3Plur.Sub
+5	nàːbaːrìnka	nàːbaːrìː	NOUN	_	Case=Gen|Gender=Masc|Person=2	3	comp:obj@T	_	Gloss=story.Masc.Cons\2Masc.Gen
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-7	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	4	parataxis@conj	_	Gloss=3Plur.Perf.Rel
+7	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	2	parataxis@conj	_	Gloss=3Plur.Perf.Rel
 8	cêː	cêː	VERB	_	_	7	comp:aux	_	Gloss=say
-9	Àlhamdù	Àlhamdù	PROPN	_	_	8	comp:obj	_	Gloss=Àlhamdù
-10	rìllaːhì	rìllaːhì	NOUN	_	Gender=Masc	8	comp:obj	_	_
-11	,	,	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-12	sai	sai	ADP	_	_	8	mod	_	_
-13	shukuràː	shukuràː	NOUN	_	Gender=Fem	12	comp:obj	_	_
-14	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
-15	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
+9	àlhamdùrìllaːhì	àlhamdùrìllaːhì	INTJ	_	_	12	discourse	_	Gloss=thank_God
+10	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+11	sai	sai	ADV	_	_	12	mod	_	Gloss=only
+12	shukuràː	shukuràː	NOUN	_	Gender=Fem	8	comp:obj	_	Gloss=thanks
+13	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
+14	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__274
 # text = Dandà Garbaː Dikkò yac cèː " wàːtôː yàboːnaː sukà ta yîː ? . " sunàː ta gòːdiyaː , koː bàn kòː baː sù koːmiː ba ? "
@@ -4349,18 +4348,18 @@
 27	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__275
-# text = sunkà cêː " Lalleː kàm sunàː yàbonkà sunàː gòːdiyaː ƙwarai dà gàske. "
+# text = sunkà cêː " lalleː kàm sunàː yàbonkà sunàː gòːdiyaː ƙwarai dà gàske " .
 1	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-4	Lalleː	Lalleː	PROPN	_	_	6	subj	_	Gloss=Lalleː
+4	lalleː	lalleː	ADV	_	_	6	discourse	_	Gloss=of_course
 5	kàm	kaɗà	PART	_	_	4	discourse@top	_	_
 6	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	comp:obj	_	Gloss=3Plur.Prog
-7	yàbonkà	yàboː	VERB	_	Case=Gen|Definite=Cons|Gender=Masc|Person=2	6	comp:aux	_	_
+7	yàbonkà	yàboː	VERB	_	Case=Gen|Gender=Masc|Person=2	6	comp:aux	_	Gloss=praise.Masc.Cons\2Masc.Gen
 8	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	6	parataxis@conj	_	Gloss=3Plur.Prog
 9	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	8	comp:aux	_	_
 10	ƙwarai	ƙwarai	ADV	_	_	9	mod	_	_
-11	dà	dà	CCONJ	_	_	9	comp:obl	_	Gloss=and
+11	dà	dà	CCONJ	_	_	9	mod	_	Gloss=and
 12	gàske	gàske	ADV	_	_	11	comp:obj	_	_
 13	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 14	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
@@ -11719,7 +11718,7 @@
 # text = yab bar waɗànnan màːlàmmai yat tarsà wasu.
 1	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	bar	bariː	VERB	_	_	1	comp:aux	_	Gloss=leave
-3	waɗànnan	waɗànnan	PRON	_	Number=Plur|PronType=Dem	4	det	_	_
+3	waɗànnan	wànnan	PRON	_	Number=Plur|PronType=Dem	4	det	_	Gloss=PreRef.Plur
 4	màːlàmmai	maːlàmiː	NOUN	_	Gender=Masc|Number=Plur	5	subj	_	Gloss=scholar.Plur
 5	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 6	tarsà	taːs-	VERB	_	_	5	comp:aux	_	_
@@ -11749,7 +11748,7 @@
 # text = yab bar waɗànnan yab bìɗi wasu màːlàmmai, sunkà cêː mai " sai kaː yi shèːkaràː ukkù kanàː kiːyòn jàkkai. "
 1	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	bar	bariː	VERB	_	_	1	comp:aux	_	Gloss=leave
-3	waɗànnan	waɗànnan	PRON	_	Number=Plur|PronType=Dem	2	comp:obj	_	_
+3	waɗànnan	wànnan	PRON	_	Number=Plur|PronType=Dem	2	comp:obj	_	Gloss=PreRef.Plur
 4	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	conj:coord	_	Gloss=3Masc.Perf.Rel
 5	bìɗi	bìɗaː	VERB	_	_	4	comp:aux	_	Gloss=look_for
 6	wasu	wasu	DET	_	Definite=Spec|Number=Plur	7	det	_	Gloss=some.Plur
