@@ -4582,7 +4582,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__289
-# text = " kun ganeː kù , kun kaːcʿèː ni » , yac cèː .
+# text = " kun ganeː kù , kun kaːcʿèː ni " , yac cèː .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	kun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2	0	root	_	Gloss=2Plur.Perf
 3	ganeː	ganiː	VERB	_	_	2	comp:aux	_	Gloss=see
@@ -4591,7 +4591,7 @@
 6	kun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2	2	parataxis@conj	_	Gloss=2Plur.Perf
 7	kaːcʿèː	kaːcʿèː	VERB	_	_	6	comp:aux	_	Gloss=snap
 8	ni	ni	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	Gloss=1Sing.Acc
-9	»	»	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+9	"	́"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	dislocated	_	Gloss=3Masc.Perf.Rel
 12	cèː	cêː	VERB	_	_	11	comp:aux	_	Gloss=say
@@ -4607,7 +4607,7 @@
 6	taroː	taràː	VERB	_	_	5	comp:aux	_	Gloss=gather.dir
 7	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obl	_	Gloss=3Plur.Dat
 8	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	6	comp:obj	_	Gloss=cown.Fem
-9	ɗàriː	ɗàriː	NUM	_	_	8	mod	_	_
+9	ɗàriː	ɗàriː	NUM	_	_	8	mod:num	_	Gloss=hundred
 10	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	5	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	Gloss=say
 12	"	"	PUNCT	_	_	14	punct	_	Gloss=PUNCT
@@ -4625,7 +4625,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__291
 # text = saːnìyaː ɗàriː sunkà taràː sunkà tàhi saʿànnan yay yi zabarmanciː.
 1	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	3	subj	_	Gloss=cown.Fem
-2	ɗàriː	ɗàriː	NUM	_	_	1	mod	_	_
+2	ɗàriː	ɗàriː	NUM	_	_	1	mod:num	_	Gloss=hundred
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 4	taràː	taràː	VERB	_	_	3	comp:aux	_	Gloss=gather
 5	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Plur.Perf.Rel
@@ -4755,7 +4755,7 @@
 23	goːmà	goːmà	NUM	_	_	21	comp:obj	_	_
 24	,	,	PUNCT	_	_	21	punct	_	Gloss=PUNCT
 25	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	27	subj	_	Gloss=cown.Fem
-26	ɗàriː	ɗàriː	NUM	_	Number=Plur	27	comp:pred	_	_
+26	ɗàriː	ɗàriː	NUM	_	Number=Plur	27	comp:pred	_	Gloss=hundred
 27	nàː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident
 28	.	.	PUNCT	_	_	27	punct	_	Gloss=PUNCT
 
@@ -4941,7 +4941,7 @@
 9	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	5	comp:obj	_	Gloss=3Plur.Perf.Rel
 10	tàhi	tàhi	VERB	_	_	9	comp:aux	_	Gloss=go
 11	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	10	comp:obj	_	Gloss=cown.Fem
-12	ɗàriː	ɗàriː	NUM	_	_	11	mod	_	_
+12	ɗàriː	ɗàriː	NUM	_	_	11	mod:num	_	Gloss=hundred
 13	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 14	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	15	dislocated	_	Gloss=some.Plur
 15	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
@@ -4975,7 +4975,7 @@
 13	baː	baː	VERB	_	_	12	comp:aux	_	Gloss=give
 14	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	comp:obj@R	_	Gloss=3Plur.Acc
 15	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	13	comp:obj@T	_	Gloss=cown.Fem
-16	ɗàriː	ɗàriː	NUM	_	_	15	mod	_	_
+16	ɗàriː	ɗàriː	NUM	_	_	15	mod:num	_	Gloss=hundred
 17	,	,	PUNCT	_	_	20	punct	_	Gloss=PUNCT
 18	sai	sai	ADV	_	_	20	mod	_	Gloss=then
 19	shaːnuː	sâː	NOUN	_	Number=Plur	20	subj	_	Gloss=cow.Plur
@@ -5044,7 +5044,7 @@
 6	baː	baː	VERB	_	_	5	comp:aux	_	Gloss=give
 7	sù	sù	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	comp:obj@R	_	Gloss=3Plur.Acc
 8	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	6	comp:obj@T	_	Gloss=cown.Fem
-9	ɗàriː	ɗàriː	NUM	_	_	8	mod	_	_
+9	ɗàriː	ɗàriː	NUM	_	_	8	mod:num	_	Gloss=hundred
 10	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__319
