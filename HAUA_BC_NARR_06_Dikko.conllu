@@ -4317,8 +4317,8 @@
 13	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 14	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
-# sent_id = HAUA_BC_NARR_06_Dikko__274
-# text = Dandà Garbaː Dikkò yac cèː " wàːtôː yàboːnaː sukà ta yîː ? . " sunàː ta gòːdiyaː , koː bàn kòː baː sù koːmiː ba ? "
+# sent_id = HAUA_BC_NARR_06_Dikko__274a
+# text = Dandà Garbaː Dikkò yac cèː " wàːtôː yàboːnaː sukà ta yîː ? .
 1	Dandà	danon	PROPN	_	_	4	subj	_	Gloss=Dandà
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
@@ -4332,20 +4332,23 @@
 11	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	9	comp:aux	_	Gloss=do.Vnoun.Masc
 12	?	?	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-14	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT
-15	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-16	ta	ta	PART	_	Aspect=Iter	15	compound:prt	_	Gloss=Iter
-17	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	15	comp:aux	_	Gloss=thanking.Fem
-18	,	,	PUNCT	_	_	19	punct	_	Gloss=PUNCT
-19	koː	koː	SCONJ	_	_	17	mod	_	Gloss=although
-20	bàn	yaː	PART	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	19	comp:obj	_	Gloss=1Sing.Perf.Neg
-21	kòː	kùwa	PART	_	PartType=Top	20	discourse@top	_	Gloss=even
-22	baː	baː	VERB	_	_	20	comp:aux	_	Gloss=give
-23	sù	yà	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	comp:obj@R	_	Gloss=3Plur.Acc
-24	koːmiː	koːmiː	PRON	_	PronType=Ind	22	comp:obj@T	_	Gloss=anything
-25	ba	ba	PART	_	Polarity=Neg	22	mod	_	Gloss=Neg
-26	?	?	PUNCT	_	_	15	punct	_	Gloss=PUNCT
-27	"	"	PUNCT	_	_	15	punct	_	Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_06_Dikko__274b
+# text = " sunàː ta gòːdiyaː , koː bàn kòː baː sù koːmiː ba ? "
+1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+2	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
+3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+4	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	2	comp:aux	_	Gloss=thanking.Fem
+5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+6	koː	koː	SCONJ	_	_	4	mod	_	Gloss=although
+7	bàn	yaː	PART	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	6	comp:obj	_	Gloss=1Sing.Perf.Neg
+8	kòː	kùwa	PART	_	PartType=Top	7	discourse@top	_	Gloss=even
+9	baː	baː	VERB	_	_	7	comp:aux	_	Gloss=give
+10	sù	yà	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	comp:obj@R	_	Gloss=3Plur.Acc
+11	koːmiː	koːmiː	PRON	_	PronType=Ind	9	comp:obj@T	_	Gloss=anything
+12	ba	ba	PART	_	Polarity=Neg	9	mod	_	Gloss=Neg
+13	?	?	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+14	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__275
 # text = sunkà cêː " lalleː kàm sunàː yàbonkà sunàː gòːdiyaː ƙwarai dà gàske " .
@@ -4357,10 +4360,10 @@
 6	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	comp:obj	_	Gloss=3Plur.Prog
 7	yàbonkà	yàboː	VERB	_	Case=Gen|Gender=Masc|Person=2	6	comp:aux	_	Gloss=praise.Masc.Cons\2Masc.Gen
 8	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	6	parataxis@conj	_	Gloss=3Plur.Prog
-9	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	8	comp:aux	_	_
-10	ƙwarai	ƙwarai	ADV	_	_	9	mod	_	_
-11	dà	dà	CCONJ	_	_	9	mod	_	Gloss=and
-12	gàske	gàske	ADV	_	_	11	comp:obj	_	_
+9	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	8	comp:aux	_	Gloss=thanks.Fem
+10	ƙwarai	ƙwarai	ADV	_	_	9	mod	_	Gloss=very_much
+11	dà	dà	CCONJ	_	_	12	cc	_	Gloss=and
+12	gàske	gàske	ADV	_	_	10	conj:coord	_	Gloss=extremely
 13	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
 14	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
@@ -4369,16 +4372,16 @@
 1	saʿànnan	saʿànnan	ADV	_	_	2	mod	_	Gloss=then
 2	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
-4	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-5	ɗai	ɗaya	NUM	_	_	3	comp:obj@T	_	Gloss=one
-6	gàreː	gà	ADP	_	Gender=Masc	3	comp:obj	_	Gloss=by
-7	kù	ku	PRON	_	Number=Plur|Person=2	5	discourse@top	_	_
+4	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+5	ɗai	ɗaya	NUM	_	_	10	dislocated@subj	_	Gloss=one
+6	gàreː	gà	ADP	_	Gender=Masc	5	mod	_	Gloss=by
+7	kù	ku	PRON	_	Number=Plur|Person=2	6	comp:obj	_	_
 8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
-9	dàsh	dàsk	SCONJ	_	_	6	mod	_	_
-10	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	9	comp:obj	_	Gloss=3Masc.Sub
+9	dàsh	dàkà	PART	_	PartType=Neg|Polarity=Neg	10	mod	_	Gloss=Neg
+10	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	comp:obj	_	Gloss=3Masc.Sub
 11	buːɗè	buːɗèː	VERB	_	_	10	comp:aux	_	_
 12	sirdìː	sirdìː	NOUN	_	Gender=Masc	11	comp:obj	_	Gloss=saddle.Masc
-13	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
+13	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|wordform=.
 14	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__277
