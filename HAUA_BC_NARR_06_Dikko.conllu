@@ -5537,12 +5537,12 @@
 14	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__353
-# text = dà dareː yay yi tay yi musù àbincìː tak kai musù.
-1	dà	dà	SCONJ	_	_	0	root	_	Gloss=that
-2	dareː	dareː	NOUN	_	Gender=Masc	3	subj	_	_
+# text = dà dareː yay yi tay yi musù àbincìː tak kai musù .
+1	dà	dà	SCONJ	_	_	5	mod	_	Gloss=that
+2	dareː	dareː	NOUN	_	Gender=Masc	3	subj	_	Gloss=night.Masc
 3	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
 4	yi	yi	VERB	_	_	3	comp:aux	_	Gloss=do
-5	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	4	comp:pred	_	Gloss=3Fem.Perf.Rel
+5	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 6	yi	yi	VERB	_	_	5	comp:aux	_	Gloss=do
 7	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obl	_	Gloss=3Plur.Dat
 8	àbincìː	àbincìː	NOUN	_	Gender=Masc	6	comp:pred	_	Gloss=food.Masc
@@ -5552,22 +5552,22 @@
 12	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__354
-# text = sàːhiyaː tay yi tak kai musù karìn sàːhiyaː, tac cèː musù kù ɗarmà sirìddaː.
-1	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	2	subj	_	_
+# text = sàːhiyaː tay yi tak kai musù karìn sàːhiyaː , tac cèː musù kù ɗarmà sirìddaː .
+1	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	2	subj	_	Gloss=morning
 2	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 3	yi	yi	VERB	_	_	2	comp:aux	_	Gloss=do
 4	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Fem.Perf.Rel
 5	kai	kai	VERB	_	_	4	comp:aux	_	Gloss=take
 6	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	comp:obl	_	Gloss=3Plur.Dat
-7	karìn	karìː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj@G	_	_
-8	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	7	mod	_	_
+7	karìn	karìː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj@G	_	Gloss=breakfast.Masc
+8	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	7	mod	_	Gloss=morning
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 10	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	4	parataxis@conj	_	Gloss=3Fem.Perf.Rel
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	Gloss=say
 12	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	comp:obl	_	Gloss=3Plur.Dat
 13	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	11	comp:obj	_	Gloss=2Plur.Sub
 14	ɗarmà	ɗarmàː	VERB	_	_	13	comp:aux	_	Gloss=tie
-15	sirìddaː	sirìddaː	NOUN	_	Gender=Fem	14	comp:obj	_	_
+15	sirìddaː	sirdìː	NOUN	_	Number=Plur	14	comp:obj	_	Gloss=saddle.Plur
 16	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__355
@@ -5583,7 +5583,7 @@
 9	cèː	cêː	VERB	_	_	8	comp:obj	_	Gloss=say
 10	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3|PronType=Prs	9	comp:obj	_	Gloss=3Plur.Sub
 11	ɗarmà	ɗarmàː	VERB	_	_	10	comp:aux	_	Gloss=tie
-12	sirìddaː	sirìddaː	NOUN	_	Gender=Fem	11	comp:obj	_	_
+12	sirìddaː	sirdìː	NOUN	_	Number=Plur	11	comp:obj	_	Gloss=saddle.Plur
 13	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	9	parataxis@conj	_	Gloss=2Fem.Sub
 14	sàllàmeː	sallàm-	VERB	_	_	13	comp:aux	_	_
 15	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	Gloss=3Plur.Acc
@@ -5646,7 +5646,7 @@
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
 4	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	comp:obl	_	Gloss=2Plur.Dat
 5	in	in	SCONJ	_	_	9	mod	_	Gloss=if
-6	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	7	subj	_	_
+6	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	7	subj	_	Gloss=morning
 7	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	5	comp:obj	_	Gloss=3Fem.Perf.Rel
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
 9	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	3	comp:obj	_	Gloss=1Sing.Prog
@@ -5655,7 +5655,7 @@
 12	taːshì	taːshì	VERB	_	_	11	comp:aux	_	Gloss=rise/leave
 13	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	11	parataxis@conj	_	Gloss=2Plur.Sub
 14	yi	yi	VERB	_	_	13	comp:aux	_	Gloss=do
-15	sirìddaː	sirìddaː	NOUN	_	Gender=Fem	14	comp:pred	_	_
+15	sirìddaː	sirdìː	NOUN	_	Number=Plur	14	comp:pred	_	Gloss=saddle.Plur
 16	in	in	SCONJ	_	_	14	mod	_	Gloss=if
 17	kunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2	16	comp:obj	_	Gloss=2Plur.Prog
 18	dà	dà	ADP	_	_	17	comp:pred	_	Gloss=with
@@ -5675,7 +5675,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 7	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	0	root	_	Gloss=2Plur.Sub
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=do
-9	sirìddaː	sirìddaː	NOUN	_	Gender=Fem	8	comp:pred	_	_
+9	sirìddaː	sirdìː	NOUN	_	Number=Plur	8	comp:pred	_	Gloss=saddle.Plur
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	ìn	yà	AUX	_	Mood=Sub|Person=1	7	parataxis@conj	_	Gloss=1Sing.Sub
 12	sàllàmeː	sallàm-	VERB	_	_	11	comp:aux	_	_
@@ -6224,7 +6224,7 @@
 5	gàrîn	gàriː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	_
 6	nan	nan	DET	_	Definite=PrevRef	5	det	_	Gloss=PreRef
 7	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
-8	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	9	subj	_	_
+8	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	9	subj	_	Gloss=morning
 9	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
 11	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	10	comp:pred	_	Gloss=3Plur.Perf.Rel
@@ -12502,7 +12502,7 @@
 # text = shiːkèːnan in sàːhiyaː tay yi, shì koːmàː bàːkin daːjìː, à sàki jàkkai shì taràː shì tàhi zuwàː kiːyòː.
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	7	discourse	_	_
 2	in	in	SCONJ	_	_	7	mod	_	Gloss=if
-3	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	4	subj	_	_
+3	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	4	subj	_	Gloss=morning
 4	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	2	comp:obj	_	Gloss=3Fem.Perf.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do
 6	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
@@ -12525,7 +12525,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__785
 # text = in sàːhiyaː tay yi à sâkkam mai jàkkai shì tàhi zuwàː kiːyòː.
 1	in	in	SCONJ	_	_	9	mod	_	Gloss=if
-2	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	3	subj	_	_
+2	sàːhiyaː	sàːhiyaː	NOUN	_	Gender=Fem	3	subj	_	Gloss=morning
 3	tay	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
 4	yi	yi	VERB	_	_	3	comp:aux	_	Gloss=do
 5	à	yà	AUX	_	Mood=Sub|Person=4	4	comp:obl	_	Gloss=4.Sub
