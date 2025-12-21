@@ -5275,11 +5275,11 @@
 2	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	Gloss=there_is_not
 3	ni	ni	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	subj	_	Gloss=1Sing.Acc
 4	gidaː	gidaː	NOUN	_	Gender=Masc	2	subj	_	Gloss=compound.Masc
-5	àmman	àmma	CCONJ	_	_	6	discourse	_	Gloss=but
-6	inàː	nàː	AUX	_	Number=Sing|Person=1	2	parataxis@conj	_	Gloss=1Sing.Prog
+5	àmman	àmma	CCONJ	_	_	6	cc	_	Gloss=but
+6	inàː	nàː	AUX	_	Number=Sing|Person=1	2	conj:coord	_	Gloss=1Sing.Prog
 7	dà	dà	ADP	_	_	6	comp:pred	_	Gloss=with
 8	nàːbaːrìn	nàːbaːrìn	NOUN	_	Definite=Cons|Gender=Masc	7	comp:obj	_	Gloss=story.Masc.Cons
-9	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	6	mod@relcl	_	Gloss=3Plur.Prog
+9	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	8	mod@relcl	_	Gloss=3Plur.Prog
 10	zakkùwaː	zakà	VERB	_	ExtPos=NOUN|Gender=Fem	9	comp:aux	_	Gloss=arrive.Vnoun.Fem|Verbform=Vnoun
 11	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
@@ -5290,35 +5290,34 @@
 2	inàː	nàː	AUX	_	Number=Sing|Person=1	0	root	_	Gloss=1Sing.Prog
 3	dà	dà	ADP	_	_	2	comp:pred	_	Gloss=with
 4	nàːbaːrìn	nàːbaːrìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	Gloss=story.Masc.Cons
-5	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	parataxis@conj	_	Gloss=3Plur.Prog
+5	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	4	mod@relcl	_	Gloss=3Plur.Prog
 6	zakkùwaː	zakà	VERB	_	ExtPos=NOUN|Gender=Fem	5	comp:aux	_	Gloss=arrive.Vnoun.Fem|Verbform=Vnoun
 7	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 8	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__336
-# text = " inàː dà nàːbaːrìn sunàː zakkùwaː, naː bar sallamàd dà zaː à yi musù in sunkà kwan dà saːhe. "
+# text = " inàː dà nàːbaːrìn sunàː zakkùwaː , naː bar sallamàd dà zaː'à yi musù in sunkà kwan dà saːhe " .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	inàː	nàː	AUX	_	Number=Sing|Person=1	0	root	_	Gloss=1Sing.Prog
 3	dà	dà	ADP	_	_	2	comp:pred	_	Gloss=with
 4	nàːbaːrìn	nàːbaːrìː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	Gloss=story.Masc.Cons
-5	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	3	comp:obj	_	Gloss=3Plur.Prog
+5	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	4	mod@relcl	_	Gloss=3Plur.Prog
 6	zakkùwaː	zakà	VERB	_	ExtPos=NOUN|Gender=Fem	5	comp:aux	_	Gloss=arrive.Vnoun.Fem|Verbform=Vnoun
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 8	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	2	parataxis@conj	_	Gloss=1Sing.Perf
 9	bar	bariː	VERB	_	_	8	comp:aux	_	Gloss=leave
-10	sallamàd	sallamàː	NOUN	_	Definite=Cons|Gender=Fem	9	comp:obj	_	_
+10	sallamàd	sallamàː	NOUN	_	Definite=Cons|Gender=Fem	9	comp:obj	_	Gloss=parting_gift.Fem.Cons
 11	dà	dà	SCONJ	_	_	10	mod@relcl	_	Gloss=that
-12	zaː	zaâi	AUX	_	_	11	comp:obj	_	_
-13	à	yà	AUX	_	Mood=Sub|Person=4	8	parataxis@conj	_	Gloss=4.Sub
-14	yi	yi	VERB	_	_	13	comp:aux	_	Gloss=do
-15	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	14	comp:obl	_	Gloss=3Plur.Dat
-16	in	in	SCONJ	_	_	14	mod	_	Gloss=if
-17	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	16	comp:obj	_	Gloss=3Plur.Perf.Rel
-18	kwan	kwaːna	VERB	_	ExtPos=NOUN|Gender=Masc	17	comp:aux	_	Gloss=sleep
-19	dà	dà	ADP	_	_	18	comp:obl	_	Gloss=with
-20	saːhe	saːhe	VERB	_	ExtPos=ADV|Gender=Masc|VerbForm=Stat	19	comp:obj	_	_
-21	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
-22	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
+12	zaː'à	zâi	AUX	_	Person=4|Tense=Fut	11	comp:obj	_	Gloss=Fut.4
+13	yi	yi	VERB	_	_	12	comp:aux	_	Gloss=do
+14	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	Gloss=3Plur.Dat
+15	in	in	SCONJ	_	_	13	mod	_	Gloss=if
+16	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	15	comp:obj	_	Gloss=3Plur.Perf.Rel
+17	kwan	kwaːna	VERB	_	ExtPos=NOUN|Gender=Masc	16	comp:aux	_	Gloss=sleep
+18	dà	dà	ADP	_	_	17	comp:obl	_	Gloss=with
+19	saːhe	saːhe	ADV	_	Gender=Masc	18	comp:obj	_	Gloss=in_the_morning
+20	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
+21	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__337
 # text = " keː kà zuwàː sàllamàssu " .
@@ -6448,27 +6447,26 @@
 7	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__412
-# text = ankà cêː “àbin dà zâː mu yîː, sai yànzu mù tsayàː mù tankà maulunàmmu mù kaɗàː. ”
+# text = ankà cêː “ àbin dà zâːmu yîː , sai yànzu mù tsayàː mù tankà maulunàmmu mù kaɗàː ” .
 1	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
-3	“	“	PUNCT	_	_	12	punct	_	Gloss=PUNCT
-4	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	12	dislocated@comp	_	Gloss=thing.Masc.Cons
+3	“	“	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+4	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	11	dislocated@comp	_	Gloss=thing.Masc.Cons
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	Gloss=that
-6	zâː	zâː	AUX	_	_	5	comp:obj	_	_
-7	mu	mu	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	subj	_	Gloss=1Plur.Acc
-8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	6	comp:aux	_	Gloss=do.Vnoun.Masc
-9	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-10	sai	sai	ADV	_	_	12	mod	_	Gloss=then
-11	yànzu	yànzu	ADV	_	_	12	mod	_	Gloss=now
-12	mù	yà	AUX	_	Mood=Sub|Number=Plur|Person=1	2	comp:obj	_	Gloss=1Plur.Sub
-13	tsayàː	tsayàː	VERB	_	_	12	comp:aux	_	Gloss=sit_down
-14	mù	yà	AUX	_	Mood=Sub|Number=Plur|Person=1	12	parataxis@conj	_	Gloss=1Plur.Sub
-15	tankà	tankàː	VERB	_	_	14	comp:aux	_	_
-16	maulunàmmu	maulunàː	NOUN	_	Number=Plur	15	comp:obj	_	_
-17	mù	yà	AUX	_	Mood=Sub|Number=Plur|Person=1	14	parataxis@conj	_	Gloss=1Plur.Sub
-18	kaɗàː	kaɗàː	VERB	_	_	17	comp:aux	_	_
-19	”	”	PUNCT	_	_	1	punct	_	Gloss=PUNCT
-20	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
+6	zâːmu	zâi	AUX	_	Number=Plur|Person=1|Tense=Fut	5	comp:obj	_	Gloss=Fut.1Plur
+7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	6	comp:aux	_	Gloss=do.Vnoun.Masc
+8	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+9	sai	sai	ADV	_	_	11	mod	_	Gloss=then
+10	yànzu	yànzu	ADV	_	_	11	mod	_	Gloss=now
+11	mù	yà	AUX	_	Mood=Sub|Number=Plur|Person=1	2	comp:obj	_	Gloss=1Plur.Sub
+12	tsayàː	tsayàː	VERB	_	_	11	comp:aux	_	Gloss=sit_down
+13	mù	yà	AUX	_	Mood=Sub|Number=Plur|Person=1	11	parataxis@conj	_	Gloss=1Plur.Sub
+14	tankà	tankàː	VERB	_	_	13	comp:aux	_	_
+15	maulunàmmu	maulunàː	NOUN	_	Number=Plur	14	comp:obj	_	_
+16	mù	yà	AUX	_	Mood=Sub|Number=Plur|Person=1	13	parataxis@conj	_	Gloss=1Plur.Sub
+17	kaɗàː	kaɗàː	VERB	_	_	16	comp:aux	_	_
+18	”	”	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+19	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__413
 # text = “ tundà màːsu maulòː mukè dai baːà yi munà koːmiː ” .
@@ -8722,16 +8720,15 @@
 22	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__549
-# text = “ koːkòː hàukaː tàː zâː ki yîː? “
+# text = “ koːkòː hàukaː tàː zâːki yîː ? “
 1	“	“	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 2	koːkòː	koːkòː	CCONJ	_	_	4	mod	_	_
 3	hàukaː	hàukaː	NOUN	_	Gender=Fem	4	subj	_	Gloss=madness.Fem
 4	tàː	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	0	root	_	_
-5	zâː	zâː	PART	_	_	4	comp:aux	_	_
-6	ki	ki	PRON	_	Case=Acc|Gender=Fem|Person=2|PronType=Prs	5	subj	_	Gloss=2Fem.Acc
-7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:obj@G	_	Gloss=do.Vnoun.Masc
-8	?	?	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-9	“	“	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+5	zâːki	zâi	PART	_	Gender=Fem|Person=2|Tense=Fut	4	comp:aux	_	Gloss=Fut.2Fem
+6	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	comp:obj@G	_	Gloss=do.Vnoun.Masc
+7	?	?	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+8	“	“	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__550
 # text = “ bàː hàukaː tàː zân yîː ba. “
@@ -10777,7 +10774,7 @@
 5	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__674
-# text = " tundà wani mùtun yaː zakà yaː tàri shaːnun Gilaːgè, yaː tàri shaːnun mài gidaː, mài gidaː yaː tàhi kwàràːreːnai bà mù san wàdà zâː su kwaːshèːwaː ba. "
+# text = " tundà wani mùtun yaː zakà yaː tàri shaːnun Gilaːgè , yaː tàri shaːnun mài gidaː , mài gidaː yaː tàhi kwàràːreːnai bàmù san wàdà zâːsu kwaːshèːwaː ba " .
 1	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 2	tundà	tundà	SCONJ	_	_	5	discourse	_	_
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc	4	det	_	Gloss=some.Masc
@@ -10803,12 +10800,11 @@
 23	bàmù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	20	parataxis@conj	_	Gloss=1Plur.Perf.Neg|wordform=mù
 24	san	sanìː	VERB	_	_	23	comp:aux	_	Gloss=know
 25	wàdà	wàdà	ADV	_	PronType=Rel	24	comp:obj	_	Gloss=how
-26	zâː	zâː	AUX	_	_	25	mod@relcl	_	_
-27	su	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	subj	_	Gloss=3Plur.Acc
-28	kwaːshèːwaː	kwaːshèːwaː	VERB	_	ExtPos=NOUN|Gender=Fem	26	comp:aux	_	_
-29	ba	ba	PART	_	Polarity=Neg	21	mod	_	Gloss=Neg
-30	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
-31	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
+26	zâːsu	zâi	AUX	_	Number=Plur|Person=3|Tense=Fut	25	mod@relcl	_	Gloss=Fut.3Plur
+27	kwaːshèːwaː	kwaːshèːwaː	VERB	_	ExtPos=NOUN|Gender=Fem	26	comp:aux	_	_
+28	ba	ba	PART	_	Polarity=Neg	21	mod	_	Gloss=Neg
+29	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform=.
+30	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__675
 # text = mài maulòː yac cèː " wanèː wajjeː sunkài ? "
