@@ -5314,7 +5314,7 @@
 15	in	in	SCONJ	_	_	13	mod	_	Gloss=if
 16	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	15	comp:obj	_	Gloss=3Plur.Perf.Rel
 17	kwan	kwaːna	VERB	_	ExtPos=NOUN|Gender=Masc	16	comp:aux	_	Gloss=sleep
-18	dà	dà	ADP	_	_	17	comp:obl	_	Gloss=with
+18	dà	dà	ADP	_	_	17	mod	_	Gloss=with
 19	saːhe	saːhe	ADV	_	Gender=Masc	18	comp:obj	_	Gloss=in_the_morning
 20	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 21	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
@@ -5325,7 +5325,7 @@
 2	keː	keː	PRON	_	Case=Nom|Gender=Fem|Person=2|PronType=Prs	0	root	_	Gloss=2Fem.Nom
 3	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	2	comp:cleft	_	Gloss=2Masc.Sub
 4	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	Gloss=go.Vnoun.Masc
-5	sàllamàssu	sàllamàːsù	NOUN	_	Number=Plur|Person=3	4	comp:obj	_	_
+5	sàllamàssu	sàllamàː	NOUN	_	Case=Gen|ExtPos=NOUN|Number=Plur|Person=3	4	comp:obj@G	_	Gloss=greet.Vnoun.Cons\3Plur.Gen
 6	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -5334,11 +5334,11 @@
 1	saʿànnan	saʿànnan	ADV	_	_	3	mod	_	Gloss=then
 2	ʿYabBàraːya	ʿyabbàraːya	PROPN	_	Number=Plur	3	subj	_	Gloss=ʿYabBàraːya
 3	taz	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
-4	zoː	zoː	VERB	_	_	3	comp:aux	_	_
+4	zoː	zoː	VERB	_	_	3	comp:aux	_	Gloss=go
 5	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Fem.Perf.Rel
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	Gloss=say
 7	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obl	_	Gloss=3Plur.Dat
-8	tôː	tôː	INTJ	_	_	5	discourse	_	Gloss=well
+8	tôː	tôː	INTJ	_	_	5	comp:obj	_	Gloss=well
 9	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__339
@@ -5411,7 +5411,7 @@
 1	sai	sai	ADV	_	_	3	mod	_	Gloss=then
 2	ʿYabBàraːya	ʿyabbàraːya	PROPN	_	_	3	subj	_	Gloss=ʿYabBàraːya
 3	taz	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
-4	zoː	zoː	VERB	_	_	3	comp:aux	_	_
+4	zoː	zoː	VERB	_	_	3	comp:aux	_	Gloss=go
 5	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Fem.Perf.Rel
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	Gloss=say
 7	màːsu	mài	PART	_	Number=Plur|PartType=Der	6	comp:obl	_	Gloss=owner_of.Plur
@@ -7334,7 +7334,7 @@
 7	harìː	harìː	NOUN	_	Gender=Masc	6	comp:obj	_	Gloss=raiding.Masc
 8	naː	neː	AUX	_	Copula=Yes	4	mod@relcl	_	Gloss=Ident
 9	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	8	comp:cleft	_	Gloss=3Masc.Perf.Rel
-10	zoː	zoː	VERB	_	_	9	comp:aux	_	_
+10	zoː	zoː	VERB	_	_	9	comp:aux	_	Gloss=go
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__470
@@ -7344,7 +7344,7 @@
 3	san	sanìː	VERB	_	_	2	comp:aux	_	Gloss=know
 4	indà	indà	PRON	_	PronType=Rel	3	comp:obj	_	Gloss=where
 5	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	4	mod@relcl	_	Gloss=3Masc.Perf.Rel
-6	zoː	zoː	VERB	_	_	5	comp:aux	_	_
+6	zoː	zoː	VERB	_	_	5	comp:aux	_	Gloss=go
 7	ba	ba	PART	_	Polarity=Neg	6	mod	_	Gloss=Neg
 8	im	in	SCONJ	_	_	6	mod	_	Gloss=if
 9	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	10	mod	_	Gloss=Neg
@@ -8484,7 +8484,7 @@
 1	saʿànnan	saʿànnan	ADV	_	_	3	mod	_	Gloss=then
 2	tabbàːshiːnai	tabbàːshiː	NOUN	_	Case=Gen|Gender=Masc|Number=Plur|Person=3	3	subj	_	Gloss=teasing_relative.Masc  \3Masc.Gen
 3	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-4	zoː	zoː	VERB	_	_	3	comp:aux	_	_
+4	zoː	zoː	VERB	_	_	3	comp:aux	_	Gloss=go
 5	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	3	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 6	cèː	cêː	VERB	_	_	5	comp:aux	_	Gloss=say
 7	mà	mà	ADP	_	Case=Dat	6	comp:obl	_	Gloss=Dat
@@ -9429,7 +9429,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__586
 # text = yaz zoː yaʿ îskeː su makyàːyiː ukkù naː ag gà Gilaːgè- Gilaːgè.
 1	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-2	zoː	zoː	VERB	_	_	1	comp:aux	_	_
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	Gloss=go
 3	yaʿ	yaʿ	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 4	îskeː	îskeː	VERB	_	_	3	comp:aux	_	_
 5	su	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj@T	_	Gloss=3Plur.Acc
@@ -9445,7 +9445,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__587
 # text = yaz zoː duy yab baː sù kaːshìː.
 1	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-2	zoː	zoː	VERB	_	_	1	comp:aux	_	_
+2	zoː	zoː	VERB	_	_	1	comp:aux	_	Gloss=go
 3	duy	dukà	DET	_	PronType=Tot	2	det	_	Gloss=all
 4	yab	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel
 5	baː	baː	VERB	_	_	4	comp:aux	_	Gloss=give
@@ -10641,7 +10641,7 @@
 13	Garbaː	Garbaː	PROPN	_	_	12	mod	_	Gloss=Garbaː
 14	Dikkò	Dikkò	PROPN	_	_	15	subj	_	Gloss=Dikkò
 15	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	9	conj:coord	_	Gloss=3Masc.Sub
-16	zoː	zoː	VERB	_	_	15	comp:aux	_	_
+16	zoː	zoː	VERB	_	_	15	comp:aux	_	Gloss=go
 17	tsàye	tsayàː	VERB	_	ExtPos=ADV|VerbForm=Stat	16	comp:obj@G	_	Gloss=stand.Stat
 18	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
@@ -10659,7 +10659,7 @@
 10	dà	dà	SCONJ	_	_	9	comp:obl	_	Gloss=that
 11	kaːyèː	kaːyèː	NOUN	_	Gender=Masc	10	comp:obj	_	_
 12	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	8	parataxis@conj	_	Gloss=3Masc.Sub
-13	zoː	zoː	VERB	_	_	12	comp:aux	_	_
+13	zoː	zoː	VERB	_	_	12	comp:aux	_	Gloss=go
 14	tsàye	tsayàː	VERB	_	ExtPos=ADV|VerbForm=Stat	13	comp:obj@G	_	Gloss=stand.Stat
 15	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
@@ -11370,7 +11370,7 @@
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
-5	zoː	zoː	VERB	_	_	4	comp:aux	_	_
+5	zoː	zoː	VERB	_	_	4	comp:aux	_	Gloss=go
 6	gidaː	gidaː	NOUN	_	Gender=Masc	5	comp:obj@G	_	Gloss=compound.Masc
 7	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -12595,7 +12595,7 @@
 2	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 3	tàhi	tàhi	VERB	_	_	2	comp:aux	_	Gloss=go
 4	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	3	comp:obj	_	Gloss=3Fem.Sub
-5	zoː	zoː	VERB	_	_	4	comp:aux	_	_
+5	zoː	zoː	VERB	_	_	4	comp:aux	_	Gloss=go
 6	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	4	parataxis@conj	_	Gloss=3Fem.Sub
 7	zubèː	zub-	VERB	_	_	6	comp:aux	_	_
 8	mà	mà	ADP	_	Case=Dat	7	comp:obl	_	Gloss=Dat
@@ -13021,7 +13021,7 @@
 # text = dà yaz zoː yaɗ ɗarmàː mà doːkìːnai sirdìː .
 1	dà	dà	SCONJ	_	_	4	mod	_	Gloss=that
 2	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	_
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	Gloss=go
 4	yaɗ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 5	ɗarmàː	ɗarmàː	VERB	_	_	4	comp:aux	_	Gloss=tie
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	Gloss=Dat
@@ -13293,7 +13293,7 @@
 # text = dà sunkà zoː gidaː ankài ta màːmaːkìː sabàddà bà'à san cikin sàmàːrin gàriː koː wanèː naː yaƙ ƙwaːtoː dukà duːkìyag gàriː dà yâːran gàriː waɗàndà yaːƙìː yac ci .
 1	dà	dà	SCONJ	_	_	5	mod	_	Gloss=that
 2	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Plur.Perf.Rel
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	_
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	Gloss=go
 4	gidaː	gidaː	NOUN	_	Gender=Masc	3	comp:obj@G	_	Gloss=compound.Masc
 5	ankài	yi	VERB	_	Aspect=Perf|Person=4	0	root	_	Gloss=4.Perf.Rel.do
 6	ta	ta	PART	_	Aspect=Iter	5	compound:prt	_	Gloss=Iter
@@ -13537,7 +13537,7 @@
 # text = dà taz zoː gidaː sai tac cèː mà ùbantà " Abbà , yâu naː ga wandà ya àːgìjeː mù " .
 1	dà	dà	SCONJ	_	_	6	mod	_	Gloss=that
 2	taz	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	_
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	Gloss=go
 4	gidaː	gidaː	NOUN	_	Gender=Masc	3	comp:obj@G	_	Gloss=compound.Masc
 5	sai	sai	ADV	_	_	6	mod	_	Gloss=then
 6	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
@@ -13613,7 +13613,7 @@
 # text = dà ankà zoː ankà cêː mà Dandà Garbaː Dikkò " sarkiː nàː kirànkà " .
 1	dà	dà	SCONJ	_	_	4	mod	_	Gloss=that
 2	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	1	comp:obj	_	Gloss=4.Perf.Rel
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	_
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	Gloss=go
 4	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	Gloss=4.Perf.Rel
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	Gloss=Dat
@@ -13678,7 +13678,7 @@
 # text = dà yaz zoː , yaɗ ɗarmàː mà Baniyoːgubà sirdìː , yash shìga cikin kaːyaːnai na yaːƙìː .
 1	dà	dà	SCONJ	_	_	5	mod	_	Gloss=that
 2	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
-3	zoː	zoː	VERB	_	_	2	comp:aux	_	_
+3	zoː	zoː	VERB	_	_	2	comp:aux	_	Gloss=go
 4	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 5	yaɗ	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 6	ɗarmàː	ɗarmàː	VERB	_	_	5	comp:aux	_	Gloss=tie
