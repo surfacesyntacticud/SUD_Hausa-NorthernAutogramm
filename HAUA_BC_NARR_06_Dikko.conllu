@@ -5325,7 +5325,7 @@
 2	keː	keː	PRON	_	Case=Nom|Gender=Fem|Person=2|PronType=Prs	0	root	_	Gloss=2Fem.Nom
 3	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	2	comp:cleft	_	Gloss=2Masc.Sub
 4	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	Gloss=go.Vnoun.Masc
-5	sàllamàssu	sàllamàː	NOUN	_	Case=Gen|ExtPos=NOUN|Number=Plur|Person=3	4	comp:obj@G	_	Gloss=greet.Vnoun.Cons\3Plur.Gen
+5	sàllamàssu	sàllamàː	VERB	_	Case=Gen|ExtPos=NOUN|Number=Plur|Person=3|VerbForm=Vnoun	4	comp:obj@G	_	Gloss=dismiss.Vnoun.Cons\3Plur.Gen
 6	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
@@ -5499,7 +5499,7 @@
 8	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 9	sai	sai	ADV	_	_	10	mod	_	Gloss=then
 10	ìn	yà	AUX	_	Mood=Sub|Person=1	0	root	_	Gloss=1Sing.Sub
-11	sàllàmeː	sàllamàː	VERB	_	_	10	comp:aux	_	Gloss=greet
+11	sàllàmeː	sàllamàː	VERB	_	_	10	comp:aux	_	Gloss=dismiss
 12	kù	ku	PRON	_	Case=Acc|Number=Plur|Person=2	11	comp:obj	_	Gloss=2Plur.Acc
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 14	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	10	parataxis@conj	_	Gloss=2Plur.Sub
@@ -5571,7 +5571,7 @@
 16	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__355
-# text = Dandà Garbaː Dikkò yac cèː matà " kì cèː sù ɗarmà sirìddaː kì sàllàmeː sù. "
+# text = Dandà Garbaː Dikkò yac cèː matà " kì cèː sù ɗarmà sirìddaː kì sàllàmeː sù " .
 1	Dandà	danon	PROPN	_	_	4	mod	_	Gloss=Dandà
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
@@ -5585,7 +5585,7 @@
 11	ɗarmà	ɗarmàː	VERB	_	_	10	comp:aux	_	Gloss=tie
 12	sirìddaː	sirdìː	NOUN	_	Number=Plur	11	comp:obj	_	Gloss=saddle.Plur
 13	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	9	parataxis@conj	_	Gloss=2Fem.Sub
-14	sàllàmeː	sallàm-	VERB	_	_	13	comp:aux	_	_
+14	sàllàmeː	sàllamàː	VERB	_	_	13	comp:aux	_	Gloss=dismiss
 15	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	Gloss=3Plur.Acc
 16	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
 17	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
@@ -5666,7 +5666,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__361
-# text = " in kuma gidaː kunkài, kù yi sirìddaː, ìn sàllàmeː kù kù tàhiyàkkù. "
+# text = " in kuma gidaː kunkài , kù yi sirìddaː , ìn sàllàmeː kù kù tàhiyàkkù " .
 1	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 2	in	in	SCONJ	_	_	7	mod	_	Gloss=if
 3	kuma	kuma	PART	_	PartType=Top	2	discourse@top	_	Gloss=too
@@ -5678,7 +5678,7 @@
 9	sirìddaː	sirdìː	NOUN	_	Number=Plur	8	comp:pred	_	Gloss=saddle.Plur
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	ìn	yà	AUX	_	Mood=Sub|Person=1	7	parataxis@conj	_	Gloss=1Sing.Sub
-12	sàllàmeː	sallàm-	VERB	_	_	11	comp:aux	_	_
+12	sàllàmeː	sàllamàː	VERB	_	_	11	comp:aux	_	Gloss=dismiss
 13	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	12	comp:obj	_	Gloss=2Plur.Sub
 14	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	11	parataxis@conj	_	Gloss=2Plur.Sub
 15	tàhiyàkkù	ɗàhiyaː	VERB	_	ExtPos=NOUN|Gender=Fem	14	comp:aux	_	_
