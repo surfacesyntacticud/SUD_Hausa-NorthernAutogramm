@@ -213,7 +213,7 @@
 10	tôː	tôː	INTJ	_	_	11	discourse	_	AlignBegin=51174|AlignEnd=51456|Gloss=well
 11	saː	saː	VERB	_	Mood=Jus	0	root	_	AlignBegin=51456|AlignEnd=51738|Gloss=put.Jus
 12	maːshìn	maːshìː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	AlignBegin=51738|AlignEnd=52020|Gloss=spear.Masc.Cons
-13	nan	nan	DET	_	Definite=PrevRef	12	det	_	AlignBegin=52020|AlignEnd=52302|Gloss=PreRef
+13	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	12	det	_	AlignBegin=52020|AlignEnd=52302|Gloss=PreRef
 14	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	11	conj:coord	_	AlignBegin=52302|AlignEnd=52584|Gloss=2Fem.Sub
 15	soːkàː	soːk-	VERB	_	_	14	comp:aux	_	AlignBegin=52584|AlignEnd=52866|Gloss=stab
 16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=52866|AlignEnd=53152|Gloss=PUNCT
@@ -273,7 +273,7 @@
 2	taɗ	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	AlignBegin=62858|AlignEnd=63339|Gloss=3Fem.Perf.Rel
 3	ɗaukoː	ɗaukàː	VERB	_	_	2	comp:aux	_	AlignBegin=63339|AlignEnd=63820|Gloss=take.Dir
 4	kiːhîn	kiːhiː	NOUN	_	Definite=Cons|Gender=Masc	3	comp:obj	_	AlignBegin=63820|AlignEnd=64301|Gloss=fish.Masc.Cons
-5	nan	nan	DET	_	Definite=PrevRef	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=PreRef
+5	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	4	det	_	AlignBegin=64301|AlignEnd=64782|Gloss=PreRef
 6	ta'	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=64782|AlignEnd=65263|Gloss=3Fem.Perf.Rel
 7	ajèː	az-	VERB	_	_	6	comp:aux	_	AlignBegin=65263|AlignEnd=65744|Gloss=put_aside
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=65744|AlignEnd=66226|Gloss=PUNCT
@@ -729,14 +729,14 @@
 # text_en = She kept eating and eating the meat.
 1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	subj	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem
 2	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=139400|AlignEnd=139539|Gloss=3Fem.Prog|wordform=ta
-3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=Def
+3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=139539|AlignEnd=139678|Gloss=PreRef
 4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	2	parataxis@conj	_	AlignBegin=139678|AlignEnd=139817|Gloss=3Fem.Prog
 5	ta	ta	PART	_	Aspect=Iter|PartType=Adv	4	compound:prt	_	AlignBegin=139817|AlignEnd=139956|Gloss=Iter
 6	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	comp@aux	_	AlignBegin=139956|AlignEnd=140095|Gloss=eat.Vnoun.Masc.Cons
 7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	udep	_	AlignBegin=140095|AlignEnd=140234|Gloss=meat.Masc
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=140234|AlignEnd=140373|Gloss=PUNCT
 9	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	4	parataxis@conj	_	AlignBegin=140373|AlignEnd=140512|Gloss=3Fem.Prog|wordform=ta
-10	nan	nan	ADV	_	Definite=Def|PronType=Dem	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=Def
+10	nan	nan	ADV	_	Definite=Def|PronType=Dem	9	comp:pred	_	AlignBegin=140512|AlignEnd=140651|Gloss=PreRef
 11	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	9	parataxis@conj	_	AlignBegin=140651|AlignEnd=140790|Gloss=3Fem.Prog
 12	ta	ta	PART	_	Aspect=Iter|PartType=Adv	11	compound:prt	_	AlignBegin=140790|AlignEnd=140929|Gloss=Iter
 13	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp@aux	_	AlignBegin=140929|AlignEnd=141068|Gloss=eat.Vnoun.Masc.Cons
