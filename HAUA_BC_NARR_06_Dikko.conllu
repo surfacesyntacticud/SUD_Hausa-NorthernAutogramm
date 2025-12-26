@@ -3003,15 +3003,17 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__192
 # text = shiː , kiɗìn maulòː gàba dà daːma gàrai .
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	Gloss=3Masc.Nom
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	dislocated@subj	_	Gloss=3Masc.Nom
 2	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 3	kiɗìn	kiɗìː	NOUN	_	Definite=Cons|Gender=Masc	1	conj:appos	_	Gloss=music.Masc.Cons
 4	maulòː	maulòː	NOUN	_	Gender=Masc	3	mod	_	Gloss=guitar.Masc
-5	gàba	gàba	ADV	_	_	8	comp:pred	_	Gloss=in_front
-6	dà	dà	ADP	_	_	5	mod	_	Gloss=with
-7	daːma	daːma	NOUN	_	_	6	comp:obj	_	Gloss=at_right
-8	gàrai	gàrai	ADP	_	Case=Acc|Gender=Masc|Person=3	0	root	_	Gloss=at\3Masc.Acc
-9	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
+5	gàba	gàba	ADV	_	_	0	root	_	Gloss=in_front
+6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
+7	daːma	daːma	NOUN	_	_	5	conj:coord	_	Gloss=at_right
+8-9	gàrai	_	_	_	_	_	_	_	_
+8	gàreː	gàreː	ADP	_	Case=Acc|Gender=Masc|Person=3	5	mod	_	Gloss=at
+9	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	Gloss=3Masc.Acc
+10	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__193
 # text = kuma ha' àljaniː gàreː sù na kiɗìn maulòː .
@@ -3458,8 +3460,10 @@
 2	doːkìːnai	doːkìː	NOUN	_	Case=Gen|Gender=Masc|Person=3	1	subj	_	Gloss=horse.Masc  \3Masc.Gen
 3	Banìyoːgubà	Banìyoːgubà	PROPN	_	Definite=Cons|Number=Plur	2	conj:appos	_	Gloss=Banìyoːgubà
 4	kusa	kusa	ADV	_	_	1	comp:pred	_	Gloss=close
-5	gàrai	gàrai	NOUN	_	Gender=Masc	4	mod	_	_
-6	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+5-6	gàrai	_	_	_	_	_	_	_	_
+5	gàreː	gàreː	ADP	_	_	4	mod	_	Gloss=at
+6	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	Gloss=3Masc.Acc
+7	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__222
 # text = sa'ànnan kuma gàː takòːbîn nan naːshì kusa gàrai , shinàː nàɗe cikin àljiːhuː .
@@ -3470,13 +3474,15 @@
 5	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	4	det	_	Gloss=PreRef
 6	naːshì	naːshì	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	4	mod@poss	_	Gloss=3Masc.Gen
 7	kusa	kusa	ADV	_	_	3	comp:pred	_	Gloss=close
-8	gàrai	gàreː	ADP	_	Case=Acc|Gender=Masc|Person=3	7	mod	_	Gloss=at\3Masc.Acc
-9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-10	shinàː	nàː	AUX	_	Gender=Masc|Person=3	3	parataxis@conj	_	Gloss=3Masc.Prog
-11	nàɗe	naɗèː	VERB	_	ExtPos=ADV|VerbForm=Stat	10	comp:pred	_	Gloss=tie.Stat
-12	cikin	cikin	ADP	_	_	11	comp:obl	_	Gloss=in
-13	àljiːhuː	àljiːhuː	NOUN	_	Gender=Masc	12	comp:obj	_	Gloss=pocket.Masc
-14	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+8-9	gàrai	_	_	_	_	_	_	_	_
+8	gàreː	gàreː	ADP	_	_	7	mod	_	Gloss=at
+9	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	Gloss=3Masc.Acc
+10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+11	shinàː	nàː	AUX	_	Gender=Masc|Person=3	3	parataxis@conj	_	Gloss=3Masc.Prog
+12	nàɗe	naɗèː	VERB	_	ExtPos=ADV|VerbForm=Stat	11	comp:pred	_	Gloss=tie.Stat
+13	cikin	cikin	ADP	_	_	12	comp:obl	_	Gloss=in
+14	àljiːhuː	àljiːhuː	NOUN	_	Gender=Masc	13	comp:obj	_	Gloss=pocket.Masc
+15	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__223
 # text = kaico!
@@ -3949,12 +3955,14 @@
 3	koːwaː	koːwaː	PRON	_	PronType=Ind	4	subj	_	Gloss=everyone
 4	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	2	parataxis@conj	_	Gloss=3Masc.Sub
 5	koːyàː	koːyàː	VERB	_	_	4	comp:aux	_	Gloss=learn
-6	gàrai	gàreː	ADP	_	Case=Acc|Gender=Masc|Person=3	5	comp:obl	_	Gloss=by\3Masc.Acc
-7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-8	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	5	parataxis@mod	_	Gloss=3Masc.Sub
-9	iyàː	iyàː	VERB	_	_	8	comp:aux	_	Gloss=can
-10	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
-11	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
+6-7	gàrai	_	_	_	_	_	_	_	_
+6	gàreː	gàreː	ADP	_	_	5	comp:obl	_	Gloss=at
+7	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	Gloss=3Masc.Acc
+8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+9	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	5	parataxis@mod	_	Gloss=3Masc.Sub
+10	iyàː	iyàː	VERB	_	_	9	comp:aux	_	Gloss=can
+11	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform=.
+12	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__250
 # text = " kun ji kiɗìn maulòːna, gàː shi. "
@@ -5761,8 +5769,10 @@
 3	ajèː	ajèː	VERB	_	_	2	comp:aux	_	Gloss=put
 4	yaggiyàː	yaggiyàː	NOUN	_	Gender=Fem	3	comp:obj	_	Gloss=rope.Fem
 5	kusa	kusa	ADV	_	_	4	comp:obl	_	Gloss=close
-6	gàrai	gàreː	NOUN	_	Case=Acc|Gender=Masc|Person=3	5	mod	_	Gloss=near.it
-7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+6-7	gàrai	_	_	_	_	_	_	_	_
+6	gàreː	gàreː	ADP	_	_	5	mod	_	Gloss=at
+7	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	Gloss=3Masc.Acc
+8	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__366
 # text = koːdà 'YabBàraːya taz zakà, mijìː yaː saːkèː.
@@ -8407,8 +8417,10 @@
 8	baːyan	baːyaː	NOUN	_	Definite=Cons|Gender=Masc	7	comp:obj	_	Gloss=back.Masc.Cons
 9	doːkìː	doːkìː	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=horse.Mac
 10	baːya	baːya	ADV	_	_	7	mod	_	Gloss=to_the_back
-11	gàrai	gàreː	NOUN	_	Case=Acc|Gender=Masc|Person=3	10	comp:obj	_	Gloss=at\3Masc.Acc
-12	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+11-12	gàrai	_	_	_	_	_	_	_	_
+11	gàreː	gàreː	ADP	_	Case=Acc|Gender=Masc|Person=3	10	mod	_	Gloss=at\3Masc.Acc
+12	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	11	comp:obj	_	Gloss=3Masc.Acc
+13	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__533
 # text = Dandà Garbaː Dikkò bài waiwàyaː ba, aː bài waiwàyaː ba.
@@ -8655,12 +8667,14 @@
 9	makàlmìsaː	makàlmìsaː	NOUN	_	Number=Plur	10	subj	_	Gloss=shoemaker.Plur
 10	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	comp:obj	_	Gloss=3Plur.Perf
 11	cèː	cêː	VERB	_	_	10	comp:aux	_	Gloss=say
-12	mân	mâi	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	Gloss=fat.Masc.Cons
+12	mân	mâi	NOUN	_	Definite=Cons|Gender=Masc	15	dislocated@comp	_	Gloss=fat.Masc.Cons
 13	shaːnunkà	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=2	12	mod	_	Gloss=cow.Plur.Cons\2Masc.Gen
-14	waːriː	waːriː	NOUN	_	Gender=Masc	13	mod	_	_
-15	gàrai	gàrai	NOUN	_	Gender=Masc	13	mod	_	_
-16	“	“	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-17	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+14	waːriː	waːriː	NOUN	_	Gender=Masc	15	subj	_	Gloss=bad_smell.Masc
+15-16	gàrai	_	_	_	_	_	_	_	_
+15	gàreː	gàreː	ADP	_	_	11	comp:obj	_	Gloss=at
+16	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	15	comp:pred	_	Gloss=3Masc.Acc
+17	“	“	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+18	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__545
 # text = “ àmmaː àkwai wani zaːrùmiː dà akà cêː màː Gilaːgèː, mân shaːnuːnai baːsù dà waːriː, shì tàhi shì amsoː mikì. “
@@ -8679,7 +8693,7 @@
 13	shaːnuːnai	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=3	14	subj	_	Gloss=cow.Plur\3Masc.Gen
 14	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	8	comp:obj	_	Gloss=3Plur.Prog.Neg
 15	dà	dà	ADP	_	_	14	comp:pred	_	Gloss=with
-16	waːriː	waːriː	NOUN	_	Gender=Masc	15	comp:obj	_	_
+16	waːriː	waːriː	NOUN	_	Gender=Masc	15	comp:obj	_	Gloss=bad_smell.Masc
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	8	comp:obj@T	_	Gloss=3Masc.Sub
 19	tàhi	tàhi	VERB	_	_	18	comp:aux	_	Gloss=go
@@ -8795,13 +8809,15 @@
 11	min	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obl	_	Gloss=1Sing.Dat
 12	kàlmisàː	kàlmisàː	NOUN	_	Gender=Fem	10	comp:pred	_	Gloss=shoe.Fem
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
-14	mân	mâi	NOUN	_	Definite=Cons|Gender=Masc	9	subj	_	Gloss=fat.Masc.Cons
+14	mân	mâi	NOUN	_	Definite=Cons|Gender=Masc	16	dislocated@comp	_	Gloss=fat.Masc.Cons
 15	shaːnunkà	sâː	NOUN	_	Case=Gen|Gender=Masc|Person=2	14	mod	_	Gloss=cow.Plur.Cons\2Masc.Gen
-16	waːriː	waːriː	NOUN	_	Gender=Masc	15	mod	_	_
-17	ag	at	AUX	_	Definite=Cons|Gender=Masc	15	mod	_	_
-18	gàrai	gàrai	NOUN	_	Gender=Masc	17	mod	_	_
-19	“	“	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-20	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+16	waːriː	waːriː	NOUN	_	Gender=Masc	10	parataxis@mod	_	Gloss=bad_smell.Masc
+17	ag	neː	AUX	_	Copula=Yes|Relative=Yes	16	comp:cleft	_	Gloss=Ident.Rel
+18-19	gàrai	_	_	_	_	_	_	_	_
+18	gàreː	gàreː	ADP	_	_	17	comp:pred	_	Gloss=at
+19	shì	shi	ADP	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	18	comp:obj	_	Gloss=3Masc.Acc
+20	“	“	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+21	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__553
 # text = “ wai àkwai wani zaːrùmiː dà akà cêː màː Gilaːgèː-Gilaːgèː gùmbai yàːkuwaː dà noːnòn kuːraː “ .
@@ -9246,9 +9262,11 @@
 52	shaːnuːnaː	shaːnuːnaː	NOUN	_	Number=Plur	51	mod	_	_
 53	wai	wai	PART	_	PartType=Ill	55	discourse	_	Gloss=reportedly
 54	waːrìː	waːrìː	NOUN	_	Gender=Masc	55	subj	_	_
-55	gàrai	gàrai	NOUN	_	Gender=Masc	50	comp:obj	_	_
-56	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
-57	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
+55-56	gàrai	_	_	_	_	_	_	_	_
+55	gàreː	gàreː	ADP	_	Gender=Masc	50	comp:obj	_	_
+56	shì	shi	PRON	_	Gender=Masc	50	comp:obj	_	_
+57	"	"	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform=.
+58	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__576
 # text = tôː loːkàcîn nan shiː kòː Gilaːgèː ya' azà ƙòːdagòː.
@@ -12360,25 +12378,27 @@
 5	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__774
-# text = " kiːyòn jàkkai àkwai ànhwàːniː gàrai, sabàddà in anàː kiːyòn jàkkai, jàkkai baːsù ashiggil. "
+# text = " kiːyòn jàkkai àkwai ànhwàːniː gàrai , sabàddà in anàː kiːyòn jàkkai , jàkkai baːsù ashiggil " .
 1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 2	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	4	subj	_	Gloss=tending.Masc.Cons
 3	jàkkai	jàːkiː	NOUN	_	Number=Plur	2	mod	_	Gloss=donkey.Plur
 4	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	Gloss=there_is
 5	ànhwàːniː	ànhwàːniː	NOUN	_	Number=Plur	4	subj	_	_
-6	gàrai	gàrai	NOUN	_	Gender=Masc	5	mod	_	_
-7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-8	sabàddà	sabàddà	SCONJ	_	_	4	mod	_	Gloss=because
-9	in	in	SCONJ	_	_	15	mod	_	Gloss=if
-10	anàː	nàː	AUX	_	Aspect=Prog|Person=4	9	comp:obj	_	Gloss=4.Prog
-11	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:aux	_	Gloss=tending.Masc.Cons
-12	jàkkai	jàːkiː	NOUN	_	Gender=Masc|Number=Plur	11	mod	_	Gloss=donkey.Plur
-13	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
-14	jàkkai	jàːkiː	NOUN	_	Gender=Masc|Number=Plur	15	mod	_	Gloss=donkey.Plur
-15	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	8	comp:obj	_	Gloss=3Plur.Prog.Neg
-16	ashiggil	ashiggiː	NOUN	_	Gender=Masc|Person=3	15	comp:aux	_	_
-17	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
-18	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
+6-7	gàrai	_	_	_	_	_	_	_	_
+6	gàreː	gàreː	ADP	_	Gender=Masc	5	mod	_	_
+7	shì	shi	PRON	_	Gender=Masc	5	mod	_	_
+8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+9	sabàddà	sabàddà	SCONJ	_	_	4	mod	_	Gloss=because
+10	in	in	SCONJ	_	_	16	mod	_	Gloss=if
+11	anàː	nàː	AUX	_	Aspect=Prog|Person=4	10	comp:obj	_	Gloss=4.Prog
+12	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:aux	_	Gloss=tending.Masc.Cons
+13	jàkkai	jàːkiː	NOUN	_	Gender=Masc|Number=Plur	12	mod	_	Gloss=donkey.Plur
+14	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+15	jàkkai	jàːkiː	NOUN	_	Gender=Masc|Number=Plur	16	mod	_	Gloss=donkey.Plur
+16	baːsù	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Neg	9	comp:obj	_	Gloss=3Plur.Prog.Neg
+17	ashiggil	ashiggiː	NOUN	_	Gender=Masc|Person=3	16	comp:aux	_	_
+18	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform=.
+19	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT|wordform="
 
 # sent_id = HAUA_BC_NARR_06_Dikko__775
 # text = " in kas soː kaːmùn jaːkinkà , kaː san indà kakài kà kaːmoː jaːkinkà " .
@@ -13128,7 +13148,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__825
-# text = dà yas sallàmaː mà yaːƙìː sai uwai yaːƙìː tah hitoː zuwàː gàrai.
+# text = dà yas sallàmaː mà yaːƙìː sai uwai yaːƙìː tah hitoː zuwàː gàrai .
 1	dà	dà	SCONJ	_	_	9	mod	_	Gloss=that
 2	yas	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Masc.Perf.Rel
 3	sallàmaː	sallàmaː	VERB	_	_	2	comp:aux	_	_
@@ -13140,8 +13160,10 @@
 9	tah	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 10	hitoː	hìta	VERB	_	_	9	comp:aux	_	Gloss=get_out.Dir
 11	zuwàː	zuwàː	ADP	_	_	10	comp:obl	_	Gloss=towards
-12	gàrai	gàrai	NOUN	_	_	11	mod	_	_
-13	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+12-13	gàrai	_	_	_	_	_	_	_	_
+12	gàreː	gàreː	ADP	_	_	11	comp:obj	_	_
+13	shì	shì	PRON	_	_	12	comp:obj	_	_
+14	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__826
 # text = dà sunkà gàmu sunàː ta hwaːma sai uway yaːƙìː tas sàːri Garbaː Dikkò gà ƙahwàː.
