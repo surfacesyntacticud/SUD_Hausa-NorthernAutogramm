@@ -8574,12 +8574,12 @@
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	15	parataxis@conj	_	Gloss=3Masc.Prog.Neg
 19	wani	wani	DET	_	Definite=Spec|Gender=Masc	20	det	_	Gloss=some.Masc
-20	àbo	àbo	NOUN	_	Gender=Masc	18	mod	_	_
+20	àbo	àbo	NOUN	_	Gender=Masc	18	mod	_	Gloss=thing.Masc
 21	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
-22	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	18	parataxis@conj	_	Gloss=3Masc.Prog.Neg
-23	wani	wani	DET	_	Definite=Spec|Gender=Masc	33	det	_	Gloss=some.Masc
-24	àbo	àbo	NOUN	_	Gender=Masc	22	comp:obj	_	_
-25	,	,	PUNCT	_	_	31	punct	_	Gloss=PUNCT
+22	bâi	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	18	parataxis:conj	_	Gloss=3Masc.Prog.Neg
+23	wani	wani	DET	_	Definite=Spec|Gender=Masc	24	det	_	Gloss=some.Masc
+24	àbo	àbo	NOUN	_	Gender=Masc	22	comp:obj	_	Gloss=thing.Masc
+25	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 26	kêː	keː	PART	_	_	31	vocative	_	_
 27	indàː	indàː	SCONJ	_	_	31	mod	_	Gloss=if.Counterfact
 28	kinàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=2	27	comp:obj	_	Gloss=2Fem.Prog
@@ -8588,26 +8588,26 @@
 31	àkwai	àkwai	PART	_	PartType=Pred	5	comp:obj	_	Gloss=there_is
 32	wasu	wani	DET	_	Definite=Spec|Number=Plur	33	det	_	Gloss=some.Plur
 33	shaːnuː	sâː	NOUN	_	Number=Plur	31	subj	_	Gloss=cow.Plur
-34	can	can	ADV	_	Deixis=Remt|PronType=Dem	24	mod	_	Gloss=Remt
-35	gà	gà	ADP	_	_	33	mod	_	Gloss=at
+34	can	can	ADV	_	Deixis=Remt|PronType=Dem	31	comp:pred	_	Gloss=Remt
+35	gà	gà	ADP	_	_	34	mod	_	Gloss=at
 36	wani	wani	DET	_	Definite=Spec|Gender=Masc	37	det	_	Gloss=some.Masc
 37	zaːrùmiː	zaːrùmiː	NOUN	_	Gender=Masc	35	comp:obj	_	Gloss=brave
 38	dà	dà	SCONJ	_	_	37	mod@relcl	_	Gloss=that
 39	akà	nàː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	38	comp:obj	_	Gloss=4.Prog.Rel
 40	cêː	cêː	VERB	_	_	39	comp:aux	_	Gloss=say
-41	màː	màː	ADP	_	_	40	comp:obl	_	_
+41	màː	màː	ADP	_	Case=Dat	40	comp:obl	_	Gloss=Dat
 42	Gilaːgèː-Gilaːgèː	Gilaːgèː-gilaːgèː	PROPN	_	_	40	comp:obj	_	Gloss=Gilaːgèː-Gilaːgèː
-43	hammà	hammt	SCONJ	_	_	40	mod	_	_
-44	hwaːtò	hwaːtò	VERB	_	_	45	comp:obj	_	_
-45	gwarkà	ygwaː	ADP	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	46	comp:obj	_	_
-46	haɗeːjà	haɗeːjàː	VERB	_	_	39	comp:aux	_	_
-47	gùmbai	gùmbai	NUM	_	_	46	mod	_	_
-48	shìːkuwaː	shìːkuwaː	NOUN	_	Gender=Fem	46	comp:obj	_	_
-49	dà	dà	ADP	_	_	46	comp:obl	_	Gloss=with
-50	noːnòn	noːnòː	NOUN	_	Definite=Cons|Gender=Masc	49	comp:obj	_	_
-51	kuːraː	kuːraː	NOUN	_	Gender=Fem	50	mod	_	_
-52	“	“	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-53	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+43	hammà	X	X	_	_	42	flat@name	_	Gloss=X
+44	hwaːtò	X	X	_	_	43	flat@foreign	_	Gloss=X
+45	gwarkà	X	X	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	44	flat@foreign	_	Gloss=X
+46	haɗeːjà	X	X	_	_	45	flat@foreign	_	Gloss=X
+47	gùmbai	X	X	_	_	46	flat@foreign	_	Gloss=X
+48	shìːkuwaː	X	X	_	Gender=Fem	47	flat@foreign	_	Gloss=X
+49	dà	dà	ADP	_	_	42	mod	_	Gloss=with
+50	noːnòn	noːnòː	NOUN	_	Definite=Cons|Gender=Masc	49	comp:obj	_	Gloss=milk.Masc.Cons
+51	kuːraː	kuːraː	NOUN	_	Gender=Fem	50	mod	_	Gloss=hyena.Fem
+52	“	“	PUNCT	_	_	31	punct	_	Gloss=PUNCT
+53	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__542
 # text = “ yaːròː tum bài shaː ba, zuccìyaː taː ɓaːcì, wani mài hwarhwarun shaːnuː. “
@@ -8618,7 +8618,7 @@
 5	shaː	shaː	VERB	_	_	4	comp:aux	_	Gloss=drink
 6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-8	zuccìyaː	zuccìyaː	NOUN	_	Gender=Fem	9	subj	_	_
+8	zuccìyaː	zuccìyaː	NOUN	_	Gender=Fem	9	subj	_	Gloss=heart.Fem
 9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf
 10	ɓaːcì	ɓaːcì	VERB	_	_	9	comp:aux	_	_
 11	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
@@ -8818,13 +8818,13 @@
 11	gùmbai	gùmbai	ADV	_	_	10	mod	_	_
 12	yàːkuwaː	yàːkuwaː	NOUN	_	Gender=Fem	10	conj:appos	_	_
 13	dà	dà	ADP	_	_	12	comp:obl	_	Gloss=with
-14	noːnòn	noːnòː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	_
-15	kuːraː	kuːraː	NOUN	_	Gender=Fem	14	mod	_	_
+14	noːnòn	noːnòː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	Gloss=milk.Masc.Cons
+15	kuːraː	kuːraː	NOUN	_	Gender=Fem	14	mod	_	Gloss=hyena.Fem.Cons
 16	“	“	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 17	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__554
-# text = “ yaːròː tun bài shaː ba, zuccìyaː taː ɓaːcì. “
+# text = “ yaːròː tun bài shaː ba , zuccìyaː taː ɓaːcì “ .
 1	“	“	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 2	yaːròː	yaːròː	NOUN	_	Gender=Masc	9	subj	_	Gloss=boy.Masc
 3	tun	tun	SCONJ	_	_	2	mod	_	Gloss=since
@@ -8832,9 +8832,9 @@
 5	shaː	shaː	VERB	_	_	4	comp:aux	_	Gloss=drink
 6	ba	ba	PART	_	Polarity=Neg	5	mod	_	Gloss=Neg
 7	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
-8	zuccìyaː	zuccìyaː	NOUN	_	Gender=Fem	9	subj	_	_
+8	zuccìyaː	zuccìyaː	NOUN	_	Gender=Fem	9	subj	_	Gloss=heart.Fem
 9	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf
-10	ɓaːcì	ɓaːcì	VERB	_	_	9	comp:aux	_	_
+10	ɓaːcì	ɓaːcì	VERB	_	_	9	comp:aux	_	Gloss=get_spoilt
 11	“	“	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 12	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
@@ -11041,8 +11041,8 @@
 2	Gùmba	Gùmba	NUM	_	_	3	mod	_	_
 3	yàːkuwaː	yàːkuwaː	NOUN	_	Gender=Fem	0	root	_	_
 4	dà	dà	ADP	_	_	3	mod	_	Gloss=with
-5	noːnòn	noːnòː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	_
-6	kuːraː	kuːraː	NOUN	_	Gender=Fem	5	mod	_	_
+5	noːnòn	noːnòː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	Gloss=milk.Masc.Cons
+6	kuːraː	kuːraː	NOUN	_	Gender=Fem	5	mod	_	Gloss=hyena.Fem.Cons
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 8	yaːròː	yaːròː	NOUN	_	Gender=Masc	5	mod	_	Gloss=boy.Masc
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
@@ -11050,7 +11050,7 @@
 11	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	10	comp:obj	_	Gloss=3Masc.Perf.Neg
 12	shaː	shaː	VERB	_	_	11	comp:aux	_	Gloss=drink
 13	ba	ba	PART	_	Polarity=Neg	12	mod	_	Gloss=Neg
-14	zuccìyaː	zuccìyaː	NOUN	_	Gender=Fem	15	subj	_	_
+14	zuccìyaː	zuccìyaː	NOUN	_	Gender=Fem	15	subj	_	Gloss=heart.Fem
 15	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	10	comp:obj	_	Gloss=3Fem.Perf
 16	ɓaːcì	ɓaːcì	VERB	_	_	15	comp:aux	_	_
 17	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=.
