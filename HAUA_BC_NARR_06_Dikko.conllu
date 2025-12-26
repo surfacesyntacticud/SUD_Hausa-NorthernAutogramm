@@ -8548,22 +8548,22 @@
 4	tàhi	tàhi	VERB	_	_	3	comp:aux	_	Gloss=go
 5	indà	indà	PRON	_	PronType=Rel	4	comp:obj@G	_	Gloss=where
 6	wata	wata	DET	_	Definite=Spec|Gender=Fem	7	det	_	Gloss=some.Fem
-7	tsoːhuwaː	tsoːhoː	NOUN	_	Gender=Fem	8	comp:obj	_	Gloss=old_person.Fem
-8	XXX	X	X	_	_	5	mod@relcl	_	Gloss=X
+7	tsoːhuwaː	tsoːhoː	NOUN	_	Gender=Fem	8	subj	_	Gloss=old_person.Fem
+8	XXX	XXX	X	_	_	5	mod@relcl	_	Gloss=XXX
 9	kàlmisàː	kàlmisàː	NOUN	_	Gender=Fem	8	comp:obj	_	Gloss=shoe.Fem
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__541
-# text = sai tsoːhuwàt tan tac cèː “ keː, mijìn ga naːkì dà akà cêːwaː bâi tsòːroː, bâi wani àbo, bâi wani àbo, kêː indàː kinàː iyàːwaː, àkwai wasu shaːnuː can gà wani zaːrùmiː dà akà cêː màː Gilaːgèː-Gilaːgèː hammà hwaːtò gwarkà haɗeːjà gùmbai shìːkuwaː dà noːnòn kuːraː. “
-1	sai	sai	ADV	_	_	3	mod	_	Gloss=then
-2	tsoːhuwàt	tsoːhuwàː	NOUN	_	Definite=Cons|Gender=Fem	3	subj	_	_
-3	tan	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
-4	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	3	comp:obj	_	Gloss=3Fem.Perf.Rel
+# text = sai tsoːhuwàt tan tac cèː “ keː , mijìn ga naːkì dà akà cêːwaː bâi tsòːroː , bâi wani àbo , bâi wani àbo , kêː indàː kinàː iyàːwaː , àkwai wasu shaːnuː can gà wani zaːrùmiː dà akà cêː màː Gilaːgèː-Gilaːgèː hammà hwaːtò gwarkà haɗeːjà gùmbai shìːkuwaː dà noːnòn kuːraː “ .
+1	sai	sai	ADV	_	_	4	mod	_	Gloss=then
+2	tsoːhuwàt	tsoːhuwàː	NOUN	_	Definite=Cons|Gender=Fem	4	subj	_	Gloss=old_woman.Fem.Cons
+3	tan	nan	DET	_	Deixis=PreRef|Gender=Fem|PronType=Dem	2	det	_	Gloss=PreRef.Def
+4	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	Gloss=3Fem.Perf.Rel
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
 6	“	“	PUNCT	_	_	18	punct	_	Gloss=PUNCT
-7	keː	keː	PRON	_	Case=Nom|Gender=Fem|Person=2|PronType=Prs	18	dislocated@subj	_	Gloss=2Fem.Nom
+7	keː	keː	PRON	_	Case=Nom|Gender=Fem|Person=2|PronType=Prs	31	vocative	_	Gloss=2Fem.Nom
 8	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-9	mijìn	mijìː	NOUN	_	Definite=Cons|Gender=Masc	3	subj	_	_
+9	mijìn	mijìː	NOUN	_	Definite=Cons|Gender=Masc	31	dislocated@top	_	Gloss=husband.Masc.Cons
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	Gloss=Prox
 11	naːkì	naːkì	PRON	_	Case=Gen|Gender=Fem|Person=2|PronType=Prs	9	mod	_	Gloss=2Fem.Gen
 12	dà	dà	SCONJ	_	_	9	mod@relcl	_	Gloss=that
@@ -8580,12 +8580,12 @@
 23	wani	wani	DET	_	Definite=Spec|Gender=Masc	33	det	_	Gloss=some.Masc
 24	àbo	àbo	NOUN	_	Gender=Masc	22	comp:obj	_	_
 25	,	,	PUNCT	_	_	31	punct	_	Gloss=PUNCT
-26	kêː	keː	PART	_	_	31	parataxis@conj	_	_
-27	indàː	indàː	SCONJ	_	_	31	subj	_	Gloss=if.Counterfact
+26	kêː	keː	PART	_	_	31	vocative	_	_
+27	indàː	indàː	SCONJ	_	_	31	mod	_	Gloss=if.Counterfact
 28	kinàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=2	27	comp:obj	_	Gloss=2Fem.Prog
 29	iyàːwaː	iyàː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	28	comp:aux	_	Gloss=can.Vnoun.Fem
-30	,	,	PUNCT	_	_	31	punct	_	Gloss=PUNCT
-31	àkwai	àkwai	PART	_	PartType=Pred	14	comp:obj	_	Gloss=there_is
+30	,	,	PUNCT	_	_	27	punct	_	Gloss=PUNCT
+31	àkwai	àkwai	PART	_	PartType=Pred	5	comp:obj	_	Gloss=there_is
 32	wasu	wani	DET	_	Definite=Spec|Number=Plur	33	det	_	Gloss=some.Plur
 33	shaːnuː	sâː	NOUN	_	Number=Plur	31	subj	_	Gloss=cow.Plur
 34	can	can	ADV	_	Deixis=Remt|PronType=Dem	24	mod	_	Gloss=Remt
@@ -9144,7 +9144,7 @@
 23	baːtà	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3|Polarity=Neg	14	parataxis@conj	_	_
 24	daràː	daràː	VERB	_	_	23	comp:aux	_	_
 25	dà	dà	ADP	_	_	24	comp:obl	_	Gloss=with
-26	namijìː	namijìː	NOUN	_	Gender=Masc	25	comp:obj	_	_
+26	namijìː	namijìː	NOUN	_	Gender=Masc	25	comp:obj	_	Gloss=man.Masc
 27	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT|wordform=.
 28	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT|wordform="
 
