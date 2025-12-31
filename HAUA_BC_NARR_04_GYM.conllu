@@ -97,7 +97,7 @@
 10	à	yà	AUX	_	Mood=Sub|Person=4	6	conj:coord	_	AlignBegin=17477|AlignEnd=17855|Gloss=4.Sub
 11	yoː	yi	VERB	_	_	10	comp:aux	_	AlignBegin=17855|AlignEnd=18233|Gloss=do
 12	gwàdayyàk	gwàdayyàː	NOUN	_	Definite=Cons|Gender=Fem	11	comp:obj	_	AlignBegin=18233|AlignEnd=18611|Gloss=comparing.Fem.Cons
-13	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	12	udep	_	AlignBegin=18611|AlignEnd=18989|Gloss=beauty.Masc
+13	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	12	mod	_	AlignBegin=18611|AlignEnd=18989|Gloss=beauty.Masc
 14	dà	dà	ADP	_	_	12	comp:obl	_	AlignBegin=18989|AlignEnd=19367|Gloss=with
 15	Haːwà	Haːwà	PROPN	_	_	14	comp:obj	_	AlignBegin=19367|AlignEnd=19745|Gloss=Hawa
 16	dà	dà	CCONJ	_	_	17	cc	_	AlignBegin=19745|AlignEnd=20123|Gloss=and
@@ -859,7 +859,7 @@
 7	dàw	dàk	ADP	_	_	5	mod	_	AlignBegin=142785|AlignEnd=143135|Gloss=from
 8	wurin	wuriː	NOUN	_	Definite=Cons|Gender=Masc	7	comp:obj	_	AlignBegin=143135|AlignEnd=143485|Gloss=place.Masc.Cons
 9	gwadìn	gwad-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	mod	_	AlignBegin=143485|AlignEnd=143835|Gloss=show.Vnoun.Masc.Cons
-10	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	9	udep	_	AlignBegin=143835|AlignEnd=144185|Gloss=beauty.Masc
+10	kyaːwòː	kyaːwòː	NOUN	_	Gender=Masc	9	mod	_	AlignBegin=143835|AlignEnd=144185|Gloss=beauty.Masc
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=144185|AlignEnd=144540|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_042-042
@@ -1188,10 +1188,10 @@
 # text = kwàːni taːshì |r kwàːni taːshì haw wata raːnaː < yab biɗoː yaːɗan dumèn nan naːshì //
 # text_en = Days went by until one day, he went to see how far his pumpkin plant had creeped.
 1	kwàːni	kwaːn-	VERB	_	ExtPos=ADV	0	root	_	AlignBegin=191640|AlignEnd=191922|Gloss=spend_night|Idiom=Yes
-2	taːshì	taːs-	VERB	_	ExtPos=ADV	1	udep	_	AlignBegin=191922|AlignEnd=192204|Gloss=stand|InIdiom=Yes
+2	taːshì	taːs-	VERB	_	ExtPos=ADV	1	unk	_	AlignBegin=191922|AlignEnd=192204|Gloss=stand|InIdiom=Yes
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=192204|AlignEnd=192486|Gloss=PUNCT
 4	kwàːni	kwaːn-	VERB	_	ExtPos=ADV	1	conj:redup	_	AlignBegin=192486|AlignEnd=192768|Gloss=spend_night|Idiom=Yes
-5	taːshì	taːs-	VERB	_	ExtPos=ADV	4	udep	_	AlignBegin=192768|AlignEnd=193050|Gloss=stand|InIdiom=Yes
+5	taːshì	taːs-	VERB	_	ExtPos=ADV	4	unk	_	AlignBegin=192768|AlignEnd=193050|Gloss=stand|InIdiom=Yes
 6	haw	har	SCONJ	_	_	1	mod	_	AlignBegin=193050|AlignEnd=193332|Gloss=until
 7	wata	wani	DET	_	Gender=Fem|PronType=Ind	8	det	_	AlignBegin=193332|AlignEnd=193614|Gloss=some.Fem
 8	raːnaː	raːnaː	NOUN	_	Gender=Fem	10	mod	_	AlignBegin=193614|AlignEnd=193896|Gloss=day.Fem
@@ -1436,7 +1436,7 @@
 1	[	[	PUNCT	_	_	2	punct	_	AlignBegin=236531|AlignEnd=236833|Gloss=PUNCT
 2	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=236833|AlignEnd=237135|Gloss=1Sing.Prog
 3	gudùn	gud-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=237135|AlignEnd=237437|Gloss=run.Vnoun.Masc.Cons
-4	Dòːdoː	Dòːdoː	PROPN	_	_	3	udep	_	AlignBegin=237437|AlignEnd=237739|Gloss=Dodo|wordform=dòːdoː
+4	Dòːdoː	Dòːdoː	PROPN	_	_	3	comp:obj	_	AlignBegin=237437|AlignEnd=237739|Gloss=Dodo|wordform=dòːdoː
 5	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=237739|AlignEnd=238042|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_04_GYM_073-073
@@ -2135,7 +2135,7 @@
 2	ta	ta	PART	_	Aspect=Iter|PartType=Adv	1	compound:prt	_	AlignBegin=340002|AlignEnd=340224|Gloss=Iter
 3	cêwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp@aux	_	AlignBegin=340224|AlignEnd=340446|Gloss=say.Vnoun.Fem
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=340446|AlignEnd=340668|Gloss=PUNCT
-5	ayaː	ayaː	NOUN	_	_	3	udep	_	AlignBegin=340668|AlignEnd=340890|Gloss=tiger_nut
+5	ayaː	ayaː	NOUN	_	_	3	comp:obj	_	AlignBegin=340668|AlignEnd=340890|Gloss=tiger_nut
 6	wàje	wàje	ADV	_	_	5	flat@name	_	AlignBegin=340890|AlignEnd=341112|Gloss=outside
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=341112|AlignEnd=341334|Gloss=PUNCT
 8	ayaː	ayaː	NOUN	_	_	5	conj:dicto	_	AlignBegin=341334|AlignEnd=341556|Gloss=tiger_nut
@@ -2163,7 +2163,7 @@
 11	kì	yà	AUX	_	Gender=Fem|Mood=Sub|Person=2	10	conj:coord	_	AlignBegin=344442|AlignEnd=344664|Gloss=2Fem.Sub
 12	kiraːyoː	kiraː	VERB	_	_	11	comp:aux	_	AlignBegin=344664|AlignEnd=344886|Gloss=call
 13	mài	mài	PART	_	Number=Sing|PartType=Der	12	comp:obj	_	AlignBegin=344886|AlignEnd=345108|Gloss=owner_of.Sing
-14	ayaː	ayaː	NOUN	_	ExtPos=NOUN	13	comp:obj	_	AlignBegin=345108|AlignEnd=345330|Gloss=tiger_nut|Idiom=Yes
+14	ayaː	ayaː	NOUN	_	ExtPos=NOUN	13	compound	_	AlignBegin=345108|AlignEnd=345330|Gloss=tiger_nut|Idiom=Yes
 15	wàjên	wàjêː	ADV	_	_	14	compound	_	AlignBegin=345330|AlignEnd=345552|Gloss=outside|InIdiom=Yes
 16	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	13	det	_	AlignBegin=345552|AlignEnd=345774|Gloss=PreRef
 17	shì	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	12	mod	_	AlignBegin=345996|AlignEnd=346218|Gloss=3Masc.Sub
