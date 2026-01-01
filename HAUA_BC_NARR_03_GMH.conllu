@@ -48,7 +48,7 @@
 6	taːs'àtta	taːs'-	VERB	_	Case=Gen|ExtPos=NOUN|Gender=Fem|Person=3|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=86808|AlignEnd=87080|Gloss=milk.Vnoun.Fem.3Fem.Gen|wordform=taːs'àt
 7	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=87080|AlignEnd=87352|Gloss=PUNCT
 8	dà	dà	CCONJ	_	_	9	cc	_	AlignBegin=87352|AlignEnd=87624|Gloss=and
-9	ɗantà	ɗaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	5	conj:coord	_	AlignBegin=87624|AlignEnd=87896|Gloss=child.Masc.Cons.3Fem.Gen|wordform=ɗan
+9	ɗantà	ɗaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	5	compound	_	AlignBegin=87624|AlignEnd=87896|Gloss=child.Masc.Cons.3Fem.Gen|wordform=ɗan
 10	dà	dà	SCONJ	_	_	9	mod@relcl	_	AlignBegin=87896|AlignEnd=88168|Gloss=REL
 11	am	neː	AUX	_	Copula=Yes|Relative=Yes	10	comp:obj	_	AlignBegin=88168|AlignEnd=88440|Gloss=Ident..Rel
 12	màːlìye	maːliy-	VERB	_	ExtPos=ADV|VerbForm=Stat	11	comp:pred	_	AlignBegin=88440|AlignEnd=88712|Gloss=suckle.Part.Stat
@@ -109,7 +109,7 @@
 1	dà	dà	CCONJ	_	_	2	cc@preconj	_	AlignBegin=8220|AlignEnd=8687|Gloss=and
 2	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=8687|AlignEnd=9154|Gloss=king.Masc.Cons
 3	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	mod	_	AlignBegin=9154|AlignEnd=9621|Gloss=follow.Vnoun.Fem.Cons
-4	shìgaː	shìgaː	NOUN	_	Gender=Fem	3	udep	_	AlignBegin=9621|AlignEnd=10088|Gloss=track.Fem
+4	shìgaː	shìgaː	NOUN	_	Gender=Fem	3	comp:obj	_	AlignBegin=9621|AlignEnd=10088|Gloss=track.Fem
 5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=10088|AlignEnd=10555|Gloss=PUNCT
 6	dà	dà	CCONJ	_	_	7	cc	_	AlignBegin=10555|AlignEnd=11022|Gloss=and
 7	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	2	conj:coord	_	AlignBegin=11022|AlignEnd=11489|Gloss=king.Masc.Cons
@@ -193,7 +193,7 @@
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=27672|AlignEnd=27844|Gloss=go
 3	sarkin	sarkiː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj@G	_	AlignBegin=27844|AlignEnd=28016|Gloss=king.Masc.Cons
 4	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	mod	_	AlignBegin=28016|AlignEnd=28188|Gloss=follow.Vnoun.Fem.Cons
-5	shìgaː	shìgaː	NOUN	_	Gender=Fem	4	udep	_	AlignBegin=28188|AlignEnd=28360|Gloss=track.Fem
+5	shìgaː	shìgaː	NOUN	_	Gender=Fem	4	comp:obj	_	AlignBegin=28188|AlignEnd=28360|Gloss=track.Fem
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=28360|AlignEnd=28532|Gloss=PUNCT
 7	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	2	conj:coord	_	AlignBegin=28532|AlignEnd=28704|Gloss=4.Perf.Rel
 8	cêː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=28704|AlignEnd=28876|Gloss=say
@@ -239,19 +239,19 @@
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=34347|AlignEnd=34506|Gloss=do
 3	ta	ta	PART	_	Aspect=Iter|PartType=Adv	2	compound:prt	_	AlignBegin=34506|AlignEnd=34665|Gloss=Iter
 4	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:pred	_	AlignBegin=34665|AlignEnd=34824|ExtPos=NOUN|Gloss=follow.Vnoun.Fem.Cons
-5	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	4	udep	_	AlignBegin=34824|AlignEnd=34983|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
+5	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	4	comp:obj	_	AlignBegin=34824|AlignEnd=34983|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=34983|AlignEnd=35142|Gloss=PUNCT
 7	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	1	conj:redup	_	AlignBegin=35142|AlignEnd=35301|Gloss=3Masc.Perf.Rel
 8	yi	yi	VERB	_	_	7	comp:aux	_	AlignBegin=35301|AlignEnd=35460|Gloss=do
 9	ta	ta	PART	_	Aspect=Iter|PartType=Adv	8	compound:prt	_	AlignBegin=35460|AlignEnd=35619|Gloss=Iter
 10	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	8	comp:pred	_	AlignBegin=35619|AlignEnd=35778|ExtPos=NOUN|Gloss=follow.Vnoun.Fem.Cons
-11	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	10	udep	_	AlignBegin=35778|AlignEnd=35937|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
+11	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=35778|AlignEnd=35937|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=35937|AlignEnd=36096|Gloss=PUNCT
 13	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	7	conj:redup	_	AlignBegin=36096|AlignEnd=36255|Gloss=3Masc.Perf.Rel
 14	yi	yi	VERB	_	_	13	comp:aux	_	AlignBegin=36255|AlignEnd=36414|Gloss=do
 15	ta	ta	PART	_	Aspect=Iter|PartType=Adv	14	compound:prt	_	AlignBegin=36414|AlignEnd=36573|Gloss=Iter
 16	bìyash	bi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	14	comp:pred	_	AlignBegin=36573|AlignEnd=36732|ExtPos=NOUN|Gloss=follow.Vnoun.Fem.Cons
-17	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	16	udep	_	AlignBegin=36732|AlignEnd=36891|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
+17	shìgattà	shìgaː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	16	comp:obj	_	AlignBegin=36732|AlignEnd=36891|Gloss=track.Fem.Cons.3Fem.Gen|wordform=shìgat
 18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=36891|AlignEnd=37047|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_03_GMH_11-11
@@ -295,11 +295,11 @@
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_03_GMH.WAV
 # sent_timecode = 44380, 49669
-# text = hay yak kay gà wani wuriː |c yas' s'ayàː |c ankà cèː [ wurîn ga < dàn nanânga < saːnìyâg ga < ankà yi bisà dà ita //] //
+# text = hay yak kay gà wani wuriː |c yas' s'ayàː |c ankà cèː [ wurîn ga < dàn nanânga < saːnìyâg ga < ankài bisà dà ita //] //
 # text_en = Then he reached a place where he stopped and said "Here, from this place, the cow, someone has lifted it."
 1	hay	hay	SCONJ	_	_	2	discourse	_	AlignBegin=44380|AlignEnd=44569|Gloss=until
 2	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=44569|AlignEnd=44758|Gloss=3Masc.Perf.Rel
-3	kay	kay	VERB	_	_	2	comp:aux	_	AlignBegin=44758|AlignEnd=44947
+3	kay	kay	VERB	_	_	2	comp:aux	_	AlignBegin=44758|AlignEnd=44947|Gloss=reach
 4	gà	gà	ADP	_	_	3	comp:obl	_	AlignBegin=44947|AlignEnd=45136|Gloss=by
 5	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	6	det	_	AlignBegin=45136|AlignEnd=45325|Gloss=some.Masc
 6	wuriː	wuriː	NOUN	_	Gender=Masc	4	comp:obj	_	AlignBegin=45325|AlignEnd=45514|Gloss=place.Masc
@@ -495,7 +495,7 @@
 10	mùtûm	mùtunèː	NOUN	_	Gender=Masc	9	comp:obj	_	AlignBegin=83380|AlignEnd=83726|Gloss=human.Masc
 11	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	parataxis@conj	_	AlignBegin=83726|AlignEnd=84072|Gloss=3Masc.Prog
 12	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=84072|AlignEnd=84418|Gloss=milk.Vnoun.Cons.Fem
-13	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	12	udep	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Fem.Cons
+13	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	12	comp:obj	_	AlignBegin=84418|AlignEnd=84764|Gloss=cow.Fem.Cons
 14	tan	nan	DET	_	Gender=Fem|PronType=Dem	13	det	_	AlignBegin=84764|AlignEnd=85110|Gloss=PreRef.Fem
 15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=85110|AlignEnd=85448|Gloss=PUNCT
 
