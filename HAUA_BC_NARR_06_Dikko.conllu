@@ -82,7 +82,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__8
 # text = ùbaːnai nàː ag Garbà, uwaːtai Dikkò.
-# text_en = His father was Garba, his mother Dikko. 
+# text_en = His father was Garba, his mother Dikko.
 1	ùbaːnai	ùbaː	NOUN	_	Gender=Fem	0	root	_	Gloss=father.Masc.Cons\3Masc.Gen
 2	nàː	neː	PART	_	PartType=Foc	1	discourse@foc	_	Gloss=Foc
 3	ag	neː	AUX	_	Copula=Yes	1	comp:cleft	_	Gloss=Ident.Rel
@@ -94,7 +94,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__9
 # text = sabàddà Garbà dà ita bà sù sàːmu aihùwaː ba tun rad dà Allàː yay yi zamansù.
-# text_en = Because Garba and her, they had no child since God gave them life. 
+# text_en = Because Garba and her, they had no child since God gave them life.
 1	sabàddà	sabàddà	SCONJ	_	_	5	discourse	_	Gloss=because
 2	Garbà	Garbà	PROPN	_	_	1	comp:obj	_	Gloss=Garbà
 3	dà	dà	CCONJ	_	_	4	cc	_	Gloss=and
@@ -129,7 +129,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__11
 # text = dà Dikkò dà Garbà Allàː bài baː sù ƙaːruwàː ba àmman Garbà zaːrùmiː nàː.
-# text_en = Dikko and Garba, Allah did not give them an heir, but Garba is a brave warrior. 
+# text_en = Dikko and Garba, Allah did not give them an heir, but Garba is a brave warrior.
 1	dà	dà	ADP	_	_	6	dislocated@comp	_	Gloss=with
 2	Dikkò	Dikkò	PROPN	_	_	1	comp:obj	_	Gloss=Dikkò
 3	dà	dà	SCONJ	_	_	2	cc@preconj	_	Gloss=that
@@ -1032,8 +1032,8 @@
 39	kuːkaː	kuːkaː	NOUN	_	Gender=Masc	38	comp:aux	_	Gloss=crying.Masc
 40	.	.	PUNCT	_	_	30	punct	_	Gloss=PUNCT
 
-# sent_id = HAUA_BC_NARR_06_Dikko__64
-# text = sai dai Dikkò tag ga shinàː ta mòːc'iː , shinàː ta moːtsàːwaː . in taɓ ɓaɓɓàkaː shi sai tà ga kyaːshèː tà kashèː .
+# sent_id = HAUA_BC_NARR_06_Dikko__64a
+# text = sai dai Dikkò tag ga shinàː ta mòːc'iː , shinàː ta moːtsàːwaː .
 1	sai	sai	ADV	_	_	4	mod	_	Gloss=then
 2	dai	dai	PART	_	PartType=Top	1	discourse@top	_	Gloss=anyway
 3	Dikkò	Dikkò	PROPN	_	_	4	subj	_	Gloss=Dikkò
@@ -1043,21 +1043,24 @@
 7	ta	ta	PART	_	Aspect=Iter	6	compound:prt	_	Gloss=Iter
 8	mòːc'iː	mòːc'iː	NOUN	_	Gender=Masc	6	comp:pred	_	Gloss=movement.Masc
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	parataxis@conj	_	Gloss=3Masc.Prog
+10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	conj:dicto	_	Gloss=3Masc.Prog
 11	ta	ta	PART	_	Aspect=Iter	10	compound:prt	_	Gloss=Iter
 12	moːtsàːwaː	moːtsàːwaː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	10	comp:aux	_	Gloss=move.Vnoun.Fem
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-14	in	in	SCONJ	_	_	19	mod	_	Gloss=if
-15	taɓ	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	14	comp:obj	_	Gloss=3Fem.Perf.Rel
-16	ɓaɓɓàkaː	ɓaɓɓàkaː	VERB	_	_	15	comp:aux	_	Gloss=turn_over
-17	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	Gloss=3Masc.Acc
-18	sai	sai	ADV	_	_	19	mod	_	Gloss=then
-19	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	0	root	_	Gloss=3Fem.Sub
-20	ga	ganiː	VERB	_	_	19	comp:aux	_	Gloss=see
-21	kyaːshèː	kyaːshèː	NOUN	_	Gender=Masc	20	comp:obj	_	Gloss=ants
-22	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	19	parataxis@conj	_	Gloss=3Fem.Sub
-23	kashèː	kashèː	VERB	_	_	22	comp:aux	_	Gloss=kill
-24	.	.	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_06_Dikko__64b
+# text = in taɓ ɓaɓɓàkaː shi sai tà ga kyaːshèː tà kashèː .
+1	in	in	SCONJ	_	_	6	mod	_	Gloss=if
+2	taɓ	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	1	comp:obj	_	Gloss=3Fem.Perf.Rel
+3	ɓaɓɓàkaː	ɓaɓɓàkaː	VERB	_	_	2	comp:aux	_	Gloss=turn_over
+4	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	Gloss=3Masc.Acc
+5	sai	sai	ADV	_	_	6	mod	_	Gloss=then
+6	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	0	root	_	Gloss=3Fem.Sub
+7	ga	ganiː	VERB	_	_	6	comp:aux	_	Gloss=see
+8	kyaːshèː	kyaːshèː	NOUN	_	Gender=Masc	7	comp:obj	_	Gloss=ants
+9	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	6	parataxis@conj	_	Gloss=3Fem.Sub
+10	kashèː	kashèː	VERB	_	_	9	comp:aux	_	Gloss=kill
+11	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__65
 # text = àmman Dandà Garbaː Dikkò baːshì kuːkaː in dan hakànan.
