@@ -80,7 +80,7 @@
 10	wanèː	wanèː	PRON	_	Gender=Masc|PronType=Int	11	comp:pred	_	AlignBegin=102790|AlignEnd=102960|Gloss=which.Masc
 11	naː	neː	AUX	_	Copula=Yes	3	comp:obj	_	AlignBegin=102960|AlignEnd=103130|Gloss=Ident
 12	yah	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	11	comp:cleft	_	AlignBegin=103130|AlignEnd=103300|Gloss=3Masc.Perf.Rel
-13	hi	hi	VERB	_	_	12	comp:aux	_	AlignBegin=103300|AlignEnd=103470|Gloss=exceed
+13	hi	fi	VERB	_	_	12	comp:aux	_	AlignBegin=103300|AlignEnd=103470|Gloss=exceed
 14	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	13	mod	_	AlignBegin=103470|AlignEnd=103640|Gloss=thing.Masc.Cons
 15	màːmaːkiː	màːmaːkiː	NOUN	_	_	14	mod	_	AlignBegin=103640|AlignEnd=103810|Gloss=wondering
 16	?//]	?//]	PUNCT	_	_	11	punct	_	AlignBegin=103810|AlignEnd=103980|Gloss=PUNCT
@@ -210,7 +210,7 @@
 # text = ankà gwadàː mai turkèn saːnìyaː //
 # text_en = They showed him the tethering post of the cow.
 1	ankà	yaː	AUX	_	Aspect=Perf|Person=4|Relative=Yes	0	root	_	AlignBegin=30160|AlignEnd=30407|Gloss=4.Perf.Rel
-2	gwadàː	gwadàː	VERB	_	_	1	comp:aux	_	AlignBegin=30407|AlignEnd=30654|Gloss=show
+2	gwadàː	gwad-	VERB	_	_	1	comp:aux	_	AlignBegin=30407|AlignEnd=30654|Gloss=show
 3	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=30654|AlignEnd=30901|Gloss=3Masc.Dat
 4	turkèn	turkèː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=30901|AlignEnd=31148|Gloss=tethering_post.Masc
 5	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	4	mod	_	AlignBegin=31148|AlignEnd=31395|Gloss=cow.Fem
@@ -279,7 +279,7 @@
 # text = tà hìta //= tà bi duːc'ìː < shi nàː bìye dà shìgattà //
 # text_en = If it came out [of the water] and went along some stones, he followed her track.
 1	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	8	parataxis@mod	_	AlignBegin=41762|AlignEnd=41902|Gloss=3Fem.Sub
-2	hìta	hìta	VERB	_	_	1	comp:aux	_	AlignBegin=41902|AlignEnd=42042|Gloss=get_out
+2	hìta	fit-	VERB	_	_	1	comp:aux	_	AlignBegin=41902|AlignEnd=42042|Gloss=get_out
 3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=42042|AlignEnd=42182|Gloss=PUNCT
 4	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	1	parataxis@conj	_	AlignBegin=42182|AlignEnd=42322|Gloss=3Fem.Sub
 5	bi	bi	VERB	_	_	4	comp:aux	_	AlignBegin=42322|AlignEnd=42462|Gloss=follow
@@ -295,11 +295,11 @@
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_03_GMH.WAV
 # sent_timecode = 44380, 49669
-# text = hay yak kay gà wani wuriː |c yas' s'ayàː |c ankà cèː [ wurîn ga < dàn nanânga < saːnìyâg ga < ankài bisà dà ita //] //
+# text = hay yak kai gà wani wuriː |c yas' s'ayàː |c ankà cèː [ wurîn ga < dàn nanânga < saːnìyâg ga < ankài bisà dà ita //] //
 # text_en = Then he reached a place where he stopped and said "Here, from this place, the cow, someone has lifted it."
 1	hay	hay	SCONJ	_	_	2	discourse	_	AlignBegin=44380|AlignEnd=44569|Gloss=until
 2	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=44569|AlignEnd=44758|Gloss=3Masc.Perf.Rel
-3	kay	kay	VERB	_	_	2	comp:aux	_	AlignBegin=44758|AlignEnd=44947|Gloss=reach
+3	kai	kaːw-	VERB	_	_	2	comp:aux	_	AlignBegin=44758|AlignEnd=44947|Gloss=reach
 4	gà	gà	ADP	_	_	3	comp:obl	_	AlignBegin=44947|AlignEnd=45136|Gloss=by
 5	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	6	det	_	AlignBegin=45136|AlignEnd=45325|Gloss=some.Masc
 6	wuriː	wuriː	NOUN	_	Gender=Masc	4	comp:obj	_	AlignBegin=45325|AlignEnd=45514|Gloss=place.Masc
@@ -347,7 +347,7 @@
 10	ga	ga	DET	_	Deixis=Prox|PronType=Dem	9	det	_	AlignBegin=50909|AlignEnd=51064|Gloss=Prox
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=51064|AlignEnd=51219|Gloss=PUNCT
 12	bàtà	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=51219|AlignEnd=51374|Gloss=3Fem.PerfNeg
-13	wucèː	wucèː	VERB	_	_	12	comp:aux	_	AlignBegin=51374|AlignEnd=51529|Gloss=pass_by
+13	wucèː	wut-	VERB	_	_	12	comp:aux	_	AlignBegin=51374|AlignEnd=51529|Gloss=pass_by
 14	ba	ba	PART	_	PartType=Neg|Polarity=Neg	13	mod	_	AlignBegin=51529|AlignEnd=51684|Gloss=Neg
 15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=51684|AlignEnd=51840|Gloss=PUNCT
 
@@ -413,7 +413,7 @@
 2	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=63783|AlignEnd=63946|Gloss=3Masc.Perf.Rel
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=63946|AlignEnd=64109|Gloss=say
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=64109|AlignEnd=64272|Gloss=3Masc.Perf
-5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=64272|AlignEnd=64435|Gloss=hear
+5	ji	ji	VERB	_	_	4	comp:aux	_	AlignBegin=64272|AlignEnd=64435|Gloss=hear
 6	anàː	nàː	AUX	_	Aspect=Prog|Person=4	5	comp:obj	_	AlignBegin=64435|AlignEnd=64598|Gloss=4.Prog
 7	taːs'às	taːs'-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=64598|AlignEnd=64761|Gloss=milk.Vnoun.Cons.Fem
 8	saːnìyât	saːnìyaː	NOUN	_	Definite=Cons|Gender=Fem	7	comp:obj@T	_	AlignBegin=64761|AlignEnd=64924|Gloss=cow.Fem.Cons
