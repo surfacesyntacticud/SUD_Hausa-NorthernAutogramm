@@ -846,7 +846,7 @@
 2	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	AlignBegin=214377|AlignEnd=214534|Gloss=3Masc.Perf.Rel
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=214534|AlignEnd=214691|Gloss=say
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=214691|AlignEnd=214848|Gloss=3Masc.Perf
-5	ɗiyàutaː	ɗiyàutaː	VERB	_	_	4	comp:aux	_	AlignBegin=214848|AlignEnd=215005|Gloss=free
+5	ɗiyàutaː	ɗiyaut-	VERB	_	_	4	comp:aux	_	AlignBegin=214848|AlignEnd=215005|Gloss=free
 6	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=215005|AlignEnd=215162|Gloss=3Plur
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=215162|AlignEnd=215320|Gloss=PUNCT
 
@@ -1044,7 +1044,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_DIAL_01.WAV
 # sent_timecode = 255400, 260141
 # text_ortho = àkwai lòːkacìn dà akà sâː ka aikìː |c bàkà ƙiyàː ba |c kuma anàː bâː ka kaːshiː //
-# text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba //= kuma anàː bâː ka kaːshiː //
+# text = àkwai lòːkacìn dà akà sâː ka aikìː < bàkà ƙiyàː ba kuma anàː bâː ka kaːshiː //
 # text_en = Sometimes they they would force you to work, you could not refuse, and they beat you.
 1	àkwai	àkwai	PART	_	PartType=Pred	9	dislocated@top	_	AlignBegin=255400|AlignEnd=255663|Gloss=there_is
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	1	subj	_	AlignBegin=255663|AlignEnd=255926|Gloss=time.Masc.Cons
@@ -1055,15 +1055,14 @@
 7	aikìː	aikìː	NOUN	_	Gender=Masc	5	comp:pred	_	AlignBegin=256978|AlignEnd=257241|Gloss=work.Masc
 8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=257241|AlignEnd=257504|Gloss=PUNCT
 9	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=257504|AlignEnd=257767|Gloss=2Masc.PerfNeg
-10	ƙiyàː	ƙiyàː	VERB	_	_	9	comp:aux	_	AlignBegin=257767|AlignEnd=258030|Gloss=refuse
+10	ƙiyàː	ƙi	VERB	_	_	9	comp:aux	_	AlignBegin=257767|AlignEnd=258030|Gloss=refuse
 11	ba	ba	PART	_	PartType=Neg|Polarity=Neg	10	mod	_	AlignBegin=258030|AlignEnd=258293|Gloss=Neg
-12	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=258293|AlignEnd=258556|Gloss=PUNCT
-13	kuma	kuma	CCONJ	_	_	14	discourse	_	AlignBegin=258556|AlignEnd=258819|Gloss=also
-14	anàː	nàː	AUX	_	Aspect=Prog|Person=4	9	parataxis@conj	_	AlignBegin=258819|AlignEnd=259082|Gloss=4.Prog
-15	bâː	baː	VERB	_	_	14	comp:aux	_	AlignBegin=259082|AlignEnd=259345|Gloss=give
-16	ka	ka	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	15	comp:obj@R	_	AlignBegin=259345|AlignEnd=259608|Gloss=2Masc.Gen
-17	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	15	comp:obj@T	_	AlignBegin=259608|AlignEnd=259871|Gloss=shit.Masc
-18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=259871|AlignEnd=260141|Gloss=PUNCT
+12	kuma	kuma	CCONJ	_	_	13	cc	_	AlignBegin=258556|AlignEnd=258819|Gloss=also
+13	anàː	nàː	AUX	_	Aspect=Prog|Person=4	9	conj:coord	_	AlignBegin=258819|AlignEnd=259082|Gloss=4.Prog
+14	bâː	baː	VERB	_	_	13	comp:aux	_	AlignBegin=259082|AlignEnd=259345|Gloss=give
+15	ka	ka	PRON	_	Case=Gen|Gender=Masc|Person=2|PronType=Prs	14	comp:obj@R	_	AlignBegin=259345|AlignEnd=259608|Gloss=2Masc.Gen
+16	kaːshiː	kaːshiː	NOUN	_	Gender=Masc	14	comp:obj@T	_	AlignBegin=259608|AlignEnd=259871|Gloss=shit.Masc
+17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=259871|AlignEnd=260141|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_066-066
 # speaker_id = SP2
@@ -1510,7 +1509,7 @@
 1	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root@scrap	_	AlignBegin=345760|AlignEnd=346027|Gloss=1Sing.Prog
 2	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=346027|AlignEnd=346294|Gloss=arrive.Vnoun.Fem
 3	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	1	conj:coord	_	AlignBegin=346294|AlignEnd=346561|Gloss=1Sing.Prog
-4	kaːwoːwàː	kai	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=346561|AlignEnd=346828|Gloss=carry.Vnoun.Fem
+4	kaːwoːwàː	kaːy-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=346561|AlignEnd=346828|Gloss=carry.Vnoun.Fem
 5	X	X	X	_	_	3	unk@scrap	_	AlignBegin=346828|AlignEnd=347095|Gloss=X
 6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=347095|AlignEnd=347360|Gloss=PUNCT
 
@@ -1579,7 +1578,7 @@
 4	yàrda	yard-	VERB	_	_	3	comp:aux	_	AlignBegin=355331|AlignEnd=355508|Gloss=agree
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=355508|AlignEnd=355685|Gloss=PUNCT
 6	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=355685|AlignEnd=355862|Gloss=1Sing.Prog
-7	kaːwoːwàː	kai	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=355862|AlignEnd=356039|Gloss=carry.Vnoun.Fem
+7	kaːwoːwàː	kaːy-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=355862|AlignEnd=356039|Gloss=carry.Vnoun.Fem
 8	&//	&//	PUNCT	_	_	6	punct	_	AlignBegin=356039|AlignEnd=356214|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_097-097
@@ -1593,7 +1592,7 @@
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=356960|AlignEnd=357180|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=357180|AlignEnd=357400|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=357400|AlignEnd=357620|Gloss=1Sing.Perf
-5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=357620|AlignEnd=357840|Gloss=carry
+5	kaːwoː	kaːy-	VERB	_	_	4	comp:aux	_	AlignBegin=357620|AlignEnd=357840|Gloss=carry
 6	turàːmeː	turmiː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=357840|AlignEnd=358060|Gloss=cloth.Plur
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358060|AlignEnd=358282|Gloss=PUNCT
 
@@ -1608,7 +1607,7 @@
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=358526|AlignEnd=358770|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=358770|AlignEnd=359014|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359014|AlignEnd=359258|Gloss=1Sing.Perf
-5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry
+5	kaːwoː	kaːy-	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT
 8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc
@@ -1628,7 +1627,7 @@
 2	wata	wani	DET	_	Gender=Fem|PronType=Ind	3	det	_	AlignBegin=362283|AlignEnd=362726|Gloss=some.Fem
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	subj	_	AlignBegin=362726|AlignEnd=363169|Gloss=arrive.Vnoun.Fem
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=363169|AlignEnd=363612|Gloss=1Sing.Perf
-5	kaːwoː	kai	VERB	_	_	4	comp:aux	_	AlignBegin=363612|AlignEnd=364055|Gloss=carry
+5	kaːwoː	kaːy-	VERB	_	_	4	comp:aux	_	AlignBegin=363612|AlignEnd=364055|Gloss=carry
 6	X	X	X	_	_	5	unk@scrap	_	AlignBegin=364055|AlignEnd=364498|Gloss=X
 7	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=364498|AlignEnd=364940|Gloss=PUNCT
 
