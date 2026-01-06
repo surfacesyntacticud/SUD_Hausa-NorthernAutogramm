@@ -1209,7 +1209,7 @@
 3	iyà	iy-	VERB	_	_	2	comp:aux	_	Gloss=can
 4	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	3	comp:obj	_	Gloss=leave.Vnoun.Fem
 5	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
-6	hay	har	ADV	_	_	7	mod	_	Gloss=even
+6	hay	har	ADV	_	_	7	mod	_	Gloss=till
 7	yak	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 8	kai	kaːy-	VERB	_	_	7	comp:aux	_	Gloss=take
 9	tàhiyàː	tah-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	8	comp:obj	_	Gloss=leave.Vnoun.Fem
@@ -3074,7 +3074,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__193
 # text = kuma ha' àljaniː gàreː sù na kiɗìn maulòː .
 1	kuma	kuma	PART	_	PartType=Disc	4	discourse	_	Gloss=too
-2	ha'	har	ADV	_	_	3	mod	_	Gloss=even
+2	ha'	har	ADV	_	_	4	mod	_	Gloss=till
 3	àljaniː	àljaniː	NOUN	_	Gender=Masc	4	subj	_	Gloss=jinn.Masc
 4	gàreː	gà	ADP	_	_	0	root	_	Gloss=by
 5	sù	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	Gloss=3Plur.Acc
@@ -8248,7 +8248,7 @@
 5	Dandà	Dandà	PROPN	_	_	9	subj	_	Gloss=Dandà
 6	Garbaː	Garbaː	PROPN	_	_	5	flat@name	_	Gloss=Garbaː
 7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
-8	hay	har	ADV	_	_	9	mod	_	Gloss=even
+8	hay	har	ADV	_	_	9	mod	_	Gloss=till
 9	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	parataxis@conj	_	Gloss=3Masc.Perf
 10	wucèː	wut-	VERB	_	_	9	comp:aux	_	Gloss=pass_by
 11	dà	dà	ADP	_	_	10	comp:obl	_	Gloss=with
@@ -12133,9 +12133,9 @@
 # text = " bàƙoː had dà' ìnaː ? "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	bàƙoː	bàƙoː	NOUN	_	Gender=Masc	0	root	_	Gloss=visitor.Masc
-3	had	har	ADV	_	_	4	mod	_	Gloss=even
-4	dà'	dàgà	ADP	_	_	2	mod	_	Gloss=from
-5	ìnaː	ìnaː	ADV	_	PronType=Int	4	comp:obj	_	Gloss=where
+3	had	har	ADP	_	ExtPos=ADP	2	mod	_	Gloss=till|Idiom=Yes
+4	dà'	dàgà	ADP	_	_	3	compound	_	Gloss=from|InIdiom=Yes
+5	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:obj	_	Gloss=where
 6	?	?	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 7	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -12937,9 +12937,9 @@
 2	biyàː	bi	VERB	_	_	1	comp:aux	_	Gloss=follow
 3	dà	dà	ADP	_	_	2	comp:obl	_	Gloss=with
 4	mutàːneː	mùtûm	NOUN	_	Number=Plur	3	comp:obj	_	Gloss=people.Plur
-5	had	har	ADV	_	_	6	mod	_	Gloss=even
-6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
-7	ɗìyas	ɗìyaː	NOUN	_	Definite=Cons|Gender=Fem	4	conj:conj	_	Gloss=daughter.Fem
+5	had	har	ADV	_	ExtPos=ADP	7	mod	_	Gloss=till|Idiom=Yes
+6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and|InIdiom=Yes
+7	ɗìyas	ɗìyaː	NOUN	_	Definite=Cons|Gender=Fem	4	conj:coord	_	Gloss=daughter.Fem
 8	sarkiː	sarkiː	NOUN	_	Gender=Masc	7	mod	_	Gloss=king.Masc
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
@@ -13046,13 +13046,13 @@
 4	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	5	subj	_	Gloss=army.Masc
 5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	Gloss=3Masc.Perf
 6	biyàː	bi	VERB	_	_	5	comp:aux	_	Gloss=follow
-7	had	had	ADV	_	_	8	mod	_	Gloss=even
-8	dà	dà	ADP	_	_	6	comp:obl	_	Gloss=with
-9	saːràm	saːr-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:obj	_	Gloss=kill.Vnoun.Masc.Cons
+7	had	har	ADP	_	ExtPos=ADP	6	comp:obl	_	Gloss=till|Idiom=Yes
+8	dà	dà	ADP	_	_	7	compound	_	Gloss=with|InIdiom=Yes
+9	saːràm	saːr-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:obj	_	Gloss=kill.Vnoun.Masc.Cons
 10	mutàːneː	mùtûm	NOUN	_	Number=Plur	9	comp:obj	_	Gloss=people.Plur
-11	had	har	ADV	_	_	13	mod	_	Gloss=even
-12	dà	dà	CCONJ	_	_	13	cc	_	Gloss=that
-13	ɗìyat	ɗìyaː	NOUN	_	Definite=Cons|Gender=Fem	9	conj:coord	_	Gloss=daughter.Fem
+11	had	har	ADP	_	ExtPos=ADP	6	comp:obl	_	Gloss=till|Idiom=Yes
+12	dà	dà	ADP	_	_	11	compound	_	Gloss=with|InIdiom=Yes
+13	ɗìyat	ɗìyaː	NOUN	_	Definite=Cons|Gender=Fem	11	comp:obj	_	Gloss=daughter.Fem
 14	tan	nan	DET	_	Gender=Fem|PronType=Dem	13	det	_	Gloss=PreRef.Fem
 15	ta	na	PART	_	Case=Gen|Gender=Fem	13	mod	_	Gloss=Gen.Fem
 16	sarkiː	sarkiː	NOUN	_	Gender=Masc	15	comp:obj	_	Gloss=king.Masc
