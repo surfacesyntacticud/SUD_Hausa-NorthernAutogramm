@@ -13618,25 +13618,26 @@
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__755b
-# text_en = "You thief, who has ever seen one donkey keeper?"
-# text_ortho = " wànga ɓàraːwòːnaː, dà ɗai, wàː yag ga makyàːyin jàkkai ? " .
-# text = " wànga ɓàraːwòːnaː, dà ɗai, wàː yag ga makyàːyin jàkkai ? " .
-1	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-2	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	3	det	_	Gloss=Prox.Masc
-3	ɓàraːwòːnaː	ɓàraːwòː	NOUN	_	Case=Gen|Number=Sing|Person=1	8	vocative	_	Gloss=robber.Masc.Cons\1Sing.Gen|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-5	dà	dà	CCONJ	_	_	8	mod	_	Gloss=and
-6	ɗai	ɗaya	NUM	_	_	5	comp:obj	_	Gloss=one|SpaceAfter=No
-7	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
-8-9	wag	_	_	_	_	_	_	_	_
-8	wàː	wàː	PRON	_	Gender=Masc|PronType=Int	0	root	_	Gloss=who.Masc
-9	yag	yaː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Relative=Yes	8	comp:cleft	_	Gloss=3Masc.Prog.Rel
-10	ga	gan-	VERB	_	_	9	comp:pred	_	Gloss=see
-11	makyàːyin	makyàːyiː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj	_	Gloss=herdsman.Masc.Cons
-12	jàkkai	jàːkiː	NOUN	_	Gender=Masc|Number=Plur	11	mod	_	Gloss=donkey.Plur
-13	?	?	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-14	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT|SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
+# text_en = "This one is a thief; even one, who has ever seen a donkey keeper?"
+# text_ortho = " wànga ɓàraːwòː naː, dà ɗai, wag ga makyàːyin jàkkai ? " .
+# text = " wànga ɓàraːwòː naː, dà ɗai, wag ga makyàːyin jàkkai ? " .
+1	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+2	wànga	wànga	DET	_	Deixis=Prox|Gender=Masc|PronType=Dem	4	subj	_	Gloss=Prox.Masc
+3	ɓàraːwòːnaː	ɓàraːwòː	NOUN	_	Case=Gen|Number=Sing|Person=1	4	comp:pred	_	Gloss=robber.Masc.Cons\1Sing.Gen|SpaceAfter=No
+4	naː	neː	AUX	_	Copula=Yes	0	root	_	Gloss=Ident|SpaceAfter=No
+5	;	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+6	dà	dà	CCONJ	_	_	9	dislocated@top	_	Gloss=and
+7	ɗai	ɗaya	NUM	_	_	6	comp:obj	_	Gloss=one|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+9-10	wag	_	_	_	_	_	_	_	_
+9	wàː	wàː	PRON	_	Gender=Masc|PronType=Int	4	parataxis@conj	_	Gloss=who.Masc
+10	yag	yaː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Relative=Yes	9	comp:cleft	_	Gloss=3Masc.Prog.Rel
+11	ga	gan-	VERB	_	_	10	comp:pred	_	Gloss=see
+12	makyàːyin	makyàːyiː	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	Gloss=herdsman.Masc.Cons
+13	jàkkai	jàːkiː	NOUN	_	Gender=Masc|Number=Plur	12	mod	_	Gloss=donkey.Plur
+14	?	?	PUNCT	_	_	9	punct	_	Gloss=PUNCT
+15	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT|SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__756
 # text_en = "Go away! Leave us alone!"
