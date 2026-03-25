@@ -15590,37 +15590,42 @@
 4	doːkìːnai	doːkìː	NOUN	_	Definite=Cons|Gender=Masc|Person=3	3	comp:obj	_	Gloss=horse.Masc\3Masc.Gen|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
-# sent_id = HAUA_BC_NARR_06_Dikko__863
-# text_en = Then he introduced himself. He said "I am Garba Dikko, [epithet]."
-# text_ortho = sa'ànnan yay yi kiraːriː . yac cèː " niː nàː Garbaː Dikkò Garbà Ɗiɗìː, Garbà Tatìː, Garbà hàlleː-hàllan hàukaː, Garbà hàlleː-hàllan mutuwàː " .
-# text = sa'ànnan yay yi kiraːriː . yac cèː " niː nàː Garbaː Dikkò Garbà Ɗiɗìː, Garbà Tatìː, Garbà hàlleː-hàllan hàukaː, Garbà hàlleː-hàllan mutuwàː " .
+# sent_id = HAUA_BC_NARR_06_Dikko__863a
+# text_en = Then he introduced himself.
+# text_ortho = sa'ànnan yay yi kiraːriː .
+# text = sa'ànnan yay yi kiraːriː .
 1	sa'ànnan	sa'ànnan	ADV	_	_	2	mod	_	Gloss=then
 2	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 3	yi	yi	VERB	_	_	2	comp:aux	_	Gloss=do
 4	kiraːriː	kiraːriː	NOUN	_	Gender=Masc	3	comp:pred	_	Gloss=epithet.Masc|SpaceAfter=No
-5	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-6	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	2	parataxis:conj	_	Gloss=3Masc.Perf.Rel
-7	cèː	cêː	VERB	_	_	6	comp:aux	_	Gloss=say
-8	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-9	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	comp:pred	_	Gloss=1Sing.Nom
-10	nàː	neː	AUX	_	Copula=Yes	7	comp:obj	_	Gloss=Ident
-11	Garbaː	Garbaː	PROPN	_	_	10	dislocated@subj	_	Gloss=Garbaː
-12	Dikkò	Dikkò	PROPN	_	_	11	flat@name	_	Gloss=Dikkò
-13	Garbà	Garbà	PROPN	_	_	11	conj:dicto	_	Gloss=Garbà
-14	Ɗiɗìː	ɗiɗìː	PROPN	_	Gender=Masc	13	flat@name	_	Gloss=Ɗiɗìː|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	Gloss=PUNCT
-16	Garbà	Garbà	PROPN	_	_	11	conj:dicto	_	Gloss=Garbà
-17	Tatìː	Tatìː	PROPN	_	_	16	flat@name	_	Gloss=Tatìː|SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	Gloss=PUNCT
-19	Garbà	Garbà	PROPN	_	_	16	mod	_	Gloss=Garbà
-20	hàlleː-hàllan	hàlleː-hàllaː	ADJ	_	_	19	flat@name	_	Gloss=character(?).Masc
-21	hàukaː	hàukaː	NOUN	_	Gender=Fem	20	flat@name	_	Gloss=madness.Fem|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
-23	Garbà	Garbà	PROPN	_	_	19	conj:dicto	_	Gloss=Garbà
-24	hàlleː-hàllan	hàlleː-hàllan	ADJ	_	_	23	flat@name	_	Gloss=character(?).Masc.Cons
-25	mutuwàː	mutuwàː	NOUN	_	Gender=Fem	24	flat@name	_	Gloss=death.Fem
-26	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|SpaceAfter=No|wordform=.
-27	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+5	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+
+# sent_id = HAUA_BC_NARR_06_Dikko__863b
+# text_en = He said "I am Garba Dikko, [epithet]."
+# text_ortho = yac cèː " niː nàː Garbaː Dikkò Garbà Ɗiɗìː, Garbà Tatìː, Garbà hàlleː-hàllan hàukaː, Garbà hàlleː-hàllan mutuwàː " .
+# text = yac cèː " niː nàː Garbaː Dikkò Garbà Ɗiɗìː , Garbà Tatìː , Garbà hàlleː-hàllan hàukaː , Garbà hàlleː-hàllan mutuwàː " .
+1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
+3	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
+4	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	comp:pred	_	Gloss=1Sing.Nom
+5	nàː	neː	AUX	_	Copula=Yes	2	comp:obj	_	Gloss=Ident
+6	Garbaː	Garbaː	PROPN	_	_	5	dislocated@subj	_	Gloss=Garbaː
+7	Dikkò	Dikkò	PROPN	_	_	6	flat@name	_	Gloss=Dikkò
+8	Garbà	Garbà	PROPN	_	_	6	conj:dicto	_	Gloss=Garbà
+9	Ɗiɗìː	ɗiɗìː	PROPN	_	Gender=Masc	8	flat@name	_	Gloss=Ɗiɗìː|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+11	Garbà	Garbà	PROPN	_	_	6	conj:dicto	_	Gloss=Garbà
+12	Tatìː	Tatìː	PROPN	_	_	11	flat@name	_	Gloss=Tatìː|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
+14	Garbà	Garbà	PROPN	_	_	11	mod	_	Gloss=Garbà
+15	hàlleː-hàllan	hàlleː-hàllaː	ADJ	_	_	14	flat@name	_	Gloss=character(?).Masc
+16	hàukaː	hàukaː	NOUN	_	Gender=Fem	15	flat@name	_	Gloss=madness.Fem|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
+18	Garbà	Garbà	PROPN	_	_	14	conj:dicto	_	Gloss=Garbà
+19	hàlleː-hàllan	hàlleː-hàllan	ADJ	_	_	18	flat@name	_	Gloss=character(?).Masc.Cons
+20	mutuwàː	mutuwàː	NOUN	_	Gender=Fem	19	flat@name	_	Gloss=death.Fem
+21	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|SpaceAfter=No|wordform=.
+22	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__864
 # text_en = He said "The reason why you saw me driving donkeys is that I am looking after donkeys because of the future."
@@ -15718,3 +15723,4 @@
 2	zama	zam-	VERB	_	_	1	comp:aux	_	Gloss=become
 3	màːtaːtai	màːtaː	NOUN	_	Case=Gen|Gender=Masc|Person=3	2	comp:pred	_	Gloss=wife.Fem\3Masc.Gen|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+
