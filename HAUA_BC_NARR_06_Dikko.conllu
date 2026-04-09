@@ -4913,12 +4913,12 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__275
 # text_en = Theys said "Really, they were praising you, they were really thankful. "
 # text_ortho = sunkà cêː " lalleː kàm sunàː yàbonkà sunàː gòːdiyaː ƙwarai dà gàske" .
-# text = sunkà cêː " lalleː kàm sunàː yàbonkà sunàː gòːdiyaː ƙwarai dà gàske " .
+# text = sunkà cêː " lalleː kàm sunàː yàbonkà sunàː gòːdiyaː ƙwarai dà gàske ".
 1	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	Gloss=3Plur.Perf.Rel
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 4	lalleː	lalleː	ADV	_	_	6	discourse	_	Gloss=of_course
-5	kàm	kàm	IDEO	_	_	4	discourse@top	_	Gloss=surely
+5	kàm	kàm	PART	_	PartType=Top	4	discourse@top	_	Gloss=surely
 6	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	comp:obj	_	Gloss=3Plur.Prog
 7	yàbonkà	yàboː	NOUN	_	Case=Gen|Gender=Masc|Person=2	6	comp:aux	_	Gloss=praise.Masc.Cons\2Masc.Gen
 8	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	6	parataxis@conj	_	Gloss=3Plur.Prog
@@ -9165,9 +9165,9 @@
 16	gau	gau	IDEO	_	_	15	conj:redup	_	Gloss=tight
 17	gau	gau	IDEO	_	_	16	conj:redup	_	Gloss=tight|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	Gloss=PUNCT
-19	gam	gan	IDEO	_	Definite=Cons|Gender=Masc	13	conj:dicto	_	Gloss=tight
-20	gam	gan	IDEO	_	_	19	conj:redup	_	Gloss=tight
-21	gam	gamiː	IDEO	_	_	20	conj:redup	_	Gloss=tight
+19	gam	gam	IDEO	_	_	13	conj:dicto	_	Gloss=tight
+20	gam	gam	IDEO	_	_	19	conj:redup	_	Gloss=tight
+21	gam	gam	IDEO	_	_	20	conj:redup	_	Gloss=tight
 22	shikè	nàː	PRON	_	Aspect=Prog|Gender=Masc|Person=3|Relative=Yes	19	comp:cleft	_	Gloss=3Masc.Prog.Rel2|SpaceAfter=No
 23	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 24	sai	sai	ADV	_	_	26	mod	_	Gloss=perforce
@@ -14482,7 +14482,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__798
 # text_en = They defeated that town and captured all the cows of the town.
 # text_ortho = yac ci gàrîn nan yab biyàː dà shaːnun gàriː dukà káb .
-# text = yac ci gàrîn nan yab biyàː dà shaːnun gàriː dukà káb .
+# text = yac ci gàrîn nan yab biyàː dà shaːnun gàriː dukà káp.
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	0	root	_	Gloss=3Masc.Perf.Rel
 2	ci	ci	VERB	_	_	1	comp:aux	_	Gloss=conquer
 3	gàrîn	gàriː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	Gloss=town.Masc.Cons
@@ -14493,7 +14493,7 @@
 8	shaːnun	sâː	NOUN	_	Definite=Cons|Number=Plur	7	comp:obj	_	Gloss=cow.Plur.Cons
 9	gàriː	gàriː	NOUN	_	Gender=Masc	8	mod	_	Gloss=town.Masc
 10	dukà	dukà	DET	_	PronType=Tot	8	det	_	Gloss=all
-11	káb	káb	IDEO	_	_	10	mod	_	Gloss=completely|SpaceAfter=No
+11	káp	káp	ADV	_	_	10	mod	_	Gloss=completely|SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__799
