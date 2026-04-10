@@ -381,19 +381,20 @@
 # text_ortho = dan shiː < shèːkaràːtai biyu < shinàː || shinàː koːyòn kàːràːtun Hausa //
 # text = dan shiː < shèːkaràː =tai biyu < shinàː || shinàː koːyòn kàːràːtun Hausa //
 # text_en = Well him, he has been learning Hausa for two years.
-1	dan	dan	ADP	_	_	7	discourse	_	AlignBegin=68269|AlignEnd=68591|Gloss=because
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=68591|AlignEnd=68913|Gloss=3Masc.Nom
+1	dan	dan	ADP	_	_	8	discourse	_	AlignBegin=68269|AlignEnd=68591|Gloss=because
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=68591|AlignEnd=68913|Gloss=3Masc.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=68913|AlignEnd=69235|Gloss=PUNCT
-4	shèːkaràːtai	shèːkaràː	NOUN	_	Case=Gen|Definite=Cons|Gender=Fem|Person=3	7	dislocated@mod	_	AlignBegin=69235|AlignEnd=69557|Gloss=year.Fem.Cons.3Masc.Gen|wordform=shèːkaràː
-5	biyu	biyu	NUM	_	_	4	det	_	AlignBegin=69557|AlignEnd=69879|Gloss=two
-6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=69879|AlignEnd=70201|Gloss=PUNCT
-7	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=70201|AlignEnd=70523|Gloss=3Masc.Prog
-8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=70523|AlignEnd=70845|Gloss=PUNCT
-9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	7	conj:dicto	_	AlignBegin=70845|AlignEnd=71167|Gloss=3Masc.Prog
-10	koːyòn	koːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=71167|AlignEnd=71489|Gloss=learn.Vnoun.Masc.Cons
-11	kàːràːtun	karant-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	comp:obj	_	AlignBegin=71489|AlignEnd=71811|Gloss=read.Vnoun.Masc.Cons
-12	Hausa	Hausa	PROPN	_	_	11	mod	_	AlignBegin=71811|AlignEnd=72133|Gloss=Hausa
-13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=72133|AlignEnd=72455|Gloss=PUNCT
+4	shèːkaràːta	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	8	dislocated@mod	_	AlignBegin=69235|AlignEnd=69557|Gloss=year.Fem.Cons|wordform=shèːkaràː
+5	-i	-i	PRON	_	Case=Gen|Gender=Masc|Person=3	4	mod@poss	_	Gloss=-3Masc.Gen
+6	biyu	biyu	NUM	_	_	4	det	_	AlignBegin=69557|AlignEnd=69879|Gloss=two
+7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=69879|AlignEnd=70201|Gloss=PUNCT
+8	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=70201|AlignEnd=70523|Gloss=3Masc.Prog
+9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=70523|AlignEnd=70845|Gloss=PUNCT
+10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	8	conj:dicto	_	AlignBegin=70845|AlignEnd=71167|Gloss=3Masc.Prog
+11	koːyòn	koːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=71167|AlignEnd=71489|Gloss=learn.Vnoun.Masc.Cons
+12	kàːràːtun	karant-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=71489|AlignEnd=71811|Gloss=read.Vnoun.Masc.Cons
+13	Hausa	Hausa	PROPN	_	_	12	mod	_	AlignBegin=71811|AlignEnd=72133|Gloss=Hausa
+14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=72133|AlignEnd=72455|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_22
 # speaker_id = SP2
@@ -461,9 +462,10 @@
 4	kà	nàː	AUX	_	Aspect=Prog|Relative=Yes	3	mod@relcl	_	AlignBegin=109562|AlignEnd=109929|Gloss=Prog.Rel
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=109929|AlignEnd=110296|Gloss=do
 6	mà	mà	ADP	_	Case=Dat	5	comp:obl	_	AlignBegin=110296|AlignEnd=110663|Gloss=Dat
-7	sàràkkuwaːtai	sìrikiː	NOUN	_	Case=Gen|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=110663|AlignEnd=111030|Gloss=in-law.Fem.3Masc.Gen|wordform=sàràkkuwaː
-8	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	5	comp:pred	_	AlignBegin=111030|AlignEnd=111397|Gloss=communal_hunting.Fem
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=111397|AlignEnd=111761|Gloss=PUNCT
+7	sàràkkuwaːta	sìrikiː	NOUN	_	Gender=Fem	6	comp:obj	_	AlignBegin=110663|AlignEnd=111030|Gloss=in-law.Fem|wordform=sàràkkuwaː
+8	-i	-i	PRON	_	Case=Gen|Gender=Masc|Person=3	7	mod@poss	_	Gloss=-3Masc.Gen
+9	gàyyaː	gàyyaː	NOUN	_	Gender=Fem	5	comp:pred	_	AlignBegin=111030|AlignEnd=111397|Gloss=communal_hunting.Fem
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=111397|AlignEnd=111761|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_27
 # speaker_id = SP1
@@ -1204,21 +1206,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUA/WAV/HAUA_BC_NARR_02_GKB.WAV
 # sent_timecode = 250021, 253853
 # text_ortho = tsàkaːninsù < shiː dà zaːkìː < tak kai àbin dà tak kai //
-# text = tsàkaːnin =sù < shiː dà zaːkìː < tak kai àbin dà tak kai //
+# text = tsàkaːnin -sù < shiː dà zaːkìː < tak kai àbin dà tak kai //
 # text_en = Between him and Lion, what was expected happened.
-1	tsàkaːninsù	tsàkaːnin	ADP	_	Case=Gen|Number=Plur|Person=3	7	mod	_	AlignBegin=250021|AlignEnd=250316|Gloss=between.3Plur.Gen|wordform=tsàkaːnin
-2	<	<	PUNCT	_	_	3	punct	_	AlignBegin=250316|AlignEnd=250611|Gloss=PUNCT
-3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=250611|AlignEnd=250906|Gloss=3Masc.Nom
-4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and
-5	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	3	conj:coord	_	AlignBegin=251201|AlignEnd=251496|Gloss=lion.Masc
-6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=251496|AlignEnd=251791|Gloss=PUNCT
-7	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=251791|AlignEnd=252086|Gloss=3Fem.Perf.Rel
-8	kai	kaːy-	VERB	_	_	7	comp:aux	_	AlignBegin=252086|AlignEnd=252381|Gloss=reach
-9	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc.Cons
-10	dà	dà	SCONJ	_	_	9	mod@relcl	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL
-11	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	10	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Gloss=3Fem.Perf.Rel
-12	kai	kaːy-	VERB	_	_	11	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach
-13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=253561|AlignEnd=253853|Gloss=PUNCT
+1	tsàkaːnin	tsàkaːniː	NOUN	_	Definite=Cons|ExtPos=ADP|Gender=Masc	8	mod	_	AlignBegin=250021|AlignEnd=250316|Gloss=between
+2	-sù	-su	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Pers	1	mod@poss	_	Gloss=-3Plur.Gen
+3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=250316|AlignEnd=250611|Gloss=PUNCT
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=250611|AlignEnd=250906|Gloss=3Masc.Nom
+5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=250906|AlignEnd=251201|Gloss=and
+6	zaːkìː	zaːkìː	NOUN	_	Gender=Masc	4	conj:coord	_	AlignBegin=251201|AlignEnd=251496|Gloss=lion.Masc
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=251496|AlignEnd=251791|Gloss=PUNCT
+8	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=251791|AlignEnd=252086|Gloss=3Fem.Perf.Rel
+9	kai	kaːy-	VERB	_	_	8	comp:aux	_	AlignBegin=252086|AlignEnd=252381|Gloss=reach
+10	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc.Cons
+11	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL
+12	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	11	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Gloss=3Fem.Perf.Rel
+13	kai	kaːy-	VERB	_	_	12	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach
+14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=253561|AlignEnd=253853|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_74
 # speaker_id = SP1

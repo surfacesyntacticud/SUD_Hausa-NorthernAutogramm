@@ -10,7 +10,7 @@
 4	à~	àkwai	PART	_	PartType=Pred	3	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Gloss=there_is
 5	àkwai	àkwai	PART	_	PartType=Pred	4	conj:dicto	_	AlignBegin=5164|AlignEnd=5530|Gloss=there_is
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=5530|AlignEnd=5896|Gloss=PUNCT
-7	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc|Number=Plur	5	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal.Cons.Masc
+7	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc	5	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal.Cons.Masc
 8	daːjìː	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	7	compound	_	AlignBegin=6262|AlignEnd=6628|Gloss=bush.Masc
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=6628|AlignEnd=6994|Gloss=PUNCT
 10	ƙwàːriː	ƙwaːròː	NOUN	_	Definite=Ind|Number=Plur	7	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal.Plur
@@ -34,7 +34,7 @@
 # text = àmmaː shiː < gà loːkàcîn nan < baːbù shi cikin ràːhîn nan ?//
 # text_en = But him, at that time, wasn't he in that valley?
 1	àmmaː	àmmaː	CCONJ	_	_	8	discourse	_	AlignBegin=66780|AlignEnd=66905|Gloss=but
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=66905|AlignEnd=67030|Gloss=3Masc.Nom
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=66905|AlignEnd=67030|Gloss=3Masc.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=67030|AlignEnd=67155|Gloss=PUNCT
 4	gà	gà	ADP	_	_	8	mod	_	AlignBegin=67155|AlignEnd=67280|Gloss=by
 5	loːkàcîn	loːkàcíː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=67280|AlignEnd=67405|Gloss=time.Masc.Cons
@@ -92,8 +92,9 @@
 1	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	2	comp:pred	_	AlignBegin=135140|AlignEnd=135308|Gloss=how
 2	naː	neː	AUX	_	_	0	root	_	AlignBegin=135308|AlignEnd=135476|Copula=Yes|Gloss=Ident
 3	kukà	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2|Relative=Yes	2	comp:cleft	_	AlignBegin=135476|AlignEnd=135644|Gloss=2Plur.Prog.Rel
-4	àːgìzonta	aːgiz-	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=135644|AlignEnd=135812|Gloss=watch.Vnoun.Masc.Cons.3Fem.Gen|wordform=àːgìzon
-5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=135812|AlignEnd=135980|Gloss=PUNCT
+4	àːgìzon	aːgiz-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=135644|AlignEnd=135812|Gloss=watch.Vnoun.Masc.Con
+5	-ta	-ta	PRON	_	Case=Gen|Gender=Fem|Person=3|PronType=Pers	4	mod@poss	_	Gloss=-3Fem.Gen
+6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=135812|AlignEnd=135980|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_7
 # speaker_id = SP1
