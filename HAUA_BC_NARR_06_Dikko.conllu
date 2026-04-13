@@ -7205,7 +7205,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__405
 # text_en = "Just after seeing the tracks of the raid, you started shaking with fear. "
 # text_ortho = "daɗàː dai dàgà ganin goːdabèn yaːƙìː sai kai ta màkarkataː dà tsòːronkà ” .
-# text = " daɗàː dai dàgà ganin goːdabèn yaːƙìː sai kai ta màkarkataː dà tsòːronkà ” .
+# text = “ daɗàː dai dàgà ganin goːdabèn yaːƙìː sai kai ta màkarkataː dà tsòːronkà ”.
 1	“	“	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 2	daɗàː	daɗàː	PROPN	_	_	9	mod	_	Gloss=then
 3	dai	dai	PART	_	PartType=Top	2	discourse@top	_	Gloss=anyway
@@ -7217,7 +7217,7 @@
 9-10	kai	_	_	_	_	_	_	_	_
 9	kà	kà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
-11	ta	ta	ADP	_	Aspect=Iter|Case=Acc|Gender=Fem|Person=3|PronType=Prs	10	compound:prt	_	Gloss=3Fem.Acc
+11	ta	ta	PART	_	Aspect=Iter	10	compound:prt	_	Gloss=Iter
 12	màkarkataː	màkarkataː	NOUN	_	Gender=Fem	10	comp:pred	_	Gloss=trembling.Fem
 13	dà	dà	ADP	_	_	12	mod	_	Gloss=with
 14	tsòːronkà	tsòːroː	NOUN	_	Definite=Cons|Gender=Masc|Poss=Yes	13	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=fear.Masc.Cons-2MascGen|MSeg=tsòːron-kà|PersonAf=2
@@ -9928,7 +9928,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__552
 # text_en = "I went to the shoemakers' and they told me they won't make me shoes, your butter smells bad. "
 # text_ortho = "naː tàhi wurin makàlmìsaː sunkà cêː minì baːsù yi min kàlmisàː, mân shaːnunkà waːriː ag gàrai. "
-# text = " naː tàhi wurin makàlmìsaː sunkà cêː minì baːsù yi min kàlmisàː, mân shaːnunkà waːriː ag gàrai. "
+# text = “ naː tàhi wurin makàlmìsaː sunkà cêː minì baːsù yi min kàlmisàː, mân shaːnunkà waːriː ag gàrai “.
 1	“	“	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	Gloss=1Sing.Perf
 3	tàhi	tah-	VERB	_	_	2	comp:aux	_	Gloss=go
@@ -9948,7 +9948,7 @@
 17	ag	neː	AUX	_	_	16	comp:cleft	_	Copula=Yes|Gloss=Ident.Rel|Relative=Yes
 18-19	gàrai	_	_	_	_	_	_	_	_
 18	gàreː	gàreː	ADP	_	_	17	comp:pred	_	Gloss=at
-19	shì	shi	ADP	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	18	comp:obj	_	Gloss=3Masc.Acc
+19	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	18	comp:obj	_	Gloss=3Masc.Acc
 20	“	“	PUNCT	_	_	2	punct	_	Gloss=PUNCT|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
