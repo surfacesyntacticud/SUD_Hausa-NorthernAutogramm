@@ -288,7 +288,7 @@
 # text_ortho = na Ìlleːlàː < suː kuma < sù yi Ìlleːlàː //
 # text = na Ìlleːlàː < suː kuma < sù yi Ìlleːlàː //
 # text_en = Those of Illela, they would be in Illela.
-1	na	na	ADP	_	Case=Gen	7	dislocated@subj	_	AlignBegin=78520|AlignEnd=78680|Gloss=Gen
+1	na	na	PART	_	Case=Gen|PartType=Case	7	dislocated@subj	_	AlignBegin=78520|AlignEnd=78680|Gloss=Gen
 2	Ìlleːlàː	Ìlleːlàː	PROPN	_	_	1	comp:obj	_	AlignBegin=78680|AlignEnd=78840|Gloss=Illela
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=78840|AlignEnd=79000|Gloss=PUNCT
 4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=79000|AlignEnd=79160|Gloss=3Plur.Nom
@@ -1611,7 +1611,7 @@
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT
 8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc
-9	na	na	ADP	_	Case=Gen	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Gen
+9	na	na	PART	_	Case=Gen|PartType=Case	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Gen
 10	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	9	comp:obj	_	AlignBegin=360478|AlignEnd=360722|Gloss=child.Plur.Cons
 11	maːtaː	maːtaː	NOUN	_	Number=Plur	10	compound	_	AlignBegin=360722|AlignEnd=360966|Gloss=women
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=360966|AlignEnd=361210|Gloss=PUNCT
@@ -1778,7 +1778,7 @@
 4	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	1	comp:pred	_	AlignBegin=401557|AlignEnd=401834|Gloss=Prox
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
 6	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
-7	na	na	ADP	_	Case=Gen	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=Gen
+7	na	na	PART	_	Case=Gen|PartType=Case	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=Gen
 8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Rmt.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
 
@@ -1856,11 +1856,11 @@
 4	tàhiyàkkà	tah-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|Poss=Yes|VerbForm=Vnoun	3	subj	_	AlignBegin=411750|AlignEnd=411980|CaseAf=Gen|GenderAf=Masc|Gloss=walk.Vnoun.Fem.Cons-2MascGen|MSeg=tàhiyàk-kà|PersonAf=2|wordform=tàhiyàk
 5	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
-7	ta	na	ADP	_	Case=Gen|Gender=Fem	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Gen.Fem
+7	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Gen.Fem
 8	wàncân	wàncân	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Rmt.Masc
 9	daban	daban	ADJ	_	_	7	mod	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT
-11	ta	na	ADP	_	Case=Gen|Gender=Fem	7	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Gen.Fem
+11	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	7	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Gen.Fem
 12	wàncân	wàncân	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	11	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Rmt.Masc
 13	daban	daban	ADJ	_	_	11	mod	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT
