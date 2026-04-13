@@ -1371,7 +1371,7 @@
 # text = in yâːra sunkai itàːceː sunkà ɗaːmìkkeː, sunkà ɗoːkoː, shì biyoː sù sai an kaːwoː kusa gà gàriː, sai shì baː yaːròː kaːshiː, shì ƙwaːcèː itàːceː shì kai mà uwaːtai Dikkò .
 # text_en = When the children had gathered wood, tied it and carried it away, he followed them until they arrived close to the town, then he beat up the children, took the wood by force, and carried it to his mother Dikko .
 1	in	in	SCONJ	_	_	12	mod	_	Gloss=if
-2	yâːra	yaːròː	ADV	_	Number=Plur	3	subj	_	Gloss=children
+2	yâːra	yaːròː	NOUN	_	Number=Plur	3	subj	_	Gloss=children
 3-4	sunkai	_	_	_	_	_	_	_	_
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 4	yi	yi	VERB	_	_	3	comp:aux	_	Gloss=do
@@ -1410,7 +1410,7 @@
 
 # sent_id = HAUA_BC_NARR_06_Dikko__78
 # text_ortho = Dandà Garbaː Dikkò indà duy yat tàhi itàːceː tàːre dà yâːra baːshì itàːceː .
-# text = Dandà Garbaː Dikkò indà duy yat tàhi itàːceː tàːre dà yâːra baːshì itàːceː .
+# text = Dandà Garbaː Dikkò indà duy yat tàhi itàːceː tàːre dà yâːra baːshì itàːceː.
 # text_en = DGD, whenever he went to collect wood with the other children, he did not pick any .
 1	Dandà	danon	PROPN	_	_	12	dislocated@subj	_	Gloss=Dandà
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
@@ -1422,7 +1422,7 @@
 8	itàːceː	itàːceː	NOUN	_	Number=Plur	7	comp:obj@G	_	Gloss=wood.Plur
 9	tàːre	tàːre	ADV	_	_	10	mod	_	Gloss=together
 10	dà	dà	SCONJ	_	_	7	mod	_	Gloss=that
-11	yâːra	yaːròː	ADV	_	Number=Plur|PronType=Int	10	comp:obj	_	Gloss=children
+11	yâːra	yaːròː	NOUN	_	Number=Plur	10	comp:obj	_	Gloss=children
 12	baːshì	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Prog.Neg
 13	itàːceː	itàːceː	NOUN	_	Number=Plur	12	comp:aux	_	Gloss=wood.Plur|SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
@@ -1433,7 +1433,7 @@
 # text_en = The other children would pick wood, and when they approached the village, he would take it by force and carry it to his mother .
 1	sai	sai	SCONJ	_	_	13	mod	_	Gloss=only_when
 2	dai	dai	PART	_	PartType=Top	1	discourse@top	_	Gloss=anyway
-3	yâːra	yaːròː	ADV	_	Number=Plur	1	comp:obj	_	Gloss=children
+3	yâːra	yaːròː	NOUN	_	Number=Plur	1	comp:obj	_	Gloss=children
 4	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	3	comp:cleft	_	Gloss=3Plur.Sub
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=do|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -3202,7 +3202,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__181
 # text_en = "Me, I know my own, but I'm not telling you. "
 # text_ortho = " niː naː san àbiːnaː àmman baːnì haɗàː mukù" .
-# text = " niː naː san àbiːnaː àmman baːnì haɗàː mukù " .
+# text = " niː naː san àbiːn -aː àmman baːnì haɗàː mukù ".
 1	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	dislocated@subj	_	Gloss=1Sing.Nom
 3	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	Gloss=1Sing.Perf
@@ -3210,7 +3210,7 @@
 5	àbiːn	àbiː	NOUN	_	Number=Sing	4	comp:obj	_	Gloss=chose.Masc.Cons|wordform=àbiːnaː
 6	-aː	-aː	PRON	_	Case=Gen|Person=1|Poss=Yes	5	mod/m	_	Gloss=-1SingGen
 7	àmman	àmma	CCONJ	_	_	8	mod	_	Gloss=but
-8	baːnì	nàː	AUX	_	Aspect=Prog|Case=Gen|Definite=Cons|Number=Sing|Person=1|Polarity=Neg	3	conj:coord	_	Gloss=1Sing.Prog.Neg
+8	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	3	conj:coord	_	Gloss=1Sing.Prog.Neg
 9	haɗàː	haɗ-	VERB	_	_	8	comp:aux	_	Gloss=join
 10	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	comp:obl	_	Gloss=2Plur.Dat
 11	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|SpaceAfter=No
@@ -5346,7 +5346,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__298
 # text_en = DGD, if it was griots, if you were alone, if you were two, if you were ten, it was a hundred cows .
 # text_ortho = shiː, Dandà Garbaː Dikkò, indà duk mài maulòː, in kai ɗai kakè, in kuː buy, in kuː goːmà, saːnìyaː ɗàriː nàː .
-# text = shiː, Dandà Garbaː Dikkò, indà duk mài maulòː, in kai ɗai kakè, in kuː buy, in kuː goːmà, saːnìyaː ɗàriː nàː .
+# text = shiː, Dandà Garbaː Dikkò, indà duk mài maulòː, in kai ɗai kakè, in kuː buy, in kuː goːmà, saːnìyaː ɗàriː nàː.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	27	dislocated@top	_	Gloss=3Masc.Nom|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 3	Dandà	Dandà	PROPN	_	_	1	conj:appos	_	Gloss=Dandà
@@ -5372,7 +5372,7 @@
 23	goːmà	goːmà	NUM	_	_	21	comp:obj	_	Gloss=ten|SpaceAfter=No
 24	,	,	PUNCT	_	_	21	punct	_	Gloss=PUNCT
 25	saːnìyaː	saːnìyaː	NOUN	_	Gender=Fem	27	subj	_	Gloss=cown.Fem
-26	ɗàriː	ɗàriː	NUM	_	Number=Plur	25	mod:num	_	Gloss=hundred
+26	ɗàriː	ɗàriː	NUM	_	_	25	mod:num	_	Gloss=hundred
 27	nàː	neː	AUX	_	_	0	root	_	Copula=Yes|Gloss=Ident|SpaceAfter=No
 28	.	.	PUNCT	_	_	27	punct	_	Gloss=PUNCT
 
@@ -5699,7 +5699,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__319
 # text_en = The cows were finished except for a ram and this horse of him, Baniyoguba .
 # text_ortho = shaːnuː sun ƙaːrèː sauran ràːgoː dà doːkìn ga naːshì Banìyoːgubà .
-# text = shaːnuː sun ƙaːrèː sauran ràːgoː dà doːkìn ga naːshì Banìyoːgubà .
+# text = shaːnuː sun ƙaːrèː sauran ràːgoː dà doːkìn ga naːshì Banìyoːgubà.
 1	shaːnuː	sâː	NOUN	_	Number=Plur	2	subj	_	Gloss=cow.Plur
 2	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf
 3	ƙaːrèː	ƙaːr-	VERB	_	_	2	comp:aux	_	Gloss=finish
@@ -5708,7 +5708,7 @@
 6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
 7	doːkìn	doːkìː	NOUN	_	Definite=Cons|Gender=Masc	5	conj:coord	_	Gloss=horse.Masc.Cons
 8	ga	ga	DET	_	Deixis=Prox|PronType=Dem	7	det	_	Gloss=Prox
-9	naːshì	naːshì	AUX	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	7	mod@poss	_	Gloss=3Masc.Gen
+9	naːshì	naːshì	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	7	mod@poss	_	Gloss=3Masc.Gen
 10	Banìyoːgubà	Banìyoːgubà	PROPN	_	Number=Plur	7	conj:appos	_	Gloss=Banìyoːgubà|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -10469,7 +10469,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__577
 # text_en = After Gilage had put down a nut, he said "Well, my cows, me, Gilage, I don't give them free to anyone."
 # text_ortho = dà Gilaːgèː ya' azà ƙòːdagòː yac cèː " tôː shaːnuːnaː, niː, Gilaːgèː-Gilaːgè, baːnì bâː mùtun sàdakà " .
-# text = dà Gilaːgèː ya' azà ƙòːdagòː yac cèː " tôː shaːnuːnaː, niː, Gilaːgèː-Gilaːgè, baːnì bâː mùtun sàdakà " .
+# text = dà Gilaːgèː ya' azà ƙòːdagòː yac cèː " tôː shaːnuːn-aː , niː, Gilaːgèː-Gilaːgè, baːnì bâː mùtun sàdakà ".
 1	dà	dà	SCONJ	_	_	6	mod	_	Gloss=that
 2	Gilaːgèː	Gilaːgèː	PROPN	_	_	3	subj	_	Gloss=Gilaːgèː
 3	ya'	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	Gloss=3Masc.Perf.Rel|Relative=Yes
@@ -10486,7 +10486,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 15	Gilaːgèː-Gilaːgè	Gilaːgèː-gilaːgè	PROPN	_	_	13	conj:appos	_	Gloss=Gilaːgèː-Gilaːgè|SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	Gloss=PUNCT
-17	baːnì	nàː	AUX	_	Aspect=Prog|Case=Gen|Definite=Cons|Number=Sing|Person=1|Polarity=Neg	7	comp:obj	_	Gloss=1Sing.Prog.Neg
+17	baːnì	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	7	comp:obj	_	Gloss=1Sing.Prog.Neg
 18	bâː	baː	VERB	_	_	17	comp:aux	_	Gloss=give
 19	mùtun	mùtun	NOUN	_	Gender=Masc	18	comp:obj@R	_	Gloss=man.Masc
 20	sàdakà	sàdakà	ADV	_	Gender=Fem	18	mod	_	Gloss=for_free
@@ -11006,7 +11006,7 @@
 10	-aː	-aː	PRON	_	Case=Gen|Person=1|Poss=Yes	9	mod/m	_	Gloss=-1SingGen
 11	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	7	parataxis@mod	_	Gloss=1Sing.Perf.Neg
 12	baː	baː	VERB	_	_	11	comp:aux	_	Gloss=give
-13	shì	shì	AUX	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	12	comp:obj	_	Gloss=3Masc.Acc
+13	shì	shì	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	12	comp:obj	_	Gloss=3Masc.Acc
 14	ba	ba	PART	_	Polarity=Neg	12	mod	_	Gloss=Neg
 15	!	!	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 16	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -13221,7 +13221,7 @@
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	dislocated@subj	_	Gloss=1Sing.Nom
 3	nib	yaː	AUX	_	Aspect=Perf|Person=1	0	root	_	Gloss=1Sing.Perf.Rel|Relative=Yes
 4	bìɗeː	biɗ-	VERB	_	_	3	comp:aux	_	Gloss=look_for
-5	kù	ku	AUX	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	Gloss=2Plur.Acc|SpaceAfter=No
+5	kù	ku	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	Gloss=2Plur.Acc|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 7	kù	yà	AUX	_	Mood=Sub|Number=Plur|Person=2	4	mod	_	Gloss=2Plur.Sub
 8	hwaɗàː	faɗ-	VERB	_	_	7	comp:aux	_	Gloss=tell
@@ -14334,7 +14334,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__789
 # text_en = Then she left, she went and gave it to the dogs, took the dogs' food and went to give it to the donkey-driver.
 # text_ortho = sai tat tàhi tà zoː tà zubèː mà kàrnai tà ɗòːki kùnun kàrnai tà tàhi tà kai mà makyàːyin jàkkai .
-# text = sai tat tàhi tà zoː tà zubèː mà kàrnai tà ɗòːki kùnun kàrnai tà tàhi tà kai mà makyàːyin jàkkai .
+# text = sai tat tàhi tà zoː tà zubèː mà kàrnai tà ɗòːki kùnun kàrnai tà tàhi tà kai mà makyàːyin jàkkai.
 1	sai	sai	ADV	_	_	2	mod	_	Gloss=then
 2	tat	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf.Rel|Relative=Yes
 3	tàhi	tah-	VERB	_	_	2	comp:aux	_	Gloss=go
@@ -14343,11 +14343,11 @@
 6	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	4	parataxis@conj	_	Gloss=3Fem.Sub
 7	zubèː	zub-	VERB	_	_	6	comp:aux	_	Gloss=pour
 8	mà	mà	ADP	_	Case=Dat	7	comp:obl	_	Gloss=Dat
-9	kàrnai	kàreː	NOUN	_	Number=Plur|Poss=Yes	8	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=dog.Plur.Masc -3MascGen|MSeg=kàrn-ai|PersonAf=3
+9	kàrnai	kàreː	NOUN	_	Number=Plur	8	comp:obj	_	Gloss=dog.Plur
 10	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	6	parataxis@conj	_	Gloss=3Fem.Sub
 11	ɗòːki	ɗauk-	VERB	_	_	10	comp:aux	_	Gloss=take
 12	kùnun	kùnun	NOUN	_	Definite=Cons|Gender=Masc	11	comp:obj	_	Gloss=gruel.Masc.Cons
-13	kàrnai	kàreː	NUM	_	Number=Plur|Poss=Yes	12	mod	_	CaseAf=Gen|GenderAf=Masc|Gloss=dog.Plur.Masc -3MascGen|MSeg=kàrn-ai|PersonAf=3
+13	kàrnai	kàreː	NOUN	_	Number=Plur	12	mod	_	Gloss=dog.Plur
 14	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	10	parataxis@conj	_	Gloss=3Fem.Sub
 15	tàhi	tah-	VERB	_	_	14	comp:aux	_	Gloss=go
 16	tà	yà	AUX	_	Gender=Fem|Mood=Sub|Person=3	14	parataxis@conj	_	Gloss=3Fem.Sub
