@@ -3358,7 +3358,7 @@
 2	yat	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 3	tàhi	tah-	VERB	_	_	2	comp:aux	_	Gloss=go
 4	zuwàː	zuwàː	ADP	_	_	3	comp:obl	_	Gloss=towards
-5	kòːyon	kòːyaː	ADP	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	mod:obl	_	Gloss=learn.Vnoun.Masc.Cons
+5	kòːyon	kòːyaː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	4	mod:obl	_	Gloss=learn.Vnoun.Masc.Cons
 6	azanciː	azanciː	NOUN	_	Gender=Masc	5	comp:obj	_	Gloss=intelligence|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -4573,12 +4573,12 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__256
 # text_en = Keep playing his song for him, apart from the food that you eat, he won't give you anything .
 # text_ortho = kai tai mai kiɗìː sai hwa gaːrad dà kash shaː, baːshì kyàutaː .
-# text = kai tai mai kiɗìː sai hwa gaːrad dà kash shaː, baːshì kyàutaː .
+# text = kai tai mai kiɗìː sai hwa gaːrad dà kash shaː, baːshì kyàutaː.
 1-2	kai	_	_	_	_	_	_	_	_
 1	kà	kà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 2	yi	yi	VERB	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	1	comp:aux	_	Gloss=2Masc.Nom
 3-4	tai	_	_	_	_	_	_	_	_
-3	ta	ta	PART	_	Aspect=Iter|Gender=Masc|Person=3	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
 4	yi	yi	VERB	_	Gender=Masc|Person=3	2	comp:pred	_	Gloss=X
 5	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	4	comp:obl	_	Gloss=3Masc.Dat
 6	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	4	comp:pred	_	Gloss=music.Masc
@@ -5263,9 +5263,9 @@
 # text = " sanwòː àshindà àmànoː àgwandà àmànoː " ìn ji Dandà Garbaː Dikkò .
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	sanwòː	X	X	_	_	0	root	_	Gloss=X
-3	àshindà	X	X	_	Gender=Masc|Mood=Sub|Person=3	2	conj:appos	_	Gloss=X
+3	àshindà	X	X	_	Mood=Sub|Person=3	2	conj:appos	_	Gloss=X
 4	àmànoː	X	X	_	_	3	mod	_	Gloss=X
-5	àgwandà	X	X	_	Gender=Fem	4	conj:appos	_	Gloss=X
+5	àgwandà	X	X	_	_	4	conj:appos	_	Gloss=X
 6	àmànoː	X	X	_	_	5	conj:coord	_	Gloss=X
 7	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 8	ìn	yà	AUX	_	Mood=Sub|Person=1	2	discourse	_	Gloss=1Sing.Sub
@@ -5283,13 +5283,13 @@
 2	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 3	cèː	cêː	VERB	_	_	2	comp:aux	_	Gloss=say
 4	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
-5	sanwòː	X	X	_	Gender=Masc	3	comp:obj	_	Gloss=X
-6	àshin	X	X	_	Gender=Masc|Person=3	5	flat@foreign	_	Gloss=X|SpaceAfter=No
+5	sanwòː	X	X	_	_	3	comp:obj	_	Gloss=X
+6	àshin	X	X	_	Person=3	5	flat@foreign	_	Gloss=X|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-8	àgwandà	X	X	_	Gender=Masc|PronType=Rel	5	parataxis:conj	_	Gloss=X
+8	àgwandà	X	X	_	PronType=Rel	5	parataxis:conj	_	Gloss=X
 9	sanwòː	X	X	_	_	8	flat@foreign	_	Gloss=X
-10	àshindà	X	X	_	Definite=Cons|Gender=Fem	9	flat@foreign	_	Gloss=X
-11	àmànoː	X	X	_	Gender=Masc	10	flat@foreign	_	Gloss=X
+10	àshindà	X	X	_	Definite=Cons	9	flat@foreign	_	Gloss=X
+11	àmànoː	X	X	_	_	10	flat@foreign	_	Gloss=X
 12	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -8455,7 +8455,7 @@
 5	ga	ga	DET	_	Deixis=Prox|PronType=Dem	4	det	_	Gloss=Prox
 6	dà	dà	SCONJ	_	_	4	mod@relcl	_	Gloss=that
 7	shikà	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	comp:obj	_	Gloss=3Masc.Prog.Rel|Relative=Yes
-8	zuwàː	zoː	ADP	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	7	comp:aux	_	Gloss=go.Vnoun
+8	zuwàː	zoː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	7	comp:aux	_	Gloss=go.Vnoun
 9	kìliːsàd	kìliːsàː	NOUN	_	Definite=Cons|Gender=Fem	8	comp:obj@G	_	Gloss=trotting.Fem.Cons
 10	doːkìː	doːkìː	NOUN	_	Gender=Masc	9	mod	_	Gloss=horse.Mac
 11	sai	sai	ADV	_	_	13	mod	_	Gloss=then
@@ -9721,7 +9721,7 @@
 42	Gilaːgèː-Gilaːgèː	Gilaːgèː-gilaːgèː	PROPN	_	_	40	comp:obj	_	Gloss=Gilaːgèː-Gilaːgèː
 43	hammà	X	X	_	_	42	conj:appos	_	Gloss=X
 44	hwaːtò	X	X	_	_	43	unk	_	Gloss=X
-45	gwarkà	X	X	_	Aspect=Prog|Gender=Masc|Person=2|Polarity=Neg	44	unk	_	Gloss=X
+45	gwarkà	X	X	_	Aspect=Prog|Person=2|Polarity=Neg	44	unk	_	Gloss=X
 46	haɗeːjà	X	X	_	_	45	unk	_	Gloss=X
 47	gùmbai	gùmbaː	NOUN	_	Definite=Cons|Gender=Fem	43	conj:appos	_	Gloss=gruel_sp.Fem.Cons
 48	yàːkuwaː	yàːkuwaː	NOUN	_	Gender=Fem	47	mod	_	Gloss=sorrel.Fem
@@ -12392,8 +12392,8 @@
 11	Garbà	Garbà	PROPN	_	_	9	conj:dicto	_	Gloss=Garbà
 12	hàlle-hàllan	hàlle-hàllaː	ADJ	_	_	11	flat@name	_	Gloss=character(?)
 13	mutuwàː	mutuwàː	NOUN	_	Number=Plur	12	flat@name	_	Gloss=death.Fem
-14	kalì	X	X	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	11	conj:dicto	_	Gloss=X
-15	hanɗìɗiː	X	X	_	Gender=Masc	14	comp:obj	_	Gloss=X
+14	kalì	X	X	_	Definite=Cons|ExtPos=NOUN	11	conj:dicto	_	Gloss=X
+15	hanɗìɗiː	X	X	_	_	14	comp:obj	_	Gloss=X
 16	kalìndì	X	X	_	_	15	mod	_	Gloss=X
 17	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
