@@ -810,7 +810,7 @@
 1	wàːtôː	wàːtôː	INTJ	_	_	12	discourse	_	AlignBegin=205660|AlignEnd=205967|Gloss=that_is
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=205967|AlignEnd=206274|Gloss=PUNCT
 3	zàːrùmmân	zaːrùmiː	NOUN	_	Definite=Cons|Number=Plur	12	mod	_	AlignBegin=206274|AlignEnd=206581|Gloss=brave.Plur.Cons
-4	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	3	det	_	AlignBegin=206581|AlignEnd=206888|Gloss=PreRef
+4	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	3	det	_	AlignBegin=206581|AlignEnd=206888|Gloss=ProxH
 5	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=206888|AlignEnd=207195|Gloss=REL
 6	sukà	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=207195|AlignEnd=207502|Gloss=3Plur.Prog.Rel|Relative=Yes
 7	aihùwaː	aih-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=207502|AlignEnd=207809|Gloss=give_birth.Vnoun.Fem
@@ -915,7 +915,7 @@
 1	bàkà	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=234347|AlignEnd=234631|Gloss=2Masc.PerfNeg
 2	san	san-	VERB	_	_	1	comp:aux	_	AlignBegin=234631|AlignEnd=234915|Gloss=know
 3	loːkàcîn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=234915|AlignEnd=235199|Gloss=time.Masc.Cons
-4	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	3	det	_	AlignBegin=235199|AlignEnd=235483|Gloss=PreRef
+4	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	3	det	_	AlignBegin=235199|AlignEnd=235483|Gloss=ProxH
 5	ba	ba	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=235483|AlignEnd=235767|Gloss=Neg
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=235767|AlignEnd=236054|Gloss=PUNCT
 
@@ -929,7 +929,7 @@
 1	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=238154|AlignEnd=238304|Gloss=1Sing.PerfNeg
 2	san	san-	VERB	_	_	1	comp:aux	_	AlignBegin=238304|AlignEnd=238454|Gloss=know
 3	loːkàcîn	loːkàcîː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:obj	_	AlignBegin=238454|AlignEnd=238604|Gloss=time.Cons.Masc
-4	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	3	det	_	AlignBegin=238604|AlignEnd=238754|Gloss=PreRef
+4	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	3	det	_	AlignBegin=238604|AlignEnd=238754|Gloss=ProxH
 5	ba	ba	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=238754|AlignEnd=238904|Gloss=Neg
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=238904|AlignEnd=239053|Gloss=PUNCT
 
@@ -1186,7 +1186,7 @@
 # text_en = You see then.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=284080|AlignEnd=284345|Gloss=1Sing.Perf
 2	ga	gan-	VERB	_	_	1	comp:aux	_	AlignBegin=284345|AlignEnd=284610|Gloss=see
-3	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc|PronType=Dem	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=Def.Masc
+3	wànnan	wànnan	PRON	_	Deixis=ProxH|Gender=Masc|PronType=Dem	2	comp:obj	_	AlignBegin=284610|AlignEnd=284875|Gloss=ProxH.Masc
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=284875|AlignEnd=285140|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_072-072
@@ -1242,7 +1242,7 @@
 # text_ortho = wànnan naː ga hakà nan //
 # text = wànnan naː ga hakànan //
 # text_en = I have seen it.
-1	wànnan	wànnan	PRON	_	Definite=Def|Gender=Masc|PronType=Dem	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=Def.Masc
+1	wànnan	wànnan	PRON	_	Deixis=ProxH|Gender=Masc|PronType=Dem	2	dislocated@comp	_	AlignBegin=299780|AlignEnd=299930|Gloss=ProxH.Masc
 2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=299930|AlignEnd=300080|Gloss=1Sing.Perf
 3	ga	gan-	VERB	_	_	2	comp:aux	_	AlignBegin=300080|AlignEnd=300230|Gloss=see
 4	hakànan	hakànan	ADV	_	_	3	comp:pred	_	AlignBegin=300230|AlignEnd=300380|Gloss=thus
@@ -1440,7 +1440,7 @@
 3	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=336970|AlignEnd=337145|Gloss=arrive.Vnoun.Fem
 4	nanânga	nanânga	ADV	_	Deixis=Prox|PronType=Dem	3	comp:obj@G	_	AlignBegin=337145|AlignEnd=337320|Gloss=Prox
 5	gàrîn	gàriː	NOUN	_	Definite=Cons|Gender=Masc	4	conj:appos	_	AlignBegin=337320|AlignEnd=337495|Gloss=village.Masc.Cons
-6	ga	ga	DET	_	Deixis=Prox|PronType=Dem	5	det	_	AlignBegin=337495|AlignEnd=337670|Gloss=Prox
+6	ga	ga	DET	_	Deixis=ProxS|PronType=Dem	5	det	_	AlignBegin=337495|AlignEnd=337670|Gloss=ProxS
 7	dâːmaː	dâːmaː	ADV	_	_	3	mod	_	AlignBegin=337670|AlignEnd=337845|Gloss=formerly
 8	gà	gà	ADP	_	_	3	mod	_	AlignBegin=338020|AlignEnd=338195|Gloss=by
 9	ƙasaː	ƙasaː	NOUN	_	Gender=Fem	8	comp:obj	_	AlignBegin=338195|AlignEnd=338370|Gloss=ground.Fem
@@ -1481,7 +1481,7 @@
 6	àmmaː	àmmaː	CCONJ	_	_	8	cc	_	AlignBegin=341545|AlignEnd=341874|Gloss=but
 7	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	8	mod	_	AlignBegin=341874|AlignEnd=342203|Gloss=Neg
 8	hanyàː	hanyàː	NOUN	_	Gender=Fem	2	conj:coord	_	AlignBegin=342203|AlignEnd=342532|Gloss=way.Fem
-9	wàccân	wàccân	DET	_	Deixis=Remt|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=342532|AlignEnd=342861|Gloss=Rmt.Fem
+9	wàccân	wàccân	DET	_	Deixis=Med|Gender=Fem|PronType=Dem	8	det	_	AlignBegin=342532|AlignEnd=342861|Gloss=Med.Fem
 10	ba	ba	PART	_	PartType=Neg|Polarity=Neg	8	mod	_	AlignBegin=342861|AlignEnd=343190|Gloss=Neg
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=343190|AlignEnd=343521|Gloss=PUNCT
 
@@ -1610,7 +1610,7 @@
 5	kaːwoː	kaːy-	VERB	_	_	4	comp:aux	_	AlignBegin=359258|AlignEnd=359502|Gloss=carry
 6	duːc'ìː	duːc'ìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=359502|AlignEnd=359746|Gloss=stone.Masc
 7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=359746|AlignEnd=359990|Gloss=PUNCT
-8	wànga	wànga	PRON	_	Deixis=Prox|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=Prox.Masc
+8	wànga	wànga	PRON	_	Deixis=ProxS|Gender=Masc|PronType=Dem	6	conj:appos	_	AlignBegin=359990|AlignEnd=360234|Gloss=ProxS.Masc
 9	na	na	PART	_	Case=Gen|PartType=Case	8	mod	_	AlignBegin=360234|AlignEnd=360478|Gloss=Gen
 10	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	9	comp:obj	_	AlignBegin=360478|AlignEnd=360722|Gloss=child.Plur.Cons
 11	maːtaː	maːtaː	NOUN	_	Number=Plur	10	compound	_	AlignBegin=360722|AlignEnd=360966|Gloss=women
@@ -1779,7 +1779,7 @@
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=401834|AlignEnd=402111|Gloss=PUNCT
 6	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=402111|AlignEnd=402388|Gloss=here_is
 7	na	na	PART	_	Case=Gen|PartType=Case	6	subj	_	AlignBegin=402388|AlignEnd=402665|Gloss=Gen
-8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Rmt.Masc
+8	wàncéːnìyaː	wàncéːnìyaː	PRON	_	Deixis=Med|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=402665|AlignEnd=402942|Gloss=Med.Masc
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=402942|AlignEnd=403221|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_01_111-111
@@ -1857,11 +1857,11 @@
 5	daban	daban	ADJ	_	_	4	mod	_	AlignBegin=411980|AlignEnd=412210|Gloss=apart
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=412210|AlignEnd=412440|Gloss=PUNCT
 7	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	4	conj:coord	_	AlignBegin=412440|AlignEnd=412670|Gloss=Gen.Fem
-8	wàncân	wàncân	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Rmt.Masc
+8	wàncân	wàncân	PRON	_	Deixis=Med|Gender=Masc|PronType=Dem	7	comp:obj	_	AlignBegin=412670|AlignEnd=412900|Gloss=Med.Masc
 9	daban	daban	ADJ	_	_	7	mod	_	AlignBegin=412900|AlignEnd=413130|Gloss=apart
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=413130|AlignEnd=413360|Gloss=PUNCT
 11	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	7	conj:coord	_	AlignBegin=413360|AlignEnd=413590|Gloss=Gen.Fem
-12	wàncân	wàncân	PRON	_	Deixis=Remt|Gender=Masc|PronType=Dem	11	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Rmt.Masc
+12	wàncân	wàncân	PRON	_	Deixis=Med|Gender=Masc|PronType=Dem	11	comp:obj	_	AlignBegin=413590|AlignEnd=413820|Gloss=Med.Masc
 13	daban	daban	ADJ	_	_	11	mod	_	AlignBegin=413820|AlignEnd=414050|Gloss=apart
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414050|AlignEnd=414280|Gloss=PUNCT
 
@@ -2147,7 +2147,7 @@
 # text_en = And at that time, at home, there was no lack of food, no cattle disease, no lack of milk, no problem at all.
 1	kuma	kuma	CCONJ	_	_	6	discourse	_	AlignBegin=460776|AlignEnd=461224|Gloss=also
 2	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	mod	_	AlignBegin=461224|AlignEnd=461672|Gloss=time.Masc.Cons
-3	nan	nan	DET	_	Deixis=PreRef|PronType=Dem	2	det	_	AlignBegin=461672|AlignEnd=462120|Gloss=PreRef
+3	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	2	det	_	AlignBegin=461672|AlignEnd=462120|Gloss=ProxH
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=462120|AlignEnd=462568|Gloss=PUNCT
 5	gida	gida	ADV	_	_	6	mod	_	AlignBegin=462568|AlignEnd=463016|Gloss=at_home
 6	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=463016|AlignEnd=463464|Gloss=there_is.Neg
