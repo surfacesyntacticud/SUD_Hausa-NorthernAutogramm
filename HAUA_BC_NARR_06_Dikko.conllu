@@ -179,7 +179,7 @@
 16	yi	yi	VERB	_	_	15	comp:aux	_	Gloss=do
 17	yaːƙoːƙiː	yaːƙìː	NOUN	_	Number=Plur	16	comp:pred	_	Gloss=war.Plur
 18	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	15	parataxis@conj	_	Gloss=3Masc.Prog
-19	ta	ta	PART	_	Aspect=Iter	18	compound:prt	_	Gloss=Iter
+19	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	18	compound:prt	_	Gloss=Iter
 20	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	18	comp:aux	_	Gloss=army.Masc|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -189,7 +189,7 @@
 # text_en = Garba keeps fighting, to her and Dikko, Allah did not give them a child .
 1	Garbà	Garbà	PROPN	_	_	2	subj	_	Gloss=Garbà
 2	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	yaːƙìː	yaːƙìː	NOUN	_	Gender=Masc	2	comp:aux	_	Gloss=army.Masc
 5	.,	.,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 6	dà	dà	CCONJ	_	_	7	cc@preconj	_	Gloss=and
@@ -1163,11 +1163,11 @@
 4	tag	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf.Rel|Relative=Yes
 5	ga	gan-	VERB	_	_	4	comp:aux	_	Gloss=see
 6	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	5	comp:obj	_	Gloss=3Masc.Prog
-7	ta	ta	PART	_	Aspect=Iter	6	compound:prt	_	Gloss=Iter
+7	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	6	compound:prt	_	Gloss=Iter
 8	mòːc'iː	moːts-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	Gloss=move.Vnoun.Masc|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 10	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	conj:dicto	_	Gloss=3Masc.Prog
-11	ta	ta	PART	_	Aspect=Iter	10	compound:prt	_	Gloss=Iter
+11	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	10	compound:prt	_	Gloss=Iter
 12	moːtsàːwaː	moːts-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	10	comp:aux	_	Gloss=move.Vnoun.Fem|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
@@ -1789,7 +1789,7 @@
 # text_en = He started training his horse .
 1	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 2	yi	yi	VERB	_	_	1	comp:aux	_	Gloss=do
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	2	comp:pred	_	Gloss=tending
 5	àbiːnai	àbiː	NOUN	_	Gender=Masc|Poss=Yes	4	mod	_	CaseAf=Gen|GenderAf=Masc|Gloss=thing.Masc -3MascGen|MSeg=àbiːn-ai|PersonAf=3|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -1802,7 +1802,7 @@
 2	Garbaː	Garbaː	PROPN	_	_	1	flat@name	_	Gloss=Garbaː
 3	Dikkò	Dikkò	PROPN	_	_	2	flat@name	_	Gloss=Dikkò
 4	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-5	ta	ta	PART	_	Aspect=Iter	4	compound:prt	_	Gloss=Iter
+5	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	4	compound:prt	_	Gloss=Iter
 6	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:aux	_	Gloss=tending.Masc.Cons
 7	doːkìːnai	doːkìː	NOUN	_	Gender=Masc|Poss=Yes	6	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=horse.Masc -3MascGen|MSeg=doːkìːn-ai|PersonAf=3|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
@@ -1813,7 +1813,7 @@
 # text_en = He kept training his horse till it grew up and could be ridden .
 1	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 2	yi	yi	VERB	_	_	1	comp:aux	_	Gloss=do
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|Gender=Masc	2	comp:pred	_	Gloss=tending.Masc.Cons
 5	doːkìːnai	doːkìː	NOUN	_	Gender=Masc|Poss=Yes	4	mod	_	CaseAf=Gen|GenderAf=Masc|Gloss=horse.Masc -3MascGen|MSeg=doːkìːn-ai|PersonAf=3|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
@@ -2538,7 +2538,7 @@
 5	ba	ba	PART	_	PartType=Neg|Polarity=Neg	3	mod	_	Gloss=Neg
 6	ùbaːnaː	ùbaː	NOUN	_	Poss=Yes	7	subj	_	CaseAf=Gen|Gloss=father.Masc.Cons-1SingGen|MSeg=ùbaːn-aː|NumberAf=Sing|PersonAf=1
 7	kà	nàː	AUX	_	Aspect=Prog	3	comp:cleft	_	Gloss=Prog.Rel
-8	zan	zan	PART	_	Aspect=Iter	7	compound:prt	_	Gloss=Iter
+8	zan	zan	PART	_	Aspect=Iter|PartType=Aspect	7	compound:prt	_	Gloss=Iter
 9	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	7	comp:aux	_	Gloss=do.Vnoun.Masc|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	Garbà	Garbà	PROPN	_	_	3	vocative	_	Gloss=Garbà
@@ -2800,7 +2800,7 @@
 14	ɗai	ɗai	ADV	_	_	12	mod	_	Gloss=only
 15	akà	nàː	AUX	_	Aspect=Prog|Person=4	12	comp:cleft	_	Gloss=4.Prog.Rel|Relative=Yes
 16-17	tai	_	_	_	_	_	_	_	_
-16	ta	ta	PART	_	Aspect=Iter	15	compound:prt	_	Gloss=Iter
+16	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	15	compound:prt	_	Gloss=Iter
 17	yi	yi	VERB	_	_	15	comp:aux	_	Gloss=do
 18	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	17	comp:obl	_	Gloss=3Masc.Dat|SpaceAfter=No
 19	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
@@ -4556,7 +4556,7 @@
 1	kà	kà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 2	yi	yi	VERB	_	_	1	comp:aux	_	Gloss=do
 3-4	tai	_	_	_	_	_	_	_	_
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	yi	yi	VERB	_	_	2	comp:pred	_	Gloss=do
 5	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	4	comp:obl	_	Gloss=3Masc.Dat
 6	kiɗìː	kiɗìː	NOUN	_	_	4	comp:obl	_	Gloss=music.Masc
@@ -4570,7 +4570,7 @@
 1	kà	kà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 2	yi	yi	VERB	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	1	comp:aux	_	Gloss=2Masc.Nom
 3-4	tai	_	_	_	_	_	_	_	_
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	yi	yi	VERB	_	Gender=Masc|Person=3	2	comp:pred	_	Gloss=X
 5	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	4	comp:obl	_	Gloss=3Masc.Dat
 6	kiɗìː	kiɗìː	NOUN	_	Gender=Masc	4	comp:pred	_	Gloss=music.Masc
@@ -4829,7 +4829,7 @@
 9	ƙarhiː	ƙarhiː	NOUN	_	Gender=Masc	7	comp:obj@T	_	Gloss=strength.Masc|SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 11	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-12	ta	ta	PART	_	Aspect=Iter	11	compound:prt	_	Gloss=Iter
+12	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	11	compound:prt	_	Gloss=Iter
 13	yàbonkà	yàboː	NOUN	_	Definite=Cons|Gender=Masc|Poss=Yes	11	comp:aux	_	CaseAf=Gen|GenderAf=Masc|Gloss=praise.Masc.Cons-2MascGen|MSeg=yàbon-kà|PersonAf=2
 14	Dandà	Dandà	PROPN	_	_	11	vocative	_	Gloss=Dandà
 15	Garbaː	Garbaː	PROPN	_	_	14	flat@name	_	Gloss=Garbaː
@@ -4886,7 +4886,7 @@
 7	wàːtôː	wàːtôː	INTJ	_	_	8	subj	_	Gloss=well
 8	yàboːnaː	yàboː	NOUN	_	Number=Sing|Poss=Yes	5	comp:obj	_	CaseAf=Gen|Gloss=praise.Masc.Cons-1SingGen|MSeg=yàboːn-aː|NumberAf=Sing|PersonAf=1
 9	sukà	yaː	AUX	_	Aspect=Prog|Number=Plur|Person=3	8	comp:cleft	_	Gloss=3Plur.Prog.Rel|Relative=Yes
-10	ta	ta	PART	_	Aspect=Iter	9	compound:prt	_	Gloss=Iter
+10	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	9	compound:prt	_	Gloss=Iter
 11	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc	9	comp:aux	_	Gloss=do.Vnoun.Masc
 12	?	?	PUNCT	_	_	8	punct	_	Gloss=PUNCT|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
@@ -4897,7 +4897,7 @@
 # text = " sunàː ta gòːdiyaː, koː bàn kòː baː sù koːmiː ba ? "
 1	"	"	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 2	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-3	ta	ta	PART	_	Aspect=Iter	2	compound:prt	_	Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	2	comp:aux	_	Gloss=thanking.Fem|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	koː	koː	SCONJ	_	_	4	mod	_	Gloss=although
@@ -5330,7 +5330,7 @@
 5	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	subj	_	Gloss=owner_of.Plur
 6	maulòː	maulòː	NOUN	_	Gender=Masc	5	compound	_	Gloss=guitar.Masc
 7	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-8	ta	ta	PART	_	Aspect=Iter	7	compound:prt	_	Gloss=Iter
+8	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	7	compound:prt	_	Gloss=Iter
 9	zakkùwaː	zak-	VERB	_	ExtPos=NOUN|Gender=Fem	7	comp:aux	_	Gloss=arrive.Vnoun.Fem|SpaceAfter=No|VerbForm=Vnoun
 10	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -6752,7 +6752,7 @@
 3-4	sunkài	_	_	_	_	_	_	_	_
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 4	yi	yi	VERB	_	_	3	comp:aux	_	Gloss=do
-5	ta	ta	PART	_	Aspect=Iter	4	compound:prt	_	Gloss=Iter
+5	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	4	compound:prt	_	Gloss=Iter
 6	gòːdiyaː	gòːdiyaː	NOUN	_	Gender=Fem	4	comp:pred	_	Gloss=thanks.Fem|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 8	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	3	parataxis@conj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -7208,7 +7208,7 @@
 9-10	kai	_	_	_	_	_	_	_	_
 9	kà	kà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
-11	ta	ta	PART	_	Aspect=Iter	10	compound:prt	_	Gloss=Iter
+11	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	10	compound:prt	_	Gloss=Iter
 12	màkarkataː	màkarkataː	NOUN	_	Gender=Fem	10	comp:pred	_	Gloss=trembling.Fem
 13	dà	dà	ADP	_	_	12	mod	_	Gloss=with
 14	tsòːronkà	tsòːroː	NOUN	_	Definite=Cons|Gender=Masc|Poss=Yes	13	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=fear.Masc.Cons-2MascGen|MSeg=tsòːron-kà|PersonAf=2
@@ -8383,7 +8383,7 @@
 # text_ortho = sunàː ta cîn arzìkiː .
 # text = sunàː ta cîn arzìkiː .
 1	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Prog
-2	ta	ta	PART	_	Aspect=Iter	1	compound:prt	_	Gloss=Iter
+2	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	1	compound:prt	_	Gloss=Iter
 3	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	1	comp:aux	_	Gloss=eat.Vnoun.Masc.Cons
 4	arzìkiː	arzìkiː	NOUN	_	Gender=Masc	3	comp:obj	_	Gloss=riches.Masc|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -8900,7 +8900,7 @@
 13	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 14	waː	waː	PRON	_	PronType=Int	0	root	_	Gloss=who
 15	kà	nàː	AUX	_	Aspect=Prog	14	comp:cleft	_	Gloss=Prog.Rel|Relative=Yes
-16	kan	kan	PART	_	Aspect=Iter	15	compound:prt	_	Gloss=Iter
+16	kan	kan	PART	_	Aspect=Iter|PartType=Aspect	15	compound:prt	_	Gloss=Iter
 17	nàːbaːrìː	nàːbaːrìː	NOUN	_	Gender=Masc	15	comp:aux	_	Gloss=story.Masc
 18	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	15	parataxis	_	Gloss=2Masc.Perf
 19	hwasoː	fas-	VERB	_	_	18	comp:aux	_	Gloss=cut.Dir
@@ -10589,12 +10589,12 @@
 9-10	sunkài	_	_	_	_	_	_	_	_
 9	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
-11	ta	ta	PART	_	Aspect=Iter	10	compound:prt	_	Gloss=Iter
+11	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	10	compound:prt	_	Gloss=Iter
 12	darà	darà	NOUN	_	Gender=Masc	10	comp:pred	_	Gloss=draughts_sp.Masc
 13-14	sunkài	_	_	_	_	_	_	_	_
 13	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	9	parataxis@conj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 14	yi	yi	VERB	_	_	13	comp:aux	_	Gloss=do
-15	ta	ta	PART	_	Aspect=Iter	14	compound:prt	_	Gloss=Iter
+15	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	14	compound:prt	_	Gloss=Iter
 16	darà	darà	NOUN	_	Gender=Masc	14	comp:pred	_	Gloss=draughts_sp.Masc
 17	har	har̃	SCONJ	_	_	14	mod	_	Gloss=until
 18	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	17	comp:obj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -11588,7 +11588,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	yay	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 6	yi	yi	VERB	_	_	5	comp:aux	_	Gloss=do
-7	ta	ta	PART	_	Aspect=Iter	6	compound:prt	_	Gloss=Iter
+7	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	6	compound:prt	_	Gloss=Iter
 8	kashìn	kas-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:pred	_	Gloss=kill.Vnoun.Masc.Cons
 9	ƙeːyàːtai	ƙeːyàː	NOUN	_	Gender=Masc|Poss=Yes	8	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=crab.Fem-3MascGen|MSeg=ƙeːyàːt-ai|PersonAf=3|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -11677,7 +11677,7 @@
 1	Garbaː	Garbaː	PROPN	_	_	3	subj	_	Gloss=Garbaː
 2	Dikkò	Dikkò	PROPN	_	_	1	flat@name	_	Gloss=Dikkò
 3	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-4	ta	ta	PART	_	Aspect=Iter	3	compound:prt	_	Gloss=Iter
+4	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	3	compound:prt	_	Gloss=Iter
 5	kashìn	kas-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	3	comp:aux	_	Gloss=kill.Vnoun.Masc.Cons
 6	ƙeːyàːtai	ƙeːyàː	NOUN	_	Gender=Masc|Poss=Yes	5	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=cab.Fem-3MascGen|MSeg=ƙeːyàːt-ai|PersonAf=3
 7	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	3	conj:coord	_	Gloss=3Masc.Perf.Neg
@@ -12052,7 +12052,7 @@
 6-7	sunkài	_	_	_	_	_	_	_	_
 6	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	3	parataxis@conj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 7	yi	yi	VERB	_	_	6	comp:aux	_	Gloss=do
-8	ta	ta	PART	_	Aspect=Iter	7	compound:prt	_	Gloss=Iter
+8	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	7	compound:prt	_	Gloss=Iter
 9	kòːkoːwàː	kòːkoːwàː	NOUN	_	Gender=Fem	7	comp:pred	_	Gloss=wrestling.Fem
 10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@subj	_	Gloss=3Masc.Nom
 11	dà	dà	CCONJ	_	_	12	cc	_	Gloss=and
@@ -14416,7 +14416,7 @@
 # text_ortho = shinàː ta kiːyòn jàkkainai .
 # text = shinàː ta kiːyòn jàkkainai .
 1	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Prog
-2	ta	ta	PART	_	Aspect=Iter	1	compound:prt	_	Gloss=Iter
+2	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	1	compound:prt	_	Gloss=Iter
 3	kiːyòn	kiːyòː	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc	1	comp:aux	_	Gloss=tending.Masc.Cons
 4	jàkkainai	jàːkiː	NOUN	_	Number=Plur|Poss=Yes	3	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=donkey.Plur.Masc -3MascGen|MSeg=jàkkain-ai|PersonAf=3|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -14911,7 +14911,7 @@
 2	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 3	gàmu	gam-	VERB	_	_	2	comp:aux	_	Gloss=meet
 4	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	parataxis@conj	_	Gloss=3Plur.Prog
-5	ta	ta	PART	_	Aspect=Iter	4	compound:prt	_	Gloss=Iter
+5	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	4	compound:prt	_	Gloss=Iter
 6	hwaːma	faːmaː	NOUN	_	Gender=Masc	4	comp:aux	_	Gloss=struggling.Masc
 7	sai	sai	ADV	_	_	10	mod	_	Gloss=then
 8	uway	uwaː	NOUN	_	Definite=Cons|Gender=Fem	10	subj	_	Gloss=mother.Fem.Cons
@@ -15117,7 +15117,7 @@
 5-6	ankài	_	_	_	_	_	_	_	_
 5	ankà	ankà	AUX	_	Aspect=Perf|Person=4	0	root	_	Gloss=4.Perf.Rel|Relative=Yes
 6	yi	yi	VERB	_	_	5	comp:aux	_	Gloss=do
-7	ta	ta	PART	_	Aspect=Iter	6	compound:prt	_	Gloss=Iter
+7	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	6	compound:prt	_	Gloss=Iter
 8	màːmaːkìː	màːmaːkìː	NOUN	_	Gender=Masc	6	comp:pred	_	Gloss=wondering.Masc
 9	sabàddà	sabàddà	SCONJ	_	_	8	mod	_	Gloss=because
 10	bà'à	yaː	AUX	_	Aspect=Perf|Person=4|Polarity=Neg	9	comp:obj	_	Gloss=4.Perf.Neg
