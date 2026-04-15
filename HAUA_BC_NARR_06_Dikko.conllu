@@ -4568,7 +4568,7 @@
 # text = kai tai mai kiɗìː sai hwa gaːrad dà kash shaː, baːshì kyàutaː.
 1-2	kai	_	_	_	_	_	_	_	_
 1	kà	kà	AUX	_	Gender=Masc|Mood=Sub|Person=2	0	root	_	Gloss=2Masc.Sub
-2	yi	yi	VERB	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	1	comp:aux	_	Gloss=2Masc.Nom
+2	yi	yi	VERB	_	_	1	comp:aux	_	Gloss=do
 3-4	tai	_	_	_	_	_	_	_	_
 3	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	2	compound:prt	_	Gloss=Iter
 4	yi	yi	VERB	_	Gender=Masc|Person=3	2	comp:pred	_	Gloss=X
@@ -5706,7 +5706,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__320
 # text_en = He went to his room, sat down then he heard someone say"Greetings to you! "
 # text_ortho = yaː shìga cikin ɗaːkìː, zamaː dai yay yi sai yaj ji an cèː " sàːlaːmù àleːkùm ! » .
-# text = yaː shìga cikin ɗaːkìː, zamaː dai yay yi sai yaj ji an cèː " sàːlaːmù àleːkùm ! » .
+# text = yaː shìga cikin ɗaːkìː, zamaː dai yay yi sai yaj ji an cèː " sàːlaːmù àleːkùm ! ».
 1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	Gloss=enter
 3	cikin	cikin	ADP	_	_	2	comp:obl	_	Gloss=in
@@ -5722,8 +5722,8 @@
 13	an	yaː	AUX	_	Aspect=Perf|Person=4	12	comp:obj	_	Gloss=4.Perf
 14	cèː	cêː	VERB	_	_	13	comp:aux	_	Gloss=say
 15	"	"	PUNCT	_	_	16	punct	_	Gloss=PUNCT
-16	sàːlaːmù	saːlaːmùː	INTJ	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	14	comp:obj	_	Gloss=greetings
-17	àleːkùm	àleːkùm	INTJ	_	_	16	flat@foreign	_	Gloss=to_you
+16	sàːlaːmù	saːlaːmùː	X	_	_	14	comp:obj	_	Gloss=greetings
+17	àleːkùm	àleːkùm	X	_	_	16	flat@foreign	_	Gloss=to_you
 18	!	!	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 19	».	».	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
@@ -10257,7 +10257,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__568
 # text_en = He told them "Greetings, Greetings, Greetings."
 # text_ortho = yac cèː musù" sàlaːmù àleːkùm, sàlaːmù àleːkùm, sàlaːmù àleːkùm ! " .
-# text = yac cèː musù" sàlaːmù àleːkùm, sàlaːmù àleːkùm, sàlaːmù àleːkùm ! " .
+# text = yac cèː musù " sàlaːmù àleːkùm, sàlaːmù àleːkùm, sàlaːmù àleːkùm ! ".
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl	_	Gloss=3Plur.Dat
@@ -10265,8 +10265,8 @@
 5	sàlaːmù	salaːmùː	INTJ	_	Definite=Cons|Gender=Masc	2	comp:obj	_	Gloss=greetings
 6	àleːkùm	àleːkùː	INTJ	_	Gender=Masc	5	flat@foreign	_	Gloss=to_you|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
-8	sàlaːmù	salaːmùː	INTJ	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	5	conj:redup	_	Gloss=greetings
-9	àleːkùm	àleːkoː	INTJ	_	Gender=Masc	8	flat@foreign	_	Gloss=to_you|SpaceAfter=No
+8	sàlaːmù	salaːmùː	X	_	_	5	conj:redup	_	Gloss=greetings
+9	àleːkùm	àleːkoː	X	_	Gender=Masc	8	flat@foreign	_	Gloss=to_you|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 11	sàlaːmù	salaːmùː	INTJ	_	Mood=Sub|Number=Plur|Person=3	8	conj:redup	_	Gloss=greetings
 12	àleːkùm	àleːkùm	INTJ	_	Gender=Masc	11	flat@foreign	_	Gloss=to_you
@@ -10679,13 +10679,13 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__586a
 # text_en = He went and found them.
 # text_ortho = yaz zoː ya' îskeː su .
-# text = yaz zoː ya' îskeː su .
+# text = yaz zoː ya' îskeː su.
 1	yaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	Gloss=go
 3	ya'	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	parataxis@conj	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 4	îskeː	isk-	VERB	_	_	3	comp:aux	_	Gloss=meet
 5	su	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	Gloss=3Plur.Acc|SpaceAfter=No
-6	.	.	PUNCT	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	punct	_	Gloss=3Plur.Acc
+6	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__586b
 # text_en = Gilage-Gilage had three cowherds.
@@ -12043,7 +12043,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__663
 # text_en = From there, they fell on the ground and went on wrestling with each other.
 # text_ortho = dàc can sunkà hwaːɗoː ƙasà sunkài ta kòːkoːwàː shiː dà shiyaː .
-# text = dàc can sunkà hwaːɗoː ƙasà sunkài ta kòːkoːwàː shiː dà shiyaː .
+# text = dàc can sunkà hwaːɗoː ƙasà sunkài ta kòːkoːwàː shiː dà shiyaː.
 1	dàc	dàgà	ADP	_	_	3	mod	_	Gloss=from
 2	can	can	ADV	_	Deixis=Remt|PronType=Dem	1	comp:obj	_	Gloss=Remt
 3	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -12056,7 +12056,7 @@
 9	kòːkoːwàː	kòːkoːwàː	NOUN	_	Gender=Fem	7	comp:pred	_	Gloss=wrestling.Fem
 10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@subj	_	Gloss=3Masc.Nom
 11	dà	dà	CCONJ	_	_	12	cc	_	Gloss=and
-12	shiyaː	shiː	NOUN	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	conj:coord	_	Gloss=3Masc.Nom|SpaceAfter=No
+12	shiyaː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	conj:coord	_	Gloss=3Masc.Nom|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__664
