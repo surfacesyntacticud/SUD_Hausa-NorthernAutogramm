@@ -9664,12 +9664,12 @@
 10	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__541-2
-# text_en = "You, that husband of yours that is said to have no fear, none at all, if you can, there is a soldier called Gilage-Gilage [epithet] who has some cows, someone with white cows. "
+# text = sai tsoːhuwàt tan tac cèː “ keː, mijìn ga naːkì dà akà cêːwaː bâi tsòːroː, bâi wani àbo, bâi wani àbo, kêː indàː kinàː iyàːwaː, àkwai wasu shaːnuː can gà wani zaːrùmiː dà akà cêː màː Gilaːgèː-Gilaːgèː hammà hwaːtò gwarkà haɗeːjà gùmbai yàːkuwaː dà noːnòn kuːraː . “ yaːròː tum bài shaː ba, zuccìyaː taː ɓaːcì, wani mài hwarhwarun shaːnuː “.
+# text_en = Then the woman said "You, that husband of yours that is said to have no fear, none at all, if you can, there is a soldier called Gilage-Gilage [epithet] who has some cows, someone with white cows. "
 # text_ortho = sai tsoːhuwàt tan tac cèː "keː, mijìn ga naːkì dà akà cêːwaː bâi tsòːroː, bâi wani àbo, bâi wani àbo, kêː indàː kinàː iyàːwaː, àkwai wasu shaːnuː can gà wani zaːrùmiː dà akà cêː màː Gilaːgèː-Gilaːgèː hammà hwaːtò gwarkà haɗeːjà gùmbai yàːkuwaː dà noːnòn kuːraː, yaːròː tum bài shaː ba, zuccìyaː taː ɓaːcì, wani mài hwarhwarun shaːnuː . "
-# text = sai tsoːhuwàt tan tac cèː "keː, mijìn ga naːkì dà akà cêːwaː bâi tsòːroː, bâi wani àbo, bâi wani àbo, kêː indàː kinàː iyàːwaː, àkwai wasu shaːnuː can gà wani zaːrùmiː dà akà cêː màː Gilaːgèː-Gilaːgèː hammà hwaːtò gwarkà haɗeːjà gùmbai yàːkuwaː dà noːnòn kuːraː, yaːròː tum bài shaː ba, zuccìyaː taː ɓaːcì, wani mài hwarhwarun shaːnuː . "
 1	sai	sai	ADV	_	_	4	mod	_	Gloss=then
 2	tsoːhuwàt	tsoːhuwàː	NOUN	_	Definite=Cons|Gender=Fem	4	subj	_	Gloss=old_woman.Fem.Cons
-3	tan	nan	DET	_	Deixis=PreRef|Gender=Fem|PronType=Dem	2	det	_	Gloss=PreRef.Def
+3	tan	nan	DET	_	Deixis=ProxH|Gender=Fem|PronType=Dem	2	det	_	Gloss=ProxH.Def
 4	tac	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	Gloss=3Fem.Perf.Rel|Relative=Yes
 5	cèː	cêː	VERB	_	_	4	comp:aux	_	Gloss=say
 6	“	“	PUNCT	_	_	18	punct	_	Gloss=PUNCT
@@ -11109,10 +11109,10 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__607
 # text_en = They tied him up.
 # text_ortho = ankà ɗarmèː wannàn .
-# text = ankà ɗarmèː wannàn .
+# text = ankà ɗarmèː wannàn.
 1	ankà	yaː	AUX	_	Aspect=Perf|Person=4	0	root	_	Gloss=4.Perf.Rel|Relative=Yes
 2	ɗarmèː	ɗarm-	VERB	_	_	1	comp:aux	_	Gloss=tie
-3	wannàn	wannàn	PRON	_	Deixis=PreRef|Gender=Masc|PronType=Dem	2	comp:obj	_	Gloss=PreRef.Masc|SpaceAfter=No
+3	wannàn	wannàn	PRON	_	Deixis=ProxS|Gender=Masc|PronType=Dem	2	comp:obj	_	Gloss=ProxS.Masc|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__608
@@ -14513,8 +14513,8 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__800
 # text_en = That one who was giving him bran [to eat], the raiders had captured her.
 # text_ortho = wàttan mài kai mai dìssaː, yaːƙìː yaː biyàː dà ita .
-# text = wàttan mài kai mai dìssaː, yaːƙìː yaː biyàː dà ita .
-1	wàttan	wànnan	PRON	_	Deixis=PreRef|Gender=Fem|PronType=Dem	8	dislocated@comp	_	Gloss=PreRef.Fem
+# text = wàttan mài kai mai dìssaː, yaːƙìː yaː biyàː dà ita.
+1	wàttan	wànnan	PRON	_	Deixis=ProxH|Gender=Fem|PronType=Dem	8	dislocated@comp	_	Gloss=ProxH.Fem
 2	mài	mài	PART	_	Gender=Masc|PartType=Der	1	mod	_	Gloss=owner_of.Sing
 3	kai	kaːy-	VERB	_	_	2	compound	_	Gloss=take
 4	mai	mai	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	Gloss=3Masc.Dat
@@ -14622,7 +14622,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__807
 # text_en = He said "Raiders have come, they have even killed people, even that king's daughter, that girl who brings food to you."
 # text_ortho = yac cèː " yaːƙìː yaː biyàː had dà saːràm mutàːneː had dà ɗìyat tan ta sarkiː, yaːrinyàː wàttan mài kai makà àbincìː " .
-# text = yac cèː " yaːƙìː yaː biyàː had dà saːràm mutàːneː had dà ɗìyat tan ta sarkiː, yaːrinyàː wàttan mài kai makà àbincìː " .
+# text = yac cèː " yaːƙìː yaː biyàː had dà saːràm mutàːneː had dà ɗìyat tan ta sarkiː, yaːrinyàː wàttan mài kai makà àbincìː ".
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT
@@ -14641,7 +14641,7 @@
 16	sarkiː	sarkiː	NOUN	_	Gender=Masc	15	comp:obj	_	Gloss=king.Masc|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	yaːrinyàː	yaːròː	NOUN	_	Gender=Fem	13	conj:appos	_	Gloss=youth.Fem
-19	wàttan	wànnan	DET	_	Deixis=PreRef|Gender=Fem|PronType=Dem	18	det	_	Gloss=PreRef.Fem
+19	wàttan	wànnan	DET	_	Deixis=ProxH|Gender=Fem|PronType=Dem	18	det	_	Gloss=ProxH.Fem
 20	mài	mài	PART	_	Gender=Masc|PartType=Der	18	mod	_	Gloss=owner_of.Sing
 21	kai	kaːy-	VERB	_	_	20	compound	_	Gloss=take
 22	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	21	comp:obl	_	Gloss=2Masc.Dat
