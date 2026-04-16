@@ -418,7 +418,7 @@
 # text_ortho = bàri ìn ganiː //
 # text = bàri ìn ganiː //
 # text_en = Let me see.
-1	bàri	bar-	VERB	_	Mood=Imp	0	root	_	AlignBegin=92666|AlignEnd=92880|Gloss=let.Jus
+1	bàri	bar-	VERB	_	_	0	root	_	AlignBegin=92666|AlignEnd=92880|Gloss=let.Impr|Imperative=Yes
 2	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=92880|AlignEnd=93094|Gloss=1Sing.Sub
 3	ganiː	gan-	VERB	_	_	2	comp:aux	_	AlignBegin=93094|AlignEnd=93308|Gloss=see
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=93308|AlignEnd=93520|Gloss=PUNCT
@@ -431,7 +431,7 @@
 # text = wàːtôː shìryaː ìn kakkàːryaː hakànan !//
 # text_en = Well, get ready, I will ruin [a tale] right on!
 1	wàːtôː	wàːtôː	INTJ	_	_	2	discourse	_	AlignBegin=98166|AlignEnd=98934|Gloss=that_is
-2	shìryaː	shiry-	VERB	_	Mood=Imp	0	root	_	AlignBegin=98934|AlignEnd=99702|Gloss=prepare.Jus
+2	shìryaː	shiry-	VERB	_	_	0	root	_	AlignBegin=98934|AlignEnd=99702|Gloss=prepare.Impr|Imperative=Yes
 3	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	2	mod	_	AlignBegin=99702|AlignEnd=100470|Gloss=1Sing.Sub
 4	kakkàːryaː	kary-	VERB	_	_	3	comp:aux	_	AlignBegin=100470|AlignEnd=101238|Gloss=break
 5	hakànan	hakànan	ADV	_	_	3	mod	_	AlignBegin=101238|AlignEnd=102006|Gloss=thus
@@ -847,7 +847,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=189820|AlignEnd=189940|Gloss=3Masc.Perf.Rel|Relative=Yes
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=189940|AlignEnd=190060|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=190060|AlignEnd=190180|Gloss=PUNCT
-4	wùceː	wut-	VERB	_	Mood=Imp	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Jus
+4	wùceː	wut-	VERB	_	_	2	comp:obj	_	AlignBegin=190180|AlignEnd=190300|Gloss=move.Impr|Imperative=Yes
 5	!//]	!//]	PUNCT	_	_	4	punct	_	AlignBegin=190300|AlignEnd=190420|Gloss=PUNCT
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=190420|AlignEnd=190540|Gloss=PUNCT
 
@@ -894,7 +894,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=195258|AlignEnd=195470|Gloss=3Masc.Perf.Rel|Relative=Yes
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=195470|AlignEnd=195682|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=195682|AlignEnd=195894|Gloss=PUNCT
-4	wùceː	wut-	VERB	_	Mood=Imp	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Jus
+4	wùceː	wut-	VERB	_	_	2	comp:obj	_	AlignBegin=195894|AlignEnd=196106|Gloss=move.Impr|Imperative=Yes
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=196106|AlignEnd=196318|Gloss=PUNCT
 6	gàː	gàː	PART	_	PartType=Pred	4	parataxis@conj	_	AlignBegin=196318|AlignEnd=196530|Gloss=here_is
 7	naːmàː	naːmàː	NOUN	_	Gender=Masc	6	subj	_	AlignBegin=196530|AlignEnd=196742|Gloss=meat.Masc
@@ -1038,7 +1038,7 @@
 # text_ortho = shìga !//= gàː mùzuruː nân //= kà ci !//
 # text = shìga !//= gàː mùzuruː nân //= kà ci !//
 # text_en = Get in, here is Cat, eat him!
-1	shìga	shig-	VERB	_	Mood=Imp	0	root	_	AlignBegin=216753|AlignEnd=217152|Gloss=enter.Jus
+1	shìga	shig-	VERB	_	_	0	root	_	AlignBegin=216753|AlignEnd=217152|Gloss=enter.Impr|Imperative=Yes
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=217152|AlignEnd=217551|Gloss=PUNCT
 3	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=217551|AlignEnd=217950|Gloss=here_is
 4	mùzuruː	mùzuruː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=217950|AlignEnd=218349|Gloss=cat.Masc
@@ -1107,7 +1107,7 @@
 # text_ortho = shìga !//= gàː kàreː nân //
 # text = shìga !//= gàː kàreː nân //
 # text_en = Get in, Dog is there.
-1	shìga	shig-	VERB	_	Mood=Imp	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Jus
+1	shìga	shig-	VERB	_	_	0	root	_	AlignBegin=230245|AlignEnd=230462|Gloss=enter.Impr|Imperative=Yes
 2	!//=	!//=	PUNCT	_	_	3	punct	_	AlignBegin=230462|AlignEnd=230679|Gloss=PUNCT
 3	gàː	gàː	PART	_	PartType=Pred	1	parataxis@conj	_	AlignBegin=230679|AlignEnd=230896|Gloss=here_is
 4	kàreː	kàreː	NOUN	_	Gender=Masc	3	subj	_	AlignBegin=230896|AlignEnd=231113|Gloss=dog.Masc
@@ -1175,7 +1175,7 @@
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=242880|AlignEnd=243124|Gloss=3Masc.Perf.Rel|Relative=Yes
 2	cèː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=243124|AlignEnd=243368|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=243368|AlignEnd=243612|Gloss=PUNCT
-4	shìga	shig-	VERB	_	Mood=Imp	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Jus
+4	shìga	shig-	VERB	_	_	2	comp:obj	_	AlignBegin=243612|AlignEnd=243856|Gloss=enter.Impr|Imperative=Yes
 5	!//=	!//=	PUNCT	_	_	6	punct	_	AlignBegin=243856|AlignEnd=244100|Gloss=PUNCT
 6	gàː	gàː	PART	_	PartType=Pred	4	parataxis@conj	_	AlignBegin=244100|AlignEnd=244344|Gloss=here_is
 7	kuːraː	kuːraː	NOUN	_	Gender=Fem	6	subj	_	AlignBegin=244344|AlignEnd=244588|Gloss=hyena.Fem
