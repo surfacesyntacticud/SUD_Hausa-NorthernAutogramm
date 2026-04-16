@@ -9054,7 +9054,7 @@
 # text_ortho = yac cèː "tôː niː dai gaskiyaː taːzàraw wàndoːnaː taː sakìː . "
 # text = yac cèː “ tôː niː dai gaskiyaː taːzàraw wàndoːnaː taː sakìː “.
 1	yac	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf.Rel|Relative=Yes
-2	cèː	cêː	AUX	_	Gender=Fem	1	comp:aux	_	Gloss=say
+2	cèː	cêː	VERB	_	_	1	comp:aux	_	Gloss=say
 3	“	“	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 4	tôː	tôː	INTJ	_	_	10	discourse	_	Gloss=well
 5	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	discourse	_	Gloss=1Sing.Nom
@@ -9313,7 +9313,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__522
 # text_en = He did not turn round, he heard someone say"You, rider, come here! "
 # text_ortho = bài waiwayoː ba, yaj ji an cèː "kai, mài doːkìː, yaː kà !. "
-# text = bài waiwayoː ba, yaj ji an cèː "kai, mài doːkìː, yaː kà !. "
+# text = bài waiwayoː ba, yaj ji an cèː “ kai, mài doːkìː, yaː kà ! “.
 1	bài	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	0	root	_	Gloss=3Masc.Perf.Neg
 2	waiwayoː	wayway-	VERB	_	_	1	comp:aux	_	Gloss=turn_round
 3	ba	ba	PART	_	Polarity=Neg	2	mod	_	Gloss=Neg|SpaceAfter=No
@@ -9328,8 +9328,8 @@
 12	mài	mài	PART	_	Gender=Masc|PartType=Der	10	conj:appos	_	Gloss=owner_of.Sing
 13	doːkìː	doːkìː	NOUN	_	Gender=Masc	12	compound	_	Gloss=horse.Mac|SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
-15	yaː	yi	AUX	_	_	8	comp:obj	_	Gloss=do.Imp|Imperative=Yes
-16	kà	kà	PRON	_	Case=Acc|Gender=Masc|Person=2|PronType=Prs	15	subj	_	Gloss=2Masc.Acc
+15	yaː	yi	VERB	_	_	8	comp:obj	_	Gloss=do.Impr|Imperative=Yes
+16	kà	kà	PRON	_	Case=Acc|Gender=Masc|Person=2|PronType=Prs	15	comp:obj	_	Gloss=2Masc.Acc
 17	!	!	PUNCT	_	_	15	punct	_	Gloss=PUNCT
 18	“	“	PUNCT	_	_	15	punct	_	Gloss=PUNCT|SpaceAfter=No
 19	.	.	PUNCT	_	_	1	punct	_	Gloss=PUNCT
@@ -13889,7 +13889,7 @@
 8	sàː	sâː	VERB	_	_	7	comp:aux	_	Gloss=put
 9-10	ankài	_	_	_	_	_	_	_	_
 9	ankà	yaː	AUX	_	Aspect=Perf|Person=4	8	comp:obj	_	Gloss=4.Perf.Rel|Relative=Yes
-10	yi	yi	AUX	_	_	9	comp:aux	_	Gloss=do
+10	yi	yi	VERB	_	_	9	comp:aux	_	Gloss=do
 11	gàngamiː	gàngamiː	NOUN	_	Gender=Masc	10	comp:pred	_	Gloss=drum.Masc|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -15112,13 +15112,13 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__837
 # text_en = When they arrived home, they started wondering because they did not know who, among the youths of the town, had gathered all the wealth of the town and the youths of the town that the raiders had captured.
 # text_ortho = dà sunkà zoː gidaː ankài ta màːmaːkìː sabàddà bà'à san cikin sàmàːrin gàriː koːwanèː naː yaƙ ƙwaːtoː dukà duːkìyag gàriː dà yâːran gàriː waɗàndà yaːƙìː yac ci .
-# text = dà sunkà zoː gidaː ankài ta màːmaːkìː sabàddà bà'à san cikin sàmàːrin gàriː koːwanèː naː yaƙ ƙwaːtoː dukà duːkìyag gàriː dà yâːran gàriː waɗàndà yaːƙìː yac ci .
+# text = dà sunkà zoː gidaː ankài ta màːmaːkìː sabàddà bà'à san cikin sàmàːrin gàriː koːwanèː naː yaƙ ƙwaːtoː dukà duːkìyag gàriː dà yâːran gàriː waɗàndà yaːƙìː yac ci.
 1	dà	dà	SCONJ	_	_	5	mod	_	Gloss=that
 2	sunkà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	Gloss=go
 4	gidaː	gidaː	NOUN	_	Gender=Masc	3	comp:obj@G	_	Gloss=compound.Masc
 5-6	ankài	_	_	_	_	_	_	_	_
-5	ankà	ankà	AUX	_	Aspect=Perf|Person=4	0	root	_	Gloss=4.Perf.Rel|Relative=Yes
+5	ankà	yaː	AUX	_	Aspect=Perf|Person=4	0	root	_	Gloss=4.Perf.Rel|Relative=Yes
 6	yi	yi	VERB	_	_	5	comp:aux	_	Gloss=do
 7	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	6	compound:prt	_	Gloss=Iter
 8	màːmaːkìː	màːmaːkìː	NOUN	_	Gender=Masc	6	comp:pred	_	Gloss=wondering.Masc
@@ -15147,7 +15147,7 @@
 # sent_id = HAUA_BC_NARR_06_Dikko__838
 # text_en = Then she, the king's daughter, she said "Me, I don't knwo who it is because I didn't see his face, but I know one thing."
 # text_ortho = sai ita ɗìyas sarkiː tac cèː " niː dai bàn san koːwanèː naː ba, dan bàn ga huskàːtai ba, àmmaː naː san dà àboː gùdaː " .
-# text = sai ita ɗìyas sarkiː tac cèː " niː dai bàn san koːwanèː naː ba, dan bàn ga huskàːtai ba, àmmaː naː san dà àboː gùdaː " .
+# text = sai ita ɗìyas sarkiː tac cèː " niː dai bàn san koː wanèː naː ba, dan bàn ga huskàːtai ba, àmmaː naː san dà àboː gùdaː ".
 1	sai	sai	ADV	_	_	5	mod	_	Gloss=then
 2	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	dislocated@subj	_	Gloss=3Fem.Nom
 3	ɗìyas	ɗìyaː	NOUN	_	Definite=Cons|Gender=Fem	2	conj:appos	_	Gloss=daughter.Fem
@@ -15159,24 +15159,25 @@
 9	dai	dai	PART	_	PartType=Top	8	discourse@top	_	Gloss=anyway
 10	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	6	comp:obj	_	Gloss=1Sing.Perf.Neg
 11	san	san-	VERB	_	_	10	comp:aux	_	Gloss=know
-12	koːwanèː	koːwanèː	PRON	_	Gender=Masc|PronType=Int	13	comp:pred	_	Gloss=which_one.Masc
-13	naː	naː	AUX	_	_	11	comp:obj	_	Gloss=Ident
-14	ba	ba	PART	_	Polarity=Neg	11	mod	_	Gloss=Neg|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	Gloss=PUNCT
-16	dan	don	ADP	_	_	11	mod	_	Gloss=because
-17	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	16	comp:obj	_	Gloss=1Sing.Perf.Neg
-18	ga	gan-	VERB	_	_	17	comp:aux	_	Gloss=see
-19	huskàːtai	huskàː	NOUN	_	Gender=Masc	18	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=face.Fem-3MascGen|MSeg=huskàːt-ai|PersonAf=3|Poss=Yes
-20	ba	ba	PART	_	Polarity=Neg	18	mod	_	Gloss=Neg|SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
-22	àmmaː	àmmaː	CCONJ	_	_	23	cc	_	Gloss=but
-23	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	10	parataxis@conj	_	Gloss=1Sing.Perf
-24	san	san-	VERB	_	_	23	comp:aux	_	Gloss=know
-25	dà	dà	ADP	_	_	24	comp:obl	_	Gloss=with
-26	àboː	àboː	NOUN	_	Gender=Masc	25	comp:obj	_	Gloss=thing.Masc
-27	gùdaː	gùdaː	NUM	_	_	26	mod:num	_	Gloss=one
-28	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|SpaceAfter=No|wordform=.
-29	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
+12	koː	koː	SCONJ	_	_	11	comp:obj	_	Gloss=whether
+13	wanèː	wanèː	PRON	_	Gender=Masc|PronType=Int	14	comp:pred	_	Gloss=which_one.Masc
+14	naː	naː	AUX	_	_	12	comp:obj	_	Copula=Yes|Gloss=Ident
+15	ba	ba	PART	_	Polarity=Neg	11	mod	_	Gloss=Neg|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
+17	dan	don	ADP	_	_	11	mod	_	Gloss=because
+18	bàn	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	17	comp:obj	_	Gloss=1Sing.Perf.Neg
+19	ga	gan-	VERB	_	_	18	comp:aux	_	Gloss=see
+20	huskàːtai	huskàː	NOUN	_	Gender=Masc	19	comp:obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=face.Fem-3MascGen|MSeg=huskàːt-ai|PersonAf=3|Poss=Yes
+21	ba	ba	PART	_	Polarity=Neg	19	mod	_	Gloss=Neg|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	Gloss=PUNCT
+23	àmmaː	àmmaː	CCONJ	_	_	24	cc	_	Gloss=but
+24	naː	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	10	parataxis@conj	_	Gloss=1Sing.Perf
+25	san	san-	VERB	_	_	24	comp:aux	_	Gloss=know
+26	dà	dà	ADP	_	_	25	comp:obl	_	Gloss=with
+27	àboː	àboː	NOUN	_	Gender=Masc	26	comp:obj	_	Gloss=thing.Masc
+28	gùdaː	gùdaː	NUM	_	_	27	mod:num	_	Gloss=one
+29	"	"	PUNCT	_	_	5	punct	_	Gloss=PUNCT|SpaceAfter=No|wordform=.
+30	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_06_Dikko__839
 # text_en = I have torn off half of my wrapper, I gave it to him, he tied it where he was cut by a sword on his leg."
