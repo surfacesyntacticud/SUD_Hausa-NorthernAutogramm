@@ -4,28 +4,29 @@
 # sent_timecode = 3700, 12120
 # text = tô lokàcin dà à~ àkwai { ƙwàːrin daːjìː || ƙwàːriː dai } cikin ràːhîn nan < ƙàːƙàː naː mutàːneː sukè zàmne ?//
 # text_en = Well, when there were wild animals, wild animals in that valley, how did people live?
-1	tô	tô	INTJ	_	_	18	discourse	_	AlignBegin=3700|AlignEnd=4066|Gloss=well
-2	lokàcin	lokàciː	NOUN	_	Definite=Cons|Gender=Masc	18	mod	_	AlignBegin=4066|AlignEnd=4432|Gloss=time.Masc
-3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=4432|AlignEnd=4798|Gloss=REL
-4	à~	àkwai	PART	_	PartType=Pred	3	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Gloss=there_is
-5	àkwai	àkwai	PART	_	PartType=Pred	4	conj:dicto	_	AlignBegin=5164|AlignEnd=5530|Gloss=there_is
-6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=5530|AlignEnd=5896|Gloss=PUNCT
-7	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc	5	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal.Cons.Masc
-8	daːjìː	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	7	compound	_	AlignBegin=6262|AlignEnd=6628|Gloss=bush.Masc
-9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=6628|AlignEnd=6994|Gloss=PUNCT
-10	ƙwàːriː	ƙwaːròː	NOUN	_	Definite=Ind|Number=Plur	7	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal.Plur
-11	dai	dai	PART	_	PartType=Top	10	discourse@top	_	AlignBegin=7360|AlignEnd=7726|Gloss=indeed
-12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=7360|AlignEnd=7726|Gloss=PUNCT
-13	cikin	cikin	ADP	_	_	5	comp:obl	_	AlignBegin=7726|AlignEnd=8092|Gloss=inside
-14	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	13	comp:obj	_	AlignBegin=8092|AlignEnd=8458|Gloss=valley.Masc.Cons
-15	nan	nan	DET	_	Deixis=ProxH	14	det	_	AlignBegin=8458|AlignEnd=8824|Gloss=ProxH
-16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT
-17	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	18	comp:pred	_	AlignBegin=9556|AlignEnd=9922|Gloss=how
-18	naː	neː	AUX	_	_	0	root	_	AlignBegin=9922|AlignEnd=10288|Copula=Yes|Gloss=Ident
-19	mutàːneː	mùtunèː	NOUN	_	Definite=Ind|Number=Plur	20	subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur
-20	sukè	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	18	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Copula=Yes|Gloss=3Plur.Prog.Rel|Relative=Yes|wordform=kè
-21	zàmne	zamn-	VERB	_	VerbForm=Part|Voice=Stat	20	comp:aux	_	AlignBegin=11386|AlignEnd=11752|Gloss=stay/sit.Stat
-22	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT
+1	tô	tô	INTJ	_	_	19	discourse	_	AlignBegin=3700|AlignEnd=4066|Gloss=well
+2	lokàci	lokàciː	NOUN	_	Gender=Masc	19	mod	_	AlignBegin=4066|AlignEnd=4432|Gloss=time|SpaceAfter=No|wordform=lokàcin
+3	-n	-n	PART	_	Case=Gen|PartType=Case	2	mod/m	_	Gloss=Gen.Masc/Plur
+4	dà	dà	SCONJ	_	_	3	comp:obj	_	AlignBegin=4432|AlignEnd=4798|Gloss=REL
+5	à~	àkwai	PART	_	PartType=Pred	4	comp:obj	_	AlignBegin=4798|AlignEnd=5164|Gloss=there_is
+6	àkwai	àkwai	PART	_	PartType=Pred	5	conj:dicto	_	AlignBegin=5164|AlignEnd=5530|Gloss=there_is
+7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=5530|AlignEnd=5896|Gloss=PUNCT
+8	ƙwàːrin	ƙwaːròː	NOUN	_	Definite=Cons|Gender=Masc	6	subj	_	AlignBegin=5896|AlignEnd=6262|Gloss=animal.Cons.Masc
+9	daːjìː	daːjìː	NOUN	_	Definite=Ind|Gender=Masc	8	compound	_	AlignBegin=6262|AlignEnd=6628|Gloss=bush.Masc
+10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=6628|AlignEnd=6994|Gloss=PUNCT
+11	ƙwàːriː	ƙwaːròː	NOUN	_	Definite=Ind|Number=Plur	8	conj:dicto	_	AlignBegin=6994|AlignEnd=7360|Gloss=animal.Plur
+12	dai	dai	PART	_	PartType=Top	11	discourse@top	_	AlignBegin=7360|AlignEnd=7726|Gloss=indeed
+13	}	}	PUNCT	_	_	8	punct	_	AlignBegin=7360|AlignEnd=7726|Gloss=PUNCT
+14	cikin	cikin	ADP	_	_	6	comp:obl	_	AlignBegin=7726|AlignEnd=8092|Gloss=inside
+15	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	14	comp:obj	_	AlignBegin=8092|AlignEnd=8458|Gloss=valley.Masc.Cons
+16	nan	nan	DET	_	Deixis=ProxH	15	det	_	AlignBegin=8458|AlignEnd=8824|Gloss=PreRef|PreRef=Yes
+17	<	<	PUNCT	_	_	2	punct	_	AlignBegin=9190|AlignEnd=9556|Gloss=PUNCT
+18	ƙàːƙàː	ƙàːƙàː	ADV	_	PronType=Int	19	comp:pred	_	AlignBegin=9556|AlignEnd=9922|Gloss=how
+19	naː	neː	AUX	_	_	0	root	_	AlignBegin=9922|AlignEnd=10288|Copula=Yes|Gloss=Ident
+20	mutàːneː	mùtunèː	NOUN	_	Definite=Ind|Number=Plur	21	subj	_	AlignBegin=10288|AlignEnd=10654|Gloss=human.Plur
+21	sukè	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	19	comp:cleft	_	AlignBegin=10654|AlignEnd=11020|Copula=Yes|Gloss=3Plur.Prog.Rel|Relative=Yes|wordform=kè
+22	zàmne	zamn-	VERB	_	VerbForm=Part|Voice=Stat	21	comp:aux	_	AlignBegin=11386|AlignEnd=11752|Gloss=stay/sit.Stat
+23	?//	?//	PUNCT	_	_	19	punct	_	AlignBegin=11752|AlignEnd=12120|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_2
 # speaker_id = SP1
@@ -37,14 +38,14 @@
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=66905|AlignEnd=67030|Gloss=3Masc.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=67030|AlignEnd=67155|Gloss=PUNCT
 4	gà	gà	ADP	_	_	8	mod	_	AlignBegin=67155|AlignEnd=67280|Gloss=by
-5	loːkàcîn	loːkàcíː	NOUN	_	Definite=Cons|Gender=Masc	4	comp:obj	_	AlignBegin=67280|AlignEnd=67405|Gloss=time.Masc.Cons
-6	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	5	det	_	AlignBegin=67405|AlignEnd=67530|Gloss=ProxH
+5	loːkàcîn	loːkàcíː	NOUN	_	Definite=Def|Gender=Masc	4	comp:obj	_	AlignBegin=67280|AlignEnd=67405|Gloss=time.Masc.Def
+6	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	5	det	_	AlignBegin=67405|AlignEnd=67530|Gloss=PreRef|PreRef=Yes
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=67530|AlignEnd=67655|Gloss=PUNCT
 8	baːbù	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=67655|AlignEnd=67780|Gloss=there_is.Neg
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=67780|AlignEnd=67905|Gloss=3Masc
 10	cikin	cikin	ADP	_	_	8	comp:pred	_	AlignBegin=67905|AlignEnd=68030|Gloss=inside
 11	ràːhîn	ràːhiː	NOUN	_	Definite=Cons|Gender=Masc	10	comp:obj	_	AlignBegin=68030|AlignEnd=68155|Gloss=valley.Masc.Cons
-12	nan	nan	DET	_	Deixis=ProxH	11	det	_	AlignBegin=68155|AlignEnd=68280|Gloss=ProxH
+12	nan	nan	DET	_	Deixis=ProxH	11	det	_	AlignBegin=68155|AlignEnd=68280|Gloss=PreRef|PreRef=Yes
 13	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=68280|AlignEnd=68400|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_3
@@ -192,7 +193,7 @@
 7	nis	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	5	comp:cleft	_	AlignBegin=255644|AlignEnd=255793|Gloss=1Sing.Perf.Rel|Relative=Yes
 8	sanìː	sanìː	VERB	_	_	7	comp:aux	_	AlignBegin=255793|AlignEnd=255942|Gloss=know
 9	wurìn	wurìː	NOUN	_	Definite=Cons|Gender=Masc	8	mod	_	AlignBegin=255942|AlignEnd=256091|Gloss=place.Masc
-10	nan	nan	DET	_	Deixis=ProxH	9	det	_	AlignBegin=256091|AlignEnd=256240|Gloss=ProxH
+10	nan	nan	DET	_	Deixis=ProxH	9	det	_	AlignBegin=256091|AlignEnd=256240|Gloss=PreRef|PreRef=Yes
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=256240|AlignEnd=256385|Gloss=PUNCT
 
 # sent_id = HAUA_BC_DIAL_02_15
@@ -248,7 +249,7 @@
 8	takubbàː	takòːbiː	NOUN	_	Definite=Ind|Number=Plur	7	comp:obj	_	AlignBegin=683649|AlignEnd=683896|Gloss=sword
 9	gà	gà	ADP	_	_	5	mod	_	AlignBegin=683896|AlignEnd=684143|Gloss=by
 10	lòːkacìn	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	AlignBegin=684143|AlignEnd=684390|Gloss=time.Masc.Cons
-11	nan	nan	DET	_	Deixis=ProxH	10	det	_	AlignBegin=684390|AlignEnd=684637|Gloss=ProxH
+11	nan	nan	DET	_	Deixis=ProxH	10	det	_	AlignBegin=684390|AlignEnd=684637|Gloss=PreRef|PreRef=Yes
 12	<	<	PUNCT	_	_	3	punct	_	AlignBegin=684637|AlignEnd=684884|Gloss=PUNCT
 13	baː'à	nàː	AUX	_	Aspect=Prog|Person=4|Polarity=Neg	0	root	_	AlignBegin=684884|AlignEnd=685131|Gloss=4.ProgNeg
 14	koːmiː	koːmi	PRON	_	PronType=Ind	13	comp:aux	_	AlignBegin=685131|AlignEnd=685378|Gloss=anything

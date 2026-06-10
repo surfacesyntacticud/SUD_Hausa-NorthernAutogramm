@@ -26,12 +26,13 @@
 2	kaz	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=10976|AlignEnd=11152|Gloss=2Masc.Perf.Rel|Relative=Yes
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=11152|AlignEnd=11328|Gloss=go
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=11328|AlignEnd=11504|Gloss=PUNCT
-5	zaːhin	zaːhiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	AlignBegin=11504|AlignEnd=11680|Gloss=heat.Masc.Cons
-6	kwaːnaː	kwaːna-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	5	mod	_	AlignBegin=11680|AlignEnd=11856|Gloss=lie_down.Vnoun.Masc
-7-8	ka	_	_	_	_	_	_	_	_
-7	kakà	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=12032|AlignEnd=12208|Gloss=2Masc.Prog.Rel|Relative=Yes
-8	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=12032|AlignEnd=12208|Gloss=do.Vnoun.Masc
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=12208|AlignEnd=12380|Gloss=PUNCT
+5	zaːhi	zaːhiː	NOUN	_	Gender=Masc	0	root	_	AlignBegin=11504|AlignEnd=11680|Gloss=heat.Masc|SpaceAfter=No|wordform=zaːhin
+6	-n	-n	PART	_	Case=Gen|PartType=Case	5	mod/m	_	Gloss=Gen.Masc/Plur
+7	kwaːnaː	kwaːna-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=11680|AlignEnd=11856|Gloss=lie_down.Vnoun.Masc
+8-9	ka	_	_	_	_	_	_	_	_
+8	kakà	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=12032|AlignEnd=12208|Gloss=2Masc.Prog.Rel|Relative=Yes
+9	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=12032|AlignEnd=12208|Gloss=do.Vnoun.Masc
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=12208|AlignEnd=12380|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_03
 # speaker_id = SP1
@@ -298,7 +299,7 @@
 10	abìn	àbiː	NOUN	_	Definite=Cons|Gender=Masc	9	comp:obj	_	AlignBegin=57987|AlignEnd=58193|Gloss=thing.Masc.Cons
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=58193|AlignEnd=58399|Gloss=PUNCT
 12	cikoː	cik-	VERB	_	_	9	conj:dicto	_	AlignBegin=58193|AlignEnd=58399|Gloss=fill
-13	abìn	àbiː	NOUN	_	Definite=Cons|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Cons
+13	abìn	àbiː	NOUN	_	Definite=Def|Gender=Masc	12	comp:obj	_	AlignBegin=58605|AlignEnd=58811|Gloss=thing.Masc.Def
 14	ga	nân	DET	_	Deixis=ProxS|PronType=Dem	13	det	_	AlignBegin=58811|AlignEnd=59017|Gloss=ProxS
 15	shìn	shìn	ADV	_	_	6	mod	_	AlignBegin=58811|AlignEnd=59017|Gloss=Q
 16	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=59017|AlignEnd=59223|Gloss=PUNCT
@@ -341,10 +342,11 @@
 3	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=63996|AlignEnd=64152|Gloss=3Plur.Dat
 4	Hausa	Hausa	PROPN	_	_	2	comp:obj	_	AlignBegin=64152|AlignEnd=64308|Gloss=Hausa
 5	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=64463|AlignEnd=64663|Gloss=with
-6	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	5	comp:obj	_	AlignBegin=64663|AlignEnd=64863|Gloss=type.Masc.Cons
-7	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Cons|Number=Plur	6	mod	_	AlignBegin=64863|AlignEnd=65063|Gloss=story.Plur.Cons
-8	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	7	det	_	AlignBegin=65063|AlignEnd=65263|Gloss=ProxH
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=65263|AlignEnd=65463|Gloss=PUNCT
+6	irì	irìː	NOUN	_	Gender=Masc	5	comp:obj	_	AlignBegin=64663|AlignEnd=64863|Gloss=type.Masc|SpaceAfter=No|wordform=irìn
+7	-n	-n	PART	_	Case=Gen|PartType=Case	6	mod/m	_	Gloss=Gen.Masc/Plur
+8	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	7	comp:obj	_	AlignBegin=64863|AlignEnd=65063|Gloss=story.Plur.Def
+9	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	8	det	_	AlignBegin=65063|AlignEnd=65263|Gloss=PreRef|PreRef=Yes
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=65263|AlignEnd=65463|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_19
 # speaker_id = SP2
@@ -354,8 +356,8 @@
 # text = dà làːbàːrûn nan nàː >+ akà koːyàː musù ita //
 # text_en = It's with these tales that they teach them Hausa.
 1	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=65463|AlignEnd=65643|Gloss=with
-2	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Cons|Number=Plur	1	comp:obj	_	AlignBegin=65643|AlignEnd=65823|Gloss=story.Plur.Cons
-3	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	2	det	_	AlignBegin=65823|AlignEnd=66003|Gloss=ProxH
+2	làːbàːrûn	làːbaːrìː	NOUN	_	Definite=Def|Number=Plur	1	comp:obj	_	AlignBegin=65643|AlignEnd=65823|Gloss=story.Plur.Def
+3	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	2	det	_	AlignBegin=65823|AlignEnd=66003|Gloss=PreRef|PreRef=Yes
 4	nàː	neː	AUX	_	_	0	root	_	AlignBegin=66003|AlignEnd=66183|Copula=Yes|Gloss=Ident
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=66183|AlignEnd=66363|Gloss=PUNCT
 6	akà	nàː	AUX	_	Aspect=Prog|Person=4	4	comp:cleft	_	AlignBegin=66363|AlignEnd=66543|Gloss=4.Prog.Rel|Relative=Yes
@@ -391,9 +393,10 @@
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=70523|AlignEnd=70845|Gloss=PUNCT
 9	shinàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	7	conj:dicto	_	AlignBegin=70845|AlignEnd=71167|Gloss=3Masc.Prog
 10	koːyòn	koːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=71167|AlignEnd=71489|Gloss=learn.Vnoun.Masc.Cons
-11	kàːràːtun	karant-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	comp:obj	_	AlignBegin=71489|AlignEnd=71811|Gloss=read.Vnoun.Masc.Cons
-12	Hausa	Hausa	PROPN	_	_	11	mod	_	AlignBegin=71811|AlignEnd=72133|Gloss=Hausa
-13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=72133|AlignEnd=72455|Gloss=PUNCT
+11	kàːràːtu	karant-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	10	comp:obj	_	AlignBegin=71489|AlignEnd=71811|Gloss=read.Vnoun.Masc|SpaceAfter=No|wordform=kàːràːtun
+12	-n	-n	PART	_	Case=Gen|PartType=Case	11	mod/m	_	Gloss=Gen.Masc/Plur
+13	Hausa	Hausa	PROPN	_	_	12	comp:obj	_	AlignBegin=71811|AlignEnd=72133|Gloss=Hausa
+14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=72133|AlignEnd=72455|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_22
 # speaker_id = SP2
@@ -1214,11 +1217,12 @@
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=251496|AlignEnd=251791|Gloss=PUNCT
 7	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=251791|AlignEnd=252086|Gloss=3Fem.Perf.Rel|Relative=Yes
 8	kai	kaːy-	VERB	_	_	7	comp:aux	_	AlignBegin=252086|AlignEnd=252381|Gloss=reach
-9	àbin	àbiː	NOUN	_	Definite=Cons|Gender=Masc	8	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc.Cons
-10	dà	dà	SCONJ	_	_	9	mod@relcl	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL
-11	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Gloss=3Fem.Perf.Rel|Relative=Yes
-12	kai	kaːy-	VERB	_	_	11	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach
-13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=253561|AlignEnd=253853|Gloss=PUNCT
+9	àbi	àbiː	NOUN	_	Gender=Masc	8	comp:obj	_	AlignBegin=252381|AlignEnd=252676|Gloss=thing.Masc|SpaceAfter=No|wordform=àbin
+10	-n	-n	PART	_	Case=Gen|PartType=Case	9	mod/m	_	Gloss=Gen.Masc/Plur
+11	dà	dà	SCONJ	_	_	10	comp:obj	_	AlignBegin=252676|AlignEnd=252971|Gloss=REL
+12	tak	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	11	comp:obj	_	AlignBegin=252971|AlignEnd=253266|Gloss=3Fem.Perf.Rel|Relative=Yes
+13	kai	kaːy-	VERB	_	_	12	comp:aux	_	AlignBegin=253266|AlignEnd=253561|Gloss=reach
+14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=253561|AlignEnd=253853|Gloss=PUNCT
 
 # sent_id = HAUA_BC_NARR_02_GKB_74
 # speaker_id = SP1
@@ -1242,7 +1246,7 @@
 13	dàːmisàː	dàːmisàː	NOUN	_	Gender=Fem	10	conj:coord	_	AlignBegin=258181|AlignEnd=258448|Gloss=leopard.Fem
 14	<	<	PUNCT	_	_	4	punct	_	AlignBegin=258448|AlignEnd=258715|Gloss=PUNCT
 15	dûn	dukà	PRON	_	ExtPos=PRON|PronType=Tot	0	root	_	AlignBegin=258715|AlignEnd=258982|Gloss=all
-16	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	15	det	_	AlignBegin=258982|AlignEnd=259249|Gloss=ProxH
+16	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	15	det	_	AlignBegin=258982|AlignEnd=259249|Gloss=PreRef|PreRef=Yes
 17	ankà	yaː	AUX	_	Aspect=Perf|Person=4	15	comp:cleft	_	AlignBegin=259249|AlignEnd=259516|Gloss=4.Perf.Rel|Relative=Yes|wordform=anka
 18	waːc'èː	waːs'-	VERB	_	_	17	comp:aux	_	AlignBegin=259516|AlignEnd=259783|Gloss=scatter|wordform=waːc’èː
 19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=259783|AlignEnd=260055|Gloss=PUNCT
